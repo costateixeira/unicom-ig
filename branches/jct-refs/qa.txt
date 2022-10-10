@@ -1,0 +1,11 @@
+﻿UnicomIG : Validation Results
+=========================================
+
+err = 0, warn = 0, info = 0
+IG Publisher Version: 1.2.5
+Generated Mon Oct 10 20:07:33 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhir.unicom#0.1.0 (canonical = https://build.fhir.org/ig/hl7-eu/unicom-ig/branches/mpd-r5)
+ Build Errors : 0 / 0 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.unicom : 0 / 0 / 1
+</table>
+== n/a ==
+== fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.unicom.json ==
