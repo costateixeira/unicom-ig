@@ -10,7 +10,7 @@
   "name": "UnicomIG",
   "title": "UnicomIG",
   "status": "draft",
-  "date": "2022-10-10T20:07:18+00:00",
+  "date": "2022-10-10T20:10:57+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -38,6 +38,134 @@
     }
   ],
   "definition": {
+    "resource": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:complex-type"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/CD"
+        },
+        "name": "CD",
+        "description": "Concept descriptor",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:complex-type"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/DT"
+        },
+        "name": "DT",
+        "description": "Date",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:complex-type"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/II"
+        },
+        "name": "II",
+        "description": "Instance Identifier",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:complex-type"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/QT"
+        },
+        "name": "QT",
+        "description": "Quantity",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:complex-type"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ST"
+        },
+        "name": "ST",
+        "description": "String",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:complex-type"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/TS"
+        },
+        "name": "TS",
+        "description": "Time stamp",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:complex-type"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/class"
+        },
+        "name": "class",
+        "description": "Class of data elements",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:complex-type"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/untyped"
+        },
+        "name": "untyped",
+        "description": "No data type defined",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:logical"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/FullMedicinalProduct"
+        },
+        "name": "Medicinal Product",
+        "description": "Medicinal Product",
+        "isExample": false
+      }
+    ],
     "page": {
       "sourceUrl": "toc.html",
       "name": "toc.html",
@@ -66,13 +194,6 @@
           "code": "releaselabel"
         },
         "value": "ci-build"
-      },
-      {
-        "code": {
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-          "code": "autoload-resources"
-        },
-        "value": "true"
       },
       {
         "code": {
