@@ -3,15 +3,15 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="hl7.eu.fhir.unicom"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>UnicomIG</h2><p>The official URL for this implementation guide is: </p><pre>https://build.fhir.org/ig/hl7-eu/unicom-ig/branches/mpd-r5/ImplementationGuide/hl7.eu.fhir.unicom</pre><div><p>UnicomIG</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>UnicomIG</h2><p>The official URL for this implementation guide is: </p><pre>http://medigree.net/fhir/ee/idmp/ImplementationGuide/hl7.eu.fhir.unicom</pre><div><p>UnicomIG</p>
 </div></div>
   </text>
-  <url value="https://build.fhir.org/ig/hl7-eu/unicom-ig/branches/mpd-r5/ImplementationGuide/hl7.eu.fhir.unicom"/>
+  <url value="http://medigree.net/fhir/ee/idmp/ImplementationGuide/hl7.eu.fhir.unicom"/>
   <version value="0.1.0"/>
   <name value="UnicomIG"/>
   <title value="UnicomIG"/>
   <status value="draft"/>
-  <date value="2022-10-10T20:11:29+00:00"/>
+  <date value="2022-10-12T11:04:33+00:00"/>
   <publisher value="UNICOM"/>
   <contact>
     <name value="UNICOM"/>
@@ -30,105 +30,6 @@
     <version value="4.0.0"/>
   </dependsOn>
   <definition>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/CD"/>
-      </reference>
-      <name value="CD"/>
-      <description value="Concept descriptor"/>
-      <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/DT"/>
-      </reference>
-      <name value="DT"/>
-      <description value="Date"/>
-      <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/II"/>
-      </reference>
-      <name value="II"/>
-      <description value="Instance Identifier"/>
-      <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/QT"/>
-      </reference>
-      <name value="QT"/>
-      <description value="Quantity"/>
-      <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/ST"/>
-      </reference>
-      <name value="ST"/>
-      <description value="String"/>
-      <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/TS"/>
-      </reference>
-      <name value="TS"/>
-      <description value="Time stamp"/>
-      <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/class"/>
-      </reference>
-      <name value="class"/>
-      <description value="Class of data elements"/>
-      <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/untyped"/>
-      </reference>
-      <name value="untyped"/>
-      <description value="No data type defined"/>
-      <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:logical"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/FullMedicinalProduct"/>
-      </reference>
-      <name value="Medicinal Product"/>
-      <description value="Medicinal Product"/>
-      <isExample value="false"/>
-    </resource>
     <page>
       <sourceUrl value="toc.html"/>
       <name value="toc.html"/>
@@ -154,6 +55,13 @@
         <code value="releaselabel"/>
       </code>
       <value value="ci-build"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="autoload-resources"/>
+      </code>
+      <value value="true"/>
     </parameter>
     <parameter>
       <code>
@@ -307,7 +215,7 @@
         <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
         <code value="path-history"/>
       </code>
-      <value value="https://build.fhir.org/ig/hl7-eu/unicom-ig/branches/mpd-r5/history.html"/>
+      <value value="http://medigree.net/fhir/ee/idmp/history.html"/>
     </parameter>
     <parameter>
       <code>

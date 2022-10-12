@@ -3,14 +3,14 @@
   "id": "hl7.eu.fhir.unicom",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UnicomIG</h2><p>The official URL for this implementation guide is: </p><pre>https://build.fhir.org/ig/hl7-eu/unicom-ig/branches/mpd-r5/ImplementationGuide/hl7.eu.fhir.unicom</pre><div><p>UnicomIG</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UnicomIG</h2><p>The official URL for this implementation guide is: </p><pre>http://medigree.net/fhir/ee/idmp/ImplementationGuide/hl7.eu.fhir.unicom</pre><div><p>UnicomIG</p>\n</div></div>"
   },
-  "url": "https://build.fhir.org/ig/hl7-eu/unicom-ig/branches/mpd-r5/ImplementationGuide/hl7.eu.fhir.unicom",
+  "url": "http://medigree.net/fhir/ee/idmp/ImplementationGuide/hl7.eu.fhir.unicom",
   "version": "0.1.0",
   "name": "UnicomIG",
   "title": "UnicomIG",
   "status": "draft",
-  "date": "2022-10-10T20:11:29+00:00",
+  "date": "2022-10-12T11:04:33+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -38,134 +38,6 @@
     }
   ],
   "definition": {
-    "resource": [
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:complex-type"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/CD"
-        },
-        "name": "CD",
-        "description": "Concept descriptor",
-        "isExample": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:complex-type"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/DT"
-        },
-        "name": "DT",
-        "description": "Date",
-        "isExample": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:complex-type"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/II"
-        },
-        "name": "II",
-        "description": "Instance Identifier",
-        "isExample": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:complex-type"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/QT"
-        },
-        "name": "QT",
-        "description": "Quantity",
-        "isExample": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:complex-type"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/ST"
-        },
-        "name": "ST",
-        "description": "String",
-        "isExample": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:complex-type"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/TS"
-        },
-        "name": "TS",
-        "description": "Time stamp",
-        "isExample": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:complex-type"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/class"
-        },
-        "name": "class",
-        "description": "Class of data elements",
-        "isExample": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:complex-type"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/untyped"
-        },
-        "name": "untyped",
-        "description": "No data type defined",
-        "isExample": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:logical"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/FullMedicinalProduct"
-        },
-        "name": "Medicinal Product",
-        "description": "Medicinal Product",
-        "isExample": false
-      }
-    ],
     "page": {
       "sourceUrl": "toc.html",
       "name": "toc.html",
@@ -194,6 +66,13 @@
           "code": "releaselabel"
         },
         "value": "ci-build"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "autoload-resources"
+        },
+        "value": "true"
       },
       {
         "code": {
@@ -347,7 +226,7 @@
           "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
           "code": "path-history"
         },
-        "value": "https://build.fhir.org/ig/hl7-eu/unicom-ig/branches/mpd-r5/history.html"
+        "value": "http://medigree.net/fhir/ee/idmp/history.html"
       },
       {
         "code": {
