@@ -11,10 +11,28 @@
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_fixed.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Fixed Value" class="hierarchy"/> <a href="http://build.fhir.org/datatypes-definitions.html#Coding.code">code</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://build.fhir.org/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Symbol in syntax defined by the system<br/><span style="font-weight: bold">Fixed Value: </span><span style="color: darkgreen">100000072072</span></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_fixed.gif" alt="." style="background-color: white; background-color: inherit" title="Fixed Value" class="hierarchy"/> <a href="http://build.fhir.org/datatypes-definitions.html#Coding.display">display</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://build.fhir.org/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Representation defined by the system<br/><span style="font-weight: bold">Fixed Value: </span><span style="color: darkgreen">Active</span></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance">substance</a><a name="Ingredient.substance"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/types.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Substance code from EMA SMS</td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck001.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.code">code</a><a name="Ingredient.substance.code"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0001.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.code.concept">concept</a><a name="Ingredient.substance.code.concept"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00001.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.code.concept.coding">coding</a><a name="Ingredient.substance.code.concept.coding"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck000000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.code.concept.coding.system">system</a><a name="Ingredient.substance.code.concept.coding.system"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Identity of the terminology system</span><br/><span style="font-weight:bold">Required Pattern: </span><span style="color: darkgreen">https://spor.ema.europa.eu/v2/SubstanceDefinition</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck011.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.code">code</a><a name="Ingredient.substance.code"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0101.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.code.concept">concept</a><a name="Ingredient.substance.code.concept"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01001.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.code.concept.coding">coding</a><a name="Ingredient.substance.code.concept.coding"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.code.concept.coding.system">system</a><a name="Ingredient.substance.code.concept.coding.system"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Identity of the terminology system</span><br/><span style="font-weight:bold">Required Pattern: </span><span style="color: darkgreen">https://spor.ema.europa.eu/v2/SubstanceDefinition</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck001.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.strength">strength</a><a name="Ingredient.substance.strength"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/types.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">The quantity of substance, per presentation, or per volume or mass, and type of quantity</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0011.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.strength.presentationRatio">presentationRatio</a><a name="Ingredient.substance.strength.presentationRatio"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://build.fhir.org/datatypes.html#Ratio">Ratio</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Strength per unit of presentation (10mg/vial or 10mg/0.5ml where 0.5ml is the size of the vial)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00111.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.strength.presentationRatio.numerator">numerator</a><a name="Ingredient.substance.strength.presentationRatio.numerator"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck001100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.strength.presentationRatio.numerator.system">system</a><a name="Ingredient.substance.strength.presentationRatio.numerator.system"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">System that defines coded unit form</span><br/><span style="font-weight:bold">Required Pattern: </span><span style="color: darkgreen">https://spor.ema.europa.eu/rmswi/#/lists/100000110633/terms</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00101.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.strength.presentationRatio.denominator">denominator</a><a name="Ingredient.substance.strength.presentationRatio.denominator"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck001000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.strength.presentationRatio.denominator.system">system</a><a name="Ingredient.substance.strength.presentationRatio.denominator.system"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">System that defines coded unit form</span><br/><span style="font-weight:bold">Required Pattern: </span><span style="color: darkgreen">https://spor.ema.europa.eu/rmswi/#/lists/200000000014/terms</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0011.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.strength.concentrationRatio">concentrationRatio</a><a name="Ingredient.substance.strength.concentrationRatio"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://build.fhir.org/datatypes.html#Ratio">Ratio</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Strength per unit of measurement (20mg/1ml)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00111.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.strength.concentrationRatio.numerator">numerator</a><a name="Ingredient.substance.strength.concentrationRatio.numerator"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck001100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.strength.concentrationRatio.numerator.system">system</a><a name="Ingredient.substance.strength.concentrationRatio.numerator.system"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">System that defines coded unit form</span><br/><span style="font-weight:bold">Required Pattern: </span><span style="color: darkgreen">https://spor.ema.europa.eu/rmswi/#/lists/100000110633/terms</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00101.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.strength.concentrationRatio.denominator">denominator</a><a name="Ingredient.substance.strength.concentrationRatio.denominator"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck001000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.strength.concentrationRatio.denominator.system">system</a><a name="Ingredient.substance.strength.concentrationRatio.denominator.system"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">System that defines coded unit form</span><br/><span style="font-weight:bold">Required Pattern: </span><span style="color: darkgreen">https://spor.ema.europa.eu/rmswi/#/lists/100000110633/terms</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0001.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.strength.referenceStrength">referenceStrength</a><a name="Ingredient.substance.strength.referenceStrength"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/types.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Strenth expressed in terms of a reference substance; concentration and presentation strength or reference strength type not distinguished.</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.strength.referenceStrength.substance">substance</a><a name="Ingredient.substance.strength.referenceStrength.substance"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://build.fhir.org/references.html">CodeableReference</a>(<a style="opacity: 0.5" href="http://build.fhir.org/substancedefinition.html">SubstanceDefinition</a>)</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Substance code from EMA SMS</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00001.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.strength.referenceStrength.strengthRatio">strengthRatio</a><a name="Ingredient.substance.strength.referenceStrength.strengthRatio"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://build.fhir.org/datatypes.html#Ratio">Ratio</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Strength expressed in terms of a reference substance</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck000011.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.strength.referenceStrength.strengthRatio.numerator">numerator</a><a name="Ingredient.substance.strength.referenceStrength.strengthRatio.numerator"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0000100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.strength.referenceStrength.strengthRatio.numerator.system">system</a><a name="Ingredient.substance.strength.referenceStrength.strengthRatio.numerator.system"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">System that defines coded unit form</span><br/><span style="font-weight:bold">Required Pattern: </span><span style="color: darkgreen">https://spor.ema.europa.eu/rmswi/#/lists/100000110633/terms</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck000001.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.strength.referenceStrength.strengthRatio.denominator">denominator</a><a name="Ingredient.substance.strength.referenceStrength.strengthRatio.denominator"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0000000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PPLIngredient-definitions.html#Ingredient.substance.strength.referenceStrength.strengthRatio.denominator.system">system</a><a name="Ingredient.substance.strength.referenceStrength.strengthRatio.denominator.system"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">System that defines coded unit form</span><br/><span style="font-weight:bold">Required Pattern: </span><span style="color: darkgreen">https://spor.ema.europa.eu/rmswi/#/lists/200000000014/terms</span></td></tr>
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://build.fhir.org/formats.html#table" title="Legend for this format"><img src="http://build.fhir.org/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-category">
@@ -28,7 +46,7 @@
   <name value="PPLIngredient"/>
   <title value="PPL Ingredient profile"/>
   <status value="active"/>
-  <date value="2022-10-23T19:35:12+00:00"/>
+  <date value="2022-10-23T20:13:34+00:00"/>
   <publisher value="UNICOM"/>
   <contact>
     <name value="UNICOM"/>
@@ -1611,7 +1629,7 @@
       <path value="Ingredient.substance.strength"/>
       <short value="The quantity of substance, per presentation, or per volume or mass, and type of quantity"/>
       <definition value="The quantity of substance in the unit of presentation, or in the volume (or mass) of the single pharmaceutical product or manufactured item. The allowed repetitions do not represent different strengths, but are different representations - mathematically equivalent - of a single strength."/>
-      <min value="0"/>
+      <min value="1"/>
       <max value="*"/>
       <base>
         <path value="Ingredient.substance.strength"/>
@@ -1747,6 +1765,14 @@
     </element>
     <element id="Ingredient.substance.strength.presentation[x]">
       <path value="Ingredient.substance.strength.presentation[x]"/>
+      <slicing>
+        <discriminator>
+          <type value="type"/>
+          <path value="$this"/>
+        </discriminator>
+        <ordered value="false"/>
+        <rules value="open"/>
+      </slicing>
       <short value="The quantity of substance in the unit of presentation"/>
       <definition value="The quantity of substance in the unit of presentation, or in the volume (or mass) of the single pharmaceutical product or manufactured item. Unit of presentation refers to the quantity that the item occurs in e.g. a strength per tablet size, perhaps 'per 20mg' (the size of the tablet). It is not generally normalized as a unitary unit, which would be 'per mg')."/>
       <min value="0"/>
@@ -1784,6 +1810,705 @@
         <map value="Strength.Strength (Presentation)"/>
       </mapping>
     </element>
+    <element id="Ingredient.substance.strength.presentation[x]:presentationRatio">
+      <path value="Ingredient.substance.strength.presentation[x]"/>
+      <sliceName value="presentationRatio"/>
+      <short value="Strength per unit of presentation (10mg/vial or 10mg/0.5ml where 0.5ml is the size of the vial)"/>
+      <definition value="The quantity of substance in the unit of presentation, or in the volume (or mass) of the single pharmaceutical product or manufactured item. Unit of presentation refers to the quantity that the item occurs in e.g. a strength per tablet size, perhaps 'per 20mg' (the size of the tablet). It is not generally normalized as a unitary unit, which would be 'per mg')."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Ingredient.substance.strength.presentation[x]"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Ratio"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <mustSupport value="false"/>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="idmp"/>
+        <map value="Strength.Strength (Presentation)"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.presentation[x]:presentationRatio.id">
+      <path value="Ingredient.substance.strength.presentation[x].id"/>
+      <representation value="xmlAttr"/>
+      <short value="Unique id for inter-element referencing"/>
+      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Element.id"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
+          <valueUrl value="id"/>
+        </extension>
+        <code value="http://hl7.org/fhirpath/System.String"/>
+      </type>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.presentation[x]:presentationRatio.extension">
+      <path value="Ingredient.substance.strength.presentation[x].extension"/>
+      <slicing>
+        <discriminator>
+          <type value="value"/>
+          <path value="url"/>
+        </discriminator>
+        <description value="Extensions are always sliced by (at least) url"/>
+        <rules value="open"/>
+      </slicing>
+      <short value="Additional content defined by implementations"/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <alias value="extensions"/>
+      <alias value="user content"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Element.extension"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.presentation[x]:presentationRatio.numerator">
+      <path value="Ingredient.substance.strength.presentation[x].numerator"/>
+      <short value="Numerator value"/>
+      <definition value="The value of the numerator."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Ratio.numerator"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Quantity"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value=".numerator"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.presentation[x]:presentationRatio.numerator.id">
+      <path value="Ingredient.substance.strength.presentation[x].numerator.id"/>
+      <representation value="xmlAttr"/>
+      <short value="Unique id for inter-element referencing"/>
+      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Element.id"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
+          <valueUrl value="id"/>
+        </extension>
+        <code value="http://hl7.org/fhirpath/System.String"/>
+      </type>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.presentation[x]:presentationRatio.numerator.extension">
+      <path value="Ingredient.substance.strength.presentation[x].numerator.extension"/>
+      <slicing>
+        <discriminator>
+          <type value="value"/>
+          <path value="url"/>
+        </discriminator>
+        <description value="Extensions are always sliced by (at least) url"/>
+        <rules value="open"/>
+      </slicing>
+      <short value="Additional content defined by implementations"/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <alias value="extensions"/>
+      <alias value="user content"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Element.extension"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.presentation[x]:presentationRatio.numerator.value">
+      <path value="Ingredient.substance.strength.presentation[x].numerator.value"/>
+      <short value="Numerical value (with implicit precision)"/>
+      <definition value="The value of the measured amount. The value includes an implicit precision in the presentation of the value."/>
+      <comment value="The implicit precision in the value should always be honored. Monetary values have their own rules for handling precision (refer to standard accounting text books)."/>
+      <requirements value="Precision is handled implicitly in almost all cases of measurement."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.value"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="decimal"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="SN.2  / CQ - N/A"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="PQ.value, CO.value, MO.value, IVL.high or IVL.low depending on the value"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.presentation[x]:presentationRatio.numerator.comparator">
+      <path value="Ingredient.substance.strength.presentation[x].numerator.comparator"/>
+      <short value="&lt; | &lt;= | &gt;= | &gt; | ad - how to understand the value"/>
+      <definition value="How the value should be understood and represented - whether the actual value is greater or less than the stated value due to measurement issues; e.g. if the comparator is &quot;&lt;&quot; , then the real value is &lt; stated value."/>
+      <requirements value="Need a framework for handling measures where the value is &lt;5ug/L or &gt;400mg/L due to the limitations of measuring methodology."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.comparator"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <meaningWhenMissing value="If there is no comparator, then there is no modification of the value"/>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="true"/>
+      <isModifierReason value="This is labeled as &quot;Is Modifier&quot; because the comparator modifies the interpretation of the value significantly. If there is no comparator, then there is no modification of the value"/>
+      <isSummary value="true"/>
+      <binding>
+        <extension url="http://hl7.org/fhir/build/StructureDefinition/binding-definition">
+          <valueString value="How the Quantity should be understood and represented."/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="QuantityComparator"/>
+        </extension>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/quantity-comparator|5.0.0-ballot"/>
+      </binding>
+      <mapping>
+        <identity value="v2"/>
+        <map value="SN.1  / CQ.1"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="IVL properties"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.presentation[x]:presentationRatio.numerator.unit">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true"/>
+      </extension>
+      <path value="Ingredient.substance.strength.presentation[x].numerator.unit"/>
+      <short value="Unit representation"/>
+      <definition value="A human-readable form of the unit."/>
+      <requirements value="There are many representations for units of measure and in many contexts, particular representations are fixed and required. I.e. mcg for micrograms."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.unit"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="(see OBX.6 etc.) / CQ.2"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="PQ.unit"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.presentation[x]:presentationRatio.numerator.system">
+      <path value="Ingredient.substance.strength.presentation[x].numerator.system"/>
+      <short value="System that defines coded unit form"/>
+      <definition value="The identification of the system that provides the coded form of the unit."/>
+      <requirements value="Need to know the system that defines the coded form of the unit."/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.system"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="uri"/>
+      </type>
+      <patternUri value="https://spor.ema.europa.eu/rmswi/#/lists/100000110633/terms"/>
+      <condition value="qty-3"/>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="(see OBX.6 etc.) / CQ.2"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="CO.codeSystem, PQ.translation.codeSystem"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.presentation[x]:presentationRatio.numerator.code">
+      <extension url="http://hl7.org/fhir/build/StructureDefinition/no-binding">
+        <valueBoolean value="true"/>
+      </extension>
+      <path value="Ingredient.substance.strength.presentation[x].numerator.code"/>
+      <short value="Coded form of the unit"/>
+      <definition value="A computer processable form of the unit in some unit representation system."/>
+      <comment value="The preferred system is UCUM, but SNOMED CT can also be used (for customary units) or ISO 4217 for currency.  The context of use may additionally require a code from a particular system."/>
+      <requirements value="Need a computable form of the unit that is fixed across all forms. UCUM provides this for quantities, but SNOMED CT provides many units of interest."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.code"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="(see OBX.6 etc.) / CQ.2"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="PQ.code, MO.currency, PQ.translation.code"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.presentation[x]:presentationRatio.denominator">
+      <path value="Ingredient.substance.strength.presentation[x].denominator"/>
+      <short value="Denominator value"/>
+      <definition value="The value of the denominator."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Ratio.denominator"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Quantity"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/SimpleQuantity"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value=".denominator"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.presentation[x]:presentationRatio.denominator.id">
+      <path value="Ingredient.substance.strength.presentation[x].denominator.id"/>
+      <representation value="xmlAttr"/>
+      <short value="Unique id for inter-element referencing"/>
+      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Element.id"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
+          <valueUrl value="id"/>
+        </extension>
+        <code value="http://hl7.org/fhirpath/System.String"/>
+      </type>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.presentation[x]:presentationRatio.denominator.extension">
+      <path value="Ingredient.substance.strength.presentation[x].denominator.extension"/>
+      <slicing>
+        <discriminator>
+          <type value="value"/>
+          <path value="url"/>
+        </discriminator>
+        <description value="Extensions are always sliced by (at least) url"/>
+        <rules value="open"/>
+      </slicing>
+      <short value="Additional content defined by implementations"/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <alias value="extensions"/>
+      <alias value="user content"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Element.extension"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.presentation[x]:presentationRatio.denominator.value">
+      <path value="Ingredient.substance.strength.presentation[x].denominator.value"/>
+      <short value="Numerical value (with implicit precision)"/>
+      <definition value="The value of the measured amount. The value includes an implicit precision in the presentation of the value."/>
+      <comment value="The implicit precision in the value should always be honored. Monetary values have their own rules for handling precision (refer to standard accounting text books)."/>
+      <requirements value="Precision is handled implicitly in almost all cases of measurement."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.value"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="decimal"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="SN.2  / CQ - N/A"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="PQ.value, CO.value, MO.value, IVL.high or IVL.low depending on the value"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.presentation[x]:presentationRatio.denominator.comparator">
+      <path value="Ingredient.substance.strength.presentation[x].denominator.comparator"/>
+      <short value="&lt; | &lt;= | &gt;= | &gt; | ad - how to understand the value"/>
+      <definition value="Not allowed to be used in this context"/>
+      <requirements value="Need a framework for handling measures where the value is &lt;5ug/L or &gt;400mg/L due to the limitations of measuring methodology."/>
+      <min value="0"/>
+      <max value="0"/>
+      <base>
+        <path value="Quantity.comparator"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <meaningWhenMissing value="If there is no comparator, then there is no modification of the value"/>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="true"/>
+      <isModifierReason value="This is labeled as &quot;Is Modifier&quot; because the comparator modifies the interpretation of the value significantly. If there is no comparator, then there is no modification of the value"/>
+      <isSummary value="true"/>
+      <binding>
+        <extension url="http://hl7.org/fhir/build/StructureDefinition/binding-definition">
+          <valueString value="How the Quantity should be understood and represented."/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="QuantityComparator"/>
+        </extension>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/quantity-comparator|5.0.0-ballot"/>
+      </binding>
+      <mapping>
+        <identity value="v2"/>
+        <map value="SN.1  / CQ.1"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="IVL properties"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.presentation[x]:presentationRatio.denominator.unit">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true"/>
+      </extension>
+      <path value="Ingredient.substance.strength.presentation[x].denominator.unit"/>
+      <short value="Unit representation"/>
+      <definition value="A human-readable form of the unit."/>
+      <requirements value="There are many representations for units of measure and in many contexts, particular representations are fixed and required. I.e. mcg for micrograms."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.unit"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="(see OBX.6 etc.) / CQ.2"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="PQ.unit"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.presentation[x]:presentationRatio.denominator.system">
+      <path value="Ingredient.substance.strength.presentation[x].denominator.system"/>
+      <short value="System that defines coded unit form"/>
+      <definition value="The identification of the system that provides the coded form of the unit."/>
+      <requirements value="Need to know the system that defines the coded form of the unit."/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.system"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="uri"/>
+      </type>
+      <patternUri value="https://spor.ema.europa.eu/rmswi/#/lists/200000000014/terms"/>
+      <condition value="qty-3"/>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="(see OBX.6 etc.) / CQ.2"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="CO.codeSystem, PQ.translation.codeSystem"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.presentation[x]:presentationRatio.denominator.code">
+      <extension url="http://hl7.org/fhir/build/StructureDefinition/no-binding">
+        <valueBoolean value="true"/>
+      </extension>
+      <path value="Ingredient.substance.strength.presentation[x].denominator.code"/>
+      <short value="Coded form of the unit"/>
+      <definition value="A computer processable form of the unit in some unit representation system."/>
+      <comment value="The preferred system is UCUM, but SNOMED CT can also be used (for customary units) or ISO 4217 for currency.  The context of use may additionally require a code from a particular system."/>
+      <requirements value="Need a computable form of the unit that is fixed across all forms. UCUM provides this for quantities, but SNOMED CT provides many units of interest."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.code"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="(see OBX.6 etc.) / CQ.2"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="PQ.code, MO.currency, PQ.translation.code"/>
+      </mapping>
+    </element>
     <element id="Ingredient.substance.strength.textPresentation">
       <path value="Ingredient.substance.strength.textPresentation"/>
       <short value="Text of either the whole presentation strength or a part of it (rest being in Strength.presentation as a ratio)"/>
@@ -1816,6 +2541,14 @@
     </element>
     <element id="Ingredient.substance.strength.concentration[x]">
       <path value="Ingredient.substance.strength.concentration[x]"/>
+      <slicing>
+        <discriminator>
+          <type value="type"/>
+          <path value="$this"/>
+        </discriminator>
+        <ordered value="false"/>
+        <rules value="open"/>
+      </slicing>
       <short value="The strength per unitary volume (or mass)"/>
       <definition value="The strength per unitary volume (or mass)."/>
       <min value="0"/>
@@ -1851,6 +2584,705 @@
       <mapping>
         <identity value="idmp"/>
         <map value="Strength.Strength (Concentration)"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.concentration[x]:concentrationRatio">
+      <path value="Ingredient.substance.strength.concentration[x]"/>
+      <sliceName value="concentrationRatio"/>
+      <short value="Strength per unit of measurement (20mg/1ml)"/>
+      <definition value="The strength per unitary volume (or mass)."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Ingredient.substance.strength.concentration[x]"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Ratio"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <mustSupport value="false"/>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="idmp"/>
+        <map value="Strength.Strength (Concentration)"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.concentration[x]:concentrationRatio.id">
+      <path value="Ingredient.substance.strength.concentration[x].id"/>
+      <representation value="xmlAttr"/>
+      <short value="Unique id for inter-element referencing"/>
+      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Element.id"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
+          <valueUrl value="id"/>
+        </extension>
+        <code value="http://hl7.org/fhirpath/System.String"/>
+      </type>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.concentration[x]:concentrationRatio.extension">
+      <path value="Ingredient.substance.strength.concentration[x].extension"/>
+      <slicing>
+        <discriminator>
+          <type value="value"/>
+          <path value="url"/>
+        </discriminator>
+        <description value="Extensions are always sliced by (at least) url"/>
+        <rules value="open"/>
+      </slicing>
+      <short value="Additional content defined by implementations"/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <alias value="extensions"/>
+      <alias value="user content"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Element.extension"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.concentration[x]:concentrationRatio.numerator">
+      <path value="Ingredient.substance.strength.concentration[x].numerator"/>
+      <short value="Numerator value"/>
+      <definition value="The value of the numerator."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Ratio.numerator"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Quantity"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value=".numerator"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.concentration[x]:concentrationRatio.numerator.id">
+      <path value="Ingredient.substance.strength.concentration[x].numerator.id"/>
+      <representation value="xmlAttr"/>
+      <short value="Unique id for inter-element referencing"/>
+      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Element.id"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
+          <valueUrl value="id"/>
+        </extension>
+        <code value="http://hl7.org/fhirpath/System.String"/>
+      </type>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.concentration[x]:concentrationRatio.numerator.extension">
+      <path value="Ingredient.substance.strength.concentration[x].numerator.extension"/>
+      <slicing>
+        <discriminator>
+          <type value="value"/>
+          <path value="url"/>
+        </discriminator>
+        <description value="Extensions are always sliced by (at least) url"/>
+        <rules value="open"/>
+      </slicing>
+      <short value="Additional content defined by implementations"/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <alias value="extensions"/>
+      <alias value="user content"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Element.extension"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.concentration[x]:concentrationRatio.numerator.value">
+      <path value="Ingredient.substance.strength.concentration[x].numerator.value"/>
+      <short value="Numerical value (with implicit precision)"/>
+      <definition value="The value of the measured amount. The value includes an implicit precision in the presentation of the value."/>
+      <comment value="The implicit precision in the value should always be honored. Monetary values have their own rules for handling precision (refer to standard accounting text books)."/>
+      <requirements value="Precision is handled implicitly in almost all cases of measurement."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.value"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="decimal"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="SN.2  / CQ - N/A"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="PQ.value, CO.value, MO.value, IVL.high or IVL.low depending on the value"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.concentration[x]:concentrationRatio.numerator.comparator">
+      <path value="Ingredient.substance.strength.concentration[x].numerator.comparator"/>
+      <short value="&lt; | &lt;= | &gt;= | &gt; | ad - how to understand the value"/>
+      <definition value="How the value should be understood and represented - whether the actual value is greater or less than the stated value due to measurement issues; e.g. if the comparator is &quot;&lt;&quot; , then the real value is &lt; stated value."/>
+      <requirements value="Need a framework for handling measures where the value is &lt;5ug/L or &gt;400mg/L due to the limitations of measuring methodology."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.comparator"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <meaningWhenMissing value="If there is no comparator, then there is no modification of the value"/>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="true"/>
+      <isModifierReason value="This is labeled as &quot;Is Modifier&quot; because the comparator modifies the interpretation of the value significantly. If there is no comparator, then there is no modification of the value"/>
+      <isSummary value="true"/>
+      <binding>
+        <extension url="http://hl7.org/fhir/build/StructureDefinition/binding-definition">
+          <valueString value="How the Quantity should be understood and represented."/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="QuantityComparator"/>
+        </extension>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/quantity-comparator|5.0.0-ballot"/>
+      </binding>
+      <mapping>
+        <identity value="v2"/>
+        <map value="SN.1  / CQ.1"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="IVL properties"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.concentration[x]:concentrationRatio.numerator.unit">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true"/>
+      </extension>
+      <path value="Ingredient.substance.strength.concentration[x].numerator.unit"/>
+      <short value="Unit representation"/>
+      <definition value="A human-readable form of the unit."/>
+      <requirements value="There are many representations for units of measure and in many contexts, particular representations are fixed and required. I.e. mcg for micrograms."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.unit"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="(see OBX.6 etc.) / CQ.2"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="PQ.unit"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.concentration[x]:concentrationRatio.numerator.system">
+      <path value="Ingredient.substance.strength.concentration[x].numerator.system"/>
+      <short value="System that defines coded unit form"/>
+      <definition value="The identification of the system that provides the coded form of the unit."/>
+      <requirements value="Need to know the system that defines the coded form of the unit."/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.system"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="uri"/>
+      </type>
+      <patternUri value="https://spor.ema.europa.eu/rmswi/#/lists/100000110633/terms"/>
+      <condition value="qty-3"/>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="(see OBX.6 etc.) / CQ.2"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="CO.codeSystem, PQ.translation.codeSystem"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.concentration[x]:concentrationRatio.numerator.code">
+      <extension url="http://hl7.org/fhir/build/StructureDefinition/no-binding">
+        <valueBoolean value="true"/>
+      </extension>
+      <path value="Ingredient.substance.strength.concentration[x].numerator.code"/>
+      <short value="Coded form of the unit"/>
+      <definition value="A computer processable form of the unit in some unit representation system."/>
+      <comment value="The preferred system is UCUM, but SNOMED CT can also be used (for customary units) or ISO 4217 for currency.  The context of use may additionally require a code from a particular system."/>
+      <requirements value="Need a computable form of the unit that is fixed across all forms. UCUM provides this for quantities, but SNOMED CT provides many units of interest."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.code"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="(see OBX.6 etc.) / CQ.2"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="PQ.code, MO.currency, PQ.translation.code"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.concentration[x]:concentrationRatio.denominator">
+      <path value="Ingredient.substance.strength.concentration[x].denominator"/>
+      <short value="Denominator value"/>
+      <definition value="The value of the denominator."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Ratio.denominator"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Quantity"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/SimpleQuantity"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value=".denominator"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.concentration[x]:concentrationRatio.denominator.id">
+      <path value="Ingredient.substance.strength.concentration[x].denominator.id"/>
+      <representation value="xmlAttr"/>
+      <short value="Unique id for inter-element referencing"/>
+      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Element.id"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
+          <valueUrl value="id"/>
+        </extension>
+        <code value="http://hl7.org/fhirpath/System.String"/>
+      </type>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.concentration[x]:concentrationRatio.denominator.extension">
+      <path value="Ingredient.substance.strength.concentration[x].denominator.extension"/>
+      <slicing>
+        <discriminator>
+          <type value="value"/>
+          <path value="url"/>
+        </discriminator>
+        <description value="Extensions are always sliced by (at least) url"/>
+        <rules value="open"/>
+      </slicing>
+      <short value="Additional content defined by implementations"/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <alias value="extensions"/>
+      <alias value="user content"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Element.extension"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.concentration[x]:concentrationRatio.denominator.value">
+      <path value="Ingredient.substance.strength.concentration[x].denominator.value"/>
+      <short value="Numerical value (with implicit precision)"/>
+      <definition value="The value of the measured amount. The value includes an implicit precision in the presentation of the value."/>
+      <comment value="The implicit precision in the value should always be honored. Monetary values have their own rules for handling precision (refer to standard accounting text books)."/>
+      <requirements value="Precision is handled implicitly in almost all cases of measurement."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.value"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="decimal"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="SN.2  / CQ - N/A"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="PQ.value, CO.value, MO.value, IVL.high or IVL.low depending on the value"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.concentration[x]:concentrationRatio.denominator.comparator">
+      <path value="Ingredient.substance.strength.concentration[x].denominator.comparator"/>
+      <short value="&lt; | &lt;= | &gt;= | &gt; | ad - how to understand the value"/>
+      <definition value="Not allowed to be used in this context"/>
+      <requirements value="Need a framework for handling measures where the value is &lt;5ug/L or &gt;400mg/L due to the limitations of measuring methodology."/>
+      <min value="0"/>
+      <max value="0"/>
+      <base>
+        <path value="Quantity.comparator"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <meaningWhenMissing value="If there is no comparator, then there is no modification of the value"/>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="true"/>
+      <isModifierReason value="This is labeled as &quot;Is Modifier&quot; because the comparator modifies the interpretation of the value significantly. If there is no comparator, then there is no modification of the value"/>
+      <isSummary value="true"/>
+      <binding>
+        <extension url="http://hl7.org/fhir/build/StructureDefinition/binding-definition">
+          <valueString value="How the Quantity should be understood and represented."/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="QuantityComparator"/>
+        </extension>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/quantity-comparator|5.0.0-ballot"/>
+      </binding>
+      <mapping>
+        <identity value="v2"/>
+        <map value="SN.1  / CQ.1"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="IVL properties"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.concentration[x]:concentrationRatio.denominator.unit">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true"/>
+      </extension>
+      <path value="Ingredient.substance.strength.concentration[x].denominator.unit"/>
+      <short value="Unit representation"/>
+      <definition value="A human-readable form of the unit."/>
+      <requirements value="There are many representations for units of measure and in many contexts, particular representations are fixed and required. I.e. mcg for micrograms."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.unit"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="(see OBX.6 etc.) / CQ.2"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="PQ.unit"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.concentration[x]:concentrationRatio.denominator.system">
+      <path value="Ingredient.substance.strength.concentration[x].denominator.system"/>
+      <short value="System that defines coded unit form"/>
+      <definition value="The identification of the system that provides the coded form of the unit."/>
+      <requirements value="Need to know the system that defines the coded form of the unit."/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.system"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="uri"/>
+      </type>
+      <patternUri value="https://spor.ema.europa.eu/rmswi/#/lists/100000110633/terms"/>
+      <condition value="qty-3"/>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="(see OBX.6 etc.) / CQ.2"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="CO.codeSystem, PQ.translation.codeSystem"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.concentration[x]:concentrationRatio.denominator.code">
+      <extension url="http://hl7.org/fhir/build/StructureDefinition/no-binding">
+        <valueBoolean value="true"/>
+      </extension>
+      <path value="Ingredient.substance.strength.concentration[x].denominator.code"/>
+      <short value="Coded form of the unit"/>
+      <definition value="A computer processable form of the unit in some unit representation system."/>
+      <comment value="The preferred system is UCUM, but SNOMED CT can also be used (for customary units) or ISO 4217 for currency.  The context of use may additionally require a code from a particular system."/>
+      <requirements value="Need a computable form of the unit that is fixed across all forms. UCUM provides this for quantities, but SNOMED CT provides many units of interest."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.code"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="(see OBX.6 etc.) / CQ.2"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="PQ.code, MO.currency, PQ.translation.code"/>
       </mapping>
     </element>
     <element id="Ingredient.substance.strength.textConcentration">
@@ -1986,7 +3418,7 @@
     </element>
     <element id="Ingredient.substance.strength.referenceStrength">
       <path value="Ingredient.substance.strength.referenceStrength"/>
-      <short value="Strength expressed in terms of a reference substance"/>
+      <short value="Strenth expressed in terms of a reference substance; concentration and presentation strength or reference strength type not distinguished."/>
       <definition value="Strength expressed in terms of a reference substance. For when the ingredient strength is additionally expressed as equivalent to the strength of some other closely related substance (e.g. salt vs. base). Reference strength represents the strength (quantitative composition) of the active moiety of the active substance. There are situations when the active substance and active moiety are different, therefore both a strength and a reference strength are needed."/>
       <min value="0"/>
       <max value="*"/>
@@ -2124,9 +3556,9 @@
     </element>
     <element id="Ingredient.substance.strength.referenceStrength.substance">
       <path value="Ingredient.substance.strength.referenceStrength.substance"/>
-      <short value="Relevant reference substance"/>
+      <short value="Substance code from EMA SMS"/>
       <definition value="Relevant reference substance."/>
-      <min value="0"/>
+      <min value="1"/>
       <max value="1"/>
       <base>
         <path value="Ingredient.substance.strength.referenceStrength.substance"/>
@@ -2163,6 +3595,14 @@
     </element>
     <element id="Ingredient.substance.strength.referenceStrength.strength[x]">
       <path value="Ingredient.substance.strength.referenceStrength.strength[x]"/>
+      <slicing>
+        <discriminator>
+          <type value="type"/>
+          <path value="$this"/>
+        </discriminator>
+        <ordered value="false"/>
+        <rules value="open"/>
+      </slicing>
       <short value="Strength expressed in terms of a reference substance"/>
       <definition value="Strength expressed in terms of a reference substance."/>
       <min value="1"/>
@@ -2195,6 +3635,705 @@
       <mapping>
         <identity value="idmp"/>
         <map value="Reference Strength.Reference Strength"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.referenceStrength.strength[x]:strengthRatio">
+      <path value="Ingredient.substance.strength.referenceStrength.strength[x]"/>
+      <sliceName value="strengthRatio"/>
+      <short value="Strength expressed in terms of a reference substance"/>
+      <definition value="Strength expressed in terms of a reference substance."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Ingredient.substance.strength.referenceStrength.strength[x]"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Ratio"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <mustSupport value="false"/>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="idmp"/>
+        <map value="Reference Strength.Reference Strength"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.referenceStrength.strength[x]:strengthRatio.id">
+      <path value="Ingredient.substance.strength.referenceStrength.strength[x].id"/>
+      <representation value="xmlAttr"/>
+      <short value="Unique id for inter-element referencing"/>
+      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Element.id"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
+          <valueUrl value="id"/>
+        </extension>
+        <code value="http://hl7.org/fhirpath/System.String"/>
+      </type>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.referenceStrength.strength[x]:strengthRatio.extension">
+      <path value="Ingredient.substance.strength.referenceStrength.strength[x].extension"/>
+      <slicing>
+        <discriminator>
+          <type value="value"/>
+          <path value="url"/>
+        </discriminator>
+        <description value="Extensions are always sliced by (at least) url"/>
+        <rules value="open"/>
+      </slicing>
+      <short value="Additional content defined by implementations"/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <alias value="extensions"/>
+      <alias value="user content"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Element.extension"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.referenceStrength.strength[x]:strengthRatio.numerator">
+      <path value="Ingredient.substance.strength.referenceStrength.strength[x].numerator"/>
+      <short value="Numerator value"/>
+      <definition value="The value of the numerator."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Ratio.numerator"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Quantity"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value=".numerator"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.referenceStrength.strength[x]:strengthRatio.numerator.id">
+      <path value="Ingredient.substance.strength.referenceStrength.strength[x].numerator.id"/>
+      <representation value="xmlAttr"/>
+      <short value="Unique id for inter-element referencing"/>
+      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Element.id"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
+          <valueUrl value="id"/>
+        </extension>
+        <code value="http://hl7.org/fhirpath/System.String"/>
+      </type>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.referenceStrength.strength[x]:strengthRatio.numerator.extension">
+      <path value="Ingredient.substance.strength.referenceStrength.strength[x].numerator.extension"/>
+      <slicing>
+        <discriminator>
+          <type value="value"/>
+          <path value="url"/>
+        </discriminator>
+        <description value="Extensions are always sliced by (at least) url"/>
+        <rules value="open"/>
+      </slicing>
+      <short value="Additional content defined by implementations"/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <alias value="extensions"/>
+      <alias value="user content"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Element.extension"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.referenceStrength.strength[x]:strengthRatio.numerator.value">
+      <path value="Ingredient.substance.strength.referenceStrength.strength[x].numerator.value"/>
+      <short value="Numerical value (with implicit precision)"/>
+      <definition value="The value of the measured amount. The value includes an implicit precision in the presentation of the value."/>
+      <comment value="The implicit precision in the value should always be honored. Monetary values have their own rules for handling precision (refer to standard accounting text books)."/>
+      <requirements value="Precision is handled implicitly in almost all cases of measurement."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.value"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="decimal"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="SN.2  / CQ - N/A"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="PQ.value, CO.value, MO.value, IVL.high or IVL.low depending on the value"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.referenceStrength.strength[x]:strengthRatio.numerator.comparator">
+      <path value="Ingredient.substance.strength.referenceStrength.strength[x].numerator.comparator"/>
+      <short value="&lt; | &lt;= | &gt;= | &gt; | ad - how to understand the value"/>
+      <definition value="How the value should be understood and represented - whether the actual value is greater or less than the stated value due to measurement issues; e.g. if the comparator is &quot;&lt;&quot; , then the real value is &lt; stated value."/>
+      <requirements value="Need a framework for handling measures where the value is &lt;5ug/L or &gt;400mg/L due to the limitations of measuring methodology."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.comparator"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <meaningWhenMissing value="If there is no comparator, then there is no modification of the value"/>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="true"/>
+      <isModifierReason value="This is labeled as &quot;Is Modifier&quot; because the comparator modifies the interpretation of the value significantly. If there is no comparator, then there is no modification of the value"/>
+      <isSummary value="true"/>
+      <binding>
+        <extension url="http://hl7.org/fhir/build/StructureDefinition/binding-definition">
+          <valueString value="How the Quantity should be understood and represented."/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="QuantityComparator"/>
+        </extension>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/quantity-comparator|5.0.0-ballot"/>
+      </binding>
+      <mapping>
+        <identity value="v2"/>
+        <map value="SN.1  / CQ.1"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="IVL properties"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.referenceStrength.strength[x]:strengthRatio.numerator.unit">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true"/>
+      </extension>
+      <path value="Ingredient.substance.strength.referenceStrength.strength[x].numerator.unit"/>
+      <short value="Unit representation"/>
+      <definition value="A human-readable form of the unit."/>
+      <requirements value="There are many representations for units of measure and in many contexts, particular representations are fixed and required. I.e. mcg for micrograms."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.unit"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="(see OBX.6 etc.) / CQ.2"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="PQ.unit"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.referenceStrength.strength[x]:strengthRatio.numerator.system">
+      <path value="Ingredient.substance.strength.referenceStrength.strength[x].numerator.system"/>
+      <short value="System that defines coded unit form"/>
+      <definition value="The identification of the system that provides the coded form of the unit."/>
+      <requirements value="Need to know the system that defines the coded form of the unit."/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.system"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="uri"/>
+      </type>
+      <patternUri value="https://spor.ema.europa.eu/rmswi/#/lists/100000110633/terms"/>
+      <condition value="qty-3"/>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="(see OBX.6 etc.) / CQ.2"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="CO.codeSystem, PQ.translation.codeSystem"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.referenceStrength.strength[x]:strengthRatio.numerator.code">
+      <extension url="http://hl7.org/fhir/build/StructureDefinition/no-binding">
+        <valueBoolean value="true"/>
+      </extension>
+      <path value="Ingredient.substance.strength.referenceStrength.strength[x].numerator.code"/>
+      <short value="Coded form of the unit"/>
+      <definition value="A computer processable form of the unit in some unit representation system."/>
+      <comment value="The preferred system is UCUM, but SNOMED CT can also be used (for customary units) or ISO 4217 for currency.  The context of use may additionally require a code from a particular system."/>
+      <requirements value="Need a computable form of the unit that is fixed across all forms. UCUM provides this for quantities, but SNOMED CT provides many units of interest."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.code"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="(see OBX.6 etc.) / CQ.2"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="PQ.code, MO.currency, PQ.translation.code"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.referenceStrength.strength[x]:strengthRatio.denominator">
+      <path value="Ingredient.substance.strength.referenceStrength.strength[x].denominator"/>
+      <short value="Denominator value"/>
+      <definition value="The value of the denominator."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Ratio.denominator"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Quantity"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/SimpleQuantity"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value=".denominator"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.referenceStrength.strength[x]:strengthRatio.denominator.id">
+      <path value="Ingredient.substance.strength.referenceStrength.strength[x].denominator.id"/>
+      <representation value="xmlAttr"/>
+      <short value="Unique id for inter-element referencing"/>
+      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Element.id"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
+          <valueUrl value="id"/>
+        </extension>
+        <code value="http://hl7.org/fhirpath/System.String"/>
+      </type>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.referenceStrength.strength[x]:strengthRatio.denominator.extension">
+      <path value="Ingredient.substance.strength.referenceStrength.strength[x].denominator.extension"/>
+      <slicing>
+        <discriminator>
+          <type value="value"/>
+          <path value="url"/>
+        </discriminator>
+        <description value="Extensions are always sliced by (at least) url"/>
+        <rules value="open"/>
+      </slicing>
+      <short value="Additional content defined by implementations"/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <alias value="extensions"/>
+      <alias value="user content"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Element.extension"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.referenceStrength.strength[x]:strengthRatio.denominator.value">
+      <path value="Ingredient.substance.strength.referenceStrength.strength[x].denominator.value"/>
+      <short value="Numerical value (with implicit precision)"/>
+      <definition value="The value of the measured amount. The value includes an implicit precision in the presentation of the value."/>
+      <comment value="The implicit precision in the value should always be honored. Monetary values have their own rules for handling precision (refer to standard accounting text books)."/>
+      <requirements value="Precision is handled implicitly in almost all cases of measurement."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.value"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="decimal"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="SN.2  / CQ - N/A"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="PQ.value, CO.value, MO.value, IVL.high or IVL.low depending on the value"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.referenceStrength.strength[x]:strengthRatio.denominator.comparator">
+      <path value="Ingredient.substance.strength.referenceStrength.strength[x].denominator.comparator"/>
+      <short value="&lt; | &lt;= | &gt;= | &gt; | ad - how to understand the value"/>
+      <definition value="Not allowed to be used in this context"/>
+      <requirements value="Need a framework for handling measures where the value is &lt;5ug/L or &gt;400mg/L due to the limitations of measuring methodology."/>
+      <min value="0"/>
+      <max value="0"/>
+      <base>
+        <path value="Quantity.comparator"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <meaningWhenMissing value="If there is no comparator, then there is no modification of the value"/>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="true"/>
+      <isModifierReason value="This is labeled as &quot;Is Modifier&quot; because the comparator modifies the interpretation of the value significantly. If there is no comparator, then there is no modification of the value"/>
+      <isSummary value="true"/>
+      <binding>
+        <extension url="http://hl7.org/fhir/build/StructureDefinition/binding-definition">
+          <valueString value="How the Quantity should be understood and represented."/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="QuantityComparator"/>
+        </extension>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/quantity-comparator|5.0.0-ballot"/>
+      </binding>
+      <mapping>
+        <identity value="v2"/>
+        <map value="SN.1  / CQ.1"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="IVL properties"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.referenceStrength.strength[x]:strengthRatio.denominator.unit">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true"/>
+      </extension>
+      <path value="Ingredient.substance.strength.referenceStrength.strength[x].denominator.unit"/>
+      <short value="Unit representation"/>
+      <definition value="A human-readable form of the unit."/>
+      <requirements value="There are many representations for units of measure and in many contexts, particular representations are fixed and required. I.e. mcg for micrograms."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.unit"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="(see OBX.6 etc.) / CQ.2"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="PQ.unit"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.referenceStrength.strength[x]:strengthRatio.denominator.system">
+      <path value="Ingredient.substance.strength.referenceStrength.strength[x].denominator.system"/>
+      <short value="System that defines coded unit form"/>
+      <definition value="The identification of the system that provides the coded form of the unit."/>
+      <requirements value="Need to know the system that defines the coded form of the unit."/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.system"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="uri"/>
+      </type>
+      <patternUri value="https://spor.ema.europa.eu/rmswi/#/lists/200000000014/terms"/>
+      <condition value="qty-3"/>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="(see OBX.6 etc.) / CQ.2"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="CO.codeSystem, PQ.translation.codeSystem"/>
+      </mapping>
+    </element>
+    <element id="Ingredient.substance.strength.referenceStrength.strength[x]:strengthRatio.denominator.code">
+      <extension url="http://hl7.org/fhir/build/StructureDefinition/no-binding">
+        <valueBoolean value="true"/>
+      </extension>
+      <path value="Ingredient.substance.strength.referenceStrength.strength[x].denominator.code"/>
+      <short value="Coded form of the unit"/>
+      <definition value="A computer processable form of the unit in some unit representation system."/>
+      <comment value="The preferred system is UCUM, but SNOMED CT can also be used (for customary units) or ISO 4217 for currency.  The context of use may additionally require a code from a particular system."/>
+      <requirements value="Need a computable form of the unit that is fixed across all forms. UCUM provides this for quantities, but SNOMED CT provides many units of interest."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Quantity.code"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="(see OBX.6 etc.) / CQ.2"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="PQ.code, MO.currency, PQ.translation.code"/>
       </mapping>
     </element>
     <element id="Ingredient.substance.strength.referenceStrength.measurementPoint">
@@ -2301,6 +4440,75 @@
     <element id="Ingredient.substance.code.concept.coding.system">
       <path value="Ingredient.substance.code.concept.coding.system"/>
       <patternUri value="https://spor.ema.europa.eu/v2/SubstanceDefinition"/>
+    </element>
+    <element id="Ingredient.substance.strength">
+      <path value="Ingredient.substance.strength"/>
+      <min value="1"/>
+    </element>
+    <element id="Ingredient.substance.strength.presentationRatio">
+      <path value="Ingredient.substance.strength.presentationRatio"/>
+      <short value="Strength per unit of presentation (10mg/vial or 10mg/0.5ml where 0.5ml is the size of the vial)"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Ratio"/>
+      </type>
+    </element>
+    <element id="Ingredient.substance.strength.presentationRatio.numerator.system">
+      <path value="Ingredient.substance.strength.presentationRatio.numerator.system"/>
+      <min value="1"/>
+      <patternUri value="https://spor.ema.europa.eu/rmswi/#/lists/100000110633/terms"/>
+    </element>
+    <element id="Ingredient.substance.strength.presentationRatio.denominator.system">
+      <path value="Ingredient.substance.strength.presentationRatio.denominator.system"/>
+      <min value="1"/>
+      <patternUri value="https://spor.ema.europa.eu/rmswi/#/lists/200000000014/terms"/>
+    </element>
+    <element id="Ingredient.substance.strength.concentrationRatio">
+      <path value="Ingredient.substance.strength.concentrationRatio"/>
+      <short value="Strength per unit of measurement (20mg/1ml)"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Ratio"/>
+      </type>
+    </element>
+    <element id="Ingredient.substance.strength.concentrationRatio.numerator.system">
+      <path value="Ingredient.substance.strength.concentrationRatio.numerator.system"/>
+      <min value="1"/>
+      <patternUri value="https://spor.ema.europa.eu/rmswi/#/lists/100000110633/terms"/>
+    </element>
+    <element id="Ingredient.substance.strength.concentrationRatio.denominator.system">
+      <path value="Ingredient.substance.strength.concentrationRatio.denominator.system"/>
+      <min value="1"/>
+      <patternUri value="https://spor.ema.europa.eu/rmswi/#/lists/100000110633/terms"/>
+    </element>
+    <element id="Ingredient.substance.strength.referenceStrength">
+      <path value="Ingredient.substance.strength.referenceStrength"/>
+      <short value="Strenth expressed in terms of a reference substance; concentration and presentation strength or reference strength type not distinguished."/>
+    </element>
+    <element id="Ingredient.substance.strength.referenceStrength.substance">
+      <path value="Ingredient.substance.strength.referenceStrength.substance"/>
+      <short value="Substance code from EMA SMS"/>
+      <min value="1"/>
+    </element>
+    <element id="Ingredient.substance.strength.referenceStrength.strengthRatio">
+      <path value="Ingredient.substance.strength.referenceStrength.strengthRatio"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Ratio"/>
+      </type>
+    </element>
+    <element id="Ingredient.substance.strength.referenceStrength.strengthRatio.numerator.system">
+      <path value="Ingredient.substance.strength.referenceStrength.strengthRatio.numerator.system"/>
+      <min value="1"/>
+      <patternUri value="https://spor.ema.europa.eu/rmswi/#/lists/100000110633/terms"/>
+    </element>
+    <element id="Ingredient.substance.strength.referenceStrength.strengthRatio.denominator.system">
+      <path value="Ingredient.substance.strength.referenceStrength.strengthRatio.denominator.system"/>
+      <min value="1"/>
+      <patternUri value="https://spor.ema.europa.eu/rmswi/#/lists/200000000014/terms"/>
     </element>
   </differential>
 </StructureDefinition>
