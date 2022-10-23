@@ -24,9 +24,9 @@
   fhir:StructureDefinition.url [ fhir:value "http://unicom-project.eu/fhir/StructureDefinition/MPDBundle"];
   fhir:StructureDefinition.version [ fhir:value "0.1.0"];
   fhir:StructureDefinition.name [ fhir:value "MPDBundle"];
-  fhir:StructureDefinition.title [ fhir:value "MPD Bundle"];
+  fhir:StructureDefinition.title [ fhir:value "PPL Medicinal Product Bundle profile"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-10-23T16:03:39+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-10-23T18:15:07+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "UNICOM"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -37,7 +37,7 @@
        fhir:ContactPoint.value [ fhir:value "http://medigree.net" ]
      ]
   ];
-  fhir:StructureDefinition.description [ fhir:value "..."];
+  fhir:StructureDefinition.description [ fhir:value "Medicinal product with all its relevant data as one bundle, including packages, MA and pharmaceutical product"];
   fhir:StructureDefinition.fhirVersion [ fhir:value "5.0.0-ballot"];
   fhir:StructureDefinition.mapping [
      fhir:index 0;

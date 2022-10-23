@@ -10,7 +10,7 @@
   "name": "UnicomIG",
   "title": "UnicomIG",
   "status": "draft",
-  "date": "2022-10-23T16:03:39+00:00",
+  "date": "2022-10-23T18:15:07+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -405,8 +405,50 @@
         "reference": {
           "reference": "StructureDefinition/MPDBundle"
         },
-        "name": "MPD Bundle",
-        "description": "...",
+        "name": "PPL Medicinal Product Bundle profile",
+        "description": "Medicinal product with all its relevant data as one bundle, including packages, MA and pharmaceutical product",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PPLAdministrableProductDefinition"
+        },
+        "name": "PPL Administrable Product profile",
+        "description": "Administrable product profile defines the ISO IDMP Pharmaceutical Product concept",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PPLIngredient"
+        },
+        "name": "PPL Ingredient profile",
+        "description": "Ingredient for the medicinal product, pharmaceutical product and/or manufactured item",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PPLManufacturedItemDefinition"
+        },
+        "name": "PPL Manufactured Item profile",
+        "description": "Manufactured item is the countable element inside the package",
         "isExample": false
       },
       {
@@ -419,8 +461,22 @@
         "reference": {
           "reference": "StructureDefinition/PPLMedicinalProductDefinition"
         },
-        "name": "PPL MedicinalProductDefinition profile",
-        "description": "...",
+        "name": "PPL Medicinal Product profile",
+        "description": "Medicinal Product as defined in ISO IDMP",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PPLRegulatedAuthorization"
+        },
+        "name": "PPL Marketing Authorisation profile",
+        "description": "Regulated Authorization profile defines the Marketing Authorisation on product or package level",
         "isExample": false
       },
       {
@@ -506,22 +562,6 @@
         "name": "Medicinal Product",
         "description": "Medicinal Product",
         "isExample": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "MedicinalProductDefinition"
-          }
-        ],
-        "reference": {
-          "reference": "MedicinalProductDefinition/exampleMPD"
-        },
-        "name": "exampleMPD",
-        "profile": [
-          "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition",
-          "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"
-        ]
       }
     ],
     "page": {

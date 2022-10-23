@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "UnicomIG"];
   fhir:ImplementationGuide.title [ fhir:value "UnicomIG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-10-23T16:03:39+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-10-23T18:15:07+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "UNICOM"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -388,8 +388,8 @@
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/MPDBundle>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/MPDBundle" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "MPD Bundle" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "..." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PPL Medicinal Product Bundle profile" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Medicinal product with all its relevant data as one bundle, including packages, MA and pharmaceutical product" ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 4;
@@ -399,14 +399,70 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/PPLMedicinalProductDefinition" ]
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PPLAdministrableProductDefinition" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PPL MedicinalProductDefinition profile" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "..." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PPL Administrable Product profile" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Administrable product profile defines the ISO IDMP Pharmaceutical Product concept" ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PPLIngredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PPL Ingredient profile" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ingredient for the medicinal product, pharmaceutical product and/or manufactured item" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PPLManufacturedItemDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PPL Manufactured Item profile" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Manufactured item is the countable element inside the package" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PPLMedicinalProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PPL Medicinal Product profile" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Medicinal Product as defined in ISO IDMP" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PPLRegulatedAuthorization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PPL Marketing Authorisation profile" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Regulated Authorization profile defines the Marketing Authorisation on product or package level" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 9;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -420,7 +476,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Quantity" ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 6;
+       fhir:index 10;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -434,7 +490,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "String" ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 7;
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -448,7 +504,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Time stamp" ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 8;
+       fhir:index 12;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -462,7 +518,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Class of data elements" ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 9;
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -476,7 +532,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "No data type defined" ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 10;
+       fhir:index 14;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -489,27 +545,6 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medicinal Product" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Medicinal Product" ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 11;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "MedicinalProductDefinition" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://unicom-project.eu/fhir/MedicinalProductDefinition/exampleMPD>;
-         fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/exampleMPD" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "exampleMPD" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition";
-         fhir:index 0;
-         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition>
-       ], [
-         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition";
-         fhir:index 1;
-         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition>
-       ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:ImplementationGuide.definition.page.sourceUrl [ fhir:value "toc.html" ];
