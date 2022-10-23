@@ -10,7 +10,7 @@
   "name": "UnicomIG",
   "title": "UnicomIG",
   "status": "draft",
-  "date": "2022-10-23T19:35:12+00:00",
+  "date": "2022-10-23T20:13:34+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -489,8 +489,8 @@
         "reference": {
           "reference": "StructureDefinition/PPLPackagedProductDefinition"
         },
-        "name": "PPL Packaged Product Definition profile",
-        "description": "Packaged Product Definition",
+        "name": "PPL Packaged Product profile",
+        "description": "Packaged Product",
         "isExample": false
       },
       {

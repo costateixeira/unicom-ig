@@ -128,6 +128,12 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
+    <sch:title>f:Ingredient/f:substance</sch:title>
+    <sch:rule context="f:Ingredient/f:substance">
+      <sch:assert test="count(f:strength) &gt;= 1">strength: minimum cardinality of 'strength' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
     <sch:title>Ingredient.substance</sch:title>
     <sch:rule context="f:Ingredient/f:substance">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
@@ -278,6 +284,113 @@
     <sch:title>Ingredient.substance.strength.presentation[x] 1</sch:title>
     <sch:rule context="f:Ingredient/f:substance/f:strength/f:presentation[x]">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.presentation[x].extension 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:presentation[x]/f:extension">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>f:Ingredient/f:substance/f:strength/f:presentation[x]/f:numerator 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:presentation[x]/f:numerator">
+      <sch:assert test="count(f:system) &gt;= 1">system: minimum cardinality of 'system' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.presentation[x].numerator 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:presentation[x]/f:numerator">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.presentation[x].numerator.extension 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:presentation[x]/f:numerator/f:extension">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.presentation[x].numerator.value 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:presentation[x]/f:numerator/f:value">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.presentation[x].numerator.comparator 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:presentation[x]/f:numerator/f:comparator">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.presentation[x].numerator.unit 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:presentation[x]/f:numerator/f:unit">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.presentation[x].numerator.system 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:presentation[x]/f:numerator/f:system">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.presentation[x].numerator.code 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:presentation[x]/f:numerator/f:code">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>f:Ingredient/f:substance/f:strength/f:presentation[x]/f:denominator 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:presentation[x]/f:denominator">
+      <sch:assert test="count(f:comparator) &lt;= 0">comparator: maximum cardinality of 'comparator' is 0</sch:assert>
+      <sch:assert test="count(f:system) &gt;= 1">system: minimum cardinality of 'system' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.presentation[x].denominator 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:presentation[x]/f:denominator">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.presentation[x].denominator.extension 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:presentation[x]/f:denominator/f:extension">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.presentation[x].denominator.value 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:presentation[x]/f:denominator/f:value">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.presentation[x].denominator.comparator 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:presentation[x]/f:denominator/f:comparator">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.presentation[x].denominator.unit 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:presentation[x]/f:denominator/f:unit">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.presentation[x].denominator.system 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:presentation[x]/f:denominator/f:system">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.presentation[x].denominator.code 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:presentation[x]/f:denominator/f:code">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -289,6 +402,113 @@
   <sch:pattern>
     <sch:title>Ingredient.substance.strength.concentration[x] 1</sch:title>
     <sch:rule context="f:Ingredient/f:substance/f:strength/f:concentration[x]">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.concentration[x].extension 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:concentration[x]/f:extension">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>f:Ingredient/f:substance/f:strength/f:concentration[x]/f:numerator 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:concentration[x]/f:numerator">
+      <sch:assert test="count(f:system) &gt;= 1">system: minimum cardinality of 'system' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.concentration[x].numerator 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:concentration[x]/f:numerator">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.concentration[x].numerator.extension 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:concentration[x]/f:numerator/f:extension">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.concentration[x].numerator.value 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:concentration[x]/f:numerator/f:value">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.concentration[x].numerator.comparator 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:concentration[x]/f:numerator/f:comparator">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.concentration[x].numerator.unit 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:concentration[x]/f:numerator/f:unit">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.concentration[x].numerator.system 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:concentration[x]/f:numerator/f:system">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.concentration[x].numerator.code 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:concentration[x]/f:numerator/f:code">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>f:Ingredient/f:substance/f:strength/f:concentration[x]/f:denominator 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:concentration[x]/f:denominator">
+      <sch:assert test="count(f:comparator) &lt;= 0">comparator: maximum cardinality of 'comparator' is 0</sch:assert>
+      <sch:assert test="count(f:system) &gt;= 1">system: minimum cardinality of 'system' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.concentration[x].denominator 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:concentration[x]/f:denominator">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.concentration[x].denominator.extension 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:concentration[x]/f:denominator/f:extension">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.concentration[x].denominator.value 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:concentration[x]/f:denominator/f:value">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.concentration[x].denominator.comparator 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:concentration[x]/f:denominator/f:comparator">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.concentration[x].denominator.unit 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:concentration[x]/f:denominator/f:unit">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.concentration[x].denominator.system 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:concentration[x]/f:denominator/f:system">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.concentration[x].denominator.code 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:concentration[x]/f:denominator/f:code">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
@@ -314,6 +534,12 @@
     <sch:title>Ingredient.substance.strength.country</sch:title>
     <sch:rule context="f:Ingredient/f:substance/f:strength/f:country">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>f:Ingredient/f:substance/f:strength/f:referenceStrength</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:referenceStrength">
+      <sch:assert test="count(f:substance) &gt;= 1">substance: minimum cardinality of 'substance' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -345,6 +571,106 @@
   <sch:pattern>
     <sch:title>Ingredient.substance.strength.referenceStrength.strength[x] 1</sch:title>
     <sch:rule context="f:Ingredient/f:substance/f:strength/f:referenceStrength/f:strength[x]">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.referenceStrength.strength[x].extension 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:referenceStrength/f:strength[x]/f:extension">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.referenceStrength.strength[x].numerator 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:referenceStrength/f:strength[x]/f:numerator">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.referenceStrength.strength[x].numerator.extension 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:referenceStrength/f:strength[x]/f:numerator/f:extension">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.referenceStrength.strength[x].numerator.value 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:referenceStrength/f:strength[x]/f:numerator/f:value">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.referenceStrength.strength[x].numerator.comparator 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:referenceStrength/f:strength[x]/f:numerator/f:comparator">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.referenceStrength.strength[x].numerator.unit 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:referenceStrength/f:strength[x]/f:numerator/f:unit">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.referenceStrength.strength[x].numerator.system 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:referenceStrength/f:strength[x]/f:numerator/f:system">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.referenceStrength.strength[x].numerator.code 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:referenceStrength/f:strength[x]/f:numerator/f:code">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>f:Ingredient/f:substance/f:strength/f:referenceStrength/f:strength[x]/f:denominator 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:referenceStrength/f:strength[x]/f:denominator">
+      <sch:assert test="count(f:comparator) &lt;= 0">comparator: maximum cardinality of 'comparator' is 0</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.referenceStrength.strength[x].denominator 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:referenceStrength/f:strength[x]/f:denominator">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.referenceStrength.strength[x].denominator.extension 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:referenceStrength/f:strength[x]/f:denominator/f:extension">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.referenceStrength.strength[x].denominator.value 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:referenceStrength/f:strength[x]/f:denominator/f:value">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.referenceStrength.strength[x].denominator.comparator 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:referenceStrength/f:strength[x]/f:denominator/f:comparator">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.referenceStrength.strength[x].denominator.unit 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:referenceStrength/f:strength[x]/f:denominator/f:unit">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.referenceStrength.strength[x].denominator.system 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:referenceStrength/f:strength[x]/f:denominator/f:system">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Ingredient.substance.strength.referenceStrength.strength[x].denominator.code 1</sch:title>
+    <sch:rule context="f:Ingredient/f:substance/f:strength/f:referenceStrength/f:strength[x]/f:denominator/f:code">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>

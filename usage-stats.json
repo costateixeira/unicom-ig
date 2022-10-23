@@ -43,7 +43,7 @@
     "PackagedProductDefinition": [
       {
         "url": "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition",
-        "title": "PPL Packaged Product Definition profile"
+        "title": "PPL Packaged Product profile"
       }
     ],
     "RegulatedAuthorization": [
