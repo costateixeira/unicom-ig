@@ -34,6 +34,18 @@
         "title": "PPL Medicinal Product profile"
       }
     ],
+    "Organization": [
+      {
+        "url": "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization",
+        "title": "PPL Organization"
+      }
+    ],
+    "PackagedProductDefinition": [
+      {
+        "url": "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition",
+        "title": "PPL Packaged Product Definition profile"
+      }
+    ],
     "RegulatedAuthorization": [
       {
         "url": "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization",
@@ -64,6 +76,9 @@
       "StructureDefinition"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [

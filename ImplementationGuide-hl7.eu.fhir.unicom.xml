@@ -11,7 +11,7 @@
   <name value="UnicomIG"/>
   <title value="UnicomIG"/>
   <status value="draft"/>
-  <date value="2022-10-23T18:15:07+00:00"/>
+  <date value="2022-10-23T19:27:30+00:00"/>
   <publisher value="UNICOM"/>
   <contact>
     <name value="UNICOM"/>
@@ -308,6 +308,28 @@
       </reference>
       <name value="PPL Medicinal Product profile"/>
       <description value="Medicinal Product as defined in ISO IDMP"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/PPLOrganization"/>
+      </reference>
+      <name value="PPL Organization"/>
+      <description value="Organization"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/PPLPackagedProductDefinition"/>
+      </reference>
+      <name value="PPL Packaged Product Definition profile"/>
+      <description value="Packaged Product Definition"/>
       <isExample value="false"/>
     </resource>
     <resource>

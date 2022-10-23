@@ -10,7 +10,7 @@
   "name": "UnicomIG",
   "title": "UnicomIG",
   "status": "draft",
-  "date": "2022-10-23T18:15:07+00:00",
+  "date": "2022-10-23T19:27:30+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -463,6 +463,34 @@
         },
         "name": "PPL Medicinal Product profile",
         "description": "Medicinal Product as defined in ISO IDMP",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PPLOrganization"
+        },
+        "name": "PPL Organization",
+        "description": "Organization",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PPLPackagedProductDefinition"
+        },
+        "name": "PPL Packaged Product Definition profile",
+        "description": "Packaged Product Definition",
         "isExample": false
       },
       {

@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "UnicomIG"];
   fhir:ImplementationGuide.title [ fhir:value "UnicomIG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-10-23T18:15:07+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-10-23T19:27:30+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "UNICOM"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -455,6 +455,34 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PPLOrganization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PPL Organization" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Organization" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PPLPackagedProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PPL Packaged Product Definition profile" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Packaged Product Definition" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/PPLRegulatedAuthorization" ]
        ];
@@ -462,7 +490,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Regulated Authorization profile defines the Marketing Authorisation on product or package level" ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 9;
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -476,7 +504,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Quantity" ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 10;
+       fhir:index 12;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -490,7 +518,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "String" ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 11;
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -504,7 +532,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Time stamp" ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 12;
+       fhir:index 14;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -518,7 +546,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Class of data elements" ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 13;
+       fhir:index 15;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -532,7 +560,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "No data type defined" ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 14;
+       fhir:index 16;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
