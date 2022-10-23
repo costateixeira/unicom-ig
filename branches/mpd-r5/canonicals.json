@@ -70,6 +70,20 @@
     "name": "PPLMedicinalProductDefinition"
   },
   {
+    "id": "PPLOrganization",
+    "type": "StructureDefinition",
+    "url": "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization",
+    "version": "0.1.0",
+    "name": "PPLOrganization"
+  },
+  {
+    "id": "PPLPackagedProductDefinition",
+    "type": "StructureDefinition",
+    "url": "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition",
+    "version": "0.1.0",
+    "name": "PPLPackagedProductDefinition"
+  },
+  {
     "id": "PPLRegulatedAuthorization",
     "type": "StructureDefinition",
     "url": "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization",
