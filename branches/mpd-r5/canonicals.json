@@ -42,11 +42,39 @@
     "name": "MPDBundle"
   },
   {
+    "id": "PPLAdministrableProductDefinition",
+    "type": "StructureDefinition",
+    "url": "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition",
+    "version": "0.1.0",
+    "name": "PPLAdministrableProductDefinition"
+  },
+  {
+    "id": "PPLIngredient",
+    "type": "StructureDefinition",
+    "url": "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient",
+    "version": "0.1.0",
+    "name": "PPLIngredient"
+  },
+  {
+    "id": "PPLManufacturedItemDefinition",
+    "type": "StructureDefinition",
+    "url": "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition",
+    "version": "0.1.0",
+    "name": "PPLManufacturedItemDefinition"
+  },
+  {
     "id": "PPLMedicinalProductDefinition",
     "type": "StructureDefinition",
     "url": "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition",
     "version": "0.1.0",
     "name": "PPLMedicinalProductDefinition"
+  },
+  {
+    "id": "PPLRegulatedAuthorization",
+    "type": "StructureDefinition",
+    "url": "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization",
+    "version": "0.1.0",
+    "name": "PPLRegulatedAuthorization"
   },
   {
     "id": "QT",

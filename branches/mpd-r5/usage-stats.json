@@ -7,13 +7,37 @@
     "Bundle": [
       {
         "url": "http://unicom-project.eu/fhir/StructureDefinition/MPDBundle",
-        "title": "MPD Bundle"
+        "title": "PPL Medicinal Product Bundle profile"
+      }
+    ],
+    "AdministrableProductDefinition": [
+      {
+        "url": "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition",
+        "title": "PPL Administrable Product profile"
+      }
+    ],
+    "Ingredient": [
+      {
+        "url": "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient",
+        "title": "PPL Ingredient profile"
+      }
+    ],
+    "ManufacturedItemDefinition": [
+      {
+        "url": "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition",
+        "title": "PPL Manufactured Item profile"
       }
     ],
     "MedicinalProductDefinition": [
       {
         "url": "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition",
-        "title": "PPL MedicinalProductDefinition profile"
+        "title": "PPL Medicinal Product profile"
+      }
+    ],
+    "RegulatedAuthorization": [
+      {
+        "url": "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization",
+        "title": "PPL Marketing Authorisation profile"
       }
     ]
   },

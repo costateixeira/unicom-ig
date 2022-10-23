@@ -11,7 +11,7 @@
   <name value="UnicomIG"/>
   <title value="UnicomIG"/>
   <status value="draft"/>
-  <date value="2022-10-23T08:58:51+00:00"/>
+  <date value="2022-10-23T18:15:07+00:00"/>
   <publisher value="UNICOM"/>
   <contact>
     <name value="UNICOM"/>
@@ -262,8 +262,41 @@
       <reference>
         <reference value="StructureDefinition/MPDBundle"/>
       </reference>
-      <name value="MPD Bundle"/>
-      <description value="..."/>
+      <name value="PPL Medicinal Product Bundle profile"/>
+      <description value="Medicinal product with all its relevant data as one bundle, including packages, MA and pharmaceutical product"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/PPLAdministrableProductDefinition"/>
+      </reference>
+      <name value="PPL Administrable Product profile"/>
+      <description value="Administrable product profile defines the ISO IDMP Pharmaceutical Product concept"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/PPLIngredient"/>
+      </reference>
+      <name value="PPL Ingredient profile"/>
+      <description value="Ingredient for the medicinal product, pharmaceutical product and/or manufactured item"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/PPLManufacturedItemDefinition"/>
+      </reference>
+      <name value="PPL Manufactured Item profile"/>
+      <description value="Manufactured item is the countable element inside the package"/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -273,8 +306,19 @@
       <reference>
         <reference value="StructureDefinition/PPLMedicinalProductDefinition"/>
       </reference>
-      <name value="PPL MedicinalProductDefinition profile"/>
-      <description value="..."/>
+      <name value="PPL Medicinal Product profile"/>
+      <description value="Medicinal Product as defined in ISO IDMP"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/PPLRegulatedAuthorization"/>
+      </reference>
+      <name value="PPL Marketing Authorisation profile"/>
+      <description value="Regulated Authorization profile defines the Marketing Authorisation on product or package level"/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -342,17 +386,6 @@
       <name value="Medicinal Product"/>
       <description value="Medicinal Product"/>
       <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="MedicinalProductDefinition"/>
-      </extension>
-      <reference>
-        <reference value="MedicinalProductDefinition/exampleMPD"/>
-      </reference>
-      <name value="exampleMPD"/>
-      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"/>
-      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"/>
     </resource>
     <page>
       <sourceUrl value="toc.html"/>

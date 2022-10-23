@@ -18,9 +18,9 @@
   "url": "http://unicom-project.eu/fhir/StructureDefinition/MPDBundle",
   "version": "0.1.0",
   "name": "MPDBundle",
-  "title": "MPD Bundle",
+  "title": "PPL Medicinal Product Bundle profile",
   "status": "active",
-  "date": "2022-10-23T08:58:51+00:00",
+  "date": "2022-10-23T18:15:07+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -33,7 +33,7 @@
       ]
     }
   ],
-  "description": "...",
+  "description": "Medicinal product with all its relevant data as one bundle, including packages, MA and pharmaceutical product",
   "fhirVersion": "5.0.0-ballot",
   "mapping": [
     {
