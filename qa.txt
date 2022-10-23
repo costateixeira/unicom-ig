@@ -3,7 +3,7 @@
 
 err = 6, warn = 35, info = 11
 IG Publisher Version: 1.2.10
-Generated Fri Oct 21 23:24:39 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhir.unicom#0.1.0 (canonical = http://unicom-project.eu/fhir)
+Generated Sun Oct 23 08:51:16 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhir.unicom#0.1.0 (canonical = http://unicom-project.eu/fhir)
  Build Errors : 0 / 4 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.unicom : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/MedicinalProductDefinition-exampleMPD : 3 / 0 / 4
