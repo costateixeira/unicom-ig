@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "PPLRegulatedAuthorization"];
   fhir:StructureDefinition.title [ fhir:value "PPL Marketing Authorisation profile"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-10-23T20:13:34+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-10-25T12:14:01+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "UNICOM"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

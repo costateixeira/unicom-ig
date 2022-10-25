@@ -20,7 +20,7 @@
   "name": "MPDBundle",
   "title": "PPL Medicinal Product Bundle profile",
   "status": "active",
-  "date": "2022-10-23T20:13:34+00:00",
+  "date": "2022-10-25T12:14:01+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -724,11 +724,6 @@
         "isModifier": false,
         "isSummary": true,
         "binding": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
-            }
-          ],
           "strength": "required",
           "valueSet": "http://hl7.org/fhir/ValueSet/iana-link-relations|5.0.0-ballot"
         }
