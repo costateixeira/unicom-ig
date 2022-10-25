@@ -3,7 +3,7 @@
   "name": "UnicomIG",
   "package-id": "hl7.eu.fhir.unicom",
   "ig-ver": "0.1.0",
-  "date": "Tue, 25 Oct, 2022 12:14:01 +0000",
+  "date": "Tue, 25 Oct, 2022 13:47:24 +0000",
   "errs": 0,
   "warnings": 29,
   "hints": 12,
