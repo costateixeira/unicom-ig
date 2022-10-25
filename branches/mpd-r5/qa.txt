@@ -1,16 +1,16 @@
 ﻿UnicomIG : Validation Results
 =========================================
 
-err = 3, warn = 29, info = 12
-IG Publisher Version: 1.2.10
-Generated Sun Oct 23 20:14:29 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhir.unicom#0.1.0 (canonical = http://unicom-project.eu/fhir)
+err = 0, warn = 29, info = 12
+IG Publisher Version: 1.2.11
+Generated Tue Oct 25 12:14:51 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhir.unicom#0.1.0 (canonical = http://unicom-project.eu/fhir)
  Build Errors : 0 / 3 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.unicom : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-CD : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-DT : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-FullMedicinalProduct : 0 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-II : 0 / 1 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-MPDBundle : 3 / 2 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-MPDBundle : 0 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-PPLAdministrableProductDefinition : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-PPLIngredient : 0 / 1 / 3
  /github/workspace/fsh-generated/resources/StructureDefinition-PPLManufacturedItemDefinition : 0 / 1 / 1
@@ -40,9 +40,6 @@ WARNING: StructureDefinition/FullMedicinalProduct: StructureDefinition.different
 WARNING: StructureDefinition.where(url = 'http://unicom-project.eu/fhir/StructureDefinition/II'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-MPDBundle.json ==
 WARNING: StructureDefinition/MPDBundle: StructureDefinition.snapshot.element[0]: Rule eld-27: 'Mappings SHOULD be unique by key' Failed
-ERROR: StructureDefinition/MPDBundle: StructureDefinition.snapshot.element[13].binding.extension[0]: Rule ext-1: 'Must have either extensions or value[x], not both' Failed
-ERROR: StructureDefinition/MPDBundle: StructureDefinition.snapshot.element[13].binding.extension[0]: The Extension 'http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName' definition is for a simple extension, so it must contain a value, not extensions
-ERROR: StructureDefinition/MPDBundle: StructureDefinition.snapshot.element[13].binding.extension[0]: Extension.value[x]: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName)
 WARNING: StructureDefinition.where(url = 'http://unicom-project.eu/fhir/StructureDefinition/MPDBundle'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-PPLAdministrableProductDefinition.json ==
 WARNING: StructureDefinition.where(url = 'http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition'): The Implementation Guide contains no examples for this profile
