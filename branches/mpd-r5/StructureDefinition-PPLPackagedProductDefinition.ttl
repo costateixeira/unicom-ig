@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "PPLPackagedProductDefinition"];
   fhir:StructureDefinition.title [ fhir:value "PPL Packaged Product profile"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-10-30T17:01:43+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-10-30T18:15:34+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "UNICOM"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
