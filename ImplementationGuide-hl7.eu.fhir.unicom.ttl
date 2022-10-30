@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "UnicomIG"];
   fhir:ImplementationGuide.title [ fhir:value "UnicomIG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-10-30T18:15:34+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-10-30T20:04:00+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "UNICOM"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
