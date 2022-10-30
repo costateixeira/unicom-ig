@@ -104,7 +104,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "PackagedProductDefinition.description","PackagedProductDefinition.description","","","",1,1,"","","Y","markdown {[]} {[]}
 ","Textual description. Note that this is not the name of the package or product","Textual description. Note that this is not the name of the package or product.","","","","","","","","","",,,,,"",,,,"PackagedProductDefinition.description",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Packaged Medicinal Product.description"
-"PackagedProductDefinition.legalStatusOfSupply","PackagedProductDefinition.legalStatusOfSupply","","","",1,1,"","","Y","BackboneElement {[]} {[]}
+"PackagedProductDefinition.legalStatusOfSupply","PackagedProductDefinition.legalStatusOfSupply","","","",0,1,"","","Y","BackboneElement {[]} {[]}
 ","Legal status of supply on the packaged product level.","Legal status of supply on the packaged product level. The same information can be repeated/differentiated on the medicinal product level","","","","","","","","","",,,,,"",,,,"PackagedProductDefinition.legalStatusOfSupply",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Marketing Authorisation.Legal Status of Supply (for a package)"
 "PackagedProductDefinition.legalStatusOfSupply.id","PackagedProductDefinition.legalStatusOfSupply.id","","","",0,1,"","","","string {[]} {[]}
