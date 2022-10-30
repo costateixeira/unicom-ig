@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "UnicomIG"];
   fhir:ImplementationGuide.title [ fhir:value "UnicomIG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-10-30T22:04:36+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-10-30T22:13:17+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "UNICOM"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -669,7 +669,7 @@
          fhir:Reference.reference [ fhir:value "PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Agen-5mg-Tablet-EE-PPD-1109887-A" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged)." ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged)." ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition";
          fhir:index 0;
@@ -691,7 +691,7 @@
          fhir:Reference.reference [ fhir:value "PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Agen-5mg-Tablet-EE-PPD-1109887-B" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged)." ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Tabletid on pakendatud PVC/Al blistritesse (valged)." ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition";
          fhir:index 0;
