@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = errors = 197, warn = 29, info = 12, 0 -->
+<!-- broken links = errors = 197, warn = 28, info = 12, 0 -->
 <head>
   <title>UnicomIG : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,7 +36,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for UnicomIG</h1>
- <p>Generated Sun Oct 30 17:02:39 UTC 2022, FHIR version 5.0.0-ballot for hl7.eu.fhir.unicom#0.1.0 (canonical = <a href="http://unicom-project.eu/fhir">http://unicom-project.eu/fhir</a> (<a href="http://unicom-project.eu/fhir/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a></p>
+ <p>Generated Sun Oct 30 18:16:41 UTC 2022, FHIR version 5.0.0-ballot for hl7.eu.fhir.unicom#0.1.0 (canonical = <a href="http://unicom-project.eu/fhir">http://unicom-project.eu/fhir</a> (<a href="http://unicom-project.eu/fhir/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.2.12</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = hl7.eu.fhir.unicom, Canonical = http://unicom-project.eu/fhir</td></tr>
@@ -54,9 +54,9 @@
  <tr><td>HTA Analysis:</td><td><i>no Non-HL7 references found</i></td></tr>
  <tr><td>R5 Dependencies:</td><td><span style="color: grey">(none)</span></td></tr>
  <tr><td>Modifier Extensions:</td><td><span style="color: grey">(none)</span></td></tr>
- <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://unicom-project.eu/fhir (Problem #1 with package-list.json at http://unicom-project.eu/fhir: Invalid HTTP response 404 from https://unicom-project.eu/fhir/package-list.json?nocache=1667149298760 (Not Found) (content in /tmp/fhir-http-4.log))</td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://unicom-project.eu/fhir (Problem #1 with package-list.json at http://unicom-project.eu/fhir: Invalid HTTP response 404 from https://unicom-project.eu/fhir/package-list.json?nocache=1667153729472 (Not Found) (content in /tmp/fhir-http-4.log))</td></tr>
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
- <tr><td>Summary:</td><td> errors = 197, warn = 29, info = 12, broken links = 0</td></tr>
+ <tr><td>Summary:</td><td> errors = 197, warn = 28, info = 12, broken links = 0</td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -93,7 +93,7 @@
      <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-PPLManufacturedItemDefinition"><b>/github/workspace/fsh-generated/resources/StructureDefinition-PPLManufacturedItemDefinition</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-PPLMedicinalProductDefinition"><b>/github/workspace/fsh-generated/resources/StructureDefinition-PPLMedicinalProductDefinition</b></a></td><td><b>0</b></td><td><b>5</b></td><td><b>8</b></td>
+     <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-PPLMedicinalProductDefinition"><b>/github/workspace/fsh-generated/resources/StructureDefinition-PPLMedicinalProductDefinition</b></a></td><td><b>0</b></td><td><b>4</b></td><td><b>8</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-PPLOrganization"><b>/github/workspace/fsh-generated/resources/StructureDefinition-PPLOrganization</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>0</b></td>
@@ -861,40 +861,37 @@
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition</b></td><td><b>warning</b></td><td title="Rule sdf-29: 'Elements in Resources must have a min cardinality or 0 or 1 and a max cardinality of 1 or *' Failed"><b>Rule sdf-29: 'Elements in Resources must have a min cardinality or 0 or 1 and a max cardinality of 1 or *' Failed</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
      <td><b>StructureDefinition.snapshot.element[0]</b></td><td><b>warning</b></td><td title="Rule eld-27: 'Mappings SHOULD be unique by key' Failed"><b>Rule eld-27: 'Mappings SHOULD be unique by key' Failed</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
      <td><b>StructureDefinition.snapshot.element[29].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000000004/terms' is unknown so the code cannot be validated</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition.snapshot.element[108]</b></td><td><b>warning</b></td><td title="Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed"><b>Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed</b></td>
+     <td><b>StructureDefinition.snapshot.element[117]</b></td><td><b>warning</b></td><td title="Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed"><b>Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b>StructureDefinition.snapshot.element[119].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated</b></td>
+     <td><b>StructureDefinition.snapshot.element[128].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b>StructureDefinition.snapshot.element[125].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated</b></td>
+     <td><b>StructureDefinition.snapshot.element[134].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b>StructureDefinition.snapshot.element[131].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated</b></td>
+     <td><b>StructureDefinition.snapshot.element[140].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
      <td><b>StructureDefinition.differential.element[6].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000000004/terms' is unknown so the code cannot be validated</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition.differential.element[16]</b></td><td><b>warning</b></td><td title="Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed"><b>Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>StructureDefinition.differential.element[18].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>StructureDefinition.differential.element[20].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated</b></td>
+     <td><b>StructureDefinition.differential.element[20]</b></td><td><b>warning</b></td><td title="Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed"><b>Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
      <td><b>StructureDefinition.differential.element[22].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>StructureDefinition.differential.element[24].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>StructureDefinition.differential.element[26].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>StructureDefinition.where(url = 'http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
