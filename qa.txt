@@ -1,18 +1,18 @@
 ﻿UnicomIG : Validation Results
 =========================================
 
-err = 210, warn = 30, info = 48
+err = 206, warn = 27, info = 48
 IG Publisher Version: 1.2.12
-Generated Sun Oct 30 21:51:49 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhir.unicom#0.1.0 (canonical = http://unicom-project.eu/fhir)
+Generated Sun Oct 30 22:05:33 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhir.unicom#0.1.0 (canonical = http://unicom-project.eu/fhir)
  Build Errors : 0 / 9 / 0
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-Agen-5mg-Tablet-EE-APD : 0 / 0 / 4
  /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.unicom : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Ingredient-Agen-5mg-Tablet-EE-I : 0 / 0 / 8
  /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-Agen-5mg-Tablet-EE-MID : 0 / 0 / 3
- /github/workspace/fsh-generated/resources/MedicinalProductDefinition-Agen-5mg-Tablet-EE-MPD : 9 / 1 / 12
+ /github/workspace/fsh-generated/resources/MedicinalProductDefinition-Agen-5mg-Tablet-EE-MPD : 9 / 0 / 12
  /github/workspace/fsh-generated/resources/Organization-LOC-100002580-Zentiva : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/PackagedProductDefinition-Agen-5mg-Tablet-EE-PPD-1109887-A : 2 / 1 / 6
- /github/workspace/fsh-generated/resources/PackagedProductDefinition-Agen-5mg-Tablet-EE-PPD-1109887-B : 2 / 1 / 6
+ /github/workspace/fsh-generated/resources/PackagedProductDefinition-Agen-5mg-Tablet-EE-PPD-1109887-A : 0 / 0 / 6
+ /github/workspace/fsh-generated/resources/PackagedProductDefinition-Agen-5mg-Tablet-EE-PPD-1109887-B : 0 / 0 / 6
  /github/workspace/fsh-generated/resources/RegulatedAuthorization-Agen-5mg-Tablet-EE-RA : 0 / 0 / 6
  /github/workspace/fsh-generated/resources/StructureDefinition-CD : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-DT : 0 / 1 / 1
@@ -74,7 +74,6 @@ ERROR: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefini
 ERROR: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.name[0].part[1]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice MedicinalProductDefinition.name.part:doseForm in profile http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
 ERROR: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.name[0].part[2]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice MedicinalProductDefinition.name.part:doseForm in profile http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
 INFORMATION: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.name[0]: MedicinalProductDefinition.name.part:invented: Found 0 matches, but unable to check minimum required (MedicinalProductDefinition.name.part) due to lack of slicing validation (from http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition)
-WARNING: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.name[0].productName: value should not start or finish with whitespace 'Agen,...tabletid '
 INFORMATION: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.name[0].part[0].type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated
 INFORMATION: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.name[0].part[1].type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated
 INFORMATION: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.name[0].part[2].type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated
@@ -82,19 +81,13 @@ INFORMATION: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProduct
 INFORMATION: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.name[0].usage[0].language.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000072057/terms' is unknown so the code cannot be validated
 == fsh-generated/resources/Organization-LOC-100002580-Zentiva.json ==
 == fsh-generated/resources/PackagedProductDefinition-Agen-5mg-Tablet-EE-PPD-1109887-A.json ==
-WARNING: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A: PackagedProductDefinition.containedItemQuantity[0]: A code with no system has no defined meaning. A system should be provided
-ERROR: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A: PackagedProductDefinition.containedItemQuantity[0]: Rule qty-3: 'If a code for the unit is present, the system SHALL also be present' Failed
-ERROR: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A: PackagedProductDefinition.description.extension[0]: The extension http://ema.europa.eu/fhir/extension/language is unknown, and not allowed here
-INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A: PackagedProductDefinition.description.extension[0].value.ofType(Coding): Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000072057/terms' is unknown so the code cannot be validated
+INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A: PackagedProductDefinition.containedItemQuantity[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/200000000014/terms' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A: PackagedProductDefinition.marketingStatus[0].country.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000000002/terms' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A: PackagedProductDefinition.marketingStatus[0].status.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000072052/terms' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A: PackagedProductDefinition.packaging.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000073346/terms' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A: PackagedProductDefinition.packaging.material[0].coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/200000003199/terms' is unknown so the code cannot be validated
 == fsh-generated/resources/PackagedProductDefinition-Agen-5mg-Tablet-EE-PPD-1109887-B.json ==
-WARNING: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B: PackagedProductDefinition.containedItemQuantity[0]: A code with no system has no defined meaning. A system should be provided
-ERROR: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B: PackagedProductDefinition.containedItemQuantity[0]: Rule qty-3: 'If a code for the unit is present, the system SHALL also be present' Failed
-ERROR: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B: PackagedProductDefinition.description.extension[0]: The extension http://ema.europa.eu/fhir/extension/language is unknown, and not allowed here
-INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B: PackagedProductDefinition.description.extension[0].value.ofType(Coding): Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000072057/terms' is unknown so the code cannot be validated
+INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B: PackagedProductDefinition.containedItemQuantity[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/200000000014/terms' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B: PackagedProductDefinition.marketingStatus[0].country.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000000002/terms' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B: PackagedProductDefinition.marketingStatus[0].status.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000072052/terms' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B: PackagedProductDefinition.packaging.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000073346/terms' is unknown so the code cannot be validated
