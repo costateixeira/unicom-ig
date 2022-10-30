@@ -11,7 +11,7 @@
   <name value="UnicomIG"/>
   <title value="UnicomIG"/>
   <status value="draft"/>
-  <date value="2022-10-30T20:04:00+00:00"/>
+  <date value="2022-10-30T21:50:47+00:00"/>
   <publisher value="UNICOM"/>
   <contact>
     <name value="UNICOM"/>
@@ -408,6 +408,96 @@
       <name value="Medicinal Product"/>
       <description value="Medicinal Product"/>
       <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD"/>
+      </reference>
+      <name value="Agen-5mg-Tablet-EE-APD"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Agen-5mg-Tablet-EE-I"/>
+      </reference>
+      <name value="Agen-5mg-Tablet-EE-I"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID"/>
+      </reference>
+      <name value="Agen-5mg-Tablet-EE-MID"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD"/>
+      </reference>
+      <name value="Agen-5mg-Tablet-EE-MPD"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A"/>
+      </reference>
+      <name value="Agen-5mg-Tablet-EE-PPD-1109887-A"/>
+      <description value="Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged)."/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B"/>
+      </reference>
+      <name value="Agen-5mg-Tablet-EE-PPD-1109887-B"/>
+      <description value="Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged)."/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Agen-5mg-Tablet-EE-RA"/>
+      </reference>
+      <name value="Agen-5mg-Tablet-EE-RA"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/LOC-100002580-Zentiva"/>
+      </reference>
+      <name value="LOC-100002580-Zentiva"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"/>
     </resource>
     <page>
       <sourceUrl value="toc.html"/>

@@ -10,7 +10,7 @@
   "name": "UnicomIG",
   "title": "UnicomIG",
   "status": "draft",
-  "date": "2022-10-30T20:04:00+00:00",
+  "date": "2022-10-30T21:50:47+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -590,6 +590,136 @@
         "name": "Medicinal Product",
         "description": "Medicinal Product",
         "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD"
+        },
+        "name": "Agen-5mg-Tablet-EE-APD",
+        "profile": [
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition",
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Agen-5mg-Tablet-EE-I"
+        },
+        "name": "Agen-5mg-Tablet-EE-I",
+        "profile": [
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient",
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID"
+        },
+        "name": "Agen-5mg-Tablet-EE-MID",
+        "profile": [
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition",
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD"
+        },
+        "name": "Agen-5mg-Tablet-EE-MPD",
+        "profile": [
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition",
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A"
+        },
+        "name": "Agen-5mg-Tablet-EE-PPD-1109887-A",
+        "description": "Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged).",
+        "profile": [
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition",
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B"
+        },
+        "name": "Agen-5mg-Tablet-EE-PPD-1109887-B",
+        "description": "Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged).",
+        "profile": [
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition",
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Agen-5mg-Tablet-EE-RA"
+        },
+        "name": "Agen-5mg-Tablet-EE-RA",
+        "profile": [
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization",
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/LOC-100002580-Zentiva"
+        },
+        "name": "LOC-100002580-Zentiva",
+        "profile": [
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization",
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
+        ]
       }
     ],
     "page": {

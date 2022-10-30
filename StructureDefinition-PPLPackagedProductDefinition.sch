@@ -15,7 +15,6 @@
       <sch:assert test="count(f:packageFor) &gt;= 1">packageFor: minimum cardinality of 'packageFor' is 1</sch:assert>
       <sch:assert test="count(f:containedItemQuantity) &gt;= 1">containedItemQuantity: minimum cardinality of 'containedItemQuantity' is 1</sch:assert>
       <sch:assert test="count(f:description) &gt;= 1">description: minimum cardinality of 'description' is 1</sch:assert>
-      <sch:assert test="count(f:legalStatusOfSupply) &gt;= 1">legalStatusOfSupply: minimum cardinality of 'legalStatusOfSupply' is 1</sch:assert>
       <sch:assert test="count(f:legalStatusOfSupply) &lt;= 1">legalStatusOfSupply: maximum cardinality of 'legalStatusOfSupply' is 1</sch:assert>
       <sch:assert test="count(f:packaging) &gt;= 1">packaging: minimum cardinality of 'packaging' is 1</sch:assert>
     </sch:rule>

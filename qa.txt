@@ -1,23 +1,31 @@
 ﻿UnicomIG : Validation Results
 =========================================
 
-err = 197, warn = 28, info = 12
+err = 210, warn = 30, info = 48
 IG Publisher Version: 1.2.12
-Generated Sun Oct 30 20:04:56 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhir.unicom#0.1.0 (canonical = http://unicom-project.eu/fhir)
- Build Errors : 0 / 3 / 0
+Generated Sun Oct 30 21:51:49 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhir.unicom#0.1.0 (canonical = http://unicom-project.eu/fhir)
+ Build Errors : 0 / 9 / 0
+ /github/workspace/fsh-generated/resources/AdministrableProductDefinition-Agen-5mg-Tablet-EE-APD : 0 / 0 / 4
  /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.unicom : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Ingredient-Agen-5mg-Tablet-EE-I : 0 / 0 / 8
+ /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-Agen-5mg-Tablet-EE-MID : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/MedicinalProductDefinition-Agen-5mg-Tablet-EE-MPD : 9 / 1 / 12
+ /github/workspace/fsh-generated/resources/Organization-LOC-100002580-Zentiva : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/PackagedProductDefinition-Agen-5mg-Tablet-EE-PPD-1109887-A : 2 / 1 / 6
+ /github/workspace/fsh-generated/resources/PackagedProductDefinition-Agen-5mg-Tablet-EE-PPD-1109887-B : 2 / 1 / 6
+ /github/workspace/fsh-generated/resources/RegulatedAuthorization-Agen-5mg-Tablet-EE-RA : 0 / 0 / 6
  /github/workspace/fsh-generated/resources/StructureDefinition-CD : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-DT : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-FullMedicinalProduct : 197 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-II : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-MPDBundle : 0 / 2 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-PPLAdministrableProductDefinition : 0 / 1 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-PPLIngredient : 0 / 1 / 3
- /github/workspace/fsh-generated/resources/StructureDefinition-PPLManufacturedItemDefinition : 0 / 1 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-PPLMedicinalProductDefinition : 0 / 4 / 9
- /github/workspace/fsh-generated/resources/StructureDefinition-PPLOrganization : 0 / 2 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-PPLPackagedProductDefinition : 0 / 1 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-PPLRegulatedAuthorization : 0 / 1 / 3
+ /github/workspace/fsh-generated/resources/StructureDefinition-PPLAdministrableProductDefinition : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-PPLIngredient : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/StructureDefinition-PPLManufacturedItemDefinition : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-PPLMedicinalProductDefinition : 0 / 3 / 9
+ /github/workspace/fsh-generated/resources/StructureDefinition-PPLOrganization : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-PPLPackagedProductDefinition : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-PPLRegulatedAuthorization : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/StructureDefinition-QT : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-ST : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-TS : 0 / 1 / 1
@@ -25,10 +33,76 @@ Generated Sun Oct 30 20:04:56 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhi
  /github/workspace/fsh-generated/resources/StructureDefinition-untyped : 0 / 2 / 1
 </table>
 == n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Ingredient/Agen-5mg-Tablet-EE-I.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource RegulatedAuthorization/Agen-5mg-Tablet-EE-RA.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/LOC-100002580-Zentiva.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 3: The HTML fragment 'dependency-table.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/AdministrableProductDefinition-Agen-5mg-Tablet-EE-APD.json ==
+INFORMATION: AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD: AdministrableProductDefinition.administrableDoseForm.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/200000000004/terms' is unknown so the code cannot be validated
+INFORMATION: AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD: AdministrableProductDefinition.unitOfPresentation.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/200000000014/terms' is unknown so the code cannot be validated
+INFORMATION: AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD: AdministrableProductDefinition.routeOfAdministration[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000073345/terms' is unknown so the code cannot be validated
 == fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.unicom.json ==
+== fsh-generated/resources/Ingredient-Agen-5mg-Tablet-EE-I.json ==
+INFORMATION: Ingredient/Agen-5mg-Tablet-EE-I: Ingredient.role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000072050/terms' is unknown so the code cannot be validated
+INFORMATION: Ingredient/Agen-5mg-Tablet-EE-I: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://spor.ema.europa.eu/v2/SubstanceDefinition' is unknown so the code cannot be validated
+INFORMATION: Ingredient/Agen-5mg-Tablet-EE-I: Ingredient.substance.strength[0].presentation.ofType(Ratio).numerator: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000110633/terms' is unknown so the code cannot be validated
+INFORMATION: Ingredient/Agen-5mg-Tablet-EE-I: Ingredient.substance.strength[0].presentation.ofType(Ratio).denominator: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/200000000014/terms' is unknown so the code cannot be validated
+INFORMATION: Ingredient/Agen-5mg-Tablet-EE-I: Ingredient.substance.strength[0].referenceStrength[0].substance.concept.coding[0]: Code System URI 'https://spor.ema.europa.eu/v2/SubstanceDefinition' is unknown so the code cannot be validated
+INFORMATION: Ingredient/Agen-5mg-Tablet-EE-I: Ingredient.substance.strength[0].referenceStrength[0].strength.ofType(Ratio).numerator: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000110633/terms' is unknown so the code cannot be validated
+INFORMATION: Ingredient/Agen-5mg-Tablet-EE-I: Ingredient.substance.strength[0].referenceStrength[0].strength.ofType(Ratio).denominator: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/200000000014/terms' is unknown so the code cannot be validated
+== fsh-generated/resources/ManufacturedItemDefinition-Agen-5mg-Tablet-EE-MID.json ==
+INFORMATION: ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID: ManufacturedItemDefinition.manufacturedDoseForm.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/200000000004/terms' is unknown so the code cannot be validated
+INFORMATION: ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID: ManufacturedItemDefinition.unitOfPresentation.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/200000000014/terms' is unknown so the code cannot be validated
+== fsh-generated/resources/MedicinalProductDefinition-Agen-5mg-Tablet-EE-MPD.json ==
+INFORMATION: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.domain.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000000004/terms' is unknown so the code cannot be validated
+INFORMATION: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.status.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/200000005003/terms' is unknown so the code cannot be validated
+INFORMATION: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.combinedPharmaceuticalDoseForm.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/200000000004/terms' is unknown so the code cannot be validated
+INFORMATION: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.legalStatusOfSupply.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000072051/terms' is unknown so the code cannot be validated
+INFORMATION: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.classification[0].coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000093533/terms' is unknown so the code cannot be validated
+ERROR: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.name[0].part[0]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice MedicinalProductDefinition.name.part:invented in profile http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.name[0].part[1]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice MedicinalProductDefinition.name.part:invented in profile http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.name[0].part[2]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice MedicinalProductDefinition.name.part:invented in profile http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.name[0].part[0]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice MedicinalProductDefinition.name.part:strength in profile http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.name[0].part[1]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice MedicinalProductDefinition.name.part:strength in profile http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.name[0].part[2]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice MedicinalProductDefinition.name.part:strength in profile http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.name[0].part[0]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice MedicinalProductDefinition.name.part:doseForm in profile http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.name[0].part[1]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice MedicinalProductDefinition.name.part:doseForm in profile http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.name[0].part[2]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice MedicinalProductDefinition.name.part:doseForm in profile http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+INFORMATION: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.name[0]: MedicinalProductDefinition.name.part:invented: Found 0 matches, but unable to check minimum required (MedicinalProductDefinition.name.part) due to lack of slicing validation (from http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition)
+WARNING: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.name[0].productName: value should not start or finish with whitespace 'Agen,...tabletid '
+INFORMATION: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.name[0].part[0].type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated
+INFORMATION: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.name[0].part[1].type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated
+INFORMATION: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.name[0].part[2].type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated
+INFORMATION: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.name[0].usage[0].country.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000000002/terms' is unknown so the code cannot be validated
+INFORMATION: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.name[0].usage[0].language.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000072057/terms' is unknown so the code cannot be validated
+== fsh-generated/resources/Organization-LOC-100002580-Zentiva.json ==
+== fsh-generated/resources/PackagedProductDefinition-Agen-5mg-Tablet-EE-PPD-1109887-A.json ==
+WARNING: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A: PackagedProductDefinition.containedItemQuantity[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A: PackagedProductDefinition.containedItemQuantity[0]: Rule qty-3: 'If a code for the unit is present, the system SHALL also be present' Failed
+ERROR: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A: PackagedProductDefinition.description.extension[0]: The extension http://ema.europa.eu/fhir/extension/language is unknown, and not allowed here
+INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A: PackagedProductDefinition.description.extension[0].value.ofType(Coding): Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000072057/terms' is unknown so the code cannot be validated
+INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A: PackagedProductDefinition.marketingStatus[0].country.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000000002/terms' is unknown so the code cannot be validated
+INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A: PackagedProductDefinition.marketingStatus[0].status.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000072052/terms' is unknown so the code cannot be validated
+INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A: PackagedProductDefinition.packaging.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000073346/terms' is unknown so the code cannot be validated
+INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A: PackagedProductDefinition.packaging.material[0].coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/200000003199/terms' is unknown so the code cannot be validated
+== fsh-generated/resources/PackagedProductDefinition-Agen-5mg-Tablet-EE-PPD-1109887-B.json ==
+WARNING: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B: PackagedProductDefinition.containedItemQuantity[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B: PackagedProductDefinition.containedItemQuantity[0]: Rule qty-3: 'If a code for the unit is present, the system SHALL also be present' Failed
+ERROR: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B: PackagedProductDefinition.description.extension[0]: The extension http://ema.europa.eu/fhir/extension/language is unknown, and not allowed here
+INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B: PackagedProductDefinition.description.extension[0].value.ofType(Coding): Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000072057/terms' is unknown so the code cannot be validated
+INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B: PackagedProductDefinition.marketingStatus[0].country.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000000002/terms' is unknown so the code cannot be validated
+INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B: PackagedProductDefinition.marketingStatus[0].status.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000072052/terms' is unknown so the code cannot be validated
+INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B: PackagedProductDefinition.packaging.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000073346/terms' is unknown so the code cannot be validated
+INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B: PackagedProductDefinition.packaging.material[0].coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/200000003199/terms' is unknown so the code cannot be validated
+== fsh-generated/resources/RegulatedAuthorization-Agen-5mg-Tablet-EE-RA.json ==
+INFORMATION: RegulatedAuthorization/Agen-5mg-Tablet-EE-RA: RegulatedAuthorization.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000060/terms' is unknown so the code cannot be validated
+INFORMATION: RegulatedAuthorization/Agen-5mg-Tablet-EE-RA: RegulatedAuthorization.region[0].coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000000002/terms' is unknown so the code cannot be validated
+INFORMATION: RegulatedAuthorization/Agen-5mg-Tablet-EE-RA: RegulatedAuthorization.status.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000072049/terms' is unknown so the code cannot be validated
 == fsh-generated/resources/StructureDefinition-CD.json ==
 WARNING: StructureDefinition.where(url = 'http://unicom-project.eu/fhir/StructureDefinition/CD'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-DT.json ==
@@ -239,13 +313,10 @@ WARNING: StructureDefinition.where(url = 'http://unicom-project.eu/fhir/Structur
 WARNING: StructureDefinition/MPDBundle: StructureDefinition.snapshot.element[0]: Rule eld-27: 'Mappings SHOULD be unique by key' Failed
 WARNING: StructureDefinition.where(url = 'http://unicom-project.eu/fhir/StructureDefinition/MPDBundle'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-PPLAdministrableProductDefinition.json ==
-WARNING: StructureDefinition.where(url = 'http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-PPLIngredient.json ==
 INFORMATION: StructureDefinition/PPLIngredient: StructureDefinition.snapshot.element[12].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000072050/terms' is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/PPLIngredient: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000072050/terms' is unknown so the code cannot be validated
-WARNING: StructureDefinition.where(url = 'http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-PPLManufacturedItemDefinition.json ==
-WARNING: StructureDefinition.where(url = 'http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-PPLMedicinalProductDefinition.json ==
 WARNING: StructureDefinition/PPLMedicinalProductDefinition: StructureDefinition.snapshot.element[0]: Rule eld-27: 'Mappings SHOULD be unique by key' Failed
 INFORMATION: StructureDefinition/PPLMedicinalProductDefinition: StructureDefinition.snapshot.element[29].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000000004/terms' is unknown so the code cannot be validated
@@ -258,16 +329,12 @@ WARNING: StructureDefinition/PPLMedicinalProductDefinition: StructureDefinition.
 INFORMATION: StructureDefinition/PPLMedicinalProductDefinition: StructureDefinition.differential.element[22].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/PPLMedicinalProductDefinition: StructureDefinition.differential.element[24].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/PPLMedicinalProductDefinition: StructureDefinition.differential.element[26].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated
-WARNING: StructureDefinition.where(url = 'http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-PPLOrganization.json ==
 WARNING: StructureDefinition/PPLOrganization: StructureDefinition.snapshot.element[0]: Rule eld-27: 'Mappings SHOULD be unique by key' Failed
-WARNING: StructureDefinition.where(url = 'http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-PPLPackagedProductDefinition.json ==
-WARNING: StructureDefinition.where(url = 'http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-PPLRegulatedAuthorization.json ==
 INFORMATION: StructureDefinition/PPLRegulatedAuthorization: StructureDefinition.snapshot.element[19].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000060/terms' is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/PPLRegulatedAuthorization: StructureDefinition.differential.element[4].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000060/terms' is unknown so the code cannot be validated
-WARNING: StructureDefinition.where(url = 'http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-QT.json ==
 WARNING: StructureDefinition.where(url = 'http://unicom-project.eu/fhir/StructureDefinition/QT'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-ST.json ==

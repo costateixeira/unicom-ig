@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "UnicomIG"];
   fhir:ImplementationGuide.title [ fhir:value "UnicomIG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-10-30T20:04:00+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-10-30T21:50:47+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "UNICOM"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -573,6 +573,176 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medicinal Product" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Medicinal Product" ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "AdministrableProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD>;
+         fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Agen-5mg-Tablet-EE-APD" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition";
+         fhir:index 0;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition>
+       ], [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition";
+         fhir:index 1;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition>
+       ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/Ingredient/Agen-5mg-Tablet-EE-I>;
+         fhir:Reference.reference [ fhir:value "Ingredient/Agen-5mg-Tablet-EE-I" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Agen-5mg-Tablet-EE-I" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient";
+         fhir:index 0;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient>
+       ], [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient";
+         fhir:index 1;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient>
+       ]
+     ], [
+       fhir:index 19;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ManufacturedItemDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID>;
+         fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Agen-5mg-Tablet-EE-MID" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition";
+         fhir:index 0;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition>
+       ], [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition";
+         fhir:index 1;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition>
+       ]
+     ], [
+       fhir:index 20;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicinalProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD>;
+         fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Agen-5mg-Tablet-EE-MPD" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition";
+         fhir:index 0;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition>
+       ], [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition";
+         fhir:index 1;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition>
+       ]
+     ], [
+       fhir:index 21;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PackagedProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A>;
+         fhir:Reference.reference [ fhir:value "PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Agen-5mg-Tablet-EE-PPD-1109887-A" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged)." ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition";
+         fhir:index 0;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition>
+       ], [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition";
+         fhir:index 1;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition>
+       ]
+     ], [
+       fhir:index 22;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PackagedProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B>;
+         fhir:Reference.reference [ fhir:value "PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Agen-5mg-Tablet-EE-PPD-1109887-B" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged)." ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition";
+         fhir:index 0;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition>
+       ], [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition";
+         fhir:index 1;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition>
+       ]
+     ], [
+       fhir:index 23;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "RegulatedAuthorization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/RegulatedAuthorization/Agen-5mg-Tablet-EE-RA>;
+         fhir:Reference.reference [ fhir:value "RegulatedAuthorization/Agen-5mg-Tablet-EE-RA" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Agen-5mg-Tablet-EE-RA" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization";
+         fhir:index 0;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization>
+       ], [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization";
+         fhir:index 1;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization>
+       ]
+     ], [
+       fhir:index 24;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/Organization/LOC-100002580-Zentiva>;
+         fhir:Reference.reference [ fhir:value "Organization/LOC-100002580-Zentiva" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "LOC-100002580-Zentiva" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization";
+         fhir:index 0;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization>
+       ], [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization";
+         fhir:index 1;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization>
+       ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:ImplementationGuide.definition.page.sourceUrl [ fhir:value "toc.html" ];
