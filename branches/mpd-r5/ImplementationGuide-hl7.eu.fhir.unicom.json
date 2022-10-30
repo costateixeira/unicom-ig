@@ -10,7 +10,7 @@
   "name": "UnicomIG",
   "title": "UnicomIG",
   "status": "draft",
-  "date": "2022-10-30T22:04:36+00:00",
+  "date": "2022-10-30T22:13:17+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -666,7 +666,7 @@
           "reference": "PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A"
         },
         "name": "Agen-5mg-Tablet-EE-PPD-1109887-A",
-        "description": "Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged).",
+        "description": "Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged).",
         "profile": [
           "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition",
           "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
@@ -683,7 +683,7 @@
           "reference": "PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B"
         },
         "name": "Agen-5mg-Tablet-EE-PPD-1109887-B",
-        "description": "Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged).",
+        "description": "Tabletid on pakendatud PVC/Al blistritesse (valged).",
         "profile": [
           "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition",
           "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
