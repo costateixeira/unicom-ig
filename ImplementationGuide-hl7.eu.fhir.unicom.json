@@ -10,7 +10,7 @@
   "name": "UnicomIG",
   "title": "UnicomIG",
   "status": "draft",
-  "date": "2022-10-30T22:13:17+00:00",
+  "date": "2022-11-02T06:16:24+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -709,6 +709,262 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD"
+        },
+        "name": "CanifugCremolum-100mg-Pessary-EE-APD",
+        "profile": [
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition",
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/CanifugCremolum-100mg-Pessary-EE-I"
+        },
+        "name": "CanifugCremolum-100mg-Pessary-EE-I",
+        "profile": [
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient",
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID"
+        },
+        "name": "CanifugCremolum-100mg-Pessary-EE-MID",
+        "profile": [
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition",
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD"
+        },
+        "name": "CanifugCremolum-10mg1g-Cream-EE-APD",
+        "profile": [
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition",
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/CanifugCremolum-10mg1g-Cream-EE-I"
+        },
+        "name": "CanifugCremolum-10mg1g-Cream-EE-I",
+        "profile": [
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient",
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID"
+        },
+        "name": "CanifugCremolum-10mg1g-Cream-EE-MID",
+        "profile": [
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition",
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/CanifugCremolum-EE-MPD"
+        },
+        "name": "CanifugCremolum-EE-MPD",
+        "profile": [
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition",
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692"
+        },
+        "name": "CanifugCremolum-EE-PPD-1033692",
+        "description": "Alu/PE-fooliumist valmistatud ribapakend, mis on asetatud väliskarpi. Kreem on alumiiniumtuubis ja omakorda pappkarbis. Kombineeritud pakend sisaldab: 6 vaginaalsuposiiti ja 20 g kreemi",
+        "profile": [
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition",
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/CanifugCremolum-EE-RA"
+        },
+        "name": "CanifugCremolum-EE-RA",
+        "profile": [
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization",
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD"
+        },
+        "name": "Cefuroxime-MIP-1500mg-EE-APD",
+        "profile": [
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition",
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Cefuroxime-MIP-1500mg-EE-I"
+        },
+        "name": "Cefuroxime-MIP-1500mg-EE-I",
+        "isExample": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID"
+        },
+        "name": "Cefuroxime-MIP-1500mg-EE-MID",
+        "profile": [
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition",
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD"
+        },
+        "name": "Cefuroxime-MIP-1500mg-EE-MPD",
+        "profile": [
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition",
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529940"
+        },
+        "name": "Cefuroxime-MIP-1500mg-EE-PPD-1529940",
+        "description": "I tüüpi klaasist viaal, mis on suletud klorobutüülkummist korgi ning flip-off kattega, 1 viaal",
+        "profile": [
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition",
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962"
+        },
+        "name": "Cefuroxime-MIP-1500mg-EE-PPD-1529962",
+        "description": "I tüüpi klaasist viaal, mis on suletud klorobutüülkummist korgi ning flip-off kattega, 10 viaali",
+        "profile": [
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition",
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Cefuroxime-MIP-1500mg-EE-RA"
+        },
+        "name": "Cefuroxime-MIP-1500mg-EE-RA",
+        "profile": [
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization",
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Organization"
           }
         ],
@@ -716,6 +972,38 @@
           "reference": "Organization/LOC-100002580-Zentiva"
         },
         "name": "LOC-100002580-Zentiva",
+        "profile": [
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization",
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/LOC-100004795-Wolff-Arzneimittel"
+        },
+        "name": "LOC-100004795-Wolff-Arzneimittel",
+        "profile": [
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization",
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/LOC-100009199-Mip"
+        },
+        "name": "LOC-100009199-Mip",
         "profile": [
           "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization",
           "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
