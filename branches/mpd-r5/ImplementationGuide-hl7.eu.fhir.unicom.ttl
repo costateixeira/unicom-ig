@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "UnicomIG"];
   fhir:ImplementationGuide.title [ fhir:value "UnicomIG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-10-30T22:13:17+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-11-02T06:16:24+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "UNICOM"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -727,6 +727,337 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "AdministrableProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD>;
+         fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CanifugCremolum-100mg-Pessary-EE-APD" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition";
+         fhir:index 0;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition>
+       ], [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition";
+         fhir:index 1;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition>
+       ]
+     ], [
+       fhir:index 25;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/Ingredient/CanifugCremolum-100mg-Pessary-EE-I>;
+         fhir:Reference.reference [ fhir:value "Ingredient/CanifugCremolum-100mg-Pessary-EE-I" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CanifugCremolum-100mg-Pessary-EE-I" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient";
+         fhir:index 0;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient>
+       ], [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient";
+         fhir:index 1;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient>
+       ]
+     ], [
+       fhir:index 26;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ManufacturedItemDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID>;
+         fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CanifugCremolum-100mg-Pessary-EE-MID" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition";
+         fhir:index 0;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition>
+       ], [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition";
+         fhir:index 1;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition>
+       ]
+     ], [
+       fhir:index 27;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "AdministrableProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD>;
+         fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CanifugCremolum-10mg1g-Cream-EE-APD" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition";
+         fhir:index 0;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition>
+       ], [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition";
+         fhir:index 1;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition>
+       ]
+     ], [
+       fhir:index 28;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/Ingredient/CanifugCremolum-10mg1g-Cream-EE-I>;
+         fhir:Reference.reference [ fhir:value "Ingredient/CanifugCremolum-10mg1g-Cream-EE-I" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CanifugCremolum-10mg1g-Cream-EE-I" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient";
+         fhir:index 0;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient>
+       ], [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient";
+         fhir:index 1;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient>
+       ]
+     ], [
+       fhir:index 29;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ManufacturedItemDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID>;
+         fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CanifugCremolum-10mg1g-Cream-EE-MID" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition";
+         fhir:index 0;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition>
+       ], [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition";
+         fhir:index 1;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition>
+       ]
+     ], [
+       fhir:index 30;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicinalProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/MedicinalProductDefinition/CanifugCremolum-EE-MPD>;
+         fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/CanifugCremolum-EE-MPD" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CanifugCremolum-EE-MPD" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition";
+         fhir:index 0;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition>
+       ], [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition";
+         fhir:index 1;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition>
+       ]
+     ], [
+       fhir:index 31;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PackagedProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692>;
+         fhir:Reference.reference [ fhir:value "PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CanifugCremolum-EE-PPD-1033692" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Alu/PE-fooliumist valmistatud ribapakend, mis on asetatud väliskarpi. Kreem on alumiiniumtuubis ja omakorda pappkarbis. Kombineeritud pakend sisaldab: 6 vaginaalsuposiiti ja 20 g kreemi" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition";
+         fhir:index 0;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition>
+       ], [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition";
+         fhir:index 1;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition>
+       ]
+     ], [
+       fhir:index 32;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "RegulatedAuthorization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/RegulatedAuthorization/CanifugCremolum-EE-RA>;
+         fhir:Reference.reference [ fhir:value "RegulatedAuthorization/CanifugCremolum-EE-RA" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CanifugCremolum-EE-RA" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization";
+         fhir:index 0;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization>
+       ], [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization";
+         fhir:index 1;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization>
+       ]
+     ], [
+       fhir:index 33;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "AdministrableProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD>;
+         fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Cefuroxime-MIP-1500mg-EE-APD" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition";
+         fhir:index 0;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition>
+       ], [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition";
+         fhir:index 1;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition>
+       ]
+     ], [
+       fhir:index 34;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/Ingredient/Cefuroxime-MIP-1500mg-EE-I>;
+         fhir:Reference.reference [ fhir:value "Ingredient/Cefuroxime-MIP-1500mg-EE-I" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Cefuroxime-MIP-1500mg-EE-I" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 35;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ManufacturedItemDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID>;
+         fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Cefuroxime-MIP-1500mg-EE-MID" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition";
+         fhir:index 0;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition>
+       ], [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition";
+         fhir:index 1;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition>
+       ]
+     ], [
+       fhir:index 36;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicinalProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD>;
+         fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Cefuroxime-MIP-1500mg-EE-MPD" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition";
+         fhir:index 0;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition>
+       ], [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition";
+         fhir:index 1;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition>
+       ]
+     ], [
+       fhir:index 37;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PackagedProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529940>;
+         fhir:Reference.reference [ fhir:value "PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529940" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Cefuroxime-MIP-1500mg-EE-PPD-1529940" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "I tüüpi klaasist viaal, mis on suletud klorobutüülkummist korgi ning flip-off kattega, 1 viaal" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition";
+         fhir:index 0;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition>
+       ], [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition";
+         fhir:index 1;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition>
+       ]
+     ], [
+       fhir:index 38;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PackagedProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962>;
+         fhir:Reference.reference [ fhir:value "PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Cefuroxime-MIP-1500mg-EE-PPD-1529962" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "I tüüpi klaasist viaal, mis on suletud klorobutüülkummist korgi ning flip-off kattega, 10 viaali" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition";
+         fhir:index 0;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition>
+       ], [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition";
+         fhir:index 1;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition>
+       ]
+     ], [
+       fhir:index 39;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "RegulatedAuthorization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/RegulatedAuthorization/Cefuroxime-MIP-1500mg-EE-RA>;
+         fhir:Reference.reference [ fhir:value "RegulatedAuthorization/Cefuroxime-MIP-1500mg-EE-RA" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Cefuroxime-MIP-1500mg-EE-RA" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization";
+         fhir:index 0;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization>
+       ], [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization";
+         fhir:index 1;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization>
+       ]
+     ], [
+       fhir:index 40;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Organization" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -734,6 +1065,48 @@
          fhir:Reference.reference [ fhir:value "Organization/LOC-100002580-Zentiva" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "LOC-100002580-Zentiva" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization";
+         fhir:index 0;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization>
+       ], [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization";
+         fhir:index 1;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization>
+       ]
+     ], [
+       fhir:index 41;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/Organization/LOC-100004795-Wolff-Arzneimittel>;
+         fhir:Reference.reference [ fhir:value "Organization/LOC-100004795-Wolff-Arzneimittel" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "LOC-100004795-Wolff-Arzneimittel" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization";
+         fhir:index 0;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization>
+       ], [
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization";
+         fhir:index 1;
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization>
+       ]
+     ], [
+       fhir:index 42;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/Organization/LOC-100009199-Mip>;
+         fhir:Reference.reference [ fhir:value "Organization/LOC-100009199-Mip" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "LOC-100009199-Mip" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization";
          fhir:index 0;
