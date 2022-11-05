@@ -14,7 +14,6 @@
     <sch:rule context="f:AdministrableProductDefinition">
       <sch:assert test="count(f:formOf) &gt;= 1">formOf: minimum cardinality of 'formOf' is 1</sch:assert>
       <sch:assert test="count(f:administrableDoseForm) &gt;= 1">administrableDoseForm: minimum cardinality of 'administrableDoseForm' is 1</sch:assert>
-      <sch:assert test="count(f:unitOfPresentation) &gt;= 1">unitOfPresentation: minimum cardinality of 'unitOfPresentation' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
