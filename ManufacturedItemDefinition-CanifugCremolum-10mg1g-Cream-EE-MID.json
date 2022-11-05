@@ -1,0 +1,32 @@
+{
+  "resourceType": "ManufacturedItemDefinition",
+  "id": "CanifugCremolum-10mg1g-Cream-EE-MID",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"CanifugCremolum-10mg1g-Cream-EE-MID\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition \"CanifugCremolum-10mg1g-Cream-EE-MID\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLManufacturedItemDefinition.html\">PPL Manufactured Item profile</a></p></div><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Cream <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (terms#100000073712)</span></p><p><b>unitOfPresentation</b>: Tube <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (terms#200000002156)</span></p></div>"
+  },
+  "status": "active",
+  "manufacturedDoseForm": {
+    "coding": [
+      {
+        "system": "https://spor.ema.europa.eu/rmswi/#/lists/200000000004/terms",
+        "code": "100000073712",
+        "display": "Cream"
+      }
+    ]
+  },
+  "unitOfPresentation": {
+    "coding": [
+      {
+        "system": "https://spor.ema.europa.eu/rmswi/#/lists/200000000014/terms",
+        "code": "200000002156",
+        "display": "Tube"
+      }
+    ]
+  }
+}
