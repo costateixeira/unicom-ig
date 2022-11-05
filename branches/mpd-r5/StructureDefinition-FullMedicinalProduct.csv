@@ -255,8 +255,8 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","National ID","National ID","","","","","","","","","",,,,,"",,,,"FullMedicinalProduct.pharmaceuticalProduct.identifier.nationalId",0,*,"",""
 "FullMedicinalProduct.pharmaceuticalProduct.administrableDoseForm","FullMedicinalProduct.pharmaceuticalProduct.administrableDoseForm","","","",1,1,"","","","Element {[CanonicalType[http://unicom-project.eu/fhir/StructureDefinition/CD]]} {[]}
 ","Administrable Dose Form","Administrable Dose Form","","","","","","","","","",,,,,"",,,,"FullMedicinalProduct.pharmaceuticalProduct.administrableDoseForm",1,1,"",""
-"FullMedicinalProduct.pharmaceuticalProduct.unitOfPresentation","FullMedicinalProduct.pharmaceuticalProduct.unitOfPresentation","","","",1,1,"","","","Element {[CanonicalType[http://unicom-project.eu/fhir/StructureDefinition/CD]]} {[]}
-","Unit of presentation","Unit of presentation","","","","","","","","","",,,,,"",,,,"FullMedicinalProduct.pharmaceuticalProduct.unitOfPresentation",1,1,"",""
+"FullMedicinalProduct.pharmaceuticalProduct.unitOfPresentation","FullMedicinalProduct.pharmaceuticalProduct.unitOfPresentation","","","",0,1,"","","","Element {[CanonicalType[http://unicom-project.eu/fhir/StructureDefinition/CD]]} {[]}
+","Unit of presentation","Unit of presentation","","","","","","","","","",,,,,"",,,,"FullMedicinalProduct.pharmaceuticalProduct.unitOfPresentation",0,1,"",""
 "FullMedicinalProduct.pharmaceuticalProduct.routeOfAdministration","FullMedicinalProduct.pharmaceuticalProduct.routeOfAdministration","","","",0,*,"","","","Element {[CanonicalType[http://unicom-project.eu/fhir/StructureDefinition/CD]]} {[]}
 ","Route of administration","Route of administration","","","","","","","","","",,,,,"",,,,"FullMedicinalProduct.pharmaceuticalProduct.routeOfAdministration",0,*,"",""
 "FullMedicinalProduct.pharmaceuticalProduct.ingredient","FullMedicinalProduct.pharmaceuticalProduct.ingredient","","","",1,*,"","","","BackboneElement {[CanonicalType[http://unicom-project.eu/fhir/StructureDefinition/class]]} {[]}
