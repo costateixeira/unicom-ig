@@ -10,7 +10,7 @@
   "name": "UnicomIG",
   "title": "UnicomIG",
   "status": "draft",
-  "date": "2022-11-06T21:19:48+00:00",
+  "date": "2022-11-06T22:26:11+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -32,6 +32,12 @@
   "dependsOn": [
     {
       "id": "hl7tx",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
+          "valueMarkdown": "Automatically added as a dependency - all IGs depend on HL7 Terminology"
+        }
+      ],
       "uri": "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
       "packageId": "hl7.terminology.r5",
       "version": "4.0.0"
@@ -595,6 +601,34 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/authorised-doseform-vs"
+        },
+        "name": "Authorised Dose Form",
+        "description": "Value set for authorised dose form. Combines 4 SPOR/EDQM lists: Pharmaceutical dose form, Combined pharmaceutical dose form, Combined term, Combination package.",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/combination-package-ema-cs"
+        },
+        "name": "Combination Package EMA",
+        "description": "Dose forms for combination packages. Based on EDQM. Re-coded with RMS codes. Only used for authorised dose form.",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "CodeSystem"
           }
         ],
@@ -603,6 +637,20 @@
         },
         "name": "Combined Pharmaceutical Dose Form EMA",
         "description": "Combined Pharmaceutical Dose Form. Based on EDQM. Re-coded with RMS codes. Used only for authorised dose form.",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/combined-term-ema-cs"
+        },
+        "name": "Combined Term EMA",
+        "description": "Combined Term. Based on EDQM. Re-coded with RMS codes. Only used for authorised dose form.",
         "isExample": false
       },
       {

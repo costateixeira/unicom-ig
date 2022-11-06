@@ -11,7 +11,7 @@
   <name value="UnicomIG"/>
   <title value="UnicomIG"/>
   <status value="draft"/>
-  <date value="2022-11-06T21:19:48+00:00"/>
+  <date value="2022-11-06T22:26:11+00:00"/>
   <publisher value="UNICOM"/>
   <contact>
     <name value="UNICOM"/>
@@ -25,6 +25,9 @@
   <license value="CC0-1.0"/>
   <fhirVersion value="5.0.0-ballot"/>
   <dependsOn id="hl7tx">
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+      <valueMarkdown value="Automatically added as a dependency - all IGs depend on HL7 Terminology"/>
+    </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r5"/>
     <version value="4.0.0"/>
@@ -411,6 +414,28 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/authorised-doseform-vs"/>
+      </reference>
+      <name value="Authorised Dose Form"/>
+      <description value="Value set for authorised dose form. Combines 4 SPOR/EDQM lists: Pharmaceutical dose form, Combined pharmaceutical dose form, Combined term, Combination package."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/combination-package-ema-cs"/>
+      </reference>
+      <name value="Combination Package EMA"/>
+      <description value="Dose forms for combination packages. Based on EDQM. Re-coded with RMS codes. Only used for authorised dose form."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -418,6 +443,17 @@
       </reference>
       <name value="Combined Pharmaceutical Dose Form EMA"/>
       <description value="Combined Pharmaceutical Dose Form. Based on EDQM. Re-coded with RMS codes. Used only for authorised dose form."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/combined-term-ema-cs"/>
+      </reference>
+      <name value="Combined Term EMA"/>
+      <description value="Combined Term. Based on EDQM. Re-coded with RMS codes. Only used for authorised dose form."/>
       <isExample value="false"/>
     </resource>
     <resource>

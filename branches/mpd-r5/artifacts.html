@@ -157,10 +157,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <a href="#3">Structures: Data Type Profiles</a>
       </li>
       <li>
-         <a href="#4">Terminology: Code Systems</a>
+         <a href="#4">Terminology: Value Sets</a>
       </li>
       <li>
-         <a href="#5">Example: Example Instances</a>
+         <a href="#5">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#6">Example: Example Instances</a>
       </li>
    </ul>
 </div>
@@ -351,6 +354,27 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       </table>
    </p>
    <a name="4"> </a>
+   <h3>Terminology: Value Sets </h3>
+   <p>
+    <p>These define sets of codes used by systems conforming to this implementation guide</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-authorised-doseform-vs.html"
+                     title="ValueSet/authorised-doseform-vs">Authorised Dose Form</a>
+               </td>
+               <td>
+<p>Value set for authorised dose form. Combines 4 SPOR/EDQM lists: Pharmaceutical dose form, Combined pharmaceutical dose form, Combined term, Combination package.</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="5"> </a>
    <h3>Terminology: Code Systems </h3>
    <p>
     <p>These define new code systems used by systems conforming to this implementation guide</p>
@@ -361,11 +385,29 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
+                  <a href="CodeSystem-combination-package-ema-cs.html"
+                     title="CodeSystem/combination-package-ema-cs">Combination Package EMA</a>
+               </td>
+               <td>
+<p>Dose forms for combination packages. Based on EDQM. Re-coded with RMS codes. Only used for authorised dose form.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="CodeSystem-combined-pharmaceutical-dose-form-ema-cs.html"
                      title="CodeSystem/combined-pharmaceutical-dose-form-ema-cs">Combined Pharmaceutical Dose Form EMA</a>
                </td>
                <td>
 <p>Combined Pharmaceutical Dose Form. Based on EDQM. Re-coded with RMS codes. Used only for authorised dose form.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-combined-term-ema-cs.html"
+                     title="CodeSystem/combined-term-ema-cs">Combined Term EMA</a>
+               </td>
+               <td>
+<p>Combined Term. Based on EDQM. Re-coded with RMS codes. Only used for authorised dose form.</p>
 </td>
             </tr>
             <tr>
@@ -380,7 +422,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tbody>
       </table>
    </p>
-   <a name="5"> </a>
+   <a name="6"> </a>
    <h3>Example: Example Instances </h3>
    <p>
     <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like</p>
@@ -650,7 +692,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://medigree.net">UNICOM</a>.  Package hl7.eu.fhir.unicom#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 5.0.0-ballot</a>. Generated <span title="Sun, Nov 6, 2022 21:19+0000">2022-11-06</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://medigree.net">UNICOM</a>.  Package hl7.eu.fhir.unicom#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 5.0.0-ballot</a>. Generated <span title="Sun, Nov 6, 2022 22:26+0000">2022-11-06</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <div style="color: #33333" >
