@@ -6,7 +6,7 @@
     <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b><a name="CanifugCremolum-EE-PPD-1033692"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition "CanifugCremolum-EE-PPD-1033692" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-PPLPackagedProductDefinition.html">PPL Packaged Product profile</a></p></div><p><b>identifier</b>: id: EE-100004795-10280-1033692</p><p><b>packageFor</b>: <a href="MedicinalProductDefinition-CanifugCremolum-EE-MPD.html">MedicinalProductDefinition/CanifugCremolum-EE-MPD</a></p><p><b>containedItemQuantity</b>: 6 Pessary<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/rmswi/#/lists/200000000014/terms code 200000002137 = '200000002137')</span>, 1 Tube<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/rmswi/#/lists/200000000014/terms code 200000002156 = '200000002156')</span></p><p><b>description</b>: Alu/PE-fooliumist valmistatud ribapakend, mis on asetatud väliskarpi. Kreem on alumiiniumtuubis ja omakorda pappkarbis. Kombineeritud pakend sisaldab: 6 vaginaalsuposiiti ja 20 g kreemi</p><h3>MarketingStatuses</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (terms#100000000388)</span></td><td>Marketed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (terms#100000072083)</span></td></tr></table><blockquote><p><b>packaging</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (terms#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (terms#200000003529)</span></p><blockquote><p><b>packaging</b></p><p><b>type</b>: Strip <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (terms#100000073559)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Aluminium <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (terms#200000003200)</span>, PolyEthylene <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (terms#200000003214)</span></p></blockquote><blockquote><p><b>packaging</b></p><p><b>type</b>: Tube <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (terms#100000073346)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Aluminium <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (terms#200000003200)</span></p></blockquote></blockquote></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b><a name="CanifugCremolum-EE-PPD-1033692"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition "CanifugCremolum-EE-PPD-1033692" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-PPLPackagedProductDefinition.html">PPL Packaged Product profile</a></p></div><p><b>identifier</b>: id: EE-100004795-10280-1033692</p><p><b>packageFor</b>: <a href="MedicinalProductDefinition-CanifugCremolum-EE-MPD.html">MedicinalProductDefinition/CanifugCremolum-EE-MPD</a></p><p><b>containedItemQuantity</b>: 6 Pessary<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002137 = '200000002137')</span>, 1 Tube<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002156 = '200000002156')</span></p><p><b>description</b>: Alu/PE-fooliumist valmistatud ribapakend, mis on asetatud väliskarpi. Kreem on alumiiniumtuubis ja omakorda pappkarbis. Kombineeritud pakend sisaldab: 6 vaginaalsuposiiti ja 20 g kreemi</p><h3>MarketingStatuses</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000388)</span></td><td>Marketed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>packaging</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003529)</span></p><blockquote><p><b>packaging</b></p><p><b>type</b>: Strip <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073559)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Aluminium <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003200)</span>, PolyEthylene <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003214)</span></p></blockquote><blockquote><p><b>packaging</b></p><p><b>type</b>: Tube <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073346)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Aluminium <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003200)</span></p></blockquote></blockquote></div>
   </text>
   <identifier>
     <system value="http://ema.europa.eu/example/pcid"/>
@@ -18,27 +18,27 @@
   <containedItemQuantity>
     <value value="6"/>
     <unit value="Pessary"/>
-    <system value="https://spor.ema.europa.eu/rmswi/#/lists/200000000014/terms"/>
+    <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
     <code value="200000002137"/>
   </containedItemQuantity>
   <containedItemQuantity>
     <value value="1"/>
     <unit value="Tube"/>
-    <system value="https://spor.ema.europa.eu/rmswi/#/lists/200000000014/terms"/>
+    <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
     <code value="200000002156"/>
   </containedItemQuantity>
   <description value="Alu/PE-fooliumist valmistatud ribapakend, mis on asetatud väliskarpi. Kreem on alumiiniumtuubis ja omakorda pappkarbis. Kombineeritud pakend sisaldab: 6 vaginaalsuposiiti ja 20 g kreemi"/>
   <marketingStatus>
     <country>
       <coding>
-        <system value="https://spor.ema.europa.eu/rmswi/#/lists/100000000002/terms"/>
+        <system value="http://spor.ema.europa.eu/v1/lists/100000000002"/>
         <code value="100000000388"/>
         <display value="Republic of Estonia"/>
       </coding>
     </country>
     <status>
       <coding>
-        <system value="https://spor.ema.europa.eu/rmswi/#/lists/100000072052/terms"/>
+        <system value="http://spor.ema.europa.eu/v1/lists/100000072052"/>
         <code value="100000072083"/>
         <display value="Marketed"/>
       </coding>
@@ -47,7 +47,7 @@
   <packaging>
     <type>
       <coding>
-        <system value="https://spor.ema.europa.eu/rmswi/#/lists/100000073346/terms"/>
+        <system value="http://spor.ema.europa.eu/v1/lists/100000073346"/>
         <code value="100000073498"/>
         <display value="Box"/>
       </coding>
@@ -55,7 +55,7 @@
     <quantity value="1"/>
     <material>
       <coding>
-        <system value="https://spor.ema.europa.eu/rmswi/#/lists/200000003199/terms"/>
+        <system value="http://spor.ema.europa.eu/v1/lists/200000003199"/>
         <code value="200000003529"/>
         <display value="Cardboard"/>
       </coding>
@@ -63,7 +63,7 @@
     <packaging>
       <type>
         <coding>
-          <system value="https://spor.ema.europa.eu/rmswi/#/lists/100000073346/terms"/>
+          <system value="http://spor.ema.europa.eu/v1/lists/100000073346"/>
           <code value="100000073559"/>
           <display value="Strip"/>
         </coding>
@@ -71,14 +71,14 @@
       <quantity value="1"/>
       <material>
         <coding>
-          <system value="https://spor.ema.europa.eu/rmswi/#/lists/200000003199/terms"/>
+          <system value="http://spor.ema.europa.eu/v1/lists/200000003199"/>
           <code value="200000003200"/>
           <display value="Aluminium"/>
         </coding>
       </material>
       <material>
         <coding>
-          <system value="https://spor.ema.europa.eu/rmswi/#/lists/200000003199/terms"/>
+          <system value="http://spor.ema.europa.eu/v1/lists/200000003199"/>
           <code value="200000003214"/>
           <display value="PolyEthylene"/>
         </coding>
@@ -97,7 +97,7 @@
     <packaging>
       <type>
         <coding>
-          <system value="https://spor.ema.europa.eu/rmswi/#/lists/100000073346/terms"/>
+          <system value="http://spor.ema.europa.eu/v1/lists/100000073346"/>
           <code value="100000073346"/>
           <display value="Tube"/>
         </coding>
@@ -105,7 +105,7 @@
       <quantity value="1"/>
       <material>
         <coding>
-          <system value="https://spor.ema.europa.eu/rmswi/#/lists/200000003199/terms"/>
+          <system value="http://spor.ema.europa.eu/v1/lists/200000003199"/>
           <code value="200000003200"/>
           <display value="Aluminium"/>
         </coding>
@@ -119,7 +119,7 @@
         <amount>
           <value value="20"/>
           <unit value="gram(s)"/>
-          <system value="https://spor.ema.europa.eu/rmswi/#/lists/100000110633/terms"/>
+          <system value="http://spor.ema.europa.eu/v1/lists/100000110633"/>
           <code value="100000110654"/>
         </amount>
       </containedItem>
