@@ -7,6 +7,27 @@
     "name": "PharmaceuticalDoseForm-EMA-CS"
   },
   {
+    "id": "combined-pharmaceutical-dose-form-ema-cs",
+    "type": "CodeSystem",
+    "url": "http://spor.ema.europa.eu/v1/lists/200000000006",
+    "version": "0.1.0",
+    "name": "CombinedPharmaceuticalDoseForm-EMA-CS"
+  },
+  {
+    "id": "combined-term-ema-cs",
+    "type": "CodeSystem",
+    "url": "http://spor.ema.europa.eu/v1/lists/200000000007",
+    "version": "0.1.0",
+    "name": "CombinedTerm-EMA-CS"
+  },
+  {
+    "id": "combination-package-ema-cs",
+    "type": "CodeSystem",
+    "url": "http://spor.ema.europa.eu/v1/lists/200000000008",
+    "version": "0.1.0",
+    "name": "CombinationPackage-EMA-CS"
+  },
+  {
     "id": "hl7.eu.fhir.unicom",
     "type": "ImplementationGuide",
     "url": "http://unicom-project.eu/fhir/ImplementationGuide/hl7.eu.fhir.unicom",
@@ -133,10 +154,10 @@
     "name": "untyped"
   },
   {
-    "id": "combined-pharmaceutical-dose-form-ema-cs",
-    "type": "CodeSystem",
-    "url": "https://spor.ema.europa.eu/v1/lists/200000000006",
+    "id": "authorised-doseform-vs",
+    "type": "ValueSet",
+    "url": "http://unicom-project.eu/fhir/ValueSet/authorised-doseform-vs",
     "version": "0.1.0",
-    "name": "CombinedPharmaceuticalDoseForm-EMA-CS"
+    "name": "AuthorisedDoseForm"
   }
 ]
