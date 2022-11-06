@@ -38,7 +38,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Reference to the medicinal product, pharmaceutical product and/or manufactured item where the ingredient is used","The product which this ingredient is a constituent part of.","","","","","","","","","",,,,,"",,,,"Ingredient.for",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","n/a"
 "Ingredient.role","Ingredient.role","","","",1,1,"","","Y","CodeableConcept {[]} {[]}
-","Purpose of the ingredient within the product, e.g. active, inactive","A classification of the ingredient identifying its purpose within the product, e.g. active, inactive.","","","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
+","Purpose of the ingredient within the product, e.g. active, inactive","EMA IG 5.1","","","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
     <system value=""https://spor.ema.europa.eu/rmswi/#/lists/100000072050/terms""/>
     <code value=""100000072072""/>
@@ -77,7 +77,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","An organization that manufactures this ingredient","An organization that manufactures this ingredient.","","","","","","","","","",,,,,"",,,,"Ingredient.manufacturer.manufacturer",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Ingredient.Manufacturer / Establishment (Organisation)"
 "Ingredient.substance","Ingredient.substance","","","",1,1,"","","Y","BackboneElement {[]} {[]}
-","Substance code from EMA SMS","The substance that comprises this ingredient.","","","","","","","","","",,,,,"",,,,"Ingredient.substance",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Substance code from EMA SMS","EMA IG 5.5","","","","","","","","","",,,,,"",,,,"Ingredient.substance",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Ingredient.Substance"
 "Ingredient.substance.id","Ingredient.substance.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -143,7 +143,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Reference to a resource (by instance)","A reference to a resource the provides exact details about the information being referenced.","","","","","","","","","",,,,,"",,,,"CodeableReference.reference",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Ingredient.substance.strength","Ingredient.substance.strength","","","",1,*,"","","Y","BackboneElement {[]} {[]}
-","The quantity of substance, per presentation, or per volume or mass, and type of quantity","The quantity of substance in the unit of presentation, or in the volume (or mass) of the single pharmaceutical product or manufactured item. The allowed repetitions do not represent different strengths, but are different representations - mathematically equivalent - of a single strength.","","","","","","","","","",,,,,"",,,,"Ingredient.substance.strength",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","The quantity of substance, per presentation, or per volume or mass, and type of quantity","EMA IG 5.5.2","","","","","","","","","",,,,,"",,,,"Ingredient.substance.strength",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Specified Substance.Strength"
 "Ingredient.substance.strength.id","Ingredient.substance.strength.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -162,7 +162,7 @@ RatioRange {[]} {[]}CodeableConcept {[]} {[]}Quantity {[]} {[]}","The quantity o
 ","",,"open","Ingredient.substance.strength.presentation[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Strength.Strength (Presentation)"
 "Ingredient.substance.strength.presentation[x]:presentationRatio","Ingredient.substance.strength.presentation[x]","presentationRatio","","",0,1,"","","Y","Ratio {[]} {[]}
-","Strength per unit of presentation (10mg/vial or 10mg/0.5ml where 0.5ml is the size of the vial)","The quantity of substance in the unit of presentation, or in the volume (or mass) of the single pharmaceutical product or manufactured item. Unit of presentation refers to the quantity that the item occurs in e.g. a strength per tablet size, perhaps 'per 20mg' (the size of the tablet). It is not generally normalized as a unitary unit, which would be 'per mg').","","","","","","","","","",,,,,"",,,,"Ingredient.substance.strength.presentation[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Strength per unit of presentation (10mg/vial or 10mg/0.5ml where 0.5ml is the size of the vial)","EMA IG 5.5.2","","","","","","","","","",,,,,"",,,,"Ingredient.substance.strength.presentation[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Strength.Strength (Presentation)"
 "Ingredient.substance.strength.presentation[x]:presentationRatio.id","Ingredient.substance.strength.presentation[x].id","","","",0,1,"","","","id {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -231,7 +231,7 @@ RatioRange {[]} {[]}CodeableConcept {[]} {[]}Quantity {[]} {[]}","The strength p
 ","",,"open","Ingredient.substance.strength.concentration[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Strength.Strength (Concentration)"
 "Ingredient.substance.strength.concentration[x]:concentrationRatio","Ingredient.substance.strength.concentration[x]","concentrationRatio","","",0,1,"","","Y","Ratio {[]} {[]}
-","Strength per unit of measurement (20mg/1ml)","The strength per unitary volume (or mass).","","","","","","","","","",,,,,"",,,,"Ingredient.substance.strength.concentration[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Strength per unit of measurement (20mg/1ml)","EMA IG 5.5.2","","","","","","","","","",,,,,"",,,,"Ingredient.substance.strength.concentration[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Strength.Strength (Concentration)"
 "Ingredient.substance.strength.concentration[x]:concentrationRatio.id","Ingredient.substance.strength.concentration[x].id","","","",0,1,"","","","id {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -305,7 +305,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Where the strength range applies","The country or countries for which the strength range applies.","","","","","","","","","",,"example","Jurisdiction codes","http://hl7.org/fhir/ValueSet/country","",,,,"Ingredient.substance.strength.country",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Strength.Country"
 "Ingredient.substance.strength.referenceStrength","Ingredient.substance.strength.referenceStrength","","","",0,*,"","","Y","BackboneElement {[]} {[]}
-","Strenth expressed in terms of a reference substance; concentration and presentation strength or reference strength type not distinguished.","Strength expressed in terms of a reference substance. For when the ingredient strength is additionally expressed as equivalent to the strength of some other closely related substance (e.g. salt vs. base). Reference strength represents the strength (quantitative composition) of the active moiety of the active substance. There are situations when the active substance and active moiety are different, therefore both a strength and a reference strength are needed.","","","","","","","","","",,,,,"",,,,"Ingredient.substance.strength.referenceStrength",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Strenth expressed in terms of a reference substance; concentration and presentation strength or reference strength type not distinguished.","EMA IG 5.5.3","","","","","","","","","",,,,,"",,,,"Ingredient.substance.strength.referenceStrength",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Strength.Reference Strength"
 "Ingredient.substance.strength.referenceStrength.id","Ingredient.substance.strength.referenceStrength.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

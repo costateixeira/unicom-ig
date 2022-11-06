@@ -3,7 +3,7 @@
 
 err = 216, warn = 42, info = 120
 IG Publisher Version: 1.2.12
-Generated Sat Nov 05 15:36:26 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhir.unicom#0.1.0 (canonical = http://unicom-project.eu/fhir)
+Generated Sun Nov 06 17:04:25 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhir.unicom#0.1.0 (canonical = http://unicom-project.eu/fhir)
  Build Errors : 0 / 24 / 0
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-Agen-5mg-Tablet-EE-APD : 0 / 0 / 4
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-CanifugCremolum-100mg-Pessary-EE-APD : 0 / 0 / 4
@@ -451,10 +451,10 @@ INFORMATION: StructureDefinition/PPLMedicinalProductDefinition: StructureDefinit
 INFORMATION: StructureDefinition/PPLMedicinalProductDefinition: StructureDefinition.snapshot.element[134].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/PPLMedicinalProductDefinition: StructureDefinition.snapshot.element[140].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/PPLMedicinalProductDefinition: StructureDefinition.differential.element[6].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/100000000004/terms' is unknown so the code cannot be validated
-WARNING: StructureDefinition/PPLMedicinalProductDefinition: StructureDefinition.differential.element[20]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed
-INFORMATION: StructureDefinition/PPLMedicinalProductDefinition: StructureDefinition.differential.element[22].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated
+WARNING: StructureDefinition/PPLMedicinalProductDefinition: StructureDefinition.differential.element[22]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed
 INFORMATION: StructureDefinition/PPLMedicinalProductDefinition: StructureDefinition.differential.element[24].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/PPLMedicinalProductDefinition: StructureDefinition.differential.element[26].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/PPLMedicinalProductDefinition: StructureDefinition.differential.element[28].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/#/lists/220000000000/terms' is unknown so the code cannot be validated
 == fsh-generated/resources/StructureDefinition-PPLOrganization.json ==
 WARNING: StructureDefinition/PPLOrganization: StructureDefinition.snapshot.element[0]: Rule eld-27: 'Mappings SHOULD be unique by key' Failed
 == fsh-generated/resources/StructureDefinition-PPLPackagedProductDefinition.json ==
