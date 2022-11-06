@@ -10,7 +10,7 @@
   "name": "UnicomIG",
   "title": "UnicomIG",
   "status": "draft",
-  "date": "2022-11-06T17:03:22+00:00",
+  "date": "2022-11-06T21:19:48+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -589,6 +589,34 @@
         },
         "name": "Medicinal Product",
         "description": "Medicinal Product",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/combined-pharmaceutical-dose-form-ema-cs"
+        },
+        "name": "Combined Pharmaceutical Dose Form EMA",
+        "description": "Combined Pharmaceutical Dose Form. Based on EDQM. Re-coded with RMS codes. Used only for authorised dose form.",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/pharmaceutical-dose-form-ema-cs"
+        },
+        "name": "Pharmaceutical Dose Form EMA",
+        "description": "Pharmaceutical dose form. Based on EDQM, re-coded with RMS codes.",
         "isExample": false
       },
       {

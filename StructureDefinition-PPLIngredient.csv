@@ -40,7 +40,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Ingredient.role","Ingredient.role","","","",1,1,"","","Y","CodeableConcept {[]} {[]}
 ","Purpose of the ingredient within the product, e.g. active, inactive","EMA IG 5.1","","","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""https://spor.ema.europa.eu/rmswi/#/lists/100000072050/terms""/>
+    <system value=""http://spor.ema.europa.eu/v1/lists/100000072050""/>
     <code value=""100000072072""/>
     <display value=""Active""/>
   </coding>
@@ -191,7 +191,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Unit representation","A human-readable form of the unit.","","There are many representations for units of measure and in many contexts, particular representations are fixed and required. I.e. mcg for micrograms.","","","","","","","",,,,,"",,,,"Quantity.unit",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","PQ.unit"
 "Ingredient.substance.strength.presentation[x]:presentationRatio.numerator.system","Ingredient.substance.strength.presentation[x].numerator.system","","","",1,1,"","","Y","uri {[]} {[]}
-","System that defines coded unit form","The identification of the system that provides the coded form of the unit.","","Need to know the system that defines the coded form of the unit.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""https://spor.ema.europa.eu/rmswi/#/lists/100000110633/terms""/>","","","",,,,,"",,,,"Quantity.system",0,1,"qty-3
+","System that defines coded unit form","The identification of the system that provides the coded form of the unit.","","Need to know the system that defines the coded form of the unit.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://spor.ema.europa.eu/v1/lists/100000110633""/>","","","",,,,,"",,,,"Quantity.system",0,1,"qty-3
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","CO.codeSystem, PQ.translation.codeSystem"
 "Ingredient.substance.strength.presentation[x]:presentationRatio.numerator.code","Ingredient.substance.strength.presentation[x].numerator.code","","","",0,1,"","","Y","code {[]} {[]}
@@ -217,7 +217,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Unit representation","A human-readable form of the unit.","","There are many representations for units of measure and in many contexts, particular representations are fixed and required. I.e. mcg for micrograms.","","","","","","","",,,,,"",,,,"Quantity.unit",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","PQ.unit"
 "Ingredient.substance.strength.presentation[x]:presentationRatio.denominator.system","Ingredient.substance.strength.presentation[x].denominator.system","","","",1,1,"","","Y","uri {[]} {[]}
-","System that defines coded unit form","The identification of the system that provides the coded form of the unit.","","Need to know the system that defines the coded form of the unit.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""https://spor.ema.europa.eu/rmswi/#/lists/200000000014/terms""/>","","","",,,,,"",,,,"Quantity.system",0,1,"qty-3
+","System that defines coded unit form","The identification of the system that provides the coded form of the unit.","","Need to know the system that defines the coded form of the unit.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://spor.ema.europa.eu/v1/lists/200000000014""/>","","","",,,,,"",,,,"Quantity.system",0,1,"qty-3
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","CO.codeSystem, PQ.translation.codeSystem"
 "Ingredient.substance.strength.presentation[x]:presentationRatio.denominator.code","Ingredient.substance.strength.presentation[x].denominator.code","","","",0,1,"","","Y","code {[]} {[]}
@@ -260,7 +260,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Unit representation","A human-readable form of the unit.","","There are many representations for units of measure and in many contexts, particular representations are fixed and required. I.e. mcg for micrograms.","","","","","","","",,,,,"",,,,"Quantity.unit",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","PQ.unit"
 "Ingredient.substance.strength.concentration[x]:concentrationRatio.numerator.system","Ingredient.substance.strength.concentration[x].numerator.system","","","",1,1,"","","Y","uri {[]} {[]}
-","System that defines coded unit form","The identification of the system that provides the coded form of the unit.","","Need to know the system that defines the coded form of the unit.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""https://spor.ema.europa.eu/rmswi/#/lists/100000110633/terms""/>","","","",,,,,"",,,,"Quantity.system",0,1,"qty-3
+","System that defines coded unit form","The identification of the system that provides the coded form of the unit.","","Need to know the system that defines the coded form of the unit.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://spor.ema.europa.eu/v1/lists/100000110633""/>","","","",,,,,"",,,,"Quantity.system",0,1,"qty-3
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","CO.codeSystem, PQ.translation.codeSystem"
 "Ingredient.substance.strength.concentration[x]:concentrationRatio.numerator.code","Ingredient.substance.strength.concentration[x].numerator.code","","","",0,1,"","","Y","code {[]} {[]}
@@ -286,7 +286,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Unit representation","A human-readable form of the unit.","","There are many representations for units of measure and in many contexts, particular representations are fixed and required. I.e. mcg for micrograms.","","","","","","","",,,,,"",,,,"Quantity.unit",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","PQ.unit"
 "Ingredient.substance.strength.concentration[x]:concentrationRatio.denominator.system","Ingredient.substance.strength.concentration[x].denominator.system","","","",1,1,"","","Y","uri {[]} {[]}
-","System that defines coded unit form","The identification of the system that provides the coded form of the unit.","","Need to know the system that defines the coded form of the unit.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""https://spor.ema.europa.eu/rmswi/#/lists/100000110633/terms""/>","","","",,,,,"",,,,"Quantity.system",0,1,"qty-3
+","System that defines coded unit form","The identification of the system that provides the coded form of the unit.","","Need to know the system that defines the coded form of the unit.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://spor.ema.europa.eu/v1/lists/100000110633""/>","","","",,,,,"",,,,"Quantity.system",0,1,"qty-3
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","CO.codeSystem, PQ.translation.codeSystem"
 "Ingredient.substance.strength.concentration[x]:concentrationRatio.denominator.code","Ingredient.substance.strength.concentration[x].denominator.code","","","",0,1,"","","Y","code {[]} {[]}
@@ -404,7 +404,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Unit representation","A human-readable form of the unit.","","There are many representations for units of measure and in many contexts, particular representations are fixed and required. I.e. mcg for micrograms.","","","","","","","",,,,,"",,,,"Quantity.unit",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","PQ.unit"
 "Ingredient.substance.strength.referenceStrength.strength[x]:strengthRatio.numerator.system","Ingredient.substance.strength.referenceStrength.strength[x].numerator.system","","","",1,1,"","","Y","uri {[]} {[]}
-","System that defines coded unit form","The identification of the system that provides the coded form of the unit.","","Need to know the system that defines the coded form of the unit.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""https://spor.ema.europa.eu/rmswi/#/lists/100000110633/terms""/>","","","",,,,,"",,,,"Quantity.system",0,1,"qty-3
+","System that defines coded unit form","The identification of the system that provides the coded form of the unit.","","Need to know the system that defines the coded form of the unit.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://spor.ema.europa.eu/v1/lists/100000110633""/>","","","",,,,,"",,,,"Quantity.system",0,1,"qty-3
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","CO.codeSystem, PQ.translation.codeSystem"
 "Ingredient.substance.strength.referenceStrength.strength[x]:strengthRatio.numerator.code","Ingredient.substance.strength.referenceStrength.strength[x].numerator.code","","","",0,1,"","","Y","code {[]} {[]}
@@ -430,7 +430,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Unit representation","A human-readable form of the unit.","","There are many representations for units of measure and in many contexts, particular representations are fixed and required. I.e. mcg for micrograms.","","","","","","","",,,,,"",,,,"Quantity.unit",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","PQ.unit"
 "Ingredient.substance.strength.referenceStrength.strength[x]:strengthRatio.denominator.system","Ingredient.substance.strength.referenceStrength.strength[x].denominator.system","","","",1,1,"","","Y","uri {[]} {[]}
-","System that defines coded unit form","The identification of the system that provides the coded form of the unit.","","Need to know the system that defines the coded form of the unit.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""https://spor.ema.europa.eu/rmswi/#/lists/200000000014/terms""/>","","","",,,,,"",,,,"Quantity.system",0,1,"qty-3
+","System that defines coded unit form","The identification of the system that provides the coded form of the unit.","","Need to know the system that defines the coded form of the unit.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://spor.ema.europa.eu/v1/lists/200000000014""/>","","","",,,,,"",,,,"Quantity.system",0,1,"qty-3
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","CO.codeSystem, PQ.translation.codeSystem"
 "Ingredient.substance.strength.referenceStrength.strength[x]:strengthRatio.denominator.code","Ingredient.substance.strength.referenceStrength.strength[x].denominator.code","","","",0,1,"","","Y","code {[]} {[]}

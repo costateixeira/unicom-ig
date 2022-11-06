@@ -17,7 +17,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"Agen-5mg-Tablet-EE-RA\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization \"Agen-5mg-Tablet-EE-RA\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLRegulatedAuthorization.html\">PPL Marketing Authorisation profile</a></p></div><p><b>identifier</b>: id: 418303</p><p><b>subject</b>: <a href=\"MedicinalProductDefinition-Agen-5mg-Tablet-EE-MPD.html\">MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (terms#220000000061)</span></p><p><b>region</b>: Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (terms#100000000388)</span></p><p><b>status</b>: Valid - Renewed/Varied <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (terms#200000017708)</span></p><p><b>statusDate</b>: 2013-06-07</p><p><b>holder</b>: <a name=\"LOC-100002580-Zentiva\"> </a></p><blockquote><p></p><p><a name=\"LOC-100002580-Zentiva\"> </a></p><p><b>identifier</b>: id: LOC-100002580</p><p><b>name</b>: Zentiva k.s.</p></blockquote></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"Agen-5mg-Tablet-EE-RA\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization \"Agen-5mg-Tablet-EE-RA\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLRegulatedAuthorization.html\">PPL Marketing Authorisation profile</a></p></div><p><b>identifier</b>: id: 418303</p><p><b>subject</b>: <a href=\"MedicinalProductDefinition-Agen-5mg-Tablet-EE-MPD.html\">MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000060#220000000061)</span></p><p><b>region</b>: Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000388)</span></p><p><b>status</b>: Valid - Renewed/Varied <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072049#200000017708)</span></p><p><b>statusDate</b>: 2013-06-07</p><p><b>holder</b>: <a name=\"LOC-100002580-Zentiva\"> </a></p><blockquote><p></p><p><a name=\"LOC-100002580-Zentiva\"> </a></p><p><b>identifier</b>: id: LOC-100002580</p><p><b>name</b>: Zentiva k.s.</p></blockquote></div>"
   ];
   fhir:DomainResource.contained [
      a fhir:Organization;
@@ -49,7 +49,7 @@
   fhir:RegulatedAuthorization.type [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/#/lists/220000000060/terms" ];
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/220000000060" ];
        fhir:Coding.code [ fhir:value "220000000061" ];
        fhir:Coding.display [ fhir:value "Marketing Authorisation" ]
      ]
@@ -58,7 +58,7 @@
      fhir:index 0;
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/#/lists/100000000002/terms" ];
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000002" ];
        fhir:Coding.code [ fhir:value "100000000388" ];
        fhir:Coding.display [ fhir:value "Republic of Estonia" ]
      ]
@@ -66,7 +66,7 @@
   fhir:RegulatedAuthorization.status [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/#/lists/100000072049/terms" ];
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072049" ];
        fhir:Coding.code [ fhir:value "200000017708" ];
        fhir:Coding.display [ fhir:value "Valid - Renewed/Varied" ]
      ]
