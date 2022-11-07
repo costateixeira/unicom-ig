@@ -10,7 +10,7 @@
   "name": "UnicomIG",
   "title": "UnicomIG",
   "status": "draft",
-  "date": "2022-11-06T22:26:11+00:00",
+  "date": "2022-11-07T21:05:10+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -605,6 +605,20 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/all-units-vs"
+        },
+        "name": "All Units Combined",
+        "description": "Value set for presentation strength denominator unit, combines units of measurement and units of presentation.",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/authorised-doseform-vs"
         },
         "name": "Authorised Dose Form",
@@ -665,6 +679,34 @@
         },
         "name": "Pharmaceutical Dose Form EMA",
         "description": "Pharmaceutical dose form. Based on EDQM, re-coded with RMS codes.",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/unit-of-measurement-ema-cs"
+        },
+        "name": "Unit of Measurement EMA",
+        "description": "Unit of Measurement. Based on UCUM. Re-coded with RMS codes.",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/unit-of-presentation-ema-cs"
+        },
+        "name": "Unit of Presentation EMA",
+        "description": "Unit of presentation list from EMA SPOR. List id 200000000014. Content based on EDQM, re-coded with RMS codes.",
         "isExample": false
       },
       {

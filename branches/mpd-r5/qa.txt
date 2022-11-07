@@ -1,38 +1,40 @@
 ﻿UnicomIG : Validation Results
 =========================================
 
-err = 30, warn = 51, info = 113
+err = 37, warn = 56, info = 89
 IG Publisher Version: 1.2.13
-Generated Sun Nov 06 22:27:31 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhir.unicom#0.1.0 (canonical = http://unicom-project.eu/fhir)
+Generated Mon Nov 07 21:06:27 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhir.unicom#0.1.0 (canonical = http://unicom-project.eu/fhir)
  Build Errors : 0 / 24 / 0
- /github/workspace/fsh-generated/resources/AdministrableProductDefinition-Agen-5mg-Tablet-EE-APD : 0 / 0 / 3
- /github/workspace/fsh-generated/resources/AdministrableProductDefinition-CanifugCremolum-100mg-Pessary-EE-APD : 0 / 0 / 3
- /github/workspace/fsh-generated/resources/AdministrableProductDefinition-CanifugCremolum-10mg1g-Cream-EE-APD : 0 / 0 / 3
- /github/workspace/fsh-generated/resources/AdministrableProductDefinition-Cefuroxime-MIP-1500mg-EE-APD : 1 / 0 / 4
+ /github/workspace/fsh-generated/resources/AdministrableProductDefinition-Agen-5mg-Tablet-EE-APD : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/AdministrableProductDefinition-CanifugCremolum-100mg-Pessary-EE-APD : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/AdministrableProductDefinition-CanifugCremolum-10mg1g-Cream-EE-APD : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/AdministrableProductDefinition-Cefuroxime-MIP-1500mg-EE-APD : 1 / 0 / 3
  /github/workspace/fsh-generated/resources/CodeSystem-combination-package-ema-cs : 2 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-combined-pharmaceutical-dose-form-ema-cs : 2 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-combined-term-ema-cs : 2 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-pharmaceutical-dose-form-ema-cs : 2 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-unit-of-measurement-ema-cs : 2 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-unit-of-presentation-ema-cs : 2 / 2 / 2
  /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.unicom : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Ingredient-Agen-5mg-Tablet-EE-I : 0 / 0 / 8
- /github/workspace/fsh-generated/resources/Ingredient-CanifugCremolum-100mg-Pessary-EE-I : 0 / 0 / 5
- /github/workspace/fsh-generated/resources/Ingredient-CanifugCremolum-10mg1g-Cream-EE-I : 0 / 0 / 5
- /github/workspace/fsh-generated/resources/Ingredient-Cefuroxime-MIP-1500mg-EE-I : 0 / 0 / 8
- /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-Agen-5mg-Tablet-EE-MID : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-CanifugCremolum-100mg-Pessary-EE-MID : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-CanifugCremolum-10mg1g-Cream-EE-MID : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-Cefuroxime-MIP-1500mg-EE-MID : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Ingredient-Agen-5mg-Tablet-EE-I : 2 / 0 / 4
+ /github/workspace/fsh-generated/resources/Ingredient-CanifugCremolum-100mg-Pessary-EE-I : 1 / 0 / 3
+ /github/workspace/fsh-generated/resources/Ingredient-CanifugCremolum-10mg1g-Cream-EE-I : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/Ingredient-Cefuroxime-MIP-1500mg-EE-I : 0 / 0 / 4
+ /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-Agen-5mg-Tablet-EE-MID : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-CanifugCremolum-100mg-Pessary-EE-MID : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-CanifugCremolum-10mg1g-Cream-EE-MID : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-Cefuroxime-MIP-1500mg-EE-MID : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/MedicinalProductDefinition-Agen-5mg-Tablet-EE-MPD : 10 / 0 / 11
  /github/workspace/fsh-generated/resources/MedicinalProductDefinition-CanifugCremolum-EE-MPD : 4 / 0 / 9
  /github/workspace/fsh-generated/resources/MedicinalProductDefinition-Cefuroxime-MIP-1500mg-EE-MPD : 7 / 0 / 10
  /github/workspace/fsh-generated/resources/Organization-LOC-100002580-Zentiva : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Organization-LOC-100004795-Wolff-Arzneimittel : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Organization-LOC-100009199-Mip : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/PackagedProductDefinition-Agen-5mg-Tablet-EE-PPD-1109887-A : 0 / 0 / 6
- /github/workspace/fsh-generated/resources/PackagedProductDefinition-Agen-5mg-Tablet-EE-PPD-1109887-B : 0 / 0 / 6
- /github/workspace/fsh-generated/resources/PackagedProductDefinition-CanifugCremolum-EE-PPD-1033692 : 0 / 0 / 7
- /github/workspace/fsh-generated/resources/PackagedProductDefinition-Cefuroxime-MIP-1500mg-EE-PPD-1529940 : 0 / 0 / 6
- /github/workspace/fsh-generated/resources/PackagedProductDefinition-Cefuroxime-MIP-1500mg-EE-PPD-1529962 : 0 / 0 / 6
+ /github/workspace/fsh-generated/resources/PackagedProductDefinition-Agen-5mg-Tablet-EE-PPD-1109887-A : 0 / 0 / 5
+ /github/workspace/fsh-generated/resources/PackagedProductDefinition-Agen-5mg-Tablet-EE-PPD-1109887-B : 0 / 0 / 5
+ /github/workspace/fsh-generated/resources/PackagedProductDefinition-CanifugCremolum-EE-PPD-1033692 : 0 / 0 / 5
+ /github/workspace/fsh-generated/resources/PackagedProductDefinition-Cefuroxime-MIP-1500mg-EE-PPD-1529940 : 0 / 0 / 5
+ /github/workspace/fsh-generated/resources/PackagedProductDefinition-Cefuroxime-MIP-1500mg-EE-PPD-1529962 : 0 / 0 / 5
  /github/workspace/fsh-generated/resources/RegulatedAuthorization-Agen-5mg-Tablet-EE-RA : 0 / 0 / 6
  /github/workspace/fsh-generated/resources/RegulatedAuthorization-CanifugCremolum-EE-RA : 0 / 0 / 4
  /github/workspace/fsh-generated/resources/RegulatedAuthorization-Cefuroxime-MIP-1500mg-EE-RA : 0 / 0 / 4
@@ -53,6 +55,7 @@ Generated Sun Nov 06 22:27:31 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhi
  /github/workspace/fsh-generated/resources/StructureDefinition-TS : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-class : 0 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-untyped : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-all-units-vs : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-authorised-doseform-vs : 0 / 1 / 1
 </table>
 == n/a ==
@@ -81,17 +84,13 @@ WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in 
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/AdministrableProductDefinition-Agen-5mg-Tablet-EE-APD.json ==
-INFORMATION: AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD: AdministrableProductDefinition.unitOfPresentation.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated
 INFORMATION: AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD: AdministrableProductDefinition.routeOfAdministration[0].code.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000073345' is unknown so the code cannot be validated
 == fsh-generated/resources/AdministrableProductDefinition-CanifugCremolum-100mg-Pessary-EE-APD.json ==
-INFORMATION: AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD: AdministrableProductDefinition.unitOfPresentation.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated
 INFORMATION: AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD: AdministrableProductDefinition.routeOfAdministration[0].code.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000073345' is unknown so the code cannot be validated
 == fsh-generated/resources/AdministrableProductDefinition-CanifugCremolum-10mg1g-Cream-EE-APD.json ==
-INFORMATION: AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD: AdministrableProductDefinition.unitOfPresentation.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated
 INFORMATION: AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD: AdministrableProductDefinition.routeOfAdministration[0].code.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000073345' is unknown so the code cannot be validated
 == fsh-generated/resources/AdministrableProductDefinition-Cefuroxime-MIP-1500mg-EE-APD.json ==
 ERROR: AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD: AdministrableProductDefinition: Rule apd-1: 'RouteOfAdministration cannot be used when the 'formOf' product already uses MedicinalProductDefinition.route (and vice versa)' Failed
-INFORMATION: AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD: AdministrableProductDefinition.unitOfPresentation.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated
 INFORMATION: AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD: AdministrableProductDefinition.routeOfAdministration[0].code.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000073345' is unknown so the code cannot be validated
 INFORMATION: AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD: AdministrableProductDefinition.routeOfAdministration[1].code.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000073345' is unknown so the code cannot be validated
 == fsh-generated/resources/CodeSystem-combination-package-ema-cs.json ==
@@ -118,41 +117,40 @@ INFORMATION: CodeSystem/pharmaceutical-dose-form-ema-cs: CodeSystem: CodeSystems
 WARNING: CodeSystem/pharmaceutical-dose-form-ema-cs: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
 WARNING: CodeSystem/pharmaceutical-dose-form-ema-cs: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
 ERROR: /github/workspace/fsh-generated/resources/CodeSystem-pharmaceutical-dose-form-ema-cs: URL Mismatch http://unicom-project.eu/fhir/CodeSystem/pharmaceutical-dose-form-ema-cs vs http://spor.ema.europa.eu/v1/lists/200000000004
+== fsh-generated/resources/CodeSystem-unit-of-measurement-ema-cs.json ==
+ERROR: CodeSystem.where(url = 'http://spor.ema.europa.eu/v1/lists/100000110633'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-unit-of-measurement-ema-cs.json - the canonical URL (http://unicom-project.eu/fhir/CodeSystem/unit-of-measurement-ema-cs) does not match the URL (http://spor.ema.europa.eu/v1/lists/100000110633)
+INFORMATION: CodeSystem/unit-of-measurement-ema-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/unit-of-measurement-ema-cs: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/unit-of-measurement-ema-cs: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-unit-of-measurement-ema-cs: URL Mismatch http://unicom-project.eu/fhir/CodeSystem/unit-of-measurement-ema-cs vs http://spor.ema.europa.eu/v1/lists/100000110633
+== fsh-generated/resources/CodeSystem-unit-of-presentation-ema-cs.json ==
+ERROR: CodeSystem.where(url = 'http://spor.ema.europa.eu/v1/lists/200000000014'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-unit-of-presentation-ema-cs.json - the canonical URL (http://unicom-project.eu/fhir/CodeSystem/unit-of-presentation-ema-cs) does not match the URL (http://spor.ema.europa.eu/v1/lists/200000000014)
+INFORMATION: CodeSystem/unit-of-presentation-ema-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/unit-of-presentation-ema-cs: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/unit-of-presentation-ema-cs: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-unit-of-presentation-ema-cs: URL Mismatch http://unicom-project.eu/fhir/CodeSystem/unit-of-presentation-ema-cs vs http://spor.ema.europa.eu/v1/lists/200000000014
 == fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.unicom.json ==
 == fsh-generated/resources/Ingredient-Agen-5mg-Tablet-EE-I.json ==
 INFORMATION: Ingredient/Agen-5mg-Tablet-EE-I: Ingredient.role.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000072050' is unknown so the code cannot be validated
 INFORMATION: Ingredient/Agen-5mg-Tablet-EE-I: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://spor.ema.europa.eu/v2/SubstanceDefinition' is unknown so the code cannot be validated
-INFORMATION: Ingredient/Agen-5mg-Tablet-EE-I: Ingredient.substance.strength[0].presentation.ofType(Ratio).numerator: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000110633' is unknown so the code cannot be validated
-INFORMATION: Ingredient/Agen-5mg-Tablet-EE-I: Ingredient.substance.strength[0].presentation.ofType(Ratio).denominator: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated
+ERROR: Ingredient/Agen-5mg-Tablet-EE-I: Ingredient.substance.strength[0].presentation.ofType(Ratio).denominator.system: The value provided ('http://spor.ema.europa.eu/v1/lists/200000000014') is not in the value set 'All Units Combined' (http://unicom-project.eu/fhir/ValueSet/all-units-vs), and a code is required from this value set) (error message = Unable to resolve system - value set expansion has multiple matches: [])
 INFORMATION: Ingredient/Agen-5mg-Tablet-EE-I: Ingredient.substance.strength[0].referenceStrength[0].substance.concept.coding[0]: Code System URI 'https://spor.ema.europa.eu/v2/SubstanceDefinition' is unknown so the code cannot be validated
-INFORMATION: Ingredient/Agen-5mg-Tablet-EE-I: Ingredient.substance.strength[0].referenceStrength[0].strength.ofType(Ratio).numerator: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000110633' is unknown so the code cannot be validated
-INFORMATION: Ingredient/Agen-5mg-Tablet-EE-I: Ingredient.substance.strength[0].referenceStrength[0].strength.ofType(Ratio).denominator: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated
+ERROR: Ingredient/Agen-5mg-Tablet-EE-I: Ingredient.substance.strength[0].referenceStrength[0].strength.ofType(Ratio).denominator.system: The value provided ('http://spor.ema.europa.eu/v1/lists/200000000014') is not in the value set 'All Units Combined' (http://unicom-project.eu/fhir/ValueSet/all-units-vs), and a code is required from this value set) (error message = Unable to resolve system - value set expansion has multiple matches: [])
 == fsh-generated/resources/Ingredient-CanifugCremolum-100mg-Pessary-EE-I.json ==
 INFORMATION: Ingredient/CanifugCremolum-100mg-Pessary-EE-I: Ingredient.role.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000072050' is unknown so the code cannot be validated
 INFORMATION: Ingredient/CanifugCremolum-100mg-Pessary-EE-I: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://spor.ema.europa.eu/v2/SubstanceDefinition' is unknown so the code cannot be validated
-INFORMATION: Ingredient/CanifugCremolum-100mg-Pessary-EE-I: Ingredient.substance.strength[0].presentation.ofType(Ratio).numerator: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000110633' is unknown so the code cannot be validated
-INFORMATION: Ingredient/CanifugCremolum-100mg-Pessary-EE-I: Ingredient.substance.strength[0].presentation.ofType(Ratio).denominator: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated
+ERROR: Ingredient/CanifugCremolum-100mg-Pessary-EE-I: Ingredient.substance.strength[0].presentation.ofType(Ratio).denominator.system: The value provided ('http://spor.ema.europa.eu/v1/lists/200000000014') is not in the value set 'All Units Combined' (http://unicom-project.eu/fhir/ValueSet/all-units-vs), and a code is required from this value set) (error message = Unable to resolve system - value set expansion has multiple matches: [])
 == fsh-generated/resources/Ingredient-CanifugCremolum-10mg1g-Cream-EE-I.json ==
 INFORMATION: Ingredient/CanifugCremolum-10mg1g-Cream-EE-I: Ingredient.role.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000072050' is unknown so the code cannot be validated
 INFORMATION: Ingredient/CanifugCremolum-10mg1g-Cream-EE-I: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://spor.ema.europa.eu/v2/SubstanceDefinition' is unknown so the code cannot be validated
-INFORMATION: Ingredient/CanifugCremolum-10mg1g-Cream-EE-I: Ingredient.substance.strength[0].concentration.ofType(Ratio).numerator: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000110633' is unknown so the code cannot be validated
-INFORMATION: Ingredient/CanifugCremolum-10mg1g-Cream-EE-I: Ingredient.substance.strength[0].concentration.ofType(Ratio).denominator: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000110633' is unknown so the code cannot be validated
 == fsh-generated/resources/Ingredient-Cefuroxime-MIP-1500mg-EE-I.json ==
 INFORMATION: Ingredient/Cefuroxime-MIP-1500mg-EE-I: Ingredient.role.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000072050' is unknown so the code cannot be validated
 INFORMATION: Ingredient/Cefuroxime-MIP-1500mg-EE-I: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://spor.ema.europa.eu/v2/SubstanceDefinition' is unknown so the code cannot be validated
-INFORMATION: Ingredient/Cefuroxime-MIP-1500mg-EE-I: Ingredient.substance.strength[0].presentation.ofType(Ratio).numerator: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000110633' is unknown so the code cannot be validated
-INFORMATION: Ingredient/Cefuroxime-MIP-1500mg-EE-I: Ingredient.substance.strength[0].presentation.ofType(Ratio).denominator: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated
 INFORMATION: Ingredient/Cefuroxime-MIP-1500mg-EE-I: Ingredient.substance.strength[0].referenceStrength[0].substance.concept.coding[0]: Code System URI 'https://spor.ema.europa.eu/v2/SubstanceDefinition' is unknown so the code cannot be validated
-INFORMATION: Ingredient/Cefuroxime-MIP-1500mg-EE-I: Ingredient.substance.strength[0].referenceStrength[0].strength.ofType(Ratio).numerator: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000110633' is unknown so the code cannot be validated
-INFORMATION: Ingredient/Cefuroxime-MIP-1500mg-EE-I: Ingredient.substance.strength[0].referenceStrength[0].strength.ofType(Ratio).denominator: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated
 == fsh-generated/resources/ManufacturedItemDefinition-Agen-5mg-Tablet-EE-MID.json ==
-INFORMATION: ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID: ManufacturedItemDefinition.unitOfPresentation.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated
 == fsh-generated/resources/ManufacturedItemDefinition-CanifugCremolum-100mg-Pessary-EE-MID.json ==
-INFORMATION: ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID: ManufacturedItemDefinition.unitOfPresentation.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated
 == fsh-generated/resources/ManufacturedItemDefinition-CanifugCremolum-10mg1g-Cream-EE-MID.json ==
-INFORMATION: ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID: ManufacturedItemDefinition.unitOfPresentation.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated
 == fsh-generated/resources/ManufacturedItemDefinition-Cefuroxime-MIP-1500mg-EE-MID.json ==
-INFORMATION: ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID: ManufacturedItemDefinition.unitOfPresentation.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated
 == fsh-generated/resources/MedicinalProductDefinition-Agen-5mg-Tablet-EE-MPD.json ==
 INFORMATION: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.domain.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000000004' is unknown so the code cannot be validated
 INFORMATION: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.status.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000005003' is unknown so the code cannot be validated
@@ -208,32 +206,26 @@ INFORMATION: MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD: MedicinalP
 == fsh-generated/resources/Organization-LOC-100004795-Wolff-Arzneimittel.json ==
 == fsh-generated/resources/Organization-LOC-100009199-Mip.json ==
 == fsh-generated/resources/PackagedProductDefinition-Agen-5mg-Tablet-EE-PPD-1109887-A.json ==
-INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A: PackagedProductDefinition.containedItemQuantity[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A: PackagedProductDefinition.marketingStatus[0].country.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000000002' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A: PackagedProductDefinition.marketingStatus[0].status.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000072052' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A: PackagedProductDefinition.packaging.type.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000073346' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A: PackagedProductDefinition.packaging.material[0].coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000003199' is unknown so the code cannot be validated
 == fsh-generated/resources/PackagedProductDefinition-Agen-5mg-Tablet-EE-PPD-1109887-B.json ==
-INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B: PackagedProductDefinition.containedItemQuantity[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B: PackagedProductDefinition.marketingStatus[0].country.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000000002' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B: PackagedProductDefinition.marketingStatus[0].status.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000072052' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B: PackagedProductDefinition.packaging.type.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000073346' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B: PackagedProductDefinition.packaging.material[0].coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000003199' is unknown so the code cannot be validated
 == fsh-generated/resources/PackagedProductDefinition-CanifugCremolum-EE-PPD-1033692.json ==
-INFORMATION: PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692: PackagedProductDefinition.containedItemQuantity[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated
-INFORMATION: PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692: PackagedProductDefinition.containedItemQuantity[1]: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692: PackagedProductDefinition.marketingStatus[0].country.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000000002' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692: PackagedProductDefinition.marketingStatus[0].status.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000072052' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692: PackagedProductDefinition.packaging.type.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000073346' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692: PackagedProductDefinition.packaging.material[0].coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000003199' is unknown so the code cannot be validated
 == fsh-generated/resources/PackagedProductDefinition-Cefuroxime-MIP-1500mg-EE-PPD-1529940.json ==
-INFORMATION: PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529940: PackagedProductDefinition.containedItemQuantity[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529940: PackagedProductDefinition.marketingStatus[0].country.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000000002' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529940: PackagedProductDefinition.marketingStatus[0].status.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000072052' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529940: PackagedProductDefinition.packaging.type.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000073346' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529940: PackagedProductDefinition.packaging.material[0].coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000003199' is unknown so the code cannot be validated
 == fsh-generated/resources/PackagedProductDefinition-Cefuroxime-MIP-1500mg-EE-PPD-1529962.json ==
-INFORMATION: PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962: PackagedProductDefinition.containedItemQuantity[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962: PackagedProductDefinition.marketingStatus[0].country.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000000002' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962: PackagedProductDefinition.marketingStatus[0].status.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000072052' is unknown so the code cannot be validated
 INFORMATION: PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962: PackagedProductDefinition.packaging.type.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000073346' is unknown so the code cannot be validated
@@ -297,5 +289,7 @@ WARNING: StructureDefinition.where(url = 'http://unicom-project.eu/fhir/Structur
 == fsh-generated/resources/StructureDefinition-untyped.json ==
 WARNING: StructureDefinition/untyped: StructureDefinition: Rule cnl-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition.where(url = 'http://unicom-project.eu/fhir/StructureDefinition/untyped'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/ValueSet-all-units-vs.json ==
+WARNING: ValueSet/all-units-vs: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 == fsh-generated/resources/ValueSet-authorised-doseform-vs.json ==
 WARNING: ValueSet/authorised-doseform-vs: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile

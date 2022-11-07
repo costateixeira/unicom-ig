@@ -11,7 +11,7 @@
   <name value="UnicomIG"/>
   <title value="UnicomIG"/>
   <status value="draft"/>
-  <date value="2022-11-06T22:26:11+00:00"/>
+  <date value="2022-11-07T21:05:10+00:00"/>
   <publisher value="UNICOM"/>
   <contact>
     <name value="UNICOM"/>
@@ -417,6 +417,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/all-units-vs"/>
+      </reference>
+      <name value="All Units Combined"/>
+      <description value="Value set for presentation strength denominator unit, combines units of measurement and units of presentation."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/authorised-doseform-vs"/>
       </reference>
       <name value="Authorised Dose Form"/>
@@ -465,6 +476,28 @@
       </reference>
       <name value="Pharmaceutical Dose Form EMA"/>
       <description value="Pharmaceutical dose form. Based on EDQM, re-coded with RMS codes."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/unit-of-measurement-ema-cs"/>
+      </reference>
+      <name value="Unit of Measurement EMA"/>
+      <description value="Unit of Measurement. Based on UCUM. Re-coded with RMS codes."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/unit-of-presentation-ema-cs"/>
+      </reference>
+      <name value="Unit of Presentation EMA"/>
+      <description value="Unit of presentation list from EMA SPOR. List id 200000000014. Content based on EDQM, re-coded with RMS codes."/>
       <isExample value="false"/>
     </resource>
     <resource>

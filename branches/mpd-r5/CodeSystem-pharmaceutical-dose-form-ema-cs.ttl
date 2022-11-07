@@ -14,10 +14,10 @@
   ];
   fhir:CodeSystem.url [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000004"];
   fhir:CodeSystem.version [ fhir:value "0.1.0"];
-  fhir:CodeSystem.name [ fhir:value "PharmaceuticalDoseForm-EMA-CS"];
+  fhir:CodeSystem.name [ fhir:value "PharmaceuticalDoseForm_EMA_CS"];
   fhir:CodeSystem.title [ fhir:value "Pharmaceutical Dose Form EMA"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-11-06T22:26:11+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-11-07T21:05:10+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "UNICOM"];
   fhir:CodeSystem.contact [
      fhir:index 0;

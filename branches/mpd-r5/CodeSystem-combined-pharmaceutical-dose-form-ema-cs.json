@@ -7,10 +7,10 @@
   },
   "url": "http://spor.ema.europa.eu/v1/lists/200000000006",
   "version": "0.1.0",
-  "name": "CombinedPharmaceuticalDoseForm-EMA-CS",
+  "name": "CombinedPharmaceuticalDoseForm_EMA_CS",
   "title": "Combined Pharmaceutical Dose Form EMA",
   "status": "draft",
-  "date": "2022-11-06T22:26:11+00:00",
+  "date": "2022-11-07T21:05:10+00:00",
   "publisher": "UNICOM",
   "contact": [
     {

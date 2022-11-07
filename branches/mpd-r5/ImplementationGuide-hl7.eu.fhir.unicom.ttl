@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "UnicomIG"];
   fhir:ImplementationGuide.title [ fhir:value "UnicomIG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-11-06T22:26:11+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-11-07T21:05:10+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "UNICOM"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -586,6 +586,20 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/ValueSet/all-units-vs>;
+         fhir:Reference.reference [ fhir:value "ValueSet/all-units-vs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "All Units Combined" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Value set for presentation strength denominator unit, combines units of measurement and units of presentation." ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <http://unicom-project.eu/fhir/ValueSet/authorised-doseform-vs>;
          fhir:Reference.reference [ fhir:value "ValueSet/authorised-doseform-vs" ]
        ];
@@ -593,7 +607,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Value set for authorised dose form. Combines 4 SPOR/EDQM lists: Pharmaceutical dose form, Combined pharmaceutical dose form, Combined term, Combination package." ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 18;
+       fhir:index 19;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -607,7 +621,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dose forms for combination packages. Based on EDQM. Re-coded with RMS codes. Only used for authorised dose form." ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 19;
+       fhir:index 20;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -621,7 +635,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Combined Pharmaceutical Dose Form. Based on EDQM. Re-coded with RMS codes. Used only for authorised dose form." ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 20;
+       fhir:index 21;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -635,7 +649,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Combined Term. Based on EDQM. Re-coded with RMS codes. Only used for authorised dose form." ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 21;
+       fhir:index 22;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -649,7 +663,35 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Pharmaceutical dose form. Based on EDQM, re-coded with RMS codes." ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 22;
+       fhir:index 23;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/CodeSystem/unit-of-measurement-ema-cs>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/unit-of-measurement-ema-cs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Unit of Measurement EMA" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Unit of Measurement. Based on UCUM. Re-coded with RMS codes." ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 24;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://unicom-project.eu/fhir/CodeSystem/unit-of-presentation-ema-cs>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/unit-of-presentation-ema-cs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Unit of Presentation EMA" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Unit of presentation list from EMA SPOR. List id 200000000014. Content based on EDQM, re-coded with RMS codes." ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 25;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -670,7 +712,7 @@
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition>
        ]
      ], [
-       fhir:index 23;
+       fhir:index 26;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -691,7 +733,7 @@
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient>
        ]
      ], [
-       fhir:index 24;
+       fhir:index 27;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -712,7 +754,7 @@
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition>
        ]
      ], [
-       fhir:index 25;
+       fhir:index 28;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -733,7 +775,7 @@
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition>
        ]
      ], [
-       fhir:index 26;
+       fhir:index 29;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -755,7 +797,7 @@
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition>
        ]
      ], [
-       fhir:index 27;
+       fhir:index 30;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -777,7 +819,7 @@
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition>
        ]
      ], [
-       fhir:index 28;
+       fhir:index 31;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -798,7 +840,7 @@
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization>
        ]
      ], [
-       fhir:index 29;
+       fhir:index 32;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -819,7 +861,7 @@
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition>
        ]
      ], [
-       fhir:index 30;
+       fhir:index 33;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -840,7 +882,7 @@
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient>
        ]
      ], [
-       fhir:index 31;
+       fhir:index 34;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -861,7 +903,7 @@
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition>
        ]
      ], [
-       fhir:index 32;
+       fhir:index 35;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -882,7 +924,7 @@
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition>
        ]
      ], [
-       fhir:index 33;
+       fhir:index 36;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -903,7 +945,7 @@
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient>
        ]
      ], [
-       fhir:index 34;
+       fhir:index 37;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -924,7 +966,7 @@
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition>
        ]
      ], [
-       fhir:index 35;
+       fhir:index 38;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -945,7 +987,7 @@
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition>
        ]
      ], [
-       fhir:index 36;
+       fhir:index 39;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -967,7 +1009,7 @@
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition>
        ]
      ], [
-       fhir:index 37;
+       fhir:index 40;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -988,7 +1030,7 @@
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization>
        ]
      ], [
-       fhir:index 38;
+       fhir:index 41;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1009,7 +1051,7 @@
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition>
        ]
      ], [
-       fhir:index 39;
+       fhir:index 42;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1022,7 +1064,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Cefuroxime-MIP-1500mg-EE-I" ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 40;
+       fhir:index 43;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1043,7 +1085,7 @@
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition>
        ]
      ], [
-       fhir:index 41;
+       fhir:index 44;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1064,7 +1106,7 @@
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition>
        ]
      ], [
-       fhir:index 42;
+       fhir:index 45;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1086,7 +1128,7 @@
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition>
        ]
      ], [
-       fhir:index 43;
+       fhir:index 46;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1108,7 +1150,7 @@
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition>
        ]
      ], [
-       fhir:index 44;
+       fhir:index 47;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1129,7 +1171,7 @@
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization>
        ]
      ], [
-       fhir:index 45;
+       fhir:index 48;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1150,7 +1192,7 @@
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization>
        ]
      ], [
-       fhir:index 46;
+       fhir:index 49;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1171,7 +1213,7 @@
          fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization>
        ]
      ], [
-       fhir:index 47;
+       fhir:index 50;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

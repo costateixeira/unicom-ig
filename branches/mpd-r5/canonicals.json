@@ -1,31 +1,45 @@
 [
   {
+    "id": "unit-of-measurement-ema-cs",
+    "type": "CodeSystem",
+    "url": "http://spor.ema.europa.eu/v1/lists/100000110633",
+    "version": "0.1.0",
+    "name": "UnitOfMeasurement_EMA_CS"
+  },
+  {
     "id": "pharmaceutical-dose-form-ema-cs",
     "type": "CodeSystem",
     "url": "http://spor.ema.europa.eu/v1/lists/200000000004",
     "version": "0.1.0",
-    "name": "PharmaceuticalDoseForm-EMA-CS"
+    "name": "PharmaceuticalDoseForm_EMA_CS"
   },
   {
     "id": "combined-pharmaceutical-dose-form-ema-cs",
     "type": "CodeSystem",
     "url": "http://spor.ema.europa.eu/v1/lists/200000000006",
     "version": "0.1.0",
-    "name": "CombinedPharmaceuticalDoseForm-EMA-CS"
+    "name": "CombinedPharmaceuticalDoseForm_EMA_CS"
   },
   {
     "id": "combined-term-ema-cs",
     "type": "CodeSystem",
     "url": "http://spor.ema.europa.eu/v1/lists/200000000007",
     "version": "0.1.0",
-    "name": "CombinedTerm-EMA-CS"
+    "name": "CombinedTerm_EMA_CS"
   },
   {
     "id": "combination-package-ema-cs",
     "type": "CodeSystem",
     "url": "http://spor.ema.europa.eu/v1/lists/200000000008",
     "version": "0.1.0",
-    "name": "CombinationPackage-EMA-CS"
+    "name": "CombinationPackage_EMA_CS"
+  },
+  {
+    "id": "unit-of-presentation-ema-cs",
+    "type": "CodeSystem",
+    "url": "http://spor.ema.europa.eu/v1/lists/200000000014",
+    "version": "0.1.0",
+    "name": "UnitOfPresentation_EMA_CS"
   },
   {
     "id": "hl7.eu.fhir.unicom",
@@ -152,6 +166,13 @@
     "url": "http://unicom-project.eu/fhir/StructureDefinition/untyped",
     "version": "0.1.0",
     "name": "untyped"
+  },
+  {
+    "id": "all-units-vs",
+    "type": "ValueSet",
+    "url": "http://unicom-project.eu/fhir/ValueSet/all-units-vs",
+    "version": "0.1.0",
+    "name": "AllUnits"
   },
   {
     "id": "authorised-doseform-vs",

@@ -7,10 +7,10 @@
   </text>
   <url value="http://spor.ema.europa.eu/v1/lists/200000000004"/>
   <version value="0.1.0"/>
-  <name value="PharmaceuticalDoseForm-EMA-CS"/>
+  <name value="PharmaceuticalDoseForm_EMA_CS"/>
   <title value="Pharmaceutical Dose Form EMA"/>
   <status value="active"/>
-  <date value="2022-11-06T22:26:11+00:00"/>
+  <date value="2022-11-07T21:05:10+00:00"/>
   <publisher value="UNICOM"/>
   <contact>
     <name value="UNICOM"/>
