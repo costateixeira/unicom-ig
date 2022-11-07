@@ -1,9 +1,9 @@
 ﻿UnicomIG : Validation Results
 =========================================
 
-err = 37, warn = 51, info = 84
+err = 34, warn = 51, info = 84
 IG Publisher Version: 1.2.13
-Generated Mon Nov 07 21:25:12 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhir.unicom#0.1.0 (canonical = http://unicom-project.eu/fhir)
+Generated Mon Nov 07 21:33:01 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhir.unicom#0.1.0 (canonical = http://unicom-project.eu/fhir)
  Build Errors : 0 / 24 / 0
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-Agen-5mg-Tablet-EE-APD : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-CanifugCremolum-100mg-Pessary-EE-APD : 0 / 0 / 2
@@ -24,9 +24,9 @@ Generated Mon Nov 07 21:25:12 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhi
  /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-CanifugCremolum-100mg-Pessary-EE-MID : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-CanifugCremolum-10mg1g-Cream-EE-MID : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-Cefuroxime-MIP-1500mg-EE-MID : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/MedicinalProductDefinition-Agen-5mg-Tablet-EE-MPD : 10 / 0 / 11
- /github/workspace/fsh-generated/resources/MedicinalProductDefinition-CanifugCremolum-EE-MPD : 4 / 0 / 9
- /github/workspace/fsh-generated/resources/MedicinalProductDefinition-Cefuroxime-MIP-1500mg-EE-MPD : 7 / 0 / 10
+ /github/workspace/fsh-generated/resources/MedicinalProductDefinition-Agen-5mg-Tablet-EE-MPD : 9 / 0 / 11
+ /github/workspace/fsh-generated/resources/MedicinalProductDefinition-CanifugCremolum-EE-MPD : 3 / 0 / 9
+ /github/workspace/fsh-generated/resources/MedicinalProductDefinition-Cefuroxime-MIP-1500mg-EE-MPD : 6 / 0 / 10
  /github/workspace/fsh-generated/resources/Organization-LOC-100002580-Zentiva : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Organization-LOC-100004795-Wolff-Arzneimittel : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Organization-LOC-100009199-Mip : 0 / 0 / 1
@@ -144,7 +144,6 @@ INFORMATION: Ingredient/Cefuroxime-MIP-1500mg-EE-I: Ingredient.substance.strengt
 == fsh-generated/resources/MedicinalProductDefinition-Agen-5mg-Tablet-EE-MPD.json ==
 INFORMATION: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.domain.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000000004' is unknown so the code cannot be validated
 INFORMATION: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.status.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000005003' is unknown so the code cannot be validated
-ERROR: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.combinedPharmaceuticalDoseForm.coding[0].system: The value provided ('http://spor.ema.europa.eu/v1/lists/200000000004') is not in the value set 'Authorised Dose Form' (http://unicom-project.eu/fhir/ValueSet/authorised-doseform-vs), and a code is required from this value set) (error message = Unable to resolve system - value set expansion has multiple matches: [])
 INFORMATION: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.legalStatusOfSupply.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000072051' is unknown so the code cannot be validated
 INFORMATION: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.classification[0].coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000093533' is unknown so the code cannot be validated
 ERROR: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProductDefinition.name[0].part[0]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice MedicinalProductDefinition.name.part:invented in profile http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
@@ -165,7 +164,6 @@ INFORMATION: MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD: MedicinalProduct
 == fsh-generated/resources/MedicinalProductDefinition-CanifugCremolum-EE-MPD.json ==
 INFORMATION: MedicinalProductDefinition/CanifugCremolum-EE-MPD: MedicinalProductDefinition.domain.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000000004' is unknown so the code cannot be validated
 INFORMATION: MedicinalProductDefinition/CanifugCremolum-EE-MPD: MedicinalProductDefinition.status.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000005003' is unknown so the code cannot be validated
-ERROR: MedicinalProductDefinition/CanifugCremolum-EE-MPD: MedicinalProductDefinition.combinedPharmaceuticalDoseForm.coding[0].system: The value provided ('http://spor.ema.europa.eu/v1/lists/200000000008') is not in the value set 'Authorised Dose Form' (http://unicom-project.eu/fhir/ValueSet/authorised-doseform-vs), and a code is required from this value set) (error message = Unable to resolve system - value set expansion has multiple matches: [])
 INFORMATION: MedicinalProductDefinition/CanifugCremolum-EE-MPD: MedicinalProductDefinition.legalStatusOfSupply.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000072051' is unknown so the code cannot be validated
 INFORMATION: MedicinalProductDefinition/CanifugCremolum-EE-MPD: MedicinalProductDefinition.classification[0].coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000093533' is unknown so the code cannot be validated
 ERROR: MedicinalProductDefinition/CanifugCremolum-EE-MPD: MedicinalProductDefinition.name[0].part[0]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice MedicinalProductDefinition.name.part:invented in profile http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
@@ -178,7 +176,6 @@ INFORMATION: MedicinalProductDefinition/CanifugCremolum-EE-MPD: MedicinalProduct
 == fsh-generated/resources/MedicinalProductDefinition-Cefuroxime-MIP-1500mg-EE-MPD.json ==
 INFORMATION: MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD: MedicinalProductDefinition.domain.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000000004' is unknown so the code cannot be validated
 INFORMATION: MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD: MedicinalProductDefinition.status.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/200000005003' is unknown so the code cannot be validated
-ERROR: MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD: MedicinalProductDefinition.combinedPharmaceuticalDoseForm.coding[0].system: The value provided ('http://spor.ema.europa.eu/v1/lists/200000000004') is not in the value set 'Authorised Dose Form' (http://unicom-project.eu/fhir/ValueSet/authorised-doseform-vs), and a code is required from this value set) (error message = Unable to resolve system - value set expansion has multiple matches: [])
 INFORMATION: MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD: MedicinalProductDefinition.legalStatusOfSupply.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000072051' is unknown so the code cannot be validated
 INFORMATION: MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD: MedicinalProductDefinition.classification[0].coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000093533' is unknown so the code cannot be validated
 ERROR: MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD: MedicinalProductDefinition.name[0].part[0]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice MedicinalProductDefinition.name.part:invented in profile http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
