@@ -9,8 +9,8 @@
   <version value="0.1.0"/>
   <name value="UnitOfPresentation_EMA_CS"/>
   <title value="Unit of Presentation EMA"/>
-  <status value="active"/>
-  <date value="2022-11-07T21:05:10+00:00"/>
+  <status value="draft"/>
+  <date value="2022-11-07T21:23:46+00:00"/>
   <publisher value="UNICOM"/>
   <contact>
     <name value="UNICOM"/>
@@ -20,6 +20,8 @@
     </telecom>
   </contact>
   <description value="Unit of presentation list from EMA SPOR. List id 200000000014. Content based on EDQM, re-coded with RMS codes."/>
+  <caseSensitive value="false"/>
+  <compositional value="false"/>
   <content value="complete"/>
   <count value="53"/>
   <concept>

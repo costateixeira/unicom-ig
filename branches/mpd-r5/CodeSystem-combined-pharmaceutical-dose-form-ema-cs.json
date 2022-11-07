@@ -10,7 +10,7 @@
   "name": "CombinedPharmaceuticalDoseForm_EMA_CS",
   "title": "Combined Pharmaceutical Dose Form EMA",
   "status": "draft",
-  "date": "2022-11-07T21:05:10+00:00",
+  "date": "2022-11-07T21:23:46+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -24,6 +24,7 @@
     }
   ],
   "description": "Combined Pharmaceutical Dose Form. Based on EDQM. Re-coded with RMS codes. Used only for authorised dose form.",
+  "caseSensitive": false,
   "compositional": false,
   "content": "complete",
   "count": 77,
