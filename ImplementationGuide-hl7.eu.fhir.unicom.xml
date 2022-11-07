@@ -3,15 +3,15 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="hl7.eu.fhir.unicom"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>UnicomIG</h2><p>The official URL for this implementation guide is: </p><pre>http://medigree.net/fhir/ee/idmp/ImplementationGuide/hl7.eu.fhir.unicom</pre><div><p>UnicomIG</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>UnicomIG</h2><p>The official URL for this implementation guide is: </p><pre>http://unicom-project.eu/fhir/ImplementationGuide/hl7.eu.fhir.unicom</pre><div><p>UnicomIG</p>
 </div></div>
   </text>
-  <url value="http://medigree.net/fhir/ee/idmp/ImplementationGuide/hl7.eu.fhir.unicom"/>
+  <url value="http://unicom-project.eu/fhir/ImplementationGuide/hl7.eu.fhir.unicom"/>
   <version value="0.1.0"/>
   <name value="UnicomIG"/>
   <title value="UnicomIG"/>
   <status value="draft"/>
-  <date value="2022-11-07T08:36:34+00:00"/>
+  <date value="2022-11-07T21:05:10+00:00"/>
   <publisher value="UNICOM"/>
   <contact>
     <name value="UNICOM"/>
@@ -110,7 +110,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://medigree.net/fhir/ee/idmp/history.html"/>
+        <valueString value="http://unicom-project.eu/fhir/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -227,14 +227,568 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/CD"/>
+      </reference>
+      <name value="CD"/>
+      <description value="Concept descriptor"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/DT"/>
+      </reference>
+      <name value="DT"/>
+      <description value="Date"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/II"/>
+      </reference>
+      <name value="II"/>
+      <description value="Instance Identifier"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/MPDBundle"/>
+      </reference>
+      <name value="PPL Medicinal Product Bundle profile"/>
+      <description value="Medicinal product with all its relevant data as one bundle, including packages, MA and pharmaceutical product"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/PPLAdministrableProductDefinition"/>
+      </reference>
+      <name value="PPL Administrable Product profile"/>
+      <description value="Administrable product profile defines the ISO IDMP Pharmaceutical Product concept"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/PPLIngredient"/>
+      </reference>
+      <name value="PPL Ingredient profile"/>
+      <description value="Ingredient for the medicinal product, pharmaceutical product and/or manufactured item"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/PPLManufacturedItemDefinition"/>
+      </reference>
+      <name value="PPL Manufactured Item profile"/>
+      <description value="Manufactured item is the countable element inside the package"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/PPLMedicinalProductDefinition"/>
+      </reference>
+      <name value="PPL Medicinal Product profile"/>
+      <description value="Medicinal Product as defined in ISO IDMP"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/PPLOrganization"/>
+      </reference>
+      <name value="PPL Organization"/>
+      <description value="Organization"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/PPLPackagedProductDefinition"/>
+      </reference>
+      <name value="PPL Packaged Product profile"/>
+      <description value="Packaged Product"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/PPLRegulatedAuthorization"/>
+      </reference>
+      <name value="PPL Marketing Authorisation profile"/>
+      <description value="Regulated Authorization profile defines the Marketing Authorisation on product or package level"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/QT"/>
+      </reference>
+      <name value="QT"/>
+      <description value="Quantity"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ST"/>
+      </reference>
+      <name value="ST"/>
+      <description value="String"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/TS"/>
+      </reference>
+      <name value="TS"/>
+      <description value="Time stamp"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/class"/>
+      </reference>
+      <name value="class"/>
+      <description value="Class of data elements"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/untyped"/>
+      </reference>
+      <name value="untyped"/>
+      <description value="No data type defined"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/FullMedicinalProduct"/>
+      </reference>
+      <name value="Medicinal Product"/>
+      <description value="Medicinal Product"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/whoatc-unicom"/>
+        <reference value="ValueSet/all-units-vs"/>
       </reference>
-      <name value="WHO ATC"/>
-      <description value="World Health Organization Anatomical Therapeutic Chemical (ATC) classification system.  Note: The currently implemented code system and the value set expansion contain only a set of example ATC codes, not the complete code system content."/>
+      <name value="All Units Combined"/>
+      <description value="Value set for presentation strength denominator unit, combines units of measurement and units of presentation."/>
       <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/authorised-doseform-vs"/>
+      </reference>
+      <name value="Authorised Dose Form"/>
+      <description value="Value set for authorised dose form. Combines 4 SPOR/EDQM lists: Pharmaceutical dose form, Combined pharmaceutical dose form, Combined term, Combination package."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/combination-package-ema-cs"/>
+      </reference>
+      <name value="Combination Package EMA"/>
+      <description value="Dose forms for combination packages. Based on EDQM. Re-coded with RMS codes. Only used for authorised dose form."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/combined-pharmaceutical-dose-form-ema-cs"/>
+      </reference>
+      <name value="Combined Pharmaceutical Dose Form EMA"/>
+      <description value="Combined Pharmaceutical Dose Form. Based on EDQM. Re-coded with RMS codes. Used only for authorised dose form."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/combined-term-ema-cs"/>
+      </reference>
+      <name value="Combined Term EMA"/>
+      <description value="Combined Term. Based on EDQM. Re-coded with RMS codes. Only used for authorised dose form."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/pharmaceutical-dose-form-ema-cs"/>
+      </reference>
+      <name value="Pharmaceutical Dose Form EMA"/>
+      <description value="Pharmaceutical dose form. Based on EDQM, re-coded with RMS codes."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/unit-of-measurement-ema-cs"/>
+      </reference>
+      <name value="Unit of Measurement EMA"/>
+      <description value="Unit of Measurement. Based on UCUM. Re-coded with RMS codes."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/unit-of-presentation-ema-cs"/>
+      </reference>
+      <name value="Unit of Presentation EMA"/>
+      <description value="Unit of presentation list from EMA SPOR. List id 200000000014. Content based on EDQM, re-coded with RMS codes."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD"/>
+      </reference>
+      <name value="Agen-5mg-Tablet-EE-APD"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Agen-5mg-Tablet-EE-I"/>
+      </reference>
+      <name value="Agen-5mg-Tablet-EE-I"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID"/>
+      </reference>
+      <name value="Agen-5mg-Tablet-EE-MID"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD"/>
+      </reference>
+      <name value="Agen-5mg-Tablet-EE-MPD"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A"/>
+      </reference>
+      <name value="Agen-5mg-Tablet-EE-PPD-1109887-A"/>
+      <description value="Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged)."/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B"/>
+      </reference>
+      <name value="Agen-5mg-Tablet-EE-PPD-1109887-B"/>
+      <description value="Tabletid on pakendatud PVC/Al blistritesse (valged)."/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Agen-5mg-Tablet-EE-RA"/>
+      </reference>
+      <name value="Agen-5mg-Tablet-EE-RA"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD"/>
+      </reference>
+      <name value="CanifugCremolum-100mg-Pessary-EE-APD"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/CanifugCremolum-100mg-Pessary-EE-I"/>
+      </reference>
+      <name value="CanifugCremolum-100mg-Pessary-EE-I"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID"/>
+      </reference>
+      <name value="CanifugCremolum-100mg-Pessary-EE-MID"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD"/>
+      </reference>
+      <name value="CanifugCremolum-10mg1g-Cream-EE-APD"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/CanifugCremolum-10mg1g-Cream-EE-I"/>
+      </reference>
+      <name value="CanifugCremolum-10mg1g-Cream-EE-I"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID"/>
+      </reference>
+      <name value="CanifugCremolum-10mg1g-Cream-EE-MID"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/CanifugCremolum-EE-MPD"/>
+      </reference>
+      <name value="CanifugCremolum-EE-MPD"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692"/>
+      </reference>
+      <name value="CanifugCremolum-EE-PPD-1033692"/>
+      <description value="Alu/PE-fooliumist valmistatud ribapakend, mis on asetatud väliskarpi. Kreem on alumiiniumtuubis ja omakorda pappkarbis. Kombineeritud pakend sisaldab: 6 vaginaalsuposiiti ja 20 g kreemi"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/CanifugCremolum-EE-RA"/>
+      </reference>
+      <name value="CanifugCremolum-EE-RA"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD"/>
+      </reference>
+      <name value="Cefuroxime-MIP-1500mg-EE-APD"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Cefuroxime-MIP-1500mg-EE-I"/>
+      </reference>
+      <name value="Cefuroxime-MIP-1500mg-EE-I"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID"/>
+      </reference>
+      <name value="Cefuroxime-MIP-1500mg-EE-MID"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD"/>
+      </reference>
+      <name value="Cefuroxime-MIP-1500mg-EE-MPD"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529940"/>
+      </reference>
+      <name value="Cefuroxime-MIP-1500mg-EE-PPD-1529940"/>
+      <description value="I tüüpi klaasist viaal, mis on suletud klorobutüülkummist korgi ning flip-off kattega, 1 viaal"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962"/>
+      </reference>
+      <name value="Cefuroxime-MIP-1500mg-EE-PPD-1529962"/>
+      <description value="I tüüpi klaasist viaal, mis on suletud klorobutüülkummist korgi ning flip-off kattega, 10 viaali"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Cefuroxime-MIP-1500mg-EE-RA"/>
+      </reference>
+      <name value="Cefuroxime-MIP-1500mg-EE-RA"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/LOC-100002580-Zentiva"/>
+      </reference>
+      <name value="LOC-100002580-Zentiva"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/LOC-100004795-Wolff-Arzneimittel"/>
+      </reference>
+      <name value="LOC-100004795-Wolff-Arzneimittel"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/LOC-100009199-Mip"/>
+      </reference>
+      <name value="LOC-100009199-Mip"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"/>
+      <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"/>
     </resource>
     <page>
       <sourceUrl value="toc.html"/>
@@ -421,7 +975,7 @@
         <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
         <code value="path-history"/>
       </code>
-      <value value="http://medigree.net/fhir/ee/idmp/history.html"/>
+      <value value="http://unicom-project.eu/fhir/history.html"/>
     </parameter>
     <parameter>
       <code>
