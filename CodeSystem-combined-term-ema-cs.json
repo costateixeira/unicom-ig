@@ -10,7 +10,7 @@
   "name": "CombinedTerm_EMA_CS",
   "title": "Combined Term EMA",
   "status": "draft",
-  "date": "2022-11-07T21:05:10+00:00",
+  "date": "2022-11-07T21:23:46+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -24,6 +24,7 @@
     }
   ],
   "description": "Combined Term. Based on EDQM. Re-coded with RMS codes. Only used for authorised dose form.",
+  "caseSensitive": false,
   "compositional": false,
   "content": "complete",
   "count": 79,

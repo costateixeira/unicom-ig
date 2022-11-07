@@ -1,20 +1,20 @@
 ﻿UnicomIG : Validation Results
 =========================================
 
-err = 37, warn = 56, info = 89
+err = 37, warn = 51, info = 84
 IG Publisher Version: 1.2.13
-Generated Mon Nov 07 21:06:27 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhir.unicom#0.1.0 (canonical = http://unicom-project.eu/fhir)
+Generated Mon Nov 07 21:25:12 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhir.unicom#0.1.0 (canonical = http://unicom-project.eu/fhir)
  Build Errors : 0 / 24 / 0
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-Agen-5mg-Tablet-EE-APD : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-CanifugCremolum-100mg-Pessary-EE-APD : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-CanifugCremolum-10mg1g-Cream-EE-APD : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-Cefuroxime-MIP-1500mg-EE-APD : 1 / 0 / 3
  /github/workspace/fsh-generated/resources/CodeSystem-combination-package-ema-cs : 2 / 2 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-combined-pharmaceutical-dose-form-ema-cs : 2 / 2 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-combined-term-ema-cs : 2 / 2 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-pharmaceutical-dose-form-ema-cs : 2 / 2 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-unit-of-measurement-ema-cs : 2 / 2 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-unit-of-presentation-ema-cs : 2 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-combined-pharmaceutical-dose-form-ema-cs : 2 / 1 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-combined-term-ema-cs : 2 / 1 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-pharmaceutical-dose-form-ema-cs : 2 / 1 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-unit-of-measurement-ema-cs : 2 / 1 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-unit-of-presentation-ema-cs : 2 / 1 / 1
  /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.unicom : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Ingredient-Agen-5mg-Tablet-EE-I : 2 / 0 / 4
  /github/workspace/fsh-generated/resources/Ingredient-CanifugCremolum-100mg-Pessary-EE-I : 1 / 0 / 3
@@ -101,45 +101,35 @@ WARNING: CodeSystem/combination-package-ema-cs: CodeSystem: The ShareableCodeSys
 ERROR: /github/workspace/fsh-generated/resources/CodeSystem-combination-package-ema-cs: URL Mismatch http://unicom-project.eu/fhir/CodeSystem/combination-package-ema-cs vs http://spor.ema.europa.eu/v1/lists/200000000008
 == fsh-generated/resources/CodeSystem-combined-pharmaceutical-dose-form-ema-cs.json ==
 ERROR: CodeSystem.where(url = 'http://spor.ema.europa.eu/v1/lists/200000000006'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-combined-pharmaceutical-dose-form-ema-cs.json - the canonical URL (http://unicom-project.eu/fhir/CodeSystem/combined-pharmaceutical-dose-form-ema-cs) does not match the URL (http://spor.ema.europa.eu/v1/lists/200000000006)
-INFORMATION: CodeSystem/combined-pharmaceutical-dose-form-ema-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/combined-pharmaceutical-dose-form-ema-cs: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
-WARNING: CodeSystem/combined-pharmaceutical-dose-form-ema-cs: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
 ERROR: /github/workspace/fsh-generated/resources/CodeSystem-combined-pharmaceutical-dose-form-ema-cs: URL Mismatch http://unicom-project.eu/fhir/CodeSystem/combined-pharmaceutical-dose-form-ema-cs vs http://spor.ema.europa.eu/v1/lists/200000000006
 == fsh-generated/resources/CodeSystem-combined-term-ema-cs.json ==
 ERROR: CodeSystem.where(url = 'http://spor.ema.europa.eu/v1/lists/200000000007'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-combined-term-ema-cs.json - the canonical URL (http://unicom-project.eu/fhir/CodeSystem/combined-term-ema-cs) does not match the URL (http://spor.ema.europa.eu/v1/lists/200000000007)
-INFORMATION: CodeSystem/combined-term-ema-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/combined-term-ema-cs: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
-WARNING: CodeSystem/combined-term-ema-cs: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
 ERROR: /github/workspace/fsh-generated/resources/CodeSystem-combined-term-ema-cs: URL Mismatch http://unicom-project.eu/fhir/CodeSystem/combined-term-ema-cs vs http://spor.ema.europa.eu/v1/lists/200000000007
 == fsh-generated/resources/CodeSystem-pharmaceutical-dose-form-ema-cs.json ==
 ERROR: CodeSystem.where(url = 'http://spor.ema.europa.eu/v1/lists/200000000004'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-pharmaceutical-dose-form-ema-cs.json - the canonical URL (http://unicom-project.eu/fhir/CodeSystem/pharmaceutical-dose-form-ema-cs) does not match the URL (http://spor.ema.europa.eu/v1/lists/200000000004)
-INFORMATION: CodeSystem/pharmaceutical-dose-form-ema-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/pharmaceutical-dose-form-ema-cs: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
-WARNING: CodeSystem/pharmaceutical-dose-form-ema-cs: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
 ERROR: /github/workspace/fsh-generated/resources/CodeSystem-pharmaceutical-dose-form-ema-cs: URL Mismatch http://unicom-project.eu/fhir/CodeSystem/pharmaceutical-dose-form-ema-cs vs http://spor.ema.europa.eu/v1/lists/200000000004
 == fsh-generated/resources/CodeSystem-unit-of-measurement-ema-cs.json ==
 ERROR: CodeSystem.where(url = 'http://spor.ema.europa.eu/v1/lists/100000110633'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-unit-of-measurement-ema-cs.json - the canonical URL (http://unicom-project.eu/fhir/CodeSystem/unit-of-measurement-ema-cs) does not match the URL (http://spor.ema.europa.eu/v1/lists/100000110633)
-INFORMATION: CodeSystem/unit-of-measurement-ema-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/unit-of-measurement-ema-cs: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
-WARNING: CodeSystem/unit-of-measurement-ema-cs: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
 ERROR: /github/workspace/fsh-generated/resources/CodeSystem-unit-of-measurement-ema-cs: URL Mismatch http://unicom-project.eu/fhir/CodeSystem/unit-of-measurement-ema-cs vs http://spor.ema.europa.eu/v1/lists/100000110633
 == fsh-generated/resources/CodeSystem-unit-of-presentation-ema-cs.json ==
 ERROR: CodeSystem.where(url = 'http://spor.ema.europa.eu/v1/lists/200000000014'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-unit-of-presentation-ema-cs.json - the canonical URL (http://unicom-project.eu/fhir/CodeSystem/unit-of-presentation-ema-cs) does not match the URL (http://spor.ema.europa.eu/v1/lists/200000000014)
-INFORMATION: CodeSystem/unit-of-presentation-ema-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/unit-of-presentation-ema-cs: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
-WARNING: CodeSystem/unit-of-presentation-ema-cs: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
 ERROR: /github/workspace/fsh-generated/resources/CodeSystem-unit-of-presentation-ema-cs: URL Mismatch http://unicom-project.eu/fhir/CodeSystem/unit-of-presentation-ema-cs vs http://spor.ema.europa.eu/v1/lists/200000000014
 == fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.unicom.json ==
 == fsh-generated/resources/Ingredient-Agen-5mg-Tablet-EE-I.json ==
 INFORMATION: Ingredient/Agen-5mg-Tablet-EE-I: Ingredient.role.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000072050' is unknown so the code cannot be validated
 INFORMATION: Ingredient/Agen-5mg-Tablet-EE-I: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://spor.ema.europa.eu/v2/SubstanceDefinition' is unknown so the code cannot be validated
-ERROR: Ingredient/Agen-5mg-Tablet-EE-I: Ingredient.substance.strength[0].presentation.ofType(Ratio).denominator.system: The value provided ('http://spor.ema.europa.eu/v1/lists/200000000014') is not in the value set 'All Units Combined' (http://unicom-project.eu/fhir/ValueSet/all-units-vs), and a code is required from this value set) (error message = Unable to resolve system - value set expansion has multiple matches: [])
+ERROR: Ingredient/Agen-5mg-Tablet-EE-I: Ingredient.substance.strength[0].presentation.ofType(Ratio).denominator.unit: The value provided ('Tablet') is not in the value set 'All Units Combined' (http://unicom-project.eu/fhir/ValueSet/all-units-vs), and a code is required from this value set) (error message = Unable to resolve system - value set expansion has multiple matches: [])
 INFORMATION: Ingredient/Agen-5mg-Tablet-EE-I: Ingredient.substance.strength[0].referenceStrength[0].substance.concept.coding[0]: Code System URI 'https://spor.ema.europa.eu/v2/SubstanceDefinition' is unknown so the code cannot be validated
-ERROR: Ingredient/Agen-5mg-Tablet-EE-I: Ingredient.substance.strength[0].referenceStrength[0].strength.ofType(Ratio).denominator.system: The value provided ('http://spor.ema.europa.eu/v1/lists/200000000014') is not in the value set 'All Units Combined' (http://unicom-project.eu/fhir/ValueSet/all-units-vs), and a code is required from this value set) (error message = Unable to resolve system - value set expansion has multiple matches: [])
+ERROR: Ingredient/Agen-5mg-Tablet-EE-I: Ingredient.substance.strength[0].referenceStrength[0].strength.ofType(Ratio).denominator.unit: The value provided ('Tablet') is not in the value set 'All Units Combined' (http://unicom-project.eu/fhir/ValueSet/all-units-vs), and a code is required from this value set) (error message = Unable to resolve system - value set expansion has multiple matches: [])
 == fsh-generated/resources/Ingredient-CanifugCremolum-100mg-Pessary-EE-I.json ==
 INFORMATION: Ingredient/CanifugCremolum-100mg-Pessary-EE-I: Ingredient.role.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000072050' is unknown so the code cannot be validated
 INFORMATION: Ingredient/CanifugCremolum-100mg-Pessary-EE-I: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://spor.ema.europa.eu/v2/SubstanceDefinition' is unknown so the code cannot be validated
-ERROR: Ingredient/CanifugCremolum-100mg-Pessary-EE-I: Ingredient.substance.strength[0].presentation.ofType(Ratio).denominator.system: The value provided ('http://spor.ema.europa.eu/v1/lists/200000000014') is not in the value set 'All Units Combined' (http://unicom-project.eu/fhir/ValueSet/all-units-vs), and a code is required from this value set) (error message = Unable to resolve system - value set expansion has multiple matches: [])
+ERROR: Ingredient/CanifugCremolum-100mg-Pessary-EE-I: Ingredient.substance.strength[0].presentation.ofType(Ratio).denominator.unit: The value provided ('Pessary') is not in the value set 'All Units Combined' (http://unicom-project.eu/fhir/ValueSet/all-units-vs), and a code is required from this value set) (error message = Unable to resolve system - value set expansion has multiple matches: [])
 == fsh-generated/resources/Ingredient-CanifugCremolum-10mg1g-Cream-EE-I.json ==
 INFORMATION: Ingredient/CanifugCremolum-10mg1g-Cream-EE-I: Ingredient.role.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000072050' is unknown so the code cannot be validated
 INFORMATION: Ingredient/CanifugCremolum-10mg1g-Cream-EE-I: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://spor.ema.europa.eu/v2/SubstanceDefinition' is unknown so the code cannot be validated
