@@ -1,15 +1,15 @@
 ﻿UnicomIG : Validation Results
 =========================================
 
-err = 34, warn = 51, info = 84
-IG Publisher Version: 1.2.13
-Generated Mon Nov 07 21:33:01 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhir.unicom#0.1.0 (canonical = http://unicom-project.eu/fhir)
+err = 34, warn = 48, info = 83
+IG Publisher Version: 1.2.14
+Generated Tue Nov 08 20:51:48 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhir.unicom#0.1.0 (canonical = http://unicom-project.eu/fhir)
  Build Errors : 0 / 24 / 0
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-Agen-5mg-Tablet-EE-APD : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-CanifugCremolum-100mg-Pessary-EE-APD : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-CanifugCremolum-10mg1g-Cream-EE-APD : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-Cefuroxime-MIP-1500mg-EE-APD : 1 / 0 / 3
- /github/workspace/fsh-generated/resources/CodeSystem-combination-package-ema-cs : 2 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-combination-package-ema-cs : 2 / 1 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-combined-pharmaceutical-dose-form-ema-cs : 2 / 1 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-combined-term-ema-cs : 2 / 1 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-pharmaceutical-dose-form-ema-cs : 2 / 1 / 1
@@ -42,7 +42,6 @@ Generated Mon Nov 07 21:33:01 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhi
  /github/workspace/fsh-generated/resources/StructureDefinition-DT : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-FullMedicinalProduct : 0 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-II : 0 / 1 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-MPDBundle : 0 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-PPLAdministrableProductDefinition : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-PPLIngredient : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/StructureDefinition-PPLManufacturedItemDefinition : 0 / 0 / 1
@@ -95,9 +94,7 @@ INFORMATION: AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD: Admini
 INFORMATION: AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD: AdministrableProductDefinition.routeOfAdministration[1].code.coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000073345' is unknown so the code cannot be validated
 == fsh-generated/resources/CodeSystem-combination-package-ema-cs.json ==
 ERROR: CodeSystem.where(url = 'http://spor.ema.europa.eu/v1/lists/200000000008'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-combination-package-ema-cs.json - the canonical URL (http://unicom-project.eu/fhir/CodeSystem/combination-package-ema-cs) does not match the URL (http://spor.ema.europa.eu/v1/lists/200000000008)
-INFORMATION: CodeSystem/combination-package-ema-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/combination-package-ema-cs: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
-WARNING: CodeSystem/combination-package-ema-cs: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
 ERROR: /github/workspace/fsh-generated/resources/CodeSystem-combination-package-ema-cs: URL Mismatch http://unicom-project.eu/fhir/CodeSystem/combination-package-ema-cs vs http://spor.ema.europa.eu/v1/lists/200000000008
 == fsh-generated/resources/CodeSystem-combined-pharmaceutical-dose-form-ema-cs.json ==
 ERROR: CodeSystem.where(url = 'http://spor.ema.europa.eu/v1/lists/200000000006'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-combined-pharmaceutical-dose-form-ema-cs.json - the canonical URL (http://unicom-project.eu/fhir/CodeSystem/combined-pharmaceutical-dose-form-ema-cs) does not match the URL (http://spor.ema.europa.eu/v1/lists/200000000006)
@@ -238,9 +235,6 @@ WARNING: StructureDefinition/FullMedicinalProduct: StructureDefinition.snapshot.
 WARNING: StructureDefinition/FullMedicinalProduct: StructureDefinition.differential.element[62]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters or code generation tools may be broken' Failed
 == fsh-generated/resources/StructureDefinition-II.json ==
 WARNING: StructureDefinition.where(url = 'http://unicom-project.eu/fhir/StructureDefinition/II'): The Implementation Guide contains no examples for this data type profile
-== fsh-generated/resources/StructureDefinition-MPDBundle.json ==
-WARNING: StructureDefinition/MPDBundle: StructureDefinition.snapshot.element[0]: Rule eld-27: 'Mappings SHOULD be unique by key' Failed
-WARNING: StructureDefinition.where(url = 'http://unicom-project.eu/fhir/StructureDefinition/MPDBundle'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-PPLAdministrableProductDefinition.json ==
 == fsh-generated/resources/StructureDefinition-PPLIngredient.json ==
 INFORMATION: StructureDefinition/PPLIngredient: StructureDefinition.snapshot.element[12].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://spor.ema.europa.eu/v1/lists/100000072050' is unknown so the code cannot be validated

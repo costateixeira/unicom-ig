@@ -77,13 +77,6 @@
     "name": "II"
   },
   {
-    "id": "MPDBundle",
-    "type": "StructureDefinition",
-    "url": "http://unicom-project.eu/fhir/StructureDefinition/MPDBundle",
-    "version": "0.1.0",
-    "name": "MPDBundle"
-  },
-  {
     "id": "PPLAdministrableProductDefinition",
     "type": "StructureDefinition",
     "url": "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition",

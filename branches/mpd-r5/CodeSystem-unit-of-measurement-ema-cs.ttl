@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "UnitOfMeasurement_EMA_CS"];
   fhir:CodeSystem.title [ fhir:value "Unit of Measurement EMA"];
   fhir:CodeSystem.status [ fhir:value "draft"];
-  fhir:CodeSystem.date [ fhir:value "2022-11-07T21:31:45+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-11-08T20:50:12+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "UNICOM"];
   fhir:CodeSystem.contact [
      fhir:index 0;

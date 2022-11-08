@@ -4,12 +4,6 @@
   "fhirVersion": "5.0.0-ballot",
   "extensions": [],
   "profiles": {
-    "Bundle": [
-      {
-        "url": "http://unicom-project.eu/fhir/StructureDefinition/MPDBundle",
-        "title": "PPL Medicinal Product Bundle profile"
-      }
-    ],
     "AdministrableProductDefinition": [
       {
         "url": "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition",
@@ -83,9 +77,6 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
       "StructureDefinition"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
-      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/build/StructureDefinition/binding-definition": [
       "StructureDefinition.snapshot.element.binding"
