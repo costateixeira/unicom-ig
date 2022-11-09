@@ -10,7 +10,7 @@
   "name": "UnicomIG",
   "title": "UnicomIG",
   "status": "draft",
-  "date": "2022-11-07T08:36:34+00:00",
+  "date": "2022-11-09T19:33:22+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -40,7 +40,7 @@
       ],
       "uri": "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
       "packageId": "hl7.terminology.r5",
-      "version": "4.0.0"
+      "version": "5.0.0"
     }
   ],
   "definition": {
