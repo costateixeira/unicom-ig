@@ -3,7 +3,7 @@
 
 err = 47, warn = 47, info = 95
 IG Publisher Version: 1.2.14
-Generated Fri Nov 11 15:51:49 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhir.unicom#0.1.0 (canonical = https://hl7-eu.github.io/unicom-ig/branches/mpd-r5)
+Generated Fri Nov 11 20:49:53 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhir.unicom#0.1.0 (canonical = https://hl7-eu.github.io/unicom-ig/branches/mpd-r5)
  Build Errors : 0 / 25 / 0
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-Agen-5mg-Tablet-EE-APD : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-CanifugCremolum-100mg-Pessary-EE-APD : 0 / 0 / 2
