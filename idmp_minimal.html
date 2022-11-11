@@ -1,11 +1,9 @@
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.EU.FHIR.UNICOM\WHO ATC - XML Representation - FHIR v5.0.0-ballot</title>
+    <title>HL7.EU.FHIR.UNICOM\IDMP Minimal Model - FHIR v5.0.0-ballot</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -42,8 +40,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"3.1"}
-    h3,h4,h5,h6{--heading-prefix:"3.1"}</style>
+    <style type="text/css">h2{--heading-prefix:"2"}
+    h3,h4,h5,h6{--heading-prefix:"2"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -121,7 +119,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>WHO ATC</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>IDMP Minimal Model</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -133,120 +131,42 @@
         <div class="row">
           <div class="inner-wrapper">
 
-<div style="counter-reset: section 7" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">UnicomIG - Local Development build (v0.1.0). See the <a href="http://medigree.net/fhir/ee/idmp/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
-
-
-
-
-
-
-
-
-
-
-<ul class="nav nav-tabs">
-
-  <li>
-    <a href="ValueSet-whoatc-unicom.html">Narrative Content</a>
-  </li>
-
-
-
-  
-    <li class="active">
-      <a href="#">XML</a>
-    </li>
-  
-
-
-  
-    <li>
-      <a href="ValueSet-whoatc-unicom.json.html">JSON</a>
-    </li>
-  
-
-
-  
-    <li>
-      <a href="ValueSet-whoatc-unicom.ttl.html">TTL</a>
-    </li>
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">UnicomIG - Local Development build (v0.1.0). See the <a href="http://medigree.net/fhir/ee/idmp/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>IDMP Minimal Model</h2>
   
 
 
 
-</ul>
-
-
-<a name="root"> </a>
-
-
-<h2 id="root">: WHO ATC - XML Representation</h2>
-  <table class="colsi">
-    <tr>
-
-      <td colspan="2">
-        
-          Active
-          
-            as of 2022-11-11
-          
-        
-      </td>
-
-    </tr>
-  </table>
-
-
-<p><a href="ValueSet-whoatc-unicom.xml" no-download="true">Raw xml</a> | <a href="ValueSet-whoatc-unicom.xml" download>Download</a></p>
-
-  <!-- insert intro if present -->
-  
 
 
 
-  <pre class="xml" style="white-space: pre; overflow: hidden"><code class="language-xml">
-
-&lt;<a href="http://build.fhir.org/valueset.html#ValueSet">ValueSet</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
-  &lt;<a href="http://build.fhir.org/valueset.html#ValueSet.id">id</a> <a href="http://build.fhir.org/datatypes.html#id">value</a>=&quot;whoatc-unicom&quot;/&gt;
-  &lt;<a href="http://build.fhir.org/valueset.html#ValueSet.meta">meta</a>&gt;
-    &lt;<a href="http://build.fhir.org/resource.html#Meta#Meta.profile">profile</a>
-             <a href="http://build.fhir.org/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/shareablevalueset&quot;/&gt;
-  &lt;/meta&gt;
-  &lt;<a href="http://build.fhir.org/valueset.html#ValueSet.text">text</a>&gt;
-    &lt;<a href="http://build.fhir.org/narrative.html#Narrative#Narrative.status">status</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;ul&gt;&lt;li&gt;Include all codes defined in &lt;a href=&quot;http://www.whocc.no/atc&quot;&gt;&lt;code&gt;http://www.whocc.no/atc&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;<a name="end-xhtml"></a>
-  &lt;/text&gt;
-  &lt;<a href="http://build.fhir.org/valueset.html#ValueSet.url">url</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/uv/ips/ValueSet/whoatc-uv-ips&quot;/&gt;
-  &lt;<a href="http://build.fhir.org/valueset.html#ValueSet.version">version</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;0.1.0&quot;/&gt;
-  &lt;<a href="http://build.fhir.org/valueset.html#ValueSet.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;VsWhoAtcUnicom&quot;/&gt;
-  &lt;<a href="http://build.fhir.org/valueset.html#ValueSet.title">title</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;WHO ATC&quot;/&gt;
-  &lt;<a href="http://build.fhir.org/valueset.html#ValueSet.status">status</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
-  &lt;<a href="http://build.fhir.org/valueset.html#ValueSet.experimental">experimental</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
-  &lt;<a href="http://build.fhir.org/valueset.html#ValueSet.date">date</a> <a href="http://build.fhir.org/datatypes.html#dateTime">value</a>=&quot;2022-11-11T18:26:19+00:00&quot;/&gt;
-  &lt;<a href="http://build.fhir.org/valueset.html#ValueSet.publisher">publisher</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;UNICOM&quot;/&gt;
-  &lt;<a href="http://build.fhir.org/valueset.html#ValueSet.contact">contact</a>&gt;
-    &lt;<a href="http://build.fhir.org/metadatatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;UNICOM&quot;/&gt;
-    &lt;<a href="http://build.fhir.org/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
-      &lt;<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;url&quot;/&gt;
-      &lt;<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;http://medigree.net&quot;/&gt;
-    &lt;/telecom&gt;
-  &lt;/contact&gt;
-  &lt;<a href="http://build.fhir.org/valueset.html#ValueSet.description">description</a>
-               <a href="http://build.fhir.org/datatypes.html#markdown">value</a>=&quot;World Health Organization Anatomical Therapeutic Chemical (ATC) classification system.  Note: The currently implemented code system and the value set expansion contain only a set of example ATC codes, not the complete code system content.&quot;/&gt;
-  &lt;<a href="http://build.fhir.org/valueset.html#ValueSet.immutable">immutable</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
-  &lt;<a href="http://build.fhir.org/valueset.html#ValueSet.copyright">copyright</a>
-             <a href="http://build.fhir.org/datatypes.html#markdown">value</a>=&quot;This artifact includes content from Anatomical Therapeutic Chemical (ATC) classification system. ATC codes are copyright World Health Organization (WHO) Collaborating Centre for Drug Statistics Methodology. Terms &amp;amp; Conditions in https://www.whocc.no/use_of_atc_ddd/&quot;/&gt;
-  &lt;<a href="http://build.fhir.org/valueset.html#ValueSet.compose">compose</a>&gt;
-    &lt;<a href="http://build.fhir.org/valueset.html#ValueSet.compose.include">include</a>&gt;
-      &lt;<a href="http://build.fhir.org/valueset.html#ValueSet.compose.include.system">system</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://www.whocc.no/atc&quot;/&gt;
-    &lt;/include&gt;
-  &lt;/compose&gt;
-&lt;/ValueSet&gt;</code></pre>
 
 
-  <!-- insert notes if present -->
-  
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+
+<figure>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="90px" preserveAspectRatio="none" style="width:131px;height:90px;background:#FFFFFF;" version="1.1" viewBox="0 0 131 90" width="131px" zoomAndPan="magnify"><defs><filter height="300%" id="f123xu9p14y0pi" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0" /><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0" /><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3" /><feBlend in="SourceGraphic" in2="blurOut3" mode="normal" /></filter></defs><g><!--MD5=[f83ae91a690dfc657e1c5fbbd818f13d]
+entity a--><ellipse cx="19" cy="14" fill="#FEFECE" filter="url(#f123xu9p14y0pi)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;" /><path d="M19,22 L19,49 M6,30 L32,30 M19,49 L6,64 M19,49 L32,64 " fill="none" filter="url(#f123xu9p14y0pi)" style="stroke:#A80036;stroke-width:1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="8" x="15" y="82.4951">a</text><!--MD5=[5d12e840fb55afd9ed7b3559a638e8f7]
+entity b--><ellipse cx="97" cy="23" fill="#FEFECE" filter="url(#f123xu9p14y0pi)" rx="16" ry="16" style="stroke:#A80036;stroke-width:1.5;" /><path d="M97,43 C101,43 104,43 108,39 C116,39 124,47 124,55 L124,59 C124,63 120,67 116,67 L78,67 C74,67 70,63 70,59 L70,55 C70,47 78,39 86,39 C90,43 93,43 97,43 " fill="#FEFECE" filter="url(#f123xu9p14y0pi)" style="stroke:#A80036;stroke-width:1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="9" x="92.5" y="81.4951">b</text><!--MD5=[a3deb68e4aebbeb113ddd128f6b25b58]
+link a to b--><path d="M33.625,45 C45.1777,45 56.7305,45 68.2832,45 " fill="none" id="a-b" style="stroke:#A80036;stroke-width:1.0;" /></g></svg>
+<figcaption>IDMP Minimal model </figcaption>
+</figure>
+
 
 
 
