@@ -1,12 +1,12 @@
 {
-  "url": "http://medigree.net/fhir/ee/idmp/ImplementationGuide/hl7.eu.fhir.unicom",
+  "url": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ImplementationGuide/hl7.eu.fhir.unicom",
   "name": "UnicomIG",
   "package-id": "hl7.eu.fhir.unicom",
   "ig-ver": "0.1.0",
-  "date": "Fri, 11 Nov, 2022 18:26:19 +0000",
-  "errs": 2,
-  "warnings": 3,
-  "hints": 0,
+  "date": "Fri, 11 Nov, 2022 20:48:35 +0000",
+  "errs": 47,
+  "warnings": 47,
+  "hints": 95,
   "version": "5.0.0-ballot",
   "tool": "5.0.0-ballot (3)"
 }

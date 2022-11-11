@@ -1,16 +1,177 @@
 [
   {
-    "id": "whoatc-unicom",
-    "type": "ValueSet",
-    "url": "http://hl7.org/fhir/uv/ips/ValueSet/whoatc-uv-ips",
+    "id": "unit-of-measurement-ema-cs",
+    "type": "CodeSystem",
+    "url": "http://spor.ema.europa.eu/v1/lists/100000110633",
     "version": "0.1.0",
-    "name": "VsWhoAtcUnicom"
+    "name": "UnitOfMeasurement_EMA_CS"
+  },
+  {
+    "id": "pharmaceutical-dose-form-ema-cs",
+    "type": "CodeSystem",
+    "url": "http://spor.ema.europa.eu/v1/lists/200000000004",
+    "version": "0.1.0",
+    "name": "PharmaceuticalDoseForm_EMA_CS"
+  },
+  {
+    "id": "combined-pharmaceutical-dose-form-ema-cs",
+    "type": "CodeSystem",
+    "url": "http://spor.ema.europa.eu/v1/lists/200000000006",
+    "version": "0.1.0",
+    "name": "CombinedPharmaceuticalDoseForm_EMA_CS"
+  },
+  {
+    "id": "combined-term-ema-cs",
+    "type": "CodeSystem",
+    "url": "http://spor.ema.europa.eu/v1/lists/200000000007",
+    "version": "0.1.0",
+    "name": "CombinedTerm_EMA_CS"
+  },
+  {
+    "id": "combination-package-ema-cs",
+    "type": "CodeSystem",
+    "url": "http://spor.ema.europa.eu/v1/lists/200000000008",
+    "version": "0.1.0",
+    "name": "CombinationPackage_EMA_CS"
+  },
+  {
+    "id": "unit-of-presentation-ema-cs",
+    "type": "CodeSystem",
+    "url": "http://spor.ema.europa.eu/v1/lists/200000000014",
+    "version": "0.1.0",
+    "name": "UnitOfPresentation_EMA_CS"
   },
   {
     "id": "hl7.eu.fhir.unicom",
     "type": "ImplementationGuide",
-    "url": "http://medigree.net/fhir/ee/idmp/ImplementationGuide/hl7.eu.fhir.unicom",
+    "url": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ImplementationGuide/hl7.eu.fhir.unicom",
     "version": "0.1.0",
     "name": "UnicomIG"
+  },
+  {
+    "id": "CD",
+    "type": "StructureDefinition",
+    "url": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD",
+    "version": "0.1.0",
+    "name": "CD"
+  },
+  {
+    "id": "DT",
+    "type": "StructureDefinition",
+    "url": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/DT",
+    "version": "0.1.0",
+    "name": "DT"
+  },
+  {
+    "id": "FullMedicinalProduct",
+    "type": "StructureDefinition",
+    "url": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/FullMedicinalProduct",
+    "version": "0.1.0",
+    "name": "FullMedicinalProduct"
+  },
+  {
+    "id": "II",
+    "type": "StructureDefinition",
+    "url": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II",
+    "version": "0.1.0",
+    "name": "II"
+  },
+  {
+    "id": "PPLAdministrableProductDefinition",
+    "type": "StructureDefinition",
+    "url": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition",
+    "version": "0.1.0",
+    "name": "PPLAdministrableProductDefinition"
+  },
+  {
+    "id": "PPLIngredient",
+    "type": "StructureDefinition",
+    "url": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient",
+    "version": "0.1.0",
+    "name": "PPLIngredient"
+  },
+  {
+    "id": "PPLManufacturedItemDefinition",
+    "type": "StructureDefinition",
+    "url": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition",
+    "version": "0.1.0",
+    "name": "PPLManufacturedItemDefinition"
+  },
+  {
+    "id": "PPLMedicinalProductDefinition",
+    "type": "StructureDefinition",
+    "url": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition",
+    "version": "0.1.0",
+    "name": "PPLMedicinalProductDefinition"
+  },
+  {
+    "id": "PPLOrganization",
+    "type": "StructureDefinition",
+    "url": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization",
+    "version": "0.1.0",
+    "name": "PPLOrganization"
+  },
+  {
+    "id": "PPLPackagedProductDefinition",
+    "type": "StructureDefinition",
+    "url": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition",
+    "version": "0.1.0",
+    "name": "PPLPackagedProductDefinition"
+  },
+  {
+    "id": "PPLRegulatedAuthorization",
+    "type": "StructureDefinition",
+    "url": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization",
+    "version": "0.1.0",
+    "name": "PPLRegulatedAuthorization"
+  },
+  {
+    "id": "QT",
+    "type": "StructureDefinition",
+    "url": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/QT",
+    "version": "0.1.0",
+    "name": "QT"
+  },
+  {
+    "id": "ST",
+    "type": "StructureDefinition",
+    "url": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST",
+    "version": "0.1.0",
+    "name": "ST"
+  },
+  {
+    "id": "TS",
+    "type": "StructureDefinition",
+    "url": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/TS",
+    "version": "0.1.0",
+    "name": "TS"
+  },
+  {
+    "id": "class",
+    "type": "StructureDefinition",
+    "url": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class",
+    "version": "0.1.0",
+    "name": "class"
+  },
+  {
+    "id": "untyped",
+    "type": "StructureDefinition",
+    "url": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/untyped",
+    "version": "0.1.0",
+    "name": "untyped"
+  },
+  {
+    "id": "all-units-vs",
+    "type": "ValueSet",
+    "url": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/all-units-vs",
+    "version": "0.1.0",
+    "name": "AllUnits"
+  },
+  {
+    "id": "authorised-doseform-vs",
+    "type": "ValueSet",
+    "url": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/authorised-doseform-vs",
+    "version": "0.1.0",
+    "name": "AuthorisedDoseForm"
   }
 ]
