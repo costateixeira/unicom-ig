@@ -46,12 +46,12 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="anonymous"/>
   </extension>
-  <url value="http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"/>
+  <url value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient"/>
   <version value="0.1.0"/>
   <name value="PPLIngredient"/>
   <title value="PPL Ingredient profile"/>
   <status value="active"/>
-  <date value="2022-11-08T20:50:12+00:00"/>
+  <date value="2022-11-11T15:50:31+00:00"/>
   <publisher value="UNICOM"/>
   <contact>
     <name value="UNICOM"/>
@@ -516,9 +516,9 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"/>
-        <targetProfile value="http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"/>
-        <targetProfile value="http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"/>
+        <targetProfile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition"/>
+        <targetProfile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition"/>
+        <targetProfile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -2433,7 +2433,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://unicom-project.eu/fhir/ValueSet/all-units-vs"/>
+        <valueSet value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/all-units-vs"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -4826,7 +4826,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://unicom-project.eu/fhir/ValueSet/all-units-vs"/>
+        <valueSet value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/all-units-vs"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -4992,9 +4992,9 @@
       <min value="1"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"/>
-        <targetProfile value="http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"/>
-        <targetProfile value="http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"/>
+        <targetProfile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition"/>
+        <targetProfile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition"/>
+        <targetProfile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition"/>
       </type>
     </element>
     <element id="Ingredient.role">
@@ -5041,7 +5041,7 @@
       <path value="Ingredient.substance.strength.presentationRatio.denominator.unit"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://unicom-project.eu/fhir/ValueSet/all-units-vs"/>
+        <valueSet value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/all-units-vs"/>
       </binding>
     </element>
     <element id="Ingredient.substance.strength.presentationRatio.denominator.system">
@@ -5100,7 +5100,7 @@
       <path value="Ingredient.substance.strength.referenceStrength.strengthRatio.denominator.unit"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://unicom-project.eu/fhir/ValueSet/all-units-vs"/>
+        <valueSet value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/all-units-vs"/>
       </binding>
     </element>
     <element id="Ingredient.substance.strength.referenceStrength.strengthRatio.denominator.system">

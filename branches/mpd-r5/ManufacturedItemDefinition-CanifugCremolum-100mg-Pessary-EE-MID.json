@@ -3,7 +3,7 @@
   "id": "CanifugCremolum-100mg-Pessary-EE-MID",
   "meta": {
     "profile": [
-      "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
+      "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition"
     ]
   },
   "text": {

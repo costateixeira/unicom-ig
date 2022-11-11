@@ -15,12 +15,12 @@
       "valueCode": "anonymous"
     }
   ],
-  "url": "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition",
+  "url": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition",
   "version": "0.1.0",
   "name": "PPLMedicinalProductDefinition",
   "title": "PPL Medicinal Product profile",
   "status": "active",
-  "date": "2022-11-08T20:50:12+00:00",
+  "date": "2022-11-11T15:50:31+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -2678,7 +2678,7 @@
         "isSummary": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://unicom-project.eu/fhir/ValueSet/authorised-doseform-vs"
+          "valueSet": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/authorised-doseform-vs"
         },
         "mapping": [
           {
@@ -10180,7 +10180,7 @@
         "path": "MedicinalProductDefinition.combinedPharmaceuticalDoseForm.coding.code",
         "binding": {
           "strength": "required",
-          "valueSet": "http://unicom-project.eu/fhir/ValueSet/authorised-doseform-vs"
+          "valueSet": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/authorised-doseform-vs"
         }
       },
       {

@@ -122,12 +122,12 @@
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck000000000000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-FullMedicinalProduct-definitions.html#FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.referenceStrength.strength.denominator.unit" title="Unit">unit</a><a name="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.referenceStrength.strength.denominator.unit"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-ST.html" title="Element">ST</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Unit</td></tr>
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://build.fhir.org/formats.html#table" title="Legend for this format"><img src="http://build.fhir.org/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
-  <url value="http://unicom-project.eu/fhir/StructureDefinition/FullMedicinalProduct"/>
+  <url value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/FullMedicinalProduct"/>
   <version value="0.1.0"/>
   <name value="FullMedicinalProduct"/>
   <title value="Medicinal Product"/>
   <status value="active"/>
-  <date value="2022-11-08T20:50:12+00:00"/>
+  <date value="2022-11-11T15:50:31+00:00"/>
   <publisher value="UNICOM"/>
   <contact>
     <name value="UNICOM"/>
@@ -145,7 +145,7 @@
   </mapping>
   <kind value="logical"/>
   <abstract value="false"/>
-  <type value="http://unicom-project.eu/fhir/StructureDefinition/FullMedicinalProduct"/>
+  <type value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/FullMedicinalProduct"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Base"/>
   <derivation value="specialization"/>
   <snapshot>
@@ -179,7 +179,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -319,7 +319,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.identifier.pmsId">
@@ -335,7 +335,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.identifier.nationalId">
@@ -351,7 +351,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.domain">
@@ -367,7 +367,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.legalStatusOfSupply">
@@ -383,7 +383,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.authorisedDoseForm">
@@ -399,7 +399,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.classification">
@@ -415,7 +415,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -555,7 +555,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.classification.classificationOther">
@@ -571,7 +571,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.name">
@@ -587,7 +587,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -727,7 +727,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.name.namePart">
@@ -743,7 +743,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -883,7 +883,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.name.namePart.strength">
@@ -899,7 +899,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.name.namePart.doseForm">
@@ -915,7 +915,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.name.nameUsage">
@@ -931,7 +931,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1071,7 +1071,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.name.nameUsage.language">
@@ -1087,7 +1087,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.marketingAuthorisation">
@@ -1103,7 +1103,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1243,7 +1243,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.marketingAuthorisation.region">
@@ -1259,7 +1259,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.marketingAuthorisation.marketingAuthorisationStatus">
@@ -1275,7 +1275,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.marketingAuthorisation.date">
@@ -1291,7 +1291,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/DT"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/DT"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.marketingAuthorisation.marketingAuthorisationHolder">
@@ -1307,7 +1307,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1447,7 +1447,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.marketingAuthorisation.marketingAuthorisationHolder.organisationId">
@@ -1463,7 +1463,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.marketingAuthorisation.marketingAuthorisationHolder.mahName">
@@ -1479,7 +1479,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct">
@@ -1495,7 +1495,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1635,7 +1635,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1775,7 +1775,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.identifier.nationalId">
@@ -1791,7 +1791,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.administrableDoseForm">
@@ -1807,7 +1807,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.unitOfPresentation">
@@ -1823,7 +1823,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.routeOfAdministration">
@@ -1839,7 +1839,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient">
@@ -1855,7 +1855,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1995,7 +1995,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.substance">
@@ -2011,7 +2011,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength">
@@ -2027,7 +2027,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -2167,7 +2167,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.strength">
@@ -2183,7 +2183,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -2323,7 +2323,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -2463,7 +2463,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.strength.numerator.value">
@@ -2479,7 +2479,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.strength.numerator.unit">
@@ -2495,7 +2495,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.strength.denominator">
@@ -2511,7 +2511,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -2651,7 +2651,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.strength.denominator.unit">
@@ -2667,7 +2667,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.referenceStrength">
@@ -2683,7 +2683,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -2823,7 +2823,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.referenceStrength.strength">
@@ -2839,7 +2839,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -2979,7 +2979,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -3119,7 +3119,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.referenceStrength.strength.numerator.value">
@@ -3135,7 +3135,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.referenceStrength.strength.numerator.unit">
@@ -3151,7 +3151,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.referenceStrength.strength.denominator">
@@ -3167,7 +3167,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -3307,7 +3307,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.referenceStrength.strength.denominator.unit">
@@ -3323,7 +3323,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition">
@@ -3339,7 +3339,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -3479,7 +3479,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -3619,7 +3619,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.identifier.national-id">
@@ -3635,7 +3635,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.description">
@@ -3651,7 +3651,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -3791,7 +3791,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.packSize">
@@ -3807,7 +3807,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -3947,7 +3947,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/QT"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/QT"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.packSize.unit">
@@ -3963,7 +3963,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.legalStatusOfSupply">
@@ -3979,7 +3979,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.marketingAuthorisation">
@@ -3995,7 +3995,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -4135,7 +4135,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.marketingAuthorisation.region">
@@ -4151,7 +4151,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.marketingAuthorisation.marketingAuthorisationStatus">
@@ -4167,7 +4167,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.marketingAuthorisation.date">
@@ -4183,7 +4183,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/DT"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/DT"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.marketingAuthorisation.marketingAuthorisationHolder">
@@ -4199,7 +4199,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -4339,7 +4339,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.marketingAuthorisation.marketingAuthorisationHolder.organisationId">
@@ -4355,7 +4355,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.marketingAuthorisation.marketingAuthorisationHolder.mahName">
@@ -4371,7 +4371,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.marketingStatus">
@@ -4387,7 +4387,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -4527,7 +4527,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.marketingStatus.status">
@@ -4543,7 +4543,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package">
@@ -4559,7 +4559,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -4699,7 +4699,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.quantity">
@@ -4715,7 +4715,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/QT"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/QT"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.material">
@@ -4731,7 +4731,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage">
@@ -4747,7 +4747,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -4887,14 +4887,14 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="itemcontent-1"/>
         <severity value="error"/>
         <human value="containedItem.containedPackage or containedItem.manufacturedItem SHALL be present, but not both"/>
         <expression value="containedPackage.exists() implies manufacturedItem.exists().not()"/>
-        <source value="http://unicom-project.eu/fhir/StructureDefinition/FullMedicinalProduct"/>
+        <source value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/FullMedicinalProduct"/>
       </constraint>
       <constraint>
         <key value="ele-1"/>
@@ -5034,7 +5034,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -5174,7 +5174,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/QT"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/QT"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.amount.unit">
@@ -5190,7 +5190,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.containedPackage">
@@ -5204,7 +5204,7 @@
         <min value="0"/>
         <max value="*"/>
       </base>
-      <contentReference value="http://unicom-project.eu/fhir/StructureDefinition/FullMedicinalProduct#FullMedicinalProduct.packagedProductDefinition.package"/>
+      <contentReference value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/FullMedicinalProduct#FullMedicinalProduct.packagedProductDefinition.package"/>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem">
       <path value="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem"/>
@@ -5219,7 +5219,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -5359,7 +5359,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.unitOfPresentation">
@@ -5375,7 +5375,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient">
@@ -5391,7 +5391,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -5531,7 +5531,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.substance">
@@ -5547,7 +5547,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength">
@@ -5563,7 +5563,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -5703,7 +5703,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.strength">
@@ -5719,7 +5719,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -5859,7 +5859,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -5999,7 +5999,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.strength.numerator.value">
@@ -6015,7 +6015,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.strength.numerator.unit">
@@ -6031,7 +6031,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.strength.denominator">
@@ -6047,7 +6047,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -6187,7 +6187,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.strength.denominator.unit">
@@ -6203,7 +6203,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.referenceStrength">
@@ -6219,7 +6219,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -6359,7 +6359,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.referenceStrength.strength">
@@ -6375,7 +6375,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -6515,7 +6515,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -6655,7 +6655,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.referenceStrength.strength.numerator.value">
@@ -6671,7 +6671,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.referenceStrength.strength.numerator.unit">
@@ -6687,7 +6687,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.referenceStrength.strength.denominator">
@@ -6703,7 +6703,7 @@
       </base>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -6843,7 +6843,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.referenceStrength.strength.denominator.unit">
@@ -6859,7 +6859,7 @@
       </base>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
   </snapshot>
@@ -6877,7 +6877,7 @@
       <max value="*"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.identifier.mpId">
@@ -6888,7 +6888,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.identifier.pmsId">
@@ -6899,7 +6899,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.identifier.nationalId">
@@ -6910,7 +6910,7 @@
       <max value="*"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.domain">
@@ -6921,7 +6921,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.legalStatusOfSupply">
@@ -6932,7 +6932,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.authorisedDoseForm">
@@ -6943,7 +6943,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.classification">
@@ -6954,7 +6954,7 @@
       <max value="*"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.classification.classificationATC">
@@ -6965,7 +6965,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.classification.classificationOther">
@@ -6976,7 +6976,7 @@
       <max value="*"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.name">
@@ -6987,7 +6987,7 @@
       <max value="*"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.name.fullName">
@@ -6998,7 +6998,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.name.namePart">
@@ -7009,7 +7009,7 @@
       <max value="3"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.name.namePart.inventedName">
@@ -7020,7 +7020,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.name.namePart.strength">
@@ -7031,7 +7031,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.name.namePart.doseForm">
@@ -7042,7 +7042,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.name.nameUsage">
@@ -7053,7 +7053,7 @@
       <max value="*"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.name.nameUsage.jurisdiction">
@@ -7064,7 +7064,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.name.nameUsage.language">
@@ -7075,7 +7075,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.marketingAuthorisation">
@@ -7086,7 +7086,7 @@
       <max value="*"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.marketingAuthorisation.marketingAuthorisationNumber">
@@ -7097,7 +7097,7 @@
       <max value="*"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.marketingAuthorisation.region">
@@ -7108,7 +7108,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.marketingAuthorisation.marketingAuthorisationStatus">
@@ -7119,7 +7119,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.marketingAuthorisation.date">
@@ -7130,7 +7130,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/DT"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/DT"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.marketingAuthorisation.marketingAuthorisationHolder">
@@ -7141,7 +7141,7 @@
       <max value="1"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.marketingAuthorisation.marketingAuthorisationHolder.locationId">
@@ -7152,7 +7152,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.marketingAuthorisation.marketingAuthorisationHolder.organisationId">
@@ -7163,7 +7163,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.marketingAuthorisation.marketingAuthorisationHolder.mahName">
@@ -7174,7 +7174,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct">
@@ -7185,7 +7185,7 @@
       <max value="*"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.identifier">
@@ -7196,7 +7196,7 @@
       <max value="*"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.identifier.phpid">
@@ -7207,7 +7207,7 @@
       <max value="*"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.identifier.nationalId">
@@ -7218,7 +7218,7 @@
       <max value="*"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.administrableDoseForm">
@@ -7229,7 +7229,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.unitOfPresentation">
@@ -7240,7 +7240,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.routeOfAdministration">
@@ -7251,7 +7251,7 @@
       <max value="*"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient">
@@ -7262,7 +7262,7 @@
       <max value="*"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.role">
@@ -7273,7 +7273,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.substance">
@@ -7284,7 +7284,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength">
@@ -7295,7 +7295,7 @@
       <max value="*"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.strengthType">
@@ -7306,7 +7306,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.strength">
@@ -7317,7 +7317,7 @@
       <max value="1"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.strength.numerator">
@@ -7328,7 +7328,7 @@
       <max value="1"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.strength.numerator.comparator">
@@ -7339,7 +7339,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.strength.numerator.value">
@@ -7350,7 +7350,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.strength.numerator.unit">
@@ -7361,7 +7361,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.strength.denominator">
@@ -7372,7 +7372,7 @@
       <max value="1"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.strength.denominator.value">
@@ -7383,7 +7383,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.strength.denominator.unit">
@@ -7394,7 +7394,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.referenceStrength">
@@ -7405,7 +7405,7 @@
       <max value="*"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.referenceStrength.substance">
@@ -7416,7 +7416,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.referenceStrength.strength">
@@ -7427,7 +7427,7 @@
       <max value="1"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.referenceStrength.strength.numerator">
@@ -7438,7 +7438,7 @@
       <max value="1"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.referenceStrength.strength.numerator.comparator">
@@ -7449,7 +7449,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.referenceStrength.strength.numerator.value">
@@ -7460,7 +7460,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.referenceStrength.strength.numerator.unit">
@@ -7471,7 +7471,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.referenceStrength.strength.denominator">
@@ -7482,7 +7482,7 @@
       <max value="1"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.referenceStrength.strength.denominator.value">
@@ -7493,7 +7493,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.pharmaceuticalProduct.ingredient.strength.referenceStrength.strength.denominator.unit">
@@ -7504,7 +7504,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition">
@@ -7515,7 +7515,7 @@
       <max value="*"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.identifier">
@@ -7526,7 +7526,7 @@
       <max value="*"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.identifier.pcid">
@@ -7537,7 +7537,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.identifier.national-id">
@@ -7548,7 +7548,7 @@
       <max value="*"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.description">
@@ -7559,7 +7559,7 @@
       <max value="1"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.description.language">
@@ -7570,7 +7570,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.packSize">
@@ -7581,7 +7581,7 @@
       <max value="*"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.packSize.value">
@@ -7592,7 +7592,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/QT"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/QT"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.packSize.unit">
@@ -7603,7 +7603,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.legalStatusOfSupply">
@@ -7614,7 +7614,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.marketingAuthorisation">
@@ -7625,7 +7625,7 @@
       <max value="*"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.marketingAuthorisation.marketingAuthorisationNumber">
@@ -7636,7 +7636,7 @@
       <max value="*"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.marketingAuthorisation.region">
@@ -7647,7 +7647,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.marketingAuthorisation.marketingAuthorisationStatus">
@@ -7658,7 +7658,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.marketingAuthorisation.date">
@@ -7669,7 +7669,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/DT"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/DT"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.marketingAuthorisation.marketingAuthorisationHolder">
@@ -7680,7 +7680,7 @@
       <max value="1"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.marketingAuthorisation.marketingAuthorisationHolder.locationId">
@@ -7691,7 +7691,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.marketingAuthorisation.marketingAuthorisationHolder.organisationId">
@@ -7702,7 +7702,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.marketingAuthorisation.marketingAuthorisationHolder.mahName">
@@ -7713,7 +7713,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.marketingStatus">
@@ -7724,7 +7724,7 @@
       <max value="*"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.marketingStatus.country">
@@ -7735,7 +7735,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.marketingStatus.status">
@@ -7746,7 +7746,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package">
@@ -7757,7 +7757,7 @@
       <max value="1"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.packageType">
@@ -7768,7 +7768,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.quantity">
@@ -7779,7 +7779,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/QT"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/QT"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.material">
@@ -7790,7 +7790,7 @@
       <max value="*"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage">
@@ -7801,7 +7801,7 @@
       <max value="*"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem">
@@ -7812,14 +7812,14 @@
       <max value="*"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
       <constraint>
         <key value="itemcontent-1"/>
         <severity value="error"/>
         <human value="containedItem.containedPackage or containedItem.manufacturedItem SHALL be present, but not both"/>
         <expression value="containedPackage.exists() implies manufacturedItem.exists().not()"/>
-        <source value="http://unicom-project.eu/fhir/StructureDefinition/FullMedicinalProduct"/>
+        <source value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/FullMedicinalProduct"/>
       </constraint>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.amount">
@@ -7830,7 +7830,7 @@
       <max value="1"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.amount.value">
@@ -7841,7 +7841,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/QT"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/QT"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.amount.unit">
@@ -7852,7 +7852,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.containedPackage">
@@ -7861,7 +7861,7 @@
       <definition value="Inner Packages"/>
       <min value="0"/>
       <max value="*"/>
-      <contentReference value="http://unicom-project.eu/fhir/StructureDefinition/FullMedicinalProduct#FullMedicinalProduct.packagedProductDefinition.package"/>
+      <contentReference value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/FullMedicinalProduct#FullMedicinalProduct.packagedProductDefinition.package"/>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem">
       <path value="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem"/>
@@ -7871,7 +7871,7 @@
       <max value="*"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.manufacturedDoseForm">
@@ -7882,7 +7882,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.unitOfPresentation">
@@ -7893,7 +7893,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient">
@@ -7904,7 +7904,7 @@
       <max value="*"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.role">
@@ -7915,7 +7915,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.substance">
@@ -7926,7 +7926,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength">
@@ -7937,7 +7937,7 @@
       <max value="*"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.strengthType">
@@ -7948,7 +7948,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.strength">
@@ -7959,7 +7959,7 @@
       <max value="1"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.strength.numerator">
@@ -7970,7 +7970,7 @@
       <max value="1"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.strength.numerator.comparator">
@@ -7981,7 +7981,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.strength.numerator.value">
@@ -7992,7 +7992,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.strength.numerator.unit">
@@ -8003,7 +8003,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.strength.denominator">
@@ -8014,7 +8014,7 @@
       <max value="1"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.strength.denominator.value">
@@ -8025,7 +8025,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.strength.denominator.unit">
@@ -8036,7 +8036,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.referenceStrength">
@@ -8047,7 +8047,7 @@
       <max value="*"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.referenceStrength.substance">
@@ -8058,7 +8058,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/II"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/II"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.referenceStrength.strength">
@@ -8069,7 +8069,7 @@
       <max value="1"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.referenceStrength.strength.numerator">
@@ -8080,7 +8080,7 @@
       <max value="1"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.referenceStrength.strength.numerator.comparator">
@@ -8091,7 +8091,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/CD"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.referenceStrength.strength.numerator.value">
@@ -8102,7 +8102,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.referenceStrength.strength.numerator.unit">
@@ -8113,7 +8113,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.referenceStrength.strength.denominator">
@@ -8124,7 +8124,7 @@
       <max value="1"/>
       <type>
         <code value="BackboneElement"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/class"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/class"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.referenceStrength.strength.denominator.value">
@@ -8135,7 +8135,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
     <element id="FullMedicinalProduct.packagedProductDefinition.package.innerPackage.containedItem.manufacturedItem.ingredient.strength.referenceStrength.strength.denominator.unit">
@@ -8146,7 +8146,7 @@
       <max value="1"/>
       <type>
         <code value="Element"/>
-        <profile value="http://unicom-project.eu/fhir/StructureDefinition/ST"/>
+        <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/ST"/>
       </type>
     </element>
   </differential>

@@ -3,7 +3,7 @@
   "id": "Agen-5mg-Tablet-EE-PPD-1109887-B",
   "meta": {
     "profile": [
-      "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
+      "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition"
     ]
   },
   "text": {

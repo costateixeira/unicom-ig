@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="b2f34c25-33b5-4e7e-9747-803e6dd91c36"/>
+  <id value="ac12b76a-215d-464d-9f74-3f54fc256534"/>
   <meta>
-    <lastUpdated value="2022-11-08T20:50:12.899+00:00"/>
+    <lastUpdated value="2022-11-11T15:50:31.759+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="http://unicom-project.eu/fhir/ValueSet/authorised-doseform-vs"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/authorised-doseform-vs"/>
     <resource>
       <ValueSet>
         <id value="authorised-doseform-vs"/>
@@ -5143,12 +5143,12 @@
             </table>
           </div>
         </text>
-        <url value="http://unicom-project.eu/fhir/ValueSet/authorised-doseform-vs"/>
+        <url value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/authorised-doseform-vs"/>
         <version value="0.1.0"/>
         <name value="AuthorisedDoseForm"/>
         <title value="Authorised Dose Form"/>
         <status value="active"/>
-        <date value="2022-11-08T20:50:12+00:00"/>
+        <date value="2022-11-11T15:50:31+00:00"/>
         <publisher value="UNICOM"/>
         <contact>
           <name value="UNICOM"/>
@@ -5159,8 +5159,8 @@
         </contact>
         <description value="Value set for authorised dose form. Combines 4 SPOR/EDQM lists: Pharmaceutical dose form, Combined pharmaceutical dose form, Combined term, Combination package."/>
         <expansion>
-          <identifier value="urn:uuid:66396261-09e1-4779-a9a3-8e11af992691"/>
-          <timestamp value="2022-11-08T20:50:46+00:00"/>
+          <identifier value="urn:uuid:6f2dfdb7-f5bd-4fd2-9ef7-74df6baaf28d"/>
+          <timestamp value="2022-11-11T15:51:01+00:00"/>
           <total value="637"/>
           <parameter>
             <name value="excludeNested"/>
@@ -8372,7 +8372,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://unicom-project.eu/fhir/ValueSet/all-units-vs"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/all-units-vs"/>
     <resource>
       <ValueSet>
         <id value="all-units-vs"/>
@@ -12494,12 +12494,12 @@
             </table>
           </div>
         </text>
-        <url value="http://unicom-project.eu/fhir/ValueSet/all-units-vs"/>
+        <url value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/all-units-vs"/>
         <version value="0.1.0"/>
         <name value="AllUnits"/>
         <title value="All Units Combined"/>
         <status value="active"/>
-        <date value="2022-11-08T20:50:12+00:00"/>
+        <date value="2022-11-11T15:50:31+00:00"/>
         <publisher value="UNICOM"/>
         <contact>
           <name value="UNICOM"/>
@@ -12510,8 +12510,8 @@
         </contact>
         <description value="Value set for presentation strength denominator unit, combines units of measurement and units of presentation."/>
         <expansion>
-          <identifier value="urn:uuid:52284270-6852-44d5-bf86-aad6046ee523"/>
-          <timestamp value="2022-11-08T20:51:05+00:00"/>
+          <identifier value="urn:uuid:f0059cfc-07bf-46f3-8494-e100dbb68bf2"/>
+          <timestamp value="2022-11-11T15:51:16+00:00"/>
           <total value="511"/>
           <parameter>
             <name value="excludeNested"/>

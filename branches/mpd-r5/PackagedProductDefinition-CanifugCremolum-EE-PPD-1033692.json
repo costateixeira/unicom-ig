@@ -3,7 +3,7 @@
   "id": "CanifugCremolum-EE-PPD-1033692",
   "meta": {
     "profile": [
-      "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
+      "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition"
     ]
   },
   "text": {

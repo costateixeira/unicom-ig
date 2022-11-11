@@ -18,12 +18,12 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="business"/>
   </extension>
-  <url value="http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"/>
+  <url value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization"/>
   <version value="0.1.0"/>
   <name value="PPLOrganization"/>
   <title value="PPL Organization"/>
   <status value="active"/>
-  <date value="2022-11-08T20:50:12+00:00"/>
+  <date value="2022-11-11T15:50:31+00:00"/>
   <publisher value="UNICOM"/>
   <contact>
     <name value="UNICOM"/>

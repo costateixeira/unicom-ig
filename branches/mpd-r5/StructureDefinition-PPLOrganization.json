@@ -15,12 +15,12 @@
       "valueCode": "business"
     }
   ],
-  "url": "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization",
+  "url": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization",
   "version": "0.1.0",
   "name": "PPLOrganization",
   "title": "PPL Organization",
   "status": "active",
-  "date": "2022-11-08T20:50:12+00:00",
+  "date": "2022-11-11T15:50:31+00:00",
   "publisher": "UNICOM",
   "contact": [
     {

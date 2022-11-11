@@ -72,12 +72,12 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="anonymous"/>
   </extension>
-  <url value="http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"/>
+  <url value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition"/>
   <version value="0.1.0"/>
   <name value="PPLMedicinalProductDefinition"/>
   <title value="PPL Medicinal Product profile"/>
   <status value="active"/>
-  <date value="2022-11-08T20:50:12+00:00"/>
+  <date value="2022-11-11T15:50:31+00:00"/>
   <publisher value="UNICOM"/>
   <contact>
     <name value="UNICOM"/>
@@ -2237,7 +2237,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://unicom-project.eu/fhir/ValueSet/authorised-doseform-vs"/>
+        <valueSet value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/authorised-doseform-vs"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -8315,7 +8315,7 @@
       <path value="MedicinalProductDefinition.combinedPharmaceuticalDoseForm.coding.code"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://unicom-project.eu/fhir/ValueSet/authorised-doseform-vs"/>
+        <valueSet value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/authorised-doseform-vs"/>
       </binding>
     </element>
     <element id="MedicinalProductDefinition.legalStatusOfSupply">

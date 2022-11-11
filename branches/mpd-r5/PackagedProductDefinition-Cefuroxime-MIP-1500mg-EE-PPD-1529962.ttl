@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962> a fhir:PackagedProductDefinition;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962> a fhir:PackagedProductDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Cefuroxime-MIP-1500mg-EE-PPD-1529962"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition";
+       fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition";
        fhir:index 0;
-       fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition>
+       fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition>
      ]
   ];
   fhir:DomainResource.text [
@@ -25,7 +25,7 @@
   ];
   fhir:PackagedProductDefinition.packageFor [
      fhir:index 0;
-     fhir:link <http://unicom-project.eu/fhir/MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD>;
+     fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD>;
      fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD" ]
   ];
   fhir:PackagedProductDefinition.containedItemQuantity [
@@ -98,7 +98,7 @@
          fhir:index 0;
          fhir:PackagedProductDefinition.packaging.containedItem.item [
            fhir:CodeableReference.reference [
-             fhir:link <http://unicom-project.eu/fhir/ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID>;
+             fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID>;
              fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID" ]
            ]
          ];
@@ -111,7 +111,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962.ttl> a owl:Ontology;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

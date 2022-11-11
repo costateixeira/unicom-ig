@@ -133,7 +133,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">UnicomIG - Local Development build (v0.1.0). See the <a href="http://unicom-project.eu/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">UnicomIG - Local Development build (v0.1.0). See the <a href="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -220,10 +220,10 @@
   <table class="colsi">
 
     <tr>
-      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"/></span>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient|0.1.0"/></span>
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient|0.1.0"/></span>
       </td>
     </tr>
 
@@ -239,7 +239,7 @@
         
           Active
           
-            as of 2022-11-08
+            as of 2022-11-11
           
         
       </td>
@@ -699,7 +699,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
     ],
     "<a href="StructureDefinition-PPLIngredient.html#Ingredient.identifier" title="The identifier(s) of this Ingredient that are assigned by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate" class="dict"><span style="text-decoration: underline">identifier</span></a>" : {<span style="color: darkgreen"><a href="http://build.fhir.org/datatypes.html#Identifier">Identifier</a></span>}, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">An identifier or code by which the ingredient can be referenced</span>
     "<a href="StructureDefinition-PPLIngredient.html#Ingredient.status" title="The status of this ingredient. Enables tracking the life-cycle of the content (this element modifies the meaning of other elements)" class="dict"><span style="text-decoration: underline">status</span></a>" : "&lt;<span style="color: darkgreen"><a href="http://build.fhir.org/datatypes.html#code">code</a></span>&gt;", <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8"><a href="http://build.fhir.org/null.html" style="color: navy">draft | active | retired | unknown</a></span>
-    "<a href="StructureDefinition-PPLIngredient.html#Ingredient.for" title="The product which this ingredient is a constituent part of" class="dict"><span style="text-decoration: underline">for</span></a>" : [{<span style="color: darkgreen"><a href="http://build.fhir.org/references.html#Reference">Reference</a></span>([CanonicalType[http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition], CanonicalType[http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition], CanonicalType[http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition]])}], <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Reference to the medicinal product, pharmaceutical product and/or manufactured item where the ingredient is used</span>
+    "<a href="StructureDefinition-PPLIngredient.html#Ingredient.for" title="The product which this ingredient is a constituent part of" class="dict"><span style="text-decoration: underline">for</span></a>" : [{<span style="color: darkgreen"><a href="http://build.fhir.org/references.html#Reference">Reference</a></span>([CanonicalType[https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition], CanonicalType[https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition], CanonicalType[https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition]])}], <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Reference to the medicinal product, pharmaceutical product and/or manufactured item where the ingredient is used</span>
     "<a href="StructureDefinition-PPLIngredient.html#Ingredient.role" title="EMA IG 5.1" class="dict"><span style="text-decoration: underline">role</span></a>" : {<span style="color: darkgreen"><a href="http://build.fhir.org/datatypes.html#CodeableConcept">CodeableConcept</a></span>}, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8"><a href="http://build.fhir.org/null.html" style="color: navy">Purpose of the ingredient within the product, e.g. active, inactive</a></span>
     "<a href="StructureDefinition-PPLIngredient.html#Ingredient.function" title="A classification of the ingredient identifying its precise purpose(s) in the drug product. This extends the Ingredient.role to add more detail. Example: antioxidant, alkalizing agent" class="dict"><span style="text-decoration: underline">function</span></a>" : [{<span style="color: darkgreen"><a href="http://build.fhir.org/datatypes.html#CodeableConcept">CodeableConcept</a></span>}], <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8"><a href="http://build.fhir.org/null.html" style="color: navy">Precise action within the drug product, e.g. antioxidant, alkalizing agent</a></span>
     "<a href="StructureDefinition-PPLIngredient.html#Ingredient.group" title="A classification of the ingredient according to where in the physical item it tends to be used, such the outer shell of a tablet, inner body or ink" class="dict"><span style="text-decoration: underline">group</span></a>" : {<span style="color: darkgreen"><a href="http://build.fhir.org/datatypes.html#CodeableConcept">CodeableConcept</a></span>}, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">A classification of the ingredient according to where in the physical item it tends to be used, such the outer shell of a tablet, inner body or ink</span>
@@ -867,9 +867,9 @@ Summary
 <p>Mandatory: 2 elements (7 nested mandatory elements)</p><p><b>Structures</b></p>
 <p>This structure refers to these other structures:</p>
 <ul>
-<li><a href="StructureDefinition-PPLMedicinalProductDefinition.html">PPL Medicinal Product profile <span style="font-size: 8px">(http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition)</span></a></li>
-<li><a href="StructureDefinition-PPLAdministrableProductDefinition.html">PPL Administrable Product profile <span style="font-size: 8px">(http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition)</span></a></li>
-<li><a href="StructureDefinition-PPLManufacturedItemDefinition.html">PPL Manufactured Item profile <span style="font-size: 8px">(http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition)</span></a></li>
+<li><a href="StructureDefinition-PPLMedicinalProductDefinition.html">PPL Medicinal Product profile <span style="font-size: 8px">(https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition)</span></a></li>
+<li><a href="StructureDefinition-PPLAdministrableProductDefinition.html">PPL Administrable Product profile <span style="font-size: 8px">(https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition)</span></a></li>
+<li><a href="StructureDefinition-PPLManufacturedItemDefinition.html">PPL Manufactured Item profile <span style="font-size: 8px">(https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition)</span></a></li>
 
 </ul>
 
@@ -1267,7 +1267,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
     ],
     "<a href="StructureDefinition-PPLIngredient.html#Ingredient.identifier" title="The identifier(s) of this Ingredient that are assigned by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate" class="dict"><span style="text-decoration: underline">identifier</span></a>" : {<span style="color: darkgreen"><a href="http://build.fhir.org/datatypes.html#Identifier">Identifier</a></span>}, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">An identifier or code by which the ingredient can be referenced</span>
     "<a href="StructureDefinition-PPLIngredient.html#Ingredient.status" title="The status of this ingredient. Enables tracking the life-cycle of the content (this element modifies the meaning of other elements)" class="dict"><span style="text-decoration: underline">status</span></a>" : "&lt;<span style="color: darkgreen"><a href="http://build.fhir.org/datatypes.html#code">code</a></span>&gt;", <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8"><a href="http://build.fhir.org/null.html" style="color: navy">draft | active | retired | unknown</a></span>
-    "<a href="StructureDefinition-PPLIngredient.html#Ingredient.for" title="The product which this ingredient is a constituent part of" class="dict"><span style="text-decoration: underline">for</span></a>" : [{<span style="color: darkgreen"><a href="http://build.fhir.org/references.html#Reference">Reference</a></span>([CanonicalType[http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition], CanonicalType[http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition], CanonicalType[http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition]])}], <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Reference to the medicinal product, pharmaceutical product and/or manufactured item where the ingredient is used</span>
+    "<a href="StructureDefinition-PPLIngredient.html#Ingredient.for" title="The product which this ingredient is a constituent part of" class="dict"><span style="text-decoration: underline">for</span></a>" : [{<span style="color: darkgreen"><a href="http://build.fhir.org/references.html#Reference">Reference</a></span>([CanonicalType[https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition], CanonicalType[https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition], CanonicalType[https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition]])}], <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Reference to the medicinal product, pharmaceutical product and/or manufactured item where the ingredient is used</span>
     "<a href="StructureDefinition-PPLIngredient.html#Ingredient.role" title="EMA IG 5.1" class="dict"><span style="text-decoration: underline">role</span></a>" : {<span style="color: darkgreen"><a href="http://build.fhir.org/datatypes.html#CodeableConcept">CodeableConcept</a></span>}, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8"><a href="http://build.fhir.org/null.html" style="color: navy">Purpose of the ingredient within the product, e.g. active, inactive</a></span>
     "<a href="StructureDefinition-PPLIngredient.html#Ingredient.function" title="A classification of the ingredient identifying its precise purpose(s) in the drug product. This extends the Ingredient.role to add more detail. Example: antioxidant, alkalizing agent" class="dict"><span style="text-decoration: underline">function</span></a>" : [{<span style="color: darkgreen"><a href="http://build.fhir.org/datatypes.html#CodeableConcept">CodeableConcept</a></span>}], <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8"><a href="http://build.fhir.org/null.html" style="color: navy">Precise action within the drug product, e.g. antioxidant, alkalizing agent</a></span>
     "<a href="StructureDefinition-PPLIngredient.html#Ingredient.group" title="A classification of the ingredient according to where in the physical item it tends to be used, such the outer shell of a tablet, inner body or ink" class="dict"><span style="text-decoration: underline">group</span></a>" : {<span style="color: darkgreen"><a href="http://build.fhir.org/datatypes.html#CodeableConcept">CodeableConcept</a></span>}, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">A classification of the ingredient according to where in the physical item it tends to be used, such the outer shell of a tablet, inner body or ink</span>
@@ -1431,9 +1431,9 @@ Summary
 <p>Mandatory: 2 elements (7 nested mandatory elements)</p><p><b>Structures</b></p>
 <p>This structure refers to these other structures:</p>
 <ul>
-<li><a href="StructureDefinition-PPLMedicinalProductDefinition.html">PPL Medicinal Product profile <span style="font-size: 8px">(http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition)</span></a></li>
-<li><a href="StructureDefinition-PPLAdministrableProductDefinition.html">PPL Administrable Product profile <span style="font-size: 8px">(http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition)</span></a></li>
-<li><a href="StructureDefinition-PPLManufacturedItemDefinition.html">PPL Manufactured Item profile <span style="font-size: 8px">(http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition)</span></a></li>
+<li><a href="StructureDefinition-PPLMedicinalProductDefinition.html">PPL Medicinal Product profile <span style="font-size: 8px">(https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition)</span></a></li>
+<li><a href="StructureDefinition-PPLAdministrableProductDefinition.html">PPL Administrable Product profile <span style="font-size: 8px">(https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition)</span></a></li>
+<li><a href="StructureDefinition-PPLManufacturedItemDefinition.html">PPL Manufactured Item profile <span style="font-size: 8px">(https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition)</span></a></li>
 
 </ul>
 
@@ -1500,7 +1500,7 @@ Summary
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://medigree.net">UNICOM</a>.  Package hl7.eu.fhir.unicom#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 5.0.0-ballot</a>. Generated <span title="Tue, Nov 8, 2022 20:50+0000">2022-11-08</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://medigree.net">UNICOM</a>.  Package hl7.eu.fhir.unicom#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 5.0.0-ballot</a>. Generated <span title="Fri, Nov 11, 2022 15:50+0000">2022-11-11</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <div style="color: #33333" >
@@ -1509,7 +1509,7 @@ Summary
                  <a style="color: #81BEF7" href="qa.html">QA Report</a> 
 				 
 <!--
-                 <a style="color: #81BEF7" target="_blank" href="http://unicom-project.eu/fhir/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+                 <a style="color: #81BEF7" target="_blank" href="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
 -->
 
                  <a style="color: #81BEF7" rel="license" href="http://build.fhir.org/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a>

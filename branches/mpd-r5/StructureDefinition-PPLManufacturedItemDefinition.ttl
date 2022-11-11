@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition> a fhir:StructureDefinition;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "PPLManufacturedItemDefinition"];
   fhir:DomainResource.text [
@@ -21,12 +21,12 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "anonymous" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"];
+  fhir:StructureDefinition.url [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition"];
   fhir:StructureDefinition.version [ fhir:value "0.1.0"];
   fhir:StructureDefinition.name [ fhir:value "PPLManufacturedItemDefinition"];
   fhir:StructureDefinition.title [ fhir:value "PPL Manufactured Item profile"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-11-08T20:50:12+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-11-11T15:50:31+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "UNICOM"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -2925,7 +2925,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition.ttl> a owl:Ontology;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

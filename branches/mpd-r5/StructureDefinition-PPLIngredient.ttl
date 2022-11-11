@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient> a fhir:StructureDefinition;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "PPLIngredient"];
   fhir:DomainResource.text [
@@ -21,12 +21,12 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "anonymous" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"];
+  fhir:StructureDefinition.url [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient"];
   fhir:StructureDefinition.version [ fhir:value "0.1.0"];
   fhir:StructureDefinition.name [ fhir:value "PPLIngredient"];
   fhir:StructureDefinition.title [ fhir:value "PPL Ingredient profile"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-11-08T20:50:12+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-11-11T15:50:31+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "UNICOM"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -633,17 +633,17 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition";
+           fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition";
            fhir:index 0;
-           fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition>
+           fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition>
          ], [
-           fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition";
+           fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition";
            fhir:index 1;
-           fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition>
+           fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition>
          ], [
-           fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition";
+           fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition";
            fhir:index 2;
-           fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition>
+           fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -3111,8 +3111,8 @@
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://unicom-project.eu/fhir/ValueSet/all-units-vs";
-           fhir:link <http://unicom-project.eu/fhir/ValueSet/all-units-vs>
+           fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/all-units-vs";
+           fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/all-units-vs>
          ]
        ];
        fhir:ElementDefinition.mapping [
@@ -6160,8 +6160,8 @@
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://unicom-project.eu/fhir/ValueSet/all-units-vs";
-           fhir:link <http://unicom-project.eu/fhir/ValueSet/all-units-vs>
+           fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/all-units-vs";
+           fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/all-units-vs>
          ]
        ];
        fhir:ElementDefinition.mapping [
@@ -6373,17 +6373,17 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition";
+           fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition";
            fhir:index 0;
-           fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition>
+           fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition>
          ], [
-           fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition";
+           fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition";
            fhir:index 1;
-           fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition>
+           fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition>
          ], [
-           fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition";
+           fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition";
            fhir:index 2;
-           fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition>
+           fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition>
          ]
        ]
      ], [
@@ -6441,8 +6441,8 @@
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://unicom-project.eu/fhir/ValueSet/all-units-vs";
-           fhir:link <http://unicom-project.eu/fhir/ValueSet/all-units-vs>
+           fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/all-units-vs";
+           fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/all-units-vs>
          ]
        ]
      ], [
@@ -6515,8 +6515,8 @@
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://unicom-project.eu/fhir/ValueSet/all-units-vs";
-           fhir:link <http://unicom-project.eu/fhir/ValueSet/all-units-vs>
+           fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/all-units-vs";
+           fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/all-units-vs>
          ]
        ]
      ], [
@@ -6530,7 +6530,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient.ttl> a owl:Ontology;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

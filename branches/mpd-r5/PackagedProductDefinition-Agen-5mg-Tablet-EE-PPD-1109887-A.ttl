@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A> a fhir:PackagedProductDefinition;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A> a fhir:PackagedProductDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Agen-5mg-Tablet-EE-PPD-1109887-A"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition";
+       fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition";
        fhir:index 0;
-       fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition>
+       fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition>
      ]
   ];
   fhir:DomainResource.text [
@@ -26,7 +26,7 @@
   ];
   fhir:PackagedProductDefinition.packageFor [
      fhir:index 0;
-     fhir:link <http://unicom-project.eu/fhir/MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD>;
+     fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD>;
      fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD" ]
   ];
   fhir:PackagedProductDefinition.containedItemQuantity [
@@ -115,7 +115,7 @@
          fhir:index 0;
          fhir:PackagedProductDefinition.packaging.containedItem.item [
            fhir:CodeableReference.reference [
-             fhir:link <http://unicom-project.eu/fhir/ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID>;
+             fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID>;
              fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID" ]
            ]
          ];
@@ -128,7 +128,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A.ttl> a owl:Ontology;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

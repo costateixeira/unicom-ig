@@ -3,7 +3,7 @@
   "id": "Cefuroxime-MIP-1500mg-EE-MPD",
   "meta": {
     "profile": [
-      "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"
+      "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition"
     ]
   },
   "text": {

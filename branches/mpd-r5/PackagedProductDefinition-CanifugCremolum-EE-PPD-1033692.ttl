@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692> a fhir:PackagedProductDefinition;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692> a fhir:PackagedProductDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "CanifugCremolum-EE-PPD-1033692"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition";
+       fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition";
        fhir:index 0;
-       fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition>
+       fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition>
      ]
   ];
   fhir:DomainResource.text [
@@ -26,7 +26,7 @@
   ];
   fhir:PackagedProductDefinition.packageFor [
      fhir:index 0;
-     fhir:link <http://unicom-project.eu/fhir/MedicinalProductDefinition/CanifugCremolum-EE-MPD>;
+     fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/MedicinalProductDefinition/CanifugCremolum-EE-MPD>;
      fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/CanifugCremolum-EE-MPD" ]
   ];
   fhir:PackagedProductDefinition.containedItemQuantity [
@@ -113,7 +113,7 @@
          fhir:index 0;
          fhir:PackagedProductDefinition.packaging.containedItem.item [
            fhir:CodeableReference.reference [
-             fhir:link <http://unicom-project.eu/fhir/ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID>;
+             fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID>;
              fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID" ]
            ]
          ];
@@ -145,7 +145,7 @@
          fhir:index 0;
          fhir:PackagedProductDefinition.packaging.containedItem.item [
            fhir:CodeableReference.reference [
-             fhir:link <http://unicom-project.eu/fhir/ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID>;
+             fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID>;
              fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID" ]
            ]
          ];
@@ -161,7 +161,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692.ttl> a owl:Ontology;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

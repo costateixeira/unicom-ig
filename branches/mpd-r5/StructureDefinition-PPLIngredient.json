@@ -15,12 +15,12 @@
       "valueCode": "anonymous"
     }
   ],
-  "url": "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient",
+  "url": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient",
   "version": "0.1.0",
   "name": "PPLIngredient",
   "title": "PPL Ingredient profile",
   "status": "active",
-  "date": "2022-11-08T20:50:12+00:00",
+  "date": "2022-11-11T15:50:31+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -582,9 +582,9 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition",
-              "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition",
-              "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
+              "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition",
+              "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition",
+              "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition"
             ]
           }
         ],
@@ -2985,7 +2985,7 @@
         "isSummary": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://unicom-project.eu/fhir/ValueSet/all-units-vs"
+          "valueSet": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/all-units-vs"
         },
         "mapping": [
           {
@@ -5983,7 +5983,7 @@
         "isSummary": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://unicom-project.eu/fhir/ValueSet/all-units-vs"
+          "valueSet": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/all-units-vs"
         },
         "mapping": [
           {
@@ -6194,9 +6194,9 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition",
-              "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition",
-              "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
+              "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition",
+              "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition",
+              "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition"
             ]
           }
         ]
@@ -6256,7 +6256,7 @@
         "path": "Ingredient.substance.strength.presentationRatio.denominator.unit",
         "binding": {
           "strength": "required",
-          "valueSet": "http://unicom-project.eu/fhir/ValueSet/all-units-vs"
+          "valueSet": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/all-units-vs"
         }
       },
       {
@@ -6329,7 +6329,7 @@
         "path": "Ingredient.substance.strength.referenceStrength.strengthRatio.denominator.unit",
         "binding": {
           "strength": "required",
-          "valueSet": "http://unicom-project.eu/fhir/ValueSet/all-units-vs"
+          "valueSet": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/all-units-vs"
         }
       },
       {

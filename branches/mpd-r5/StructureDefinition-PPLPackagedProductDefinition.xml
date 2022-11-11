@@ -49,12 +49,12 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="anonymous"/>
   </extension>
-  <url value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
+  <url value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition"/>
   <version value="0.1.0"/>
   <name value="PPLPackagedProductDefinition"/>
   <title value="PPL Packaged Product profile"/>
   <status value="active"/>
-  <date value="2022-11-08T20:50:12+00:00"/>
+  <date value="2022-11-11T15:50:31+00:00"/>
   <publisher value="UNICOM"/>
   <contact>
     <name value="UNICOM"/>
@@ -907,7 +907,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"/>
+        <targetProfile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -5904,8 +5904,8 @@
       </base>
       <type>
         <code value="CodeableReference"/>
-        <targetProfile value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
-        <targetProfile value="http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"/>
+        <targetProfile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition"/>
+        <targetProfile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -6017,7 +6017,7 @@
       <min value="1"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"/>
+        <targetProfile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition"/>
       </type>
     </element>
     <element id="PackagedProductDefinition.containedItemQuantity">
@@ -6117,8 +6117,8 @@
       <path value="PackagedProductDefinition.packaging.containedItem.item"/>
       <type>
         <code value="CodeableReference"/>
-        <targetProfile value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
-        <targetProfile value="http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"/>
+        <targetProfile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition"/>
+        <targetProfile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition"/>
       </type>
     </element>
     <element id="PackagedProductDefinition.packaging.containedItem.amount">
