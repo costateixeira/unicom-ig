@@ -1,9 +1,11 @@
+
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.EU.FHIR.UNICOM\Table of Contents - FHIR v5.0.0-ballot</title>
+    <title>HL7.EU.FHIR.UNICOM\WHO ATC - JSON Representation - FHIR v5.0.0-ballot</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -40,8 +42,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"0"}
-    h3,h4,h5,h6{--heading-prefix:"0.0"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.1"}
+    h3,h4,h5,h6{--heading-prefix:"2.1"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -119,7 +121,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><b>Table of Contents</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>WHO ATC</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -131,20 +133,128 @@
         <div class="row">
           <div class="inner-wrapper">
 
-<style type="text/css">
-h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
-h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
-h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
-h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
-h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
-</style>
-<div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">UnicomIG - Local Development build (v0.1.0). See the <a href="http://medigree.net/fhir/ee/idmp/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
-  <h2>Table of Contents</h2>
+<div style="counter-reset: section 8" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">UnicomIG - Local Development build (v0.1.0). See the <a href="http://medigree.net/fhir/ee/idmp/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="ValueSet-whoatc-unicom.html">Narrative Content</a>
+  </li>
+
+
+
   
+    <li>
+      <a href="ValueSet-whoatc-unicom.xml.html">XML</a>
+    </li>
   
+
+
   
-  <?xml version="1.0" encoding="UTF-8"?><div style="col-12"><table style="border:0px;font-size:11px;font-family:verdana;vertical-align:top;" cellpadding="0" border="0" cellspacing="0"><tbody><tr style="border:0px;padding:0px;vertical-align:top;background-color:white;" id="!"><td style="vertical-align:top;text-align:left;background-color:white;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img onClick="tableRowAction(this)" src="tbl_vjoin-open.png" alt="." style="background-color: inherit" class="hierarchy"/><img style="background-color:white;background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="Table of Contents" href="toc.html">0 Table of Contents</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:white;" id="!&quot;"><td style="vertical-align:top;text-align:left;background-color:white;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:white;background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="Home" href="index.html">1 Home</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:white;" id="!#"><td style="vertical-align:top;text-align:left;background-color:white;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin_end.png"/><img onClick="tableRowAction(this)" src="tbl_vjoin-open.png" alt="." style="background-color: inherit" class="hierarchy"/><img style="background-color:white;background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="Artifacts Summary" href="artifacts.html">2 Artifacts Summary</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:white;" id="!#&quot;"><td style="vertical-align:top;text-align:left;background-color:white;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin_end.png"/><img style="background-color:white;background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="WHO ATC" href="ValueSet-whoatc-unicom.html">2.1 WHO ATC</a></td></tr></tbody></table></div>
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-whoatc-unicom.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: WHO ATC - JSON Representation</h2>
+  <table class="colsi">
+    <tr>
+
+      <td colspan="2">
+        
+          Active
+          
+            as of 2022-11-11
+          
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="ValueSet-whoatc-unicom.json" no-download="true">Raw json</a> | <a href="ValueSet-whoatc-unicom.json" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="json" style="white-space: pre; overflow: hidden"><code class="language-json">
+{
+  "<a href="http://build.fhir.org/valueset.html#ValueSet">resourceType</a>" : "ValueSet",
+  "<a href="http://build.fhir.org/valueset.html#ValueSet.id">id</a>" : "whoatc-unicom",
+  "<a href="http://build.fhir.org/valueset.html#ValueSet.meta">meta</a>" : {
+    "<a href="http://build.fhir.org/resource.html#Meta#Meta.profile">profile</a>" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "<a href="http://build.fhir.org/valueset.html#ValueSet.text">text</a>" : {
+    "<a href="http://build.fhir.org/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://build.fhir.org/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;ul&gt;&lt;li&gt;Include all codes defined in &lt;a href=\&quot;http://www.whocc.no/atc\&quot;&gt;&lt;code&gt;http://www.whocc.no/atc&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://build.fhir.org/valueset.html#ValueSet.url">url</a>" : "http://hl7.org/fhir/uv/ips/ValueSet/whoatc-uv-ips",
+  "<a href="http://build.fhir.org/valueset.html#ValueSet.version">version</a>" : "0.1.0",
+  "<a href="http://build.fhir.org/valueset.html#ValueSet.name">name</a>" : "VsWhoAtcUnicom",
+  "<a href="http://build.fhir.org/valueset.html#ValueSet.title">title</a>" : "WHO ATC",
+  "<a href="http://build.fhir.org/valueset.html#ValueSet.status">status</a>" : "active",
+  "<a href="http://build.fhir.org/valueset.html#ValueSet.experimental">experimental</a>" : false,
+  "<a href="http://build.fhir.org/valueset.html#ValueSet.date">date</a>" : "2022-11-11T18:09:02+00:00",
+  "<a href="http://build.fhir.org/valueset.html#ValueSet.publisher">publisher</a>" : "UNICOM",
+  "<a href="http://build.fhir.org/valueset.html#ValueSet.contact">contact</a>" : [
+    {
+      "<a href="http://build.fhir.org/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "UNICOM",
+      "<a href="http://build.fhir.org/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "http://medigree.net"
+        }
+      ]
+    }
+  ],
+  "<a href="http://build.fhir.org/valueset.html#ValueSet.description">description</a>" : "World Health Organization Anatomical Therapeutic Chemical (ATC) classification system.  Note: The currently implemented code system and the value set expansion contain only a set of example ATC codes, not the complete code system content.",
+  "<a href="http://build.fhir.org/valueset.html#ValueSet.immutable">immutable</a>" : false,
+  "<a href="http://build.fhir.org/valueset.html#ValueSet.copyright">copyright</a>" : "This artifact includes content from Anatomical Therapeutic Chemical (ATC) classification system. ATC codes are copyright World Health Organization (WHO) Collaborating Centre for Drug Statistics Methodology. Terms &amp; Conditions in https://www.whocc.no/use_of_atc_ddd/",
+  "<a href="http://build.fhir.org/valueset.html#ValueSet.compose">compose</a>" : {
+    "<a href="http://build.fhir.org/valueset.html#ValueSet.compose.include">include</a>" : [
+      {
+        "<a href="http://build.fhir.org/valueset.html#ValueSet.compose.include.system">system</a>" : "http://www.whocc.no/atc"
+      }
+    ]
+  }
+}</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
 </div>
         </div>  <!-- /inner-wrapper -->
       </div>  <!-- /row -->
