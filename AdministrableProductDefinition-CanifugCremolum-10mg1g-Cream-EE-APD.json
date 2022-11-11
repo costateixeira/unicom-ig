@@ -3,7 +3,7 @@
   "id": "CanifugCremolum-10mg1g-Cream-EE-APD",
   "meta": {
     "profile": [
-      "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
+      "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition"
     ]
   },
   "text": {

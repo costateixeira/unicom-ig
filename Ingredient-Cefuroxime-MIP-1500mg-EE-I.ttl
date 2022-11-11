@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/Ingredient/Cefuroxime-MIP-1500mg-EE-I> a fhir:Ingredient;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/Ingredient/Cefuroxime-MIP-1500mg-EE-I> a fhir:Ingredient;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Cefuroxime-MIP-1500mg-EE-I"];
   fhir:DomainResource.text [
@@ -15,15 +15,15 @@
   fhir:Ingredient.status [ fhir:value "active"];
   fhir:Ingredient.for [
      fhir:index 0;
-     fhir:link <http://unicom-project.eu/fhir/MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD>;
+     fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD>;
      fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD" ]
   ], [
      fhir:index 1;
-     fhir:link <http://unicom-project.eu/fhir/ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID>;
+     fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID>;
      fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID" ]
   ], [
      fhir:index 2;
-     fhir:link <http://unicom-project.eu/fhir/AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD>;
+     fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD>;
      fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD" ]
   ];
   fhir:Ingredient.role [
@@ -93,7 +93,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/Ingredient/Cefuroxime-MIP-1500mg-EE-I.ttl> a owl:Ontology;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/Ingredient/Cefuroxime-MIP-1500mg-EE-I.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

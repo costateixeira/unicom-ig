@@ -42,12 +42,6 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.contained</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:contained">
-      <sch:assert test="not(f:Citation|f:Evidence|f:EvidenceReport|f:EvidenceVariable|f:MedicinalProductDefinition|f:PackagedProductDefinition|f:AdministrableProductDefinition|f:Ingredient|f:ClinicalUseDefinition|f:RegulatedAuthorization|f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic) or not(parent::f:Citation|parent::f:Evidence|parent::f:EvidenceReport|parent::f:EvidenceVariable|parent::f:MedicinalProductDefinition|parent::f:PackagedProductDefinition|parent::f:AdministrableProductDefinition|parent::f:Ingredient|parent::f:ClinicalUseDefinition|parent::f:RegulatedAuthorization|parent::f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic)">Containing new R4B resources within R4 resources may cause interoperability issues if instances are shared with R4 systems (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
     <sch:title>MedicinalProductDefinition.extension</sch:title>
     <sch:rule context="f:MedicinalProductDefinition/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
@@ -552,6 +546,12 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
+    <sch:title>MedicinalProductDefinition.comprisedOf</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:comprisedOf">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
     <sch:title>MedicinalProductDefinition.ingredient</sch:title>
     <sch:rule context="f:MedicinalProductDefinition/f:ingredient">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
@@ -578,7 +578,7 @@
   <sch:pattern>
     <sch:title>MedicinalProductDefinition.contact</sch:title>
     <sch:rule context="f:MedicinalProductDefinition/f:contact">
-      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -622,7 +622,7 @@
   <sch:pattern>
     <sch:title>MedicinalProductDefinition.name</sch:title>
     <sch:rule context="f:MedicinalProductDefinition/f:name">
-      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -652,30 +652,17 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.namePart</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:namePart">
-      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
-      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
-      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
-      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
+    <sch:title>MedicinalProductDefinition.name.part</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:part">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.namePart.extension</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:namePart/f:extension">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.namePart.modifierExtension</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:namePart/f:modifierExtension">
+    <sch:title>MedicinalProductDefinition.name.part.extension</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:part/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
@@ -687,74 +674,87 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.namePart.part</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:namePart/f:part">
+    <sch:title>MedicinalProductDefinition.name.part.modifierExtension</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:part/f:modifierExtension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.namePart.type</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:namePart/f:type">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.countryLanguage</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage">
-      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.countryLanguage.extension</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:extension">
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.countryLanguage.modifierExtension</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:modifierExtension">
+    <sch:title>MedicinalProductDefinition.name.part.part</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:part/f:part">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>MedicinalProductDefinition.name.part.type</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:part/f:type">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>MedicinalProductDefinition.name.usage</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>MedicinalProductDefinition.name.usage.extension</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>f:MedicinalProductDefinition/f:name/f:countryLanguage/f:country</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:country">
+    <sch:title>MedicinalProductDefinition.name.usage.modifierExtension</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:modifierExtension">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>f:MedicinalProductDefinition/f:name/f:usage/f:country</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:country">
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
       <sch:assert test="count(f:text) &lt;= 1">text: maximum cardinality of 'text' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.countryLanguage.country</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:country">
+    <sch:title>MedicinalProductDefinition.name.usage.country</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:country">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.countryLanguage.country.extension</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:country/f:extension">
+    <sch:title>MedicinalProductDefinition.name.usage.country.extension</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:country/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.countryLanguage.country.coding</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:country/f:coding">
+    <sch:title>MedicinalProductDefinition.name.usage.country.coding</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:country/f:coding">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>f:MedicinalProductDefinition/f:name/f:countryLanguage/f:country/f:coding</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:country/f:coding">
+    <sch:title>f:MedicinalProductDefinition/f:name/f:usage/f:country/f:coding</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:country/f:coding">
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
       <sch:assert test="count(f:system) &gt;= 1">system: minimum cardinality of 'system' is 1</sch:assert>
       <sch:assert test="count(f:system) &lt;= 1">system: maximum cardinality of 'system' is 1</sch:assert>
@@ -772,8 +772,8 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.countryLanguage.country.coding.extension</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:country/f:coding/f:extension">
+    <sch:title>MedicinalProductDefinition.name.usage.country.coding.extension</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:country/f:coding/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
@@ -781,83 +781,83 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.countryLanguage.country.coding.system</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:country/f:coding/f:system">
+    <sch:title>MedicinalProductDefinition.name.usage.country.coding.system</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:country/f:coding/f:system">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.countryLanguage.country.coding.version</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:country/f:coding/f:version">
+    <sch:title>MedicinalProductDefinition.name.usage.country.coding.version</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:country/f:coding/f:version">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.countryLanguage.country.coding.code</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:country/f:coding/f:code">
+    <sch:title>MedicinalProductDefinition.name.usage.country.coding.code</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:country/f:coding/f:code">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.countryLanguage.country.coding.display</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:country/f:coding/f:display">
+    <sch:title>MedicinalProductDefinition.name.usage.country.coding.display</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:country/f:coding/f:display">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.countryLanguage.country.coding.userSelected</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:country/f:coding/f:userSelected">
+    <sch:title>MedicinalProductDefinition.name.usage.country.coding.userSelected</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:country/f:coding/f:userSelected">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.countryLanguage.country.text</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:country/f:text">
+    <sch:title>MedicinalProductDefinition.name.usage.country.text</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:country/f:text">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.countryLanguage.jurisdiction</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:jurisdiction">
+    <sch:title>MedicinalProductDefinition.name.usage.jurisdiction</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:jurisdiction">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>f:MedicinalProductDefinition/f:name/f:countryLanguage/f:language</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:language">
+    <sch:title>f:MedicinalProductDefinition/f:name/f:usage/f:language</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:language">
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
       <sch:assert test="count(f:text) &lt;= 1">text: maximum cardinality of 'text' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.countryLanguage.language</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:language">
+    <sch:title>MedicinalProductDefinition.name.usage.language</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:language">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.countryLanguage.language.extension</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:language/f:extension">
+    <sch:title>MedicinalProductDefinition.name.usage.language.extension</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:language/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.countryLanguage.language.coding</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:language/f:coding">
+    <sch:title>MedicinalProductDefinition.name.usage.language.coding</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:language/f:coding">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>f:MedicinalProductDefinition/f:name/f:countryLanguage/f:language/f:coding</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:language/f:coding">
+    <sch:title>f:MedicinalProductDefinition/f:name/f:usage/f:language/f:coding</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:language/f:coding">
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
       <sch:assert test="count(f:system) &gt;= 1">system: minimum cardinality of 'system' is 1</sch:assert>
       <sch:assert test="count(f:system) &lt;= 1">system: maximum cardinality of 'system' is 1</sch:assert>
@@ -875,8 +875,8 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.countryLanguage.language.coding.extension</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:language/f:coding/f:extension">
+    <sch:title>MedicinalProductDefinition.name.usage.language.coding.extension</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:language/f:coding/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
@@ -884,50 +884,50 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.countryLanguage.language.coding.system</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:language/f:coding/f:system">
+    <sch:title>MedicinalProductDefinition.name.usage.language.coding.system</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:language/f:coding/f:system">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.countryLanguage.language.coding.version</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:language/f:coding/f:version">
+    <sch:title>MedicinalProductDefinition.name.usage.language.coding.version</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:language/f:coding/f:version">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.countryLanguage.language.coding.code</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:language/f:coding/f:code">
+    <sch:title>MedicinalProductDefinition.name.usage.language.coding.code</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:language/f:coding/f:code">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.countryLanguage.language.coding.display</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:language/f:coding/f:display">
+    <sch:title>MedicinalProductDefinition.name.usage.language.coding.display</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:language/f:coding/f:display">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.countryLanguage.language.coding.userSelected</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:language/f:coding/f:userSelected">
+    <sch:title>MedicinalProductDefinition.name.usage.language.coding.userSelected</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:language/f:coding/f:userSelected">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>MedicinalProductDefinition.name.countryLanguage.language.text</sch:title>
-    <sch:rule context="f:MedicinalProductDefinition/f:name/f:countryLanguage/f:language/f:text">
+    <sch:title>MedicinalProductDefinition.name.usage.language.text</sch:title>
+    <sch:rule context="f:MedicinalProductDefinition/f:name/f:usage/f:language/f:text">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
     <sch:title>MedicinalProductDefinition.crossReference</sch:title>
     <sch:rule context="f:MedicinalProductDefinition/f:crossReference">
-      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -959,7 +959,7 @@
   <sch:pattern>
     <sch:title>MedicinalProductDefinition.operation</sch:title>
     <sch:rule context="f:MedicinalProductDefinition/f:operation">
-      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -1003,7 +1003,7 @@
   <sch:pattern>
     <sch:title>MedicinalProductDefinition.characteristic</sch:title>
     <sch:rule context="f:MedicinalProductDefinition/f:characteristic">
-      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

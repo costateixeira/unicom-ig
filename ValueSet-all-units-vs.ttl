@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/ValueSet/all-units-vs> a fhir:ValueSet;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/all-units-vs> a fhir:ValueSet;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "all-units-vs"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-unit-of-measurement-ema-cs.html\"><code>http://spor.ema.europa.eu/v1/lists/100000110633</code></a></li><li>Include all codes defined in <a href=\"CodeSystem-unit-of-presentation-ema-cs.html\"><code>http://spor.ema.europa.eu/v1/lists/200000000014</code></a></li></ul></div>"
   ];
-  fhir:ValueSet.url [ fhir:value "http://unicom-project.eu/fhir/ValueSet/all-units-vs"];
+  fhir:ValueSet.url [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/all-units-vs"];
   fhir:ValueSet.version [ fhir:value "0.1.0"];
   fhir:ValueSet.name [ fhir:value "AllUnits"];
   fhir:ValueSet.title [ fhir:value "All Units Combined"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2022-11-11T13:10:08+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-11-11T15:50:31+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "UNICOM"];
   fhir:ValueSet.contact [
      fhir:index 0;
@@ -41,7 +41,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/ValueSet/all-units-vs.ttl> a owl:Ontology;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/all-units-vs.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

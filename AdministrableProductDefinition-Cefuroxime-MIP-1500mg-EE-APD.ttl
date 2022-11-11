@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD> a fhir:AdministrableProductDefinition;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD> a fhir:AdministrableProductDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Cefuroxime-MIP-1500mg-EE-APD"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition";
+       fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition";
        fhir:index 0;
-       fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition>
+       fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition>
      ]
   ];
   fhir:DomainResource.text [
@@ -22,7 +22,7 @@
   fhir:AdministrableProductDefinition.status [ fhir:value "active"];
   fhir:AdministrableProductDefinition.formOf [
      fhir:index 0;
-     fhir:link <http://unicom-project.eu/fhir/MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD>;
+     fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD>;
      fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD" ]
   ];
   fhir:AdministrableProductDefinition.administrableDoseForm [
@@ -43,7 +43,7 @@
   ];
   fhir:AdministrableProductDefinition.producedFrom [
      fhir:index 0;
-     fhir:link <http://unicom-project.eu/fhir/ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID>;
+     fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID>;
      fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID" ]
   ];
   fhir:AdministrableProductDefinition.routeOfAdministration [
@@ -70,7 +70,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD.ttl> a owl:Ontology;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

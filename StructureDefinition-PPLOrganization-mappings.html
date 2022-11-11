@@ -7,7 +7,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.EU.FHIR.UNICOM\PPL Organization - Mappings - FHIR v4.3.0</title>
+    <title>HL7.EU.FHIR.UNICOM\PPL Organization - Mappings - FHIR v5.0.0-ballot</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -133,7 +133,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 5" class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">UnicomIG - Local Development build (v0.1.0). See the <a href="http://unicom-project.eu/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">UnicomIG - Local Development build (v0.1.0). See the <a href="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -252,13 +252,8 @@
  <tr><td>&nbsp;&nbsp;&nbsp;active</td><td>No equivalent in HL7 v2</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;type</td><td>No equivalent in v2</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>XON.1</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;telecom</td><td>ORC-22?</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;address</td><td>ORC-23?</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;partOf</td><td>No equivalent in HL7 v2</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;contact</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name</td><td>PID-5, PID-9</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;telecom</td><td>PID-13, PID-14</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;address</td><td>PID-11</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;qualification</td><td>CER?</td> </tr>
 </table>
 <a name="rim"> </a><h3>Mappings for RIM Mapping (<a href="http://hl7.org/comparison-v3.html">http://hl7.org/v3</a>)</h3><table class="grid">
  <tr><td colspan="3"><b>PPLOrganization</b></td></tr>
@@ -290,18 +285,27 @@
  <tr><td>&nbsp;&nbsp;&nbsp;type</td><td>.code</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>.name</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;alias</td><td>.name</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;telecom</td><td>.telecom</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;address</td><td>.address</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;partOf</td><td>.playedBy[classCode=Part].scoper</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;description</td><td>.playingEntity[classCode=PLC determinerCode=INSTANCE].desc</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;contact</td><td>.contactParty</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;partOf</td><td>.playedBy[classCode=Part].scoper</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;endpoint</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;qualification</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;purpose</td><td>./type</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name</td><td>./name</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;telecom</td><td>./telecom</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;address</td><td>./addr</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;endpoint</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;identifier</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;code</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;issuer</td><td>n/a</td> </tr>
+</table>
+<a name="interface"> </a><h3>Mappings for Interface Pattern (<a href="http://hl7.org/fhir/patterns.html">http://hl7.org/fhir/interface</a>)</h3><table class="grid">
+ <tr><td colspan="3"><b>PPLOrganization</b></td></tr>
+ <tr><td>Organization</td><td>ParticipantContactable</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>Participant.identifier</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;identifier (loc)</td><td>Participant.identifier</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;identifier (org)</td><td>Participant.identifier</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;active</td><td>Participant.active</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>Participant.name</td> </tr>
 </table>
 <a name="servd"> </a><h3>Mappings for ServD (<a href="http://www.omg.org/spec/ServD/1.0/">http://www.omg.org/spec/ServD/1.0/</a>)</h3><table class="grid">
  <tr><td colspan="3"><b>PPLOrganization</b></td></tr>
@@ -320,8 +324,6 @@
  <tr><td>&nbsp;&nbsp;&nbsp;active</td><td>./Status (however this concept in ServD more covers why the organization is active or not, could be delisted, deregistered, not operational yet) this could alternatively be derived from ./StartDate and ./EndDate and given a context date.</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;type</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>.PreferredName/Name</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;telecom</td><td>./ContactPoints</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;address</td><td>./PrimaryAddress and ./OtherAddresses</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;partOf</td><td>n/a</td> </tr>
 </table>
 <a name="w5"> </a><h3>Mappings for FiveWs Pattern Mapping (http://hl7.org/fhir/fivews)</h3><table class="grid">
@@ -386,7 +388,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://medigree.net">UNICOM</a>.  Package hl7.eu.fhir.unicom#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 4.3.0</a>. Generated <span title="Fri, Nov 11, 2022 13:10+0000">2022-11-11</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://medigree.net">UNICOM</a>.  Package hl7.eu.fhir.unicom#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 5.0.0-ballot</a>. Generated <span title="Fri, Nov 11, 2022 15:50+0000">2022-11-11</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <div style="color: #33333" >
@@ -395,7 +397,7 @@
                  <a style="color: #81BEF7" href="qa.html">QA Report</a> 
 				 
 <!--
-                 <a style="color: #81BEF7" target="_blank" href="http://unicom-project.eu/fhir/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+                 <a style="color: #81BEF7" target="_blank" href="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
 -->
 
                  <a style="color: #81BEF7" rel="license" href="http://build.fhir.org/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a>

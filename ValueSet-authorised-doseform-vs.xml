@@ -5,12 +5,12 @@
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="CodeSystem-pharmaceutical-dose-form-ema-cs.html"><code>http://spor.ema.europa.eu/v1/lists/200000000004</code></a></li><li>Include all codes defined in <a href="CodeSystem-combined-pharmaceutical-dose-form-ema-cs.html"><code>http://spor.ema.europa.eu/v1/lists/200000000006</code></a></li><li>Include all codes defined in <a href="CodeSystem-combined-term-ema-cs.html"><code>http://spor.ema.europa.eu/v1/lists/200000000007</code></a></li><li>Include all codes defined in <a href="CodeSystem-combination-package-ema-cs.html"><code>http://spor.ema.europa.eu/v1/lists/200000000008</code></a></li></ul></div>
   </text>
-  <url value="http://unicom-project.eu/fhir/ValueSet/authorised-doseform-vs"/>
+  <url value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/authorised-doseform-vs"/>
   <version value="0.1.0"/>
   <name value="AuthorisedDoseForm"/>
   <title value="Authorised Dose Form"/>
   <status value="active"/>
-  <date value="2022-11-11T13:10:08+00:00"/>
+  <date value="2022-11-11T15:50:31+00:00"/>
   <publisher value="UNICOM"/>
   <contact>
     <name value="UNICOM"/>
