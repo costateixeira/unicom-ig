@@ -10,7 +10,7 @@
   "name": "UnicomIG",
   "title": "UnicomIG",
   "status": "draft",
-  "date": "2022-11-11T18:09:02+00:00",
+  "date": "2022-11-11T18:26:19+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -385,6 +385,12 @@
           "name": "index.html",
           "title": "Home",
           "generation": "html"
+        },
+        {
+          "sourceUrl": "idmp_minimal.html",
+          "name": "idmp_minimal.html",
+          "title": "IDMP Minimal Model",
+          "generation": "markdown"
         }
       ]
     },
