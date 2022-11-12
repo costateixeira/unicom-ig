@@ -16,7 +16,7 @@
       <sch:assert test="count(f:containedItemQuantity) &gt;= 1">containedItemQuantity: minimum cardinality of 'containedItemQuantity' is 1</sch:assert>
       <sch:assert test="count(f:description) &gt;= 1">description: minimum cardinality of 'description' is 1</sch:assert>
       <sch:assert test="count(f:legalStatusOfSupply) &lt;= 1">legalStatusOfSupply: maximum cardinality of 'legalStatusOfSupply' is 1</sch:assert>
-      <sch:assert test="count(f:packaging) &gt;= 1">packaging: minimum cardinality of 'packaging' is 1</sch:assert>
+      <sch:assert test="count(f:package) &gt;= 1">package: minimum cardinality of 'package' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -41,6 +41,12 @@
     <sch:title>PackagedProductDefinition.text</sch:title>
     <sch:rule context="f:PackagedProductDefinition/f:text">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>PackagedProductDefinition.contained</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:contained">
+      <sch:assert test="not(f:Citation|f:Evidence|f:EvidenceReport|f:EvidenceVariable|f:MedicinalProductDefinition|f:PackagedProductDefinition|f:AdministrableProductDefinition|f:Ingredient|f:ClinicalUseDefinition|f:RegulatedAuthorization|f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic) or not(parent::f:Citation|parent::f:Evidence|parent::f:EvidenceReport|parent::f:EvidenceVariable|parent::f:MedicinalProductDefinition|parent::f:PackagedProductDefinition|parent::f:AdministrableProductDefinition|parent::f:Ingredient|parent::f:ClinicalUseDefinition|parent::f:RegulatedAuthorization|parent::f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic)">Containing new R4B resources within R4 resources may cause interoperability issues if instances are shared with R4 systems (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -213,7 +219,7 @@
   <sch:pattern>
     <sch:title>PackagedProductDefinition.legalStatusOfSupply</sch:title>
     <sch:rule context="f:PackagedProductDefinition/f:legalStatusOfSupply">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -620,67 +626,61 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.attachedDocument</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:attachedDocument">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>f:PackagedProductDefinition/f:packaging</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging">
+    <sch:title>f:PackagedProductDefinition/f:package</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package">
       <sch:assert test="count(f:type) &gt;= 1">type: minimum cardinality of 'type' is 1</sch:assert>
       <sch:assert test="count(f:quantity) &gt;= 1">quantity: minimum cardinality of 'quantity' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    <sch:title>PackagedProductDefinition.package</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package">
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.extension</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:extension">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.modifierExtension</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:modifierExtension">
+    <sch:title>PackagedProductDefinition.package.extension</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.identifier</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:identifier">
+    <sch:title>PackagedProductDefinition.package.modifierExtension</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:modifierExtension">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>PackagedProductDefinition.package.identifier</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:identifier">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>f:PackagedProductDefinition/f:packaging/f:type</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:type">
+    <sch:title>f:PackagedProductDefinition/f:package/f:type</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:type">
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
       <sch:assert test="count(f:text) &lt;= 1">text: maximum cardinality of 'text' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.type</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:type">
+    <sch:title>PackagedProductDefinition.package.type</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:type">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.type.extension</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:type/f:extension">
+    <sch:title>PackagedProductDefinition.package.type.extension</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:type/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>f:PackagedProductDefinition/f:packaging/f:type/f:coding</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:type/f:coding">
+    <sch:title>f:PackagedProductDefinition/f:package/f:type/f:coding</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:type/f:coding">
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
       <sch:assert test="count(f:system) &lt;= 1">system: maximum cardinality of 'system' is 1</sch:assert>
       <sch:assert test="count(f:version) &lt;= 1">version: maximum cardinality of 'version' is 1</sch:assert>
@@ -690,83 +690,83 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.type.coding</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:type/f:coding">
+    <sch:title>PackagedProductDefinition.package.type.coding</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:type/f:coding">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.type.coding.extension</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:type/f:coding/f:extension">
+    <sch:title>PackagedProductDefinition.package.type.coding.extension</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:type/f:coding/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.type.coding.system</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:type/f:coding/f:system">
+    <sch:title>PackagedProductDefinition.package.type.coding.system</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:type/f:coding/f:system">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.type.coding.version</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:type/f:coding/f:version">
+    <sch:title>PackagedProductDefinition.package.type.coding.version</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:type/f:coding/f:version">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.type.coding.code</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:type/f:coding/f:code">
+    <sch:title>PackagedProductDefinition.package.type.coding.code</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:type/f:coding/f:code">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.type.coding.display</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:type/f:coding/f:display">
+    <sch:title>PackagedProductDefinition.package.type.coding.display</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:type/f:coding/f:display">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.type.coding.userSelected</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:type/f:coding/f:userSelected">
+    <sch:title>PackagedProductDefinition.package.type.coding.userSelected</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:type/f:coding/f:userSelected">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.type.text</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:type/f:text">
+    <sch:title>PackagedProductDefinition.package.type.text</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:type/f:text">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.quantity</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:quantity">
+    <sch:title>PackagedProductDefinition.package.quantity</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:quantity">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>f:PackagedProductDefinition/f:packaging/f:material</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:material">
+    <sch:title>f:PackagedProductDefinition/f:package/f:material</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:material">
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
       <sch:assert test="count(f:text) &lt;= 1">text: maximum cardinality of 'text' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.material</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:material">
+    <sch:title>PackagedProductDefinition.package.material</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:material">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.material.extension</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:material/f:extension">
+    <sch:title>PackagedProductDefinition.package.material.extension</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:material/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>f:PackagedProductDefinition/f:packaging/f:material/f:coding</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:material/f:coding">
+    <sch:title>f:PackagedProductDefinition/f:package/f:material/f:coding</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:material/f:coding">
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
       <sch:assert test="count(f:system) &lt;= 1">system: maximum cardinality of 'system' is 1</sch:assert>
       <sch:assert test="count(f:version) &lt;= 1">version: maximum cardinality of 'version' is 1</sch:assert>
@@ -776,113 +776,110 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.material.coding</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:material/f:coding">
+    <sch:title>PackagedProductDefinition.package.material.coding</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:material/f:coding">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.material.coding.extension</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:material/f:coding/f:extension">
+    <sch:title>PackagedProductDefinition.package.material.coding.extension</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:material/f:coding/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.material.coding.system</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:material/f:coding/f:system">
+    <sch:title>PackagedProductDefinition.package.material.coding.system</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:material/f:coding/f:system">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.material.coding.version</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:material/f:coding/f:version">
+    <sch:title>PackagedProductDefinition.package.material.coding.version</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:material/f:coding/f:version">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.material.coding.code</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:material/f:coding/f:code">
+    <sch:title>PackagedProductDefinition.package.material.coding.code</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:material/f:coding/f:code">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.material.coding.display</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:material/f:coding/f:display">
+    <sch:title>PackagedProductDefinition.package.material.coding.display</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:material/f:coding/f:display">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.material.coding.userSelected</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:material/f:coding/f:userSelected">
+    <sch:title>PackagedProductDefinition.package.material.coding.userSelected</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:material/f:coding/f:userSelected">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.material.text</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:material/f:text">
+    <sch:title>PackagedProductDefinition.package.material.text</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:material/f:text">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.alternateMaterial</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:alternateMaterial">
+    <sch:title>PackagedProductDefinition.package.alternateMaterial</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:alternateMaterial">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>f:PackagedProductDefinition/f:packaging/f:shelfLifeStorage</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:shelfLifeStorage">
-      <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
+    <sch:title>f:PackagedProductDefinition/f:package/f:shelfLifeStorage</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:shelfLifeStorage">
       <sch:assert test="count(f:type) &gt;= 1">type: minimum cardinality of 'type' is 1</sch:assert>
-      <sch:assert test="count(f:type) &lt;= 1">type: maximum cardinality of 'type' is 1</sch:assert>
       <sch:assert test="count(f:period[x]) &gt;= 1">period[x]: minimum cardinality of 'period[x]' is 1</sch:assert>
-      <sch:assert test="count(f:period[x]) &lt;= 1">period[x]: maximum cardinality of 'period[x]' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.shelfLifeStorage</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:shelfLifeStorage">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    <sch:title>PackagedProductDefinition.package.shelfLifeStorage</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:shelfLifeStorage">
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.shelfLifeStorage.extension</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:shelfLifeStorage/f:extension">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
-      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.shelfLifeStorage.modifierExtension</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:shelfLifeStorage/f:modifierExtension">
+    <sch:title>PackagedProductDefinition.package.shelfLifeStorage.extension</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:shelfLifeStorage/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>f:PackagedProductDefinition/f:packaging/f:shelfLifeStorage/f:type</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:shelfLifeStorage/f:type">
+    <sch:title>PackagedProductDefinition.package.shelfLifeStorage.modifierExtension</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:shelfLifeStorage/f:modifierExtension">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>f:PackagedProductDefinition/f:package/f:shelfLifeStorage/f:type</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:shelfLifeStorage/f:type">
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
       <sch:assert test="count(f:text) &lt;= 1">text: maximum cardinality of 'text' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.shelfLifeStorage.type</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:shelfLifeStorage/f:type">
+    <sch:title>PackagedProductDefinition.package.shelfLifeStorage.type</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:shelfLifeStorage/f:type">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.shelfLifeStorage.type.extension</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:shelfLifeStorage/f:type/f:extension">
+    <sch:title>PackagedProductDefinition.package.shelfLifeStorage.type.extension</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:shelfLifeStorage/f:type/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>f:PackagedProductDefinition/f:packaging/f:shelfLifeStorage/f:type/f:coding</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:shelfLifeStorage/f:type/f:coding">
+    <sch:title>f:PackagedProductDefinition/f:package/f:shelfLifeStorage/f:type/f:coding</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:shelfLifeStorage/f:type/f:coding">
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
       <sch:assert test="count(f:system) &lt;= 1">system: maximum cardinality of 'system' is 1</sch:assert>
       <sch:assert test="count(f:version) &lt;= 1">version: maximum cardinality of 'version' is 1</sch:assert>
@@ -892,139 +889,139 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.shelfLifeStorage.type.coding</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:shelfLifeStorage/f:type/f:coding">
+    <sch:title>PackagedProductDefinition.package.shelfLifeStorage.type.coding</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:shelfLifeStorage/f:type/f:coding">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.shelfLifeStorage.type.coding.extension</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:shelfLifeStorage/f:type/f:coding/f:extension">
+    <sch:title>PackagedProductDefinition.package.shelfLifeStorage.type.coding.extension</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:shelfLifeStorage/f:type/f:coding/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.shelfLifeStorage.type.coding.system</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:shelfLifeStorage/f:type/f:coding/f:system">
+    <sch:title>PackagedProductDefinition.package.shelfLifeStorage.type.coding.system</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:shelfLifeStorage/f:type/f:coding/f:system">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.shelfLifeStorage.type.coding.version</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:shelfLifeStorage/f:type/f:coding/f:version">
+    <sch:title>PackagedProductDefinition.package.shelfLifeStorage.type.coding.version</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:shelfLifeStorage/f:type/f:coding/f:version">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.shelfLifeStorage.type.coding.code</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:shelfLifeStorage/f:type/f:coding/f:code">
+    <sch:title>PackagedProductDefinition.package.shelfLifeStorage.type.coding.code</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:shelfLifeStorage/f:type/f:coding/f:code">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.shelfLifeStorage.type.coding.display</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:shelfLifeStorage/f:type/f:coding/f:display">
+    <sch:title>PackagedProductDefinition.package.shelfLifeStorage.type.coding.display</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:shelfLifeStorage/f:type/f:coding/f:display">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.shelfLifeStorage.type.coding.userSelected</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:shelfLifeStorage/f:type/f:coding/f:userSelected">
+    <sch:title>PackagedProductDefinition.package.shelfLifeStorage.type.coding.userSelected</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:shelfLifeStorage/f:type/f:coding/f:userSelected">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.shelfLifeStorage.type.text</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:shelfLifeStorage/f:type/f:text">
+    <sch:title>PackagedProductDefinition.package.shelfLifeStorage.type.text</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:shelfLifeStorage/f:type/f:text">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.shelfLifeStorage.period[x] 1</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:shelfLifeStorage/f:period[x]">
+    <sch:title>PackagedProductDefinition.package.shelfLifeStorage.period[x] 1</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:shelfLifeStorage/f:period[x]">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.shelfLifeStorage.specialPrecautionsForStorage</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:shelfLifeStorage/f:specialPrecautionsForStorage">
+    <sch:title>PackagedProductDefinition.package.shelfLifeStorage.specialPrecautionsForStorage</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:shelfLifeStorage/f:specialPrecautionsForStorage">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.manufacturer</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:manufacturer">
+    <sch:title>PackagedProductDefinition.package.manufacturer</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:manufacturer">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.property</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:property">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    <sch:title>PackagedProductDefinition.package.property</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:property">
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.property.extension</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:property/f:extension">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.property.modifierExtension</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:property/f:modifierExtension">
+    <sch:title>PackagedProductDefinition.package.property.extension</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:property/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.property.type</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:property/f:type">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.property.value[x] 1</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:property/f:value[x]">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.containedItem</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:containedItem">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.containedItem.extension</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:containedItem/f:extension">
+    <sch:title>PackagedProductDefinition.package.property.modifierExtension</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:property/f:modifierExtension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.containedItem.modifierExtension</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:containedItem/f:modifierExtension">
+    <sch:title>PackagedProductDefinition.package.property.type</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:property/f:type">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>PackagedProductDefinition.package.property.value[x] 1</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:property/f:value[x]">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>PackagedProductDefinition.package.containedItem</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:containedItem">
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>PackagedProductDefinition.package.containedItem.extension</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:containedItem/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.containedItem.item</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:containedItem/f:item">
+    <sch:title>PackagedProductDefinition.package.containedItem.modifierExtension</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:containedItem/f:modifierExtension">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>PackagedProductDefinition.package.containedItem.item</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:containedItem/f:item">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.containedItem.amount</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:containedItem/f:amount">
+    <sch:title>PackagedProductDefinition.package.containedItem.amount</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:containedItem/f:amount">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>PackagedProductDefinition.packaging.packaging</sch:title>
-    <sch:rule context="f:PackagedProductDefinition/f:packaging/f:packaging">
+    <sch:title>PackagedProductDefinition.package.package</sch:title>
+    <sch:rule context="f:PackagedProductDefinition/f:package/f:package">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>

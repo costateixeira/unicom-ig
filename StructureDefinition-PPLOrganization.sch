@@ -40,6 +40,12 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
+    <sch:title>Organization.contained</sch:title>
+    <sch:rule context="f:Organization/f:contained">
+      <sch:assert test="not(f:Citation|f:Evidence|f:EvidenceReport|f:EvidenceVariable|f:MedicinalProductDefinition|f:PackagedProductDefinition|f:AdministrableProductDefinition|f:Ingredient|f:ClinicalUseDefinition|f:RegulatedAuthorization|f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic) or not(parent::f:Citation|parent::f:Evidence|parent::f:EvidenceReport|parent::f:EvidenceVariable|parent::f:MedicinalProductDefinition|parent::f:PackagedProductDefinition|parent::f:AdministrableProductDefinition|parent::f:Ingredient|parent::f:ClinicalUseDefinition|parent::f:RegulatedAuthorization|parent::f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic)">Containing new R4B resources within R4 resources may cause interoperability issues if instances are shared with R4 systems (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
     <sch:title>Organization.extension</sch:title>
     <sch:rule context="f:Organization/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
@@ -158,17 +164,17 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>Organization.description</sch:title>
-    <sch:rule context="f:Organization/f:description">
+    <sch:title>Organization.telecom</sch:title>
+    <sch:rule context="f:Organization/f:telecom">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="count(f:use[@value='home']) = 0">The telecom of an organization can never be of use 'home' (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>Organization.contact</sch:title>
-    <sch:rule context="f:Organization/f:contact">
+    <sch:title>Organization.address</sch:title>
+    <sch:rule context="f:Organization/f:address">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-      <sch:assert test="f:telecom.count(f:use[@value='home']) = 0">The telecom of an organization can never be of use 'home' (inherited)</sch:assert>
-      <sch:assert test="f:address.count(f:use[@value='home']) = 0">The address of an organization can never be of use 'home' (inherited)</sch:assert>
+      <sch:assert test="count(f:use[@value='home']) = 0">An address of an organization can never be of use 'home' (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -178,52 +184,52 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
+    <sch:title>Organization.contact</sch:title>
+    <sch:rule context="f:Organization/f:contact">
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Organization.contact.extension</sch:title>
+    <sch:rule context="f:Organization/f:contact/f:extension">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Organization.contact.modifierExtension</sch:title>
+    <sch:rule context="f:Organization/f:contact/f:modifierExtension">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Organization.contact.purpose</sch:title>
+    <sch:rule context="f:Organization/f:contact/f:purpose">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Organization.contact.name</sch:title>
+    <sch:rule context="f:Organization/f:contact/f:name">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Organization.contact.telecom</sch:title>
+    <sch:rule context="f:Organization/f:contact/f:telecom">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Organization.contact.address</sch:title>
+    <sch:rule context="f:Organization/f:contact/f:address">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
     <sch:title>Organization.endpoint</sch:title>
     <sch:rule context="f:Organization/f:endpoint">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>Organization.qualification</sch:title>
-    <sch:rule context="f:Organization/f:qualification">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>Organization.qualification.extension</sch:title>
-    <sch:rule context="f:Organization/f:qualification/f:extension">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>Organization.qualification.modifierExtension</sch:title>
-    <sch:rule context="f:Organization/f:qualification/f:modifierExtension">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>Organization.qualification.identifier</sch:title>
-    <sch:rule context="f:Organization/f:qualification/f:identifier">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>Organization.qualification.code</sch:title>
-    <sch:rule context="f:Organization/f:qualification/f:code">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>Organization.qualification.period</sch:title>
-    <sch:rule context="f:Organization/f:qualification/f:period">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>Organization.qualification.issuer</sch:title>
-    <sch:rule context="f:Organization/f:qualification/f:issuer">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
