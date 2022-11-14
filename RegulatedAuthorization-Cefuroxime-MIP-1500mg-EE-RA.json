@@ -3,7 +3,7 @@
   "id": "Cefuroxime-MIP-1500mg-EE-RA",
   "meta": {
     "profile": [
-      "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"
+      "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization"
     ]
   },
   "text": {

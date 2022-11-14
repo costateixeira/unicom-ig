@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/RegulatedAuthorization/CanifugCremolum-EE-RA> a fhir:RegulatedAuthorization;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/RegulatedAuthorization/CanifugCremolum-EE-RA> a fhir:RegulatedAuthorization;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "CanifugCremolum-EE-RA"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization";
+       fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization";
        fhir:index 0;
-       fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization>
+       fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization>
      ]
   ];
   fhir:DomainResource.text [
@@ -25,7 +25,7 @@
   ];
   fhir:RegulatedAuthorization.subject [
      fhir:index 0;
-     fhir:link <http://unicom-project.eu/fhir/MedicinalProductDefinition/CanifugCremolum-EE-MPD>;
+     fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/MedicinalProductDefinition/CanifugCremolum-EE-MPD>;
      fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/CanifugCremolum-EE-MPD" ]
   ];
   fhir:RegulatedAuthorization.type [
@@ -55,13 +55,13 @@
   ];
   fhir:RegulatedAuthorization.statusDate [ fhir:value "2011-10-19"^^xsd:date];
   fhir:RegulatedAuthorization.holder [
-     fhir:link <http://unicom-project.eu/fhir/Organization/LOC-100004795-Wolff-Arzneimittel>;
+     fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/Organization/LOC-100004795-Wolff-Arzneimittel>;
      fhir:Reference.reference [ fhir:value "Organization/LOC-100004795-Wolff-Arzneimittel" ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/RegulatedAuthorization/CanifugCremolum-EE-RA.ttl> a owl:Ontology;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/RegulatedAuthorization/CanifugCremolum-EE-RA.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

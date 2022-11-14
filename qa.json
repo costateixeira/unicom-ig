@@ -1,12 +1,12 @@
 {
-  "url": "http://unicom-project.eu/fhir/ImplementationGuide/hl7.eu.fhir.unicom",
+  "url": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ImplementationGuide/hl7.eu.fhir.unicom",
   "name": "UnicomIG",
   "package-id": "hl7.eu.fhir.unicom",
   "ig-ver": "0.1.0",
-  "date": "Sat, 12 Nov, 2022 20:00:33 +0000",
-  "errs": 51,
-  "warnings": 65,
+  "date": "Mon, 14 Nov, 2022 19:25:53 +0000",
+  "errs": 36,
+  "warnings": 25,
   "hints": 83,
-  "version": "4.3.0",
+  "version": "5.0.0-ballot",
   "tool": "5.0.0-ballot (3)"
 }

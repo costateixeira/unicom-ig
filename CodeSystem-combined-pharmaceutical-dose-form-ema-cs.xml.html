@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.EU.FHIR.UNICOM\Combined Pharmaceutical Dose Form EMA - XML Representation - FHIR v4.3.0</title>
+    <title>HL7.EU.FHIR.UNICOM\Combined Pharmaceutical Dose Form EMA - XML Representation - FHIR v5.0.0-ballot</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -131,7 +131,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 7" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">UnicomIG - Local Development build (v0.1.0). See the <a href="http://unicom-project.eu/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">UnicomIG - Local Development build (v0.1.0). See the <a href="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -186,7 +186,7 @@
         
           Draft
           
-            as of 2022-11-12
+            as of 2022-11-14
           
         
       </td>
@@ -204,354 +204,354 @@
 
   <pre class="xml" style="white-space: pre; overflow: hidden"><code>
 
-&lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem">CodeSystem</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.id">id</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;combined-pharmaceutical-dose-form-ema-cs&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.text">text</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+&lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem">CodeSystem</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.id">id</a> <a href="http://build.fhir.org/datatypes.html#id">value</a>=&quot;combined-pharmaceutical-dose-form-ema-cs&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.text">text</a>&gt;
+    &lt;<a href="http://build.fhir.org/narrative.html#Narrative#Narrative.status">status</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
     &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;This code system &lt;code&gt;http://spor.ema.europa.eu/v1/lists/200000000006&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=&quot;codes&quot;&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000073366&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000073366&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solvent for oral solution&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000073651&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000073651&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solvent for oral suspension&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000073774&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000073774&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Eye drops, powder and solvent for solution&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000073781&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000073781&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Eye drops, powder and solvent for suspension&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000073801&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000073801&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ear drops, powder and solvent for suspension&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000073860&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000073860&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solvent for solution for infusion&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000073868&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000073868&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solvent for solution for injection&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000073869&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000073869&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solvent for suspension for injection&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000073884&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000073884&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solvent for implantation paste&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000073891&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000073891&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Endotracheopulmonary instillation, powder and solvent for solution&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000073892&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000073892&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solvent for endocervical gel&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000073941&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000073941&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solvent for sealant&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000073972&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000073972&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Concentrate and solvent for concentrate for solution for infusion&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000073973&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000073973&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Concentrate and solvent for cutaneous use&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000073974&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000073974&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Concentrate and solvent for injection&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000073975&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000073975&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Concentrate and solvent for solution for infusion&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000073987&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000073987&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Concentrate and diluent for solution for infusion&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000073988&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000073988&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Concentrate and solvent for cutaneous solution&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000073989&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000073989&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Concentrate and solvent for solution for injection&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000073990&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000073990&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Concentrate and solvent for suspension for injection&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000073999&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000073999&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Granules and solvent for suspension for injection&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000074015&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000074015&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solvent for concentrate for solution for infusion&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000074016&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000074016&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solvent for cutaneous solution&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000074017&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000074017&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solvent for gingival gel&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000074018&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000074018&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solvent for prolonged-release suspension for injection&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000074030&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000074030&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solvent for endosinusial solution&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000074031&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000074031&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solvent for intraocular instillation solution&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000074032&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000074032&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and suspension for suspension for injection&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000074048&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000074048&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Suspension and effervescent granules for oral suspension&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000074051&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000074051&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tablet and solvent for rectal suspension&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000074053&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000074053&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solvent for dental gel&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000074056&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000074056&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Gas and solvent for dispersion for injection/infusion&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000074057&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000074057&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solvent for solution for injection/infusion&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000074061&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000074061&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Suspension and solution for spray&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000074064&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000074064&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tablet and powder for oral solution&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000075580&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000075580&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Emulsion and suspension for emulsion for injection&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000075584&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000075584&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solvent for dispersion for injection&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000075587&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000075587&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder for mouth wash&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000116137&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000116137&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lyophilisate and solvent for solution for injection&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000116141&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000116141&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fibrin sealant-powder and solvent for fibrin sealant&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000116155&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000116155&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Granules and solvent for oral suspension&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000116160&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000116160&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lyophilisate and solvent for suspension for injection&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000116172&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000116172&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and gel for gel&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000116173&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000116173&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solution for solution for injection&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000116174&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000116174&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solvent for epilesional solution&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000116175&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000116175&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solvent for intravesical solution&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000116176&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000116176&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solvent for intravesical suspension&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000116177&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000116177&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solvent for nebuliser solution&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000116179&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000116179&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder, dispersion and solvent for concentrate for dispersion for infusion&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000125746&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000125746&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solvent for emulsion for injection&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000125747&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000125747&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nasal drops, powder and solvent for solution&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000125777&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000125777&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Suspension and solvent for suspension for injection&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000136318&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000136318&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Concentrate and solvent for solution for injection/infusion&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000136325&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000136325&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solvent for solution for injection/skin-prick test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000136558&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000136558&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lyophilisate and solvent for suspension for nasal administration&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000136560&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000136560&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solvent for solution for sealant&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000136907&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000136907&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Solution for dispersion for injection/infusion&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000143502&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000143502&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solution for dental cement&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000143546&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000143546&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Endotracheopulmonary instillation, powder and solvent for suspension&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000143552&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000143552&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder, solvent and matrix for implantation matrix&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000156068&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000156068&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nasal drops, lyophilisate and solvent for suspension&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000157796&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000157796&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lyophilisate and suspension for suspension for injection&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000164467&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000164467&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder for concentrate and solution for solution for infusion&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000169997&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000169997&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solution for bee-hive solution&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000170588&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000170588&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Suspension and solvent for oral spray&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000171127&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000171127&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lyophilisate and solvent for oral suspension&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000171193&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000171193&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Concentrate and solvent for concentrate for oral spray, suspension&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000171238&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000171238&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lyophilisate and solvent for oculonasal suspension&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000171935&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000171935&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Emulsion and lyophilisate for suspension for injection&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100000174065&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-100000174065&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solvent for syrup&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;200000002161&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-200000002161&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nasal spray, lyophilisate and solvent for suspension&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;200000002287&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-200000002287&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solution for bee-hive dispersion&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;200000004201&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-200000004201&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Solution and dispersion for nebuliser dispersion&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;200000004819&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-200000004819&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Effervescent powder and powder for oral suspension&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;200000004820&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-200000004820&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lyophilisate and solvent for emulsion for injection&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;200000005547&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-200000005547&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Powder and solution for suspension for injection&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;200000010382&lt;a name=&quot;combined-pharmaceutical-dose-form-ema-cs-200000010382&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lyophilisate and solvent for suspension for nasal spray or injection&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/text&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.url">url</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#uri">value</a>=&quot;http://spor.ema.europa.eu/v1/lists/200000000006&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.version">version</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;0.1.0&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.name">name</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;CombinedPharmaceuticalDoseForm_EMA_CS&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.title">title</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Combined Pharmaceutical Dose Form EMA&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.status">status</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;draft&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.date">date</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#dateTime">value</a>=&quot;2022-11-12T20:00:33+00:00&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.publisher">publisher</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;UNICOM&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.contact">contact</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/metadatatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;UNICOM&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;url&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;http://medigree.net&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.url">url</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://spor.ema.europa.eu/v1/lists/200000000006&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.version">version</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;0.1.0&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;CombinedPharmaceuticalDoseForm_EMA_CS&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.title">title</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Combined Pharmaceutical Dose Form EMA&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.status">status</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;draft&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.date">date</a> <a href="http://build.fhir.org/datatypes.html#dateTime">value</a>=&quot;2022-11-14T19:25:53+00:00&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.publisher">publisher</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;UNICOM&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.contact">contact</a>&gt;
+    &lt;<a href="http://build.fhir.org/metadatatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;UNICOM&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
+      &lt;<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;url&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;http://medigree.net&quot;/&gt;
     &lt;/telecom&gt;
   &lt;/contact&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.description">description</a>
-               <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;Combined Pharmaceutical Dose Form. Based on EDQM. Re-coded with RMS codes. Used only for authorised dose form.&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.caseSensitive">caseSensitive</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.compositional">compositional</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.content">content</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;complete&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.count">count</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#unsignedInt">value</a>=&quot;77&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000073366&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solvent for oral solution&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000073651&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solvent for oral suspension&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000073774&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Eye drops, powder and solvent for solution&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000073781&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Eye drops, powder and solvent for suspension&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000073801&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Ear drops, powder and solvent for suspension&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000073860&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solvent for solution for infusion&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000073868&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solvent for solution for injection&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000073869&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solvent for suspension for injection&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000073884&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solvent for implantation paste&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000073891&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Endotracheopulmonary instillation, powder and solvent for solution&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000073892&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solvent for endocervical gel&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000073941&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solvent for sealant&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000073972&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Concentrate and solvent for concentrate for solution for infusion&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000073973&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Concentrate and solvent for cutaneous use&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000073974&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Concentrate and solvent for injection&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000073975&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Concentrate and solvent for solution for infusion&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000073987&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Concentrate and diluent for solution for infusion&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000073988&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Concentrate and solvent for cutaneous solution&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000073989&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Concentrate and solvent for solution for injection&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000073990&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Concentrate and solvent for suspension for injection&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000073999&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Granules and solvent for suspension for injection&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000074015&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solvent for concentrate for solution for infusion&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000074016&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solvent for cutaneous solution&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000074017&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solvent for gingival gel&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.description">description</a>
+               <a href="http://build.fhir.org/datatypes.html#markdown">value</a>=&quot;Combined Pharmaceutical Dose Form. Based on EDQM. Re-coded with RMS codes. Used only for authorised dose form.&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.caseSensitive">caseSensitive</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.compositional">compositional</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.content">content</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;complete&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.count">count</a> <a href="http://build.fhir.org/datatypes.html#unsignedInt">value</a>=&quot;77&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000073366&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solvent for oral solution&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000073651&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solvent for oral suspension&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000073774&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Eye drops, powder and solvent for solution&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000073781&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Eye drops, powder and solvent for suspension&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000073801&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Ear drops, powder and solvent for suspension&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000073860&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solvent for solution for infusion&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000073868&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solvent for solution for injection&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000073869&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solvent for suspension for injection&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000073884&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solvent for implantation paste&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000073891&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a>
+             <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Endotracheopulmonary instillation, powder and solvent for solution&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000073892&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solvent for endocervical gel&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000073941&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solvent for sealant&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000073972&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a>
+             <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Concentrate and solvent for concentrate for solution for infusion&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000073973&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Concentrate and solvent for cutaneous use&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000073974&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Concentrate and solvent for injection&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000073975&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Concentrate and solvent for solution for infusion&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000073987&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Concentrate and diluent for solution for infusion&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000073988&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Concentrate and solvent for cutaneous solution&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000073989&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Concentrate and solvent for solution for injection&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000073990&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Concentrate and solvent for suspension for injection&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000073999&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Granules and solvent for suspension for injection&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000074015&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a>
+             <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solvent for concentrate for solution for infusion&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000074016&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solvent for cutaneous solution&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000074017&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solvent for gingival gel&quot;/&gt;
   &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000074018&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solvent for prolonged-release suspension for injection&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000074030&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solvent for endosinusial solution&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000074031&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solvent for intraocular instillation solution&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000074032&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and suspension for suspension for injection&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000074048&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Suspension and effervescent granules for oral suspension&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000074051&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Tablet and solvent for rectal suspension&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000074053&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solvent for dental gel&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000074056&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Gas and solvent for dispersion for injection/infusion&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000074057&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solvent for solution for injection/infusion&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000074061&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Suspension and solution for spray&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000074064&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Tablet and powder for oral solution&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000075580&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Emulsion and suspension for emulsion for injection&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000075584&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solvent for dispersion for injection&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000075587&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder for mouth wash&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000116137&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Lyophilisate and solvent for solution for injection&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000116141&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Fibrin sealant-powder and solvent for fibrin sealant&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000116155&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Granules and solvent for oral suspension&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000116160&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Lyophilisate and solvent for suspension for injection&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000116172&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and gel for gel&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000116173&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solution for solution for injection&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000116174&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solvent for epilesional solution&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000116175&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solvent for intravesical solution&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000116176&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solvent for intravesical suspension&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000116177&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solvent for nebuliser solution&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000116179&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder, dispersion and solvent for concentrate for dispersion for infusion&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000125746&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solvent for emulsion for injection&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000125747&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Nasal drops, powder and solvent for solution&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000125777&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Suspension and solvent for suspension for injection&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000136318&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Concentrate and solvent for solution for injection/infusion&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000136325&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solvent for solution for injection/skin-prick test&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000136558&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Lyophilisate and solvent for suspension for nasal administration&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000136560&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solvent for solution for sealant&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000136907&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Solution for dispersion for injection/infusion&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000143502&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solution for dental cement&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000143546&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Endotracheopulmonary instillation, powder and solvent for suspension&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000143552&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder, solvent and matrix for implantation matrix&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000156068&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Nasal drops, lyophilisate and solvent for suspension&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000157796&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Lyophilisate and suspension for suspension for injection&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000164467&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder for concentrate and solution for solution for infusion&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000169997&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solution for bee-hive solution&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000170588&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Suspension and solvent for oral spray&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000171127&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Lyophilisate and solvent for oral suspension&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000171193&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Concentrate and solvent for concentrate for oral spray, suspension&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000171238&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Lyophilisate and solvent for oculonasal suspension&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000171935&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Emulsion and lyophilisate for suspension for injection&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100000174065&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solvent for syrup&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;200000002161&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Nasal spray, lyophilisate and solvent for suspension&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;200000002287&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solution for bee-hive dispersion&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;200000004201&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Solution and dispersion for nebuliser dispersion&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;200000004819&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Effervescent powder and powder for oral suspension&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;200000004820&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Lyophilisate and solvent for emulsion for injection&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;200000005547&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Powder and solution for suspension for injection&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;200000010382&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Lyophilisate and solvent for suspension for nasal spray or injection&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000074018&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a>
+             <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solvent for prolonged-release suspension for injection&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000074030&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solvent for endosinusial solution&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000074031&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a>
+             <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solvent for intraocular instillation solution&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000074032&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and suspension for suspension for injection&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000074048&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a>
+             <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Suspension and effervescent granules for oral suspension&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000074051&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Tablet and solvent for rectal suspension&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000074053&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solvent for dental gel&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000074056&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Gas and solvent for dispersion for injection/infusion&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000074057&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solvent for solution for injection/infusion&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000074061&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Suspension and solution for spray&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000074064&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Tablet and powder for oral solution&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000075580&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Emulsion and suspension for emulsion for injection&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000075584&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solvent for dispersion for injection&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000075587&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder for mouth wash&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000116137&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Lyophilisate and solvent for solution for injection&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000116141&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Fibrin sealant-powder and solvent for fibrin sealant&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000116155&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Granules and solvent for oral suspension&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000116160&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Lyophilisate and solvent for suspension for injection&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000116172&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and gel for gel&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000116173&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solution for solution for injection&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000116174&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solvent for epilesional solution&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000116175&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solvent for intravesical solution&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000116176&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solvent for intravesical suspension&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000116177&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solvent for nebuliser solution&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000116179&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a>
+             <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder, dispersion and solvent for concentrate for dispersion for infusion&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000125746&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solvent for emulsion for injection&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000125747&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Nasal drops, powder and solvent for solution&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000125777&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Suspension and solvent for suspension for injection&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000136318&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a>
+             <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Concentrate and solvent for solution for injection/infusion&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000136325&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a>
+             <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solvent for solution for injection/skin-prick test&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000136558&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a>
+             <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Lyophilisate and solvent for suspension for nasal administration&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000136560&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solvent for solution for sealant&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000136907&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Solution for dispersion for injection/infusion&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000143502&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solution for dental cement&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000143546&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a>
+             <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Endotracheopulmonary instillation, powder and solvent for suspension&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000143552&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder, solvent and matrix for implantation matrix&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000156068&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Nasal drops, lyophilisate and solvent for suspension&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000157796&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a>
+             <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Lyophilisate and suspension for suspension for injection&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000164467&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a>
+             <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder for concentrate and solution for solution for infusion&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000169997&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solution for bee-hive solution&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000170588&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Suspension and solvent for oral spray&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000171127&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Lyophilisate and solvent for oral suspension&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000171193&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a>
+             <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Concentrate and solvent for concentrate for oral spray, suspension&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000171238&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Lyophilisate and solvent for oculonasal suspension&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000171935&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Emulsion and lyophilisate for suspension for injection&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;100000174065&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solvent for syrup&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;200000002161&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Nasal spray, lyophilisate and solvent for suspension&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;200000002287&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solution for bee-hive dispersion&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;200000004201&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Solution and dispersion for nebuliser dispersion&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;200000004819&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Effervescent powder and powder for oral suspension&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;200000004820&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Lyophilisate and solvent for emulsion for injection&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;200000005547&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Powder and solution for suspension for injection&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;200000010382&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">display</a>
+             <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Lyophilisate and solvent for suspension for nasal spray or injection&quot;/&gt;
   &lt;/concept&gt;
 &lt;/CodeSystem&gt;</code></pre>
 
@@ -583,7 +583,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://medigree.net">UNICOM</a>.  Package hl7.eu.fhir.unicom#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 4.3.0</a>. Generated <span title="Sat, Nov 12, 2022 20:00+0000">2022-11-12</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://medigree.net">UNICOM</a>.  Package hl7.eu.fhir.unicom#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 5.0.0-ballot</a>. Generated <span title="Mon, Nov 14, 2022 19:25+0000">2022-11-14</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <div style="color: #33333" >
@@ -592,7 +592,7 @@
                  <a style="color: #81BEF7" href="qa.html">QA Report</a> 
 				 
 <!--
-                 <a style="color: #81BEF7" target="_blank" href="http://unicom-project.eu/fhir/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+                 <a style="color: #81BEF7" target="_blank" href="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
 -->
 
                  <a style="color: #81BEF7" rel="license" href="http://build.fhir.org/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a>

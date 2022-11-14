@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID> a fhir:ManufacturedItemDefinition;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID> a fhir:ManufacturedItemDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "CanifugCremolum-100mg-Pessary-EE-MID"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition";
+       fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition";
        fhir:index 0;
-       fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition>
+       fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition>
      ]
   ];
   fhir:DomainResource.text [
@@ -39,7 +39,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID.ttl> a owl:Ontology;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

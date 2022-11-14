@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/CodeSystem/pharmaceutical-dose-form-ema-cs> a fhir:CodeSystem;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/CodeSystem/pharmaceutical-dose-form-ema-cs> a fhir:CodeSystem;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "pharmaceutical-dose-form-ema-cs"];
   fhir:DomainResource.text [
@@ -16,8 +16,8 @@
   fhir:CodeSystem.version [ fhir:value "0.1.0"];
   fhir:CodeSystem.name [ fhir:value "PharmaceuticalDoseForm_EMA_CS"];
   fhir:CodeSystem.title [ fhir:value "Pharmaceutical Dose Form EMA"];
-  fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-11-12T20:00:33+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.date [ fhir:value "2022-11-14T19:25:53+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "UNICOM"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -30,6 +30,7 @@
   ];
   fhir:CodeSystem.description [ fhir:value "Pharmaceutical dose form. Based on EDQM, re-coded with RMS codes."];
   fhir:CodeSystem.caseSensitive [ fhir:value "false"^^xsd:boolean];
+  fhir:CodeSystem.compositional [ fhir:value "false"^^xsd:boolean];
   fhir:CodeSystem.content [ fhir:value "complete"];
   fhir:CodeSystem.count [ fhir:value "464"^^xsd:nonNegativeInteger];
   fhir:CodeSystem.concept [
@@ -1892,7 +1893,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/CodeSystem/pharmaceutical-dose-form-ema-cs.ttl> a owl:Ontology;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/CodeSystem/pharmaceutical-dose-form-ema-cs.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

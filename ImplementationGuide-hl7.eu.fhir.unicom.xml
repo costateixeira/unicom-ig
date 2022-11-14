@@ -3,15 +3,15 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="hl7.eu.fhir.unicom"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>UnicomIG</h2><p>The official URL for this implementation guide is: </p><pre>http://unicom-project.eu/fhir/ImplementationGuide/hl7.eu.fhir.unicom</pre><div><p>UnicomIG</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>UnicomIG</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ImplementationGuide/hl7.eu.fhir.unicom</pre><div><p>UnicomIG</p>
 </div></div>
   </text>
-  <url value="http://unicom-project.eu/fhir/ImplementationGuide/hl7.eu.fhir.unicom"/>
+  <url value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ImplementationGuide/hl7.eu.fhir.unicom"/>
   <version value="0.1.0"/>
   <name value="UnicomIG"/>
   <title value="UnicomIG"/>
   <status value="draft"/>
-  <date value="2022-11-12T20:00:33+00:00"/>
+  <date value="2022-11-14T19:25:53+00:00"/>
   <publisher value="UNICOM"/>
   <contact>
     <name value="UNICOM"/>
@@ -23,13 +23,13 @@
   <description value="UnicomIG"/>
   <packageId value="hl7.eu.fhir.unicom"/>
   <license value="CC0-1.0"/>
-  <fhirVersion value="4.3.0"/>
+  <fhirVersion value="5.0.0-ballot"/>
   <dependsOn id="hl7tx">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
       <valueMarkdown value="Automatically added as a dependency - all IGs depend on HL7 Terminology"/>
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
-    <packageId value="hl7.terminology.r4"/>
+    <packageId value="hl7.terminology.r5"/>
     <version value="5.0.0"/>
   </dependsOn>
   <definition>
@@ -110,199 +110,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://unicom-project.eu/fhir/history.html"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="template-html"/>
-      </extension>
-      <extension url="value">
-        <valueString value="template-page.html"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="template-md"/>
-      </extension>
-      <extension url="value">
-        <valueString value="template-page-md.html"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="apply-contact"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="apply-context"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="apply-copyright"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="apply-jurisdiction"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="apply-license"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="apply-publisher"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="apply-version"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="active-tables"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="fmm-definition"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://hl7.org/fhir/versions.html#maturity"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="propagate-status"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="excludelogbinaryformat"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="tabbed-snapshots"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="copyrightyear"/>
-      </extension>
-      <extension url="value">
-        <valueString value="2022+"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="releaselabel"/>
-      </extension>
-      <extension url="value">
-        <valueString value="ci-build"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="autoload-resources"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="path-liquid"/>
-      </extension>
-      <extension url="value">
-        <valueString value="template/liquid"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="path-liquid"/>
-      </extension>
-      <extension url="value">
-        <valueString value="input/liquid"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="path-qa"/>
-      </extension>
-      <extension url="value">
-        <valueString value="temp/qa"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="path-temp"/>
-      </extension>
-      <extension url="value">
-        <valueString value="temp/pages"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="path-output"/>
-      </extension>
-      <extension url="value">
-        <valueString value="output"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="path-suppressed-warnings"/>
-      </extension>
-      <extension url="value">
-        <valueString value="input/ignoreWarnings.txt"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="path-history"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://unicom-project.eu/fhir/history.html"/>
+        <valueString value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -426,7 +234,7 @@
       </reference>
       <name value="CD"/>
       <description value="Concept descriptor"/>
-      <exampleBoolean value="false"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -437,7 +245,7 @@
       </reference>
       <name value="DT"/>
       <description value="Date"/>
-      <exampleBoolean value="false"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -448,7 +256,7 @@
       </reference>
       <name value="II"/>
       <description value="Instance Identifier"/>
-      <exampleBoolean value="false"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -459,7 +267,7 @@
       </reference>
       <name value="PPL Administrable Product profile"/>
       <description value="Administrable product profile defines the ISO IDMP Pharmaceutical Product concept"/>
-      <exampleBoolean value="false"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -470,7 +278,7 @@
       </reference>
       <name value="PPL Ingredient profile"/>
       <description value="Ingredient for the medicinal product, pharmaceutical product and/or manufactured item"/>
-      <exampleBoolean value="false"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -481,7 +289,7 @@
       </reference>
       <name value="PPL Manufactured Item profile"/>
       <description value="Manufactured item is the countable element inside the package"/>
-      <exampleBoolean value="false"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -492,7 +300,7 @@
       </reference>
       <name value="PPL Medicinal Product profile"/>
       <description value="Medicinal Product as defined in ISO IDMP"/>
-      <exampleBoolean value="false"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -503,7 +311,7 @@
       </reference>
       <name value="PPL Organization"/>
       <description value="Organization"/>
-      <exampleBoolean value="false"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -514,7 +322,7 @@
       </reference>
       <name value="PPL Packaged Product profile"/>
       <description value="Packaged Product"/>
-      <exampleBoolean value="false"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -525,7 +333,7 @@
       </reference>
       <name value="PPL Marketing Authorisation profile"/>
       <description value="Regulated Authorization profile defines the Marketing Authorisation on product or package level"/>
-      <exampleBoolean value="false"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -536,7 +344,7 @@
       </reference>
       <name value="QT"/>
       <description value="Quantity"/>
-      <exampleBoolean value="false"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -547,7 +355,7 @@
       </reference>
       <name value="ST"/>
       <description value="String"/>
-      <exampleBoolean value="false"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -558,7 +366,7 @@
       </reference>
       <name value="TS"/>
       <description value="Time stamp"/>
-      <exampleBoolean value="false"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -569,7 +377,7 @@
       </reference>
       <name value="class"/>
       <description value="Class of data elements"/>
-      <exampleBoolean value="false"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -580,7 +388,7 @@
       </reference>
       <name value="untyped"/>
       <description value="No data type defined"/>
-      <exampleBoolean value="false"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -591,7 +399,7 @@
       </reference>
       <name value="Medicinal Product"/>
       <description value="Medicinal Product"/>
-      <exampleBoolean value="false"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -602,7 +410,7 @@
       </reference>
       <name value="All Units Combined"/>
       <description value="Value set for presentation strength denominator unit, combines units of measurement and units of presentation."/>
-      <exampleBoolean value="false"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -613,7 +421,7 @@
       </reference>
       <name value="Authorised Dose Form"/>
       <description value="Value set for authorised dose form. Combines 4 SPOR/EDQM lists: Pharmaceutical dose form, Combined pharmaceutical dose form, Combined term, Combination package."/>
-      <exampleBoolean value="false"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -624,7 +432,7 @@
       </reference>
       <name value="Combination Package EMA"/>
       <description value="Dose forms for combination packages. Based on EDQM. Re-coded with RMS codes. Only used for authorised dose form."/>
-      <exampleBoolean value="false"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -635,7 +443,7 @@
       </reference>
       <name value="Combined Pharmaceutical Dose Form EMA"/>
       <description value="Combined Pharmaceutical Dose Form. Based on EDQM. Re-coded with RMS codes. Used only for authorised dose form."/>
-      <exampleBoolean value="false"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -646,7 +454,7 @@
       </reference>
       <name value="Combined Term EMA"/>
       <description value="Combined Term. Based on EDQM. Re-coded with RMS codes. Only used for authorised dose form."/>
-      <exampleBoolean value="false"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -657,7 +465,7 @@
       </reference>
       <name value="Pharmaceutical Dose Form EMA"/>
       <description value="Pharmaceutical dose form. Based on EDQM, re-coded with RMS codes."/>
-      <exampleBoolean value="false"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -668,7 +476,7 @@
       </reference>
       <name value="Unit of Measurement EMA"/>
       <description value="Unit of Measurement. Based on UCUM. Re-coded with RMS codes."/>
-      <exampleBoolean value="false"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -679,7 +487,7 @@
       </reference>
       <name value="Unit of Presentation EMA"/>
       <description value="Unit of presentation list from EMA SPOR. List id 200000000014. Content based on EDQM, re-coded with RMS codes."/>
-      <exampleBoolean value="false"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -689,7 +497,9 @@
         <reference value="AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD"/>
       </reference>
       <name value="Agen-5mg-Tablet-EE-APD"/>
-      <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"/>
+      <description value="Administrable/Pharmaceutical Product Definition: simple tablets"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -699,7 +509,9 @@
         <reference value="Ingredient/Agen-5mg-Tablet-EE-I"/>
       </reference>
       <name value="Agen-5mg-Tablet-EE-I"/>
-      <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"/>
+      <description value="Ingredient: amlodipine besilate, presentation strength; amlodipine, reference strength"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -709,7 +521,9 @@
         <reference value="ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID"/>
       </reference>
       <name value="Agen-5mg-Tablet-EE-MID"/>
-      <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"/>
+      <description value="Manufactured Item: simple tablet"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -719,7 +533,9 @@
         <reference value="MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD"/>
       </reference>
       <name value="Agen-5mg-Tablet-EE-MPD"/>
-      <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"/>
+      <description value="Medicinal Product Definition: simple tablets"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -729,8 +545,9 @@
         <reference value="PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A"/>
       </reference>
       <name value="Agen-5mg-Tablet-EE-PPD-1109887-A"/>
-      <description value="Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged)."/>
-      <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
+      <description value="Packaged Product Definition: simple tablets"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -740,8 +557,9 @@
         <reference value="PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B"/>
       </reference>
       <name value="Agen-5mg-Tablet-EE-PPD-1109887-B"/>
-      <description value="Tabletid on pakendatud PVC/Al blistritesse (valged)."/>
-      <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
+      <description value="Packaged Product Definition: simple tablets"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -751,7 +569,9 @@
         <reference value="RegulatedAuthorization/Agen-5mg-Tablet-EE-RA"/>
       </reference>
       <name value="Agen-5mg-Tablet-EE-RA"/>
-      <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"/>
+      <description value="Marketing Authorisation"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -761,7 +581,9 @@
         <reference value="AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD"/>
       </reference>
       <name value="CanifugCremolum-100mg-Pessary-EE-APD"/>
-      <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"/>
+      <description value="Administrable/Pharmaceutical Product Definition: pessaries"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -771,7 +593,9 @@
         <reference value="Ingredient/CanifugCremolum-100mg-Pessary-EE-I"/>
       </reference>
       <name value="CanifugCremolum-100mg-Pessary-EE-I"/>
-      <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"/>
+      <description value="Ingredient: clotrimazole, presentation strength"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -781,7 +605,9 @@
         <reference value="ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID"/>
       </reference>
       <name value="CanifugCremolum-100mg-Pessary-EE-MID"/>
-      <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"/>
+      <description value="Manufactured Item: pessary"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -791,7 +617,9 @@
         <reference value="AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD"/>
       </reference>
       <name value="CanifugCremolum-10mg1g-Cream-EE-APD"/>
-      <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"/>
+      <description value="Administrable/Pharmaceutical Product Definition: creme"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -801,7 +629,9 @@
         <reference value="Ingredient/CanifugCremolum-10mg1g-Cream-EE-I"/>
       </reference>
       <name value="CanifugCremolum-10mg1g-Cream-EE-I"/>
-      <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"/>
+      <description value="Ingredient: clotrimazole, concentration strength"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -811,7 +641,9 @@
         <reference value="ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID"/>
       </reference>
       <name value="CanifugCremolum-10mg1g-Cream-EE-MID"/>
-      <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"/>
+      <description value="Manufactured Item: cream in tube"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -821,7 +653,9 @@
         <reference value="MedicinalProductDefinition/CanifugCremolum-EE-MPD"/>
       </reference>
       <name value="CanifugCremolum-EE-MPD"/>
-      <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"/>
+      <description value="Medicinal Product Definition: combination product of creme and pessaries"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -831,8 +665,9 @@
         <reference value="PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692"/>
       </reference>
       <name value="CanifugCremolum-EE-PPD-1033692"/>
-      <description value="Alu/PE-fooliumist valmistatud ribapakend, mis on asetatud väliskarpi. Kreem on alumiiniumtuubis ja omakorda pappkarbis. Kombineeritud pakend sisaldab: 6 vaginaalsuposiiti ja 20 g kreemi"/>
-      <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
+      <description value="Packaged Product Definition: combination package of creme and pessaries"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -842,7 +677,9 @@
         <reference value="RegulatedAuthorization/CanifugCremolum-EE-RA"/>
       </reference>
       <name value="CanifugCremolum-EE-RA"/>
-      <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"/>
+      <description value="Marketing Authorisation"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -852,7 +689,9 @@
         <reference value="AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD"/>
       </reference>
       <name value="Cefuroxime-MIP-1500mg-EE-APD"/>
-      <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"/>
+      <description value="Administrable/Pharmaceutical Product Definition: transformed"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -862,7 +701,8 @@
         <reference value="Ingredient/Cefuroxime-MIP-1500mg-EE-I"/>
       </reference>
       <name value="Cefuroxime-MIP-1500mg-EE-I"/>
-      <exampleBoolean value="true"/>
+      <description value="Ingredient: cefuroxime sodium, presentation strength; cefuroxime sodium, reference strength"/>
+      <isExample value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -872,7 +712,9 @@
         <reference value="ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID"/>
       </reference>
       <name value="Cefuroxime-MIP-1500mg-EE-MID"/>
-      <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"/>
+      <description value="Manufactured Item: solution in vial"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -882,7 +724,9 @@
         <reference value="MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD"/>
       </reference>
       <name value="Cefuroxime-MIP-1500mg-EE-MPD"/>
-      <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"/>
+      <description value="Medicinal Product Definition: powder for solution"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -892,8 +736,9 @@
         <reference value="PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529940"/>
       </reference>
       <name value="Cefuroxime-MIP-1500mg-EE-PPD-1529940"/>
-      <description value="I tüüpi klaasist viaal, mis on suletud klorobutüülkummist korgi ning flip-off kattega, 1 viaal"/>
-      <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
+      <description value="Packaged Product Definition: powder for solution in 1 vial"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -903,8 +748,9 @@
         <reference value="PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962"/>
       </reference>
       <name value="Cefuroxime-MIP-1500mg-EE-PPD-1529962"/>
-      <description value="I tüüpi klaasist viaal, mis on suletud klorobutüülkummist korgi ning flip-off kattega, 10 viaali"/>
-      <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
+      <description value="Packaged Product Definition: powder for solution in 10 vials"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -914,7 +760,9 @@
         <reference value="RegulatedAuthorization/Cefuroxime-MIP-1500mg-EE-RA"/>
       </reference>
       <name value="Cefuroxime-MIP-1500mg-EE-RA"/>
-      <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"/>
+      <description value="Marketing Authorisation"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -924,7 +772,9 @@
         <reference value="Organization/LOC-100002580-Zentiva"/>
       </reference>
       <name value="LOC-100002580-Zentiva"/>
-      <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"/>
+      <description value="Marketing Authorisation Holder / Organisation"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -934,7 +784,9 @@
         <reference value="Organization/LOC-100004795-Wolff-Arzneimittel"/>
       </reference>
       <name value="LOC-100004795-Wolff-Arzneimittel"/>
-      <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"/>
+      <description value="Marketing Authorisation Holder / Organisation"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -944,77 +796,294 @@
         <reference value="Organization/LOC-100009199-Mip"/>
       </reference>
       <name value="LOC-100009199-Mip"/>
-      <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"/>
+      <description value="Marketing Authorisation Holder / Organisation"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization"/>
+      <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization"/>
     </resource>
     <page>
-      <nameUrl value="toc.html"/>
+      <sourceUrl value="toc.html"/>
+      <name value="toc.html"/>
       <title value="Table of Contents"/>
       <generation value="html"/>
       <page>
-        <nameUrl value="index.html"/>
+        <sourceUrl value="index.html"/>
+        <name value="index.html"/>
         <title value="Home"/>
         <generation value="html"/>
       </page>
     </page>
     <parameter>
-      <code value="path-resource"/>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
       <value value="input/capabilities"/>
     </parameter>
     <parameter>
-      <code value="path-resource"/>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
       <value value="input/examples"/>
     </parameter>
     <parameter>
-      <code value="path-resource"/>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
       <value value="input/extensions"/>
     </parameter>
     <parameter>
-      <code value="path-resource"/>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
       <value value="input/models"/>
     </parameter>
     <parameter>
-      <code value="path-resource"/>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
       <value value="input/operations"/>
     </parameter>
     <parameter>
-      <code value="path-resource"/>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
       <value value="input/profiles"/>
     </parameter>
     <parameter>
-      <code value="path-resource"/>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
       <value value="input/resources"/>
     </parameter>
     <parameter>
-      <code value="path-resource"/>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
       <value value="input/vocabulary"/>
     </parameter>
     <parameter>
-      <code value="path-resource"/>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
       <value value="input/maps"/>
     </parameter>
     <parameter>
-      <code value="path-resource"/>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
       <value value="input/testing"/>
     </parameter>
     <parameter>
-      <code value="path-resource"/>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
       <value value="input/history"/>
     </parameter>
     <parameter>
-      <code value="path-resource"/>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
       <value value="fsh-generated/resources"/>
     </parameter>
     <parameter>
-      <code value="path-pages"/>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-pages"/>
+      </code>
       <value value="template/config"/>
     </parameter>
     <parameter>
-      <code value="path-pages"/>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-pages"/>
+      </code>
       <value value="input/images"/>
     </parameter>
     <parameter>
-      <code value="path-tx-cache"/>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-tx-cache"/>
+      </code>
       <value value="input-cache/txcache"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="copyrightyear"/>
+      </code>
+      <value value="2022+"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="releaselabel"/>
+      </code>
+      <value value="ci-build"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="autoload-resources"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-liquid"/>
+      </code>
+      <value value="template/liquid"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-liquid"/>
+      </code>
+      <value value="input/liquid"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-qa"/>
+      </code>
+      <value value="temp/qa"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-temp"/>
+      </code>
+      <value value="temp/pages"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-output"/>
+      </code>
+      <value value="output"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-suppressed-warnings"/>
+      </code>
+      <value value="input/ignoreWarnings.txt"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-history"/>
+      </code>
+      <value value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/history.html"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="template-html"/>
+      </code>
+      <value value="template-page.html"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="template-md"/>
+      </code>
+      <value value="template-page-md.html"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-contact"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-context"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-copyright"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-jurisdiction"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-license"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-publisher"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-version"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="active-tables"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="fmm-definition"/>
+      </code>
+      <value value="http://hl7.org/fhir/versions.html#maturity"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="propagate-status"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="excludelogbinaryformat"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="tabbed-snapshots"/>
+      </code>
+      <value value="true"/>
     </parameter>
   </definition>
 </ImplementationGuide>
