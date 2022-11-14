@@ -9,8 +9,8 @@
   <version value="0.1.0"/>
   <name value="PharmaceuticalDoseForm_EMA_CS"/>
   <title value="Pharmaceutical Dose Form EMA"/>
-  <status value="active"/>
-  <date value="2022-11-11T20:48:35+00:00"/>
+  <status value="draft"/>
+  <date value="2022-11-14T19:25:53+00:00"/>
   <publisher value="UNICOM"/>
   <contact>
     <name value="UNICOM"/>
@@ -21,6 +21,7 @@
   </contact>
   <description value="Pharmaceutical dose form. Based on EDQM, re-coded with RMS codes."/>
   <caseSensitive value="false"/>
+  <compositional value="false"/>
   <content value="complete"/>
   <count value="464"/>
   <concept>

@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "UnicomIG"];
   fhir:ImplementationGuide.title [ fhir:value "UnicomIG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-11-11T20:48:35+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-11-14T19:25:53+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "UNICOM"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -688,6 +688,7 @@
          fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Agen-5mg-Tablet-EE-APD" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Administrable/Pharmaceutical Product Definition: simple tablets" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition";
          fhir:index 0;
@@ -702,19 +703,6 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Bundle" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/Bundle/Agen-5mg-Tablet-EE-B>;
-         fhir:Reference.reference [ fhir:value "Bundle/Agen-5mg-Tablet-EE-B" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Agen-5mg-Tablet-EE-B" ];
-       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
-     ], [
-       fhir:index 26;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Ingredient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -722,6 +710,7 @@
          fhir:Reference.reference [ fhir:value "Ingredient/Agen-5mg-Tablet-EE-I" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Agen-5mg-Tablet-EE-I" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ingredient: amlodipine besilate, presentation strength; amlodipine, reference strength" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient";
          fhir:index 0;
@@ -732,7 +721,7 @@
          fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient>
        ]
      ], [
-       fhir:index 27;
+       fhir:index 26;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -743,6 +732,7 @@
          fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Agen-5mg-Tablet-EE-MID" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Manufactured Item: simple tablet" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition";
          fhir:index 0;
@@ -753,7 +743,7 @@
          fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition>
        ]
      ], [
-       fhir:index 28;
+       fhir:index 27;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -764,6 +754,7 @@
          fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Agen-5mg-Tablet-EE-MPD" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Medicinal Product Definition: simple tablets" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition";
          fhir:index 0;
@@ -774,7 +765,7 @@
          fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition>
        ]
      ], [
-       fhir:index 29;
+       fhir:index 28;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -785,7 +776,29 @@
          fhir:Reference.reference [ fhir:value "PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Agen-5mg-Tablet-EE-PPD-1109887-A" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged)." ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Packaged Product Definition: simple tablets" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition";
+         fhir:index 0;
+         fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition>
+       ], [
+         fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition";
+         fhir:index 1;
+         fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition>
+       ]
+     ], [
+       fhir:index 29;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PackagedProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B>;
+         fhir:Reference.reference [ fhir:value "PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Agen-5mg-Tablet-EE-PPD-1109887-B" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Packaged Product Definition: simple tablets" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition";
          fhir:index 0;
@@ -800,28 +813,6 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "PackagedProductDefinition" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B>;
-         fhir:Reference.reference [ fhir:value "PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Agen-5mg-Tablet-EE-PPD-1109887-B" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Tabletid on pakendatud PVC/Al blistritesse (valged)." ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition";
-         fhir:index 0;
-         fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition>
-       ], [
-         fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition";
-         fhir:index 1;
-         fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition>
-       ]
-     ], [
-       fhir:index 31;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "RegulatedAuthorization" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -829,6 +820,7 @@
          fhir:Reference.reference [ fhir:value "RegulatedAuthorization/Agen-5mg-Tablet-EE-RA" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Agen-5mg-Tablet-EE-RA" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Marketing Authorisation" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization";
          fhir:index 0;
@@ -839,7 +831,7 @@
          fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization>
        ]
      ], [
-       fhir:index 32;
+       fhir:index 31;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -850,6 +842,7 @@
          fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CanifugCremolum-100mg-Pessary-EE-APD" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Administrable/Pharmaceutical Product Definition: pessaries" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition";
          fhir:index 0;
@@ -860,7 +853,7 @@
          fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition>
        ]
      ], [
-       fhir:index 33;
+       fhir:index 32;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -871,6 +864,7 @@
          fhir:Reference.reference [ fhir:value "Ingredient/CanifugCremolum-100mg-Pessary-EE-I" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CanifugCremolum-100mg-Pessary-EE-I" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ingredient: clotrimazole, presentation strength" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient";
          fhir:index 0;
@@ -881,7 +875,7 @@
          fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient>
        ]
      ], [
-       fhir:index 34;
+       fhir:index 33;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -892,6 +886,7 @@
          fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CanifugCremolum-100mg-Pessary-EE-MID" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Manufactured Item: pessary" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition";
          fhir:index 0;
@@ -902,7 +897,7 @@
          fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition>
        ]
      ], [
-       fhir:index 35;
+       fhir:index 34;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -913,6 +908,7 @@
          fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CanifugCremolum-10mg1g-Cream-EE-APD" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Administrable/Pharmaceutical Product Definition: creme" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition";
          fhir:index 0;
@@ -923,7 +919,7 @@
          fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition>
        ]
      ], [
-       fhir:index 36;
+       fhir:index 35;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -934,6 +930,7 @@
          fhir:Reference.reference [ fhir:value "Ingredient/CanifugCremolum-10mg1g-Cream-EE-I" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CanifugCremolum-10mg1g-Cream-EE-I" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ingredient: clotrimazole, concentration strength" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient";
          fhir:index 0;
@@ -944,7 +941,7 @@
          fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient>
        ]
      ], [
-       fhir:index 37;
+       fhir:index 36;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -955,6 +952,7 @@
          fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CanifugCremolum-10mg1g-Cream-EE-MID" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Manufactured Item: cream in tube" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition";
          fhir:index 0;
@@ -965,7 +963,7 @@
          fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition>
        ]
      ], [
-       fhir:index 38;
+       fhir:index 37;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -976,6 +974,7 @@
          fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/CanifugCremolum-EE-MPD" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CanifugCremolum-EE-MPD" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Medicinal Product Definition: combination product of creme and pessaries" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition";
          fhir:index 0;
@@ -986,7 +985,7 @@
          fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition>
        ]
      ], [
-       fhir:index 39;
+       fhir:index 38;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -997,7 +996,7 @@
          fhir:Reference.reference [ fhir:value "PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CanifugCremolum-EE-PPD-1033692" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Alu/PE-fooliumist valmistatud ribapakend, mis on asetatud väliskarpi. Kreem on alumiiniumtuubis ja omakorda pappkarbis. Kombineeritud pakend sisaldab: 6 vaginaalsuposiiti ja 20 g kreemi" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Packaged Product Definition: combination package of creme and pessaries" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition";
          fhir:index 0;
@@ -1008,7 +1007,7 @@
          fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition>
        ]
      ], [
-       fhir:index 40;
+       fhir:index 39;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1019,6 +1018,7 @@
          fhir:Reference.reference [ fhir:value "RegulatedAuthorization/CanifugCremolum-EE-RA" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CanifugCremolum-EE-RA" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Marketing Authorisation" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization";
          fhir:index 0;
@@ -1029,7 +1029,7 @@
          fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization>
        ]
      ], [
-       fhir:index 41;
+       fhir:index 40;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1040,6 +1040,7 @@
          fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Cefuroxime-MIP-1500mg-EE-APD" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Administrable/Pharmaceutical Product Definition: transformed" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition";
          fhir:index 0;
@@ -1050,7 +1051,7 @@
          fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition>
        ]
      ], [
-       fhir:index 42;
+       fhir:index 41;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1061,9 +1062,10 @@
          fhir:Reference.reference [ fhir:value "Ingredient/Cefuroxime-MIP-1500mg-EE-I" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Cefuroxime-MIP-1500mg-EE-I" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ingredient: cefuroxime sodium, presentation strength; cefuroxime sodium, reference strength" ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 43;
+       fhir:index 42;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1074,6 +1076,7 @@
          fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Cefuroxime-MIP-1500mg-EE-MID" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Manufactured Item: solution in vial" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition";
          fhir:index 0;
@@ -1084,7 +1087,7 @@
          fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition>
        ]
      ], [
-       fhir:index 44;
+       fhir:index 43;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1095,6 +1098,7 @@
          fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Cefuroxime-MIP-1500mg-EE-MPD" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Medicinal Product Definition: powder for solution" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition";
          fhir:index 0;
@@ -1105,7 +1109,7 @@
          fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition>
        ]
      ], [
-       fhir:index 45;
+       fhir:index 44;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1116,7 +1120,29 @@
          fhir:Reference.reference [ fhir:value "PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529940" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Cefuroxime-MIP-1500mg-EE-PPD-1529940" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "I tüüpi klaasist viaal, mis on suletud klorobutüülkummist korgi ning flip-off kattega, 1 viaal" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Packaged Product Definition: powder for solution in 1 vial" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition";
+         fhir:index 0;
+         fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition>
+       ], [
+         fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition";
+         fhir:index 1;
+         fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition>
+       ]
+     ], [
+       fhir:index 45;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PackagedProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962>;
+         fhir:Reference.reference [ fhir:value "PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Cefuroxime-MIP-1500mg-EE-PPD-1529962" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Packaged Product Definition: powder for solution in 10 vials" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition";
          fhir:index 0;
@@ -1131,28 +1157,6 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "PackagedProductDefinition" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962>;
-         fhir:Reference.reference [ fhir:value "PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Cefuroxime-MIP-1500mg-EE-PPD-1529962" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "I tüüpi klaasist viaal, mis on suletud klorobutüülkummist korgi ning flip-off kattega, 10 viaali" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition";
-         fhir:index 0;
-         fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition>
-       ], [
-         fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition";
-         fhir:index 1;
-         fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition>
-       ]
-     ], [
-       fhir:index 47;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "RegulatedAuthorization" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -1160,6 +1164,7 @@
          fhir:Reference.reference [ fhir:value "RegulatedAuthorization/Cefuroxime-MIP-1500mg-EE-RA" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Cefuroxime-MIP-1500mg-EE-RA" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Marketing Authorisation" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization";
          fhir:index 0;
@@ -1170,7 +1175,7 @@
          fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization>
        ]
      ], [
-       fhir:index 48;
+       fhir:index 47;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1181,6 +1186,29 @@
          fhir:Reference.reference [ fhir:value "Organization/LOC-100002580-Zentiva" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "LOC-100002580-Zentiva" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Marketing Authorisation Holder / Organisation" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization";
+         fhir:index 0;
+         fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization>
+       ], [
+         fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization";
+         fhir:index 1;
+         fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization>
+       ]
+     ], [
+       fhir:index 48;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/Organization/LOC-100004795-Wolff-Arzneimittel>;
+         fhir:Reference.reference [ fhir:value "Organization/LOC-100004795-Wolff-Arzneimittel" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "LOC-100004795-Wolff-Arzneimittel" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Marketing Authorisation Holder / Organisation" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization";
          fhir:index 0;
@@ -1198,31 +1226,11 @@
          fhir:Extension.valueString [ fhir:value "Organization" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/Organization/LOC-100004795-Wolff-Arzneimittel>;
-         fhir:Reference.reference [ fhir:value "Organization/LOC-100004795-Wolff-Arzneimittel" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "LOC-100004795-Wolff-Arzneimittel" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization";
-         fhir:index 0;
-         fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization>
-       ], [
-         fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization";
-         fhir:index 1;
-         fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization>
-       ]
-     ], [
-       fhir:index 50;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Organization" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/Organization/LOC-100009199-Mip>;
          fhir:Reference.reference [ fhir:value "Organization/LOC-100009199-Mip" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "LOC-100009199-Mip" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Marketing Authorisation Holder / Organisation" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization";
          fhir:index 0;
