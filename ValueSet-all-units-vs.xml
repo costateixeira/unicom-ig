@@ -5,12 +5,12 @@
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="CodeSystem-unit-of-measurement-ema-cs.html"><code>http://spor.ema.europa.eu/v1/lists/100000110633</code></a></li><li>Include all codes defined in <a href="CodeSystem-unit-of-presentation-ema-cs.html"><code>http://spor.ema.europa.eu/v1/lists/200000000014</code></a></li></ul></div>
   </text>
-  <url value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/all-units-vs"/>
+  <url value="http://unicom-project.eu/fhir/ValueSet/all-units-vs"/>
   <version value="0.1.0"/>
   <name value="AllUnits"/>
   <title value="All Units Combined"/>
   <status value="active"/>
-  <date value="2022-11-14T19:25:53+00:00"/>
+  <date value="2022-11-16T21:11:51+00:00"/>
   <publisher value="UNICOM"/>
   <contact>
     <name value="UNICOM"/>

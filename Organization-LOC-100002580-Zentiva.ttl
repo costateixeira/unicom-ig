@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/Organization/LOC-100002580-Zentiva> a fhir:Organization;
+<http://unicom-project.eu/fhir/Organization/LOC-100002580-Zentiva> a fhir:Organization;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "LOC-100002580-Zentiva"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization";
+       fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization";
        fhir:index 0;
-       fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization>
+       fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization>
      ]
   ];
   fhir:DomainResource.text [
@@ -28,7 +28,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/Organization/LOC-100002580-Zentiva.ttl> a owl:Ontology;
+<http://unicom-project.eu/fhir/Organization/LOC-100002580-Zentiva.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

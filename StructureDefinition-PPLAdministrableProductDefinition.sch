@@ -41,6 +41,12 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
+    <sch:title>AdministrableProductDefinition.contained</sch:title>
+    <sch:rule context="f:AdministrableProductDefinition/f:contained">
+      <sch:assert test="not(f:Citation|f:Evidence|f:EvidenceReport|f:EvidenceVariable|f:MedicinalProductDefinition|f:PackagedProductDefinition|f:AdministrableProductDefinition|f:Ingredient|f:ClinicalUseDefinition|f:RegulatedAuthorization|f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic) or not(parent::f:Citation|parent::f:Evidence|parent::f:EvidenceReport|parent::f:EvidenceVariable|parent::f:MedicinalProductDefinition|parent::f:PackagedProductDefinition|parent::f:AdministrableProductDefinition|parent::f:Ingredient|parent::f:ClinicalUseDefinition|parent::f:RegulatedAuthorization|parent::f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic)">Containing new R4B resources within R4 resources may cause interoperability issues if instances are shared with R4 systems (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
     <sch:title>AdministrableProductDefinition.extension</sch:title>
     <sch:rule context="f:AdministrableProductDefinition/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
@@ -253,7 +259,7 @@
   <sch:pattern>
     <sch:title>AdministrableProductDefinition.property</sch:title>
     <sch:rule context="f:AdministrableProductDefinition/f:property">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -291,7 +297,7 @@
   <sch:pattern>
     <sch:title>AdministrableProductDefinition.routeOfAdministration</sch:title>
     <sch:rule context="f:AdministrableProductDefinition/f:routeOfAdministration">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -421,7 +427,7 @@
   <sch:pattern>
     <sch:title>AdministrableProductDefinition.routeOfAdministration.targetSpecies</sch:title>
     <sch:rule context="f:AdministrableProductDefinition/f:routeOfAdministration/f:targetSpecies">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -447,7 +453,7 @@
   <sch:pattern>
     <sch:title>AdministrableProductDefinition.routeOfAdministration.targetSpecies.withdrawalPeriod</sch:title>
     <sch:rule context="f:AdministrableProductDefinition/f:routeOfAdministration/f:targetSpecies/f:withdrawalPeriod">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

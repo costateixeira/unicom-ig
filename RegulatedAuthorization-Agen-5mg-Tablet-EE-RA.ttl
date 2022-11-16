@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/RegulatedAuthorization/Agen-5mg-Tablet-EE-RA> a fhir:RegulatedAuthorization;
+<http://unicom-project.eu/fhir/RegulatedAuthorization/Agen-5mg-Tablet-EE-RA> a fhir:RegulatedAuthorization;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Agen-5mg-Tablet-EE-RA"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization";
+       fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization";
        fhir:index 0;
-       fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization>
+       fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization>
      ]
   ];
   fhir:DomainResource.text [
@@ -25,9 +25,9 @@
      fhir:Resource.id [ fhir:value "LOC-100002580-Zentiva" ];
      fhir:Resource.meta [
        fhir:Meta.profile [
-         fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization";
+         fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization";
          fhir:index 0;
-         fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization>
+         fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization>
        ]
      ];
      fhir:Organization.identifier [
@@ -43,7 +43,7 @@
   ];
   fhir:RegulatedAuthorization.subject [
      fhir:index 0;
-     fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD>;
+     fhir:link <http://unicom-project.eu/fhir/MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD>;
      fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD" ]
   ];
   fhir:RegulatedAuthorization.type [
@@ -78,7 +78,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/RegulatedAuthorization/Agen-5mg-Tablet-EE-RA.ttl> a owl:Ontology;
+<http://unicom-project.eu/fhir/RegulatedAuthorization/Agen-5mg-Tablet-EE-RA.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

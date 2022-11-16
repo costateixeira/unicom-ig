@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/Ingredient/CanifugCremolum-100mg-Pessary-EE-I> a fhir:Ingredient;
+<http://unicom-project.eu/fhir/Ingredient/CanifugCremolum-100mg-Pessary-EE-I> a fhir:Ingredient;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "CanifugCremolum-100mg-Pessary-EE-I"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient";
+       fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient";
        fhir:index 0;
-       fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient>
+       fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient>
      ]
   ];
   fhir:DomainResource.text [
@@ -22,15 +22,15 @@
   fhir:Ingredient.status [ fhir:value "active"];
   fhir:Ingredient.for [
      fhir:index 0;
-     fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/MedicinalProductDefinition/CanifugCremolum-EE-MPD>;
+     fhir:link <http://unicom-project.eu/fhir/MedicinalProductDefinition/CanifugCremolum-EE-MPD>;
      fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/CanifugCremolum-EE-MPD" ]
   ], [
      fhir:index 1;
-     fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID>;
+     fhir:link <http://unicom-project.eu/fhir/ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID>;
      fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID" ]
   ], [
      fhir:index 2;
-     fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD>;
+     fhir:link <http://unicom-project.eu/fhir/AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD>;
      fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD" ]
   ];
   fhir:Ingredient.role [
@@ -73,7 +73,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/Ingredient/CanifugCremolum-100mg-Pessary-EE-I.ttl> a owl:Ontology;
+<http://unicom-project.eu/fhir/Ingredient/CanifugCremolum-100mg-Pessary-EE-I.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -3,7 +3,7 @@
   "id": "Agen-5mg-Tablet-EE-RA",
   "meta": {
     "profile": [
-      "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization"
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"
     ]
   },
   "text": {
@@ -16,7 +16,7 @@
       "id": "LOC-100002580-Zentiva",
       "meta": {
         "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization"
+          "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
         ]
       },
       "identifier": [
