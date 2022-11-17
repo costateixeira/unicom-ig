@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/Ingredient/Agen-5mg-Tablet-EE-I> a fhir:Ingredient;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/Ingredient/Agen-5mg-Tablet-EE-I> a fhir:Ingredient;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Agen-5mg-Tablet-EE-I"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient";
+       fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient";
        fhir:index 0;
-       fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient>
+       fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient>
      ]
   ];
   fhir:DomainResource.text [
@@ -22,15 +22,15 @@
   fhir:Ingredient.status [ fhir:value "active"];
   fhir:Ingredient.for [
      fhir:index 0;
-     fhir:link <http://unicom-project.eu/fhir/MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD>;
+     fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD>;
      fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD" ]
   ], [
      fhir:index 1;
-     fhir:link <http://unicom-project.eu/fhir/ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID>;
+     fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID>;
      fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID" ]
   ], [
      fhir:index 2;
-     fhir:link <http://unicom-project.eu/fhir/AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD>;
+     fhir:link <https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD>;
      fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD" ]
   ];
   fhir:Ingredient.role [
@@ -100,7 +100,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/Ingredient/Agen-5mg-Tablet-EE-I.ttl> a owl:Ontology;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/Ingredient/Agen-5mg-Tablet-EE-I.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

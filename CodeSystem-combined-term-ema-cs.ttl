@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/CodeSystem/combined-term-ema-cs> a fhir:CodeSystem;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/CodeSystem/combined-term-ema-cs> a fhir:CodeSystem;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "combined-term-ema-cs"];
   fhir:DomainResource.text [
@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "CombinedTerm_EMA_CS"];
   fhir:CodeSystem.title [ fhir:value "Combined Term EMA"];
   fhir:CodeSystem.status [ fhir:value "draft"];
-  fhir:CodeSystem.date [ fhir:value "2022-11-17T06:36:33+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-11-17T17:44:56+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "UNICOM"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -353,7 +353,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/CodeSystem/combined-term-ema-cs.ttl> a owl:Ontology;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/CodeSystem/combined-term-ema-cs.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
