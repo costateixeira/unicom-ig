@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="dc8f3446-1cea-4a2b-b3f3-41f4c9b59d46"/>
+  <id value="ab6176b6-a1fa-4672-b14d-5a7af32bf446"/>
   <meta>
-    <lastUpdated value="2022-11-14T19:25:53.941+00:00"/>
+    <lastUpdated value="2022-11-17T17:44:56.502+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -5148,7 +5148,7 @@
         <name value="AuthorisedDoseForm"/>
         <title value="Authorised Dose Form"/>
         <status value="active"/>
-        <date value="2022-11-14T19:25:53+00:00"/>
+        <date value="2022-11-17T17:44:56+00:00"/>
         <publisher value="UNICOM"/>
         <contact>
           <name value="UNICOM"/>
@@ -5159,8 +5159,8 @@
         </contact>
         <description value="Value set for authorised dose form. Combines 4 SPOR/EDQM lists: Pharmaceutical dose form, Combined pharmaceutical dose form, Combined term, Combination package."/>
         <expansion>
-          <identifier value="urn:uuid:3ef7221b-cc91-4e8e-8c49-f524c99f9717"/>
-          <timestamp value="2022-11-14T19:26:16+00:00"/>
+          <identifier value="urn:uuid:d2007b8e-5653-4b9b-8393-81fce199d70c"/>
+          <timestamp value="2022-11-17T17:45:22+00:00"/>
           <total value="637"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12499,7 +12499,7 @@
         <name value="AllUnits"/>
         <title value="All Units Combined"/>
         <status value="active"/>
-        <date value="2022-11-14T19:25:53+00:00"/>
+        <date value="2022-11-17T17:44:56+00:00"/>
         <publisher value="UNICOM"/>
         <contact>
           <name value="UNICOM"/>
@@ -12510,8 +12510,8 @@
         </contact>
         <description value="Value set for presentation strength denominator unit, combines units of measurement and units of presentation."/>
         <expansion>
-          <identifier value="urn:uuid:398b009e-76a5-4157-93e7-76488232c762"/>
-          <timestamp value="2022-11-14T19:26:31+00:00"/>
+          <identifier value="urn:uuid:34ae40f5-ea92-4ae9-8a9e-49780acc6138"/>
+          <timestamp value="2022-11-17T17:45:38+00:00"/>
           <total value="511"/>
           <parameter>
             <name value="excludeNested"/>

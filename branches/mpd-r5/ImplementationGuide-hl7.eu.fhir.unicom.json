@@ -10,7 +10,7 @@
   "name": "UnicomIG",
   "title": "UnicomIG",
   "status": "draft",
-  "date": "2022-11-14T19:25:53+00:00",
+  "date": "2022-11-17T17:44:56+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -699,6 +699,76 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/001-Agen5mg-EE-FullProduct"
+        },
+        "name": "001-Agen5mg-EE-FullProduct",
+        "description": "Agen 5mg Tablet. Estonia. Simple example of one full product as a bundle. Packages, PCIDs, differ by material.",
+        "isExample": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/002-Agen10mg-EE-FullProduct"
+        },
+        "name": "002-Agen10mg-EE-FullProduct",
+        "description": "Agen 10mg Tablet. Estonia. Simple example of one full product as a bundle. Packages, PCIDs, differ by material.",
+        "isExample": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/003-CefuroximStragen-1.5g-Powder-SE-FullProduct"
+        },
+        "name": "003-CefuroximStragen-1.5g-Powder-SE-FullProduct",
+        "description": "Cefuroxim Stragen 1.5g Powder for solution for injection/infusion. Sweden. Strength in grams; man. item quantity unknown; transformation before administration.",
+        "isExample": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/004-Cefuroxime-MIP-1500mg-EE-FullProduct"
+        },
+        "name": "004-Cefuroxime-MIP-1500mg-EE-FullProduct",
+        "description": "Cefuroxime MIP 1500mg Powder for solution for injection/infusion. Estonia. Strength in milligrams; man. item quantity unknown; transformation before administration.",
+        "isExample": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/005-CanifugCremolum-EE-FullProduct"
+        },
+        "name": "005-CanifugCremolum-EE-FullProduct",
+        "description": "Canifug Cremolum. Estonia. Combination package of clotrimazole 10mg/g creme and six 100mg pessaries.",
+        "isExample": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "AdministrableProductDefinition"
           }
         ],
@@ -1009,7 +1079,7 @@
           "reference": "ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID"
         },
         "name": "Cefuroxime-MIP-1500mg-EE-MID",
-        "description": "Manufactured Item: solution in vial",
+        "description": "Manufactured Item: powder in vial",
         "profile": [
           "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition",
           "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition"
