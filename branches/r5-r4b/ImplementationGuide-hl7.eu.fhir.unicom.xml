@@ -11,7 +11,7 @@
   <name value="UnicomIG"/>
   <title value="UnicomIG"/>
   <status value="draft"/>
-  <date value="2022-11-17T06:36:33+00:00"/>
+  <date value="2022-11-18T19:44:59+00:00"/>
   <publisher value="UNICOM"/>
   <contact>
     <name value="UNICOM"/>
@@ -683,12 +683,68 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/001-Agen5mg-EE-FullProduct"/>
+      </reference>
+      <name value="001-Agen5mg-EE-FullProduct"/>
+      <description value="Agen 5mg Tablet. Estonia. Simple example of one full product as a bundle. Packages, PCIDs, differ by material."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/002-Agen10mg-EE-FullProduct"/>
+      </reference>
+      <name value="002-Agen10mg-EE-FullProduct"/>
+      <description value="Agen 10mg Tablet. Estonia. Simple example of one full product as a bundle. Packages, PCIDs, differ by material."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/003-CefuroximStragen-1.5g-Powder-SE-FullProduct"/>
+      </reference>
+      <name value="003-CefuroximStragen-1.5g-Powder-SE-FullProduct"/>
+      <description value="Cefuroxim Stragen 1.5g Powder for solution for injection/infusion. Sweden. Strength in grams; man. item quantity unknown; transformation before administration."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/004-Cefuroxime-MIP-1500mg-EE-FullProduct"/>
+      </reference>
+      <name value="004-Cefuroxime-MIP-1500mg-EE-FullProduct"/>
+      <description value="Cefuroxime MIP 1500mg Powder for solution for injection/infusion. Estonia. Strength in milligrams; man. item quantity unknown; transformation before administration."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/005-CanifugCremolum-EE-FullProduct"/>
+      </reference>
+      <name value="005-CanifugCremolum-EE-FullProduct"/>
+      <description value="Canifug Cremolum. Estonia. Combination package of clotrimazole 10mg/g creme and six 100mg pessaries."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="AdministrableProductDefinition"/>
       </extension>
       <reference>
         <reference value="AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD"/>
       </reference>
       <name value="Agen-5mg-Tablet-EE-APD"/>
+      <description value="Administrable/Pharmaceutical Product Definition: simple tablets"/>
       <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"/>
     </resource>
     <resource>
@@ -699,6 +755,7 @@
         <reference value="Ingredient/Agen-5mg-Tablet-EE-I"/>
       </reference>
       <name value="Agen-5mg-Tablet-EE-I"/>
+      <description value="Ingredient: amlodipine besilate, presentation strength; amlodipine, reference strength"/>
       <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"/>
     </resource>
     <resource>
@@ -709,6 +766,7 @@
         <reference value="ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID"/>
       </reference>
       <name value="Agen-5mg-Tablet-EE-MID"/>
+      <description value="Manufactured Item: simple tablet"/>
       <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"/>
     </resource>
     <resource>
@@ -719,6 +777,7 @@
         <reference value="MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD"/>
       </reference>
       <name value="Agen-5mg-Tablet-EE-MPD"/>
+      <description value="Medicinal Product Definition: simple tablets"/>
       <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"/>
     </resource>
     <resource>
@@ -729,7 +788,7 @@
         <reference value="PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A"/>
       </reference>
       <name value="Agen-5mg-Tablet-EE-PPD-1109887-A"/>
-      <description value="Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged)."/>
+      <description value="Packaged Product Definition: simple tablets"/>
       <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
     </resource>
     <resource>
@@ -740,7 +799,7 @@
         <reference value="PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B"/>
       </reference>
       <name value="Agen-5mg-Tablet-EE-PPD-1109887-B"/>
-      <description value="Tabletid on pakendatud PVC/Al blistritesse (valged)."/>
+      <description value="Packaged Product Definition: simple tablets"/>
       <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
     </resource>
     <resource>
@@ -751,6 +810,7 @@
         <reference value="RegulatedAuthorization/Agen-5mg-Tablet-EE-RA"/>
       </reference>
       <name value="Agen-5mg-Tablet-EE-RA"/>
+      <description value="Marketing Authorisation"/>
       <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"/>
     </resource>
     <resource>
@@ -761,6 +821,7 @@
         <reference value="AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD"/>
       </reference>
       <name value="CanifugCremolum-100mg-Pessary-EE-APD"/>
+      <description value="Administrable/Pharmaceutical Product Definition: pessaries"/>
       <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"/>
     </resource>
     <resource>
@@ -771,6 +832,7 @@
         <reference value="Ingredient/CanifugCremolum-100mg-Pessary-EE-I"/>
       </reference>
       <name value="CanifugCremolum-100mg-Pessary-EE-I"/>
+      <description value="Ingredient: clotrimazole, presentation strength"/>
       <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"/>
     </resource>
     <resource>
@@ -781,6 +843,7 @@
         <reference value="ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID"/>
       </reference>
       <name value="CanifugCremolum-100mg-Pessary-EE-MID"/>
+      <description value="Manufactured Item: pessary"/>
       <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"/>
     </resource>
     <resource>
@@ -791,6 +854,7 @@
         <reference value="AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD"/>
       </reference>
       <name value="CanifugCremolum-10mg1g-Cream-EE-APD"/>
+      <description value="Administrable/Pharmaceutical Product Definition: creme"/>
       <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"/>
     </resource>
     <resource>
@@ -801,6 +865,7 @@
         <reference value="Ingredient/CanifugCremolum-10mg1g-Cream-EE-I"/>
       </reference>
       <name value="CanifugCremolum-10mg1g-Cream-EE-I"/>
+      <description value="Ingredient: clotrimazole, concentration strength"/>
       <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"/>
     </resource>
     <resource>
@@ -811,6 +876,7 @@
         <reference value="ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID"/>
       </reference>
       <name value="CanifugCremolum-10mg1g-Cream-EE-MID"/>
+      <description value="Manufactured Item: cream in tube"/>
       <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"/>
     </resource>
     <resource>
@@ -821,6 +887,7 @@
         <reference value="MedicinalProductDefinition/CanifugCremolum-EE-MPD"/>
       </reference>
       <name value="CanifugCremolum-EE-MPD"/>
+      <description value="Medicinal Product Definition: combination product of creme and pessaries"/>
       <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"/>
     </resource>
     <resource>
@@ -831,7 +898,7 @@
         <reference value="PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692"/>
       </reference>
       <name value="CanifugCremolum-EE-PPD-1033692"/>
-      <description value="Alu/PE-fooliumist valmistatud ribapakend, mis on asetatud väliskarpi. Kreem on alumiiniumtuubis ja omakorda pappkarbis. Kombineeritud pakend sisaldab: 6 vaginaalsuposiiti ja 20 g kreemi"/>
+      <description value="Packaged Product Definition: combination package of creme and pessaries"/>
       <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
     </resource>
     <resource>
@@ -842,6 +909,7 @@
         <reference value="RegulatedAuthorization/CanifugCremolum-EE-RA"/>
       </reference>
       <name value="CanifugCremolum-EE-RA"/>
+      <description value="Marketing Authorisation"/>
       <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"/>
     </resource>
     <resource>
@@ -852,6 +920,7 @@
         <reference value="AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD"/>
       </reference>
       <name value="Cefuroxime-MIP-1500mg-EE-APD"/>
+      <description value="Administrable/Pharmaceutical Product Definition: transformed"/>
       <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"/>
     </resource>
     <resource>
@@ -862,6 +931,7 @@
         <reference value="Ingredient/Cefuroxime-MIP-1500mg-EE-I"/>
       </reference>
       <name value="Cefuroxime-MIP-1500mg-EE-I"/>
+      <description value="Ingredient: cefuroxime sodium, presentation strength; cefuroxime sodium, reference strength"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -872,6 +942,7 @@
         <reference value="ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID"/>
       </reference>
       <name value="Cefuroxime-MIP-1500mg-EE-MID"/>
+      <description value="Manufactured Item: powder in vial"/>
       <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"/>
     </resource>
     <resource>
@@ -882,6 +953,7 @@
         <reference value="MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD"/>
       </reference>
       <name value="Cefuroxime-MIP-1500mg-EE-MPD"/>
+      <description value="Medicinal Product Definition: powder for solution"/>
       <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"/>
     </resource>
     <resource>
@@ -892,7 +964,7 @@
         <reference value="PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529940"/>
       </reference>
       <name value="Cefuroxime-MIP-1500mg-EE-PPD-1529940"/>
-      <description value="I tüüpi klaasist viaal, mis on suletud klorobutüülkummist korgi ning flip-off kattega, 1 viaal"/>
+      <description value="Packaged Product Definition: powder for solution in 1 vial"/>
       <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
     </resource>
     <resource>
@@ -903,7 +975,7 @@
         <reference value="PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962"/>
       </reference>
       <name value="Cefuroxime-MIP-1500mg-EE-PPD-1529962"/>
-      <description value="I tüüpi klaasist viaal, mis on suletud klorobutüülkummist korgi ning flip-off kattega, 10 viaali"/>
+      <description value="Packaged Product Definition: powder for solution in 10 vials"/>
       <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
     </resource>
     <resource>
@@ -914,6 +986,7 @@
         <reference value="RegulatedAuthorization/Cefuroxime-MIP-1500mg-EE-RA"/>
       </reference>
       <name value="Cefuroxime-MIP-1500mg-EE-RA"/>
+      <description value="Marketing Authorisation"/>
       <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"/>
     </resource>
     <resource>
@@ -924,6 +997,7 @@
         <reference value="Organization/LOC-100002580-Zentiva"/>
       </reference>
       <name value="LOC-100002580-Zentiva"/>
+      <description value="Marketing Authorisation Holder / Organisation"/>
       <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"/>
     </resource>
     <resource>
@@ -934,6 +1008,7 @@
         <reference value="Organization/LOC-100004795-Wolff-Arzneimittel"/>
       </reference>
       <name value="LOC-100004795-Wolff-Arzneimittel"/>
+      <description value="Marketing Authorisation Holder / Organisation"/>
       <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"/>
     </resource>
     <resource>
@@ -944,6 +1019,7 @@
         <reference value="Organization/LOC-100009199-Mip"/>
       </reference>
       <name value="LOC-100009199-Mip"/>
+      <description value="Marketing Authorisation Holder / Organisation"/>
       <exampleCanonical value="http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"/>
     </resource>
     <page>
