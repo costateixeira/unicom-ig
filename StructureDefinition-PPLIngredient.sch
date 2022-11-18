@@ -40,6 +40,12 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
+    <sch:title>Ingredient.contained</sch:title>
+    <sch:rule context="f:Ingredient/f:contained">
+      <sch:assert test="not(f:Citation|f:Evidence|f:EvidenceReport|f:EvidenceVariable|f:MedicinalProductDefinition|f:PackagedProductDefinition|f:AdministrableProductDefinition|f:Ingredient|f:ClinicalUseDefinition|f:RegulatedAuthorization|f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic) or not(parent::f:Citation|parent::f:Evidence|parent::f:EvidenceReport|parent::f:EvidenceVariable|parent::f:MedicinalProductDefinition|parent::f:PackagedProductDefinition|parent::f:AdministrableProductDefinition|parent::f:Ingredient|parent::f:ClinicalUseDefinition|parent::f:RegulatedAuthorization|parent::f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic)">Containing new R4B resources within R4 resources may cause interoperability issues if instances are shared with R4 systems (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
     <sch:title>Ingredient.extension</sch:title>
     <sch:rule context="f:Ingredient/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
@@ -84,12 +90,6 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>Ingredient.group</sch:title>
-    <sch:rule context="f:Ingredient/f:group">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
     <sch:title>Ingredient.allergenicIndicator</sch:title>
     <sch:rule context="f:Ingredient/f:allergenicIndicator">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
@@ -98,7 +98,7 @@
   <sch:pattern>
     <sch:title>Ingredient.manufacturer</sch:title>
     <sch:rule context="f:Ingredient/f:manufacturer">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -136,7 +136,7 @@
   <sch:pattern>
     <sch:title>Ingredient.substance</sch:title>
     <sch:rule context="f:Ingredient/f:substance">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -263,7 +263,7 @@
   <sch:pattern>
     <sch:title>Ingredient.substance.strength</sch:title>
     <sch:rule context="f:Ingredient/f:substance/f:strength">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -346,7 +346,6 @@
   <sch:pattern>
     <sch:title>f:Ingredient/f:substance/f:strength/f:presentation[x]/f:denominator 1</sch:title>
     <sch:rule context="f:Ingredient/f:substance/f:strength/f:presentation[x]/f:denominator">
-      <sch:assert test="count(f:comparator) &lt;= 0">comparator: maximum cardinality of 'comparator' is 0</sch:assert>
       <sch:assert test="count(f:system) &gt;= 1">system: minimum cardinality of 'system' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
@@ -465,7 +464,6 @@
   <sch:pattern>
     <sch:title>f:Ingredient/f:substance/f:strength/f:concentration[x]/f:denominator 1</sch:title>
     <sch:rule context="f:Ingredient/f:substance/f:strength/f:concentration[x]/f:denominator">
-      <sch:assert test="count(f:comparator) &lt;= 0">comparator: maximum cardinality of 'comparator' is 0</sch:assert>
       <sch:assert test="count(f:system) &gt;= 1">system: minimum cardinality of 'system' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
@@ -519,12 +517,6 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>Ingredient.substance.strength.basis</sch:title>
-    <sch:rule context="f:Ingredient/f:substance/f:strength/f:basis">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
     <sch:title>Ingredient.substance.strength.measurementPoint</sch:title>
     <sch:rule context="f:Ingredient/f:substance/f:strength/f:measurementPoint">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
@@ -545,7 +537,7 @@
   <sch:pattern>
     <sch:title>Ingredient.substance.strength.referenceStrength</sch:title>
     <sch:rule context="f:Ingredient/f:substance/f:strength/f:referenceStrength">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -724,12 +716,6 @@
     <sch:title>Ingredient.substance.strength.referenceStrength.strength[x].numerator.code 1</sch:title>
     <sch:rule context="f:Ingredient/f:substance/f:strength/f:referenceStrength/f:strength[x]/f:numerator/f:code">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>f:Ingredient/f:substance/f:strength/f:referenceStrength/f:strength[x]/f:denominator 1</sch:title>
-    <sch:rule context="f:Ingredient/f:substance/f:strength/f:referenceStrength/f:strength[x]/f:denominator">
-      <sch:assert test="count(f:comparator) &lt;= 0">comparator: maximum cardinality of 'comparator' is 0</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

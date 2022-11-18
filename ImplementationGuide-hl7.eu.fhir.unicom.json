@@ -3,14 +3,14 @@
   "id": "hl7.eu.fhir.unicom",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UnicomIG</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ImplementationGuide/hl7.eu.fhir.unicom</pre><div><p>UnicomIG</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UnicomIG</h2><p>The official URL for this implementation guide is: </p><pre>http://unicom-project.eu/fhir/ImplementationGuide/hl7.eu.fhir.unicom</pre><div><p>UnicomIG</p>\n</div></div>"
   },
-  "url": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ImplementationGuide/hl7.eu.fhir.unicom",
+  "url": "http://unicom-project.eu/fhir/ImplementationGuide/hl7.eu.fhir.unicom",
   "version": "0.1.0",
   "name": "UnicomIG",
   "title": "UnicomIG",
   "status": "draft",
-  "date": "2022-11-17T17:44:56+00:00",
+  "date": "2022-11-18T19:44:59+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -27,7 +27,7 @@
   "packageId": "hl7.eu.fhir.unicom",
   "license": "CC0-1.0",
   "fhirVersion": [
-    "5.0.0-ballot"
+    "4.3.0"
   ],
   "dependsOn": [
     {
@@ -39,7 +39,7 @@
         }
       ],
       "uri": "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
-      "packageId": "hl7.terminology.r5",
+      "packageId": "hl7.terminology.r4",
       "version": "5.0.0"
     }
   ],
@@ -170,7 +170,319 @@
           },
           {
             "url": "value",
-            "valueString": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/history.html"
+            "valueString": "http://unicom-project.eu/fhir/history.html"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "template-html"
+          },
+          {
+            "url": "value",
+            "valueString": "template-page.html"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "template-md"
+          },
+          {
+            "url": "value",
+            "valueString": "template-page-md.html"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-contact"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-context"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-copyright"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-jurisdiction"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-license"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-publisher"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-version"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "active-tables"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "fmm-definition"
+          },
+          {
+            "url": "value",
+            "valueString": "http://hl7.org/fhir/versions.html#maturity"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "propagate-status"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "excludelogbinaryformat"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "tabbed-snapshots"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "copyrightyear"
+          },
+          {
+            "url": "value",
+            "valueString": "2022+"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "releaselabel"
+          },
+          {
+            "url": "value",
+            "valueString": "ci-build"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "autoload-resources"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-liquid"
+          },
+          {
+            "url": "value",
+            "valueString": "template/liquid"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-liquid"
+          },
+          {
+            "url": "value",
+            "valueString": "input/liquid"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-qa"
+          },
+          {
+            "url": "value",
+            "valueString": "temp/qa"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-temp"
+          },
+          {
+            "url": "value",
+            "valueString": "temp/pages"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-output"
+          },
+          {
+            "url": "value",
+            "valueString": "output"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-suppressed-warnings"
+          },
+          {
+            "url": "value",
+            "valueString": "input/ignoreWarnings.txt"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-history"
+          },
+          {
+            "url": "value",
+            "valueString": "http://unicom-project.eu/fhir/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -371,7 +683,7 @@
         },
         "name": "CD",
         "description": "Concept descriptor",
-        "isExample": false
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -385,7 +697,7 @@
         },
         "name": "DT",
         "description": "Date",
-        "isExample": false
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -399,7 +711,7 @@
         },
         "name": "II",
         "description": "Instance Identifier",
-        "isExample": false
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -413,7 +725,7 @@
         },
         "name": "PPL Administrable Product profile",
         "description": "Administrable product profile defines the ISO IDMP Pharmaceutical Product concept",
-        "isExample": false
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -427,7 +739,7 @@
         },
         "name": "PPL Ingredient profile",
         "description": "Ingredient for the medicinal product, pharmaceutical product and/or manufactured item",
-        "isExample": false
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -441,7 +753,7 @@
         },
         "name": "PPL Manufactured Item profile",
         "description": "Manufactured item is the countable element inside the package",
-        "isExample": false
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -455,7 +767,7 @@
         },
         "name": "PPL Medicinal Product profile",
         "description": "Medicinal Product as defined in ISO IDMP",
-        "isExample": false
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -469,7 +781,7 @@
         },
         "name": "PPL Organization",
         "description": "Organization",
-        "isExample": false
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -483,7 +795,7 @@
         },
         "name": "PPL Packaged Product profile",
         "description": "Packaged Product",
-        "isExample": false
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -497,7 +809,7 @@
         },
         "name": "PPL Marketing Authorisation profile",
         "description": "Regulated Authorization profile defines the Marketing Authorisation on product or package level",
-        "isExample": false
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -511,7 +823,7 @@
         },
         "name": "QT",
         "description": "Quantity",
-        "isExample": false
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -525,7 +837,7 @@
         },
         "name": "ST",
         "description": "String",
-        "isExample": false
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -539,7 +851,7 @@
         },
         "name": "TS",
         "description": "Time stamp",
-        "isExample": false
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -553,7 +865,7 @@
         },
         "name": "class",
         "description": "Class of data elements",
-        "isExample": false
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -567,7 +879,7 @@
         },
         "name": "untyped",
         "description": "No data type defined",
-        "isExample": false
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -581,7 +893,7 @@
         },
         "name": "Medicinal Product",
         "description": "Medicinal Product",
-        "isExample": false
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -595,7 +907,7 @@
         },
         "name": "All Units Combined",
         "description": "Value set for presentation strength denominator unit, combines units of measurement and units of presentation.",
-        "isExample": false
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -609,7 +921,7 @@
         },
         "name": "Authorised Dose Form",
         "description": "Value set for authorised dose form. Combines 4 SPOR/EDQM lists: Pharmaceutical dose form, Combined pharmaceutical dose form, Combined term, Combination package.",
-        "isExample": false
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -623,7 +935,7 @@
         },
         "name": "Combination Package EMA",
         "description": "Dose forms for combination packages. Based on EDQM. Re-coded with RMS codes. Only used for authorised dose form.",
-        "isExample": false
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -637,7 +949,7 @@
         },
         "name": "Combined Pharmaceutical Dose Form EMA",
         "description": "Combined Pharmaceutical Dose Form. Based on EDQM. Re-coded with RMS codes. Used only for authorised dose form.",
-        "isExample": false
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -651,7 +963,7 @@
         },
         "name": "Combined Term EMA",
         "description": "Combined Term. Based on EDQM. Re-coded with RMS codes. Only used for authorised dose form.",
-        "isExample": false
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -665,7 +977,7 @@
         },
         "name": "Pharmaceutical Dose Form EMA",
         "description": "Pharmaceutical dose form. Based on EDQM, re-coded with RMS codes.",
-        "isExample": false
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -679,7 +991,7 @@
         },
         "name": "Unit of Measurement EMA",
         "description": "Unit of Measurement. Based on UCUM. Re-coded with RMS codes.",
-        "isExample": false
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -693,7 +1005,7 @@
         },
         "name": "Unit of Presentation EMA",
         "description": "Unit of presentation list from EMA SPOR. List id 200000000014. Content based on EDQM, re-coded with RMS codes.",
-        "isExample": false
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -707,7 +1019,7 @@
         },
         "name": "001-Agen5mg-EE-FullProduct",
         "description": "Agen 5mg Tablet. Estonia. Simple example of one full product as a bundle. Packages, PCIDs, differ by material.",
-        "isExample": true
+        "exampleBoolean": true
       },
       {
         "extension": [
@@ -721,7 +1033,7 @@
         },
         "name": "002-Agen10mg-EE-FullProduct",
         "description": "Agen 10mg Tablet. Estonia. Simple example of one full product as a bundle. Packages, PCIDs, differ by material.",
-        "isExample": true
+        "exampleBoolean": true
       },
       {
         "extension": [
@@ -735,7 +1047,7 @@
         },
         "name": "003-CefuroximStragen-1.5g-Powder-SE-FullProduct",
         "description": "Cefuroxim Stragen 1.5g Powder for solution for injection/infusion. Sweden. Strength in grams; man. item quantity unknown; transformation before administration.",
-        "isExample": true
+        "exampleBoolean": true
       },
       {
         "extension": [
@@ -749,7 +1061,7 @@
         },
         "name": "004-Cefuroxime-MIP-1500mg-EE-FullProduct",
         "description": "Cefuroxime MIP 1500mg Powder for solution for injection/infusion. Estonia. Strength in milligrams; man. item quantity unknown; transformation before administration.",
-        "isExample": true
+        "exampleBoolean": true
       },
       {
         "extension": [
@@ -763,7 +1075,7 @@
         },
         "name": "005-CanifugCremolum-EE-FullProduct",
         "description": "Canifug Cremolum. Estonia. Combination package of clotrimazole 10mg/g creme and six 100mg pessaries.",
-        "isExample": true
+        "exampleBoolean": true
       },
       {
         "extension": [
@@ -777,10 +1089,7 @@
         },
         "name": "Agen-5mg-Tablet-EE-APD",
         "description": "Administrable/Pharmaceutical Product Definition: simple tablets",
-        "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition",
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition"
-        ]
+        "exampleCanonical": "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
       },
       {
         "extension": [
@@ -794,10 +1103,7 @@
         },
         "name": "Agen-5mg-Tablet-EE-I",
         "description": "Ingredient: amlodipine besilate, presentation strength; amlodipine, reference strength",
-        "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient",
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient"
-        ]
+        "exampleCanonical": "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
       },
       {
         "extension": [
@@ -811,10 +1117,7 @@
         },
         "name": "Agen-5mg-Tablet-EE-MID",
         "description": "Manufactured Item: simple tablet",
-        "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition",
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition"
-        ]
+        "exampleCanonical": "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
       },
       {
         "extension": [
@@ -828,10 +1131,7 @@
         },
         "name": "Agen-5mg-Tablet-EE-MPD",
         "description": "Medicinal Product Definition: simple tablets",
-        "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition",
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition"
-        ]
+        "exampleCanonical": "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"
       },
       {
         "extension": [
@@ -845,10 +1145,7 @@
         },
         "name": "Agen-5mg-Tablet-EE-PPD-1109887-A",
         "description": "Packaged Product Definition: simple tablets",
-        "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition",
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition"
-        ]
+        "exampleCanonical": "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
       },
       {
         "extension": [
@@ -862,10 +1159,7 @@
         },
         "name": "Agen-5mg-Tablet-EE-PPD-1109887-B",
         "description": "Packaged Product Definition: simple tablets",
-        "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition",
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition"
-        ]
+        "exampleCanonical": "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
       },
       {
         "extension": [
@@ -879,10 +1173,7 @@
         },
         "name": "Agen-5mg-Tablet-EE-RA",
         "description": "Marketing Authorisation",
-        "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization",
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization"
-        ]
+        "exampleCanonical": "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"
       },
       {
         "extension": [
@@ -896,10 +1187,7 @@
         },
         "name": "CanifugCremolum-100mg-Pessary-EE-APD",
         "description": "Administrable/Pharmaceutical Product Definition: pessaries",
-        "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition",
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition"
-        ]
+        "exampleCanonical": "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
       },
       {
         "extension": [
@@ -913,10 +1201,7 @@
         },
         "name": "CanifugCremolum-100mg-Pessary-EE-I",
         "description": "Ingredient: clotrimazole, presentation strength",
-        "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient",
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient"
-        ]
+        "exampleCanonical": "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
       },
       {
         "extension": [
@@ -930,10 +1215,7 @@
         },
         "name": "CanifugCremolum-100mg-Pessary-EE-MID",
         "description": "Manufactured Item: pessary",
-        "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition",
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition"
-        ]
+        "exampleCanonical": "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
       },
       {
         "extension": [
@@ -947,10 +1229,7 @@
         },
         "name": "CanifugCremolum-10mg1g-Cream-EE-APD",
         "description": "Administrable/Pharmaceutical Product Definition: creme",
-        "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition",
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition"
-        ]
+        "exampleCanonical": "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
       },
       {
         "extension": [
@@ -964,10 +1243,7 @@
         },
         "name": "CanifugCremolum-10mg1g-Cream-EE-I",
         "description": "Ingredient: clotrimazole, concentration strength",
-        "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient",
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLIngredient"
-        ]
+        "exampleCanonical": "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
       },
       {
         "extension": [
@@ -981,10 +1257,7 @@
         },
         "name": "CanifugCremolum-10mg1g-Cream-EE-MID",
         "description": "Manufactured Item: cream in tube",
-        "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition",
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition"
-        ]
+        "exampleCanonical": "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
       },
       {
         "extension": [
@@ -998,10 +1271,7 @@
         },
         "name": "CanifugCremolum-EE-MPD",
         "description": "Medicinal Product Definition: combination product of creme and pessaries",
-        "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition",
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition"
-        ]
+        "exampleCanonical": "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"
       },
       {
         "extension": [
@@ -1015,10 +1285,7 @@
         },
         "name": "CanifugCremolum-EE-PPD-1033692",
         "description": "Packaged Product Definition: combination package of creme and pessaries",
-        "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition",
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition"
-        ]
+        "exampleCanonical": "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
       },
       {
         "extension": [
@@ -1032,10 +1299,7 @@
         },
         "name": "CanifugCremolum-EE-RA",
         "description": "Marketing Authorisation",
-        "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization",
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization"
-        ]
+        "exampleCanonical": "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"
       },
       {
         "extension": [
@@ -1049,10 +1313,7 @@
         },
         "name": "Cefuroxime-MIP-1500mg-EE-APD",
         "description": "Administrable/Pharmaceutical Product Definition: transformed",
-        "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition",
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition"
-        ]
+        "exampleCanonical": "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
       },
       {
         "extension": [
@@ -1066,7 +1327,7 @@
         },
         "name": "Cefuroxime-MIP-1500mg-EE-I",
         "description": "Ingredient: cefuroxime sodium, presentation strength; cefuroxime sodium, reference strength",
-        "isExample": true
+        "exampleBoolean": true
       },
       {
         "extension": [
@@ -1080,10 +1341,7 @@
         },
         "name": "Cefuroxime-MIP-1500mg-EE-MID",
         "description": "Manufactured Item: powder in vial",
-        "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition",
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition"
-        ]
+        "exampleCanonical": "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
       },
       {
         "extension": [
@@ -1097,10 +1355,7 @@
         },
         "name": "Cefuroxime-MIP-1500mg-EE-MPD",
         "description": "Medicinal Product Definition: powder for solution",
-        "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition",
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition"
-        ]
+        "exampleCanonical": "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"
       },
       {
         "extension": [
@@ -1114,10 +1369,7 @@
         },
         "name": "Cefuroxime-MIP-1500mg-EE-PPD-1529940",
         "description": "Packaged Product Definition: powder for solution in 1 vial",
-        "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition",
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition"
-        ]
+        "exampleCanonical": "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
       },
       {
         "extension": [
@@ -1131,10 +1383,7 @@
         },
         "name": "Cefuroxime-MIP-1500mg-EE-PPD-1529962",
         "description": "Packaged Product Definition: powder for solution in 10 vials",
-        "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition",
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition"
-        ]
+        "exampleCanonical": "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
       },
       {
         "extension": [
@@ -1148,10 +1397,7 @@
         },
         "name": "Cefuroxime-MIP-1500mg-EE-RA",
         "description": "Marketing Authorisation",
-        "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization",
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization"
-        ]
+        "exampleCanonical": "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"
       },
       {
         "extension": [
@@ -1165,10 +1411,7 @@
         },
         "name": "LOC-100002580-Zentiva",
         "description": "Marketing Authorisation Holder / Organisation",
-        "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization",
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization"
-        ]
+        "exampleCanonical": "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
       },
       {
         "extension": [
@@ -1182,10 +1425,7 @@
         },
         "name": "LOC-100004795-Wolff-Arzneimittel",
         "description": "Marketing Authorisation Holder / Organisation",
-        "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization",
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization"
-        ]
+        "exampleCanonical": "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
       },
       {
         "extension": [
@@ -1199,21 +1439,16 @@
         },
         "name": "LOC-100009199-Mip",
         "description": "Marketing Authorisation Holder / Organisation",
-        "profile": [
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization",
-          "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLOrganization"
-        ]
+        "exampleCanonical": "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
       }
     ],
     "page": {
-      "sourceUrl": "toc.html",
-      "name": "toc.html",
+      "nameUrl": "toc.html",
       "title": "Table of Contents",
       "generation": "html",
       "page": [
         {
-          "sourceUrl": "index.html",
-          "name": "index.html",
+          "nameUrl": "index.html",
           "title": "Home",
           "generation": "html"
         }
@@ -1221,277 +1456,64 @@
     },
     "parameter": [
       {
-        "code": {
-          "system": "http://hl7.org/fhir/guide-parameter-code",
-          "code": "path-resource"
-        },
+        "code": "path-resource",
         "value": "input/capabilities"
       },
       {
-        "code": {
-          "system": "http://hl7.org/fhir/guide-parameter-code",
-          "code": "path-resource"
-        },
+        "code": "path-resource",
         "value": "input/examples"
       },
       {
-        "code": {
-          "system": "http://hl7.org/fhir/guide-parameter-code",
-          "code": "path-resource"
-        },
+        "code": "path-resource",
         "value": "input/extensions"
       },
       {
-        "code": {
-          "system": "http://hl7.org/fhir/guide-parameter-code",
-          "code": "path-resource"
-        },
+        "code": "path-resource",
         "value": "input/models"
       },
       {
-        "code": {
-          "system": "http://hl7.org/fhir/guide-parameter-code",
-          "code": "path-resource"
-        },
+        "code": "path-resource",
         "value": "input/operations"
       },
       {
-        "code": {
-          "system": "http://hl7.org/fhir/guide-parameter-code",
-          "code": "path-resource"
-        },
+        "code": "path-resource",
         "value": "input/profiles"
       },
       {
-        "code": {
-          "system": "http://hl7.org/fhir/guide-parameter-code",
-          "code": "path-resource"
-        },
+        "code": "path-resource",
         "value": "input/resources"
       },
       {
-        "code": {
-          "system": "http://hl7.org/fhir/guide-parameter-code",
-          "code": "path-resource"
-        },
+        "code": "path-resource",
         "value": "input/vocabulary"
       },
       {
-        "code": {
-          "system": "http://hl7.org/fhir/guide-parameter-code",
-          "code": "path-resource"
-        },
+        "code": "path-resource",
         "value": "input/maps"
       },
       {
-        "code": {
-          "system": "http://hl7.org/fhir/guide-parameter-code",
-          "code": "path-resource"
-        },
+        "code": "path-resource",
         "value": "input/testing"
       },
       {
-        "code": {
-          "system": "http://hl7.org/fhir/guide-parameter-code",
-          "code": "path-resource"
-        },
+        "code": "path-resource",
         "value": "input/history"
       },
       {
-        "code": {
-          "system": "http://hl7.org/fhir/guide-parameter-code",
-          "code": "path-resource"
-        },
+        "code": "path-resource",
         "value": "fsh-generated/resources"
       },
       {
-        "code": {
-          "system": "http://hl7.org/fhir/guide-parameter-code",
-          "code": "path-pages"
-        },
+        "code": "path-pages",
         "value": "template/config"
       },
       {
-        "code": {
-          "system": "http://hl7.org/fhir/guide-parameter-code",
-          "code": "path-pages"
-        },
+        "code": "path-pages",
         "value": "input/images"
       },
       {
-        "code": {
-          "system": "http://hl7.org/fhir/guide-parameter-code",
-          "code": "path-tx-cache"
-        },
+        "code": "path-tx-cache",
         "value": "input-cache/txcache"
-      },
-      {
-        "code": {
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-          "code": "copyrightyear"
-        },
-        "value": "2022+"
-      },
-      {
-        "code": {
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-          "code": "releaselabel"
-        },
-        "value": "ci-build"
-      },
-      {
-        "code": {
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-          "code": "autoload-resources"
-        },
-        "value": "true"
-      },
-      {
-        "code": {
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-          "code": "path-liquid"
-        },
-        "value": "template/liquid"
-      },
-      {
-        "code": {
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-          "code": "path-liquid"
-        },
-        "value": "input/liquid"
-      },
-      {
-        "code": {
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-          "code": "path-qa"
-        },
-        "value": "temp/qa"
-      },
-      {
-        "code": {
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-          "code": "path-temp"
-        },
-        "value": "temp/pages"
-      },
-      {
-        "code": {
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-          "code": "path-output"
-        },
-        "value": "output"
-      },
-      {
-        "code": {
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-          "code": "path-suppressed-warnings"
-        },
-        "value": "input/ignoreWarnings.txt"
-      },
-      {
-        "code": {
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-          "code": "path-history"
-        },
-        "value": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/history.html"
-      },
-      {
-        "code": {
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-          "code": "template-html"
-        },
-        "value": "template-page.html"
-      },
-      {
-        "code": {
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-          "code": "template-md"
-        },
-        "value": "template-page-md.html"
-      },
-      {
-        "code": {
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-          "code": "apply-contact"
-        },
-        "value": "true"
-      },
-      {
-        "code": {
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-          "code": "apply-context"
-        },
-        "value": "true"
-      },
-      {
-        "code": {
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-          "code": "apply-copyright"
-        },
-        "value": "true"
-      },
-      {
-        "code": {
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-          "code": "apply-jurisdiction"
-        },
-        "value": "true"
-      },
-      {
-        "code": {
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-          "code": "apply-license"
-        },
-        "value": "true"
-      },
-      {
-        "code": {
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-          "code": "apply-publisher"
-        },
-        "value": "true"
-      },
-      {
-        "code": {
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-          "code": "apply-version"
-        },
-        "value": "true"
-      },
-      {
-        "code": {
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-          "code": "active-tables"
-        },
-        "value": "true"
-      },
-      {
-        "code": {
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-          "code": "fmm-definition"
-        },
-        "value": "http://hl7.org/fhir/versions.html#maturity"
-      },
-      {
-        "code": {
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-          "code": "propagate-status"
-        },
-        "value": "true"
-      },
-      {
-        "code": {
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-          "code": "excludelogbinaryformat"
-        },
-        "value": "true"
-      },
-      {
-        "code": {
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-          "code": "tabbed-snapshots"
-        },
-        "value": "true"
       }
     ]
   }

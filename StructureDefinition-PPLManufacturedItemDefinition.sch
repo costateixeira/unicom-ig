@@ -40,6 +40,12 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
+    <sch:title>ManufacturedItemDefinition.contained</sch:title>
+    <sch:rule context="f:ManufacturedItemDefinition/f:contained">
+      <sch:assert test="not(f:Citation|f:Evidence|f:EvidenceReport|f:EvidenceVariable|f:MedicinalProductDefinition|f:PackagedProductDefinition|f:AdministrableProductDefinition|f:Ingredient|f:ClinicalUseDefinition|f:RegulatedAuthorization|f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic) or not(parent::f:Citation|parent::f:Evidence|parent::f:EvidenceReport|parent::f:EvidenceVariable|parent::f:MedicinalProductDefinition|parent::f:PackagedProductDefinition|parent::f:AdministrableProductDefinition|parent::f:Ingredient|parent::f:ClinicalUseDefinition|parent::f:RegulatedAuthorization|parent::f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic)">Containing new R4B resources within R4 resources may cause interoperability issues if instances are shared with R4 systems (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
     <sch:title>ManufacturedItemDefinition.extension</sch:title>
     <sch:rule context="f:ManufacturedItemDefinition/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
@@ -62,12 +68,6 @@
   <sch:pattern>
     <sch:title>ManufacturedItemDefinition.status</sch:title>
     <sch:rule context="f:ManufacturedItemDefinition/f:status">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>ManufacturedItemDefinition.name</sch:title>
-    <sch:rule context="f:ManufacturedItemDefinition/f:name">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
@@ -238,12 +238,6 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>ManufacturedItemDefinition.marketingStatus</sch:title>
-    <sch:rule context="f:ManufacturedItemDefinition/f:marketingStatus">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
     <sch:title>ManufacturedItemDefinition.ingredient</sch:title>
     <sch:rule context="f:ManufacturedItemDefinition/f:ingredient">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
@@ -252,7 +246,7 @@
   <sch:pattern>
     <sch:title>ManufacturedItemDefinition.property</sch:title>
     <sch:rule context="f:ManufacturedItemDefinition/f:property">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -278,100 +272,6 @@
   <sch:pattern>
     <sch:title>ManufacturedItemDefinition.property.value[x] 1</sch:title>
     <sch:rule context="f:ManufacturedItemDefinition/f:property/f:value[x]">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>ManufacturedItemDefinition.component</sch:title>
-    <sch:rule context="f:ManufacturedItemDefinition/f:component">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>ManufacturedItemDefinition.component.extension</sch:title>
-    <sch:rule context="f:ManufacturedItemDefinition/f:component/f:extension">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>ManufacturedItemDefinition.component.modifierExtension</sch:title>
-    <sch:rule context="f:ManufacturedItemDefinition/f:component/f:modifierExtension">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>ManufacturedItemDefinition.component.type</sch:title>
-    <sch:rule context="f:ManufacturedItemDefinition/f:component/f:type">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>ManufacturedItemDefinition.component.function</sch:title>
-    <sch:rule context="f:ManufacturedItemDefinition/f:component/f:function">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>ManufacturedItemDefinition.component.amount</sch:title>
-    <sch:rule context="f:ManufacturedItemDefinition/f:component/f:amount">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>ManufacturedItemDefinition.component.constituent</sch:title>
-    <sch:rule context="f:ManufacturedItemDefinition/f:component/f:constituent">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>ManufacturedItemDefinition.component.constituent.extension</sch:title>
-    <sch:rule context="f:ManufacturedItemDefinition/f:component/f:constituent/f:extension">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>ManufacturedItemDefinition.component.constituent.modifierExtension</sch:title>
-    <sch:rule context="f:ManufacturedItemDefinition/f:component/f:constituent/f:modifierExtension">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>ManufacturedItemDefinition.component.constituent.amount</sch:title>
-    <sch:rule context="f:ManufacturedItemDefinition/f:component/f:constituent/f:amount">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>ManufacturedItemDefinition.component.constituent.location</sch:title>
-    <sch:rule context="f:ManufacturedItemDefinition/f:component/f:constituent/f:location">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>ManufacturedItemDefinition.component.constituent.function</sch:title>
-    <sch:rule context="f:ManufacturedItemDefinition/f:component/f:constituent/f:function">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>ManufacturedItemDefinition.component.constituent.locationForIngredient</sch:title>
-    <sch:rule context="f:ManufacturedItemDefinition/f:component/f:constituent/f:locationForIngredient">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>ManufacturedItemDefinition.component.property</sch:title>
-    <sch:rule context="f:ManufacturedItemDefinition/f:component/f:property">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>ManufacturedItemDefinition.component.component</sch:title>
-    <sch:rule context="f:ManufacturedItemDefinition/f:component/f:component">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>

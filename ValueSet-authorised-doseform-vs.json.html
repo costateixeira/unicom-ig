@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.EU.FHIR.UNICOM\Authorised Dose Form - JSON Representation - FHIR v5.0.0-ballot</title>
+    <title>HL7.EU.FHIR.UNICOM\Authorised Dose Form - JSON Representation - FHIR v4.3.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -131,7 +131,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 8" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">UnicomIG - Local Development build (v0.1.0). See the <a href="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">UnicomIG - Local Development build (v0.1.0). See the <a href="http://unicom-project.eu/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -186,7 +186,7 @@
         
           Active
           
-            as of 2022-11-17
+            as of 2022-11-18
           
         
       </td>
@@ -204,44 +204,44 @@
 
   <pre class="json" style="white-space: pre; overflow: hidden"><code class="language-json">
 {
-  "<a href="http://build.fhir.org/valueset.html#ValueSet">resourceType</a>" : "ValueSet",
-  "<a href="http://build.fhir.org/valueset.html#ValueSet.id">id</a>" : "authorised-doseform-vs",
-  "<a href="http://build.fhir.org/valueset.html#ValueSet.text">text</a>" : {
-    "<a href="http://build.fhir.org/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://build.fhir.org/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;This value set includes codes based on the following rules:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Include all codes defined in &lt;a href=\&quot;CodeSystem-pharmaceutical-dose-form-ema-cs.html\&quot;&gt;&lt;code&gt;http://spor.ema.europa.eu/v1/lists/200000000004&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Include all codes defined in &lt;a href=\&quot;CodeSystem-combined-pharmaceutical-dose-form-ema-cs.html\&quot;&gt;&lt;code&gt;http://spor.ema.europa.eu/v1/lists/200000000006&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Include all codes defined in &lt;a href=\&quot;CodeSystem-combined-term-ema-cs.html\&quot;&gt;&lt;code&gt;http://spor.ema.europa.eu/v1/lists/200000000007&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Include all codes defined in &lt;a href=\&quot;CodeSystem-combination-package-ema-cs.html\&quot;&gt;&lt;code&gt;http://spor.ema.europa.eu/v1/lists/200000000008&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+  "<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet">resourceType</a>" : "ValueSet",
+  "<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.id">id</a>" : "authorised-doseform-vs",
+  "<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4B/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4B/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;This value set includes codes based on the following rules:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Include all codes defined in &lt;a href=\&quot;CodeSystem-pharmaceutical-dose-form-ema-cs.html\&quot;&gt;&lt;code&gt;http://spor.ema.europa.eu/v1/lists/200000000004&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Include all codes defined in &lt;a href=\&quot;CodeSystem-combined-pharmaceutical-dose-form-ema-cs.html\&quot;&gt;&lt;code&gt;http://spor.ema.europa.eu/v1/lists/200000000006&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Include all codes defined in &lt;a href=\&quot;CodeSystem-combined-term-ema-cs.html\&quot;&gt;&lt;code&gt;http://spor.ema.europa.eu/v1/lists/200000000007&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Include all codes defined in &lt;a href=\&quot;CodeSystem-combination-package-ema-cs.html\&quot;&gt;&lt;code&gt;http://spor.ema.europa.eu/v1/lists/200000000008&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
   },
-  "<a href="http://build.fhir.org/valueset.html#ValueSet.url">url</a>" : "https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/ValueSet/authorised-doseform-vs",
-  "<a href="http://build.fhir.org/valueset.html#ValueSet.version">version</a>" : "0.1.0",
-  "<a href="http://build.fhir.org/valueset.html#ValueSet.name">name</a>" : "AuthorisedDoseForm",
-  "<a href="http://build.fhir.org/valueset.html#ValueSet.title">title</a>" : "Authorised Dose Form",
-  "<a href="http://build.fhir.org/valueset.html#ValueSet.status">status</a>" : "active",
-  "<a href="http://build.fhir.org/valueset.html#ValueSet.date">date</a>" : "2022-11-17T17:44:56+00:00",
-  "<a href="http://build.fhir.org/valueset.html#ValueSet.publisher">publisher</a>" : "UNICOM",
-  "<a href="http://build.fhir.org/valueset.html#ValueSet.contact">contact</a>" : [
+  "<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.url">url</a>" : "http://unicom-project.eu/fhir/ValueSet/authorised-doseform-vs",
+  "<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.version">version</a>" : "0.1.0",
+  "<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.name">name</a>" : "AuthorisedDoseForm",
+  "<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.title">title</a>" : "Authorised Dose Form",
+  "<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.status">status</a>" : "active",
+  "<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.date">date</a>" : "2022-11-18T19:44:59+00:00",
+  "<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.publisher">publisher</a>" : "UNICOM",
+  "<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.contact">contact</a>" : [
     {
-      "<a href="http://build.fhir.org/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "UNICOM",
-      "<a href="http://build.fhir.org/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+      "<a href="http://hl7.org/fhir/R4B/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "UNICOM",
+      "<a href="http://hl7.org/fhir/R4B/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
         {
-          "<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
-          "<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "http://medigree.net"
+          "<a href="http://hl7.org/fhir/R4B/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://hl7.org/fhir/R4B/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "http://medigree.net"
         }
       ]
     }
   ],
-  "<a href="http://build.fhir.org/valueset.html#ValueSet.description">description</a>" : "Value set for authorised dose form. Combines 4 SPOR/EDQM lists: Pharmaceutical dose form, Combined pharmaceutical dose form, Combined term, Combination package.",
-  "<a href="http://build.fhir.org/valueset.html#ValueSet.compose">compose</a>" : {
-    "<a href="http://build.fhir.org/valueset.html#ValueSet.compose.include">include</a>" : [
+  "<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.description">description</a>" : "Value set for authorised dose form. Combines 4 SPOR/EDQM lists: Pharmaceutical dose form, Combined pharmaceutical dose form, Combined term, Combination package.",
+  "<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.compose">compose</a>" : {
+    "<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.compose.include">include</a>" : [
       {
-        "<a href="http://build.fhir.org/valueset.html#ValueSet.compose.include.system">system</a>" : "http://spor.ema.europa.eu/v1/lists/200000000004"
+        "<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.compose.include.system">system</a>" : "http://spor.ema.europa.eu/v1/lists/200000000004"
       },
       {
-        "<a href="http://build.fhir.org/valueset.html#ValueSet.compose.include.system">system</a>" : "http://spor.ema.europa.eu/v1/lists/200000000006"
+        "<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.compose.include.system">system</a>" : "http://spor.ema.europa.eu/v1/lists/200000000006"
       },
       {
-        "<a href="http://build.fhir.org/valueset.html#ValueSet.compose.include.system">system</a>" : "http://spor.ema.europa.eu/v1/lists/200000000007"
+        "<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.compose.include.system">system</a>" : "http://spor.ema.europa.eu/v1/lists/200000000007"
       },
       {
-        "<a href="http://build.fhir.org/valueset.html#ValueSet.compose.include.system">system</a>" : "http://spor.ema.europa.eu/v1/lists/200000000008"
+        "<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.compose.include.system">system</a>" : "http://spor.ema.europa.eu/v1/lists/200000000008"
       }
     ]
   }
@@ -275,7 +275,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://medigree.net">UNICOM</a>.  Package hl7.eu.fhir.unicom#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 5.0.0-ballot</a>. Generated <span title="Thu, Nov 17, 2022 17:44+0000">2022-11-17</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://medigree.net">UNICOM</a>.  Package hl7.eu.fhir.unicom#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 4.3.0</a>. Generated <span title="Fri, Nov 18, 2022 19:44+0000">2022-11-18</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <div style="color: #33333" >
@@ -284,7 +284,7 @@
                  <a style="color: #81BEF7" href="qa.html">QA Report</a> 
 				 
 <!--
-                 <a style="color: #81BEF7" target="_blank" href="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+                 <a style="color: #81BEF7" target="_blank" href="http://unicom-project.eu/fhir/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
 -->
 
                  <a style="color: #81BEF7" rel="license" href="http://build.fhir.org/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a>

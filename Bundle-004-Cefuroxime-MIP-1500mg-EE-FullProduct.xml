@@ -8,10 +8,10 @@
       <MedicinalProductDefinition>
         <id value="Cefuroxime-MIP-1500mg-EE-MPD"/>
         <meta>
-          <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLMedicinalProductDefinition"/>
+          <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name="Cefuroxime-MIP-1500mg-EE-MPD"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicinalProductDefinition "Cefuroxime-MIP-1500mg-EE-MPD" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-PPLMedicinalProductDefinition.html">PPL Medicinal Product profile</a></p></div><p><b>identifier</b>: id: EE-100009199-27834, id: EE0000002</p><p><b>domain</b>: Human use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000005003#200000005004)</span></p><p><b>combinedPharmaceuticalDoseForm</b>: Powder for solution for injection/infusion <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-pharmaceutical-dose-form-ema-cs.html">Pharmaceutical Dose Form EMA</a>#100000116186)</span></p><p><b>legalStatusOfSupply</b>: Medicinal Product subject to medical prescription <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072051#100000072084)</span></p><p><b>classification</b>: Cefuroxime <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000093533#100000096183; <a href="http://terminology.hl7.org/4.0.0/CodeSystem-v3-WC.html">WHO ATC</a>#J01DC02 "cefuroxime")</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Cefuroxime MIP 1500 mg, süste-/infusioonilahuse pulber</p><blockquote><p><b>part</b></p><p><b>part</b>: Cefuroxime MIP</p><p><b>type</b>: Invented name part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: 1500 MG</p><p><b>type</b>: Strength part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000004)</span></p></blockquote><h3>Usages</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000388)</span></td><td>Estonian <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072057#100000072172)</span></td></tr></table></blockquote></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name="Cefuroxime-MIP-1500mg-EE-MPD"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicinalProductDefinition &quot;Cefuroxime-MIP-1500mg-EE-MPD&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-PPLMedicinalProductDefinition.html">PPL Medicinal Product profile</a></p></div><p><b>identifier</b>: id: EE-100009199-27834, id: EE0000002</p><p><b>domain</b>: Human use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000005003#200000005004)</span></p><p><b>combinedPharmaceuticalDoseForm</b>: Powder for solution for injection/infusion <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-pharmaceutical-dose-form-ema-cs.html">Pharmaceutical Dose Form EMA</a>#100000116186)</span></p><p><b>legalStatusOfSupply</b>: Medicinal Product subject to medical prescription <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072051#100000072084)</span></p><p><b>classification</b>: Cefuroxime <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000093533#100000096183; <a href="http://terminology.hl7.org/4.0.0/CodeSystem-v3-WC.html">WHO ATC</a>#J01DC02 &quot;cefuroxime&quot;)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Cefuroxime MIP 1500 mg, süste-/infusioonilahuse pulber</p><blockquote><p><b>namePart</b></p><p><b>part</b>: Cefuroxime MIP</p><p><b>type</b>: Invented name part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 1500 MG</p><p><b>type</b>: Strength part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000004)</span></p></blockquote><h3>CountryLanguages</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000388)</span></td><td>Estonian <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072057#100000072172)</span></td></tr></table></blockquote></div>
         </text>
         <identifier>
           <system value="http://ema.europa.eu/fhir/mpId"/>
@@ -63,7 +63,7 @@
         </classification>
         <name>
           <productName value="Cefuroxime MIP 1500 mg, süste-/infusioonilahuse pulber"/>
-          <part>
+          <namePart>
             <part value="Cefuroxime MIP"/>
             <type>
               <coding>
@@ -72,8 +72,8 @@
                 <display value="Invented name part"/>
               </coding>
             </type>
-          </part>
-          <part>
+          </namePart>
+          <namePart>
             <part value="1500 MG"/>
             <type>
               <coding>
@@ -82,8 +82,8 @@
                 <display value="Strength part"/>
               </coding>
             </type>
-          </part>
-          <usage>
+          </namePart>
+          <countryLanguage>
             <country>
               <coding>
                 <system value="http://spor.ema.europa.eu/v1/lists/100000000002"/>
@@ -98,7 +98,7 @@
                 <display value="Estonian"/>
               </coding>
             </language>
-          </usage>
+          </countryLanguage>
         </name>
       </MedicinalProductDefinition>
     </resource>
@@ -112,10 +112,10 @@
       <RegulatedAuthorization>
         <id value="Cefuroxime-MIP-1500mg-EE-RA"/>
         <meta>
-          <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLRegulatedAuthorization"/>
+          <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: RegulatedAuthorization</b><a name="Cefuroxime-MIP-1500mg-EE-RA"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource RegulatedAuthorization "Cefuroxime-MIP-1500mg-EE-RA" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-PPLRegulatedAuthorization.html">PPL Marketing Authorisation profile</a></p></div><p><b>identifier</b>: id: 805813</p><p><b>subject</b>: <a href="#MedicinalProductDefinition_Cefuroxime-MIP-1500mg-EE-MPD">See above (MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD)</a></p><p><b>type</b>: Marketing Authorisation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000060#220000000061)</span></p><p><b>region</b>: Republic of Estonia <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000388)</span></p><p><b>status</b>: Valid - Renewed/Varied <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072049#200000017708)</span></p><p><b>statusDate</b>: 2017-12-06</p><p><b>holder</b>: <a href="Organization-LOC-100009199-Mip.html">Organization/LOC-100009199-Mip</a> "Mip Pharma GmbH"</p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: RegulatedAuthorization</b><a name="Cefuroxime-MIP-1500mg-EE-RA"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource RegulatedAuthorization &quot;Cefuroxime-MIP-1500mg-EE-RA&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-PPLRegulatedAuthorization.html">PPL Marketing Authorisation profile</a></p></div><p><b>identifier</b>: id: 805813</p><p><b>subject</b>: <a href="#MedicinalProductDefinition_Cefuroxime-MIP-1500mg-EE-MPD">See above (MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD)</a></p><p><b>type</b>: Marketing Authorisation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000060#220000000061)</span></p><p><b>region</b>: Republic of Estonia <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000388)</span></p><p><b>status</b>: Valid - Renewed/Varied <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072049#200000017708)</span></p><p><b>statusDate</b>: 2017-12-06</p><p><b>holder</b>: <a href="Organization-LOC-100009199-Mip.html">Organization/LOC-100009199-Mip</a> &quot;Mip Pharma GmbH&quot;</p></div>
         </text>
         <identifier>
           <value value="805813"/>
@@ -160,10 +160,10 @@
       <AdministrableProductDefinition>
         <id value="Cefuroxime-MIP-1500mg-EE-APD"/>
         <meta>
-          <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLAdministrableProductDefinition"/>
+          <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name="Cefuroxime-MIP-1500mg-EE-APD"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AdministrableProductDefinition "Cefuroxime-MIP-1500mg-EE-APD" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-PPLAdministrableProductDefinition.html">PPL Administrable Product profile</a></p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href="#MedicinalProductDefinition_Cefuroxime-MIP-1500mg-EE-MPD">See above (MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD)</a></p><p><b>administrableDoseForm</b>: Solution for injection/infusion <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-pharmaceutical-dose-form-ema-cs.html">Pharmaceutical Dose Form EMA</a>#100000074038)</span></p><p><b>unitOfPresentation</b>: Vial <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-unit-of-presentation-ema-cs.html">Unit of Presentation EMA</a>#200000002158)</span></p><p><b>producedFrom</b>: <a href="#ManufacturedItemDefinition_Cefuroxime-MIP-1500mg-EE-MID">See above (ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID)</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Intramuscular use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073345#100000073600)</span></p></blockquote><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Intravenous use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073345#100000073611)</span></p></blockquote></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name="Cefuroxime-MIP-1500mg-EE-APD"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AdministrableProductDefinition &quot;Cefuroxime-MIP-1500mg-EE-APD&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-PPLAdministrableProductDefinition.html">PPL Administrable Product profile</a></p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href="#MedicinalProductDefinition_Cefuroxime-MIP-1500mg-EE-MPD">See above (MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD)</a></p><p><b>administrableDoseForm</b>: Solution for injection/infusion <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-pharmaceutical-dose-form-ema-cs.html">Pharmaceutical Dose Form EMA</a>#100000074038)</span></p><p><b>unitOfPresentation</b>: Vial <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-unit-of-presentation-ema-cs.html">Unit of Presentation EMA</a>#200000002158)</span></p><p><b>producedFrom</b>: <a href="#ManufacturedItemDefinition_Cefuroxime-MIP-1500mg-EE-MID">See above (ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID)</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Intramuscular use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073345#100000073600)</span></p></blockquote><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Intravenous use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073345#100000073611)</span></p></blockquote></div>
         </text>
         <status value="active"/>
         <formOf>
@@ -216,10 +216,10 @@
       <ManufacturedItemDefinition>
         <id value="Cefuroxime-MIP-1500mg-EE-MID"/>
         <meta>
-          <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLManufacturedItemDefinition"/>
+          <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name="Cefuroxime-MIP-1500mg-EE-MID"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource ManufacturedItemDefinition "Cefuroxime-MIP-1500mg-EE-MID" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-PPLManufacturedItemDefinition.html">PPL Manufactured Item profile</a></p></div><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Powder for solution for injection/infusion <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-pharmaceutical-dose-form-ema-cs.html">Pharmaceutical Dose Form EMA</a>#100000116186)</span></p><p><b>unitOfPresentation</b>: Vial <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-unit-of-presentation-ema-cs.html">Unit of Presentation EMA</a>#200000002158)</span></p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name="Cefuroxime-MIP-1500mg-EE-MID"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource ManufacturedItemDefinition &quot;Cefuroxime-MIP-1500mg-EE-MID&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-PPLManufacturedItemDefinition.html">PPL Manufactured Item profile</a></p></div><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Powder for solution for injection/infusion <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-pharmaceutical-dose-form-ema-cs.html">Pharmaceutical Dose Form EMA</a>#100000116186)</span></p><p><b>unitOfPresentation</b>: Vial <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-unit-of-presentation-ema-cs.html">Unit of Presentation EMA</a>#200000002158)</span></p></div>
         </text>
         <status value="active"/>
         <manufacturedDoseForm>
@@ -248,7 +248,7 @@
       <Ingredient>
         <id value="Cefuroxime-MIP-1500mg-EE-I"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b><a name="Cefuroxime-MIP-1500mg-EE-I"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient "Cefuroxime-MIP-1500mg-EE-I" </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href="#MedicinalProductDefinition_Cefuroxime-MIP-1500mg-EE-MPD">See above (MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD)</a></li><li><a href="#ManufacturedItemDefinition_Cefuroxime-MIP-1500mg-EE-MID">See above (ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID)</a></li><li><a href="#AdministrableProductDefinition_Cefuroxime-MIP-1500mg-EE-APD">See above (AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD)</a></li></ul><p><b>role</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>CEFUROXIME SODIUM <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SubstanceDefinition#100000091436)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>presentation</b>: 1578 milligram(s)<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = 'milligram(s)')</span>/1 Vial<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002158 = 'Vial')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>CEFUROXIME <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SubstanceDefinition#100000092667)</span></td></tr></table><p><b>strength</b>: 1500 milligram(s)<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = 'milligram(s)')</span>/1 Vial<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002158 = 'Vial')</span></p></blockquote></blockquote></blockquote></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b><a name="Cefuroxime-MIP-1500mg-EE-I"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;Cefuroxime-MIP-1500mg-EE-I&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href="#MedicinalProductDefinition_Cefuroxime-MIP-1500mg-EE-MPD">See above (MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD)</a></li><li><a href="#ManufacturedItemDefinition_Cefuroxime-MIP-1500mg-EE-MID">See above (ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID)</a></li><li><a href="#AdministrableProductDefinition_Cefuroxime-MIP-1500mg-EE-APD">See above (AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD)</a></li></ul><p><b>role</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>CEFUROXIME SODIUM <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SubstanceDefinition#100000091436)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>presentation</b>: 1578 milligram(s)<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = 'milligram(s)')</span>/1 Vial<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002158 = 'Vial')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>CEFUROXIME <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SubstanceDefinition#100000092667)</span></td></tr></table><p><b>strength</b>: 1500 milligram(s)<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = 'milligram(s)')</span>/1 Vial<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002158 = 'Vial')</span></p></blockquote></blockquote></blockquote></div>
         </text>
         <status value="active"/>
         <for>
@@ -331,10 +331,10 @@
       <PackagedProductDefinition>
         <id value="Cefuroxime-MIP-1500mg-EE-PPD-1529940"/>
         <meta>
-          <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition"/>
+          <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b><a name="Cefuroxime-MIP-1500mg-EE-PPD-1529940"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition "Cefuroxime-MIP-1500mg-EE-PPD-1529940" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-PPLPackagedProductDefinition.html">PPL Packaged Product profile</a></p></div><p><b>identifier</b>: id: EE-100009199-27834-1529940</p><p><b>packageFor</b>: <a href="#MedicinalProductDefinition_Cefuroxime-MIP-1500mg-EE-MPD">See above (MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD)</a></p><p><b>containedItemQuantity</b>: 1 vial<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002158 = 'Vial')</span></p><p><b>description</b>: I tüüpi klaasist viaal, mis on suletud klorobutüülkummist korgi ning flip-off kattega, 1 viaal</p><h3>MarketingStatuses</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000388)</span></td><td>Marketed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>packaging</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003529)</span></p><blockquote><p><b>packaging</b></p><p><b>type</b>: vial <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#200000002158)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Glass type I <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003204)</span></p></blockquote></blockquote></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b><a name="Cefuroxime-MIP-1500mg-EE-PPD-1529940"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition &quot;Cefuroxime-MIP-1500mg-EE-PPD-1529940&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-PPLPackagedProductDefinition.html">PPL Packaged Product profile</a></p></div><p><b>identifier</b>: id: EE-100009199-27834-1529940</p><p><b>packageFor</b>: <a href="#MedicinalProductDefinition_Cefuroxime-MIP-1500mg-EE-MPD">See above (MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD)</a></p><p><b>containedItemQuantity</b>: 1 vial<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002158 = 'Vial')</span></p><p><b>description</b>: I tüüpi klaasist viaal, mis on suletud klorobutüülkummist korgi ning flip-off kattega, 1 viaal</p><h3>MarketingStatuses</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000388)</span></td><td>Marketed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: vial <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#200000002158)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Glass type I <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003204)</span></p></blockquote></blockquote></div>
         </text>
         <identifier>
           <system value="http://ema.europa.eu/example/pcid"/>
@@ -366,7 +366,7 @@
             </coding>
           </status>
         </marketingStatus>
-        <packaging>
+        <package>
           <type>
             <coding>
               <system value="http://spor.ema.europa.eu/v1/lists/100000073346"/>
@@ -382,7 +382,7 @@
               <display value="Cardboard"/>
             </coding>
           </material>
-          <packaging>
+          <package>
             <type>
               <coding>
                 <system value="http://spor.ema.europa.eu/v1/lists/100000073346"/>
@@ -408,8 +408,8 @@
                 <value value="1"/>
               </amount>
             </containedItem>
-          </packaging>
-        </packaging>
+          </package>
+        </package>
       </PackagedProductDefinition>
     </resource>
     <request>
@@ -422,10 +422,10 @@
       <PackagedProductDefinition>
         <id value="Cefuroxime-MIP-1500mg-EE-PPD-1529962"/>
         <meta>
-          <profile value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r5/StructureDefinition/PPLPackagedProductDefinition"/>
+          <profile value="http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b><a name="Cefuroxime-MIP-1500mg-EE-PPD-1529962"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition "Cefuroxime-MIP-1500mg-EE-PPD-1529962" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-PPLPackagedProductDefinition.html">PPL Packaged Product profile</a></p></div><p><b>identifier</b>: id: ?ngen-9?</p><p><b>packageFor</b>: <a href="#MedicinalProductDefinition_Cefuroxime-MIP-1500mg-EE-MPD">See above (MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD)</a></p><p><b>containedItemQuantity</b>: 10 Vial<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002158 = 'Vial')</span></p><p><b>description</b>: I tüüpi klaasist viaal, mis on suletud klorobutüülkummist korgi ning flip-off kattega, 10 viaali</p><h3>MarketingStatuses</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000388)</span></td><td>Marketed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>packaging</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003529)</span></p><blockquote><p><b>packaging</b></p><p><b>type</b>: vial <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#200000002158)</span></p><p><b>quantity</b>: 10</p><p><b>material</b>: Glass type I <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003204)</span></p></blockquote></blockquote></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b><a name="Cefuroxime-MIP-1500mg-EE-PPD-1529962"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition &quot;Cefuroxime-MIP-1500mg-EE-PPD-1529962&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-PPLPackagedProductDefinition.html">PPL Packaged Product profile</a></p></div><p><b>identifier</b>: id: ?ngen-9?</p><p><b>packageFor</b>: <a href="#MedicinalProductDefinition_Cefuroxime-MIP-1500mg-EE-MPD">See above (MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD)</a></p><p><b>containedItemQuantity</b>: 10 Vial<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002158 = 'Vial')</span></p><p><b>description</b>: I tüüpi klaasist viaal, mis on suletud klorobutüülkummist korgi ning flip-off kattega, 10 viaali</p><h3>MarketingStatuses</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000388)</span></td><td>Marketed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: vial <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#200000002158)</span></p><p><b>quantity</b>: 10</p><p><b>material</b>: Glass type I <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003204)</span></p></blockquote></blockquote></div>
         </text>
         <identifier>
           <system value="http://ema.europa.eu/example/pcid"/>
@@ -456,7 +456,7 @@
             </coding>
           </status>
         </marketingStatus>
-        <packaging>
+        <package>
           <type>
             <coding>
               <system value="http://spor.ema.europa.eu/v1/lists/100000073346"/>
@@ -472,7 +472,7 @@
               <display value="Cardboard"/>
             </coding>
           </material>
-          <packaging>
+          <package>
             <type>
               <coding>
                 <system value="http://spor.ema.europa.eu/v1/lists/100000073346"/>
@@ -498,8 +498,8 @@
                 <value value="1"/>
               </amount>
             </containedItem>
-          </packaging>
-        </packaging>
+          </package>
+        </package>
       </PackagedProductDefinition>
     </resource>
     <request>
