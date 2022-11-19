@@ -380,8 +380,8 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Type of product name, such as rINN, BAN, Proprietary, Non-Proprietary","Type of product name, such as rINN, BAN, Proprietary, Non-Proprietary.","","","","","","","","","",,"example","Type of a name for a Medicinal Product.","http://hl7.org/fhir/ValueSet/medicinal-product-name-type","",,,,"MedicinalProductDefinition.name.type",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","n/a"
 "MedicinalProductDefinition.name.namePart","MedicinalProductDefinition.name.namePart","","","",1,*,"","","Y","BackboneElement {[]} {[]}
-","Medicinal product name part","EMA IG 1.14.3. Name part. Product names are usually combined of these three parts. More parts can be defined and strength and dose form parts can be omitted.","","","","","","","","","",,,,,"","pattern:part.type.coding.code}
-","",Y,"open","MedicinalProductDefinition.name.namePart",0,*,"","ele-1:All FHIR elements must have a @value or children unless an empty Parameters resource {hasValue() or (children().count() > id.count()) or $this is Parameters}
+","Medicinal product name part","EMA IG 1.14.3. Name part. Product names are usually combined of these three parts. More parts can be defined and strength and dose form parts can be omitted.","","","","","","","","","",,,,,"","pattern:type}
+","Slicing on the name part",Y,"open","MedicinalProductDefinition.name.namePart",0,*,"","ele-1:All FHIR elements must have a @value or children unless an empty Parameters resource {hasValue() or (children().count() > id.count()) or $this is Parameters}
 ","(any and all of the name parts e.g. Medicinal Product Name.Formulation Part)"
 "MedicinalProductDefinition.name.namePart.id","MedicinalProductDefinition.name.namePart.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
