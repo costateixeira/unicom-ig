@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.EU.FHIR.UNICOM\Home - FHIR v5.0.0-ballot</title>
+    <title>HL7.EU.FHIR.UNICOM\Home - FHIR v4.3.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -102,9 +102,6 @@
     <a href="index.html">Home</a>
   </li>
   <li>
-    <a href="toc.html">Table of Contents</a>
-  </li>
-  <li>
     <a href="artifacts.html">Artifacts</a>
   </li>
 </ul>
@@ -139,7 +136,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">UnicomIG - Local Development build (v0.1.0). See the <a href="http://medigree.net/fhir/ee/idmp/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">UnicomIG - Local Development build (v0.1.0). See the <a href="http://unicom-project.eu/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Home</h2>
   
   
@@ -147,10 +144,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <table class="colsd">
 
     <tr>
-      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://medigree.net/fhir/ee/idmp/ImplementationGuide/hl7.eu.fhir.unicom<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://medigree.net/fhir/ee/idmp/ImplementationGuide/hl7.eu.fhir.unicom"/></span>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://unicom-project.eu/fhir/ImplementationGuide/hl7.eu.fhir.unicom<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://unicom-project.eu/fhir/ImplementationGuide/hl7.eu.fhir.unicom"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://medigree.net/fhir/ee/idmp/ImplementationGuide/hl7.eu.fhir.unicom|0.1.0"/></span>
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://unicom-project.eu/fhir/ImplementationGuide/hl7.eu.fhir.unicom|0.1.0"/></span>
       </td>
     </tr>
 
@@ -186,20 +183,46 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <div xmlns="http://www.w3.org/1999/xhtml" lang="en"><div class="markdown-toc"><p>Contents:</p><ul><li><a href="#1">Content</a></li><li><a href="#ip">Intellectual Property Considerations</a></li><li><a href="#disclaimer">Disclaimer</a></li></ul></div>
   <a name="scope">   </a>
 	<p>
-    This is our FHIR Implementation Guide. It contains the specifications developed by our community. 
-   </p>
+    This is FHIR Implementation Guide for UNICOM project, created to assist work with pilot product list product data in FHIR. 
+    This specification is a combined effort of several work packages of UNICOM project and tested by WP4 (NCAs). 
+  </p>
+  <p>
+    Artifacts in this implementation guide are conformant with the following base specifications:
+    <ul>
+      <li>ISO IDMP standards (
+        <a href="https://www.iso.org/standard/70150.html">ISO 11615</a>, 
+        <a href="https://www.iso.org/standard/70044.html">ISO 11616</a>, 
+        <a href="https://www.iso.org/standard/69697.html">ISO 11238</a>, 
+        <a href="https://www.iso.org/standard/55032.html">ISO 11239</a>, 
+        <a href="https://www.iso.org/standard/55033.html">ISO 11240</a>)
+      </li>
+      <li><a href="https://www.ema.europa.eu/en/human-regulatory/research-development/data-medicines-iso-idmp-standards/spor-master-data/substance-product-data-management-services#eu-idmp-implementation-guide---version-2.1.1-section">EMA EU ISO IDMP Implementation Guide 2.1</a></li>
+      <li><a href="http://hl7.org/fhir/2022Sep/resourcelist.html">FHIR version 5.0.0 Ballot</a></li>
+      <li>UNICOM WP5 minimal attribute list for cross-border services</li>
+      <li>UNICOM WP4 pilot product list data specification</li>
+    </ul>
+  </p>
 	<blockquote class="stu-note">
-	<strong>This documentation and set of artefacts are still undergoing development.</strong>
-	This content is only for demonstrative purposes.
+	<strong>Work in progress.	</strong>
+  <p>Please be aware, that this implementation guide does not cover full regulatory data and cannot be used as a replacement to EMA Implementation Guide.</p>
 	</blockquote>
-	<p> </p>
+	<p> </p>
   <a name="1"/><h3>Content</h3> <a name="content">  </a>
 	<p/>
 
-<p>This publication contains the full set of specifications...</p>
-<p/>
-<p>There is also an overview of the projects and motivation for the specifications.</p>
-<p/>
+<p>
+This implementation guide consists of the following artifacts:
+<ul>
+  <li>Logical model for defining medicinal product (basic data elements suitable for wide range of different use cases); </li>
+  <li>FHIR profiles for defining a medicinal product using resources in Medication Definition module.</li>
+  <li>Example resources for different medicinal products.</li>
+</ul>
+</p>
+<p>This implementation guide follows the EMA Product Management Service specifications (including EMA SPOR terminology), but it does not cover full regulatory data. 
+Data elements for product definition are considered enough for most clinical and cross-border data exchange use cases. Data elements specific to regulatory use cases, have been omitted in order to provide cleaner and easier overview of core medication data. 
+References to source information in EMA implementation guide are made available in the profiles (hover the name of the attribute to see corresponding EMA IG paragraph).</p>
+<p>Profiles specify the core set of attributes, but are left open for additions if something more specific needed. For example, national identifiers are not defined as 
+separate attributes in the profile, but this data can always be added in accordance with the specification of the underlying FHIR resource.</p>
 
 <a name="navigation">  </a>
 <p>The top menu allows quick navigation to the different sections, and a <a href="toc.html">Table of Contents</a> is provided with the entire content of this Implementation Guide. (Be aware that some pages have multiple tabs).</p>
@@ -207,8 +230,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 	<a name="ip">  </a>
 	<h3>Intellectual Property Considerations</h3>
 	<p>
-    While this implementation guide and the underlying FHIR are licensed as public domain, this guide includes examples making use of terminologies such 
-    as LOINC, SNOMED CT and others which have more restrictive licensing requirements. Implementers should make themselves familiar with licensing and 
+    While this implementation guide and the underlying FHIR are licensed as public domain, this guide includes examples making use of terminologies which may have more restrictive licensing requirements. Implementers should make themselves familiar with licensing and 
     any other constraints of terminologies, questionnaires, and other components used as part of their implementation process. In some cases, 
     licensing requirements may limit the systems that data captured using certain questionnaires may be shared with.
   </p>
@@ -243,7 +265,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://medigree.net">UNICOM</a>.  Package hl7.eu.fhir.unicom#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 5.0.0-ballot</a>. Generated <span title="Sat, Nov 19, 2022 07:23+0000">2022-11-19</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://medigree.net">UNICOM</a>.  Package hl7.eu.fhir.unicom#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 4.3.0</a>. Generated <span title="Sat, Nov 19, 2022 22:26+0000">2022-11-19</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <div style="color: #33333" >
@@ -252,7 +274,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                  <a style="color: #81BEF7" href="qa.html">QA Report</a> 
 				 
 <!--
-                 <a style="color: #81BEF7" target="_blank" href="http://medigree.net/fhir/ee/idmp/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+                 <a style="color: #81BEF7" target="_blank" href="http://unicom-project.eu/fhir/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
 -->
 
                  <a style="color: #81BEF7" rel="license" href="http://build.fhir.org/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a>
