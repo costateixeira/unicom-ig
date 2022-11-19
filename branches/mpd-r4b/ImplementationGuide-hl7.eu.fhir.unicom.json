@@ -10,7 +10,7 @@
   "name": "UnicomIG",
   "title": "UnicomIG",
   "status": "draft",
-  "date": "2022-11-19T06:10:15+00:00",
+  "date": "2022-11-19T22:26:15+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -927,6 +927,90 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/legal-status-for-the-supply-vs"
+        },
+        "name": "Legal Status for the Supply",
+        "description": "EMA SPOR RMS list",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/material-vs"
+        },
+        "name": "Material",
+        "description": "Package material. EMA SPOR RMS LIST.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/pharmaceutical-doseform-vs"
+        },
+        "name": "Pharmaceutical Dose Form",
+        "description": "Pharmaceutical dose form. Does not include combination dose forms.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/routes-and-methods-of-administration-vs"
+        },
+        "name": "Routes and Methods of Administration",
+        "description": "Routes and methods of medication administration. EMA SPOR RMS list.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/unit-of-measurement-vs"
+        },
+        "name": "Unit of Measurement EMA",
+        "description": "Units of measurement. EMA SPOR RMS list based on UCUM.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/unit-of-presentation-vs"
+        },
+        "name": "Unit of Presentation EMA",
+        "description": "Units of presentation. EMA SPOR RMS list based on EDQM.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "CodeSystem"
           }
         ],
@@ -973,10 +1057,51 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/legal-status-for-the-supply-ema-cs"
+        },
+        "name": "Legal Status for the Supply EMA",
+        "description": "Legal status of supply. EMA SPOR RMS list.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/material-ema-cs"
+        },
+        "name": "Material EMA",
+        "description": "Package material. EMA SPOR RMS list. Hierarchical.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/pharmaceutical-dose-form-ema-cs"
         },
         "name": "Pharmaceutical Dose Form EMA",
         "description": "Pharmaceutical dose form. Based on EDQM, re-coded with RMS codes.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/routes-and-methods-of-administration-ema-cs"
+        },
+        "name": "Routes and Methods of Administration",
         "exampleBoolean": false
       },
       {
@@ -1075,6 +1200,20 @@
         },
         "name": "005-CanifugCremolum-EE-FullProduct",
         "description": "Canifug Cremolum. Estonia. Combination package of clotrimazole 10mg/g creme and six 100mg pessaries.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/006-Yaz-0023mg-tablet-SE-AJ"
+        },
+        "name": "006-Yaz-0023mg-tablet-SE-AJ",
+        "description": "YAZ ethinylestradiol 0.02mg, drosperinone 3mg, includes placebo tablets. Sweden. Different manufactured items in one container.",
         "exampleBoolean": true
       },
       {

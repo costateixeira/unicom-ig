@@ -11,7 +11,7 @@
   <name value="UnicomIG"/>
   <title value="UnicomIG"/>
   <status value="draft"/>
-  <date value="2022-11-19T06:10:15+00:00"/>
+  <date value="2022-11-19T22:26:15+00:00"/>
   <publisher value="UNICOM"/>
   <contact>
     <name value="UNICOM"/>
@@ -617,6 +617,72 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/legal-status-for-the-supply-vs"/>
+      </reference>
+      <name value="Legal Status for the Supply"/>
+      <description value="EMA SPOR RMS list"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/material-vs"/>
+      </reference>
+      <name value="Material"/>
+      <description value="Package material. EMA SPOR RMS LIST."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/pharmaceutical-doseform-vs"/>
+      </reference>
+      <name value="Pharmaceutical Dose Form"/>
+      <description value="Pharmaceutical dose form. Does not include combination dose forms."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/routes-and-methods-of-administration-vs"/>
+      </reference>
+      <name value="Routes and Methods of Administration"/>
+      <description value="Routes and methods of medication administration. EMA SPOR RMS list."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/unit-of-measurement-vs"/>
+      </reference>
+      <name value="Unit of Measurement EMA"/>
+      <description value="Units of measurement. EMA SPOR RMS list based on UCUM."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/unit-of-presentation-vs"/>
+      </reference>
+      <name value="Unit of Presentation EMA"/>
+      <description value="Units of presentation. EMA SPOR RMS list based on EDQM."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -653,10 +719,42 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/legal-status-for-the-supply-ema-cs"/>
+      </reference>
+      <name value="Legal Status for the Supply EMA"/>
+      <description value="Legal status of supply. EMA SPOR RMS list."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/material-ema-cs"/>
+      </reference>
+      <name value="Material EMA"/>
+      <description value="Package material. EMA SPOR RMS list. Hierarchical."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/pharmaceutical-dose-form-ema-cs"/>
       </reference>
       <name value="Pharmaceutical Dose Form EMA"/>
       <description value="Pharmaceutical dose form. Based on EDQM, re-coded with RMS codes."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/routes-and-methods-of-administration-ema-cs"/>
+      </reference>
+      <name value="Routes and Methods of Administration"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -734,6 +832,17 @@
       </reference>
       <name value="005-CanifugCremolum-EE-FullProduct"/>
       <description value="Canifug Cremolum. Estonia. Combination package of clotrimazole 10mg/g creme and six 100mg pessaries."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/006-Yaz-0023mg-tablet-SE-AJ"/>
+      </reference>
+      <name value="006-Yaz-0023mg-tablet-SE-AJ"/>
+      <description value="YAZ ethinylestradiol 0.02mg, drosperinone 3mg, includes placebo tablets. Sweden. Different manufactured items in one container."/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>

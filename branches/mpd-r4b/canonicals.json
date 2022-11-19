@@ -1,5 +1,19 @@
 [
   {
+    "id": "legal-status-for-the-supply-ema-cs",
+    "type": "CodeSystem",
+    "url": "http://spor.ema.europa.eu/v1/lists/100000072051",
+    "version": "0.1.0",
+    "name": "LegalStatusForTheSupply_EMA_CS"
+  },
+  {
+    "id": "routes-and-methods-of-administration-ema-cs",
+    "type": "CodeSystem",
+    "url": "http://spor.ema.europa.eu/v1/lists/100000073345",
+    "version": "0.1.0",
+    "name": "Routes_And_Methods_Of_Administration_EMA_CS"
+  },
+  {
     "id": "unit-of-measurement-ema-cs",
     "type": "CodeSystem",
     "url": "http://spor.ema.europa.eu/v1/lists/100000110633",
@@ -40,6 +54,13 @@
     "url": "http://spor.ema.europa.eu/v1/lists/200000000014",
     "version": "0.1.0",
     "name": "UnitOfPresentation_EMA_CS"
+  },
+  {
+    "id": "material-ema-cs",
+    "type": "CodeSystem",
+    "url": "http://spor.ema.europa.eu/v1/lists/200000003199",
+    "version": "0.1.0",
+    "name": "Material_EMA_CS"
   },
   {
     "id": "hl7.eu.fhir.unicom",
@@ -173,5 +194,47 @@
     "url": "http://unicom-project.eu/fhir/ValueSet/authorised-doseform-vs",
     "version": "0.1.0",
     "name": "AuthorisedDoseForm"
+  },
+  {
+    "id": "legal-status-for-the-supply-vs",
+    "type": "ValueSet",
+    "url": "http://unicom-project.eu/fhir/ValueSet/legal-status-for-the-supply-vs",
+    "version": "0.1.0",
+    "name": "LegalStatusForTheSupply"
+  },
+  {
+    "id": "material-vs",
+    "type": "ValueSet",
+    "url": "http://unicom-project.eu/fhir/ValueSet/material-vs",
+    "version": "0.1.0",
+    "name": "Material"
+  },
+  {
+    "id": "pharmaceutical-doseform-vs",
+    "type": "ValueSet",
+    "url": "http://unicom-project.eu/fhir/ValueSet/pharmaceutical-doseform-vs",
+    "version": "0.1.0",
+    "name": "PharmaceuticalDoseForm"
+  },
+  {
+    "id": "routes-and-methods-of-administration-vs",
+    "type": "ValueSet",
+    "url": "http://unicom-project.eu/fhir/ValueSet/routes-and-methods-of-administration-vs",
+    "version": "0.1.0",
+    "name": "RoutesAndMethodsOfAdministration"
+  },
+  {
+    "id": "unit-of-measurement-vs",
+    "type": "ValueSet",
+    "url": "http://unicom-project.eu/fhir/ValueSet/unit-of-measurement-vs",
+    "version": "0.1.0",
+    "name": "UnitOfMeasurement"
+  },
+  {
+    "id": "unit-of-presentation-vs",
+    "type": "ValueSet",
+    "url": "http://unicom-project.eu/fhir/ValueSet/unit-of-presentation-vs",
+    "version": "0.1.0",
+    "name": "UnitOfPresentation"
   }
 ]
