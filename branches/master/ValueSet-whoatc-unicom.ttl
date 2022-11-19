@@ -25,7 +25,7 @@
   fhir:ValueSet.title [ fhir:value "WHO ATC"];
   fhir:ValueSet.status [ fhir:value "active"];
   fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ValueSet.date [ fhir:value "2022-11-09T19:33:22+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-11-19T07:23:03+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "UNICOM"];
   fhir:ValueSet.contact [
      fhir:index 0;
