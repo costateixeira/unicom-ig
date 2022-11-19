@@ -1,12 +1,12 @@
 {
-  "url": "http://unicom-project.eu/fhir/ImplementationGuide/hl7.eu.fhir.unicom",
+  "url": "http://medigree.net/fhir/ee/idmp/ImplementationGuide/hl7.eu.fhir.unicom",
   "name": "UnicomIG",
   "package-id": "hl7.eu.fhir.unicom",
   "ig-ver": "0.1.0",
-  "date": "Sat, 19 Nov, 2022 06:10:15 +0000",
-  "errs": 105,
-  "warnings": 55,
-  "hints": 254,
-  "version": "4.3.0",
+  "date": "Sat, 19 Nov, 2022 07:23:03 +0000",
+  "errs": 2,
+  "warnings": 3,
+  "hints": 0,
+  "version": "5.0.0-ballot",
   "tool": "5.0.0-ballot (3)"
 }
