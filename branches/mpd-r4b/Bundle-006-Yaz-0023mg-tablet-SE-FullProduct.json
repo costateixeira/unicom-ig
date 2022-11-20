@@ -143,7 +143,7 @@
       }
     },
     {
-      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organisation/LOC-100016468-BayerAB",
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organization/LOC-100016468-BayerAB",
       "resource": {
         "resourceType": "Organization",
         "id": "LOC-100016468-BayerAB",
@@ -166,7 +166,7 @@
       },
       "request": {
         "method": "POST",
-        "url": "Organisation/LOC-100016468-BayerAB"
+        "url": "Organization/LOC-100016468-BayerAB"
       }
     },
     {

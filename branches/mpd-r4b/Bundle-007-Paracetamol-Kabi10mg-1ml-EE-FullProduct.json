@@ -214,7 +214,7 @@
       }
     },
     {
-      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organisation/LOC-100008123-FreseniusKabiPolska",
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organization/LOC-100008123-FreseniusKabiPolska",
       "resource": {
         "resourceType": "Organization",
         "id": "LOC-100008123-FreseniusKabiPolska",
@@ -237,7 +237,7 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Organisation/LOC-100008123-FreseniusKabiPolska"
+        "url": "Organization/LOC-100008123-FreseniusKabiPolska"
       }
     },
     {
@@ -252,7 +252,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"Paracetamol-Kabi-10mg-1ml-solinj-EE-APD\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;Paracetamol-Kabi-10mg-1ml-solinj-EE-APD&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLAdministrableProductDefinition.html\">PPL Administrable Product profile</a></p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"#MedicinalProductDefinition_Paracetamol-Kabi-10mg-1ml-solinj-EE-MPD\">See above (MedicinalProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-MPD)</a></p><p><b>administrableDoseForm</b>: Solution for solution for infusion  <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-pharmaceutical-dose-form-ema-cs.html\">Pharmaceutical Dose Form EMA</a>#100000174051)</span></p><p><b>unitOfPresentation</b>: Vial <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-unit-of-presentation-ema-cs.html\">Unit of Presentation EMA</a>#200000002158)</span></p><p><b>producedFrom</b>: <a href=\"#ManufacturedItemDefinition_Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1424034\">See above (ManufacturedItemDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1424034)</a></p><h3>RouteOfAdministrations</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Intravenous use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-routes-and-methods-of-administration-ema-cs.html\">Routes and Methods of Administration EMA</a>#100000073611)</span></td></tr></table></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"Paracetamol-Kabi-10mg-1ml-solinj-EE-APD\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;Paracetamol-Kabi-10mg-1ml-solinj-EE-APD&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLAdministrableProductDefinition.html\">PPL Administrable Product profile</a></p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"#MedicinalProductDefinition_Paracetamol-Kabi-10mg-1ml-solinj-EE-MPD\">See above (MedicinalProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-MPD)</a></p><p><b>administrableDoseForm</b>: Solution for solution for infusion <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-pharmaceutical-dose-form-ema-cs.html\">Pharmaceutical Dose Form EMA</a>#100000174051)</span></p><p><b>unitOfPresentation</b>: Vial <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-unit-of-presentation-ema-cs.html\">Unit of Presentation EMA</a>#200000002158)</span></p><p><b>producedFrom</b>: <a href=\"#ManufacturedItemDefinition_Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1424034\">See above (ManufacturedItemDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1424034)</a></p><h3>RouteOfAdministrations</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Intravenous use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-routes-and-methods-of-administration-ema-cs.html\">Routes and Methods of Administration EMA</a>#100000073611)</span></td></tr></table></div>"
         },
         "status": "active",
         "formOf": [
@@ -265,7 +265,7 @@
             {
               "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
               "code": "100000174051",
-              "display": "Solution for solution for infusion "
+              "display": "Solution for solution for infusion"
             }
           ]
         },

@@ -19,11 +19,11 @@
      ]
   ], [
      fhir:index 1;
-     fhir:Bundle.entry.fullUrl [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organisation/LOC-100016468-BayerAB" ];
-     fhir:Bundle.entry.resource <https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organisation/LOC-100016468-BayerAB>;
+     fhir:Bundle.entry.fullUrl [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organization/LOC-100016468-BayerAB" ];
+     fhir:Bundle.entry.resource <https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organization/LOC-100016468-BayerAB>;
      fhir:Bundle.entry.request [
        fhir:Bundle.entry.request.method [ fhir:value "POST" ];
-       fhir:Bundle.entry.request.url [ fhir:value "Organisation/LOC-100016468-BayerAB" ]
+       fhir:Bundle.entry.request.url [ fhir:value "Organization/LOC-100016468-BayerAB" ]
      ]
   ], [
      fhir:index 2;
@@ -217,7 +217,7 @@
      ]
   ] .
 
-<https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organisation/LOC-100016468-BayerAB> a fhir:Organization;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organization/LOC-100016468-BayerAB> a fhir:Organization;
   fhir:Resource.id [ fhir:value "LOC-100016468-BayerAB"];
   fhir:Resource.meta [
      fhir:Meta.profile [
