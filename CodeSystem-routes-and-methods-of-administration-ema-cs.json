@@ -8,9 +8,9 @@
   "url": "https://spor.ema.europa.eu/v1/lists/100000073345",
   "version": "0.1.0",
   "name": "Routes_And_Methods_Of_Administration_EMA_CS",
-  "title": "Routes and Methods of Administration",
+  "title": "Routes and Methods of Administration EMA",
   "status": "draft",
-  "date": "2022-11-20T17:12:02+00:00",
+  "date": "2022-11-20T17:48:06+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -23,6 +23,7 @@
       ]
     }
   ],
+  "description": "Routes and methods of medication administration. Based on EDQM, re-coded with RMS codes.",
   "caseSensitive": false,
   "compositional": false,
   "content": "complete",

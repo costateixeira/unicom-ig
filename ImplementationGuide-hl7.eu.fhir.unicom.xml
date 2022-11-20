@@ -11,7 +11,7 @@
   <name value="UnicomIG"/>
   <title value="UnicomIG"/>
   <status value="draft"/>
-  <date value="2022-11-20T17:12:02+00:00"/>
+  <date value="2022-11-20T17:48:06+00:00"/>
   <publisher value="UNICOM"/>
   <contact>
     <name value="UNICOM"/>
@@ -631,10 +631,32 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/country-iso-vs"/>
+      </reference>
+      <name value="Country (ISO 3166-1-2)"/>
+      <description value="Countries"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/domain-vs"/>
       </reference>
       <name value="Domain"/>
       <description value="Domain of the medicinal product. EMA SPOR RMS list."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/language-bcp-vs"/>
+      </reference>
+      <name value="Language (FHIR)"/>
+      <description value="All languages"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -752,10 +774,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/CountryEma"/>
+        <reference value="CodeSystem/CountryEMA"/>
       </reference>
-      <name value="CountryEma"/>
-      <description value="country"/>
+      <name value="Country EMA"/>
+      <description value="Country codes by EMA. Based on ISO 3166-1-2, recoded with RMS codes."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -776,7 +798,7 @@
       <reference>
         <reference value="CodeSystem/LanguageEMA"/>
       </reference>
-      <name value="LanguageEMA"/>
+      <name value="Language EMA"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -819,7 +841,8 @@
       <reference>
         <reference value="CodeSystem/routes-and-methods-of-administration-ema-cs"/>
       </reference>
-      <name value="Routes and Methods of Administration"/>
+      <name value="Routes and Methods of Administration EMA"/>
+      <description value="Routes and methods of medication administration. Based on EDQM, re-coded with RMS codes."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -874,7 +897,7 @@
         <reference value="Bundle/003-CefuroximStragen-1.5g-Powder-SE-FullProduct"/>
       </reference>
       <name value="003-CefuroximStragen-1.5g-Powder-SE-FullProduct"/>
-      <description value="Cefuroxim Stragen 1.5g Powder for solution for injection/infusion. Sweden. Strength in grams; man. item quantity unknown; transformation before administration."/>
+      <description value="Cefuroxim Stragen 1.5g Powder for solution for injection/infusion. Kingdom of Sweden. Strength in grams; man. item quantity unknown; transformation before administration."/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -907,7 +930,7 @@
         <reference value="Bundle/006-Yaz-0023mg-tablet-SE-FullProduct"/>
       </reference>
       <name value="006-Yaz-0023mg-tablet-SE-FullProduct"/>
-      <description value="YAZ ethinylestradiol 0.02mg, drosperinone 3mg, includes placebo tablets. Sweden. Different manufactured items in one container."/>
+      <description value="YAZ ethinylestradiol 0.02mg, drosperinone 3mg, includes placebo tablets. Kingdom of Sweden. Different manufactured items in one container."/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>

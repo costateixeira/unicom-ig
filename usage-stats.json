@@ -48,9 +48,6 @@
     ]
   },
   "usage": {
-    "http://ema.europa.eu/fhir/extension/language": [
-      "Bundle.entry.resource.description"
-    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
