@@ -10,7 +10,7 @@
   "name": "UnicomIG",
   "title": "UnicomIG",
   "status": "draft",
-  "date": "2022-11-20T17:12:02+00:00",
+  "date": "2022-11-20T17:48:06+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -945,10 +945,38 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/country-iso-vs"
+        },
+        "name": "Country (ISO 3166-1-2)",
+        "description": "Countries",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/domain-vs"
         },
         "name": "Domain",
         "description": "Domain of the medicinal product. EMA SPOR RMS list.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/language-bcp-vs"
+        },
+        "name": "Language (FHIR)",
+        "description": "All languages",
         "exampleBoolean": false
       },
       {
@@ -1099,10 +1127,10 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/CountryEma"
+          "reference": "CodeSystem/CountryEMA"
         },
-        "name": "CountryEma",
-        "description": "country",
+        "name": "Country EMA",
+        "description": "Country codes by EMA. Based on ISO 3166-1-2, recoded with RMS codes.",
         "exampleBoolean": false
       },
       {
@@ -1129,7 +1157,7 @@
         "reference": {
           "reference": "CodeSystem/LanguageEMA"
         },
-        "name": "LanguageEMA",
+        "name": "Language EMA",
         "exampleBoolean": false
       },
       {
@@ -1184,7 +1212,8 @@
         "reference": {
           "reference": "CodeSystem/routes-and-methods-of-administration-ema-cs"
         },
-        "name": "Routes and Methods of Administration",
+        "name": "Routes and Methods of Administration EMA",
+        "description": "Routes and methods of medication administration. Based on EDQM, re-coded with RMS codes.",
         "exampleBoolean": false
       },
       {
@@ -1254,7 +1283,7 @@
           "reference": "Bundle/003-CefuroximStragen-1.5g-Powder-SE-FullProduct"
         },
         "name": "003-CefuroximStragen-1.5g-Powder-SE-FullProduct",
-        "description": "Cefuroxim Stragen 1.5g Powder for solution for injection/infusion. Sweden. Strength in grams; man. item quantity unknown; transformation before administration.",
+        "description": "Cefuroxim Stragen 1.5g Powder for solution for injection/infusion. Kingdom of Sweden. Strength in grams; man. item quantity unknown; transformation before administration.",
         "exampleBoolean": true
       },
       {
@@ -1296,7 +1325,7 @@
           "reference": "Bundle/006-Yaz-0023mg-tablet-SE-FullProduct"
         },
         "name": "006-Yaz-0023mg-tablet-SE-FullProduct",
-        "description": "YAZ ethinylestradiol 0.02mg, drosperinone 3mg, includes placebo tablets. Sweden. Different manufactured items in one container.",
+        "description": "YAZ ethinylestradiol 0.02mg, drosperinone 3mg, includes placebo tablets. Kingdom of Sweden. Different manufactured items in one container.",
         "exampleBoolean": true
       },
       {

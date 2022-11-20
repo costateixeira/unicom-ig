@@ -140,11 +140,25 @@
     "name": "CountryEMA"
   },
   {
+    "id": "country-iso-vs",
+    "type": "ValueSet",
+    "url": "http://unicom-project.eu/fhir/ValueSet/country-iso-vs",
+    "version": "0.1.0",
+    "name": "CountryISO"
+  },
+  {
     "id": "domain-vs",
     "type": "ValueSet",
     "url": "http://unicom-project.eu/fhir/ValueSet/domain-vs",
     "version": "0.1.0",
     "name": "Domain"
+  },
+  {
+    "id": "language-bcp-vs",
+    "type": "ValueSet",
+    "url": "http://unicom-project.eu/fhir/ValueSet/language-bcp-vs",
+    "version": "0.1.0",
+    "name": "LanguageBCP"
   },
   {
     "id": "language-ema-vs",
@@ -196,7 +210,7 @@
     "name": "UnitOfPresentation"
   },
   {
-    "id": "CountryEma",
+    "id": "CountryEMA",
     "type": "CodeSystem",
     "url": "https://spor.ema.europa.eu/v1/lists/100000000002",
     "version": "0.1.0",
