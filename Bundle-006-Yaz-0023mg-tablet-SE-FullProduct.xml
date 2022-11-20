@@ -111,7 +111,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organisation/LOC-100016468-BayerAB"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organization/LOC-100016468-BayerAB"/>
     <resource>
       <Organization>
         <id value="LOC-100016468-BayerAB"/>
@@ -130,7 +130,7 @@
     </resource>
     <request>
       <method value="POST"/>
-      <url value="Organisation/LOC-100016468-BayerAB"/>
+      <url value="Organization/LOC-100016468-BayerAB"/>
     </request>
   </entry>
   <entry>

@@ -1,9 +1,9 @@
 ﻿UnicomIG : Validation Results
 =========================================
 
-err = 44, warn = 96, info = 203
+err = 44, warn = 90, info = 203
 IG Publisher Version: 1.2.17
-Generated Sun Nov 20 20:13:25 UTC 2022. FHIR version 4.3.0 for hl7.eu.fhir.unicom#0.1.0 (canonical = http://unicom-project.eu/fhir)
+Generated Sun Nov 20 20:24:58 UTC 2022. FHIR version 4.3.0 for hl7.eu.fhir.unicom#0.1.0 (canonical = http://unicom-project.eu/fhir)
  Build Errors : 58 / 5 / 0
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-Agen-5mg-Tablet-EE-APD : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-CanifugCremolum-100mg-Pessary-EE-APD : 0 / 0 / 1
@@ -14,9 +14,9 @@ Generated Sun Nov 20 20:13:25 UTC 2022. FHIR version 4.3.0 for hl7.eu.fhir.unico
  /github/workspace/fsh-generated/resources/Bundle-003-CefuroximStragen-1.5g-Powder-SE-FullProduct : 0 / 2 / 31
  /github/workspace/fsh-generated/resources/Bundle-004-Cefuroxime-MIP-1500mg-EE-FullProduct : 1 / 2 / 33
  /github/workspace/fsh-generated/resources/Bundle-005-CanifugCremolum-EE-FullProduct : 0 / 3 / 35
- /github/workspace/fsh-generated/resources/Bundle-006-Yaz-0023mg-tablet-SE-FullProduct : 1 / 4 / 41
- /github/workspace/fsh-generated/resources/Bundle-007-Paracetamol-Kabi10mg-1ml-EE-FullProduct : 0 / 12 / 44
- /github/workspace/fsh-generated/resources/Bundle-008-Clexane-60mg-0.6ml-EE-FullProduct : 0 / 4 / 30
+ /github/workspace/fsh-generated/resources/Bundle-006-Yaz-0023mg-tablet-SE-FullProduct : 1 / 3 / 41
+ /github/workspace/fsh-generated/resources/Bundle-007-Paracetamol-Kabi10mg-1ml-EE-FullProduct : 0 / 9 / 44
+ /github/workspace/fsh-generated/resources/Bundle-008-Clexane-60mg-0.6ml-EE-FullProduct : 0 / 2 / 30
  /github/workspace/fsh-generated/resources/CodeSystem-combination-package-ema-cs : 2 / 1 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-combined-pharmaceutical-dose-form-ema-cs : 2 / 1 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-combined-term-ema-cs : 2 / 1 / 1
@@ -269,7 +269,6 @@ INFORMATION: Bundle/006-Yaz-0023mg-tablet-SE-FullProduct: Bundle.entry[0].resour
 INFORMATION: Bundle/006-Yaz-0023mg-tablet-SE-FullProduct: Bundle.entry[2].resource.ofType(RegulatedAuthorization).type.coding[0]: Code System URI 'https://spor.ema.europa.eu/v1/lists/220000000060' is unknown so the code cannot be validated
 INFORMATION: Bundle/006-Yaz-0023mg-tablet-SE-FullProduct: Bundle.entry[2].resource.ofType(RegulatedAuthorization).status: None of the codings provided are in the value set 'PublicationStatus' (http://hl7.org/fhir/ValueSet/publication-status|5.0.0-cibuild), and a coding is recommended to come from this value set) (codes = https://spor.ema.europa.eu/v1/lists/100000072049#100000072099)
 INFORMATION: Bundle/006-Yaz-0023mg-tablet-SE-FullProduct: Bundle.entry[2].resource.ofType(RegulatedAuthorization).status.coding[0]: Code System URI 'https://spor.ema.europa.eu/v1/lists/100000072049' is unknown so the code cannot be validated
-WARNING: Bundle/006-Yaz-0023mg-tablet-SE-FullProduct: Bundle.entry[2].resource.ofType(RegulatedAuthorization).holder: Entry 1 matches the reference Organization/LOC-100016468-BayerAB by type and id but it's fullUrl https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organisation/LOC-100016468-BayerAB does not match the full target URL https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organization/LOC-100016468-BayerAB by Bundle resolution rules
 INFORMATION: Bundle/006-Yaz-0023mg-tablet-SE-FullProduct: Bundle.entry[5].resource.ofType(PackagedProductDefinition).marketingStatus[0].status.coding[0]: Code System URI 'https://spor.ema.europa.eu/v1/lists/100000072052' is unknown so the code cannot be validated
 INFORMATION: Bundle/006-Yaz-0023mg-tablet-SE-FullProduct: Bundle.entry[5].resource.ofType(PackagedProductDefinition).package.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/v1/lists/100000073346' is unknown so the code cannot be validated
 INFORMATION: Bundle/006-Yaz-0023mg-tablet-SE-FullProduct: Bundle.entry[5].resource.ofType(PackagedProductDefinition).package.shelfLifeStorage[0].type.coding[0]: Code System URI 'https://spor.ema.europa.eu/v1/lists/100000073343' is unknown so the code cannot be validated
@@ -299,9 +298,6 @@ INFORMATION: Bundle/007-Paracetamol-Kabi10mg-1ml-EE-FullProduct: Bundle.entry[0]
 INFORMATION: Bundle/007-Paracetamol-Kabi10mg-1ml-EE-FullProduct: Bundle.entry[1].resource.ofType(RegulatedAuthorization).type.coding[0]: Code System URI 'https://spor.ema.europa.eu/v1/lists/220000000060' is unknown so the code cannot be validated
 INFORMATION: Bundle/007-Paracetamol-Kabi10mg-1ml-EE-FullProduct: Bundle.entry[1].resource.ofType(RegulatedAuthorization).status: None of the codings provided are in the value set 'PublicationStatus' (http://hl7.org/fhir/ValueSet/publication-status|5.0.0-cibuild), and a coding is recommended to come from this value set) (codes = https://spor.ema.europa.eu/v1/lists/100000072049#200000017708)
 INFORMATION: Bundle/007-Paracetamol-Kabi10mg-1ml-EE-FullProduct: Bundle.entry[1].resource.ofType(RegulatedAuthorization).status.coding[0]: Code System URI 'https://spor.ema.europa.eu/v1/lists/100000072049' is unknown so the code cannot be validated
-WARNING: Bundle/007-Paracetamol-Kabi10mg-1ml-EE-FullProduct: Bundle.entry[1].resource.ofType(RegulatedAuthorization).holder: Entry 2 matches the reference Organization/LOC-100008123-FreseniusKabiPolska by type and id but it's fullUrl https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organisation/LOC-100008123-FreseniusKabiPolska does not match the full target URL https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organization/LOC-100008123-FreseniusKabiPolska by Bundle resolution rules
-WARNING: Bundle/007-Paracetamol-Kabi10mg-1ml-EE-FullProduct: Bundle.entry[3].resource.ofType(AdministrableProductDefinition).administrableDoseForm.coding[0]: Display Name for https://spor.ema.europa.eu/v1/lists/200000000004#100000174051 should be 'Solution for solution for infusion', not 'Solution for solution for infusion ' for 'https://spor.ema.europa.eu/v1/lists/200000000004#100000174051'
-WARNING: Bundle/007-Paracetamol-Kabi10mg-1ml-EE-FullProduct: Bundle.entry[3].resource.ofType(AdministrableProductDefinition).administrableDoseForm.coding[0].display: value should not start or finish with whitespace 'Solution...infusion '
 WARNING: Bundle/007-Paracetamol-Kabi10mg-1ml-EE-FullProduct: Bundle.entry[4].resource.ofType(ManufacturedItemDefinition).manufacturedDoseForm: ValueSet http://hl7.org/fhir/ValueSet/manufactured-dose-form not found by validator
 WARNING: Bundle/007-Paracetamol-Kabi10mg-1ml-EE-FullProduct: Bundle.entry[5].resource.ofType(ManufacturedItemDefinition).manufacturedDoseForm: ValueSet http://hl7.org/fhir/ValueSet/manufactured-dose-form not found by validator
 WARNING: Bundle/007-Paracetamol-Kabi10mg-1ml-EE-FullProduct: Bundle.entry[6].resource.ofType(ManufacturedItemDefinition).manufacturedDoseForm: ValueSet http://hl7.org/fhir/ValueSet/manufactured-dose-form not found by validator
@@ -333,11 +329,9 @@ INFORMATION: Bundle/008-Clexane-60mg-0.6ml-EE-FullProduct: Bundle.entry[0].resou
 INFORMATION: Bundle/008-Clexane-60mg-0.6ml-EE-FullProduct: Bundle.entry[1].resource.ofType(RegulatedAuthorization).type.coding[0]: Code System URI 'https://spor.ema.europa.eu/v1/lists/220000000060' is unknown so the code cannot be validated
 INFORMATION: Bundle/008-Clexane-60mg-0.6ml-EE-FullProduct: Bundle.entry[1].resource.ofType(RegulatedAuthorization).status: None of the codings provided are in the value set 'PublicationStatus' (http://hl7.org/fhir/ValueSet/publication-status|5.0.0-cibuild), and a coding is recommended to come from this value set) (codes = https://spor.ema.europa.eu/v1/lists/100000072049#200000017708)
 INFORMATION: Bundle/008-Clexane-60mg-0.6ml-EE-FullProduct: Bundle.entry[1].resource.ofType(RegulatedAuthorization).status.coding[0]: Code System URI 'https://spor.ema.europa.eu/v1/lists/100000072049' is unknown so the code cannot be validated
-WARNING: Bundle/008-Clexane-60mg-0.6ml-EE-FullProduct: Bundle.entry[1].resource.ofType(RegulatedAuthorization).holder: Entry 2 matches the reference Organization/LOC-100001368-Sanofi-Aventis by type and id but it's fullUrl https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organisation/LOC-100001368-Sanofi-Aventis does not match the full target URL https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organization/LOC-100001368-Sanofi-Aventis by Bundle resolution rules
 WARNING: Bundle/008-Clexane-60mg-0.6ml-EE-FullProduct: Bundle.entry[4].resource.ofType(ManufacturedItemDefinition).manufacturedDoseForm: ValueSet http://hl7.org/fhir/ValueSet/manufactured-dose-form not found by validator
 INFORMATION: Bundle/008-Clexane-60mg-0.6ml-EE-FullProduct: Bundle.entry[5].resource.ofType(Ingredient).role.coding[0]: Code System URI 'https://spor.ema.europa.eu/v1/lists/100000072050' is unknown so the code cannot be validated
 INFORMATION: Bundle/008-Clexane-60mg-0.6ml-EE-FullProduct: Bundle.entry[5].resource.ofType(Ingredient).substance.code.concept.coding[0]: Code System URI 'https://spor.ema.europa.eu/v2/SubstanceDefinition' is unknown so the code cannot be validated
-WARNING: Bundle/008-Clexane-60mg-0.6ml-EE-FullProduct: Bundle.entry[5].resource.ofType(Ingredient).substance.strength[0].concentration.ofType(Ratio).numerator.unit: value should not start or finish with whitespace ' milligram(s)'
 INFORMATION: Bundle/008-Clexane-60mg-0.6ml-EE-FullProduct: Bundle.entry[6].resource.ofType(PackagedProductDefinition).marketingStatus[0].status.coding[0]: Code System URI 'https://spor.ema.europa.eu/v1/lists/100000072052' is unknown so the code cannot be validated
 INFORMATION: Bundle/008-Clexane-60mg-0.6ml-EE-FullProduct: Bundle.entry[6].resource.ofType(PackagedProductDefinition).package.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/v1/lists/100000073346' is unknown so the code cannot be validated
 INFORMATION: Bundle/008-Clexane-60mg-0.6ml-EE-FullProduct: Bundle.entry[6].resource.ofType(PackagedProductDefinition).package.package[0].type.coding[0]: Code System URI 'https://spor.ema.europa.eu/v1/lists/100000073346' is unknown so the code cannot be validated
