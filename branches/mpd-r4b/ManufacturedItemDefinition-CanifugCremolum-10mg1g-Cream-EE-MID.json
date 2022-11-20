@@ -14,7 +14,7 @@
   "manufacturedDoseForm": {
     "coding": [
       {
-        "system": "http://spor.ema.europa.eu/v1/lists/200000000004",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
         "code": "100000073712",
         "display": "Cream"
       }
@@ -23,7 +23,7 @@
   "unitOfPresentation": {
     "coding": [
       {
-        "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
         "code": "200000002156",
         "display": "Tube"
       }

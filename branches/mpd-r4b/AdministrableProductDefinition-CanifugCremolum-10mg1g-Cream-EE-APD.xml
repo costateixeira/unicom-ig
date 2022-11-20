@@ -14,14 +14,14 @@
   </formOf>
   <administrableDoseForm>
     <coding>
-      <system value="http://spor.ema.europa.eu/v1/lists/200000000004"/>
+      <system value="https://spor.ema.europa.eu/v1/lists/200000000004"/>
       <code value="100000073712"/>
       <display value="Cream"/>
     </coding>
   </administrableDoseForm>
   <unitOfPresentation>
     <coding>
-      <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
+      <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
       <code value="200000002156"/>
       <display value="Tube"/>
     </coding>
@@ -32,7 +32,7 @@
   <routeOfAdministration>
     <code>
       <coding>
-        <system value="http://spor.ema.europa.eu/v1/lists/100000073345"/>
+        <system value="https://spor.ema.europa.eu/v1/lists/100000073345"/>
         <code value="100000073566"/>
         <display value="Cutaneous use"/>
       </coding>

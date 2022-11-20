@@ -28,7 +28,7 @@
   fhir:AdministrableProductDefinition.administrableDoseForm [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000004" ];
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000004" ];
        fhir:Coding.code [ fhir:value "100000074038" ];
        fhir:Coding.display [ fhir:value "Solution for injection/infusion" ]
      ]
@@ -36,7 +36,7 @@
   fhir:AdministrableProductDefinition.unitOfPresentation [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000014" ];
        fhir:Coding.code [ fhir:value "200000002158" ];
        fhir:Coding.display [ fhir:value "Vial" ]
      ]
@@ -51,7 +51,7 @@
      fhir:AdministrableProductDefinition.routeOfAdministration.code [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073345" ];
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000073345" ];
          fhir:Coding.code [ fhir:value "100000073600" ];
          fhir:Coding.display [ fhir:value "Intramuscular use" ]
        ]
@@ -61,7 +61,7 @@
      fhir:AdministrableProductDefinition.routeOfAdministration.code [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073345" ];
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000073345" ];
          fhir:Coding.code [ fhir:value "100000073611" ];
          fhir:Coding.display [ fhir:value "Intravenous use" ]
        ]

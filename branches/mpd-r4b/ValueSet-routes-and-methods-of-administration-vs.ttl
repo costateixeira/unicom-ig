@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "routes-and-methods-of-administration-vs"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-routes-and-methods-of-administration-ema-cs.html\"><code>http://spor.ema.europa.eu/v1/lists/100000073345</code></a></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-routes-and-methods-of-administration-ema-cs.html\"><code>https://spor.ema.europa.eu/v1/lists/100000073345</code></a></li></ul></div>"
   ];
   fhir:ValueSet.url [ fhir:value "http://unicom-project.eu/fhir/ValueSet/routes-and-methods-of-administration-vs"];
   fhir:ValueSet.version [ fhir:value "0.1.0"];
   fhir:ValueSet.name [ fhir:value "RoutesAndMethodsOfAdministration"];
   fhir:ValueSet.title [ fhir:value "Routes and Methods of Administration"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2022-11-20T09:28:17+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-11-20T17:12:02+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "UNICOM"];
   fhir:ValueSet.contact [
      fhir:index 0;
@@ -32,7 +32,7 @@
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073345" ]
+       fhir:ValueSet.compose.include.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000073345" ]
      ]
   ] .
 

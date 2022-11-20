@@ -10,7 +10,7 @@
   "name": "UnicomIG",
   "title": "UnicomIG",
   "status": "draft",
-  "date": "2022-11-20T09:28:17+00:00",
+  "date": "2022-11-20T17:12:02+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -931,6 +931,48 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/country-ema-vs"
+        },
+        "name": "Country (EMA SPOR RMS)",
+        "description": "Countries. EMA SPOR RMS list.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/domain-vs"
+        },
+        "name": "Domain",
+        "description": "Domain of the medicinal product. EMA SPOR RMS list.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/language-ema-vs"
+        },
+        "name": "Language (EMA SPOR RMS)",
+        "description": "Languages. EMA SPOR RMS list.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/legal-status-for-the-supply-vs"
         },
         "name": "Legal Status for the Supply",
@@ -1047,6 +1089,47 @@
         },
         "name": "Combined Term EMA",
         "description": "Combined Term. Based on EDQM. Re-coded with RMS codes. Only used for authorised dose form.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/CountryEma"
+        },
+        "name": "CountryEma",
+        "description": "country",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/domain-ema-cs"
+        },
+        "name": "Domain EMA",
+        "description": "Domain of the medicinal product (human, veterinary, both)",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/LanguageEMA"
+        },
+        "name": "LanguageEMA",
         "exampleBoolean": false
       },
       {
@@ -1210,10 +1293,38 @@
           }
         ],
         "reference": {
-          "reference": "Bundle/006-Yaz-0023mg-tablet-SE-AJ"
+          "reference": "Bundle/006-Yaz-0023mg-tablet-SE-FullProduct"
         },
-        "name": "006-Yaz-0023mg-tablet-SE-AJ",
+        "name": "006-Yaz-0023mg-tablet-SE-FullProduct",
         "description": "YAZ ethinylestradiol 0.02mg, drosperinone 3mg, includes placebo tablets. Sweden. Different manufactured items in one container.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/007-Paracetamol-Kabi10mg-1ml-EE-FullProduct"
+        },
+        "name": "007-Paracetamol-Kabi10mg-1ml-EE-FullProduct",
+        "description": "Paracetamol Kabi 10mg/ml solution for infusion. One pharmaceutical product for three different manufactured items.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/008-Clexane-60mg-0.6ml-EE-FullProduct"
+        },
+        "name": "008-Clexane-60mg-0.6ml-EE-FullProduct",
+        "description": "Clexane, enoxaparine sodium 60mg/0.6ml, 2 pre-filled syringes. Presentation strength per quantity.",
         "exampleBoolean": true
       },
       {

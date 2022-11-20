@@ -15,7 +15,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"Agen-10mg-Tablet-EE-MPD\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;Agen-10mg-Tablet-EE-MPD&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLMedicinalProductDefinition.html\">PPL Medicinal Product profile</a></p></div><p><b>identifier</b>: id: EE-100002580-15548</p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000005003#200000005004)</span></p><p><b>combinedPharmaceuticalDoseForm</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-pharmaceutical-dose-form-ema-cs.html\">Pharmaceutical Dose Form EMA</a>#100000073664)</span></p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-legal-status-for-the-supply-ema-cs.html\">Legal Status for the Supply EMA</a>#100000072084)</span></p><p><b>classification</b>: amlodipine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000093533#100000095065; <a href=\"http://terminology.hl7.org/4.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#C08CA01)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: AGEN 10 mg tabletid</p><blockquote><p><b>namePart</b></p><p><b>part</b>: AGEN</p><p><b>type</b>: Invented name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 10 mg</p><p><b>type</b>: Strength part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: tabletid</p><p><b>type</b>: Pharmaceutical dose form part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000388)</span></td><td>Estonian <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072057#100000072172)</span></td></tr></table></blockquote></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"Agen-10mg-Tablet-EE-MPD\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;Agen-10mg-Tablet-EE-MPD&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLMedicinalProductDefinition.html\">PPL Medicinal Product profile</a></p></div><p><b>identifier</b>: id: EE-100002580-15548</p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-domain-ema-cs.html\">Domain EMA</a>#100000000012)</span></p><p><b>status</b>: Current <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000005003#200000005004)</span></p><p><b>combinedPharmaceuticalDoseForm</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-pharmaceutical-dose-form-ema-cs.html\">Pharmaceutical Dose Form EMA</a>#100000073664)</span></p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-legal-status-for-the-supply-ema-cs.html\">Legal Status for the Supply EMA</a>#100000072084)</span></p><p><b>classification</b>: amlodipine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000093533#100000095065; <a href=\"http://terminology.hl7.org/4.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#C08CA01)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: AGEN 10 mg tabletid</p><blockquote><p><b>namePart</b></p><p><b>part</b>: AGEN</p><p><b>type</b>: Invented name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 10 mg</p><p><b>type</b>: Strength part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: tabletid</p><p><b>type</b>: Pharmaceutical dose form part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-CountryEma.html\">CountryEma</a>#100000000388)</span></td><td>Estonian <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-LanguageEMA.html\">LanguageEMA</a>#100000072172)</span></td></tr></table></blockquote></div>"
         },
         "identifier": [
           {
@@ -26,7 +26,7 @@
         "domain": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/100000000004",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000000004",
               "code": "100000000012",
               "display": "Human use"
             }
@@ -35,7 +35,7 @@
         "status": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/200000005003",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000005003",
               "code": "200000005004",
               "display": "Current"
             }
@@ -44,7 +44,7 @@
         "combinedPharmaceuticalDoseForm": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/200000000004",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
               "code": "100000073664",
               "display": "Tablet"
             }
@@ -53,7 +53,7 @@
         "legalStatusOfSupply": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/100000072051",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072051",
               "code": "100000072084",
               "display": "Medicinal product subject to medical prescription"
             }
@@ -63,7 +63,7 @@
           {
             "coding": [
               {
-                "system": "http://spor.ema.europa.eu/v1/lists/100000093533",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000093533",
                 "code": "100000095065",
                 "display": "amlodipine"
               },
@@ -84,7 +84,7 @@
                 "type": {
                   "coding": [
                     {
-                      "system": "http://spor.ema.europa.eu/v1/lists/220000000000",
+                      "system": "https://spor.ema.europa.eu/v1/lists/220000000000",
                       "code": "220000000002",
                       "display": "Invented name part"
                     }
@@ -96,7 +96,7 @@
                 "type": {
                   "coding": [
                     {
-                      "system": "http://spor.ema.europa.eu/v1/lists/220000000000",
+                      "system": "https://spor.ema.europa.eu/v1/lists/220000000000",
                       "code": "220000000004",
                       "display": "Strength part"
                     }
@@ -108,7 +108,7 @@
                 "type": {
                   "coding": [
                     {
-                      "system": "http://spor.ema.europa.eu/v1/lists/220000000000",
+                      "system": "https://spor.ema.europa.eu/v1/lists/220000000000",
                       "code": "220000000005",
                       "display": "Pharmaceutical dose form part"
                     }
@@ -121,7 +121,7 @@
                 "country": {
                   "coding": [
                     {
-                      "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
                       "code": "100000000388",
                       "display": "Republic of Estonia"
                     }
@@ -130,7 +130,7 @@
                 "language": {
                   "coding": [
                     {
-                      "system": "http://spor.ema.europa.eu/v1/lists/100000072057",
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000072057",
                       "code": "100000072172",
                       "display": "Estonian"
                     }
@@ -158,7 +158,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"Agen-10mg-Tablet-EE-RA\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;Agen-10mg-Tablet-EE-RA&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLRegulatedAuthorization.html\">PPL Marketing Authorisation profile</a></p></div><p><b>identifier</b>: id: 418403</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_Agen-10mg-Tablet-EE-MPD\">See above (MedicinalProductDefinition/Agen-10mg-Tablet-EE-MPD)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000060#220000000061)</span></p><p><b>region</b>: Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000388)</span></p><p><b>status</b>: Valid - Renewed/Varied <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072049#200000017708)</span></p><p><b>statusDate</b>: 2013-06-07</p><p><b>holder</b>: <a href=\"Organization-LOC-100002580-Zentiva.html\">Organization/LOC-100002580-Zentiva</a> &quot;Zentiva k.s.&quot;</p></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"Agen-10mg-Tablet-EE-RA\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;Agen-10mg-Tablet-EE-RA&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLRegulatedAuthorization.html\">PPL Marketing Authorisation profile</a></p></div><p><b>identifier</b>: id: 418403</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_Agen-10mg-Tablet-EE-MPD\">See above (MedicinalProductDefinition/Agen-10mg-Tablet-EE-MPD)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000060#220000000061)</span></p><p><b>region</b>: Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-CountryEma.html\">CountryEma</a>#100000000388)</span></p><p><b>status</b>: Valid - Renewed/Varied <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072049#200000017708)</span></p><p><b>statusDate</b>: 2013-06-07</p><p><b>holder</b>: <a href=\"Organization-LOC-100002580-Zentiva.html\">Organization/LOC-100002580-Zentiva</a> &quot;Zentiva k.s.&quot;</p></div>"
         },
         "identifier": [
           {
@@ -173,7 +173,7 @@
         "type": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/220000000060",
+              "system": "https://spor.ema.europa.eu/v1/lists/220000000060",
               "code": "220000000061",
               "display": "Marketing Authorisation"
             }
@@ -183,7 +183,7 @@
           {
             "coding": [
               {
-                "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
                 "code": "100000000388",
                 "display": "Republic of Estonia"
               }
@@ -193,7 +193,7 @@
         "status": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/100000072049",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072049",
               "code": "200000017708",
               "display": "Valid - Renewed/Varied"
             }
@@ -232,7 +232,7 @@
         "administrableDoseForm": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/200000000004",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
               "code": "100000073664",
               "display": "Tablet"
             }
@@ -241,7 +241,7 @@
         "unitOfPresentation": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
               "code": "200000002152",
               "display": "Tablet"
             }
@@ -257,7 +257,7 @@
             "code": {
               "coding": [
                 {
-                  "system": "http://spor.ema.europa.eu/v1/lists/100000073345",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000073345",
                   "code": "100000073619",
                   "display": "Oral use"
                 }
@@ -289,7 +289,7 @@
         "manufacturedDoseForm": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/200000000004",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
               "code": "100000073664",
               "display": "Tablet"
             }
@@ -298,7 +298,7 @@
         "unitOfPresentation": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
               "code": "200000002152",
               "display": "Tablet"
             }
@@ -322,7 +322,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"Agen-10mg-Tablet-EE-I\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;Agen-10mg-Tablet-EE-I&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLIngredient.html\">PPL Ingredient profile</a></p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_Agen-10mg-Tablet-EE-MPD\">See above (MedicinalProductDefinition/Agen-10mg-Tablet-EE-MPD)</a></li><li><a href=\"#ManufacturedItemDefinition_Agen-10mg-Tablet-EE-MID\">See above (ManufacturedItemDefinition/Agen-10mg-Tablet-EE-MID)</a></li><li><a href=\"#AdministrableProductDefinition_Agen-10mg-Tablet-EE-APD\">See above (AdministrableProductDefinition/Agen-10mg-Tablet-EE-APD)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Amlodipine besilate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000090079)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>presentation</b>: 13.87 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = 'milligram(s)')</span>/1(unit 200000002152 from http://spor.ema.europa.eu/v1/lists/200000000014)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = 'Tablet')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Amlodipine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000085259)</span></td></tr></table><p><b>strength</b>: 10 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = 'milligram(s)')</span>/1(unit 200000002152 from http://spor.ema.europa.eu/v1/lists/200000000014)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = 'Tablet')</span></p></blockquote></blockquote></blockquote></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"Agen-10mg-Tablet-EE-I\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;Agen-10mg-Tablet-EE-I&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLIngredient.html\">PPL Ingredient profile</a></p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_Agen-10mg-Tablet-EE-MPD\">See above (MedicinalProductDefinition/Agen-10mg-Tablet-EE-MPD)</a></li><li><a href=\"#ManufacturedItemDefinition_Agen-10mg-Tablet-EE-MID\">See above (ManufacturedItemDefinition/Agen-10mg-Tablet-EE-MID)</a></li><li><a href=\"#AdministrableProductDefinition_Agen-10mg-Tablet-EE-APD\">See above (AdministrableProductDefinition/Agen-10mg-Tablet-EE-APD)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Amlodipine besilate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000090079)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>presentation</b>: 13.87 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = 'milligram(s)')</span>/1(unit 200000002152 from https://spor.ema.europa.eu/v1/lists/200000000014)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = 'Tablet')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Amlodipine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000085259)</span></td></tr></table><p><b>strength</b>: 10 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = 'milligram(s)')</span>/1(unit 200000002152 from https://spor.ema.europa.eu/v1/lists/200000000014)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = 'Tablet')</span></p></blockquote></blockquote></blockquote></div>"
         },
         "status": "active",
         "for": [
@@ -339,7 +339,7 @@
         "role": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/100000072050",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
               "code": "100000072072",
               "display": "Active"
             }
@@ -363,12 +363,12 @@
                 "numerator": {
                   "value": 13.87,
                   "unit": "milligram(s)",
-                  "system": "http://spor.ema.europa.eu/v1/lists/100000110633",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
                   "code": "100000110655"
                 },
                 "denominator": {
                   "value": 1,
-                  "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+                  "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
                   "code": "200000002152"
                 }
               },
@@ -389,12 +389,12 @@
                     "numerator": {
                       "value": 10,
                       "unit": "milligram(s)",
-                      "system": "http://spor.ema.europa.eu/v1/lists/100000110633",
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
                       "code": "100000110655"
                     },
                     "denominator": {
                       "value": 1,
-                      "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
                       "code": "200000002152"
                     }
                   }
@@ -421,7 +421,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"Agen-10mg-Tablet-EE-PPD-1109900-A\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;Agen-10mg-Tablet-EE-PPD-1109900-A&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLPackagedProductDefinition.html\">PPL Packaged Product profile</a></p></div><p><b>identifier</b>: id: EE-100002580-15548-1109900a</p><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_Agen-10mg-Tablet-EE-MPD\">See above (MedicinalProductDefinition/Agen-10mg-Tablet-EE-MPD)</a></p><p><b>containedItemQuantity</b>: 30 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = 'Tablet')</span></p><p><b>description</b>: Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged).</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000388)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073496)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003222)</span>, PolyVinylidene Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003225)</span>, Aluminium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003200)</span></p></blockquote></blockquote></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"Agen-10mg-Tablet-EE-PPD-1109900-A\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;Agen-10mg-Tablet-EE-PPD-1109900-A&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLPackagedProductDefinition.html\">PPL Packaged Product profile</a></p></div><p><b>identifier</b>: id: EE-100002580-15548-1109900a</p><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_Agen-10mg-Tablet-EE-MPD\">See above (MedicinalProductDefinition/Agen-10mg-Tablet-EE-MPD)</a></p><p><b>containedItemQuantity</b>: 30 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = 'Tablet')</span></p><p><b>description</b>: Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged).</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-CountryEma.html\">CountryEma</a>#100000000388)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073496)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003222)</span>, PolyVinylidene Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003225)</span>, Aluminium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003200)</span></p></blockquote></blockquote></div>"
         },
         "identifier": [
           {
@@ -438,7 +438,7 @@
           {
             "value": 30,
             "unit": "Tablet",
-            "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+            "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
             "code": "200000002152"
           }
         ],
@@ -448,7 +448,7 @@
             "country": {
               "coding": [
                 {
-                  "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
                   "code": "100000000388",
                   "display": "Republic of Estonia"
                 }
@@ -457,7 +457,7 @@
             "status": {
               "coding": [
                 {
-                  "system": "http://spor.ema.europa.eu/v1/lists/100000072052",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000072052",
                   "code": "100000072083",
                   "display": "Marketed"
                 }
@@ -469,7 +469,7 @@
           "type": {
             "coding": [
               {
-                "system": "http://spor.ema.europa.eu/v1/lists/100000073346",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
                 "code": "100000073498",
                 "display": "Box"
               }
@@ -480,7 +480,7 @@
             {
               "coding": [
                 {
-                  "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                  "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
                   "code": "200000003529",
                   "display": "Cardboard"
                 }
@@ -492,7 +492,7 @@
               "type": {
                 "coding": [
                   {
-                    "system": "http://spor.ema.europa.eu/v1/lists/100000073346",
+                    "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
                     "code": "100000073496",
                     "display": "Blister"
                   }
@@ -503,7 +503,7 @@
                 {
                   "coding": [
                     {
-                      "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
                       "code": "200000003222",
                       "display": "PolyVinyl Chloride"
                     }
@@ -512,7 +512,7 @@
                 {
                   "coding": [
                     {
-                      "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
                       "code": "200000003225",
                       "display": "PolyVinylidene Chloride"
                     }
@@ -521,7 +521,7 @@
                 {
                   "coding": [
                     {
-                      "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
                       "code": "200000003200",
                       "display": "Aluminium"
                     }
@@ -561,7 +561,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"Agen-10mg-Tablet-EE-PPD-1109900-B\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;Agen-10mg-Tablet-EE-PPD-1109900-B&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLPackagedProductDefinition.html\">PPL Packaged Product profile</a></p></div><p><b>identifier</b>: id: EE-100002580-15548-1109900b</p><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_Agen-10mg-Tablet-EE-MPD\">See above (MedicinalProductDefinition/Agen-10mg-Tablet-EE-MPD)</a></p><p><b>containedItemQuantity</b>: 30 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = 'Tablet')</span></p><p><b>description</b>: Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged).</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000388)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073496)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003222)</span>, Aluminium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003200)</span></p></blockquote></blockquote></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"Agen-10mg-Tablet-EE-PPD-1109900-B\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;Agen-10mg-Tablet-EE-PPD-1109900-B&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLPackagedProductDefinition.html\">PPL Packaged Product profile</a></p></div><p><b>identifier</b>: id: EE-100002580-15548-1109900b</p><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_Agen-10mg-Tablet-EE-MPD\">See above (MedicinalProductDefinition/Agen-10mg-Tablet-EE-MPD)</a></p><p><b>containedItemQuantity</b>: 30 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = 'Tablet')</span></p><p><b>description</b>: Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged).</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-CountryEma.html\">CountryEma</a>#100000000388)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073496)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003222)</span>, Aluminium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003200)</span></p></blockquote></blockquote></div>"
         },
         "identifier": [
           {
@@ -578,7 +578,7 @@
           {
             "value": 30,
             "unit": "Tablet",
-            "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+            "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
             "code": "200000002152"
           }
         ],
@@ -588,7 +588,7 @@
             "country": {
               "coding": [
                 {
-                  "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
                   "code": "100000000388",
                   "display": "Republic of Estonia"
                 }
@@ -597,7 +597,7 @@
             "status": {
               "coding": [
                 {
-                  "system": "http://spor.ema.europa.eu/v1/lists/100000072052",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000072052",
                   "code": "100000072083",
                   "display": "Marketed"
                 }
@@ -609,7 +609,7 @@
           "type": {
             "coding": [
               {
-                "system": "http://spor.ema.europa.eu/v1/lists/100000073346",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
                 "code": "100000073498",
                 "display": "Box"
               }
@@ -620,7 +620,7 @@
             {
               "coding": [
                 {
-                  "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                  "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
                   "code": "200000003529",
                   "display": "Cardboard"
                 }
@@ -632,7 +632,7 @@
               "type": {
                 "coding": [
                   {
-                    "system": "http://spor.ema.europa.eu/v1/lists/100000073346",
+                    "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
                     "code": "100000073496",
                     "display": "Blister"
                   }
@@ -643,7 +643,7 @@
                 {
                   "coding": [
                     {
-                      "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
                       "code": "200000003222",
                       "display": "PolyVinyl Chloride"
                     }
@@ -652,7 +652,7 @@
                 {
                   "coding": [
                     {
-                      "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
                       "code": "200000003200",
                       "display": "Aluminium"
                     }

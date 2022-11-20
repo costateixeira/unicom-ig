@@ -3,14 +3,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="unit-of-measurement-vs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-unit-of-measurement-ema-cs.html"><code>http://spor.ema.europa.eu/v1/lists/100000110633</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-unit-of-measurement-ema-cs.html"><code>https://spor.ema.europa.eu/v1/lists/100000110633</code></a></li></ul></div>
   </text>
   <url value="http://unicom-project.eu/fhir/ValueSet/unit-of-measurement-vs"/>
   <version value="0.1.0"/>
   <name value="UnitOfMeasurement"/>
   <title value="Unit of Measurement EMA"/>
   <status value="active"/>
-  <date value="2022-11-20T09:28:17+00:00"/>
+  <date value="2022-11-20T17:12:02+00:00"/>
   <publisher value="UNICOM"/>
   <contact>
     <name value="UNICOM"/>
@@ -22,7 +22,7 @@
   <description value="Units of measurement. EMA SPOR RMS list based on UCUM."/>
   <compose>
     <include>
-      <system value="http://spor.ema.europa.eu/v1/lists/100000110633"/>
+      <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
     </include>
   </compose>
 </ValueSet>

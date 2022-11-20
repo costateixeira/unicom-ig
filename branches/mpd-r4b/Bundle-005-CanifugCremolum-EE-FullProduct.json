@@ -15,7 +15,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"CanifugCremolum-EE-MPD\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;CanifugCremolum-EE-MPD&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLMedicinalProductDefinition.html\">PPL Medicinal Product profile</a></p></div><p><b>identifier</b>: id: EE-100004795-10280, id: EE00000003</p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000005003#200000005004)</span></p><p><b>combinedPharmaceuticalDoseForm</b>: Cream + pessary <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-combination-package-ema-cs.html\">Combination Package EMA</a>#100000173972)</span></p><p><b>legalStatusOfSupply</b>: Medicinal Product subject to medical prescription <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-legal-status-for-the-supply-ema-cs.html\">Legal Status for the Supply EMA</a>#100000072084)</span></p><p><b>classification</b>: clotrimazole <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000093533#100000095693; <a href=\"http://terminology.hl7.org/4.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#G01AF02)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Canifug Cremolum</p><h3>NameParts</h3><table class=\"grid\"><tr><td>-</td><td><b>Part</b></td><td><b>Type</b></td></tr><tr><td>*</td><td>Canifug Cremolum</td><td>Invented name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></td></tr></table><h3>CountryLanguages</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000388)</span></td><td>Estonian <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072057#100000072172)</span></td></tr></table></blockquote></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"CanifugCremolum-EE-MPD\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;CanifugCremolum-EE-MPD&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLMedicinalProductDefinition.html\">PPL Medicinal Product profile</a></p></div><p><b>identifier</b>: id: EE-100004795-10280, id: EE00000003</p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-domain-ema-cs.html\">Domain EMA</a>#100000000012)</span></p><p><b>status</b>: Current <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000005003#200000005004)</span></p><p><b>combinedPharmaceuticalDoseForm</b>: Cream + pessary <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-combination-package-ema-cs.html\">Combination Package EMA</a>#100000173972)</span></p><p><b>legalStatusOfSupply</b>: Medicinal Product subject to medical prescription <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-legal-status-for-the-supply-ema-cs.html\">Legal Status for the Supply EMA</a>#100000072084)</span></p><p><b>classification</b>: clotrimazole <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000093533#100000095693; <a href=\"http://terminology.hl7.org/4.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#G01AF02)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Canifug Cremolum</p><h3>NameParts</h3><table class=\"grid\"><tr><td>-</td><td><b>Part</b></td><td><b>Type</b></td></tr><tr><td>*</td><td>Canifug Cremolum</td><td>Invented name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></td></tr></table><h3>CountryLanguages</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-CountryEma.html\">CountryEma</a>#100000000388)</span></td><td>Estonian <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-LanguageEMA.html\">LanguageEMA</a>#100000072172)</span></td></tr></table></blockquote></div>"
         },
         "identifier": [
           {
@@ -30,7 +30,7 @@
         "domain": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/100000000004",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000000004",
               "code": "100000000012",
               "display": "Human use"
             }
@@ -39,7 +39,7 @@
         "status": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/200000005003",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000005003",
               "code": "200000005004",
               "display": "Current"
             }
@@ -48,7 +48,7 @@
         "combinedPharmaceuticalDoseForm": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/200000000008",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000008",
               "code": "100000173972",
               "display": "Cream + pessary"
             }
@@ -57,7 +57,7 @@
         "legalStatusOfSupply": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/100000072051",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072051",
               "code": "100000072084",
               "display": "Medicinal Product subject to medical prescription"
             }
@@ -67,7 +67,7 @@
           {
             "coding": [
               {
-                "system": "http://spor.ema.europa.eu/v1/lists/100000093533",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000093533",
                 "code": "100000095693",
                 "display": "clotrimazole"
               },
@@ -88,7 +88,7 @@
                 "type": {
                   "coding": [
                     {
-                      "system": "http://spor.ema.europa.eu/v1/lists/220000000000",
+                      "system": "https://spor.ema.europa.eu/v1/lists/220000000000",
                       "code": "220000000002",
                       "display": "Invented name part"
                     }
@@ -101,7 +101,7 @@
                 "country": {
                   "coding": [
                     {
-                      "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
                       "code": "100000000388",
                       "display": "Republic of Estonia"
                     }
@@ -110,7 +110,7 @@
                 "language": {
                   "coding": [
                     {
-                      "system": "http://spor.ema.europa.eu/v1/lists/100000072057",
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000072057",
                       "code": "100000072172",
                       "display": "Estonian"
                     }
@@ -138,7 +138,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"CanifugCremolum-EE-RA\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;CanifugCremolum-EE-RA&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLRegulatedAuthorization.html\">PPL Marketing Authorisation profile</a></p></div><p><b>identifier</b>: id: 366201</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_CanifugCremolum-EE-MPD\">See above (MedicinalProductDefinition/CanifugCremolum-EE-MPD)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000060#220000000061)</span></p><p><b>region</b>: Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000388)</span></p><p><b>status</b>: Valid - Renewed/Varied <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072049#200000017708)</span></p><p><b>statusDate</b>: 2011-10-19</p><p><b>holder</b>: <a href=\"Organization-LOC-100004795-Wolff-Arzneimittel.html\">Organization/LOC-100004795-Wolff-Arzneimittel</a> &quot;Dr. August Wolff GmbH &amp; Co. KG Arzneimittel&quot;</p></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"CanifugCremolum-EE-RA\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;CanifugCremolum-EE-RA&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLRegulatedAuthorization.html\">PPL Marketing Authorisation profile</a></p></div><p><b>identifier</b>: id: 366201</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_CanifugCremolum-EE-MPD\">See above (MedicinalProductDefinition/CanifugCremolum-EE-MPD)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000060#220000000061)</span></p><p><b>region</b>: Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-CountryEma.html\">CountryEma</a>#100000000388)</span></p><p><b>status</b>: Valid - Renewed/Varied <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072049#200000017708)</span></p><p><b>statusDate</b>: 2011-10-19</p><p><b>holder</b>: <a href=\"Organization-LOC-100004795-Wolff-Arzneimittel.html\">Organization/LOC-100004795-Wolff-Arzneimittel</a> &quot;Dr. August Wolff GmbH &amp; Co. KG Arzneimittel&quot;</p></div>"
         },
         "identifier": [
           {
@@ -153,7 +153,7 @@
         "type": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/220000000060",
+              "system": "https://spor.ema.europa.eu/v1/lists/220000000060",
               "code": "220000000061",
               "display": "Marketing Authorisation"
             }
@@ -163,7 +163,7 @@
           {
             "coding": [
               {
-                "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
                 "code": "100000000388",
                 "display": "Republic of Estonia"
               }
@@ -173,7 +173,7 @@
         "status": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/100000072049",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072049",
               "code": "200000017708",
               "display": "Valid - Renewed/Varied"
             }
@@ -212,7 +212,7 @@
         "administrableDoseForm": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/200000000004",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
               "code": "100000073712",
               "display": "Cream"
             }
@@ -221,7 +221,7 @@
         "unitOfPresentation": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
               "code": "200000002156",
               "display": "Tube"
             }
@@ -237,7 +237,7 @@
             "code": {
               "coding": [
                 {
-                  "system": "http://spor.ema.europa.eu/v1/lists/100000073345",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000073345",
                   "code": "100000073566",
                   "display": "Cutaneous use"
                 }
@@ -274,7 +274,7 @@
         "administrableDoseForm": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/200000000004",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
               "code": "100000073815",
               "display": "Pessary"
             }
@@ -283,7 +283,7 @@
         "unitOfPresentation": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
               "code": "200000002137",
               "display": "Pessary"
             }
@@ -299,7 +299,7 @@
             "code": {
               "coding": [
                 {
-                  "system": "http://spor.ema.europa.eu/v1/lists/100000073345",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000073345",
                   "code": "100000073639",
                   "display": "Vaginal use"
                 }
@@ -331,7 +331,7 @@
         "manufacturedDoseForm": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/200000000004",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
               "code": "100000073712",
               "display": "Cream"
             }
@@ -340,7 +340,7 @@
         "unitOfPresentation": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
               "code": "200000002156",
               "display": "Tube"
             }
@@ -370,7 +370,7 @@
         "manufacturedDoseForm": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/200000000004",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
               "code": "100000073815",
               "display": "Pessary"
             }
@@ -379,7 +379,7 @@
         "unitOfPresentation": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
               "code": "200000002137",
               "display": "Pessary"
             }
@@ -403,7 +403,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"CanifugCremolum-10mg1g-Cream-EE-I\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;CanifugCremolum-10mg1g-Cream-EE-I&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLIngredient.html\">PPL Ingredient profile</a></p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_CanifugCremolum-EE-MPD\">See above (MedicinalProductDefinition/CanifugCremolum-EE-MPD)</a></li><li><a href=\"#ManufacturedItemDefinition_CanifugCremolum-10mg1g-Cream-EE-MID\">See above (ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID)</a></li><li><a href=\"#AdministrableProductDefinition_CanifugCremolum-10mg1g-Cream-EE-APD\">See above (AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>CLOTRIMAZOLE <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000092074)</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td>-</td><td><b>Concentration[x]</b></td></tr><tr><td>*</td><td>10 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = 'milligram(s)')</span>/1 gram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110654 = 'gram(s)')</span></td></tr></table></blockquote></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"CanifugCremolum-10mg1g-Cream-EE-I\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;CanifugCremolum-10mg1g-Cream-EE-I&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLIngredient.html\">PPL Ingredient profile</a></p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_CanifugCremolum-EE-MPD\">See above (MedicinalProductDefinition/CanifugCremolum-EE-MPD)</a></li><li><a href=\"#ManufacturedItemDefinition_CanifugCremolum-10mg1g-Cream-EE-MID\">See above (ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID)</a></li><li><a href=\"#AdministrableProductDefinition_CanifugCremolum-10mg1g-Cream-EE-APD\">See above (AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>CLOTRIMAZOLE <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000092074)</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td>-</td><td><b>Concentration[x]</b></td></tr><tr><td>*</td><td>10 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = 'milligram(s)')</span>/1 gram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110654 = 'gram(s)')</span></td></tr></table></blockquote></div>"
         },
         "status": "active",
         "for": [
@@ -420,7 +420,7 @@
         "role": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/100000072050",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
               "code": "100000072072",
               "display": "Active"
             }
@@ -444,13 +444,13 @@
                 "numerator": {
                   "value": 10,
                   "unit": "milligram(s)",
-                  "system": "http://spor.ema.europa.eu/v1/lists/100000110633",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
                   "code": "100000110655"
                 },
                 "denominator": {
                   "value": 1,
                   "unit": "gram(s)",
-                  "system": "http://spor.ema.europa.eu/v1/lists/100000110633",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
                   "code": "100000110654"
                 }
               }
@@ -475,7 +475,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"CanifugCremolum-100mg-Pessary-EE-I\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;CanifugCremolum-100mg-Pessary-EE-I&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLIngredient.html\">PPL Ingredient profile</a></p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_CanifugCremolum-EE-MPD\">See above (MedicinalProductDefinition/CanifugCremolum-EE-MPD)</a></li><li><a href=\"#ManufacturedItemDefinition_CanifugCremolum-100mg-Pessary-EE-MID\">See above (ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID)</a></li><li><a href=\"#AdministrableProductDefinition_CanifugCremolum-100mg-Pessary-EE-APD\">See above (AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>CLOTRIMAZOLE <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000092074)</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td>-</td><td><b>Presentation[x]</b></td></tr><tr><td>*</td><td>100 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = 'milligram(s)')</span>/1 Pessary<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002137 = 'Pessary')</span></td></tr></table></blockquote></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"CanifugCremolum-100mg-Pessary-EE-I\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;CanifugCremolum-100mg-Pessary-EE-I&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLIngredient.html\">PPL Ingredient profile</a></p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_CanifugCremolum-EE-MPD\">See above (MedicinalProductDefinition/CanifugCremolum-EE-MPD)</a></li><li><a href=\"#ManufacturedItemDefinition_CanifugCremolum-100mg-Pessary-EE-MID\">See above (ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID)</a></li><li><a href=\"#AdministrableProductDefinition_CanifugCremolum-100mg-Pessary-EE-APD\">See above (AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>CLOTRIMAZOLE <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000092074)</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td>-</td><td><b>Presentation[x]</b></td></tr><tr><td>*</td><td>100 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = 'milligram(s)')</span>/1 Pessary<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002137 = 'Pessary')</span></td></tr></table></blockquote></div>"
         },
         "status": "active",
         "for": [
@@ -492,7 +492,7 @@
         "role": {
           "coding": [
             {
-              "system": "http://spor.ema.europa.eu/v1/lists/100000072050",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
               "code": "100000072072",
               "display": "Active"
             }
@@ -516,13 +516,13 @@
                 "numerator": {
                   "value": 100,
                   "unit": "milligram(s)",
-                  "system": "http://spor.ema.europa.eu/v1/lists/100000110633",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
                   "code": "100000110655"
                 },
                 "denominator": {
                   "value": 1,
                   "unit": "Pessary",
-                  "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+                  "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
                   "code": "200000002137"
                 }
               }
@@ -547,7 +547,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"CanifugCremolum-EE-PPD-1033692\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;CanifugCremolum-EE-PPD-1033692&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLPackagedProductDefinition.html\">PPL Packaged Product profile</a></p></div><p><b>identifier</b>: id: EE-100004795-10280-1033692</p><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_CanifugCremolum-EE-MPD\">See above (MedicinalProductDefinition/CanifugCremolum-EE-MPD)</a></p><p><b>containedItemQuantity</b>: 6 Pessary<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002137 = 'Pessary')</span>, 1 Tube<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002156 = 'Tube')</span></p><p><b>description</b>: Alu/PE-fooliumist valmistatud ribapakend, mis on asetatud väliskarpi. Kreem on alumiiniumtuubis ja omakorda pappkarbis. Kombineeritud pakend sisaldab: 6 vaginaalsuposiiti ja 20 g kreemi</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000388)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Strip <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073559)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Aluminium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003200)</span>, PolyEthylene <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003214)</span></p></blockquote><blockquote><p><b>package</b></p><p><b>type</b>: Tube <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073346)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Aluminium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003200)</span></p></blockquote></blockquote></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"CanifugCremolum-EE-PPD-1033692\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;CanifugCremolum-EE-PPD-1033692&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLPackagedProductDefinition.html\">PPL Packaged Product profile</a></p></div><p><b>identifier</b>: id: EE-100004795-10280-1033692</p><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_CanifugCremolum-EE-MPD\">See above (MedicinalProductDefinition/CanifugCremolum-EE-MPD)</a></p><p><b>containedItemQuantity</b>: 6 Pessary<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002137 = 'Pessary')</span>, 1 Tube<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002156 = 'Tube')</span></p><p><b>description</b>: Alu/PE-fooliumist valmistatud ribapakend, mis on asetatud väliskarpi. Kreem on alumiiniumtuubis ja omakorda pappkarbis. Kombineeritud pakend sisaldab: 6 vaginaalsuposiiti ja 20 g kreemi</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-CountryEma.html\">CountryEma</a>#100000000388)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Strip <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073559)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Aluminium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003200)</span>, PolyEthylene <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003214)</span></p></blockquote><blockquote><p><b>package</b></p><p><b>type</b>: Tube <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073346)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Aluminium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003200)</span></p></blockquote></blockquote></div>"
         },
         "identifier": [
           {
@@ -564,13 +564,13 @@
           {
             "value": 6,
             "unit": "Pessary",
-            "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+            "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
             "code": "200000002137"
           },
           {
             "value": 1,
             "unit": "Tube",
-            "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+            "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
             "code": "200000002156"
           }
         ],
@@ -580,7 +580,7 @@
             "country": {
               "coding": [
                 {
-                  "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
                   "code": "100000000388",
                   "display": "Republic of Estonia"
                 }
@@ -589,7 +589,7 @@
             "status": {
               "coding": [
                 {
-                  "system": "http://spor.ema.europa.eu/v1/lists/100000072052",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000072052",
                   "code": "100000072083",
                   "display": "Marketed"
                 }
@@ -601,7 +601,7 @@
           "type": {
             "coding": [
               {
-                "system": "http://spor.ema.europa.eu/v1/lists/100000073346",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
                 "code": "100000073498",
                 "display": "Box"
               }
@@ -612,7 +612,7 @@
             {
               "coding": [
                 {
-                  "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                  "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
                   "code": "200000003529",
                   "display": "Cardboard"
                 }
@@ -624,7 +624,7 @@
               "type": {
                 "coding": [
                   {
-                    "system": "http://spor.ema.europa.eu/v1/lists/100000073346",
+                    "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
                     "code": "100000073559",
                     "display": "Strip"
                   }
@@ -635,7 +635,7 @@
                 {
                   "coding": [
                     {
-                      "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
                       "code": "200000003200",
                       "display": "Aluminium"
                     }
@@ -644,7 +644,7 @@
                 {
                   "coding": [
                     {
-                      "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
                       "code": "200000003214",
                       "display": "PolyEthylene"
                     }
@@ -668,7 +668,7 @@
               "type": {
                 "coding": [
                   {
-                    "system": "http://spor.ema.europa.eu/v1/lists/100000073346",
+                    "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
                     "code": "100000073346",
                     "display": "Tube"
                   }
@@ -679,7 +679,7 @@
                 {
                   "coding": [
                     {
-                      "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
                       "code": "200000003200",
                       "display": "Aluminium"
                     }
@@ -696,7 +696,7 @@
                   "amount": {
                     "value": 20,
                     "unit": "gram(s)",
-                    "system": "http://spor.ema.europa.eu/v1/lists/100000110633",
+                    "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
                     "code": "100000110654"
                   }
                 }

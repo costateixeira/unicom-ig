@@ -78,7 +78,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"Agen-10mg-Tablet-EE-MPD\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;Agen-10mg-Tablet-EE-MPD&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLMedicinalProductDefinition.html\">PPL Medicinal Product profile</a></p></div><p><b>identifier</b>: id: EE-100002580-15548</p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000005003#200000005004)</span></p><p><b>combinedPharmaceuticalDoseForm</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-pharmaceutical-dose-form-ema-cs.html\">Pharmaceutical Dose Form EMA</a>#100000073664)</span></p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-legal-status-for-the-supply-ema-cs.html\">Legal Status for the Supply EMA</a>#100000072084)</span></p><p><b>classification</b>: amlodipine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000093533#100000095065; <a href=\"http://terminology.hl7.org/4.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#C08CA01)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: AGEN 10 mg tabletid</p><blockquote><p><b>namePart</b></p><p><b>part</b>: AGEN</p><p><b>type</b>: Invented name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 10 mg</p><p><b>type</b>: Strength part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: tabletid</p><p><b>type</b>: Pharmaceutical dose form part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000388)</span></td><td>Estonian <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072057#100000072172)</span></td></tr></table></blockquote></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"Agen-10mg-Tablet-EE-MPD\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;Agen-10mg-Tablet-EE-MPD&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLMedicinalProductDefinition.html\">PPL Medicinal Product profile</a></p></div><p><b>identifier</b>: id: EE-100002580-15548</p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-domain-ema-cs.html\">Domain EMA</a>#100000000012)</span></p><p><b>status</b>: Current <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000005003#200000005004)</span></p><p><b>combinedPharmaceuticalDoseForm</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-pharmaceutical-dose-form-ema-cs.html\">Pharmaceutical Dose Form EMA</a>#100000073664)</span></p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-legal-status-for-the-supply-ema-cs.html\">Legal Status for the Supply EMA</a>#100000072084)</span></p><p><b>classification</b>: amlodipine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000093533#100000095065; <a href=\"http://terminology.hl7.org/4.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#C08CA01)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: AGEN 10 mg tabletid</p><blockquote><p><b>namePart</b></p><p><b>part</b>: AGEN</p><p><b>type</b>: Invented name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 10 mg</p><p><b>type</b>: Strength part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: tabletid</p><p><b>type</b>: Pharmaceutical dose form part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-CountryEma.html\">CountryEma</a>#100000000388)</span></td><td>Estonian <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-LanguageEMA.html\">LanguageEMA</a>#100000072172)</span></td></tr></table></blockquote></div>"
   ];
   fhir:MedicinalProductDefinition.identifier [
      fhir:index 0;
@@ -88,7 +88,7 @@
   fhir:MedicinalProductDefinition.domain [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000004" ];
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000000004" ];
        fhir:Coding.code [ fhir:value "100000000012" ];
        fhir:Coding.display [ fhir:value "Human use" ]
      ]
@@ -96,7 +96,7 @@
   fhir:MedicinalProductDefinition.status [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000005003" ];
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000005003" ];
        fhir:Coding.code [ fhir:value "200000005004" ];
        fhir:Coding.display [ fhir:value "Current" ]
      ]
@@ -104,7 +104,7 @@
   fhir:MedicinalProductDefinition.combinedPharmaceuticalDoseForm [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000004" ];
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000004" ];
        fhir:Coding.code [ fhir:value "100000073664" ];
        fhir:Coding.display [ fhir:value "Tablet" ]
      ]
@@ -112,7 +112,7 @@
   fhir:MedicinalProductDefinition.legalStatusOfSupply [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072051" ];
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000072051" ];
        fhir:Coding.code [ fhir:value "100000072084" ];
        fhir:Coding.display [ fhir:value "Medicinal product subject to medical prescription" ]
      ]
@@ -121,7 +121,7 @@
      fhir:index 0;
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000093533" ];
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000093533" ];
        fhir:Coding.code [ fhir:value "100000095065" ];
        fhir:Coding.display [ fhir:value "amlodipine" ]
      ], [
@@ -140,7 +140,7 @@
        fhir:MedicinalProductDefinition.name.namePart.type [
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/220000000000" ];
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/220000000000" ];
            fhir:Coding.code [ fhir:value "220000000002" ];
            fhir:Coding.display [ fhir:value "Invented name part" ]
          ]
@@ -151,7 +151,7 @@
        fhir:MedicinalProductDefinition.name.namePart.type [
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/220000000000" ];
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/220000000000" ];
            fhir:Coding.code [ fhir:value "220000000004" ];
            fhir:Coding.display [ fhir:value "Strength part" ]
          ]
@@ -162,7 +162,7 @@
        fhir:MedicinalProductDefinition.name.namePart.type [
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/220000000000" ];
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/220000000000" ];
            fhir:Coding.code [ fhir:value "220000000005" ];
            fhir:Coding.display [ fhir:value "Pharmaceutical dose form part" ]
          ]
@@ -173,7 +173,7 @@
        fhir:MedicinalProductDefinition.name.countryLanguage.country [
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000002" ];
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000000002" ];
            fhir:Coding.code [ fhir:value "100000000388" ];
            fhir:Coding.display [ fhir:value "Republic of Estonia" ]
          ]
@@ -181,7 +181,7 @@
        fhir:MedicinalProductDefinition.name.countryLanguage.language [
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072057" ];
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000072057" ];
            fhir:Coding.code [ fhir:value "100000072172" ];
            fhir:Coding.display [ fhir:value "Estonian" ]
          ]
@@ -200,7 +200,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"Agen-10mg-Tablet-EE-RA\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;Agen-10mg-Tablet-EE-RA&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLRegulatedAuthorization.html\">PPL Marketing Authorisation profile</a></p></div><p><b>identifier</b>: id: 418403</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_Agen-10mg-Tablet-EE-MPD\">See above (MedicinalProductDefinition/Agen-10mg-Tablet-EE-MPD)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000060#220000000061)</span></p><p><b>region</b>: Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000388)</span></p><p><b>status</b>: Valid - Renewed/Varied <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072049#200000017708)</span></p><p><b>statusDate</b>: 2013-06-07</p><p><b>holder</b>: <a href=\"Organization-LOC-100002580-Zentiva.html\">Organization/LOC-100002580-Zentiva</a> &quot;Zentiva k.s.&quot;</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"Agen-10mg-Tablet-EE-RA\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;Agen-10mg-Tablet-EE-RA&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLRegulatedAuthorization.html\">PPL Marketing Authorisation profile</a></p></div><p><b>identifier</b>: id: 418403</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_Agen-10mg-Tablet-EE-MPD\">See above (MedicinalProductDefinition/Agen-10mg-Tablet-EE-MPD)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000060#220000000061)</span></p><p><b>region</b>: Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-CountryEma.html\">CountryEma</a>#100000000388)</span></p><p><b>status</b>: Valid - Renewed/Varied <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072049#200000017708)</span></p><p><b>statusDate</b>: 2013-06-07</p><p><b>holder</b>: <a href=\"Organization-LOC-100002580-Zentiva.html\">Organization/LOC-100002580-Zentiva</a> &quot;Zentiva k.s.&quot;</p></div>"
   ];
   fhir:RegulatedAuthorization.identifier [
      fhir:index 0;
@@ -214,7 +214,7 @@
   fhir:RegulatedAuthorization.type [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/220000000060" ];
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/220000000060" ];
        fhir:Coding.code [ fhir:value "220000000061" ];
        fhir:Coding.display [ fhir:value "Marketing Authorisation" ]
      ]
@@ -223,7 +223,7 @@
      fhir:index 0;
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000002" ];
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000000002" ];
        fhir:Coding.code [ fhir:value "100000000388" ];
        fhir:Coding.display [ fhir:value "Republic of Estonia" ]
      ]
@@ -231,7 +231,7 @@
   fhir:RegulatedAuthorization.status [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072049" ];
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000072049" ];
        fhir:Coding.code [ fhir:value "200000017708" ];
        fhir:Coding.display [ fhir:value "Valid - Renewed/Varied" ]
      ]
@@ -264,7 +264,7 @@
   fhir:AdministrableProductDefinition.administrableDoseForm [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000004" ];
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000004" ];
        fhir:Coding.code [ fhir:value "100000073664" ];
        fhir:Coding.display [ fhir:value "Tablet" ]
      ]
@@ -272,7 +272,7 @@
   fhir:AdministrableProductDefinition.unitOfPresentation [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000014" ];
        fhir:Coding.code [ fhir:value "200000002152" ];
        fhir:Coding.display [ fhir:value "Tablet" ]
      ]
@@ -287,7 +287,7 @@
      fhir:AdministrableProductDefinition.routeOfAdministration.code [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073345" ];
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000073345" ];
          fhir:Coding.code [ fhir:value "100000073619" ];
          fhir:Coding.display [ fhir:value "Oral use" ]
        ]
@@ -311,7 +311,7 @@
   fhir:ManufacturedItemDefinition.manufacturedDoseForm [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000004" ];
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000004" ];
        fhir:Coding.code [ fhir:value "100000073664" ];
        fhir:Coding.display [ fhir:value "Tablet" ]
      ]
@@ -319,7 +319,7 @@
   fhir:ManufacturedItemDefinition.unitOfPresentation [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000014" ];
        fhir:Coding.code [ fhir:value "200000002152" ];
        fhir:Coding.display [ fhir:value "Tablet" ]
      ]
@@ -336,7 +336,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"Agen-10mg-Tablet-EE-I\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;Agen-10mg-Tablet-EE-I&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLIngredient.html\">PPL Ingredient profile</a></p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_Agen-10mg-Tablet-EE-MPD\">See above (MedicinalProductDefinition/Agen-10mg-Tablet-EE-MPD)</a></li><li><a href=\"#ManufacturedItemDefinition_Agen-10mg-Tablet-EE-MID\">See above (ManufacturedItemDefinition/Agen-10mg-Tablet-EE-MID)</a></li><li><a href=\"#AdministrableProductDefinition_Agen-10mg-Tablet-EE-APD\">See above (AdministrableProductDefinition/Agen-10mg-Tablet-EE-APD)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Amlodipine besilate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000090079)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>presentation</b>: 13.87 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = 'milligram(s)')</span>/1(unit 200000002152 from http://spor.ema.europa.eu/v1/lists/200000000014)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = 'Tablet')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Amlodipine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000085259)</span></td></tr></table><p><b>strength</b>: 10 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = 'milligram(s)')</span>/1(unit 200000002152 from http://spor.ema.europa.eu/v1/lists/200000000014)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = 'Tablet')</span></p></blockquote></blockquote></blockquote></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"Agen-10mg-Tablet-EE-I\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;Agen-10mg-Tablet-EE-I&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLIngredient.html\">PPL Ingredient profile</a></p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_Agen-10mg-Tablet-EE-MPD\">See above (MedicinalProductDefinition/Agen-10mg-Tablet-EE-MPD)</a></li><li><a href=\"#ManufacturedItemDefinition_Agen-10mg-Tablet-EE-MID\">See above (ManufacturedItemDefinition/Agen-10mg-Tablet-EE-MID)</a></li><li><a href=\"#AdministrableProductDefinition_Agen-10mg-Tablet-EE-APD\">See above (AdministrableProductDefinition/Agen-10mg-Tablet-EE-APD)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Amlodipine besilate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000090079)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>presentation</b>: 13.87 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = 'milligram(s)')</span>/1(unit 200000002152 from https://spor.ema.europa.eu/v1/lists/200000000014)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = 'Tablet')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Amlodipine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000085259)</span></td></tr></table><p><b>strength</b>: 10 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = 'milligram(s)')</span>/1(unit 200000002152 from https://spor.ema.europa.eu/v1/lists/200000000014)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = 'Tablet')</span></p></blockquote></blockquote></blockquote></div>"
   ];
   fhir:Ingredient.status [ fhir:value "active"];
   fhir:Ingredient.for [
@@ -355,7 +355,7 @@
   fhir:Ingredient.role [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072050" ];
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000072050" ];
        fhir:Coding.code [ fhir:value "100000072072" ];
        fhir:Coding.display [ fhir:value "Active" ]
      ]
@@ -377,12 +377,12 @@
          fhir:Ratio.numerator [
            fhir:Quantity.value [ fhir:value "13.87"^^xsd:decimal ];
            fhir:Quantity.unit [ fhir:value "milligram(s)" ];
-           fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000110633" ];
+           fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000110633" ];
            fhir:Quantity.code [ fhir:value "100000110655" ]
          ];
          fhir:Ratio.denominator [
            fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
-           fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+           fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000014" ];
            fhir:Quantity.code [ fhir:value "200000002152" ]
          ]
        ];
@@ -402,12 +402,12 @@
            fhir:Ratio.numerator [
              fhir:Quantity.value [ fhir:value "10"^^xsd:decimal ];
              fhir:Quantity.unit [ fhir:value "milligram(s)" ];
-             fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000110633" ];
+             fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000110633" ];
              fhir:Quantity.code [ fhir:value "100000110655" ]
            ];
            fhir:Ratio.denominator [
              fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
-             fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+             fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000014" ];
              fhir:Quantity.code [ fhir:value "200000002152" ]
            ]
          ]
@@ -426,7 +426,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"Agen-10mg-Tablet-EE-PPD-1109900-A\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;Agen-10mg-Tablet-EE-PPD-1109900-A&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLPackagedProductDefinition.html\">PPL Packaged Product profile</a></p></div><p><b>identifier</b>: id: EE-100002580-15548-1109900a</p><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_Agen-10mg-Tablet-EE-MPD\">See above (MedicinalProductDefinition/Agen-10mg-Tablet-EE-MPD)</a></p><p><b>containedItemQuantity</b>: 30 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = 'Tablet')</span></p><p><b>description</b>: Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged).</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000388)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073496)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003222)</span>, PolyVinylidene Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003225)</span>, Aluminium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003200)</span></p></blockquote></blockquote></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"Agen-10mg-Tablet-EE-PPD-1109900-A\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;Agen-10mg-Tablet-EE-PPD-1109900-A&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLPackagedProductDefinition.html\">PPL Packaged Product profile</a></p></div><p><b>identifier</b>: id: EE-100002580-15548-1109900a</p><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_Agen-10mg-Tablet-EE-MPD\">See above (MedicinalProductDefinition/Agen-10mg-Tablet-EE-MPD)</a></p><p><b>containedItemQuantity</b>: 30 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = 'Tablet')</span></p><p><b>description</b>: Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged).</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-CountryEma.html\">CountryEma</a>#100000000388)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073496)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003222)</span>, PolyVinylidene Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003225)</span>, Aluminium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003200)</span></p></blockquote></blockquote></div>"
   ];
   fhir:PackagedProductDefinition.identifier [
      fhir:index 0;
@@ -442,7 +442,7 @@
      fhir:index 0;
      fhir:Quantity.value [ fhir:value "30"^^xsd:decimal ];
      fhir:Quantity.unit [ fhir:value "Tablet" ];
-     fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+     fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000014" ];
      fhir:Quantity.code [ fhir:value "200000002152" ]
   ];
   fhir:PackagedProductDefinition.description [ fhir:value "Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged)."];
@@ -451,7 +451,7 @@
      fhir:MarketingStatus.country [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000002" ];
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000000002" ];
          fhir:Coding.code [ fhir:value "100000000388" ];
          fhir:Coding.display [ fhir:value "Republic of Estonia" ]
        ]
@@ -459,7 +459,7 @@
      fhir:MarketingStatus.status [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072052" ];
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000072052" ];
          fhir:Coding.code [ fhir:value "100000072083" ];
          fhir:Coding.display [ fhir:value "Marketed" ]
        ]
@@ -469,7 +469,7 @@
      fhir:PackagedProductDefinition.package.type [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073346" ];
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000073346" ];
          fhir:Coding.code [ fhir:value "100000073498" ];
          fhir:Coding.display [ fhir:value "Box" ]
        ]
@@ -479,7 +479,7 @@
        fhir:index 0;
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000003199" ];
          fhir:Coding.code [ fhir:value "200000003529" ];
          fhir:Coding.display [ fhir:value "Cardboard" ]
        ]
@@ -489,7 +489,7 @@
        fhir:PackagedProductDefinition.package.type [
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073346" ];
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000073346" ];
            fhir:Coding.code [ fhir:value "100000073496" ];
            fhir:Coding.display [ fhir:value "Blister" ]
          ]
@@ -499,7 +499,7 @@
          fhir:index 0;
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000003199" ];
            fhir:Coding.code [ fhir:value "200000003222" ];
            fhir:Coding.display [ fhir:value "PolyVinyl Chloride" ]
          ]
@@ -507,7 +507,7 @@
          fhir:index 1;
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000003199" ];
            fhir:Coding.code [ fhir:value "200000003225" ];
            fhir:Coding.display [ fhir:value "PolyVinylidene Chloride" ]
          ]
@@ -515,7 +515,7 @@
          fhir:index 2;
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000003199" ];
            fhir:Coding.code [ fhir:value "200000003200" ];
            fhir:Coding.display [ fhir:value "Aluminium" ]
          ]
@@ -546,7 +546,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"Agen-10mg-Tablet-EE-PPD-1109900-B\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;Agen-10mg-Tablet-EE-PPD-1109900-B&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLPackagedProductDefinition.html\">PPL Packaged Product profile</a></p></div><p><b>identifier</b>: id: EE-100002580-15548-1109900b</p><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_Agen-10mg-Tablet-EE-MPD\">See above (MedicinalProductDefinition/Agen-10mg-Tablet-EE-MPD)</a></p><p><b>containedItemQuantity</b>: 30 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = 'Tablet')</span></p><p><b>description</b>: Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged).</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000388)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073496)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003222)</span>, Aluminium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003200)</span></p></blockquote></blockquote></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"Agen-10mg-Tablet-EE-PPD-1109900-B\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;Agen-10mg-Tablet-EE-PPD-1109900-B&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLPackagedProductDefinition.html\">PPL Packaged Product profile</a></p></div><p><b>identifier</b>: id: EE-100002580-15548-1109900b</p><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_Agen-10mg-Tablet-EE-MPD\">See above (MedicinalProductDefinition/Agen-10mg-Tablet-EE-MPD)</a></p><p><b>containedItemQuantity</b>: 30 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = 'Tablet')</span></p><p><b>description</b>: Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged).</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-CountryEma.html\">CountryEma</a>#100000000388)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073496)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003222)</span>, Aluminium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003200)</span></p></blockquote></blockquote></div>"
   ];
   fhir:PackagedProductDefinition.identifier [
      fhir:index 0;
@@ -562,7 +562,7 @@
      fhir:index 0;
      fhir:Quantity.value [ fhir:value "30"^^xsd:decimal ];
      fhir:Quantity.unit [ fhir:value "Tablet" ];
-     fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+     fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000014" ];
      fhir:Quantity.code [ fhir:value "200000002152" ]
   ];
   fhir:PackagedProductDefinition.description [ fhir:value "Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged)."];
@@ -571,7 +571,7 @@
      fhir:MarketingStatus.country [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000002" ];
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000000002" ];
          fhir:Coding.code [ fhir:value "100000000388" ];
          fhir:Coding.display [ fhir:value "Republic of Estonia" ]
        ]
@@ -579,7 +579,7 @@
      fhir:MarketingStatus.status [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072052" ];
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000072052" ];
          fhir:Coding.code [ fhir:value "100000072083" ];
          fhir:Coding.display [ fhir:value "Marketed" ]
        ]
@@ -589,7 +589,7 @@
      fhir:PackagedProductDefinition.package.type [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073346" ];
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000073346" ];
          fhir:Coding.code [ fhir:value "100000073498" ];
          fhir:Coding.display [ fhir:value "Box" ]
        ]
@@ -599,7 +599,7 @@
        fhir:index 0;
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000003199" ];
          fhir:Coding.code [ fhir:value "200000003529" ];
          fhir:Coding.display [ fhir:value "Cardboard" ]
        ]
@@ -609,7 +609,7 @@
        fhir:PackagedProductDefinition.package.type [
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073346" ];
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000073346" ];
            fhir:Coding.code [ fhir:value "100000073496" ];
            fhir:Coding.display [ fhir:value "Blister" ]
          ]
@@ -619,7 +619,7 @@
          fhir:index 0;
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000003199" ];
            fhir:Coding.code [ fhir:value "200000003222" ];
            fhir:Coding.display [ fhir:value "PolyVinyl Chloride" ]
          ]
@@ -627,7 +627,7 @@
          fhir:index 1;
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000003199" ];
            fhir:Coding.code [ fhir:value "200000003200" ];
            fhir:Coding.display [ fhir:value "Aluminium" ]
          ]

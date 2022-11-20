@@ -11,7 +11,7 @@
   <name value="UnicomIG"/>
   <title value="UnicomIG"/>
   <status value="draft"/>
-  <date value="2022-11-20T09:28:17+00:00"/>
+  <date value="2022-11-20T17:12:02+00:00"/>
   <publisher value="UNICOM"/>
   <contact>
     <name value="UNICOM"/>
@@ -620,6 +620,39 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/country-ema-vs"/>
+      </reference>
+      <name value="Country (EMA SPOR RMS)"/>
+      <description value="Countries. EMA SPOR RMS list."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/domain-vs"/>
+      </reference>
+      <name value="Domain"/>
+      <description value="Domain of the medicinal product. EMA SPOR RMS list."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/language-ema-vs"/>
+      </reference>
+      <name value="Language (EMA SPOR RMS)"/>
+      <description value="Languages. EMA SPOR RMS list."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/legal-status-for-the-supply-vs"/>
       </reference>
       <name value="Legal Status for the Supply"/>
@@ -712,6 +745,38 @@
       </reference>
       <name value="Combined Term EMA"/>
       <description value="Combined Term. Based on EDQM. Re-coded with RMS codes. Only used for authorised dose form."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/CountryEma"/>
+      </reference>
+      <name value="CountryEma"/>
+      <description value="country"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/domain-ema-cs"/>
+      </reference>
+      <name value="Domain EMA"/>
+      <description value="Domain of the medicinal product (human, veterinary, both)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/LanguageEMA"/>
+      </reference>
+      <name value="LanguageEMA"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -839,10 +904,32 @@
         <valueString value="Bundle"/>
       </extension>
       <reference>
-        <reference value="Bundle/006-Yaz-0023mg-tablet-SE-AJ"/>
+        <reference value="Bundle/006-Yaz-0023mg-tablet-SE-FullProduct"/>
       </reference>
-      <name value="006-Yaz-0023mg-tablet-SE-AJ"/>
+      <name value="006-Yaz-0023mg-tablet-SE-FullProduct"/>
       <description value="YAZ ethinylestradiol 0.02mg, drosperinone 3mg, includes placebo tablets. Sweden. Different manufactured items in one container."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/007-Paracetamol-Kabi10mg-1ml-EE-FullProduct"/>
+      </reference>
+      <name value="007-Paracetamol-Kabi10mg-1ml-EE-FullProduct"/>
+      <description value="Paracetamol Kabi 10mg/ml solution for infusion. One pharmaceutical product for three different manufactured items."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/008-Clexane-60mg-0.6ml-EE-FullProduct"/>
+      </reference>
+      <name value="008-Clexane-60mg-0.6ml-EE-FullProduct"/>
+      <description value="Clexane, enoxaparine sodium 60mg/0.6ml, 2 pre-filled syringes. Presentation strength per quantity."/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
