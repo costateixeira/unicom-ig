@@ -4,7 +4,7 @@
   "type": "transaction",
   "entry": [
     {
-      "fullUrl": "http://medigree.net/fhir/idmp/ee/MedicinalProductDefinition/CanifugCremolum-EE-MPD",
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/MedicinalProductDefinition/CanifugCremolum-EE-MPD",
       "resource": {
         "resourceType": "MedicinalProductDefinition",
         "id": "CanifugCremolum-EE-MPD",
@@ -127,7 +127,7 @@
       }
     },
     {
-      "fullUrl": "http://medigree.net/fhir/idmp/ee/RegulatedAuthorization/CanifugCremolum-EE-RA",
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/RegulatedAuthorization/CanifugCremolum-EE-RA",
       "resource": {
         "resourceType": "RegulatedAuthorization",
         "id": "CanifugCremolum-EE-RA",
@@ -190,7 +190,7 @@
       }
     },
     {
-      "fullUrl": "http://medigree.net/fhir/idmp/ee/AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD",
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD",
       "resource": {
         "resourceType": "AdministrableProductDefinition",
         "id": "CanifugCremolum-10mg1g-Cream-EE-APD",
@@ -252,7 +252,7 @@
       }
     },
     {
-      "fullUrl": "http://medigree.net/fhir/idmp/ee/AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD",
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD",
       "resource": {
         "resourceType": "AdministrableProductDefinition",
         "id": "CanifugCremolum-100mg-Pessary-EE-APD",
@@ -314,7 +314,7 @@
       }
     },
     {
-      "fullUrl": "http://medigree.net/fhir/idmp/ee/ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID",
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID",
       "resource": {
         "resourceType": "ManufacturedItemDefinition",
         "id": "CanifugCremolum-10mg1g-Cream-EE-MID",
@@ -353,7 +353,7 @@
       }
     },
     {
-      "fullUrl": "http://medigree.net/fhir/idmp/ee/ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID",
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID",
       "resource": {
         "resourceType": "ManufacturedItemDefinition",
         "id": "CanifugCremolum-100mg-Pessary-EE-MID",
@@ -392,7 +392,7 @@
       }
     },
     {
-      "fullUrl": "http://medigree.net/fhir/idmp/ee/Ingredient/CanifugCremolum-10mg1g-Cream-EE-I",
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/CanifugCremolum-10mg1g-Cream-EE-I",
       "resource": {
         "resourceType": "Ingredient",
         "id": "CanifugCremolum-10mg1g-Cream-EE-I",
@@ -464,7 +464,7 @@
       }
     },
     {
-      "fullUrl": "http://medigree.net/fhir/idmp/ee/Ingredient/CanifugCremolum-100mg-Pessary-EE-I",
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/CanifugCremolum-100mg-Pessary-EE-I",
       "resource": {
         "resourceType": "Ingredient",
         "id": "CanifugCremolum-100mg-Pessary-EE-I",
@@ -536,7 +536,7 @@
       }
     },
     {
-      "fullUrl": "http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692",
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692",
       "resource": {
         "resourceType": "PackagedProductDefinition",
         "id": "CanifugCremolum-EE-PPD-1033692",

@@ -4,7 +4,7 @@
   "type": "transaction",
   "entry": [
     {
-      "fullUrl": "http://medigree.net/fhir/idmp/ee/MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD",
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD",
       "resource": {
         "resourceType": "MedicinalProductDefinition",
         "id": "Cefuroxime-MIP-1500mg-EE-MPD",
@@ -139,7 +139,7 @@
       }
     },
     {
-      "fullUrl": "http://medigree.net/fhir/idmp/ee/RegulatedAuthorization/Cefuroxime-MIP-1500mg-EE-RA",
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/RegulatedAuthorization/Cefuroxime-MIP-1500mg-EE-RA",
       "resource": {
         "resourceType": "RegulatedAuthorization",
         "id": "Cefuroxime-MIP-1500mg-EE-RA",
@@ -202,7 +202,7 @@
       }
     },
     {
-      "fullUrl": "http://medigree.net/fhir/idmp/ee/AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD",
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD",
       "resource": {
         "resourceType": "AdministrableProductDefinition",
         "id": "Cefuroxime-MIP-1500mg-EE-APD",
@@ -275,7 +275,7 @@
       }
     },
     {
-      "fullUrl": "http://medigree.net/fhir/idmp/ee/ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID",
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID",
       "resource": {
         "resourceType": "ManufacturedItemDefinition",
         "id": "Cefuroxime-MIP-1500mg-EE-MID",
@@ -314,7 +314,7 @@
       }
     },
     {
-      "fullUrl": "http://medigree.net/fhir/idmp/ee/Ingredient/Cefuroxime-MIP-1500mg-EE-I",
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/Cefuroxime-MIP-1500mg-EE-I",
       "resource": {
         "resourceType": "Ingredient",
         "id": "Cefuroxime-MIP-1500mg-EE-I",
@@ -410,7 +410,7 @@
       }
     },
     {
-      "fullUrl": "http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529940",
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529940",
       "resource": {
         "resourceType": "PackagedProductDefinition",
         "id": "Cefuroxime-MIP-1500mg-EE-PPD-1529940",
@@ -532,7 +532,7 @@
       }
     },
     {
-      "fullUrl": "http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962",
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962",
       "resource": {
         "resourceType": "PackagedProductDefinition",
         "id": "Cefuroxime-MIP-1500mg-EE-PPD-1529962",

@@ -11,79 +11,79 @@
   fhir:Bundle.type [ fhir:value "transaction"];
   fhir:Bundle.entry [
      fhir:index 0;
-     fhir:Bundle.entry.fullUrl [ fhir:value "http://medigree.net/fhir/idmp/ee/MedicinalProductDefinition/CanifugCremolum-EE-MPD" ];
-     fhir:Bundle.entry.resource <http://medigree.net/fhir/idmp/ee/MedicinalProductDefinition/CanifugCremolum-EE-MPD>;
+     fhir:Bundle.entry.fullUrl [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/MedicinalProductDefinition/CanifugCremolum-EE-MPD" ];
+     fhir:Bundle.entry.resource <https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/MedicinalProductDefinition/CanifugCremolum-EE-MPD>;
      fhir:Bundle.entry.request [
        fhir:Bundle.entry.request.method [ fhir:value "PUT" ];
        fhir:Bundle.entry.request.url [ fhir:value "MedicinalProductDefinition/CanifugCremolum-EE-MPD" ]
      ]
   ], [
      fhir:index 1;
-     fhir:Bundle.entry.fullUrl [ fhir:value "http://medigree.net/fhir/idmp/ee/RegulatedAuthorization/CanifugCremolum-EE-RA" ];
-     fhir:Bundle.entry.resource <http://medigree.net/fhir/idmp/ee/RegulatedAuthorization/CanifugCremolum-EE-RA>;
+     fhir:Bundle.entry.fullUrl [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/RegulatedAuthorization/CanifugCremolum-EE-RA" ];
+     fhir:Bundle.entry.resource <https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/RegulatedAuthorization/CanifugCremolum-EE-RA>;
      fhir:Bundle.entry.request [
        fhir:Bundle.entry.request.method [ fhir:value "PUT" ];
        fhir:Bundle.entry.request.url [ fhir:value "RegulatedAuthorization/CanifugCremolum-EE-RA" ]
      ]
   ], [
      fhir:index 2;
-     fhir:Bundle.entry.fullUrl [ fhir:value "http://medigree.net/fhir/idmp/ee/AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD" ];
-     fhir:Bundle.entry.resource <http://medigree.net/fhir/idmp/ee/AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD>;
+     fhir:Bundle.entry.fullUrl [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD" ];
+     fhir:Bundle.entry.resource <https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD>;
      fhir:Bundle.entry.request [
        fhir:Bundle.entry.request.method [ fhir:value "PUT" ];
        fhir:Bundle.entry.request.url [ fhir:value "AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD" ]
      ]
   ], [
      fhir:index 3;
-     fhir:Bundle.entry.fullUrl [ fhir:value "http://medigree.net/fhir/idmp/ee/AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD" ];
-     fhir:Bundle.entry.resource <http://medigree.net/fhir/idmp/ee/AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD>;
+     fhir:Bundle.entry.fullUrl [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD" ];
+     fhir:Bundle.entry.resource <https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD>;
      fhir:Bundle.entry.request [
        fhir:Bundle.entry.request.method [ fhir:value "PUT" ];
        fhir:Bundle.entry.request.url [ fhir:value "AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD" ]
      ]
   ], [
      fhir:index 4;
-     fhir:Bundle.entry.fullUrl [ fhir:value "http://medigree.net/fhir/idmp/ee/ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID" ];
-     fhir:Bundle.entry.resource <http://medigree.net/fhir/idmp/ee/ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID>;
+     fhir:Bundle.entry.fullUrl [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID" ];
+     fhir:Bundle.entry.resource <https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID>;
      fhir:Bundle.entry.request [
        fhir:Bundle.entry.request.method [ fhir:value "PUT" ];
        fhir:Bundle.entry.request.url [ fhir:value "ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID" ]
      ]
   ], [
      fhir:index 5;
-     fhir:Bundle.entry.fullUrl [ fhir:value "http://medigree.net/fhir/idmp/ee/ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID" ];
-     fhir:Bundle.entry.resource <http://medigree.net/fhir/idmp/ee/ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID>;
+     fhir:Bundle.entry.fullUrl [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID" ];
+     fhir:Bundle.entry.resource <https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID>;
      fhir:Bundle.entry.request [
        fhir:Bundle.entry.request.method [ fhir:value "PUT" ];
        fhir:Bundle.entry.request.url [ fhir:value "ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID" ]
      ]
   ], [
      fhir:index 6;
-     fhir:Bundle.entry.fullUrl [ fhir:value "http://medigree.net/fhir/idmp/ee/Ingredient/CanifugCremolum-10mg1g-Cream-EE-I" ];
-     fhir:Bundle.entry.resource <http://medigree.net/fhir/idmp/ee/Ingredient/CanifugCremolum-10mg1g-Cream-EE-I>;
+     fhir:Bundle.entry.fullUrl [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/CanifugCremolum-10mg1g-Cream-EE-I" ];
+     fhir:Bundle.entry.resource <https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/CanifugCremolum-10mg1g-Cream-EE-I>;
      fhir:Bundle.entry.request [
        fhir:Bundle.entry.request.method [ fhir:value "PUT" ];
        fhir:Bundle.entry.request.url [ fhir:value "Ingredient/CanifugCremolum-10mg1g-Cream-EE-I" ]
      ]
   ], [
      fhir:index 7;
-     fhir:Bundle.entry.fullUrl [ fhir:value "http://medigree.net/fhir/idmp/ee/Ingredient/CanifugCremolum-100mg-Pessary-EE-I" ];
-     fhir:Bundle.entry.resource <http://medigree.net/fhir/idmp/ee/Ingredient/CanifugCremolum-100mg-Pessary-EE-I>;
+     fhir:Bundle.entry.fullUrl [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/CanifugCremolum-100mg-Pessary-EE-I" ];
+     fhir:Bundle.entry.resource <https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/CanifugCremolum-100mg-Pessary-EE-I>;
      fhir:Bundle.entry.request [
        fhir:Bundle.entry.request.method [ fhir:value "PUT" ];
        fhir:Bundle.entry.request.url [ fhir:value "Ingredient/CanifugCremolum-100mg-Pessary-EE-I" ]
      ]
   ], [
      fhir:index 8;
-     fhir:Bundle.entry.fullUrl [ fhir:value "http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692" ];
-     fhir:Bundle.entry.resource <http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692>;
+     fhir:Bundle.entry.fullUrl [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692" ];
+     fhir:Bundle.entry.resource <https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692>;
      fhir:Bundle.entry.request [
        fhir:Bundle.entry.request.method [ fhir:value "PUT" ];
        fhir:Bundle.entry.request.url [ fhir:value "PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692" ]
      ]
   ] .
 
-<http://medigree.net/fhir/idmp/ee/MedicinalProductDefinition/CanifugCremolum-EE-MPD> a fhir:MedicinalProductDefinition;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/MedicinalProductDefinition/CanifugCremolum-EE-MPD> a fhir:MedicinalProductDefinition;
   fhir:Resource.id [ fhir:value "CanifugCremolum-EE-MPD"];
   fhir:Resource.meta [
      fhir:Meta.profile [
@@ -187,7 +187,7 @@
      ]
   ] .
 
-<http://medigree.net/fhir/idmp/ee/RegulatedAuthorization/CanifugCremolum-EE-RA> a fhir:RegulatedAuthorization;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/RegulatedAuthorization/CanifugCremolum-EE-RA> a fhir:RegulatedAuthorization;
   fhir:Resource.id [ fhir:value "CanifugCremolum-EE-RA"];
   fhir:Resource.meta [
      fhir:Meta.profile [
@@ -240,7 +240,7 @@
      fhir:Reference.reference [ fhir:value "Organization/LOC-100004795-Wolff-Arzneimittel" ]
   ] .
 
-<http://medigree.net/fhir/idmp/ee/AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD> a fhir:AdministrableProductDefinition;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD> a fhir:AdministrableProductDefinition;
   fhir:Resource.id [ fhir:value "CanifugCremolum-10mg1g-Cream-EE-APD"];
   fhir:Resource.meta [
      fhir:Meta.profile [
@@ -292,7 +292,7 @@
      ]
   ] .
 
-<http://medigree.net/fhir/idmp/ee/AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD> a fhir:AdministrableProductDefinition;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD> a fhir:AdministrableProductDefinition;
   fhir:Resource.id [ fhir:value "CanifugCremolum-100mg-Pessary-EE-APD"];
   fhir:Resource.meta [
      fhir:Meta.profile [
@@ -344,7 +344,7 @@
      ]
   ] .
 
-<http://medigree.net/fhir/idmp/ee/ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID> a fhir:ManufacturedItemDefinition;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID> a fhir:ManufacturedItemDefinition;
   fhir:Resource.id [ fhir:value "CanifugCremolum-10mg1g-Cream-EE-MID"];
   fhir:Resource.meta [
      fhir:Meta.profile [
@@ -375,7 +375,7 @@
      ]
   ] .
 
-<http://medigree.net/fhir/idmp/ee/ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID> a fhir:ManufacturedItemDefinition;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID> a fhir:ManufacturedItemDefinition;
   fhir:Resource.id [ fhir:value "CanifugCremolum-100mg-Pessary-EE-MID"];
   fhir:Resource.meta [
      fhir:Meta.profile [
@@ -406,7 +406,7 @@
      ]
   ] .
 
-<http://medigree.net/fhir/idmp/ee/Ingredient/CanifugCremolum-10mg1g-Cream-EE-I> a fhir:Ingredient;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/CanifugCremolum-10mg1g-Cream-EE-I> a fhir:Ingredient;
   fhir:Resource.id [ fhir:value "CanifugCremolum-10mg1g-Cream-EE-I"];
   fhir:Resource.meta [
      fhir:Meta.profile [
@@ -471,7 +471,7 @@
      ]
   ] .
 
-<http://medigree.net/fhir/idmp/ee/Ingredient/CanifugCremolum-100mg-Pessary-EE-I> a fhir:Ingredient;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/CanifugCremolum-100mg-Pessary-EE-I> a fhir:Ingredient;
   fhir:Resource.id [ fhir:value "CanifugCremolum-100mg-Pessary-EE-I"];
   fhir:Resource.meta [
      fhir:Meta.profile [
@@ -536,7 +536,7 @@
      ]
   ] .
 
-<http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692> a fhir:PackagedProductDefinition;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692> a fhir:PackagedProductDefinition;
   fhir:Resource.id [ fhir:value "CanifugCremolum-EE-PPD-1033692"];
   fhir:Resource.meta [
      fhir:Meta.profile [
