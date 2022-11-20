@@ -210,11 +210,11 @@
     "name": "UnitOfPresentation"
   },
   {
-    "id": "CountryEMA",
+    "id": "country-ema-cs",
     "type": "CodeSystem",
     "url": "https://spor.ema.europa.eu/v1/lists/100000000002",
     "version": "0.1.0",
-    "name": "CountryEma"
+    "name": "Country_EMA_CS"
   },
   {
     "id": "domain-ema-cs",
@@ -231,11 +231,11 @@
     "name": "LegalStatusForTheSupply_EMA_CS"
   },
   {
-    "id": "LanguageEMA",
+    "id": "language-ema-cs",
     "type": "CodeSystem",
     "url": "https://spor.ema.europa.eu/v1/lists/100000072057",
     "version": "0.1.0",
-    "name": "LanguageEMA"
+    "name": "Language_EMA_CS"
   },
   {
     "id": "routes-and-methods-of-administration-ema-cs",
