@@ -10,7 +10,7 @@
   "name": "UnicomIG",
   "title": "UnicomIG",
   "status": "draft",
-  "date": "2022-11-20T17:48:06+00:00",
+  "date": "2022-11-20T20:12:04+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -1127,7 +1127,7 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/CountryEMA"
+          "reference": "CodeSystem/country-ema-cs"
         },
         "name": "Country EMA",
         "description": "Country codes by EMA. Based on ISO 3166-1-2, recoded with RMS codes.",
@@ -1155,7 +1155,7 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/LanguageEMA"
+          "reference": "CodeSystem/language-ema-cs"
         },
         "name": "Language EMA",
         "exampleBoolean": false

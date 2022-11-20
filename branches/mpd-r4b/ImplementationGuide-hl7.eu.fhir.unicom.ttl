@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "UnicomIG"];
   fhir:ImplementationGuide.title [ fhir:value "UnicomIG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-11-20T17:48:06+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-11-20T20:12:04+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "UNICOM"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -1084,8 +1084,8 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://unicom-project.eu/fhir/CodeSystem/CountryEMA>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/CountryEMA" ]
+         fhir:link <http://unicom-project.eu/fhir/CodeSystem/country-ema-cs>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/country-ema-cs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Country EMA" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Country codes by EMA. Based on ISO 3166-1-2, recoded with RMS codes." ];
@@ -1112,8 +1112,8 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://unicom-project.eu/fhir/CodeSystem/LanguageEMA>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/LanguageEMA" ]
+         fhir:link <http://unicom-project.eu/fhir/CodeSystem/language-ema-cs>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/language-ema-cs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Language EMA" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]

@@ -11,7 +11,7 @@
   <name value="UnicomIG"/>
   <title value="UnicomIG"/>
   <status value="draft"/>
-  <date value="2022-11-20T17:48:06+00:00"/>
+  <date value="2022-11-20T20:12:04+00:00"/>
   <publisher value="UNICOM"/>
   <contact>
     <name value="UNICOM"/>
@@ -774,7 +774,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/CountryEMA"/>
+        <reference value="CodeSystem/country-ema-cs"/>
       </reference>
       <name value="Country EMA"/>
       <description value="Country codes by EMA. Based on ISO 3166-1-2, recoded with RMS codes."/>
@@ -796,7 +796,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/LanguageEMA"/>
+        <reference value="CodeSystem/language-ema-cs"/>
       </reference>
       <name value="Language EMA"/>
       <exampleBoolean value="false"/>
