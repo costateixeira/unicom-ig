@@ -1,0 +1,45 @@
+﻿UnicomIG : Validation Results
+=========================================
+
+err = 0, warn = 16, info = 0
+IG Publisher Version: 1.2.17
+Generated Sun Nov 20 13:38:28 UTC 2022. FHIR version 4.3.0 for hl7.eu.fhir.unicom#0.1.0 (canonical = http://hl7-eu.github.io/unicom-ig)
+ Build Errors : 0 / 4 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.unicom : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-CD : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-DT : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-FullMedicinalProduct : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-II : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-QT : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-ST : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-TS : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-class : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-untyped : 0 / 2 / 1
+</table>
+== n/a ==
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.unicom.json ==
+== fsh-generated/resources/StructureDefinition-CD.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7-eu.github.io/unicom-ig/StructureDefinition/CD'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-DT.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7-eu.github.io/unicom-ig/StructureDefinition/DT'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-FullMedicinalProduct.json ==
+WARNING: StructureDefinition/FullMedicinalProduct: StructureDefinition.snapshot.element[122]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/FullMedicinalProduct: StructureDefinition.differential.element[62]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+== fsh-generated/resources/StructureDefinition-II.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7-eu.github.io/unicom-ig/StructureDefinition/II'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-QT.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7-eu.github.io/unicom-ig/StructureDefinition/QT'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-ST.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7-eu.github.io/unicom-ig/StructureDefinition/ST'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-TS.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7-eu.github.io/unicom-ig/StructureDefinition/TS'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-class.json ==
+WARNING: StructureDefinition/class: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition.where(url = 'http://hl7-eu.github.io/unicom-ig/StructureDefinition/class'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-untyped.json ==
+WARNING: StructureDefinition/untyped: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition.where(url = 'http://hl7-eu.github.io/unicom-ig/StructureDefinition/untyped'): The Implementation Guide contains no examples for this data type profile
