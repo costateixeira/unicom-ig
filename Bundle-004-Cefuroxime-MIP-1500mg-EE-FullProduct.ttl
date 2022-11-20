@@ -11,63 +11,63 @@
   fhir:Bundle.type [ fhir:value "transaction"];
   fhir:Bundle.entry [
      fhir:index 0;
-     fhir:Bundle.entry.fullUrl [ fhir:value "http://medigree.net/fhir/idmp/ee/MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD" ];
-     fhir:Bundle.entry.resource <http://medigree.net/fhir/idmp/ee/MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD>;
+     fhir:Bundle.entry.fullUrl [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD" ];
+     fhir:Bundle.entry.resource <https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD>;
      fhir:Bundle.entry.request [
        fhir:Bundle.entry.request.method [ fhir:value "PUT" ];
        fhir:Bundle.entry.request.url [ fhir:value "MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD" ]
      ]
   ], [
      fhir:index 1;
-     fhir:Bundle.entry.fullUrl [ fhir:value "http://medigree.net/fhir/idmp/ee/RegulatedAuthorization/Cefuroxime-MIP-1500mg-EE-RA" ];
-     fhir:Bundle.entry.resource <http://medigree.net/fhir/idmp/ee/RegulatedAuthorization/Cefuroxime-MIP-1500mg-EE-RA>;
+     fhir:Bundle.entry.fullUrl [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/RegulatedAuthorization/Cefuroxime-MIP-1500mg-EE-RA" ];
+     fhir:Bundle.entry.resource <https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/RegulatedAuthorization/Cefuroxime-MIP-1500mg-EE-RA>;
      fhir:Bundle.entry.request [
        fhir:Bundle.entry.request.method [ fhir:value "PUT" ];
        fhir:Bundle.entry.request.url [ fhir:value "RegulatedAuthorization/Cefuroxime-MIP-1500mg-EE-RA" ]
      ]
   ], [
      fhir:index 2;
-     fhir:Bundle.entry.fullUrl [ fhir:value "http://medigree.net/fhir/idmp/ee/AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD" ];
-     fhir:Bundle.entry.resource <http://medigree.net/fhir/idmp/ee/AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD>;
+     fhir:Bundle.entry.fullUrl [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD" ];
+     fhir:Bundle.entry.resource <https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD>;
      fhir:Bundle.entry.request [
        fhir:Bundle.entry.request.method [ fhir:value "PUT" ];
        fhir:Bundle.entry.request.url [ fhir:value "AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD" ]
      ]
   ], [
      fhir:index 3;
-     fhir:Bundle.entry.fullUrl [ fhir:value "http://medigree.net/fhir/idmp/ee/ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID" ];
-     fhir:Bundle.entry.resource <http://medigree.net/fhir/idmp/ee/ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID>;
+     fhir:Bundle.entry.fullUrl [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID" ];
+     fhir:Bundle.entry.resource <https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID>;
      fhir:Bundle.entry.request [
        fhir:Bundle.entry.request.method [ fhir:value "PUT" ];
        fhir:Bundle.entry.request.url [ fhir:value "ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID" ]
      ]
   ], [
      fhir:index 4;
-     fhir:Bundle.entry.fullUrl [ fhir:value "http://medigree.net/fhir/idmp/ee/Ingredient/Cefuroxime-MIP-1500mg-EE-I" ];
-     fhir:Bundle.entry.resource <http://medigree.net/fhir/idmp/ee/Ingredient/Cefuroxime-MIP-1500mg-EE-I>;
+     fhir:Bundle.entry.fullUrl [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/Cefuroxime-MIP-1500mg-EE-I" ];
+     fhir:Bundle.entry.resource <https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/Cefuroxime-MIP-1500mg-EE-I>;
      fhir:Bundle.entry.request [
        fhir:Bundle.entry.request.method [ fhir:value "PUT" ];
        fhir:Bundle.entry.request.url [ fhir:value "Ingredient/Cefuroxime-MIP-1500mg-EE-I" ]
      ]
   ], [
      fhir:index 5;
-     fhir:Bundle.entry.fullUrl [ fhir:value "http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529940" ];
-     fhir:Bundle.entry.resource <http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529940>;
+     fhir:Bundle.entry.fullUrl [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529940" ];
+     fhir:Bundle.entry.resource <https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529940>;
      fhir:Bundle.entry.request [
        fhir:Bundle.entry.request.method [ fhir:value "PUT" ];
        fhir:Bundle.entry.request.url [ fhir:value "PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529940" ]
      ]
   ], [
      fhir:index 6;
-     fhir:Bundle.entry.fullUrl [ fhir:value "http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962" ];
-     fhir:Bundle.entry.resource <http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962>;
+     fhir:Bundle.entry.fullUrl [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962" ];
+     fhir:Bundle.entry.resource <https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962>;
      fhir:Bundle.entry.request [
        fhir:Bundle.entry.request.method [ fhir:value "PUT" ];
        fhir:Bundle.entry.request.url [ fhir:value "PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962" ]
      ]
   ] .
 
-<http://medigree.net/fhir/idmp/ee/MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD> a fhir:MedicinalProductDefinition;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD> a fhir:MedicinalProductDefinition;
   fhir:Resource.id [ fhir:value "Cefuroxime-MIP-1500mg-EE-MPD"];
   fhir:Resource.meta [
      fhir:Meta.profile [
@@ -182,7 +182,7 @@
      ]
   ] .
 
-<http://medigree.net/fhir/idmp/ee/RegulatedAuthorization/Cefuroxime-MIP-1500mg-EE-RA> a fhir:RegulatedAuthorization;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/RegulatedAuthorization/Cefuroxime-MIP-1500mg-EE-RA> a fhir:RegulatedAuthorization;
   fhir:Resource.id [ fhir:value "Cefuroxime-MIP-1500mg-EE-RA"];
   fhir:Resource.meta [
      fhir:Meta.profile [
@@ -235,7 +235,7 @@
      fhir:Reference.reference [ fhir:value "Organization/LOC-100009199-Mip" ]
   ] .
 
-<http://medigree.net/fhir/idmp/ee/AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD> a fhir:AdministrableProductDefinition;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD> a fhir:AdministrableProductDefinition;
   fhir:Resource.id [ fhir:value "Cefuroxime-MIP-1500mg-EE-APD"];
   fhir:Resource.meta [
      fhir:Meta.profile [
@@ -297,7 +297,7 @@
      ]
   ] .
 
-<http://medigree.net/fhir/idmp/ee/ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID> a fhir:ManufacturedItemDefinition;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID> a fhir:ManufacturedItemDefinition;
   fhir:Resource.id [ fhir:value "Cefuroxime-MIP-1500mg-EE-MID"];
   fhir:Resource.meta [
      fhir:Meta.profile [
@@ -328,7 +328,7 @@
      ]
   ] .
 
-<http://medigree.net/fhir/idmp/ee/Ingredient/Cefuroxime-MIP-1500mg-EE-I> a fhir:Ingredient;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/Cefuroxime-MIP-1500mg-EE-I> a fhir:Ingredient;
   fhir:Resource.id [ fhir:value "Cefuroxime-MIP-1500mg-EE-I"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -413,7 +413,7 @@
      ]
   ] .
 
-<http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529940> a fhir:PackagedProductDefinition;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529940> a fhir:PackagedProductDefinition;
   fhir:Resource.id [ fhir:value "Cefuroxime-MIP-1500mg-EE-PPD-1529940"];
   fhir:Resource.meta [
      fhir:Meta.profile [
@@ -517,7 +517,7 @@
      ]
   ] .
 
-<http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962> a fhir:PackagedProductDefinition;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962> a fhir:PackagedProductDefinition;
   fhir:Resource.id [ fhir:value "Cefuroxime-MIP-1500mg-EE-PPD-1529962"];
   fhir:Resource.meta [
      fhir:Meta.profile [

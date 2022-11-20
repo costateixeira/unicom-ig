@@ -11,63 +11,63 @@
   fhir:Bundle.type [ fhir:value "transaction"];
   fhir:Bundle.entry [
      fhir:index 0;
-     fhir:Bundle.entry.fullUrl [ fhir:value "http://medigree.net/fhir/idmp/ee/MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD" ];
-     fhir:Bundle.entry.resource <http://medigree.net/fhir/idmp/ee/MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD>;
+     fhir:Bundle.entry.fullUrl [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD" ];
+     fhir:Bundle.entry.resource <https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD>;
      fhir:Bundle.entry.request [
        fhir:Bundle.entry.request.method [ fhir:value "PUT" ];
        fhir:Bundle.entry.request.url [ fhir:value "MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD" ]
      ]
   ], [
      fhir:index 1;
-     fhir:Bundle.entry.fullUrl [ fhir:value "http://medigree.net/fhir/idmp/ee/RegulatedAuthorization/Agen-5mg-Tablet-EE-RA" ];
-     fhir:Bundle.entry.resource <http://medigree.net/fhir/idmp/ee/RegulatedAuthorization/Agen-5mg-Tablet-EE-RA>;
+     fhir:Bundle.entry.fullUrl [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/RegulatedAuthorization/Agen-5mg-Tablet-EE-RA" ];
+     fhir:Bundle.entry.resource <https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/RegulatedAuthorization/Agen-5mg-Tablet-EE-RA>;
      fhir:Bundle.entry.request [
        fhir:Bundle.entry.request.method [ fhir:value "PUT" ];
        fhir:Bundle.entry.request.url [ fhir:value "RegulatedAuthorization/Agen-5mg-Tablet-EE-RA" ]
      ]
   ], [
      fhir:index 2;
-     fhir:Bundle.entry.fullUrl [ fhir:value "http://medigree.net/fhir/idmp/ee/AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD" ];
-     fhir:Bundle.entry.resource <http://medigree.net/fhir/idmp/ee/AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD>;
+     fhir:Bundle.entry.fullUrl [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD" ];
+     fhir:Bundle.entry.resource <https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD>;
      fhir:Bundle.entry.request [
        fhir:Bundle.entry.request.method [ fhir:value "PUT" ];
        fhir:Bundle.entry.request.url [ fhir:value "AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD" ]
      ]
   ], [
      fhir:index 3;
-     fhir:Bundle.entry.fullUrl [ fhir:value "http://medigree.net/fhir/idmp/ee/ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID" ];
-     fhir:Bundle.entry.resource <http://medigree.net/fhir/idmp/ee/ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID>;
+     fhir:Bundle.entry.fullUrl [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID" ];
+     fhir:Bundle.entry.resource <https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID>;
      fhir:Bundle.entry.request [
        fhir:Bundle.entry.request.method [ fhir:value "PUT" ];
        fhir:Bundle.entry.request.url [ fhir:value "ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID" ]
      ]
   ], [
      fhir:index 4;
-     fhir:Bundle.entry.fullUrl [ fhir:value "http://medigree.net/fhir/idmp/ee/Ingredient/Agen-5mg-Tablet-EE-I" ];
-     fhir:Bundle.entry.resource <http://medigree.net/fhir/idmp/ee/Ingredient/Agen-5mg-Tablet-EE-I>;
+     fhir:Bundle.entry.fullUrl [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/Agen-5mg-Tablet-EE-I" ];
+     fhir:Bundle.entry.resource <https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/Agen-5mg-Tablet-EE-I>;
      fhir:Bundle.entry.request [
        fhir:Bundle.entry.request.method [ fhir:value "PUT" ];
        fhir:Bundle.entry.request.url [ fhir:value "Ingredient/Agen-5mg-Tablet-EE-I" ]
      ]
   ], [
      fhir:index 5;
-     fhir:Bundle.entry.fullUrl [ fhir:value "http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A" ];
-     fhir:Bundle.entry.resource <http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A>;
+     fhir:Bundle.entry.fullUrl [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A" ];
+     fhir:Bundle.entry.resource <https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A>;
      fhir:Bundle.entry.request [
        fhir:Bundle.entry.request.method [ fhir:value "PUT" ];
        fhir:Bundle.entry.request.url [ fhir:value "PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A" ]
      ]
   ], [
      fhir:index 6;
-     fhir:Bundle.entry.fullUrl [ fhir:value "http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B" ];
-     fhir:Bundle.entry.resource <http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B>;
+     fhir:Bundle.entry.fullUrl [ fhir:value "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B" ];
+     fhir:Bundle.entry.resource <https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B>;
      fhir:Bundle.entry.request [
        fhir:Bundle.entry.request.method [ fhir:value "PUT" ];
        fhir:Bundle.entry.request.url [ fhir:value "PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B" ]
      ]
   ] .
 
-<http://medigree.net/fhir/idmp/ee/MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD> a fhir:MedicinalProductDefinition;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD> a fhir:MedicinalProductDefinition;
   fhir:Resource.id [ fhir:value "Agen-5mg-Tablet-EE-MPD"];
   fhir:Resource.meta [
      fhir:Meta.profile [
@@ -189,7 +189,7 @@
      ]
   ] .
 
-<http://medigree.net/fhir/idmp/ee/RegulatedAuthorization/Agen-5mg-Tablet-EE-RA> a fhir:RegulatedAuthorization;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/RegulatedAuthorization/Agen-5mg-Tablet-EE-RA> a fhir:RegulatedAuthorization;
   fhir:Resource.id [ fhir:value "Agen-5mg-Tablet-EE-RA"];
   fhir:Resource.meta [
      fhir:Meta.profile [
@@ -242,7 +242,7 @@
      fhir:Reference.reference [ fhir:value "Organization/LOC-100002580-Zentiva" ]
   ] .
 
-<http://medigree.net/fhir/idmp/ee/AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD> a fhir:AdministrableProductDefinition;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD> a fhir:AdministrableProductDefinition;
   fhir:Resource.id [ fhir:value "Agen-5mg-Tablet-EE-APD"];
   fhir:Resource.meta [
      fhir:Meta.profile [
@@ -294,7 +294,7 @@
      ]
   ] .
 
-<http://medigree.net/fhir/idmp/ee/ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID> a fhir:ManufacturedItemDefinition;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID> a fhir:ManufacturedItemDefinition;
   fhir:Resource.id [ fhir:value "Agen-5mg-Tablet-EE-MID"];
   fhir:Resource.meta [
      fhir:Meta.profile [
@@ -325,7 +325,7 @@
      ]
   ] .
 
-<http://medigree.net/fhir/idmp/ee/Ingredient/Agen-5mg-Tablet-EE-I> a fhir:Ingredient;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/Agen-5mg-Tablet-EE-I> a fhir:Ingredient;
   fhir:Resource.id [ fhir:value "Agen-5mg-Tablet-EE-I"];
   fhir:Resource.meta [
      fhir:Meta.profile [
@@ -415,7 +415,7 @@
      ]
   ] .
 
-<http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A> a fhir:PackagedProductDefinition;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A> a fhir:PackagedProductDefinition;
   fhir:Resource.id [ fhir:value "Agen-5mg-Tablet-EE-PPD-1109887-A"];
   fhir:Resource.meta [
      fhir:Meta.profile [
@@ -535,7 +535,7 @@
      ]
   ] .
 
-<http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B> a fhir:PackagedProductDefinition;
+<https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B> a fhir:PackagedProductDefinition;
   fhir:Resource.id [ fhir:value "Agen-5mg-Tablet-EE-PPD-1109887-B"];
   fhir:Resource.meta [
      fhir:Meta.profile [

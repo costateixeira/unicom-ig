@@ -4,7 +4,7 @@
   <id value="004-Cefuroxime-MIP-1500mg-EE-FullProduct"/>
   <type value="transaction"/>
   <entry>
-    <fullUrl value="http://medigree.net/fhir/idmp/ee/MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD"/>
     <resource>
       <MedicinalProductDefinition>
         <id value="Cefuroxime-MIP-1500mg-EE-MPD"/>
@@ -109,7 +109,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://medigree.net/fhir/idmp/ee/RegulatedAuthorization/Cefuroxime-MIP-1500mg-EE-RA"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/RegulatedAuthorization/Cefuroxime-MIP-1500mg-EE-RA"/>
     <resource>
       <RegulatedAuthorization>
         <id value="Cefuroxime-MIP-1500mg-EE-RA"/>
@@ -158,7 +158,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://medigree.net/fhir/idmp/ee/AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/Cefuroxime-MIP-1500mg-EE-APD"/>
     <resource>
       <AdministrableProductDefinition>
         <id value="Cefuroxime-MIP-1500mg-EE-APD"/>
@@ -215,7 +215,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://medigree.net/fhir/idmp/ee/ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID"/>
     <resource>
       <ManufacturedItemDefinition>
         <id value="Cefuroxime-MIP-1500mg-EE-MID"/>
@@ -248,7 +248,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://medigree.net/fhir/idmp/ee/Ingredient/Cefuroxime-MIP-1500mg-EE-I"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/Cefuroxime-MIP-1500mg-EE-I"/>
     <resource>
       <Ingredient>
         <id value="Cefuroxime-MIP-1500mg-EE-I"/>
@@ -332,7 +332,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529940"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529940"/>
     <resource>
       <PackagedProductDefinition>
         <id value="Cefuroxime-MIP-1500mg-EE-PPD-1529940"/>
@@ -424,7 +424,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/Cefuroxime-MIP-1500mg-EE-PPD-1529962"/>
     <resource>
       <PackagedProductDefinition>
         <id value="Cefuroxime-MIP-1500mg-EE-PPD-1529962"/>

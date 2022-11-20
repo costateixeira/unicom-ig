@@ -4,7 +4,7 @@
   <id value="005-CanifugCremolum-EE-FullProduct"/>
   <type value="transaction"/>
   <entry>
-    <fullUrl value="http://medigree.net/fhir/idmp/ee/MedicinalProductDefinition/CanifugCremolum-EE-MPD"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/MedicinalProductDefinition/CanifugCremolum-EE-MPD"/>
     <resource>
       <MedicinalProductDefinition>
         <id value="CanifugCremolum-EE-MPD"/>
@@ -99,7 +99,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://medigree.net/fhir/idmp/ee/RegulatedAuthorization/CanifugCremolum-EE-RA"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/RegulatedAuthorization/CanifugCremolum-EE-RA"/>
     <resource>
       <RegulatedAuthorization>
         <id value="CanifugCremolum-EE-RA"/>
@@ -148,7 +148,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://medigree.net/fhir/idmp/ee/AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD"/>
     <resource>
       <AdministrableProductDefinition>
         <id value="CanifugCremolum-10mg1g-Cream-EE-APD"/>
@@ -196,7 +196,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://medigree.net/fhir/idmp/ee/AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD"/>
     <resource>
       <AdministrableProductDefinition>
         <id value="CanifugCremolum-100mg-Pessary-EE-APD"/>
@@ -244,7 +244,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://medigree.net/fhir/idmp/ee/ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID"/>
     <resource>
       <ManufacturedItemDefinition>
         <id value="CanifugCremolum-10mg1g-Cream-EE-MID"/>
@@ -277,7 +277,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://medigree.net/fhir/idmp/ee/ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID"/>
     <resource>
       <ManufacturedItemDefinition>
         <id value="CanifugCremolum-100mg-Pessary-EE-MID"/>
@@ -310,7 +310,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://medigree.net/fhir/idmp/ee/Ingredient/CanifugCremolum-10mg1g-Cream-EE-I"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/CanifugCremolum-10mg1g-Cream-EE-I"/>
     <resource>
       <Ingredient>
         <id value="CanifugCremolum-10mg1g-Cream-EE-I"/>
@@ -372,7 +372,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://medigree.net/fhir/idmp/ee/Ingredient/CanifugCremolum-100mg-Pessary-EE-I"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/CanifugCremolum-100mg-Pessary-EE-I"/>
     <resource>
       <Ingredient>
         <id value="CanifugCremolum-100mg-Pessary-EE-I"/>
@@ -434,7 +434,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692"/>
     <resource>
       <PackagedProductDefinition>
         <id value="CanifugCremolum-EE-PPD-1033692"/>

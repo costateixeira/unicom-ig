@@ -4,7 +4,7 @@
   <id value="002-Agen10mg-EE-FullProduct"/>
   <type value="transaction"/>
   <entry>
-    <fullUrl value="http://medigree.net/fhir/idmp/ee/MedicinalProductDefinition/Agen-10mg-Tablet-EE-MPD"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/MedicinalProductDefinition/Agen-10mg-Tablet-EE-MPD"/>
     <resource>
       <MedicinalProductDefinition>
         <id value="Agen-10mg-Tablet-EE-MPD"/>
@@ -115,7 +115,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://medigree.net/fhir/idmp/ee/RegulatedAuthorization/Agen-10mg-Tablet-EE-RA"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/RegulatedAuthorization/Agen-10mg-Tablet-EE-RA"/>
     <resource>
       <RegulatedAuthorization>
         <id value="Agen-10mg-Tablet-EE-RA"/>
@@ -164,7 +164,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://medigree.net/fhir/idmp/ee/AdministrableProductDefinition/Agen-10mg-Tablet-EE-APD"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/Agen-10mg-Tablet-EE-APD"/>
     <resource>
       <AdministrableProductDefinition>
         <id value="Agen-10mg-Tablet-EE-APD"/>
@@ -212,7 +212,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://medigree.net/fhir/idmp/ee/ManufacturedItemDefinition/Agen-10mg-Tablet-EE-MID"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/Agen-10mg-Tablet-EE-MID"/>
     <resource>
       <ManufacturedItemDefinition>
         <id value="Agen-10mg-Tablet-EE-MID"/>
@@ -245,7 +245,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://medigree.net/fhir/idmp/ee/Ingredient/Agen-10mg-Tablet-EE-I"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/Agen-10mg-Tablet-EE-I"/>
     <resource>
       <Ingredient>
         <id value="Agen-10mg-Tablet-EE-I"/>
@@ -330,7 +330,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/Agen-10mg-Tablet-EE-PPD-1109900-A"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/Agen-10mg-Tablet-EE-PPD-1109900-A"/>
     <resource>
       <PackagedProductDefinition>
         <id value="Agen-10mg-Tablet-EE-PPD-1109900-A"/>
@@ -436,7 +436,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/Agen-10mg-Tablet-EE-PPD-1109900-B"/>
+    <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/Agen-10mg-Tablet-EE-PPD-1109900-B"/>
     <resource>
       <PackagedProductDefinition>
         <id value="Agen-10mg-Tablet-EE-PPD-1109900-B"/>
