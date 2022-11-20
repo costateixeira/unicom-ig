@@ -5,12 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7-eu.github.io/unicom-ig/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B> a fhir:PackagedProductDefinition;
+<http://unicom-project.eu/fhir/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B> a fhir:PackagedProductDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Agen-5mg-Tablet-EE-PPD-1109887-B"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition";
+       fhir:index 0;
+       fhir:link <http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition>
+     ]
+  ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"Agen-5mg-Tablet-EE-PPD-1109887-B\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;Agen-5mg-Tablet-EE-PPD-1109887-B&quot; </p></div><p><b>identifier</b>: id: EE-100002580-15547-1109887</p><p><b>packageFor</b>: <a href=\"MedicinalProductDefinition-Agen-5mg-Tablet-EE-MPD.html\">MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD</a></p><p><b>containedItemQuantity</b>: 30 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = '200000002152')</span></p><p><b>description</b>: Tabletid on pakendatud PVC/Al blistritesse (valged).</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000388)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073496)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003222)</span>, Aluminium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003200)</span></p></blockquote></blockquote></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"Agen-5mg-Tablet-EE-PPD-1109887-B\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;Agen-5mg-Tablet-EE-PPD-1109887-B&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PPLPackagedProductDefinition.html\">PPL Packaged Product profile</a></p></div><p><b>identifier</b>: id: EE-100002580-15547-1109887</p><p><b>packageFor</b>: <a href=\"MedicinalProductDefinition-Agen-5mg-Tablet-EE-MPD.html\">MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD</a></p><p><b>containedItemQuantity</b>: 30 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = 'Tablet')</span></p><p><b>description</b>: Tabletid on pakendatud PVC/Al blistritesse (valged).</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-CountryEma.html\">CountryEma</a>#100000000388)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073496)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003222)</span>, Aluminium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-material-ema-cs.html\">Material EMA</a>#200000003200)</span></p></blockquote></blockquote></div>"
   ];
   fhir:PackagedProductDefinition.identifier [
      fhir:index 0;
@@ -19,14 +26,14 @@
   ];
   fhir:PackagedProductDefinition.packageFor [
      fhir:index 0;
-     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD>;
+     fhir:link <http://unicom-project.eu/fhir/MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD>;
      fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD" ]
   ];
   fhir:PackagedProductDefinition.containedItemQuantity [
      fhir:index 0;
      fhir:Quantity.value [ fhir:value "30"^^xsd:decimal ];
      fhir:Quantity.unit [ fhir:value "Tablet" ];
-     fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+     fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000014" ];
      fhir:Quantity.code [ fhir:value "200000002152" ]
   ];
   fhir:PackagedProductDefinition.description [ fhir:value "Tabletid on pakendatud PVC/Al blistritesse (valged)."];
@@ -35,7 +42,7 @@
      fhir:MarketingStatus.country [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000002" ];
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000000002" ];
          fhir:Coding.code [ fhir:value "100000000388" ];
          fhir:Coding.display [ fhir:value "Republic of Estonia" ]
        ]
@@ -43,7 +50,7 @@
      fhir:MarketingStatus.status [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072052" ];
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000072052" ];
          fhir:Coding.code [ fhir:value "100000072083" ];
          fhir:Coding.display [ fhir:value "Marketed" ]
        ]
@@ -53,7 +60,7 @@
      fhir:PackagedProductDefinition.package.type [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073346" ];
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000073346" ];
          fhir:Coding.code [ fhir:value "100000073498" ];
          fhir:Coding.display [ fhir:value "Box" ]
        ]
@@ -63,7 +70,7 @@
        fhir:index 0;
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000003199" ];
          fhir:Coding.code [ fhir:value "200000003529" ];
          fhir:Coding.display [ fhir:value "Cardboard" ]
        ]
@@ -73,7 +80,7 @@
        fhir:PackagedProductDefinition.package.type [
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073346" ];
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000073346" ];
            fhir:Coding.code [ fhir:value "100000073496" ];
            fhir:Coding.display [ fhir:value "Blister" ]
          ]
@@ -83,7 +90,7 @@
          fhir:index 0;
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000003199" ];
            fhir:Coding.code [ fhir:value "200000003222" ];
            fhir:Coding.display [ fhir:value "PolyVinyl Chloride" ]
          ]
@@ -91,7 +98,7 @@
          fhir:index 1;
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000003199" ];
            fhir:Coding.code [ fhir:value "200000003200" ];
            fhir:Coding.display [ fhir:value "Aluminium" ]
          ]
@@ -100,7 +107,7 @@
          fhir:index 0;
          fhir:PackagedProductDefinition.package.containedItem.item [
            fhir:CodeableReference.reference [
-             fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID>;
+             fhir:link <http://unicom-project.eu/fhir/ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID>;
              fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID" ]
            ]
          ];
@@ -113,7 +120,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7-eu.github.io/unicom-ig/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B.ttl> a owl:Ontology;
+<http://unicom-project.eu/fhir/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
