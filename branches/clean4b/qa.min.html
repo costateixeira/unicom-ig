@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = errors = 0, warn = 23, info = 130, 0 -->
+<!-- broken links = errors = 0, warn = 36, info = 174, 0 -->
 <head>
   <title>UnicomIG : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,12 +36,12 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for UnicomIG</h1>
- <p>Generated Sun Nov 20 14:32:31 UTC 2022, FHIR version 4.3.0 for hl7.eu.fhir.unicom#0.1.0 (canonical = <a href="http://hl7-eu.github.io/unicom-ig">http://hl7-eu.github.io/unicom-ig</a> (<a href="http://hl7-eu.github.io/unicom-ig/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
+ <p>Generated Tue Nov 22 13:50:03 UTC 2022, FHIR version 4.3.0 for hl7.eu.fhir.unicom#0.1.0 (canonical = <a href="http://hl7-eu.github.io/unicom-ig">http://hl7-eu.github.io/unicom-ig</a> (<a href="http://hl7-eu.github.io/unicom-ig/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
- <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.2.17</span></td></tr>
+ <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.2.18</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = hl7.eu.fhir.unicom, Canonical = http://hl7-eu.github.io/unicom-ig</td></tr>
  <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
- <tr><td>Publication Request:</td><td><ul><li><span title="Invalid HTTP response 404 from https://hl7-eu.github.io/unicom-ig/package-list.json?nocache=1668954751350 (Not Found) (content in /tmp/fhir-http-3.log)">This IG has never been published</span> <img src="information.png" height="16px" width="16px"/></li>
+ <tr><td>Publication Request:</td><td><ul><li><span title="Invalid HTTP response 404 from https://hl7-eu.github.io/unicom-ig/package-list.json?nocache=1669125002295 (Not Found) (content in /tmp/fhir-http-3.log)">This IG has never been published</span> <img src="information.png" height="16px" width="16px"/></li>
 <li>No publication request found <img src="information.png" height="16px" width="16px"/></li>
 </ul>
 </td></tr>
@@ -55,16 +55,16 @@
  <tr><td>HTA Analysis:</td><td><i>no Non-HL7 references found</i></td></tr>
  <tr><td>R5 Dependencies:</td><td><span style="color: grey">(none)</span></td></tr>
  <tr><td>Modifier Extensions:</td><td><span style="color: grey">(none)</span></td></tr>
- <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://hl7-eu.github.io/unicom-ig (Problem #1 with package-list.json at http://hl7-eu.github.io/unicom-ig: Invalid HTTP response 404 from https://hl7-eu.github.io/unicom-ig/package-list.json?nocache=1668954721672 (Not Found) (content in /tmp/fhir-http-2.log))</td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://hl7-eu.github.io/unicom-ig (Problem #1 with package-list.json at http://hl7-eu.github.io/unicom-ig: Invalid HTTP response 404 from https://hl7-eu.github.io/unicom-ig/package-list.json?nocache=1669124970695 (Not Found) (content in /tmp/fhir-http-2.log))</td></tr>
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
- <tr><td>Summary:</td><td> errors = 0, warn = 23, info = 130, broken links = 0</td></tr>
+ <tr><td>Summary:</td><td> errors = 0, warn = 36, info = 174, broken links = 0</td></tr>
 </table>
  <table class="grid">
    <tr>
      <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>0</b></td><td><b>4</b></td><td><b>0</b></td>
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>0</b></td><td><b>5</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_github_workspace_fsh-generated_resources_ManufacturedItemDefinition-Agen-5mg-Tablet-EE-MID"><b>/github/workspace/fsh-generated/resources/ManufacturedItemDefinition-Agen-5mg-Tablet-EE-MID</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>2</b></td>
@@ -114,12 +114,18 @@
    <tr style="background-color: #EFFFEF">
      <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-untyped"><b>/github/workspace/fsh-generated/resources/StructureDefinition-untyped</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>0</b></td>
    </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_github_workspace_input_resources_Bundle-005-CanifugCremolum-EE-FullProduct"><b>/github/workspace/input/resources/Bundle-005-CanifugCremolum-EE-FullProduct</b></a></td><td><b>0</b></td><td><b>12</b></td><td><b>44</b></td>
+   </tr>
 </table>
 <hr/>
 <a name="internal"> </a>
 <h2><a href="">n/a</a> <span id="sv" class="toggle" onclick="toggle('v')">Show Validation Information</span> <span class="vcount" onclick="toggle('v')"></span></h2>
  <div style="border: 1px grey solid; display: none" id="v"></div>
  <table class="grid">
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/005-CanifugCremolum-EE-FullProduct.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
    <tr style="background-color: #ffebcc">
      <td><b>1</b></td><td><b>warning</b></td><td title=""><b>The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide</b></td>
    </tr>
@@ -473,6 +479,184 @@
      <td><b>StructureDefinition.where(url = 'http://hl7-eu.github.io/unicom-ig/StructureDefinition/untyped')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this data type profile</b></td>
    </tr>
 </table>
+<hr/>
+<a name="_github_workspace_input_resources_Bundle-005-CanifugCremolum-EE-FullProduct"> </a>
+<h2><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a> <span id="svi17" class="toggle" onclick="toggle('vi17')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi17')">(10)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi17"><ul style="font-size: 7px"><li>Bundle: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4B/bundle.html">Bundle</a></li><li>Bundle.entry[0].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4B/medicinalproductdefinition.html">MedicinalProductDefinition</a></li><li>Bundle.entry[1].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4B/regulatedauthorization.html">RegulatedAuthorization</a></li><li>Bundle.entry[2].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4B/administrableproductdefinition.html">AdministrableProductDefinition</a></li><li>Bundle.entry[3].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4B/administrableproductdefinition.html">AdministrableProductDefinition</a></li><li>Bundle.entry[4].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4B/manufactureditemdefinition.html">ManufacturedItemDefinition</a></li><li>Bundle.entry[5].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4B/manufactureditemdefinition.html">ManufacturedItemDefinition</a></li><li>Bundle.entry[6].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4B/ingredient.html">Ingredient</a></li><li>Bundle.entry[7].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4B/ingredient.html">Ingredient</a></li><li>Bundle.entry[8].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4B/packagedproductdefinition.html">PackagedProductDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[0].resource.ofType(MedicinalProductDefinition).domain.coding[0] (l28/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000000004' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[0].resource.ofType(MedicinalProductDefinition).status (l36/c22)</b></td><td><b>information</b></td><td title="Terminology_TX_NoValid_3_CC"><b>None of the codings provided are in the value set 'PublicationStatus' (http://hl7.org/fhir/ValueSet/publication-status|5.0.0-cibuild), and a coding is recommended to come from this value set) (codes = https://spor.ema.europa.eu/v1/lists/200000005003#200000005004)</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[0].resource.ofType(MedicinalProductDefinition).status.coding[0] (l37/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000005003' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[0].resource.ofType(MedicinalProductDefinition).combinedPharmaceuticalDoseForm.coding[0] (l46/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000000008' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[0].resource.ofType(MedicinalProductDefinition).legalStatusOfSupply.coding[0] (l55/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000072051' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource.ofType(MedicinalProductDefinition).classification[0] (l63/c12)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet http://hl7.org/fhir/ValueSet/product-classification-codes not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[0].resource.ofType(MedicinalProductDefinition).classification[0].coding[0] (l65/c16)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000093533' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[0].resource.ofType(MedicinalProductDefinition).name[0].namePart[0].type.coding[0] (l86/c22)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/220000000000' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[0].resource.ofType(MedicinalProductDefinition).name[0].countryLanguage[0].country.coding[0] (l99/c22)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000000002' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[0].resource.ofType(MedicinalProductDefinition).name[0].countryLanguage[0].language (l107/c30)</b></td><td><b>information</b></td><td title="Terminology_TX_NoValid_3_CC"><b>None of the codings provided are in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.3.0), and a coding is recommended to come from this value set) (codes = https://spor.ema.europa.eu/v1/lists/100000072057#100000072172)</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[0].resource.ofType(MedicinalProductDefinition).name[0].countryLanguage[0].language.coding[0] (l108/c22)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000072057' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource.ofType(MedicinalProductDefinition).meta.profile[0] (l53/c33)</b></td><td><b>warning</b></td><td title="VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY"><b>Profile reference 'http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[1].resource.ofType(RegulatedAuthorization).type.coding[0] (l147/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/220000000060' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[1].resource.ofType(RegulatedAuthorization).region[0].coding[0] (l157/c16)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000000002' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[1].resource.ofType(RegulatedAuthorization).status (l166/c22)</b></td><td><b>information</b></td><td title="Terminology_TX_NoValid_3_CC"><b>None of the codings provided are in the value set 'PublicationStatus' (http://hl7.org/fhir/ValueSet/publication-status|5.0.0-cibuild), and a coding is recommended to come from this value set) (codes = https://spor.ema.europa.eu/v1/lists/100000072049#200000017708)</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[1].resource.ofType(RegulatedAuthorization).status.coding[0] (l167/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000072049' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[1].resource.ofType(RegulatedAuthorization).meta.profile[0] (l175/c20)</b></td><td><b>warning</b></td><td title="VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY"><b>Profile reference 'http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[2].resource.ofType(AdministrableProductDefinition).administrableDoseForm.coding[0] (l202/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000000004' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[2].resource.ofType(AdministrableProductDefinition).unitOfPresentation.coding[0] (l211/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[2].resource.ofType(AdministrableProductDefinition).routeOfAdministration[0].code.coding[0] (l227/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000073345' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[2].resource.ofType(AdministrableProductDefinition).meta.profile[0] (l209/c32)</b></td><td><b>warning</b></td><td title="VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY"><b>Profile reference 'http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[3].resource.ofType(AdministrableProductDefinition).administrableDoseForm.coding[0] (l260/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000000004' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[3].resource.ofType(AdministrableProductDefinition).unitOfPresentation.coding[0] (l269/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[3].resource.ofType(AdministrableProductDefinition).routeOfAdministration[0].code.coding[0] (l285/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000073345' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[3].resource.ofType(AdministrableProductDefinition).meta.profile[0] (l267/c32)</b></td><td><b>warning</b></td><td title="VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY"><b>Profile reference 'http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[4].resource.ofType(ManufacturedItemDefinition).manufacturedDoseForm (l312/c22)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet http://hl7.org/fhir/ValueSet/manufactured-dose-form not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[4].resource.ofType(ManufacturedItemDefinition).manufacturedDoseForm.coding[0] (l313/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000000004' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[4].resource.ofType(ManufacturedItemDefinition).unitOfPresentation.coding[0] (l322/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[4].resource.ofType(ManufacturedItemDefinition).meta.profile[0] (l320/c32)</b></td><td><b>warning</b></td><td title="VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY"><b>Profile reference 'http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[5].resource.ofType(ManufacturedItemDefinition).manufacturedDoseForm (l347/c22)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet http://hl7.org/fhir/ValueSet/manufactured-dose-form not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[5].resource.ofType(ManufacturedItemDefinition).manufacturedDoseForm.coding[0] (l348/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000000004' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[5].resource.ofType(ManufacturedItemDefinition).unitOfPresentation.coding[0] (l357/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[5].resource.ofType(ManufacturedItemDefinition).meta.profile[0] (l355/c32)</b></td><td><b>warning</b></td><td title="VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY"><b>Profile reference 'http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[6].resource.ofType(Ingredient).role.coding[0] (l394/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000072050' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[6].resource.ofType(Ingredient).substance.code.concept.coding[0] (l405/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v2/SubstanceDefinition' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[6].resource.ofType(Ingredient).substance.strength[0].concentration.ofType(Ratio).numerator (l417/c31)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000110633' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[6].resource.ofType(Ingredient).substance.strength[0].concentration.ofType(Ratio).denominator (l423/c30)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000110633' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[6].resource.ofType(Ingredient).meta.profile[0] (l401/c23)</b></td><td><b>warning</b></td><td title="VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY"><b>Profile reference 'http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[7].resource.ofType(Ingredient).role.coding[0] (l462/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000072050' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[7].resource.ofType(Ingredient).substance.code.concept.coding[0] (l473/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v2/SubstanceDefinition' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[7].resource.ofType(Ingredient).substance.strength[0].presentation.ofType(Ratio).numerator (l485/c32)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000110633' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[7].resource.ofType(Ingredient).substance.strength[0].presentation.ofType(Ratio).denominator (l491/c30)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[7].resource.ofType(Ingredient).meta.profile[0] (l469/c23)</b></td><td><b>warning</b></td><td title="VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY"><b>Profile reference 'http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[8].resource.ofType(PackagedProductDefinition).containedItemQuantity[0] (l528/c12)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[8].resource.ofType(PackagedProductDefinition).containedItemQuantity[1] (l534/c12)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[8].resource.ofType(PackagedProductDefinition).marketingStatus[0].country.coding[0] (l546/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000000002' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[8].resource.ofType(PackagedProductDefinition).marketingStatus[0].status.coding[0] (l555/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000072052' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[8].resource.ofType(PackagedProductDefinition).package.type.coding[0] (l567/c16)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000073346' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[8].resource.ofType(PackagedProductDefinition).package.material[0].coding[0] (l578/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000003199' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[8].resource.ofType(PackagedProductDefinition).package.package[0].type.coding[0] (l590/c20)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000073346' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[8].resource.ofType(PackagedProductDefinition).package.package[0].material[0].coding[0] (l601/c22)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000003199' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[8].resource.ofType(PackagedProductDefinition).package.package[0].material[1].coding[0] (l610/c22)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000003199' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[8].resource.ofType(PackagedProductDefinition).package.package[1].type.coding[0] (l634/c20)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000073346' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[8].resource.ofType(PackagedProductDefinition).package.package[1].material[0].coding[0] (l645/c22)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000003199' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[8].resource.ofType(PackagedProductDefinition).package.package[1].containedItem[0].amount (l661/c33)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000110633' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[8].resource.ofType(PackagedProductDefinition).meta.profile[0] (l564/c21)</b></td><td><b>warning</b></td><td title="VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY"><b>Profile reference 'http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles</b></td>
+   </tr>
+</table>
 <a name="suppressed"> </a>
 <p><b>Suppressed Messages (Warnings, hints, broken links)</b></p>
 <p>No suppressed messsages</p><a name="sorted"> </a>
@@ -507,6 +691,15 @@
    </tr>
    <tr style="background-color: #fffff2">
      <td><a href="RegulatedAuthorization-Cefuroxime-MIP-1500mg-EE-RA.html">fsh-generated/resources/RegulatedAuthorization-Cefuroxime-MIP-1500mg-EE-RA.json</a></td><td><b>None of the codings provided are in the value set 'PublicationStatus' (http://hl7.org/fhir/ValueSet/publication-status|5.0.0-cibuild), and a coding is recommended to come from this value set) (codes = http://spor.ema.europa.eu/v1/lists/100000072049#200000017708)</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>None of the codings provided are in the value set 'PublicationStatus' (http://hl7.org/fhir/ValueSet/publication-status|5.0.0-cibuild), and a coding is recommended to come from this value set) (codes = https://spor.ema.europa.eu/v1/lists/200000005003#200000005004)</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>None of the codings provided are in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.3.0), and a coding is recommended to come from this value set) (codes = https://spor.ema.europa.eu/v1/lists/100000072057#100000072172)</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>None of the codings provided are in the value set 'PublicationStatus' (http://hl7.org/fhir/ValueSet/publication-status|5.0.0-cibuild), and a coding is recommended to come from this value set) (codes = https://spor.ema.europa.eu/v1/lists/100000072049#200000017708)</b></td>
    </tr>
 </table>
 <hr/>
@@ -876,6 +1069,129 @@
    <tr style="background-color: #fffff2">
      <td><a href="RegulatedAuthorization-Cefuroxime-MIP-1500mg-EE-RA.html">fsh-generated/resources/RegulatedAuthorization-Cefuroxime-MIP-1500mg-EE-RA.json</a></td><td><b>Code System URI 'http://spor.ema.europa.eu/v1/lists/100000072049' is unknown so the code cannot be validated</b></td>
    </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000000004' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000005003' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000000008' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000072051' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000093533' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/220000000000' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000000002' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000072057' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/220000000060' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000000002' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000072049' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000000004' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000073345' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000000004' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000073345' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000000004' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000000004' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000072050' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v2/SubstanceDefinition' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000110633' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000110633' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000072050' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v2/SubstanceDefinition' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000110633' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000000014' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000000002' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000072052' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000073346' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000003199' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000073346' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000003199' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000003199' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000073346' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/200000003199' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/v1/lists/100000110633' is unknown so the code cannot be validated</b></td>
+   </tr>
 </table>
 <hr/>
 <a name="Terminology_TX_ValueSet_NotFound"> </a>
@@ -901,6 +1217,47 @@
    </tr>
    <tr style="background-color: #fff4ee">
      <td><a href="MedicinalProductDefinition-Cefuroxime-MIP-1500mg-EE-MPD.html">fsh-generated/resources/MedicinalProductDefinition-Cefuroxime-MIP-1500mg-EE-MPD.json</a></td><td><b>ValueSet http://hl7.org/fhir/ValueSet/product-classification-codes not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>ValueSet http://hl7.org/fhir/ValueSet/product-classification-codes not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>ValueSet http://hl7.org/fhir/ValueSet/manufactured-dose-form not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>ValueSet http://hl7.org/fhir/ValueSet/manufactured-dose-form not found by validator</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY"> </a>
+<h2>VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Profile reference 'http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Profile reference 'http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Profile reference 'http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Profile reference 'http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Profile reference 'http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Profile reference 'http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Profile reference 'http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Profile reference 'http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-005-CanifugCremolum-EE-FullProduct.html">input/resources/Bundle-005-CanifugCremolum-EE-FullProduct.json</a></td><td><b>Profile reference 'http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles</b></td>
    </tr>
 </table>
 </body>
