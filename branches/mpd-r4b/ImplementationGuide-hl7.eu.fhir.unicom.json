@@ -10,7 +10,7 @@
   "name": "UnicomIG",
   "title": "UnicomIG",
   "status": "draft",
-  "date": "2022-11-21T10:47:26+00:00",
+  "date": "2022-11-22T13:07:41+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -1322,9 +1322,9 @@
           }
         ],
         "reference": {
-          "reference": "Bundle/006-Yaz-0023mg-tablet-SE-FullProduct"
+          "reference": "Bundle/006-Yaz-0.02mg3mg-tablet-SE-FullProduct"
         },
-        "name": "006-Yaz-0023mg-tablet-SE-FullProduct",
+        "name": "006-Yaz-0.02mg3mg-tablet-SE-FullProduct",
         "description": "YAZ ethinylestradiol 0.02mg, drosperinone 3mg, includes placebo tablets. Kingdom of Sweden. Different manufactured items in one container.",
         "exampleBoolean": true
       },
@@ -1336,9 +1336,37 @@
           }
         ],
         "reference": {
-          "reference": "Bundle/007-Paracetamol-Kabi10mg-1ml-EE-FullProduct"
+          "reference": "Bundle/007-Jangee-0.02mg-3mg-Film-coated-tablet-EE-FullProduct"
         },
-        "name": "007-Paracetamol-Kabi10mg-1ml-EE-FullProduct",
+        "name": "007-Jangee-0.02mg-3mg-Film-coated-tablet-EE-FullProduct",
+        "description": "Jangee ethinylestradiol 0.02mg, drosperinone 3mg. Estonia. Without placebo pills.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/008-Jangee-0.03mg-3mg-Film-coated-tablet-EE-FullProduct"
+        },
+        "name": "008-Jangee-0.03mg-3mg-Film-coated-tablet-EE-FullProduct",
+        "description": "Jangee ethinylestradiol 0.03mg, drosperinone 3mg. Estonia. Without placebo pills.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/009-Paracetamol-Kabi10mg-1ml-EE-FullProduct"
+        },
+        "name": "009-Paracetamol-Kabi10mg-1ml-EE-FullProduct",
         "description": "Paracetamol Kabi 10mg/ml solution for infusion. One pharmaceutical product for three different manufactured items.",
         "exampleBoolean": true
       },
@@ -1350,9 +1378,9 @@
           }
         ],
         "reference": {
-          "reference": "Bundle/008-Clexane-60mg-0.6ml-EE-FullProduct"
+          "reference": "Bundle/010-Clexane-60mg-0.6ml-EE-FullProduct"
         },
-        "name": "008-Clexane-60mg-0.6ml-EE-FullProduct",
+        "name": "010-Clexane-60mg-0.6ml-EE-FullProduct",
         "description": "Clexane, enoxaparine sodium 60mg/0.6ml, 2 pre-filled syringes. Presentation strength per quantity.",
         "exampleBoolean": true
       },
