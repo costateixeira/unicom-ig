@@ -10,7 +10,7 @@
   "name": "UnicomIG",
   "title": "UnicomIG",
   "status": "draft",
-  "date": "2022-11-22T13:07:41+00:00",
+  "date": "2022-11-22T20:42:27+00:00",
   "publisher": "UNICOM",
   "contact": [
     {
@@ -1382,6 +1382,32 @@
         },
         "name": "010-Clexane-60mg-0.6ml-EE-FullProduct",
         "description": "Clexane, enoxaparine sodium 60mg/0.6ml, 2 pre-filled syringes. Presentation strength per quantity.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/011-Betaklav500-125-EE-FullProduct"
+        },
+        "name": "011-Betaklav500-125-EE-FullProduct",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/012-Panodil-500mg-SolutionInSachet-SE-FullProduct"
+        },
+        "name": "012-Panodil-500mg-SolutionInSachet-SE-FullProduct",
         "exampleBoolean": true
       },
       {
