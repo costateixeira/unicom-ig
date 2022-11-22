@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "CombinationPackage_EMA_CS"];
   fhir:CodeSystem.title [ fhir:value "Combination Package EMA"];
   fhir:CodeSystem.status [ fhir:value "draft"];
-  fhir:CodeSystem.date [ fhir:value "2022-11-21T10:47:26+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-11-22T13:07:41+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "UNICOM"];
   fhir:CodeSystem.contact [
      fhir:index 0;

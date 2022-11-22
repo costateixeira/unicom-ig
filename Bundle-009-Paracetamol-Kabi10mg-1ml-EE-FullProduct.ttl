@@ -5,9 +5,9 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/Bundle/007-Paracetamol-Kabi10mg-1ml-EE-FullProduct> a fhir:Bundle;
+<http://unicom-project.eu/fhir/Bundle/009-Paracetamol-Kabi10mg-1ml-EE-FullProduct> a fhir:Bundle;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "007-Paracetamol-Kabi10mg-1ml-EE-FullProduct"];
+  fhir:Resource.id [ fhir:value "009-Paracetamol-Kabi10mg-1ml-EE-FullProduct"];
   fhir:Bundle.type [ fhir:value "transaction"];
   fhir:Bundle.entry [
      fhir:index 0;
@@ -839,7 +839,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/Bundle/007-Paracetamol-Kabi10mg-1ml-EE-FullProduct.ttl> a owl:Ontology;
+<http://unicom-project.eu/fhir/Bundle/009-Paracetamol-Kabi10mg-1ml-EE-FullProduct.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

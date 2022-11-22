@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="008-Clexane-60mg-0.6ml-EE-FullProduct"/>
+  <id value="010-Clexane-60mg-0.6ml-EE-FullProduct"/>
   <type value="transaction"/>
   <entry>
     <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/MedicinalProductDefinition/Clexane-60mg-0.6ml-solinj-EE-MPD"/>

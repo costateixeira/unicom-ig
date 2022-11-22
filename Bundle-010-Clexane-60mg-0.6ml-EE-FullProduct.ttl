@@ -5,9 +5,9 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/Bundle/008-Clexane-60mg-0.6ml-EE-FullProduct> a fhir:Bundle;
+<http://unicom-project.eu/fhir/Bundle/010-Clexane-60mg-0.6ml-EE-FullProduct> a fhir:Bundle;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "008-Clexane-60mg-0.6ml-EE-FullProduct"];
+  fhir:Resource.id [ fhir:value "010-Clexane-60mg-0.6ml-EE-FullProduct"];
   fhir:Bundle.type [ fhir:value "transaction"];
   fhir:Bundle.entry [
      fhir:index 0;
@@ -519,7 +519,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://unicom-project.eu/fhir/Bundle/008-Clexane-60mg-0.6ml-EE-FullProduct.ttl> a owl:Ontology;
+<http://unicom-project.eu/fhir/Bundle/010-Clexane-60mg-0.6ml-EE-FullProduct.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

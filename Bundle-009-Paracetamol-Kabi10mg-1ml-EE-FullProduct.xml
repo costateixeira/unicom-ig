@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="007-Paracetamol-Kabi10mg-1ml-EE-FullProduct"/>
+  <id value="009-Paracetamol-Kabi10mg-1ml-EE-FullProduct"/>
   <type value="transaction"/>
   <entry>
     <fullUrl value="https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/MedicinalProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-MPD"/>
