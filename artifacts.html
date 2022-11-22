@@ -136,7 +136,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">UnicomIG - Local Development build (v0.1.0). See the <a href="http://hl7-eu.github.io/unicom-ig/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">UnicomIG - Local Development build (v0.1.0). See the <a href="http://unicom-project.eu/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Artifacts Summary</h2>
   
   
@@ -151,13 +151,19 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <a href="#1">Structures: Logical Models</a>
       </li>
       <li>
-         <a href="#2">Structures: Data Type Profiles</a>
+         <a href="#2">Structures: Resource Profiles</a>
       </li>
       <li>
-         <a href="#3">Example: Example Instances</a>
+         <a href="#3">Structures: Data Type Profiles</a>
       </li>
       <li>
-         <a href="#4">Other</a>
+         <a href="#4">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#5">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#6">Example: Example Instances</a>
       </li>
    </ul>
 </div>
@@ -187,6 +193,81 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       </table>
    </p>
    <a name="2"> </a>
+   <h3>Structures: Resource Profiles </h3>
+   <p>
+    <p>These define constraints on FHIR resources for systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-PPLAdministrableProductDefinition.html"
+                     title="StructureDefinition/PPLAdministrableProductDefinition">PPL Administrable Product profile</a>
+               </td>
+               <td>
+<p>Administrable product profile defines the ISO IDMP Pharmaceutical Product concept</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-PPLIngredient.html"
+                     title="StructureDefinition/PPLIngredient">PPL Ingredient profile</a>
+               </td>
+               <td>
+<p>Ingredient for the medicinal product, pharmaceutical product and/or manufactured item</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-PPLManufacturedItemDefinition.html"
+                     title="StructureDefinition/PPLManufacturedItemDefinition">PPL Manufactured Item profile</a>
+               </td>
+               <td>
+<p>Manufactured item is the countable element inside the package</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-PPLMedicinalProductDefinition.html"
+                     title="StructureDefinition/PPLMedicinalProductDefinition">PPL Medicinal Product profile</a>
+               </td>
+               <td>
+<p>Medicinal Product as defined in ISO IDMP</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-PPLOrganization.html"
+                     title="StructureDefinition/PPLOrganization">PPL Organization</a>
+               </td>
+               <td>
+<p>Organization</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-PPLPackagedProductDefinition.html"
+                     title="StructureDefinition/PPLPackagedProductDefinition">PPL Packaged Product profile</a>
+               </td>
+               <td>
+<p>Packaged Product</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-PPLRegulatedAuthorization.html"
+                     title="StructureDefinition/PPLRegulatedAuthorization">PPL Marketing Authorisation profile</a>
+               </td>
+               <td>
+<p>Regulated Authorization profile defines the Marketing Authorisation on product or package level</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="3"> </a>
    <h3>Structures: Data Type Profiles </h3>
    <p>
     <p>These define constraints on FHIR data types for systems conforming to this implementation guide.</p>
@@ -263,7 +344,247 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tbody>
       </table>
    </p>
-   <a name="3"> </a>
+   <a name="4"> </a>
+   <h3>Terminology: Value Sets </h3>
+   <p>
+    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-all-units-vs.html" title="ValueSet/all-units-vs">All Units Combined</a>
+               </td>
+               <td>
+<p>Value set for presentation strength denominator unit, combines units of measurement and units of presentation.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-authorised-doseform-vs.html"
+                     title="ValueSet/authorised-doseform-vs">Authorised Dose Form</a>
+               </td>
+               <td>
+<p>Value set for authorised dose form. Combines 4 SPOR/EDQM lists: Pharmaceutical dose form, Combined pharmaceutical dose form, Combined term, Combination package.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-country-ema-vs.html" title="ValueSet/country-ema-vs">Country (EMA SPOR RMS)</a>
+               </td>
+               <td>
+<p>Countries. EMA SPOR RMS list.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-country-iso-vs.html" title="ValueSet/country-iso-vs">Country (ISO 3166-1-2)</a>
+               </td>
+               <td>
+<p>Countries</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-domain-vs.html" title="ValueSet/domain-vs">Domain</a>
+               </td>
+               <td>
+<p>Domain of the medicinal product. EMA SPOR RMS list.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-language-bcp-vs.html" title="ValueSet/language-bcp-vs">Language (FHIR)</a>
+               </td>
+               <td>
+<p>All languages</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-language-ema-vs.html" title="ValueSet/language-ema-vs">Language (EMA SPOR RMS)</a>
+               </td>
+               <td>
+<p>Languages. EMA SPOR RMS list.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-legal-status-for-the-supply-vs.html"
+                     title="ValueSet/legal-status-for-the-supply-vs">Legal Status for the Supply</a>
+               </td>
+               <td>
+<p>EMA SPOR RMS list</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-material-vs.html" title="ValueSet/material-vs">Material</a>
+               </td>
+               <td>
+<p>Package material. EMA SPOR RMS LIST.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-pharmaceutical-doseform-vs.html"
+                     title="ValueSet/pharmaceutical-doseform-vs">Pharmaceutical Dose Form</a>
+               </td>
+               <td>
+<p>Pharmaceutical dose form. Does not include combination dose forms.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-routes-and-methods-of-administration-vs.html"
+                     title="ValueSet/routes-and-methods-of-administration-vs">Routes and Methods of Administration</a>
+               </td>
+               <td>
+<p>Routes and methods of medication administration. EMA SPOR RMS list.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-unit-of-measurement-vs.html"
+                     title="ValueSet/unit-of-measurement-vs">Unit of Measurement EMA</a>
+               </td>
+               <td>
+<p>Units of measurement. EMA SPOR RMS list based on UCUM.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-unit-of-presentation-vs.html"
+                     title="ValueSet/unit-of-presentation-vs">Unit of Presentation EMA</a>
+               </td>
+               <td>
+<p>Units of presentation. EMA SPOR RMS list based on EDQM.</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="5"> </a>
+   <h3>Terminology: Code Systems </h3>
+   <p>
+    <p>These define new code systems used by systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-combination-package-ema-cs.html"
+                     title="CodeSystem/combination-package-ema-cs">Combination Package EMA</a>
+               </td>
+               <td>
+<p>Dose forms for combination packages. Based on EDQM. Re-coded with RMS codes. Only used for authorised dose form.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-combined-pharmaceutical-dose-form-ema-cs.html"
+                     title="CodeSystem/combined-pharmaceutical-dose-form-ema-cs">Combined Pharmaceutical Dose Form EMA</a>
+               </td>
+               <td>
+<p>Combined Pharmaceutical Dose Form. Based on EDQM. Re-coded with RMS codes. Used only for authorised dose form.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-combined-term-ema-cs.html"
+                     title="CodeSystem/combined-term-ema-cs">Combined Term EMA</a>
+               </td>
+               <td>
+<p>Combined Term. Based on EDQM. Re-coded with RMS codes. Only used for authorised dose form.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-country-ema-cs.html" title="CodeSystem/country-ema-cs">Country EMA</a>
+               </td>
+               <td>
+<p>Country codes by EMA. Based on ISO 3166-1-2, recoded with RMS codes.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-domain-ema-cs.html" title="CodeSystem/domain-ema-cs">Domain EMA</a>
+               </td>
+               <td>
+<p>Domain of the medicinal product (human, veterinary, both)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-language-ema-cs.html"
+                     title="CodeSystem/language-ema-cs">Language EMA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-legal-status-for-the-supply-ema-cs.html"
+                     title="CodeSystem/legal-status-for-the-supply-ema-cs">Legal Status for the Supply EMA</a>
+               </td>
+               <td>
+<p>Legal status of supply. EMA SPOR RMS list.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-material-ema-cs.html"
+                     title="CodeSystem/material-ema-cs">Material EMA</a>
+               </td>
+               <td>
+<p>Package material. EMA SPOR RMS list. Hierarchical.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-pharmaceutical-dose-form-ema-cs.html"
+                     title="CodeSystem/pharmaceutical-dose-form-ema-cs">Pharmaceutical Dose Form EMA</a>
+               </td>
+               <td>
+<p>Pharmaceutical dose form. Based on EDQM, re-coded with RMS codes.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-routes-and-methods-of-administration-ema-cs.html"
+                     title="CodeSystem/routes-and-methods-of-administration-ema-cs">Routes and Methods of Administration EMA</a>
+               </td>
+               <td>
+<p>Routes and methods of medication administration. Based on EDQM, re-coded with RMS codes.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-unit-of-measurement-ema-cs.html"
+                     title="CodeSystem/unit-of-measurement-ema-cs">Unit of Measurement EMA</a>
+               </td>
+               <td>
+<p>Unit of Measurement. Based on UCUM. Re-coded with RMS codes.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-unit-of-presentation-ema-cs.html"
+                     title="CodeSystem/unit-of-presentation-ema-cs">Unit of Presentation EMA</a>
+               </td>
+               <td>
+<p>Unit of presentation list from EMA SPOR. List id 200000000014. Content based on EDQM, re-coded with RMS codes.</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="6"> </a>
    <h3>Example: Example Instances </h3>
    <p>
     <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
@@ -272,6 +593,114 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <table class="grid">
          <col style="width:20%"/>
          <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-001-Agen5mg-EE-FullProduct.html"
+                     title="Bundle/001-Agen5mg-EE-FullProduct">001-Agen5mg-EE-FullProduct</a>
+               </td>
+               <td>
+<p>Agen 5mg Tablet. Estonia. Simple example of one full product as a bundle. Packages, PCIDs, differ by material.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-002-Agen10mg-EE-FullProduct.html"
+                     title="Bundle/002-Agen10mg-EE-FullProduct">002-Agen10mg-EE-FullProduct</a>
+               </td>
+               <td>
+<p>Agen 10mg Tablet. Estonia. Simple example of one full product as a bundle. Packages, PCIDs, differ by material.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-003-CefuroximStragen-1.5g-Powder-SE-FullProduct.html"
+                     title="Bundle/003-CefuroximStragen-1.5g-Powder-SE-FullProduct">003-CefuroximStragen-1.5g-Powder-SE-FullProduct</a>
+               </td>
+               <td>
+<p>Cefuroxim Stragen 1.5g Powder for solution for injection/infusion. Kingdom of Sweden. Strength in grams; man. item quantity unknown; transformation before administration.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-004-Cefuroxime-MIP-1500mg-EE-FullProduct.html"
+                     title="Bundle/004-Cefuroxime-MIP-1500mg-EE-FullProduct">004-Cefuroxime-MIP-1500mg-EE-FullProduct</a>
+               </td>
+               <td>
+<p>Cefuroxime MIP 1500mg Powder for solution for injection/infusion. Estonia. Strength in milligrams; man. item quantity unknown; transformation before administration.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-005-CanifugCremolum-EE-FullProduct.html"
+                     title="Bundle/005-CanifugCremolum-EE-FullProduct">005-CanifugCremolum-EE-FullProduct</a>
+               </td>
+               <td>
+<p>Canifug Cremolum. Estonia. Combination package of clotrimazole 10mg/g creme and six 100mg pessaries.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-006-Yaz-0.02mg3mg-tablet-SE-FullProduct.html"
+                     title="Bundle/006-Yaz-0.02mg3mg-tablet-SE-FullProduct">006-Yaz-0.02mg3mg-tablet-SE-FullProduct</a>
+               </td>
+               <td>
+<p>YAZ ethinylestradiol 0.02mg, drosperinone 3mg, includes placebo tablets. Kingdom of Sweden. Different manufactured items in one container.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-007-Jangee-0.02mg-3mg-Film-coated-tablet-EE-FullProduct.html"
+                     title="Bundle/007-Jangee-0.02mg-3mg-Film-coated-tablet-EE-FullProduct">007-Jangee-0.02mg-3mg-Film-coated-tablet-EE-FullProduct</a>
+               </td>
+               <td>
+<p>Jangee ethinylestradiol 0.02mg, drosperinone 3mg. Estonia. Without placebo pills.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-008-Jangee-0.03mg-3mg-Film-coated-tablet-EE-FullProduct.html"
+                     title="Bundle/008-Jangee-0.03mg-3mg-Film-coated-tablet-EE-FullProduct">008-Jangee-0.03mg-3mg-Film-coated-tablet-EE-FullProduct</a>
+               </td>
+               <td>
+<p>Jangee ethinylestradiol 0.03mg, drosperinone 3mg. Estonia. Without placebo pills.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-009-Paracetamol-Kabi10mg-1ml-EE-FullProduct.html"
+                     title="Bundle/009-Paracetamol-Kabi10mg-1ml-EE-FullProduct">009-Paracetamol-Kabi10mg-1ml-EE-FullProduct</a>
+               </td>
+               <td>
+<p>Paracetamol Kabi 10mg/ml solution for infusion. One pharmaceutical product for three different manufactured items.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-010-Clexane-60mg-0.6ml-EE-FullProduct.html"
+                     title="Bundle/010-Clexane-60mg-0.6ml-EE-FullProduct">010-Clexane-60mg-0.6ml-EE-FullProduct</a>
+               </td>
+               <td>
+<p>Clexane, enoxaparine sodium 60mg/0.6ml, 2 pre-filled syringes. Presentation strength per quantity.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-011-Betaklav500-125-EE-FullProduct.html"
+                     title="Bundle/011-Betaklav500-125-EE-FullProduct">011-Betaklav500-125-EE-FullProduct</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-012-Panodil-500mg-SolutionInSachet-SE-FullProduct.html"
+                     title="Bundle/012-Panodil-500mg-SolutionInSachet-SE-FullProduct">012-Panodil-500mg-SolutionInSachet-SE-FullProduct</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="AdministrableProductDefinition-Agen-5mg-Tablet-EE-APD.html"
@@ -509,24 +938,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tbody>
       </table>
    </p>
-   <a name="4"> </a>
-   <h3>Other </h3>
-   <p>
-    <p>These are resources that are used within this implementation guide that do not fit into one of the other categories.</p>
-</p>
-   <p>
-      <table class="grid">
-         <col style="width:20%"/>
-         <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Bundle-005-CanifugCremolum-EE-FullProduct.html"
-                     title="Bundle/005-CanifugCremolum-EE-FullProduct">005-CanifugCremolum-EE-FullProduct</a>
-               </td>
-            </tr>
-         </tbody>
-      </table>
-   </p>
 </div>
 
 </div>
@@ -551,7 +962,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://medigree.net">UNICOM</a>.  Package hl7.eu.fhir.unicom#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 4.3.0</a>. Generated <span title="Tue, Nov 22, 2022 14:02+0000">2022-11-22</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://medigree.net">UNICOM</a>.  Package hl7.eu.fhir.unicom#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 4.3.0</a>. Generated <span title="Tue, Nov 22, 2022 20:42+0000">2022-11-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <div style="color: #33333" >
@@ -560,7 +971,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                  <a style="color: #81BEF7" href="qa.html">QA Report</a> 
 				 
 <!--
-                 <a style="color: #81BEF7" target="_blank" href="http://hl7-eu.github.io/unicom-ig/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+                 <a style="color: #81BEF7" target="_blank" href="http://unicom-project.eu/fhir/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
 -->
 
                  <a style="color: #81BEF7" rel="license" href="http://build.fhir.org/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a>
