@@ -3,7 +3,7 @@
 
 err = 45, warn = 117, info = 281
 IG Publisher Version: 1.2.19
-Generated Tue Nov 22 20:43:54 UTC 2022. FHIR version 4.3.0 for hl7.eu.fhir.unicom#0.1.0 (canonical = http://unicom-project.eu/fhir)
+Generated Thu Nov 24 22:14:54 UTC 2022. FHIR version 4.3.0 for hl7.eu.fhir.unicom#0.1.0 (canonical = http://unicom-project.eu/fhir)
  Build Errors : 58 / 7 / 0
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-Agen-5mg-Tablet-EE-APD : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-CanifugCremolum-100mg-Pessary-EE-APD : 0 / 0 / 1
@@ -90,9 +90,9 @@ Generated Tue Nov 22 20:43:54 UTC 2022. FHIR version 4.3.0 for hl7.eu.fhir.unico
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/language-ema-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/011-Betaklav500-125-EE-FullProduct.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/012-Panodil-500mg-SolutionInSachet-SE-FullProduct.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: PackagedProductDefinition.package.property.type: The reference http://hl7.org/fhir/ValueSet/product-characteristic-codes could not be resolved
+ERROR: Ingredient.substance.code: The reference http://hl7.org/fhir/ValueSet/substance-codes could not be resolved
 ERROR: ManufacturedItemDefinition.manufacturedDoseForm: The reference http://hl7.org/fhir/ValueSet/manufactured-dose-form could not be resolved
-ERROR: ManufacturedItemDefinition.ingredient: The reference http://hl7.org/fhir/ValueSet/substance-codes could not be resolved
+ERROR: ManufacturedItemDefinition.property.type: The reference http://hl7.org/fhir/ValueSet/product-characteristic-codes could not be resolved
 ERROR: MedicinalProductDefinition.classification: The reference http://hl7.org/fhir/ValueSet/product-classification-codes could not be resolved
 ERROR: /github/workspace/output/StructureDefinition-PPLAdministrableProductDefinition-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 784, column 107: The link 'substance-codes.html' for "substance-codes" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-PPLAdministrableProductDefinition-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 838, column 107: The link 'product-characteristic-codes.html' for "product-characteristic-codes" cannot be resolved
