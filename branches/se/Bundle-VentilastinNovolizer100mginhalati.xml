@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="VentilastinNovolizer100mginhalati"/>
+  <type value="batch"/>
+  <entry>
+    <fullUrl value="{$base}/MedicinalProductDefinition/VentilastinNovolizer100mginhalationspulver-SE-PLC-MedProdDef"/>
+    <resource>
+      <MedicinalProductDefinition>
+        <id value="VentilastinNovolizer100mginhalationspulver-SE-PLC-MedProdDef"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name="VentilastinNovolizer100mginhalationspulver-SE-PLC-MedProdDef"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicinalProductDefinition &quot;VentilastinNovolizer100mginhalationspulver-SE-PLC-MedProdDef&quot; </p></div><p><b>identifier</b>: id: SE-100001594-00012324, id: 10330</p><p><b>domain</b>: Human use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000005003#200000005004)</span></p><p><b>indication</b>: Ventilastin Novolizer 100 mikrogram/dos, inhalationspulver är godkänt för vuxna, ungdomar och barn mellan 6 och 12 år. Symtomatisk behandling av tillstånd med åtföljande reversibel luftvägsobstruktion, t.ex. astma eller kroniskt obstruktiv lungsjukdom (KOL) med en betydande reversibilitetskomponent. Förebyggande av astmaanfall som utlöses av ansträngning eller exponering för allergen.</p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072051#100000072084)</span></p><p><b>classification</b>: R03AC02 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000093533#100000098065)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Ventilastin Novolizer 100 mikrogram/dos inhalationspulver</p><blockquote><p><b>namePart</b></p><p><b>part</b>: Ventilastin Novolizer</p><p><b>type</b>: Invented name part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 100 mikrogram/dos</p><p><b>type</b>: Strength part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: inhalationspulver</p><p><b>type</b>: Pharmaceutical dose form part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Sweden <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000535)</span></td><td>Swedish <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072057#100000072288)</span></td></tr></table></blockquote></div>
+        </text>
+        <extension url="http://ema.europa.eu/fhir/extension/authorisedDoseForm">
+          <valueCoding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000004~200000000006~200000000007~200000000008"/>
+            <code value="100000073839"/>
+            <display value="Inhalation powder"/>
+          </valueCoding>
+        </extension>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/mpId"/>
+          <value value="SE-100001594-00012324"/>
+        </identifier>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/eurdId"/>
+          <value value="10330"/>
+        </identifier>
+        <domain>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000000004"/>
+            <code value="100000000012"/>
+            <display value="Human use"/>
+          </coding>
+        </domain>
+        <status>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000005003"/>
+            <code value="200000005004"/>
+            <display value="Current"/>
+          </coding>
+        </status>
+        <indication value="Ventilastin Novolizer 100 mikrogram/dos, inhalationspulver är godkänt för vuxna, ungdomar och barn mellan 6 och 12 år. Symtomatisk behandling av tillstånd med åtföljande reversibel luftvägsobstruktion, t.ex. astma eller kroniskt obstruktiv lungsjukdom (KOL) med en betydande reversibilitetskomponent. Förebyggande av astmaanfall som utlöses av ansträngning eller exponering för allergen."/>
+        <legalStatusOfSupply>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000072051"/>
+            <code value="100000072084"/>
+            <display value="Medicinal product subject to medical prescription"/>
+          </coding>
+        </legalStatusOfSupply>
+        <classification>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000093533"/>
+            <code value="100000098065"/>
+            <display value="R03AC02"/>
+          </coding>
+        </classification>
+        <name>
+          <productName value="Ventilastin Novolizer 100 mikrogram/dos inhalationspulver"/>
+          <namePart>
+            <part value="Ventilastin Novolizer"/>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000002"/>
+                <display value="Invented name part"/>
+              </coding>
+            </type>
+          </namePart>
+          <namePart>
+            <part value="100 mikrogram/dos"/>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000004"/>
+                <display value="Strength part"/>
+              </coding>
+            </type>
+          </namePart>
+          <namePart>
+            <part value="inhalationspulver"/>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000005"/>
+                <display value="Pharmaceutical dose form part"/>
+              </coding>
+            </type>
+          </namePart>
+          <countryLanguage>
+            <country>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000000002"/>
+                <code value="100000000535"/>
+                <display value="Sweden"/>
+              </coding>
+            </country>
+            <language>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000072057"/>
+                <code value="100000072288"/>
+                <display value="Swedish"/>
+              </coding>
+            </language>
+          </countryLanguage>
+        </name>
+      </MedicinalProductDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="MedicinalProductDefinition/VentilastinNovolizer100mginhalationspulver-SE-PLC-MedProdDef"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/RegulatedAuthorization/VentilastinNovolizer100mginhalationspulver-SE-PLC-RegAutho"/>
+    <resource>
+      <RegulatedAuthorization>
+        <id value="VentilastinNovolizer100mginhalationspulver-SE-PLC-RegAutho"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: RegulatedAuthorization</b><a name="VentilastinNovolizer100mginhalationspulver-SE-PLC-RegAutho"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource RegulatedAuthorization &quot;VentilastinNovolizer100mginhalationspulver-SE-PLC-RegAutho&quot; </p></div><p><b>identifier</b>: id: 24458</p><p><b>subject</b>: <a href="#MedicinalProductDefinition_VentilastinNovolizer100mginhalationspulver-SE-PLC-MedProdDef">See above (MedicinalProductDefinition/VentilastinNovolizer100mginhalationspulver-SE-PLC-MedProdDef)</a></p><p><b>type</b>: Marketing Authorisation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000060#220000000061)</span></p><p><b>region</b>: Sweden <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000535)</span></p><p><b>status</b>: Valid <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072049#100000072099)</span></p><p><b>statusDate</b>: 2008-02-15</p><p><b>holder</b>: <span>: Meda AB</span></p><h3>Cases</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Date[x]</b></td></tr><tr><td>*</td><td>First Authorisation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (authorisationDateType#dateOfFirstAuthorisation)</span></td><td>2008-02-15</td></tr></table></div>
+        </text>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/MarketingAuthorizationNumber"/>
+          <value value="24458"/>
+        </identifier>
+        <subject>
+          <reference value="MedicinalProductDefinition/VentilastinNovolizer100mginhalationspulver-SE-PLC-MedProdDef"/>
+        </subject>
+        <type>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/220000000060"/>
+            <code value="220000000061"/>
+            <display value="Marketing Authorisation"/>
+          </coding>
+        </type>
+        <region>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000000002"/>
+            <code value="100000000535"/>
+            <display value="Sweden"/>
+          </coding>
+        </region>
+        <status>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000072049"/>
+            <code value="100000072099"/>
+            <display value="Valid"/>
+          </coding>
+        </status>
+        <statusDate value="2008-02-15"/>
+        <holder>
+          <identifier>
+            <system value="https://spor.ema.europa.eu/v1/locations"/>
+            <value value="LOC-100001591"/>
+          </identifier>
+          <display value="Meda AB"/>
+        </holder>
+        <case>
+          <type>
+            <coding>
+              <system value="http://ema.europa.eu/fhir/authorisationDateType"/>
+              <code value="dateOfFirstAuthorisation"/>
+              <display value="First Authorisation"/>
+            </coding>
+          </type>
+          <dateDateTime value="2008-02-15"/>
+        </case>
+      </RegulatedAuthorization>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="RegulatedAuthorization/VentilastinNovolizer100mginhalationspulver-SE-PLC-RegAutho"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/AdministrableProductDefinition/VentilastinNovolizer100mginhalationspulver-SE-PLC-AdminiProdDef"/>
+    <resource>
+      <AdministrableProductDefinition>
+        <id value="VentilastinNovolizer100mginhalationspulver-SE-PLC-AdminiProdDef"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name="VentilastinNovolizer100mginhalationspulver-SE-PLC-AdminiProdDef"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AdministrableProductDefinition &quot;VentilastinNovolizer100mginhalationspulver-SE-PLC-AdminiProdDef&quot; </p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href="#MedicinalProductDefinition_VentilastinNovolizer100mginhalationspulver-SE-PLC-MedProdDef">See above (MedicinalProductDefinition/VentilastinNovolizer100mginhalationspulver-SE-PLC-MedProdDef)</a></p><p><b>administrableDoseForm</b>: Inhalation powder <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000004#100000073839)</span></p><p><b>producedFrom</b>: <a href="#ManufacturedItemDefinition_VentilastinNovolizer100mginhalationspulver-SE-PLC-ManuItemDef">See above (ManufacturedItemDefinition/VentilastinNovolizer100mginhalationspulver-SE-PLC-ManuItemDef)</a></p><h3>RouteOfAdministrations</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Inhalation use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073345#100000073584)</span></td></tr></table></div>
+        </text>
+        <status value="active"/>
+        <formOf>
+          <reference value="MedicinalProductDefinition/VentilastinNovolizer100mginhalationspulver-SE-PLC-MedProdDef"/>
+        </formOf>
+        <administrableDoseForm>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000004"/>
+            <code value="100000073839"/>
+            <display value="Inhalation powder"/>
+          </coding>
+        </administrableDoseForm>
+        <producedFrom>
+          <reference value="ManufacturedItemDefinition/VentilastinNovolizer100mginhalationspulver-SE-PLC-ManuItemDef"/>
+        </producedFrom>
+        <routeOfAdministration>
+          <code>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000073345"/>
+              <code value="100000073584"/>
+              <display value="Inhalation use"/>
+            </coding>
+          </code>
+        </routeOfAdministration>
+      </AdministrableProductDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="AdministrableProductDefinition/VentilastinNovolizer100mginhalationspulver-SE-PLC-AdminiProdDef"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/PackagedProductDefinition/VentilastinNovolizer100mginhalationspulver-SE-PLC-PackProdDef"/>
+    <resource>
+      <PackagedProductDefinition>
+        <id value="VentilastinNovolizer100mginhalationspulver-SE-PLC-PackProdDef"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b><a name="VentilastinNovolizer100mginhalationspulver-SE-PLC-PackProdDef"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition &quot;VentilastinNovolizer100mginhalationspulver-SE-PLC-PackProdDef&quot; </p></div><p><b>packageFor</b>: <a href="#MedicinalProductDefinition_VentilastinNovolizer100mginhalationspulver-SE-PLC-MedProdDef">See above (MedicinalProductDefinition/VentilastinNovolizer100mginhalationspulver-SE-PLC-MedProdDef)</a></p><p><b>description</b>: Kasett 1 x 200 doser (refill)</p><h3>MarketingStatuses</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Sweden <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000535)</span></td><td>Marketed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003529)</span></p><blockquote><p><b>containedItem</b></p><h3>Items</h3><table class="grid"><tr><td>-</td><td><b>Reference</b></td></tr><tr><td>*</td><td><a href="#ManufacturedItemDefinition_VentilastinNovolizer100mginhalationspulver-SE-PLC-ManuItemDef">See above (ManufacturedItemDefinition/VentilastinNovolizer100mginhalationspulver-SE-PLC-ManuItemDef)</a></td></tr></table><p><b>amount</b>: 1 Cartridge<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633~200000000014 code 200000002114 = '200000002114')</span></p></blockquote></blockquote></div>
+        </text>
+        <extension url="http://ema.europa.eu/fhir/extension/containedItemQuantity">
+          <valueQuantity>
+            <value value="1"/>
+            <unit value="Cartridge"/>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
+            <code value="200000002114"/>
+          </valueQuantity>
+        </extension>
+        <packageFor>
+          <reference value="MedicinalProductDefinition/VentilastinNovolizer100mginhalationspulver-SE-PLC-MedProdDef"/>
+        </packageFor>
+        <description value="Kasett 1 x 200 doser (refill)">
+          <extension url="http://ema.europa.eu/fhir/extension/language">
+            <valueCoding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000072057"/>
+              <code value="100000072288"/>
+              <display value="Swedish"/>
+            </valueCoding>
+          </extension>
+        </description>
+        <marketingStatus>
+          <country>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000000002"/>
+              <code value="100000000535"/>
+              <display value="Sweden"/>
+            </coding>
+          </country>
+          <status>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000072052"/>
+              <code value="100000072083"/>
+              <display value="Marketed"/>
+            </coding>
+          </status>
+        </marketingStatus>
+        <package>
+          <type>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000073346"/>
+              <code value="100000073498"/>
+              <display value="Box"/>
+            </coding>
+          </type>
+          <quantity value="1"/>
+          <material>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/200000003199"/>
+              <code value="200000003529"/>
+              <display value="Cardboard"/>
+            </coding>
+          </material>
+          <containedItem>
+            <item>
+              <reference>
+                <reference value="ManufacturedItemDefinition/VentilastinNovolizer100mginhalationspulver-SE-PLC-ManuItemDef"/>
+              </reference>
+            </item>
+            <amount>
+              <value value="1"/>
+              <unit value="Cartridge"/>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000110633~200000000014"/>
+              <code value="200000002114"/>
+            </amount>
+          </containedItem>
+        </package>
+      </PackagedProductDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="PackagedProductDefinition/VentilastinNovolizer100mginhalationspulver-SE-PLC-PackProdDef"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/ManufacturedItemDefinition/VentilastinNovolizer100mginhalationspulver-SE-PLC-ManuItemDef"/>
+    <resource>
+      <ManufacturedItemDefinition>
+        <id value="VentilastinNovolizer100mginhalationspulver-SE-PLC-ManuItemDef"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name="VentilastinNovolizer100mginhalationspulver-SE-PLC-ManuItemDef"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource ManufacturedItemDefinition &quot;VentilastinNovolizer100mginhalationspulver-SE-PLC-ManuItemDef&quot; </p></div><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Inhalation powder <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000004#100000073839)</span></p><p><b>unitOfPresentation</b>: Cartridge <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000014#200000002114)</span></p></div>
+        </text>
+        <status value="active"/>
+        <manufacturedDoseForm>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000004"/>
+            <code value="100000073839"/>
+            <display value="Inhalation powder"/>
+          </coding>
+        </manufacturedDoseForm>
+        <unitOfPresentation>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
+            <code value="200000002114"/>
+            <display value="Cartridge"/>
+          </coding>
+        </unitOfPresentation>
+      </ManufacturedItemDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="ManufacturedItemDefinition/VentilastinNovolizer100mginhalationspulver-SE-PLC-ManuItemDef"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/Ingredient/VentilastinNovolizer100mginhalationspulver-SE-PLC-Ingredient"/>
+    <resource>
+      <Ingredient>
+        <id value="VentilastinNovolizer100mginhalationspulver-SE-PLC-Ingredient"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b><a name="VentilastinNovolizer100mginhalationspulver-SE-PLC-Ingredient"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;VentilastinNovolizer100mginhalationspulver-SE-PLC-Ingredient&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href="#MedicinalProductDefinition_VentilastinNovolizer100mginhalationspulver-SE-PLC-MedProdDef">See above (MedicinalProductDefinition/VentilastinNovolizer100mginhalationspulver-SE-PLC-MedProdDef)</a></li><li><a href="#ManufacturedItemDefinition_VentilastinNovolizer100mginhalationspulver-SE-PLC-ManuItemDef">See above (ManufacturedItemDefinition/VentilastinNovolizer100mginhalationspulver-SE-PLC-ManuItemDef)</a></li><li><a href="#ManufacturedItemDefinition_VentilastinNovolizer100mginhalationspulver-SE-PLC-ManuItemDef">See above (ManufacturedItemDefinition/VentilastinNovolizer100mginhalationspulver-SE-PLC-ManuItemDef)</a></li></ul><p><b>role</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Salbutamol sulfate <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SubstanceDefinition#100000090564)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>presentation</b>: 120 microgram(s)<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110656 = '100000110656')</span>/1 Actuation<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002163 = '200000002163')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>salbutamol <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SubstanceDefinition#100000091629)</span></td></tr></table><p><b>strength</b>: 100 microgram(s)<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110656 = '100000110656')</span>/1 Actuation<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002163 = '200000002163')</span></p></blockquote></blockquote></blockquote></div>
+        </text>
+        <status value="active"/>
+        <for>
+          <reference value="MedicinalProductDefinition/VentilastinNovolizer100mginhalationspulver-SE-PLC-MedProdDef"/>
+        </for>
+        <for>
+          <reference value="ManufacturedItemDefinition/VentilastinNovolizer100mginhalationspulver-SE-PLC-ManuItemDef"/>
+        </for>
+        <for>
+          <reference value="ManufacturedItemDefinition/VentilastinNovolizer100mginhalationspulver-SE-PLC-ManuItemDef"/>
+        </for>
+        <role>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000072050"/>
+            <code value="100000072072"/>
+            <display value="Active"/>
+          </coding>
+        </role>
+        <substance>
+          <code>
+            <concept>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v2/SubstanceDefinition"/>
+                <code value="100000090564"/>
+                <display value="Salbutamol sulfate"/>
+              </coding>
+            </concept>
+          </code>
+          <strength>
+            <presentationRatio>
+              <numerator>
+                <value value="120"/>
+                <unit value="microgram(s)"/>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+                <code value="100000110656"/>
+              </numerator>
+              <denominator>
+                <value value="1"/>
+                <unit value="Actuation"/>
+                <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+                <code value="200000002163"/>
+              </denominator>
+            </presentationRatio>
+            <referenceStrength>
+              <substance>
+                <concept>
+                  <coding>
+                    <system value="https://spor.ema.europa.eu/v2/SubstanceDefinition"/>
+                    <code value="100000091629"/>
+                    <display value="salbutamol"/>
+                  </coding>
+                </concept>
+              </substance>
+              <strengthRatio>
+                <numerator>
+                  <value value="100"/>
+                  <unit value="microgram(s)"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+                  <code value="100000110656"/>
+                </numerator>
+                <denominator>
+                  <value value="1"/>
+                  <unit value="Actuation"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+                  <code value="200000002163"/>
+                </denominator>
+              </strengthRatio>
+            </referenceStrength>
+          </strength>
+        </substance>
+      </Ingredient>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Ingredient/VentilastinNovolizer100mginhalationspulver-SE-PLC-Ingredient"/>
+    </request>
+  </entry>
+</Bundle>

@@ -1,0 +1,723 @@
+{
+  "resourceType": "Bundle",
+  "id": "AnafranilRet-75mg-Tablet-SE-IS",
+  "type": "batch",
+  "entry": [
+    {
+      "fullUrl": "{$base}/MedicinalProductDefinition/AnafranilRet-75mg-Tablet-SE-IS-MedicinalProductDefinition",
+      "resource": {
+        "resourceType": "MedicinalProductDefinition",
+        "id": "AnafranilRet-75mg-Tablet-SE-IS-MedicinalProductDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"AnafranilRet-75mg-Tablet-SE-IS-MedicinalProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;AnafranilRet-75mg-Tablet-SE-IS-MedicinalProductDefinition&quot; </p></div><p><b>identifier</b>: id: SE-100012657-00010568, id: 811</p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000005003#200000005004)</span></p><p><b>indication</b>: Egentlig depression med melankoli. Djupa eller långvariga egentliga depressioner utan melankoli.  Paniksyndrom med eller utan agorafobi. Agorafobi. Tvångstillstånd. Associerade symtom vid  narkolepsi (speciellt kataplexi, sömnparalys och hypnagoga hallucinationer). Idiopatiskt smärtsyndrom  med depressiva symtom.</p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072051#100000072084)</span></p><p><b>classification</b>: N06AA04 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000116677#100000093533)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Anafranil® Retard 75 mg Depottablett</p><blockquote><p><b>namePart</b></p><p><b>part</b>: Anafranil® Retard</p><p><b>type</b>: Invented name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 75 mg</p><p><b>type</b>: Strength part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: Depottablett</p><p><b>type</b>: Pharmaceutical dose form part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Swedish <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072057#100000072288)</span></td></tr></table></blockquote><h3>Characteristics</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td></tr><tr><td>*</td><td>Depottablett <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000010#200000002078 &quot;Prolonged&quot;)</span></td></tr></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://ema.europa.eu/fhir/extension/authorisedDoseForm",
+            "valueCoding": {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000004",
+              "code": "100000073683",
+              "display": "Prolonged-release tablet"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/fhir/mpId",
+            "value": "SE-100012657-00010568"
+          },
+          {
+            "system": "http://ema.europa.eu/fhir/eurdId",
+            "value": "811"
+          }
+        ],
+        "domain": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000000004",
+              "code": "100000000012",
+              "display": "Human use"
+            }
+          ]
+        },
+        "status": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000005003",
+              "code": "200000005004",
+              "display": "Current"
+            }
+          ]
+        },
+        "indication": "Egentlig depression med melankoli. Djupa eller långvariga egentliga depressioner utan melankoli.  Paniksyndrom med eller utan agorafobi. Agorafobi. Tvångstillstånd. Associerade symtom vid  narkolepsi (speciellt kataplexi, sömnparalys och hypnagoga hallucinationer). Idiopatiskt smärtsyndrom  med depressiva symtom.",
+        "legalStatusOfSupply": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000072051",
+              "code": "100000072084",
+              "display": "Medicinal product subject to medical prescription"
+            }
+          ]
+        },
+        "classification": [
+          {
+            "coding": [
+              {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000116677",
+                "code": "100000093533",
+                "display": "N06AA04"
+              }
+            ]
+          }
+        ],
+        "name": [
+          {
+            "productName": "Anafranil® Retard 75 mg Depottablett",
+            "namePart": [
+              {
+                "part": "Anafranil® Retard",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/220000000000",
+                      "code": "220000000002",
+                      "display": "Invented name part"
+                    }
+                  ]
+                }
+              },
+              {
+                "part": "75 mg",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/220000000000",
+                      "code": "220000000004",
+                      "display": "Strength part"
+                    }
+                  ]
+                }
+              },
+              {
+                "part": "Depottablett",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/220000000000",
+                      "code": "220000000005",
+                      "display": "Pharmaceutical dose form part"
+                    }
+                  ]
+                }
+              }
+            ],
+            "countryLanguage": [
+              {
+                "country": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                      "code": "100000000535",
+                      "display": "Sweden"
+                    }
+                  ]
+                },
+                "language": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/100000072057",
+                      "code": "100000072288",
+                      "display": "Swedish"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "characteristic": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://spor.ema.europa.eu/v1/lists/200000000010",
+                  "code": "200000002078",
+                  "display": "Prolonged"
+                }
+              ],
+              "text": "Depottablett"
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "MedicinalProductDefinition/AnafranilRet-75mg-Tablet-SE-IS-MedicinalProductDefinition"
+      }
+    },
+    {
+      "fullUrl": "{$base}/RegulatedAuthorization/AnafranilRet-75mg-Tablet-SE-IS-RegulatedAuthorization",
+      "resource": {
+        "resourceType": "RegulatedAuthorization",
+        "id": "AnafranilRet-75mg-Tablet-SE-IS-RegulatedAuthorization",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"AnafranilRet-75mg-Tablet-SE-IS-RegulatedAuthorization\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;AnafranilRet-75mg-Tablet-SE-IS-RegulatedAuthorization&quot; </p></div><p><b>identifier</b>: id: 10568</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_AnafranilRet-75mg-Tablet-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/AnafranilRet-75mg-Tablet-SE-IS-MedicinalProductDefinition)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000060#220000000061)</span></p><p><b>region</b>: Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></p><p><b>status</b>: Valid <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072049#100000072099)</span></p><p><b>statusDate</b>: 1987-05-08</p><p><b>holder</b>: <span>: Zr pharma &amp;amp; GmbH</span></p><h3>Cases</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Date[x]</b></td></tr><tr><td>*</td><td>First Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (authorisationDateType#dateOfFirstAuthorisation)</span></td><td>1987-05-08</td></tr></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/fhir/MarketingAuthorizationNumber",
+            "value": "10568"
+          }
+        ],
+        "subject": [
+          {
+            "reference": "MedicinalProductDefinition/AnafranilRet-75mg-Tablet-SE-IS-MedicinalProductDefinition"
+          }
+        ],
+        "type": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/220000000060",
+              "code": "220000000061",
+              "display": "Marketing Authorisation"
+            }
+          ]
+        },
+        "region": [
+          {
+            "coding": [
+              {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                "code": "100000000535",
+                "display": "Sweden"
+              }
+            ]
+          }
+        ],
+        "status": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000072049",
+              "code": "100000072099",
+              "display": "Valid"
+            }
+          ]
+        },
+        "statusDate": "1987-05-08",
+        "holder": {
+          "identifier": {
+            "system": "https://spor.ema.europa.eu/v1/locations",
+            "value": "LOC-100030936"
+          },
+          "display": "Zr pharma &amp; GmbH"
+        },
+        "case": {
+          "type": {
+            "coding": [
+              {
+                "system": "http://ema.europa.eu/fhir/authorisationDateType",
+                "code": "dateOfFirstAuthorisation",
+                "display": "First Authorisation"
+              }
+            ]
+          },
+          "dateDateTime": "1987-05-08"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "RegulatedAuthorization/AnafranilRet-75mg-Tablet-SE-IS-RegulatedAuthorization"
+      }
+    },
+    {
+      "fullUrl": "{$base}/AdministrableProductDefinition/AnafranilRet-75mg-Tablet-SE-IS-AdministrableProductDefinition",
+      "resource": {
+        "resourceType": "AdministrableProductDefinition",
+        "id": "AnafranilRet-75mg-Tablet-SE-IS-AdministrableProductDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"AnafranilRet-75mg-Tablet-SE-IS-AdministrableProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;AnafranilRet-75mg-Tablet-SE-IS-AdministrableProductDefinition&quot; </p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"#MedicinalProductDefinition_AnafranilRet-75mg-Tablet-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/AnafranilRet-75mg-Tablet-SE-IS-MedicinalProductDefinition)</a></p><p><b>administrableDoseForm</b>: Prolonged-release tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000073683)</span></p><p><b>producedFrom</b>: <a href=\"#ManufacturedItemDefinition_AnafranilRet-75mg-Tablet-SE-IS-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/AnafranilRet-75mg-Tablet-SE-IS-ManufacturedItemDefinition)</a></p><h3>RouteOfAdministrations</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073345#100000073619)</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "formOf": [
+          {
+            "reference": "MedicinalProductDefinition/AnafranilRet-75mg-Tablet-SE-IS-MedicinalProductDefinition"
+          }
+        ],
+        "administrableDoseForm": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000004",
+              "code": "100000073683",
+              "display": "Prolonged-release tablet"
+            }
+          ]
+        },
+        "producedFrom": [
+          {
+            "reference": "ManufacturedItemDefinition/AnafranilRet-75mg-Tablet-SE-IS-ManufacturedItemDefinition"
+          }
+        ],
+        "routeOfAdministration": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000073345",
+                  "code": "100000073619",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "AdministrableProductDefinition/AnafranilRet-75mg-Tablet-SE-IS-AdministrableProductDefinition"
+      }
+    },
+    {
+      "fullUrl": "{$base}/PackagedProductDefinition/AnafranilRet-75mg-Tablet-SE-IS-PackagedProductDefinition01",
+      "resource": {
+        "resourceType": "PackagedProductDefinition",
+        "id": "AnafranilRet-75mg-Tablet-SE-IS-PackagedProductDefinition01",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"AnafranilRet-75mg-Tablet-SE-IS-PackagedProductDefinition01\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;AnafranilRet-75mg-Tablet-SE-IS-PackagedProductDefinition01&quot; </p></div><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_AnafranilRet-75mg-Tablet-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/AnafranilRet-75mg-Tablet-SE-IS-MedicinalProductDefinition)</a></p><p><b>description</b>: Blister, 100 tabletter</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003529)</span></p><h3>ShelfLifeStorages</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Period[x]</b></td></tr><tr><td>*</td><td>Shelf life of the medicinal product as packaged for sale <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073343#100000073403)</span></td><td>5 years</td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073496)</span></p><p><b>quantity</b>: 10</p><p><b>material</b>: Plastic <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003208)</span>, Aluminium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003200)</span></p></blockquote></blockquote></div>"
+        },
+        "extension": [
+          {
+            "url": "http://ema.europa.eu/fhir/extension/containedItemQuantity",
+            "valueQuantity": {
+              "value": 10,
+              "unit": "Tablet",
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+              "code": "200000002152"
+            }
+          }
+        ],
+        "packageFor": [
+          {
+            "reference": "MedicinalProductDefinition/AnafranilRet-75mg-Tablet-SE-IS-MedicinalProductDefinition"
+          }
+        ],
+        "description": "Blister, 100 tabletter",
+        "_description": {
+          "extension": [
+            {
+              "url": "http://ema.europa.eu/fhir/extension/language",
+              "valueCoding": {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000072057",
+                "code": "100000072288",
+                "display": "Swedish"
+              }
+            }
+          ]
+        },
+        "marketingStatus": [
+          {
+            "country": {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                  "code": "100000000535",
+                  "display": "Sweden"
+                }
+              ]
+            },
+            "status": {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000072052",
+                  "code": "100000072083",
+                  "display": "Marketed"
+                }
+              ]
+            }
+          }
+        ],
+        "package": {
+          "type": {
+            "coding": [
+              {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000073346",
+                "code": "100000073498",
+                "display": "Box"
+              }
+            ]
+          },
+          "quantity": 1,
+          "material": [
+            {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                  "code": "200000003529",
+                  "display": "Cardboard"
+                }
+              ]
+            }
+          ],
+          "shelfLifeStorage": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://spor.ema.europa.eu/v1/lists/100000073343",
+                    "code": "100000073403",
+                    "display": "Shelf life of the medicinal product as packaged for sale"
+                  }
+                ]
+              },
+              "periodDuration": {
+                "value": 5,
+                "unit": "years"
+              }
+            }
+          ],
+          "package": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://spor.ema.europa.eu/v1/lists/100000073346",
+                    "code": "100000073496",
+                    "display": "Blister"
+                  }
+                ]
+              },
+              "quantity": 10,
+              "material": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                      "code": "200000003208",
+                      "display": "Plastic"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                      "code": "200000003200",
+                      "display": "Aluminium"
+                    }
+                  ]
+                }
+              ],
+              "containedItem": [
+                {
+                  "item": {
+                    "reference": {
+                      "reference": "ManufacturedItemDefinition/AnafranilRet-75mg-Tablet-SE-IS-ManufacturedItemDefinition"
+                    }
+                  },
+                  "amount": {
+                    "value": 10,
+                    "unit": "Tablet",
+                    "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+                    "code": "200000002152"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "PackagedProductDefinition/AnafranilRet-75mg-Tablet-SE-IS-PackagedProductDefinition01"
+      }
+    },
+    {
+      "fullUrl": "{$base}/PackagedProductDefinition/AnafranilRet-75mg-Tablet-SE-IS-PackagedProductDefinition02",
+      "resource": {
+        "resourceType": "PackagedProductDefinition",
+        "id": "AnafranilRet-75mg-Tablet-SE-IS-PackagedProductDefinition02",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"AnafranilRet-75mg-Tablet-SE-IS-PackagedProductDefinition02\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;AnafranilRet-75mg-Tablet-SE-IS-PackagedProductDefinition02&quot; </p></div><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_AnafranilRet-75mg-Tablet-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/AnafranilRet-75mg-Tablet-SE-IS-MedicinalProductDefinition)</a></p><p><b>description</b>: Blister, 20 tabletter</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003529)</span></p><h3>ShelfLifeStorages</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Period[x]</b></td></tr><tr><td>*</td><td>Shelf life of the medicinal product as packaged for sale <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073343#100000073403)</span></td><td>5 years</td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073496)</span></p><p><b>quantity</b>: 2</p><p><b>material</b>: Plastic <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003208)</span>, Aluminium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003200)</span></p></blockquote></blockquote></div>"
+        },
+        "extension": [
+          {
+            "url": "http://ema.europa.eu/fhir/extension/containedItemQuantity",
+            "valueQuantity": {
+              "value": 10,
+              "unit": "Tablet",
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+              "code": "200000002152"
+            }
+          }
+        ],
+        "packageFor": [
+          {
+            "reference": "MedicinalProductDefinition/AnafranilRet-75mg-Tablet-SE-IS-MedicinalProductDefinition"
+          }
+        ],
+        "description": "Blister, 20 tabletter",
+        "_description": {
+          "extension": [
+            {
+              "url": "http://ema.europa.eu/fhir/extension/language",
+              "valueCoding": {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000072057",
+                "code": "100000072288",
+                "display": "Swedish"
+              }
+            }
+          ]
+        },
+        "marketingStatus": [
+          {
+            "country": {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                  "code": "100000000535",
+                  "display": "Sweden"
+                }
+              ]
+            },
+            "status": {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000072052",
+                  "code": "100000072083",
+                  "display": "Marketed"
+                }
+              ]
+            }
+          }
+        ],
+        "package": {
+          "type": {
+            "coding": [
+              {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000073346",
+                "code": "100000073498",
+                "display": "Box"
+              }
+            ]
+          },
+          "quantity": 1,
+          "material": [
+            {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                  "code": "200000003529",
+                  "display": "Cardboard"
+                }
+              ]
+            }
+          ],
+          "shelfLifeStorage": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://spor.ema.europa.eu/v1/lists/100000073343",
+                    "code": "100000073403",
+                    "display": "Shelf life of the medicinal product as packaged for sale"
+                  }
+                ]
+              },
+              "periodDuration": {
+                "value": 5,
+                "unit": "years"
+              }
+            }
+          ],
+          "package": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://spor.ema.europa.eu/v1/lists/100000073346",
+                    "code": "100000073496",
+                    "display": "Blister"
+                  }
+                ]
+              },
+              "quantity": 2,
+              "material": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                      "code": "200000003208",
+                      "display": "Plastic"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                      "code": "200000003200",
+                      "display": "Aluminium"
+                    }
+                  ]
+                }
+              ],
+              "containedItem": [
+                {
+                  "item": {
+                    "reference": {
+                      "reference": "ManufacturedItemDefinition/AnafranilRet-75mg-Tablet-SE-IS-ManufacturedItemDefinition"
+                    }
+                  },
+                  "amount": {
+                    "value": 10,
+                    "unit": "Tablet",
+                    "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+                    "code": "200000002152"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "PackagedProductDefinition/AnafranilRet-75mg-Tablet-SE-IS-PackagedProductDefinition02"
+      }
+    },
+    {
+      "fullUrl": "{$base}/ManufacturedItemDefinition/AnafranilRet-75mg-Tablet-SE-IS-ManufacturedItemDefinition",
+      "resource": {
+        "resourceType": "ManufacturedItemDefinition",
+        "id": "AnafranilRet-75mg-Tablet-SE-IS-ManufacturedItemDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"AnafranilRet-75mg-Tablet-SE-IS-ManufacturedItemDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;AnafranilRet-75mg-Tablet-SE-IS-ManufacturedItemDefinition&quot; </p></div><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Prolonged-release tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000073683)</span></p><p><b>unitOfPresentation</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000014#200000002152)</span></p></div>"
+        },
+        "status": "active",
+        "manufacturedDoseForm": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000004",
+              "code": "100000073683",
+              "display": "Prolonged-release tablet"
+            }
+          ]
+        },
+        "unitOfPresentation": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+              "code": "200000002152",
+              "display": "Tablet"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ManufacturedItemDefinition/AnafranilRet-75mg-Tablet-SE-IS-ManufacturedItemDefinition"
+      }
+    },
+    {
+      "fullUrl": "{$base}/Ingredient/AnafranilRet-75mg-Tablet-SE-IS-Ingredient",
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "AnafranilRet-75mg-Tablet-SE-IS-Ingredient",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"AnafranilRet-75mg-Tablet-SE-IS-Ingredient\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;AnafranilRet-75mg-Tablet-SE-IS-Ingredient&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_AnafranilRet-75mg-Tablet-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/AnafranilRet-75mg-Tablet-SE-IS-MedicinalProductDefinition)</a></li><li><a href=\"#ManufacturedItemDefinition_AnafranilRet-75mg-Tablet-SE-IS-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/AnafranilRet-75mg-Tablet-SE-IS-ManufacturedItemDefinition)</a></li><li><a href=\"#AdministrableProductDefinition_AnafranilRet-75mg-Tablet-SE-IS-AdministrableProductDefinition\">See above (AdministrableProductDefinition/AnafranilRet-75mg-Tablet-SE-IS-AdministrableProductDefinition)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Clomipramine hydrochloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000090503)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>presentation</b>: 75 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 unit(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110756 = '100000110756')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Clomipramine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000084546)</span></td></tr></table><p><b>strength</b>: 67.2 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 unit(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110756 = '100000110756')</span></p></blockquote></blockquote></blockquote></div>"
+        },
+        "status": "active",
+        "for": [
+          {
+            "reference": "MedicinalProductDefinition/AnafranilRet-75mg-Tablet-SE-IS-MedicinalProductDefinition"
+          },
+          {
+            "reference": "ManufacturedItemDefinition/AnafranilRet-75mg-Tablet-SE-IS-ManufacturedItemDefinition"
+          },
+          {
+            "reference": "AdministrableProductDefinition/AnafranilRet-75mg-Tablet-SE-IS-AdministrableProductDefinition"
+          }
+        ],
+        "role": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000072050",
+              "code": "100000072072",
+              "display": "Active"
+            }
+          ]
+        },
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                  "code": "100000090503",
+                  "display": "Clomipramine hydrochloride"
+                }
+              ]
+            }
+          },
+          "strength": [
+            {
+              "presentationRatio": {
+                "numerator": {
+                  "value": 75,
+                  "unit": "milligram(s)",
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000110633",
+                  "code": "100000110655"
+                },
+                "denominator": {
+                  "value": 1,
+                  "unit": "unit(s)",
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000110633",
+                  "code": "100000110756"
+                }
+              },
+              "referenceStrength": [
+                {
+                  "substance": {
+                    "concept": {
+                      "coding": [
+                        {
+                          "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                          "code": "100000084546",
+                          "display": "Clomipramine"
+                        }
+                      ]
+                    }
+                  },
+                  "strengthRatio": {
+                    "numerator": {
+                      "value": 67.2,
+                      "unit": "milligram(s)",
+                      "system": "http://spor.ema.europa.eu/v1/lists/100000110633",
+                      "code": "100000110655"
+                    },
+                    "denominator": {
+                      "value": 1,
+                      "unit": "unit(s)",
+                      "system": "http://spor.ema.europa.eu/v1/lists/100000110633",
+                      "code": "100000110756"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Ingredient/AnafranilRet-75mg-Tablet-SE-IS-Ingredient"
+      }
+    }
+  ]
+}

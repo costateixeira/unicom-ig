@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="Alvedon250mgMunsonderTablett"/>
+  <type value="batch"/>
+  <entry>
+    <fullUrl value="{$base}/MedicinalProductDefinition/Alvedon250mgMunsonderTablett-SE-PLC-MedicinalProductDef"/>
+    <resource>
+      <MedicinalProductDefinition>
+        <id value="Alvedon250mgMunsonderTablett-SE-PLC-MedicinalProductDef"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name="Alvedon250mgMunsonderTablett-SE-PLC-MedicinalProductDef"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicinalProductDefinition &quot;Alvedon250mgMunsonderTablett-SE-PLC-MedicinalProductDef&quot; </p></div><p><b>identifier</b>: id: SE-100000478-00016408, id: 2283</p><p><b>domain</b>: Human use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000005003#200000005004)</span></p><p><b>indication</b>: Alvedon 250 mg Munsönderfallande tablett är indicerat för huvudvärk, tandvärk, feber vid förkylningssjukdomar, menstruationssmärtor, muskel- och  ledvärk, som analgetikum vid reumatiska smärtor, hyperpyrexi. Används av vuxna och barn över 3 år.</p><p><b>legalStatusOfSupply</b>: Medicinal product not subject to medical prescription <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072051#100000072076)</span></p><p><b>classification</b>: N02BE01 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000093533#100000097305)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Alvedon 250 mg Munsönderfallande tablett</p><blockquote><p><b>namePart</b></p><p><b>part</b>: Alvedon</p><p><b>type</b>: Invented name part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 250 mg</p><p><b>type</b>: Strength part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: Munsönderfallande tablett</p><p><b>type</b>: Pharmaceutical dose form part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Sweden <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000535)</span></td><td>Swedish <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072057#100000072288)</span></td></tr></table></blockquote></div>
+        </text>
+        <extension url="http://ema.europa.eu/fhir/extension/authorisedDoseForm">
+          <valueCoding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000004~200000000006~200000000007~200000000008"/>
+            <code value="100000073666"/>
+            <display value="Orodispersible tablet"/>
+          </valueCoding>
+        </extension>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/mpId"/>
+          <value value="SE-100000478-00016408"/>
+        </identifier>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/eurdId"/>
+          <value value="2283"/>
+        </identifier>
+        <domain>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000000004"/>
+            <code value="100000000012"/>
+            <display value="Human use"/>
+          </coding>
+        </domain>
+        <status>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000005003"/>
+            <code value="200000005004"/>
+            <display value="Current"/>
+          </coding>
+        </status>
+        <indication value="Alvedon 250 mg Munsönderfallande tablett är indicerat för huvudvärk, tandvärk, feber vid förkylningssjukdomar, menstruationssmärtor, muskel- och  ledvärk, som analgetikum vid reumatiska smärtor, hyperpyrexi. Används av vuxna och barn över 3 år."/>
+        <legalStatusOfSupply>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000072051"/>
+            <code value="100000072076"/>
+            <display value="Medicinal product not subject to medical prescription"/>
+          </coding>
+        </legalStatusOfSupply>
+        <classification>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000093533"/>
+            <code value="100000097305"/>
+            <display value="N02BE01"/>
+          </coding>
+        </classification>
+        <name>
+          <productName value="Alvedon 250 mg Munsönderfallande tablett"/>
+          <namePart>
+            <part value="Alvedon"/>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000002"/>
+                <display value="Invented name part"/>
+              </coding>
+            </type>
+          </namePart>
+          <namePart>
+            <part value="250 mg"/>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000004"/>
+                <display value="Strength part"/>
+              </coding>
+            </type>
+          </namePart>
+          <namePart>
+            <part value="Munsönderfallande tablett"/>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000005"/>
+                <display value="Pharmaceutical dose form part"/>
+              </coding>
+            </type>
+          </namePart>
+          <countryLanguage>
+            <country>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000000002"/>
+                <code value="100000000535"/>
+                <display value="Sweden"/>
+              </coding>
+            </country>
+            <language>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000072057"/>
+                <code value="100000072288"/>
+                <display value="Swedish"/>
+              </coding>
+            </language>
+          </countryLanguage>
+        </name>
+      </MedicinalProductDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="MedicinalProductDefinition/Alvedon250mgMunsonderTablett-SE-PLC-MedicinalProductDef"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/RegulatedAuthorization/Alvedon250mgMunsonderTablett-SE-PLC-RegAutho"/>
+    <resource>
+      <RegulatedAuthorization>
+        <id value="Alvedon250mgMunsonderTablett-SE-PLC-RegAutho"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: RegulatedAuthorization</b><a name="Alvedon250mgMunsonderTablett-SE-PLC-RegAutho"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource RegulatedAuthorization &quot;Alvedon250mgMunsonderTablett-SE-PLC-RegAutho&quot; </p></div><p><b>identifier</b>: id: 16408</p><p><b>subject</b>: <a href="#MedicinalProductDefinition_Alvedon250mgMunsonderTablett-SE-PLC-MedicinalProductDef">See above (MedicinalProductDefinition/Alvedon250mgMunsonderTablett-SE-PLC-MedicinalProductDef)</a></p><p><b>type</b>: Marketing Authorisation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000060#220000000061)</span></p><p><b>region</b>: Sweden <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000535)</span></p><p><b>status</b>: Valid <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072049#100000072099)</span></p><p><b>statusDate</b>: 2001-06-01</p><p><b>holder</b>: <span>: GlaxoSmithKline Consumer Healthcare ApS</span></p><h3>Cases</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Date[x]</b></td></tr><tr><td>*</td><td>First Authorisation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (authorisationDateType#dateOfFirstAuthorisation)</span></td><td>2001-06-01</td></tr></table></div>
+        </text>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/MarketingAuthorizationNumber"/>
+          <value value="16408"/>
+        </identifier>
+        <subject>
+          <reference value="MedicinalProductDefinition/Alvedon250mgMunsonderTablett-SE-PLC-MedicinalProductDef"/>
+        </subject>
+        <type>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/220000000060"/>
+            <code value="220000000061"/>
+            <display value="Marketing Authorisation"/>
+          </coding>
+        </type>
+        <region>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000000002"/>
+            <code value="100000000535"/>
+            <display value="Sweden"/>
+          </coding>
+        </region>
+        <status>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000072049"/>
+            <code value="100000072099"/>
+            <display value="Valid"/>
+          </coding>
+        </status>
+        <statusDate value="2001-06-01"/>
+        <holder>
+          <identifier>
+            <system value="https://spor.ema.europa.eu/v1/locations"/>
+            <value value="LOC-100001462"/>
+          </identifier>
+          <display value="GlaxoSmithKline Consumer Healthcare ApS"/>
+        </holder>
+        <case>
+          <type>
+            <coding>
+              <system value="http://ema.europa.eu/fhir/authorisationDateType"/>
+              <code value="dateOfFirstAuthorisation"/>
+              <display value="First Authorisation"/>
+            </coding>
+          </type>
+          <dateDateTime value="2001-06-01"/>
+        </case>
+      </RegulatedAuthorization>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="RegulatedAuthorization/Alvedon250mgMunsonderTablett-SE-PLC-RegAutho"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/AdministrableProductDefinition/Alvedon250mgMunsonderTablett-SE-PLC-AdminProductDef"/>
+    <resource>
+      <AdministrableProductDefinition>
+        <id value="Alvedon250mgMunsonderTablett-SE-PLC-AdminProductDef"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name="Alvedon250mgMunsonderTablett-SE-PLC-AdminProductDef"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AdministrableProductDefinition &quot;Alvedon250mgMunsonderTablett-SE-PLC-AdminProductDef&quot; </p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href="#MedicinalProductDefinition_Alvedon250mgMunsonderTablett-SE-PLC-MedicinalProductDef">See above (MedicinalProductDefinition/Alvedon250mgMunsonderTablett-SE-PLC-MedicinalProductDef)</a></p><p><b>administrableDoseForm</b>: Orodispersible tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000004#100000073666)</span></p><p><b>producedFrom</b>: <a href="#ManufacturedItemDefinition_Alvedon250mgMunsonderTablett-SE-PLC-ManufacturedItemDef">See above (ManufacturedItemDefinition/Alvedon250mgMunsonderTablett-SE-PLC-ManufacturedItemDef)</a></p><h3>RouteOfAdministrations</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073345#100000073619)</span></td></tr></table></div>
+        </text>
+        <status value="active"/>
+        <formOf>
+          <reference value="MedicinalProductDefinition/Alvedon250mgMunsonderTablett-SE-PLC-MedicinalProductDef"/>
+        </formOf>
+        <administrableDoseForm>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000004"/>
+            <code value="100000073666"/>
+            <display value="Orodispersible tablet"/>
+          </coding>
+        </administrableDoseForm>
+        <producedFrom>
+          <reference value="ManufacturedItemDefinition/Alvedon250mgMunsonderTablett-SE-PLC-ManufacturedItemDef"/>
+        </producedFrom>
+        <routeOfAdministration>
+          <code>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000073345"/>
+              <code value="100000073619"/>
+              <display value="Oral use"/>
+            </coding>
+          </code>
+        </routeOfAdministration>
+      </AdministrableProductDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="AdministrableProductDefinition/Alvedon250mgMunsonderTablett-SE-PLC-AdminProductDef"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/PackagedProductDefinition/Alvedon250mgMunsonderTablett-SE-PLC-PackageProductDef"/>
+    <resource>
+      <PackagedProductDefinition>
+        <id value="Alvedon250mgMunsonderTablett-SE-PLC-PackageProductDef"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b><a name="Alvedon250mgMunsonderTablett-SE-PLC-PackageProductDef"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition &quot;Alvedon250mgMunsonderTablett-SE-PLC-PackageProductDef&quot; </p></div><p><b>packageFor</b>: <a href="#MedicinalProductDefinition_Alvedon250mgMunsonderTablett-SE-PLC-MedicinalProductDef">See above (MedicinalProductDefinition/Alvedon250mgMunsonderTablett-SE-PLC-MedicinalProductDef)</a></p><p><b>description</b>: Blister, 12 tabletter</p><h3>MarketingStatuses</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Sweden <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000535)</span></td><td>Marketed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Blister <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#200000002109)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: PolyVinyl Chloride <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003222)</span>, Aluminium <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003200)</span></p></blockquote></blockquote></div>
+        </text>
+        <extension url="http://ema.europa.eu/fhir/extension/containedItemQuantity">
+          <valueQuantity>
+            <value value="12"/>
+            <unit value="Tablet"/>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
+            <code value="200000002152"/>
+          </valueQuantity>
+        </extension>
+        <packageFor>
+          <reference value="MedicinalProductDefinition/Alvedon250mgMunsonderTablett-SE-PLC-MedicinalProductDef"/>
+        </packageFor>
+        <description value="Blister, 12 tabletter">
+          <extension url="http://ema.europa.eu/fhir/extension/language">
+            <valueCoding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000072057"/>
+              <code value="100000072288"/>
+              <display value="Swedish"/>
+            </valueCoding>
+          </extension>
+        </description>
+        <marketingStatus>
+          <country>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000000002"/>
+              <code value="100000000535"/>
+              <display value="Sweden"/>
+            </coding>
+          </country>
+          <status>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000072052"/>
+              <code value="100000072083"/>
+              <display value="Marketed"/>
+            </coding>
+          </status>
+        </marketingStatus>
+        <package>
+          <type>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000073346"/>
+              <code value="100000073498"/>
+              <display value="Box"/>
+            </coding>
+          </type>
+          <quantity value="1"/>
+          <material>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/200000003199"/>
+              <code value="200000003529"/>
+              <display value="Cardboard"/>
+            </coding>
+          </material>
+          <package>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000073346"/>
+                <code value="200000002109"/>
+                <display value="Blister"/>
+              </coding>
+            </type>
+            <quantity value="1"/>
+            <material>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/200000003199"/>
+                <code value="200000003222"/>
+                <display value="PolyVinyl Chloride"/>
+              </coding>
+            </material>
+            <material>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/200000003199"/>
+                <code value="200000003200"/>
+                <display value="Aluminium"/>
+              </coding>
+            </material>
+            <containedItem>
+              <item>
+                <reference>
+                  <reference value="ManufacturedItemDefinition/Alvedon250mgMunsonderTablett-SE-PLC-ManufacturedItemDef"/>
+                </reference>
+              </item>
+              <amount>
+                <value value="12"/>
+                <unit value="Tablet"/>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000110633~200000000014"/>
+                <code value="200000002152"/>
+              </amount>
+            </containedItem>
+          </package>
+        </package>
+      </PackagedProductDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="PackagedProductDefinition/Alvedon250mgMunsonderTablett-SE-PLC-PackageProductDef"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/ManufacturedItemDefinition/Alvedon250mgMunsonderTablett-SE-PLC-ManufacturedItemDef"/>
+    <resource>
+      <ManufacturedItemDefinition>
+        <id value="Alvedon250mgMunsonderTablett-SE-PLC-ManufacturedItemDef"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name="Alvedon250mgMunsonderTablett-SE-PLC-ManufacturedItemDef"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource ManufacturedItemDefinition &quot;Alvedon250mgMunsonderTablett-SE-PLC-ManufacturedItemDef&quot; </p></div><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Orodispersible tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000004#100000073666)</span></p><p><b>unitOfPresentation</b>: Tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000014#200000002152)</span></p></div>
+        </text>
+        <status value="active"/>
+        <manufacturedDoseForm>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000004"/>
+            <code value="100000073666"/>
+            <display value="Orodispersible tablet"/>
+          </coding>
+        </manufacturedDoseForm>
+        <unitOfPresentation>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
+            <code value="200000002152"/>
+            <display value="Tablet"/>
+          </coding>
+        </unitOfPresentation>
+      </ManufacturedItemDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="ManufacturedItemDefinition/Alvedon250mgMunsonderTablett-SE-PLC-ManufacturedItemDef"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/Ingredient/Alvedon250mgMunsonderTablett-SE-PLC-Ingredient"/>
+    <resource>
+      <Ingredient>
+        <id value="Alvedon250mgMunsonderTablett-SE-PLC-Ingredient"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b><a name="Alvedon250mgMunsonderTablett-SE-PLC-Ingredient"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;Alvedon250mgMunsonderTablett-SE-PLC-Ingredient&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href="#MedicinalProductDefinition_Alvedon250mgMunsonderTablett-SE-PLC-MedicinalProductDef">See above (MedicinalProductDefinition/Alvedon250mgMunsonderTablett-SE-PLC-MedicinalProductDef)</a></li><li><a href="#ManufacturedItemDefinition_Alvedon250mgMunsonderTablett-SE-PLC-ManufacturedItemDef">See above (ManufacturedItemDefinition/Alvedon250mgMunsonderTablett-SE-PLC-ManufacturedItemDef)</a></li><li><a href="#AdministrableProductDefinition_Alvedon250mgMunsonderTablett-SE-PLC-AdminProductDef">See above (AdministrableProductDefinition/Alvedon250mgMunsonderTablett-SE-PLC-AdminProductDef)</a></li></ul><p><b>role</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Paracetamol <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SubstanceDefinition#100000090270)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>presentation</b>: 250 milligram(s)<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 Tablet<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = '200000002152')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Paracetamol <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SubstanceDefinition#100000090270)</span></td></tr></table><p><b>strength</b>: 250 milligram(s)<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 Tablet<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = '200000002152')</span></p></blockquote></blockquote></blockquote></div>
+        </text>
+        <status value="active"/>
+        <for>
+          <reference value="MedicinalProductDefinition/Alvedon250mgMunsonderTablett-SE-PLC-MedicinalProductDef"/>
+        </for>
+        <for>
+          <reference value="ManufacturedItemDefinition/Alvedon250mgMunsonderTablett-SE-PLC-ManufacturedItemDef"/>
+        </for>
+        <for>
+          <reference value="AdministrableProductDefinition/Alvedon250mgMunsonderTablett-SE-PLC-AdminProductDef"/>
+        </for>
+        <role>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000072050"/>
+            <code value="100000072072"/>
+            <display value="Active"/>
+          </coding>
+        </role>
+        <substance>
+          <code>
+            <concept>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v2/SubstanceDefinition"/>
+                <code value="100000090270"/>
+                <display value="Paracetamol"/>
+              </coding>
+            </concept>
+          </code>
+          <strength>
+            <presentationRatio>
+              <numerator>
+                <value value="250"/>
+                <unit value="milligram(s)"/>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+                <code value="100000110655"/>
+              </numerator>
+              <denominator>
+                <value value="1"/>
+                <unit value="Tablet"/>
+                <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+                <code value="200000002152"/>
+              </denominator>
+            </presentationRatio>
+            <referenceStrength>
+              <substance>
+                <concept>
+                  <coding>
+                    <system value="https://spor.ema.europa.eu/v2/SubstanceDefinition"/>
+                    <code value="100000090270"/>
+                    <display value="Paracetamol"/>
+                  </coding>
+                </concept>
+              </substance>
+              <strengthRatio>
+                <numerator>
+                  <value value="250"/>
+                  <unit value="milligram(s)"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+                  <code value="100000110655"/>
+                </numerator>
+                <denominator>
+                  <value value="1"/>
+                  <unit value="Tablet"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+                  <code value="200000002152"/>
+                </denominator>
+              </strengthRatio>
+            </referenceStrength>
+          </strength>
+        </substance>
+      </Ingredient>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Ingredient/Alvedon250mgMunsonderTablett-SE-PLC-Ingredient"/>
+    </request>
+  </entry>
+</Bundle>

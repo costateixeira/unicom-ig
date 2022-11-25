@@ -1,0 +1,444 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7-eu.github.io/unicom-ig/Bundle/Airomir0.1Spray-SE-PLC> a fhir:Bundle;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Airomir0.1Spray-SE-PLC"];
+  fhir:Bundle.type [ fhir:value "batch"];
+  fhir:Bundle.entry [
+     fhir:index 0;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition" ];
+     fhir:Bundle.entry.resource <{$base}/MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/RegulatedAuthorization/Airomir0.1Spray-SE-PLC-RegulatedAuthorization" ];
+     fhir:Bundle.entry.resource <{$base}/RegulatedAuthorization/Airomir0.1Spray-SE-PLC-RegulatedAuthorization>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "RegulatedAuthorization/Airomir0.1Spray-SE-PLC-RegulatedAuthorization" ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/AdministrableProductDefinition/Airomir0.1Spray-SE-PLC-AdministrableProductDefinition" ];
+     fhir:Bundle.entry.resource <{$base}/AdministrableProductDefinition/Airomir0.1Spray-SE-PLC-AdministrableProductDefinition>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "AdministrableProductDefinition/Airomir0.1Spray-SE-PLC-AdministrableProductDefinition" ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/PackagedProductDefinition/Airomir0.1Spray-SE-PLC-PackagedProductDefinition" ];
+     fhir:Bundle.entry.resource <{$base}/PackagedProductDefinition/Airomir0.1Spray-SE-PLC-PackagedProductDefinition>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "PackagedProductDefinition/Airomir0.1Spray-SE-PLC-PackagedProductDefinition" ]
+     ]
+  ], [
+     fhir:index 4;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/ManufacturedItemDefinition/Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition" ];
+     fhir:Bundle.entry.resource <{$base}/ManufacturedItemDefinition/Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "ManufacturedItemDefinition/Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition" ]
+     ]
+  ], [
+     fhir:index 5;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/Ingredient/Airomir0.1Spray-SE-PLC-Ingredient" ];
+     fhir:Bundle.entry.resource <{$base}/Ingredient/Airomir0.1Spray-SE-PLC-Ingredient>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Ingredient/Airomir0.1Spray-SE-PLC-Ingredient" ]
+     ]
+  ] .
+
+<{$base}/MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition> a fhir:MedicinalProductDefinition;
+  fhir:Resource.id [ fhir:value "Airomir0.1Spray-SE-PLC-MedicinalProductDefinition"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"Airomir0.1Spray-SE-PLC-MedicinalProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;Airomir0.1Spray-SE-PLC-MedicinalProductDefinition&quot; </p></div><p><b>identifier</b>: id: SE-100001594-00012324, id: 10330</p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000005003#200000005004)</span></p><p><b>indication</b>: Airomir 0,1 mg/dos inhalationsspray, suspension är indicerat för symtomlindring av bronkkonstriktion vid astma och kroniskt obstruktiv lungsjukdom (KOL).Airomir är indicerat för vuxna, ungdomar och barn. För barn under 4 år ska dosering och farmakodynamik ses över.</p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072051#100000072084)</span></p><p><b>classification</b>: R03AC02 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000093533#100000098065)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Airomir 0,1 mg/dos inhalationsspray, suspension</p><blockquote><p><b>namePart</b></p><p><b>part</b>: Airomir</p><p><b>type</b>: Invented name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 0,1 mg/dos</p><p><b>type</b>: Strength part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: inhalationsspray, suspension</p><p><b>type</b>: Pharmaceutical dose form part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Swedish <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072057#100000072288)</span></td></tr></table></blockquote></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/authorisedDoseForm" ];
+     fhir:Extension.valueCoding [
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000004~200000000006~200000000007~200000000008" ];
+       fhir:Coding.code [ fhir:value "100000073838" ];
+       fhir:Coding.display [ fhir:value "Pressurised inhalation, suspension" ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "http://ema.europa.eu/fhir/mpId" ];
+     fhir:Identifier.value [ fhir:value "SE-100001594-00012324" ]
+  ], [
+     fhir:index 1;
+     fhir:Identifier.system [ fhir:value "http://ema.europa.eu/fhir/eurdId" ];
+     fhir:Identifier.value [ fhir:value "10330" ]
+  ];
+  fhir:MedicinalProductDefinition.domain [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000004" ];
+       fhir:Coding.code [ fhir:value "100000000012" ];
+       fhir:Coding.display [ fhir:value "Human use" ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.status [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000005003" ];
+       fhir:Coding.code [ fhir:value "200000005004" ];
+       fhir:Coding.display [ fhir:value "Current" ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.indication [ fhir:value "Airomir 0,1 mg/dos inhalationsspray, suspension är indicerat för symtomlindring av bronkkonstriktion vid astma och kroniskt obstruktiv lungsjukdom (KOL).Airomir är indicerat för vuxna, ungdomar och barn. För barn under 4 år ska dosering och farmakodynamik ses över."];
+  fhir:MedicinalProductDefinition.legalStatusOfSupply [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072051" ];
+       fhir:Coding.code [ fhir:value "100000072084" ];
+       fhir:Coding.display [ fhir:value "Medicinal product subject to medical prescription" ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.classification [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000093533" ];
+       fhir:Coding.code [ fhir:value "100000098065" ];
+       fhir:Coding.display [ fhir:value "R03AC02" ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.name [
+     fhir:index 0;
+     fhir:MedicinalProductDefinition.name.productName [ fhir:value "Airomir 0,1 mg/dos inhalationsspray, suspension" ];
+     fhir:MedicinalProductDefinition.name.namePart [
+       fhir:index 0;
+       fhir:MedicinalProductDefinition.name.namePart.part [ fhir:value "Airomir" ];
+       fhir:MedicinalProductDefinition.name.namePart.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/220000000000" ];
+           fhir:Coding.code [ fhir:value "220000000002" ];
+           fhir:Coding.display [ fhir:value "Invented name part" ]
+         ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:MedicinalProductDefinition.name.namePart.part [ fhir:value "0,1 mg/dos" ];
+       fhir:MedicinalProductDefinition.name.namePart.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/220000000000" ];
+           fhir:Coding.code [ fhir:value "220000000004" ];
+           fhir:Coding.display [ fhir:value "Strength part" ]
+         ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:MedicinalProductDefinition.name.namePart.part [ fhir:value "inhalationsspray, suspension" ];
+       fhir:MedicinalProductDefinition.name.namePart.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/220000000000" ];
+           fhir:Coding.code [ fhir:value "220000000005" ];
+           fhir:Coding.display [ fhir:value "Pharmaceutical dose form part" ]
+         ]
+       ]
+     ];
+     fhir:MedicinalProductDefinition.name.countryLanguage [
+       fhir:index 0;
+       fhir:MedicinalProductDefinition.name.countryLanguage.country [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000002" ];
+           fhir:Coding.code [ fhir:value "100000000535" ];
+           fhir:Coding.display [ fhir:value "Sweden" ]
+         ]
+       ];
+       fhir:MedicinalProductDefinition.name.countryLanguage.language [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072057" ];
+           fhir:Coding.code [ fhir:value "100000072288" ];
+           fhir:Coding.display [ fhir:value "Swedish" ]
+         ]
+       ]
+     ]
+  ] .
+
+<{$base}/RegulatedAuthorization/Airomir0.1Spray-SE-PLC-RegulatedAuthorization> a fhir:RegulatedAuthorization;
+  fhir:Resource.id [ fhir:value "Airomir0.1Spray-SE-PLC-RegulatedAuthorization"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"Airomir0.1Spray-SE-PLC-RegulatedAuthorization\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;Airomir0.1Spray-SE-PLC-RegulatedAuthorization&quot; </p></div><p><b>identifier</b>: id: 12324</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_Airomir0.1Spray-SE-PLC-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000060#220000000061)</span></p><p><b>region</b>: Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></p><p><b>status</b>: Valid <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072049#100000072099)</span></p><p><b>statusDate</b>: 1996-04-03</p><p><b>holder</b>: <span>: Teva Sweden AB</span></p><h3>Cases</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Date[x]</b></td></tr><tr><td>*</td><td>First Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (authorisationDateType#dateOfFirstAuthorisation)</span></td><td>1996-04-03</td></tr></table></div>"
+  ];
+  fhir:RegulatedAuthorization.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "http://ema.europa.eu/fhir/MarketingAuthorizationNumber" ];
+     fhir:Identifier.value [ fhir:value "12324" ]
+  ];
+  fhir:RegulatedAuthorization.subject [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition" ]
+  ];
+  fhir:RegulatedAuthorization.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/220000000060" ];
+       fhir:Coding.code [ fhir:value "220000000061" ];
+       fhir:Coding.display [ fhir:value "Marketing Authorisation" ]
+     ]
+  ];
+  fhir:RegulatedAuthorization.region [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000002" ];
+       fhir:Coding.code [ fhir:value "100000000535" ];
+       fhir:Coding.display [ fhir:value "Sweden" ]
+     ]
+  ];
+  fhir:RegulatedAuthorization.status [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072049" ];
+       fhir:Coding.code [ fhir:value "100000072099" ];
+       fhir:Coding.display [ fhir:value "Valid" ]
+     ]
+  ];
+  fhir:RegulatedAuthorization.statusDate [ fhir:value "1996-04-03"^^xsd:date];
+  fhir:RegulatedAuthorization.holder [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/v1/locations" ];
+       fhir:Identifier.value [ fhir:value "LOC-100001602" ]
+     ];
+     fhir:Reference.display [ fhir:value "Teva Sweden AB" ]
+  ];
+  fhir:RegulatedAuthorization.case [
+     fhir:RegulatedAuthorization.case.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://ema.europa.eu/fhir/authorisationDateType" ];
+         fhir:Coding.code [ fhir:value "dateOfFirstAuthorisation" ];
+         fhir:Coding.display [ fhir:value "First Authorisation" ]
+       ]
+     ];
+     fhir:RegulatedAuthorization.case.dateDateTime [ fhir:value "1996-04-03"^^xsd:date ]
+  ] .
+
+<{$base}/AdministrableProductDefinition/Airomir0.1Spray-SE-PLC-AdministrableProductDefinition> a fhir:AdministrableProductDefinition;
+  fhir:Resource.id [ fhir:value "Airomir0.1Spray-SE-PLC-AdministrableProductDefinition"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"Airomir0.1Spray-SE-PLC-AdministrableProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;Airomir0.1Spray-SE-PLC-AdministrableProductDefinition&quot; </p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"#MedicinalProductDefinition_Airomir0.1Spray-SE-PLC-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition)</a></p><p><b>administrableDoseForm</b>: Pressurised inhalation, suspension <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000073838)</span></p><p><b>producedFrom</b>: <a href=\"#ManufacturedItemDefinition_Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition)</a></p><h3>RouteOfAdministrations</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Inhalation use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073345#100000073584)</span></td></tr></table></div>"
+  ];
+  fhir:AdministrableProductDefinition.status [ fhir:value "active"];
+  fhir:AdministrableProductDefinition.formOf [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition" ]
+  ];
+  fhir:AdministrableProductDefinition.administrableDoseForm [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000004" ];
+       fhir:Coding.code [ fhir:value "100000073838" ];
+       fhir:Coding.display [ fhir:value "Pressurised inhalation, suspension" ]
+     ]
+  ];
+  fhir:AdministrableProductDefinition.producedFrom [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition" ]
+  ];
+  fhir:AdministrableProductDefinition.routeOfAdministration [
+     fhir:index 0;
+     fhir:AdministrableProductDefinition.routeOfAdministration.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073345" ];
+         fhir:Coding.code [ fhir:value "100000073584" ];
+         fhir:Coding.display [ fhir:value "Inhalation use" ]
+       ]
+     ]
+  ] .
+
+<{$base}/PackagedProductDefinition/Airomir0.1Spray-SE-PLC-PackagedProductDefinition> a fhir:PackagedProductDefinition;
+  fhir:Resource.id [ fhir:value "Airomir0.1Spray-SE-PLC-PackagedProductDefinition"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"Airomir0.1Spray-SE-PLC-PackagedProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;Airomir0.1Spray-SE-PLC-PackagedProductDefinition&quot; </p></div><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_Airomir0.1Spray-SE-PLC-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition)</a></p><p><b>description</b>: Spraybehållare, 200 doser</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/containedItemQuantity" ];
+     fhir:Extension.valueQuantity [
+       fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+       fhir:Quantity.unit [ fhir:value "Canister" ];
+       fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+       fhir:Quantity.code [ fhir:value "200000022801" ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.packageFor [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition" ]
+  ];
+  fhir:PackagedProductDefinition.description [
+     fhir:value "Spraybehållare, 200 doser";
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/language" ];
+       fhir:Extension.valueCoding [
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072057" ];
+         fhir:Coding.code [ fhir:value "100000072288" ];
+         fhir:Coding.display [ fhir:value "Swedish" ]
+       ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.marketingStatus [
+     fhir:index 0;
+     fhir:MarketingStatus.country [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000002" ];
+         fhir:Coding.code [ fhir:value "100000000535" ];
+         fhir:Coding.display [ fhir:value "Sweden" ]
+       ]
+     ];
+     fhir:MarketingStatus.status [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072052" ];
+         fhir:Coding.code [ fhir:value "100000072083" ];
+         fhir:Coding.display [ fhir:value "Marketed" ]
+       ]
+     ]
+  ] .
+
+<{$base}/ManufacturedItemDefinition/Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition> a fhir:ManufacturedItemDefinition;
+  fhir:Resource.id [ fhir:value "Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition&quot; </p></div><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Pressurised inhalation, suspension <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000073838)</span></p><p><b>unitOfPresentation</b>: Canister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000014#200000022801)</span></p></div>"
+  ];
+  fhir:ManufacturedItemDefinition.status [ fhir:value "active"];
+  fhir:ManufacturedItemDefinition.manufacturedDoseForm [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000004" ];
+       fhir:Coding.code [ fhir:value "100000073838" ];
+       fhir:Coding.display [ fhir:value "Pressurised inhalation, suspension" ]
+     ]
+  ];
+  fhir:ManufacturedItemDefinition.unitOfPresentation [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+       fhir:Coding.code [ fhir:value "200000022801" ];
+       fhir:Coding.display [ fhir:value "Canister" ]
+     ]
+  ] .
+
+<{$base}/Ingredient/Airomir0.1Spray-SE-PLC-Ingredient> a fhir:Ingredient;
+  fhir:Resource.id [ fhir:value "Airomir0.1Spray-SE-PLC-Ingredient"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"Airomir0.1Spray-SE-PLC-Ingredient\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;Airomir0.1Spray-SE-PLC-Ingredient&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_Airomir0.1Spray-SE-PLC-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition)</a></li><li><a href=\"#ManufacturedItemDefinition_Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition)</a></li><li><a href=\"#AdministrableProductDefinition_Airomir0.1Spray-SE-PLC-AdministrableProductDefinition\">See above (AdministrableProductDefinition/Airomir0.1Spray-SE-PLC-AdministrableProductDefinition)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Salbutamol sulfate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000090564)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>presentation</b>: 0.12 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 Actuation<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002163 = '200000002163')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>salbutamol <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000091629)</span></td></tr></table><p><b>strength</b>: 0.1 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 Actuation<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002163 = '200000002163')</span></p></blockquote></blockquote></blockquote></div>"
+  ];
+  fhir:Ingredient.status [ fhir:value "active"];
+  fhir:Ingredient.for [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition" ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition" ]
+  ], [
+     fhir:index 2;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/AdministrableProductDefinition/Airomir0.1Spray-SE-PLC-AdministrableProductDefinition>;
+     fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/Airomir0.1Spray-SE-PLC-AdministrableProductDefinition" ]
+  ];
+  fhir:Ingredient.role [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072050" ];
+       fhir:Coding.code [ fhir:value "100000072072" ];
+       fhir:Coding.display [ fhir:value "Active" ]
+     ]
+  ];
+  fhir:Ingredient.substance [
+     fhir:Ingredient.substance.code [
+       fhir:CodeableReference.concept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+           fhir:Coding.code [ fhir:value "100000090564" ];
+           fhir:Coding.display [ fhir:value "Salbutamol sulfate" ]
+         ]
+       ]
+     ];
+     fhir:Ingredient.substance.strength [
+       fhir:index 0;
+       fhir:Ingredient.substance.strength.presentationRatio [
+         fhir:Ratio.numerator [
+           fhir:Quantity.value [ fhir:value "0.12"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "milligram(s)" ];
+           fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000110633" ];
+           fhir:Quantity.code [ fhir:value "100000110655" ]
+         ];
+         fhir:Ratio.denominator [
+           fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "Actuation" ];
+           fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000014" ];
+           fhir:Quantity.code [ fhir:value "200000002163" ]
+         ]
+       ];
+       fhir:Ingredient.substance.strength.referenceStrength [
+         fhir:index 0;
+         fhir:Ingredient.substance.strength.referenceStrength.substance [
+           fhir:CodeableReference.concept [
+             fhir:CodeableConcept.coding [
+               fhir:index 0;
+               fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+               fhir:Coding.code [ fhir:value "100000091629" ];
+               fhir:Coding.display [ fhir:value "salbutamol" ]
+             ]
+           ]
+         ];
+         fhir:Ingredient.substance.strength.referenceStrength.strengthRatio [
+           fhir:Ratio.numerator [
+             fhir:Quantity.value [ fhir:value "0.1"^^xsd:decimal ];
+             fhir:Quantity.unit [ fhir:value "milligram(s)" ];
+             fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000110633" ];
+             fhir:Quantity.code [ fhir:value "100000110655" ]
+           ];
+           fhir:Ratio.denominator [
+             fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+             fhir:Quantity.unit [ fhir:value "Actuation" ];
+             fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000014" ];
+             fhir:Quantity.code [ fhir:value "200000002163" ]
+           ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7-eu.github.io/unicom-ig/Bundle/Airomir0.1Spray-SE-PLC.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="Locoid01kutanlosning"/>
+  <type value="batch"/>
+  <entry>
+    <fullUrl value="{$base}/MedicinalProductDefinition/Locoid01kutanlosning-SE-PLC-MedicinalProductDef"/>
+    <resource>
+      <MedicinalProductDefinition>
+        <id value="Locoid01kutanlosning-SE-PLC-MedicinalProductDef"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name="Locoid01kutanlosning-SE-PLC-MedicinalProductDef"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicinalProductDefinition &quot;Locoid01kutanlosning-SE-PLC-MedicinalProductDef&quot; </p></div><p><b>identifier</b>: id: SE-100000214-00009254, id: 10856</p><p><b>domain</b>: Human use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000005003#200000005004)</span></p><p><b>indication</b>: Locoid är indicerat för behandling av akuta och kroniska eksem av varierande genes, psoriasis i lindriga former och på känsliga hudpartier. För kutan lösning även extern otit.  Locoid är indicerat för vuxna, barn och spädbarn över 6 månader.</p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072051#100000072084)</span></p><p><b>classification</b>: D07AB02 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000093533#100000095417)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Locoid 0.1% kutan lösning</p><blockquote><p><b>namePart</b></p><p><b>part</b>: Locoid</p><p><b>type</b>: Scientific name part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000003)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 0,1%</p><p><b>type</b>: Strength part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: kutan lösning</p><p><b>type</b>: Pharmaceutical dose form part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Sweden <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000535)</span></td><td>Swedish <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072057#100000072288)</span></td></tr></table></blockquote></div>
+        </text>
+        <extension url="http://ema.europa.eu/fhir/extension/authorisedDoseForm">
+          <valueCoding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000004~200000000006~200000000007~200000000008"/>
+            <code value="100000073731"/>
+            <display value="Cutaneous solution"/>
+          </valueCoding>
+        </extension>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/mpId"/>
+          <value value="SE-100000214-00009254"/>
+        </identifier>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/eurdId"/>
+          <value value="10856"/>
+        </identifier>
+        <domain>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000000004"/>
+            <code value="100000000012"/>
+            <display value="Human use"/>
+          </coding>
+        </domain>
+        <status>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000005003"/>
+            <code value="200000005004"/>
+            <display value="Current"/>
+          </coding>
+        </status>
+        <indication value="Locoid är indicerat för behandling av akuta och kroniska eksem av varierande genes, psoriasis i lindriga former och på känsliga hudpartier. För kutan lösning även extern otit.  Locoid är indicerat för vuxna, barn och spädbarn över 6 månader."/>
+        <legalStatusOfSupply>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000072051"/>
+            <code value="100000072084"/>
+            <display value="Medicinal product subject to medical prescription"/>
+          </coding>
+        </legalStatusOfSupply>
+        <classification>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000093533"/>
+            <code value="100000095417"/>
+            <display value="D07AB02"/>
+          </coding>
+        </classification>
+        <name>
+          <productName value="Locoid 0.1% kutan lösning"/>
+          <namePart>
+            <part value="Locoid"/>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000003"/>
+                <display value="Scientific name part"/>
+              </coding>
+            </type>
+          </namePart>
+          <namePart>
+            <part value="0,1%"/>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000004"/>
+                <display value="Strength part"/>
+              </coding>
+            </type>
+          </namePart>
+          <namePart>
+            <part value="kutan lösning"/>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000005"/>
+                <display value="Pharmaceutical dose form part"/>
+              </coding>
+            </type>
+          </namePart>
+          <countryLanguage>
+            <country>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000000002"/>
+                <code value="100000000535"/>
+                <display value="Sweden"/>
+              </coding>
+            </country>
+            <language>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000072057"/>
+                <code value="100000072288"/>
+                <display value="Swedish"/>
+              </coding>
+            </language>
+          </countryLanguage>
+        </name>
+      </MedicinalProductDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="MedicinalProductDefinition/Locoid01kutanlosning-SE-PLC-MedicinalProductDef"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/RegulatedAuthorization/Locoid01kutanlosning-SE-PLC-RegAutho"/>
+    <resource>
+      <RegulatedAuthorization>
+        <id value="Locoid01kutanlosning-SE-PLC-RegAutho"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: RegulatedAuthorization</b><a name="Locoid01kutanlosning-SE-PLC-RegAutho"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource RegulatedAuthorization &quot;Locoid01kutanlosning-SE-PLC-RegAutho&quot; </p></div><p><b>identifier</b>: id: 9254</p><p><b>subject</b>: <a href="#MedicinalProductDefinition_Locoid01kutanlosning-SE-PLC-MedicinalProductDef">See above (MedicinalProductDefinition/Locoid01kutanlosning-SE-PLC-MedicinalProductDef)</a></p><p><b>type</b>: Marketing Authorisation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000060#220000000061)</span></p><p><b>region</b>: Sweden <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000535)</span></p><p><b>status</b>: Valid <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072049#100000072099)</span></p><p><b>statusDate</b>: 1977-06-15</p><p><b>holder</b>: <span>: Cheplapharm Arzneimittel GmbH</span></p><h3>Cases</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Date[x]</b></td></tr><tr><td>*</td><td>First Authorisation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (authorisationDateType#dateOfFirstAuthorisation)</span></td><td>1977-06-15</td></tr></table></div>
+        </text>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/MarketingAuthorizationNumber"/>
+          <value value="9254"/>
+        </identifier>
+        <subject>
+          <reference value="MedicinalProductDefinition/Locoid01kutanlosning-SE-PLC-MedicinalProductDef"/>
+        </subject>
+        <type>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/220000000060"/>
+            <code value="220000000061"/>
+            <display value="Marketing Authorisation"/>
+          </coding>
+        </type>
+        <region>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000000002"/>
+            <code value="100000000535"/>
+            <display value="Sweden"/>
+          </coding>
+        </region>
+        <status>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000072049"/>
+            <code value="100000072099"/>
+            <display value="Valid"/>
+          </coding>
+        </status>
+        <statusDate value="1977-06-15"/>
+        <holder>
+          <identifier>
+            <system value="https://spor.ema.europa.eu/v1/locations"/>
+            <value value="LOC-100011241"/>
+          </identifier>
+          <display value="Cheplapharm Arzneimittel GmbH"/>
+        </holder>
+        <case>
+          <type>
+            <coding>
+              <system value="http://ema.europa.eu/fhir/authorisationDateType"/>
+              <code value="dateOfFirstAuthorisation"/>
+              <display value="First Authorisation"/>
+            </coding>
+          </type>
+          <dateDateTime value="1977-06-15"/>
+        </case>
+      </RegulatedAuthorization>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="RegulatedAuthorization/Locoid01kutanlosning-SE-PLC-RegAutho"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/AdministrableProductDefinition/Locoid01kutanlosning-SE-PLC-AdminProductDef"/>
+    <resource>
+      <AdministrableProductDefinition>
+        <id value="Locoid01kutanlosning-SE-PLC-AdminProductDef"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name="Locoid01kutanlosning-SE-PLC-AdminProductDef"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AdministrableProductDefinition &quot;Locoid01kutanlosning-SE-PLC-AdminProductDef&quot; </p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href="#MedicinalProductDefinition_Locoid01kutanlosning-SE-PLC-MedicinalProductDef">See above (MedicinalProductDefinition/Locoid01kutanlosning-SE-PLC-MedicinalProductDef)</a></p><p><b>administrableDoseForm</b>: Cutaneous solution <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000004#100000073731)</span></p><p><b>producedFrom</b>: <a href="#ManufacturedItemDefinition_Locoid01kutanlosning-SE-PLC-ManufacturedItemDef">See above (ManufacturedItemDefinition/Locoid01kutanlosning-SE-PLC-ManufacturedItemDef)</a></p><h3>RouteOfAdministrations</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Cutaneous use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073345#100000073566; 100000073345#100000073564 &quot;Auricular use&quot;)</span></td></tr></table></div>
+        </text>
+        <status value="active"/>
+        <formOf>
+          <reference value="MedicinalProductDefinition/Locoid01kutanlosning-SE-PLC-MedicinalProductDef"/>
+        </formOf>
+        <administrableDoseForm>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000004"/>
+            <code value="100000073731"/>
+            <display value="Cutaneous solution"/>
+          </coding>
+        </administrableDoseForm>
+        <producedFrom>
+          <reference value="ManufacturedItemDefinition/Locoid01kutanlosning-SE-PLC-ManufacturedItemDef"/>
+        </producedFrom>
+        <routeOfAdministration>
+          <code>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000073345"/>
+              <code value="100000073566"/>
+              <display value="Cutaneous use"/>
+            </coding>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000073345"/>
+              <code value="100000073564"/>
+              <display value="Auricular use"/>
+            </coding>
+          </code>
+        </routeOfAdministration>
+      </AdministrableProductDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="AdministrableProductDefinition/Locoid01kutanlosning-SE-PLC-AdminProductDef"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/PackagedProductDefinition/Locoid01kutanlosning-SE-PLC-PackageProductDef"/>
+    <resource>
+      <PackagedProductDefinition>
+        <id value="Locoid01kutanlosning-SE-PLC-PackageProductDef"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b><a name="Locoid01kutanlosning-SE-PLC-PackageProductDef"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition &quot;Locoid01kutanlosning-SE-PLC-PackageProductDef&quot; </p></div><p><b>packageFor</b>: <a href="#MedicinalProductDefinition_Locoid01kutanlosning-SE-PLC-MedicinalProductDef">See above (MedicinalProductDefinition/Locoid01kutanlosning-SE-PLC-MedicinalProductDef)</a></p><p><b>description</b>: Plastflaska, 100 ml</p><h3>MarketingStatuses</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Sweden <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000535)</span></td><td>Marketed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Bottle <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073497)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Plastic <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003208)</span></p></blockquote></blockquote></div>
+        </text>
+        <extension url="http://ema.europa.eu/fhir/extension/containedItemQuantity">
+          <valueQuantity>
+            <value value="1"/>
+            <unit value="Bottle"/>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
+            <code value="200000002111"/>
+          </valueQuantity>
+        </extension>
+        <packageFor>
+          <reference value="MedicinalProductDefinition/Locoid01kutanlosning-SE-PLC-MedicinalProductDef"/>
+        </packageFor>
+        <description value="Plastflaska, 100 ml">
+          <extension url="http://ema.europa.eu/fhir/extension/language">
+            <valueCoding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000072057"/>
+              <code value="100000072288"/>
+              <display value="Swedish"/>
+            </valueCoding>
+          </extension>
+        </description>
+        <marketingStatus>
+          <country>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000000002"/>
+              <code value="100000000535"/>
+              <display value="Sweden"/>
+            </coding>
+          </country>
+          <status>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000072052"/>
+              <code value="100000072083"/>
+              <display value="Marketed"/>
+            </coding>
+          </status>
+        </marketingStatus>
+        <package>
+          <type>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000073346"/>
+              <code value="100000073498"/>
+              <display value="Box"/>
+            </coding>
+          </type>
+          <quantity value="1"/>
+          <material>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/200000003199"/>
+              <code value="200000003529"/>
+              <display value="Cardboard"/>
+            </coding>
+          </material>
+          <package>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000073346"/>
+                <code value="100000073497"/>
+                <display value="Bottle"/>
+              </coding>
+            </type>
+            <quantity value="1"/>
+            <material>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/200000003199"/>
+                <code value="200000003208"/>
+                <display value="Plastic"/>
+              </coding>
+            </material>
+            <containedItem>
+              <item>
+                <reference>
+                  <reference value="ManufacturedItemDefinition/Locoid01kutanlosning-SE-PLC-ManufacturedItemDef"/>
+                </reference>
+              </item>
+              <amount>
+                <value value="100"/>
+                <unit value="millilitre(s)"/>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000110633~200000000014"/>
+                <code value="100000110662"/>
+              </amount>
+            </containedItem>
+          </package>
+        </package>
+      </PackagedProductDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="PackagedProductDefinition/Locoid01kutanlosning-SE-PLC-PackageProductDef"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/ManufacturedItemDefinition/Locoid01kutanlosning-SE-PLC-ManufacturedItemDef"/>
+    <resource>
+      <ManufacturedItemDefinition>
+        <id value="Locoid01kutanlosning-SE-PLC-ManufacturedItemDef"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name="Locoid01kutanlosning-SE-PLC-ManufacturedItemDef"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource ManufacturedItemDefinition &quot;Locoid01kutanlosning-SE-PLC-ManufacturedItemDef&quot; </p></div><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Cutaneous solution <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000004#100000073731)</span></p><p><b>unitOfPresentation</b>: Bottle <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000014#200000002111)</span></p></div>
+        </text>
+        <status value="active"/>
+        <manufacturedDoseForm>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000004"/>
+            <code value="100000073731"/>
+            <display value="Cutaneous solution"/>
+          </coding>
+        </manufacturedDoseForm>
+        <unitOfPresentation>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
+            <code value="200000002111"/>
+            <display value="Bottle"/>
+          </coding>
+        </unitOfPresentation>
+      </ManufacturedItemDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="ManufacturedItemDefinition/Locoid01kutanlosning-SE-PLC-ManufacturedItemDef"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/Ingredient/Locoid01kutanlosning-SE-PLC-Ingredient"/>
+    <resource>
+      <Ingredient>
+        <id value="Locoid01kutanlosning-SE-PLC-Ingredient"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b><a name="Locoid01kutanlosning-SE-PLC-Ingredient"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;Locoid01kutanlosning-SE-PLC-Ingredient&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href="#MedicinalProductDefinition_Locoid01kutanlosning-SE-PLC-MedicinalProductDef">See above (MedicinalProductDefinition/Locoid01kutanlosning-SE-PLC-MedicinalProductDef)</a></li><li><a href="#ManufacturedItemDefinition_Locoid01kutanlosning-SE-PLC-ManufacturedItemDef">See above (ManufacturedItemDefinition/Locoid01kutanlosning-SE-PLC-ManufacturedItemDef)</a></li><li><a href="#AdministrableProductDefinition_Locoid01kutanlosning-SE-PLC-AdminProductDef">See above (AdministrableProductDefinition/Locoid01kutanlosning-SE-PLC-AdminProductDef)</a></li></ul><p><b>role</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Hydrocortisone butyrate <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SubstanceDefinition#100000085172)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>concentration</b>: 1 milligram(s)<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 gram(s)<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110654 = '100000110654')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Hydrocortisone <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SubstanceDefinition#100000092635)</span></td></tr></table><p><b>strength</b>: 0.84 milligram(s)<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 gram(s)<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110654 = '100000110654')</span></p></blockquote></blockquote></blockquote></div>
+        </text>
+        <status value="active"/>
+        <for>
+          <reference value="MedicinalProductDefinition/Locoid01kutanlosning-SE-PLC-MedicinalProductDef"/>
+        </for>
+        <for>
+          <reference value="ManufacturedItemDefinition/Locoid01kutanlosning-SE-PLC-ManufacturedItemDef"/>
+        </for>
+        <for>
+          <reference value="AdministrableProductDefinition/Locoid01kutanlosning-SE-PLC-AdminProductDef"/>
+        </for>
+        <role>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000072050"/>
+            <code value="100000072072"/>
+            <display value="Active"/>
+          </coding>
+        </role>
+        <substance>
+          <code>
+            <concept>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v2/SubstanceDefinition"/>
+                <code value="100000085172"/>
+                <display value="Hydrocortisone butyrate"/>
+              </coding>
+            </concept>
+          </code>
+          <strength>
+            <concentrationRatio>
+              <numerator>
+                <value value="1"/>
+                <unit value="milligram(s)"/>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+                <code value="100000110655"/>
+              </numerator>
+              <denominator>
+                <value value="1"/>
+                <unit value="gram(s)"/>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+                <code value="100000110654"/>
+              </denominator>
+            </concentrationRatio>
+            <referenceStrength>
+              <substance>
+                <concept>
+                  <coding>
+                    <system value="https://spor.ema.europa.eu/v2/SubstanceDefinition"/>
+                    <code value="100000092635"/>
+                    <display value="Hydrocortisone"/>
+                  </coding>
+                </concept>
+              </substance>
+              <strengthRatio>
+                <numerator>
+                  <value value="0.84"/>
+                  <unit value="milligram(s)"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+                  <code value="100000110655"/>
+                </numerator>
+                <denominator>
+                  <value value="1"/>
+                  <unit value="gram(s)"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+                  <code value="100000110654"/>
+                </denominator>
+              </strengthRatio>
+            </referenceStrength>
+          </strength>
+        </substance>
+      </Ingredient>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Ingredient/Locoid01kutanlosning-SE-PLC-Ingredient"/>
+    </request>
+  </entry>
+</Bundle>

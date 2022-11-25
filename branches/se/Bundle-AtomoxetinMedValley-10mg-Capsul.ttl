@@ -1,0 +1,542 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7-eu.github.io/unicom-ig/Bundle/AtomoxetinMedValley-10mg-Capsul> a fhir:Bundle;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "AtomoxetinMedValley-10mg-Capsul"];
+  fhir:Bundle.type [ fhir:value "batch"];
+  fhir:Bundle.entry [
+     fhir:index 0;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/MedicinalProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-MedicinalProductDef" ];
+     fhir:Bundle.entry.resource <{$base}/MedicinalProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-MedicinalProductDef>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "MedicinalProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-MedicinalProductDef" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/RegulatedAuthorization/AtomoxetinMedValley-10mg-Capsule-SE-AJ-RegulatedAuthorization" ];
+     fhir:Bundle.entry.resource <{$base}/RegulatedAuthorization/AtomoxetinMedValley-10mg-Capsule-SE-AJ-RegulatedAuthorization>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "RegulatedAuthorization/AtomoxetinMedValley-10mg-Capsule-SE-AJ-RegulatedAuthorization" ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/AdministrableProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-AdministrableProductDef" ];
+     fhir:Bundle.entry.resource <{$base}/AdministrableProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-AdministrableProductDef>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "AdministrableProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-AdministrableProductDef" ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/PackagedProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-PackagedProductDef" ];
+     fhir:Bundle.entry.resource <{$base}/PackagedProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-PackagedProductDef>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "PackagedProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-PackagedProductDef" ]
+     ]
+  ], [
+     fhir:index 4;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/ManufacturedItemDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-ManufacturedItemDef" ];
+     fhir:Bundle.entry.resource <{$base}/ManufacturedItemDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-ManufacturedItemDef>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "ManufacturedItemDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-ManufacturedItemDef" ]
+     ]
+  ], [
+     fhir:index 5;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/Ingredient/AtomoxetinMedValley-10mg-Capsule-SE-AJ-Ingredient" ];
+     fhir:Bundle.entry.resource <{$base}/Ingredient/AtomoxetinMedValley-10mg-Capsule-SE-AJ-Ingredient>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Ingredient/AtomoxetinMedValley-10mg-Capsule-SE-AJ-Ingredient" ]
+     ]
+  ] .
+
+<{$base}/MedicinalProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-MedicinalProductDef> a fhir:MedicinalProductDefinition;
+  fhir:Resource.id [ fhir:value "AtomoxetinMedValley-10mg-Capsule-SE-AJ-MedicinalProductDef"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"AtomoxetinMedValley-10mg-Capsule-SE-AJ-MedicinalProductDef\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;AtomoxetinMedValley-10mg-Capsule-SE-AJ-MedicinalProductDef&quot; </p></div><p><b>identifier</b>: id: SE-100004388-00053534, id: 262</p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000005003#200000005004)</span></p><p><b>indication</b>: Atomoxetin Medical Valley är indicerat för behandling av ADHD (Attention Deficit Hyperactivity  Disorder) hos barn (6 år och äldre), ungdomar och vuxna som en del i ett komplett  behandlingsprogram. Behandling skall påbörjas av en läkare som är specialiserad på behandling av  ADHD, så som barnläkare, barn/ungdomspsykiater, eller psykiater. Diagnos skall ställas enligt  gällande DSM-kriterier eller riktlinjerna i ICD. Hos vuxna bör förekomsten av ADHD symtom ha bekräftats i barndomen. Tredje parts bedömning är  önskvärd och Atomoxetin Medical Valley bör inte initieras om det är osäkert om ADHD symtom i  barndomen kan bekräftas. Diagnosen kan inte fastställas enbart utifrån att ett eller flera symtom på  ADHD bekräftats. Baserat på klinisk bedömning bör patienterna ha ADHD av minst moderat  allvarlighetsgrad som kommer till uttryck i minst en moderat funktionsnedsättning inom två eller fler  livsområden (till exempel, social, akademisk, och/eller yrkesmässig förmåga) som påverkar flera  aspekter av livet hos individen. Ytterligare information för säker användning av detta läkemedel Ett komplett behandlingsprogram skall innefatta åtgärder av psykologisk och social natur samt  utbildning och ha för avsikt att stabilisera patienter med beteendesyndrom. Detta kännetecknas av  symtom som varat under en längre tid och kan inkludera svårighet att upprätthålla uppmärksamheten,  distraherbarhet, emotionell labilitet, impulsivitet, måttlig till svår hyperaktivitet, smärre neurologiska  fynd och ett onormalt EEG. Syndromet kan förekomma både med och utan inlärningssvårigheter. Läkemedelsbehandling är inte indicerad för alla patienter med detta syndrom. Beslut att använda  läkemedlet måste grundas på en mycket noggrann bedömning av symtomens och  funktionsnedsättningens svårighetsgrad och varaktighet i förhållande till patientens ålder.</p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072051#100000072084)</span></p><p><b>classification</b>: N06BA09 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000093533#100000097726)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Atomoxetin Medical Valley 10 mg Kapsel, hård</p><blockquote><p><b>namePart</b></p><p><b>part</b>: Atomoxetin Medical Valley</p><p><b>type</b>: Scientific Name Part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000003)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 10 mg</p><p><b>type</b>: Strength part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: Kapsel, hård</p><p><b>type</b>: Pharmaceutical dose form part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Swedish <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072057#100000072288)</span></td></tr></table></blockquote></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/authorisedDoseForm" ];
+     fhir:Extension.valueCoding [
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000004" ];
+       fhir:Coding.code [ fhir:value "100000073375" ];
+       fhir:Coding.display [ fhir:value "Capsule, hard" ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "http://ema.europa.eu/fhir/mpId" ];
+     fhir:Identifier.value [ fhir:value "SE-100004388-00053534" ]
+  ], [
+     fhir:index 1;
+     fhir:Identifier.system [ fhir:value "http://ema.europa.eu/fhir/eurdId" ];
+     fhir:Identifier.value [ fhir:value "262" ]
+  ];
+  fhir:MedicinalProductDefinition.domain [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000004" ];
+       fhir:Coding.code [ fhir:value "100000000012" ];
+       fhir:Coding.display [ fhir:value "Human use" ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.status [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000005003" ];
+       fhir:Coding.code [ fhir:value "200000005004" ];
+       fhir:Coding.display [ fhir:value "Current" ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.indication [ fhir:value "Atomoxetin Medical Valley är indicerat för behandling av ADHD (Attention Deficit Hyperactivity  Disorder) hos barn (6 år och äldre), ungdomar och vuxna som en del i ett komplett  behandlingsprogram. Behandling skall påbörjas av en läkare som är specialiserad på behandling av  ADHD, så som barnläkare, barn/ungdomspsykiater, eller psykiater. Diagnos skall ställas enligt  gällande DSM-kriterier eller riktlinjerna i ICD. Hos vuxna bör förekomsten av ADHD symtom ha bekräftats i barndomen. Tredje parts bedömning är  önskvärd och Atomoxetin Medical Valley bör inte initieras om det är osäkert om ADHD symtom i  barndomen kan bekräftas. Diagnosen kan inte fastställas enbart utifrån att ett eller flera symtom på  ADHD bekräftats. Baserat på klinisk bedömning bör patienterna ha ADHD av minst moderat  allvarlighetsgrad som kommer till uttryck i minst en moderat funktionsnedsättning inom två eller fler  livsområden (till exempel, social, akademisk, och/eller yrkesmässig förmåga) som påverkar flera  aspekter av livet hos individen. Ytterligare information för säker användning av detta läkemedel Ett komplett behandlingsprogram skall innefatta åtgärder av psykologisk och social natur samt  utbildning och ha för avsikt att stabilisera patienter med beteendesyndrom. Detta kännetecknas av  symtom som varat under en längre tid och kan inkludera svårighet att upprätthålla uppmärksamheten,  distraherbarhet, emotionell labilitet, impulsivitet, måttlig till svår hyperaktivitet, smärre neurologiska  fynd och ett onormalt EEG. Syndromet kan förekomma både med och utan inlärningssvårigheter. Läkemedelsbehandling är inte indicerad för alla patienter med detta syndrom. Beslut att använda  läkemedlet måste grundas på en mycket noggrann bedömning av symtomens och  funktionsnedsättningens svårighetsgrad och varaktighet i förhållande till patientens ålder."];
+  fhir:MedicinalProductDefinition.legalStatusOfSupply [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072051" ];
+       fhir:Coding.code [ fhir:value "100000072084" ];
+       fhir:Coding.display [ fhir:value "Medicinal product subject to medical prescription" ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.classification [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000093533" ];
+       fhir:Coding.code [ fhir:value "100000097726" ];
+       fhir:Coding.display [ fhir:value "N06BA09" ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.name [
+     fhir:index 0;
+     fhir:MedicinalProductDefinition.name.productName [ fhir:value "Atomoxetin Medical Valley 10 mg Kapsel, hård" ];
+     fhir:MedicinalProductDefinition.name.namePart [
+       fhir:index 0;
+       fhir:MedicinalProductDefinition.name.namePart.part [ fhir:value "Atomoxetin Medical Valley" ];
+       fhir:MedicinalProductDefinition.name.namePart.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/220000000000" ];
+           fhir:Coding.code [ fhir:value "220000000003" ];
+           fhir:Coding.display [ fhir:value "Scientific Name Part" ]
+         ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:MedicinalProductDefinition.name.namePart.part [ fhir:value "10 mg" ];
+       fhir:MedicinalProductDefinition.name.namePart.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/220000000000" ];
+           fhir:Coding.code [ fhir:value "220000000004" ];
+           fhir:Coding.display [ fhir:value "Strength part" ]
+         ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:MedicinalProductDefinition.name.namePart.part [ fhir:value "Kapsel, hård" ];
+       fhir:MedicinalProductDefinition.name.namePart.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/220000000000" ];
+           fhir:Coding.code [ fhir:value "220000000005" ];
+           fhir:Coding.display [ fhir:value "Pharmaceutical dose form part" ]
+         ]
+       ]
+     ];
+     fhir:MedicinalProductDefinition.name.countryLanguage [
+       fhir:index 0;
+       fhir:MedicinalProductDefinition.name.countryLanguage.country [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000002" ];
+           fhir:Coding.code [ fhir:value "100000000535" ];
+           fhir:Coding.display [ fhir:value "Sweden" ]
+         ]
+       ];
+       fhir:MedicinalProductDefinition.name.countryLanguage.language [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072057" ];
+           fhir:Coding.code [ fhir:value "100000072288" ];
+           fhir:Coding.display [ fhir:value "Swedish" ]
+         ]
+       ]
+     ]
+  ] .
+
+<{$base}/RegulatedAuthorization/AtomoxetinMedValley-10mg-Capsule-SE-AJ-RegulatedAuthorization> a fhir:RegulatedAuthorization;
+  fhir:Resource.id [ fhir:value "AtomoxetinMedValley-10mg-Capsule-SE-AJ-RegulatedAuthorization"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"AtomoxetinMedValley-10mg-Capsule-SE-AJ-RegulatedAuthorization\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;AtomoxetinMedValley-10mg-Capsule-SE-AJ-RegulatedAuthorization&quot; </p></div><p><b>identifier</b>: id: 53534</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_AtomoxetinMedValley-10mg-Capsule-SE-AJ-MedicinalProductDef\">See above (MedicinalProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-MedicinalProductDef)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000060#220000000061)</span></p><p><b>region</b>: Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></p><p><b>status</b>: Valid <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072049#100000072099)</span></p><p><b>statusDate</b>: 2017-11-17</p><p><b>holder</b>: <span>: Medical Valley Invest AB</span></p><h3>Cases</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Date[x]</b></td></tr><tr><td>*</td><td>First Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (authorisationDateType#dateOfFirstAuthorisation)</span></td><td>2017-11-17</td></tr></table></div>"
+  ];
+  fhir:RegulatedAuthorization.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "http://ema.europa.eu/fhir/MarketingAuthorizationNumber" ];
+     fhir:Identifier.value [ fhir:value "53534" ]
+  ];
+  fhir:RegulatedAuthorization.subject [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-MedicinalProductDef>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-MedicinalProductDef" ]
+  ];
+  fhir:RegulatedAuthorization.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/220000000060" ];
+       fhir:Coding.code [ fhir:value "220000000061" ];
+       fhir:Coding.display [ fhir:value "Marketing Authorisation" ]
+     ]
+  ];
+  fhir:RegulatedAuthorization.region [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000002" ];
+       fhir:Coding.code [ fhir:value "100000000535" ];
+       fhir:Coding.display [ fhir:value "Sweden" ]
+     ]
+  ];
+  fhir:RegulatedAuthorization.status [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072049" ];
+       fhir:Coding.code [ fhir:value "100000072099" ];
+       fhir:Coding.display [ fhir:value "Valid" ]
+     ]
+  ];
+  fhir:RegulatedAuthorization.statusDate [ fhir:value "2017-11-17"^^xsd:date];
+  fhir:RegulatedAuthorization.holder [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/v1/locations" ];
+       fhir:Identifier.value [ fhir:value "LOC-100001125" ]
+     ];
+     fhir:Reference.display [ fhir:value "Medical Valley Invest AB" ]
+  ];
+  fhir:RegulatedAuthorization.case [
+     fhir:RegulatedAuthorization.case.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://ema.europa.eu/fhir/authorisationDateType" ];
+         fhir:Coding.code [ fhir:value "dateOfFirstAuthorisation" ];
+         fhir:Coding.display [ fhir:value "First Authorisation" ]
+       ]
+     ];
+     fhir:RegulatedAuthorization.case.dateDateTime [ fhir:value "2017-11-17"^^xsd:date ]
+  ] .
+
+<{$base}/AdministrableProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-AdministrableProductDef> a fhir:AdministrableProductDefinition;
+  fhir:Resource.id [ fhir:value "AtomoxetinMedValley-10mg-Capsule-SE-AJ-AdministrableProductDef"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"AtomoxetinMedValley-10mg-Capsule-SE-AJ-AdministrableProductDef\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;AtomoxetinMedValley-10mg-Capsule-SE-AJ-AdministrableProductDef&quot; </p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"#MedicinalProductDefinition_AtomoxetinMedValley-10mg-Capsule-SE-AJ-MedicinalProductDef\">See above (MedicinalProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-MedicinalProductDef)</a></p><p><b>administrableDoseForm</b>: Capsule, hard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000073375)</span></p><p><b>producedFrom</b>: <a href=\"#ManufacturedItemDefinition_AtomoxetinMedValley-10mg-Capsule-SE-AJ-ManufacturedItemDef\">See above (ManufacturedItemDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-ManufacturedItemDef)</a></p><h3>RouteOfAdministrations</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073345#100000073619)</span></td></tr></table></div>"
+  ];
+  fhir:AdministrableProductDefinition.status [ fhir:value "active"];
+  fhir:AdministrableProductDefinition.formOf [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-MedicinalProductDef>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-MedicinalProductDef" ]
+  ];
+  fhir:AdministrableProductDefinition.administrableDoseForm [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000004" ];
+       fhir:Coding.code [ fhir:value "100000073375" ];
+       fhir:Coding.display [ fhir:value "Capsule, hard" ]
+     ]
+  ];
+  fhir:AdministrableProductDefinition.producedFrom [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-ManufacturedItemDef>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-ManufacturedItemDef" ]
+  ];
+  fhir:AdministrableProductDefinition.routeOfAdministration [
+     fhir:index 0;
+     fhir:AdministrableProductDefinition.routeOfAdministration.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073345" ];
+         fhir:Coding.code [ fhir:value "100000073619" ];
+         fhir:Coding.display [ fhir:value "Oral use" ]
+       ]
+     ]
+  ] .
+
+<{$base}/PackagedProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-PackagedProductDef> a fhir:PackagedProductDefinition;
+  fhir:Resource.id [ fhir:value "AtomoxetinMedValley-10mg-Capsule-SE-AJ-PackagedProductDef"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"AtomoxetinMedValley-10mg-Capsule-SE-AJ-PackagedProductDef\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;AtomoxetinMedValley-10mg-Capsule-SE-AJ-PackagedProductDef&quot; </p></div><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_AtomoxetinMedValley-10mg-Capsule-SE-AJ-MedicinalProductDef\">See above (MedicinalProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-MedicinalProductDef)</a></p><p><b>description</b>: Blister, 28 kapslar (Al)</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003529)</span></p><h3>ShelfLifeStorages</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Period[x]</b></td><td><b>SpecialPrecautionsForStorage</b></td></tr><tr><td>*</td><td>Shelf life of the medicinal product as packaged for sale <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073343#100000073403)</span></td><td>30 Month<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 200000003433 = '200000003433')</span></td><td>This medicinal product does not require any special storage conditions <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073344#100000073424)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073496)</span></p><p><b>quantity</b>: 2</p><p><b>material</b>: PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003222)</span>, Aluminium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003200)</span>, PolyAmide <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003209)</span></p></blockquote></blockquote></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/containedItemQuantity" ];
+     fhir:Extension.valueQuantity [
+       fhir:Quantity.value [ fhir:value "28"^^xsd:decimal ];
+       fhir:Quantity.unit [ fhir:value "Capsule" ];
+       fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+       fhir:Quantity.code [ fhir:value "200000002113" ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.packageFor [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-MedicinalProductDef>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-MedicinalProductDef" ]
+  ];
+  fhir:PackagedProductDefinition.description [
+     fhir:value "Blister, 28 kapslar (Al)";
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/language" ];
+       fhir:Extension.valueCoding [
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072057" ];
+         fhir:Coding.code [ fhir:value "100000072288" ];
+         fhir:Coding.display [ fhir:value "Swedish" ]
+       ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.marketingStatus [
+     fhir:index 0;
+     fhir:MarketingStatus.country [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000002" ];
+         fhir:Coding.code [ fhir:value "100000000535" ];
+         fhir:Coding.display [ fhir:value "Sweden" ]
+       ]
+     ];
+     fhir:MarketingStatus.status [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072052" ];
+         fhir:Coding.code [ fhir:value "100000072083" ];
+         fhir:Coding.display [ fhir:value "Marketed" ]
+       ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.package [
+     fhir:PackagedProductDefinition.package.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073346" ];
+         fhir:Coding.code [ fhir:value "100000073498" ];
+         fhir:Coding.display [ fhir:value "Box" ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.quantity [ fhir:value "1"^^xsd:integer ];
+     fhir:PackagedProductDefinition.package.material [
+       fhir:index 0;
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+         fhir:Coding.code [ fhir:value "200000003529" ];
+         fhir:Coding.display [ fhir:value "Cardboard" ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.shelfLifeStorage [
+       fhir:index 0;
+       fhir:PackagedProductDefinition.package.shelfLifeStorage.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073343" ];
+           fhir:Coding.code [ fhir:value "100000073403" ];
+           fhir:Coding.display [ fhir:value "Shelf life of the medicinal product as packaged for sale" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.shelfLifeStorage.periodDuration [
+         fhir:Quantity.value [ fhir:value "30"^^xsd:decimal ];
+         fhir:Quantity.unit [ fhir:value "Month" ];
+         fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000110633" ];
+         fhir:Quantity.code [ fhir:value "200000003433" ]
+       ];
+       fhir:PackagedProductDefinition.package.shelfLifeStorage.specialPrecautionsForStorage [
+         fhir:index 0;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000073344" ];
+           fhir:Coding.code [ fhir:value "100000073424" ];
+           fhir:Coding.display [ fhir:value "This medicinal product does not require any special storage conditions" ]
+         ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.package [
+       fhir:index 0;
+       fhir:PackagedProductDefinition.package.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073346" ];
+           fhir:Coding.code [ fhir:value "100000073496" ];
+           fhir:Coding.display [ fhir:value "Blister" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.quantity [ fhir:value "2"^^xsd:integer ];
+       fhir:PackagedProductDefinition.package.material [
+         fhir:index 0;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+           fhir:Coding.code [ fhir:value "200000003222" ];
+           fhir:Coding.display [ fhir:value "PolyVinyl Chloride" ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+           fhir:Coding.code [ fhir:value "200000003200" ];
+           fhir:Coding.display [ fhir:value "Aluminium" ]
+         ]
+       ], [
+         fhir:index 2;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+           fhir:Coding.code [ fhir:value "200000003209" ];
+           fhir:Coding.display [ fhir:value "PolyAmide" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.containedItem [
+         fhir:index 0;
+         fhir:PackagedProductDefinition.package.containedItem.item [
+           fhir:CodeableReference.reference [
+             fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-ManufacturedItemDef>;
+             fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-ManufacturedItemDef" ]
+           ]
+         ];
+         fhir:PackagedProductDefinition.package.containedItem.amount [
+           fhir:Quantity.value [ fhir:value "14"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "Capsule" ];
+           fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+           fhir:Quantity.code [ fhir:value "200000002113" ]
+         ]
+       ]
+     ]
+  ] .
+
+<{$base}/ManufacturedItemDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-ManufacturedItemDef> a fhir:ManufacturedItemDefinition;
+  fhir:Resource.id [ fhir:value "AtomoxetinMedValley-10mg-Capsule-SE-AJ-ManufacturedItemDef"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"AtomoxetinMedValley-10mg-Capsule-SE-AJ-ManufacturedItemDef\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;AtomoxetinMedValley-10mg-Capsule-SE-AJ-ManufacturedItemDef&quot; </p></div><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Capsule, hard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000073375)</span></p><p><b>unitOfPresentation</b>: Capsule <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000014#200000002113)</span></p></div>"
+  ];
+  fhir:ManufacturedItemDefinition.status [ fhir:value "active"];
+  fhir:ManufacturedItemDefinition.manufacturedDoseForm [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000004" ];
+       fhir:Coding.code [ fhir:value "100000073375" ];
+       fhir:Coding.display [ fhir:value "Capsule, hard" ]
+     ]
+  ];
+  fhir:ManufacturedItemDefinition.unitOfPresentation [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+       fhir:Coding.code [ fhir:value "200000002113" ];
+       fhir:Coding.display [ fhir:value "Capsule" ]
+     ]
+  ] .
+
+<{$base}/Ingredient/AtomoxetinMedValley-10mg-Capsule-SE-AJ-Ingredient> a fhir:Ingredient;
+  fhir:Resource.id [ fhir:value "AtomoxetinMedValley-10mg-Capsule-SE-AJ-Ingredient"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"AtomoxetinMedValley-10mg-Capsule-SE-AJ-Ingredient\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;AtomoxetinMedValley-10mg-Capsule-SE-AJ-Ingredient&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_AtomoxetinMedValley-10mg-Capsule-SE-AJ-MedicinalProductDef\">See above (MedicinalProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-MedicinalProductDef)</a></li><li><a href=\"#ManufacturedItemDefinition_AtomoxetinMedValley-10mg-Capsule-SE-AJ-ManufacturedItemDef\">See above (ManufacturedItemDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-ManufacturedItemDef)</a></li><li><a href=\"#AdministrableProductDefinition_AtomoxetinMedValley-10mg-Capsule-SE-AJ-AdministrableProductDef\">See above (AdministrableProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-AdministrableProductDef)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Atomoxetine hydrochloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000137397)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>presentation</b>: 11.428 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 Capsule<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002113 = '200000002113')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Atomoxetine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000090524)</span></td></tr></table><p><b>strength</b>: 10 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 Capsule<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002113 = '200000002113')</span></p></blockquote></blockquote></blockquote></div>"
+  ];
+  fhir:Ingredient.status [ fhir:value "active"];
+  fhir:Ingredient.for [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-MedicinalProductDef>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-MedicinalProductDef" ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-ManufacturedItemDef>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-ManufacturedItemDef" ]
+  ], [
+     fhir:index 2;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/AdministrableProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-AdministrableProductDef>;
+     fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/AtomoxetinMedValley-10mg-Capsule-SE-AJ-AdministrableProductDef" ]
+  ];
+  fhir:Ingredient.role [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072050" ];
+       fhir:Coding.code [ fhir:value "100000072072" ];
+       fhir:Coding.display [ fhir:value "Active" ]
+     ]
+  ];
+  fhir:Ingredient.substance [
+     fhir:Ingredient.substance.code [
+       fhir:CodeableReference.concept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+           fhir:Coding.code [ fhir:value "100000137397" ];
+           fhir:Coding.display [ fhir:value "Atomoxetine hydrochloride" ]
+         ]
+       ]
+     ];
+     fhir:Ingredient.substance.strength [
+       fhir:index 0;
+       fhir:Ingredient.substance.strength.presentationRatio [
+         fhir:Ratio.numerator [
+           fhir:Quantity.value [ fhir:value "11.428"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "milligram(s)" ];
+           fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000110633" ];
+           fhir:Quantity.code [ fhir:value "100000110655" ]
+         ];
+         fhir:Ratio.denominator [
+           fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "Capsule" ];
+           fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000014" ];
+           fhir:Quantity.code [ fhir:value "200000002113" ]
+         ]
+       ];
+       fhir:Ingredient.substance.strength.referenceStrength [
+         fhir:index 0;
+         fhir:Ingredient.substance.strength.referenceStrength.substance [
+           fhir:CodeableReference.concept [
+             fhir:CodeableConcept.coding [
+               fhir:index 0;
+               fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+               fhir:Coding.code [ fhir:value "100000090524" ];
+               fhir:Coding.display [ fhir:value "Atomoxetine" ]
+             ]
+           ]
+         ];
+         fhir:Ingredient.substance.strength.referenceStrength.strengthRatio [
+           fhir:Ratio.numerator [
+             fhir:Quantity.value [ fhir:value "10"^^xsd:decimal ];
+             fhir:Quantity.unit [ fhir:value "milligram(s)" ];
+             fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000110633" ];
+             fhir:Quantity.code [ fhir:value "100000110655" ]
+           ];
+           fhir:Ratio.denominator [
+             fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+             fhir:Quantity.unit [ fhir:value "Capsule" ];
+             fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000014" ];
+             fhir:Quantity.code [ fhir:value "200000002113" ]
+           ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7-eu.github.io/unicom-ig/Bundle/AtomoxetinMedValley-10mg-Capsul.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

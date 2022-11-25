@@ -1,0 +1,588 @@
+{
+  "resourceType": "Bundle",
+  "id": "ISOactavis-10mg-Capsule-SE-IS",
+  "type": "batch",
+  "entry": [
+    {
+      "fullUrl": "{$base}/MedicinalProductDefinition/ISOactavis-10mg-Capsule-SE-IS-MedicinalProductDefinition",
+      "resource": {
+        "resourceType": "MedicinalProductDefinition",
+        "id": "ISOactavis-10mg-Capsule-SE-IS-MedicinalProductDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"ISOactavis-10mg-Capsule-SE-IS-MedicinalProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;ISOactavis-10mg-Capsule-SE-IS-MedicinalProductDefinition&quot; </p></div><p><b>identifier</b>: id: SE-100000064-00048555, id: 10488</p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000005003#200000005004)</span></p><p><b>indication</b>: Svåra former av akne (till exempel nodulär eller konglobat akne eller akne med risk för permanent  ärrbildning) som inte kontrolleras med adekvat standardbehandling med systemiska antibakteriella  läkemedel och lokalbehandling.</p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072051#100000072084)</span></p><p><b>additionalMonitoringIndicator</b>: The medicinal product is included or removed from the list of medicinal products that are subject to additional monitoring (as applicable). <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003554#200000003918)</span></p><p><b>classification</b>: D10BA01 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000116677#100000093533)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Isotretinoin Actavis 10 mg Kapsel, mjuk</p><blockquote><p><b>namePart</b></p><p><b>part</b>: Isotretinoin Actavis</p><p><b>type</b>: Invented name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 10 mg</p><p><b>type</b>: Strength part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: Kapsel, mjuk</p><p><b>type</b>: Pharmaceutical dose form part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Swedish <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072057#100000072288)</span></td></tr></table></blockquote></div>"
+        },
+        "extension": [
+          {
+            "url": "http://ema.europa.eu/fhir/extension/authorisedDoseForm",
+            "valueCoding": {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000004",
+              "code": "100000073660",
+              "display": "Capsule, soft"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/fhir/mpId",
+            "value": "SE-100000064-00048555"
+          },
+          {
+            "system": "http://ema.europa.eu/fhir/eurdId",
+            "value": "10488"
+          }
+        ],
+        "domain": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000000004",
+              "code": "100000000012",
+              "display": "Human use"
+            }
+          ]
+        },
+        "status": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000005003",
+              "code": "200000005004",
+              "display": "Current"
+            }
+          ]
+        },
+        "indication": "Svåra former av akne (till exempel nodulär eller konglobat akne eller akne med risk för permanent  ärrbildning) som inte kontrolleras med adekvat standardbehandling med systemiska antibakteriella  läkemedel och lokalbehandling.",
+        "legalStatusOfSupply": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000072051",
+              "code": "100000072084",
+              "display": "Medicinal product subject to medical prescription"
+            }
+          ]
+        },
+        "additionalMonitoringIndicator": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000003554",
+              "code": "200000003918",
+              "display": "The medicinal product is included or removed from the list of medicinal products that are subject to additional monitoring (as applicable)."
+            }
+          ]
+        },
+        "classification": [
+          {
+            "coding": [
+              {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000116677",
+                "code": "100000093533",
+                "display": "D10BA01"
+              }
+            ]
+          }
+        ],
+        "name": [
+          {
+            "productName": "Isotretinoin Actavis 10 mg Kapsel, mjuk",
+            "namePart": [
+              {
+                "part": "Isotretinoin Actavis",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/220000000000",
+                      "code": "220000000002",
+                      "display": "Invented name part"
+                    }
+                  ]
+                }
+              },
+              {
+                "part": "10 mg",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/220000000000",
+                      "code": "220000000004",
+                      "display": "Strength part"
+                    }
+                  ]
+                }
+              },
+              {
+                "part": "Kapsel, mjuk",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/220000000000",
+                      "code": "220000000005",
+                      "display": "Pharmaceutical dose form part"
+                    }
+                  ]
+                }
+              }
+            ],
+            "countryLanguage": [
+              {
+                "country": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                      "code": "100000000535",
+                      "display": "Sweden"
+                    }
+                  ]
+                },
+                "language": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/100000072057",
+                      "code": "100000072288",
+                      "display": "Swedish"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "MedicinalProductDefinition/ISOactavis-10mg-Capsule-SE-IS-MedicinalProductDefinition"
+      }
+    },
+    {
+      "fullUrl": "{$base}/RegulatedAuthorization/ISOactavis-10mg-Capsule-SE-IS-RegulatedAuthorization",
+      "resource": {
+        "resourceType": "RegulatedAuthorization",
+        "id": "ISOactavis-10mg-Capsule-SE-IS-RegulatedAuthorization",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"ISOactavis-10mg-Capsule-SE-IS-RegulatedAuthorization\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;ISOactavis-10mg-Capsule-SE-IS-RegulatedAuthorization&quot; </p></div><p><b>identifier</b>: id: 48555</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_ISOactavis-10mg-Capsule-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/ISOactavis-10mg-Capsule-SE-IS-MedicinalProductDefinition)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000060#220000000061)</span></p><p><b>region</b>: Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></p><p><b>status</b>: Valid <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072049#100000072099)</span></p><p><b>statusDate</b>: 2013-10-10</p><p><b>holder</b>: <span>: Actavis Group PTC ehf</span></p><h3>Cases</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Date[x]</b></td></tr><tr><td>*</td><td>First Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (authorisationDateType#dateOfFirstAuthorisation)</span></td><td>2013-10-10</td></tr></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/fhir/MarketingAuthorizationNumber",
+            "value": "48555"
+          }
+        ],
+        "subject": [
+          {
+            "reference": "MedicinalProductDefinition/ISOactavis-10mg-Capsule-SE-IS-MedicinalProductDefinition"
+          }
+        ],
+        "type": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/220000000060",
+              "code": "220000000061",
+              "display": "Marketing Authorisation"
+            }
+          ]
+        },
+        "region": [
+          {
+            "coding": [
+              {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                "code": "100000000535",
+                "display": "Sweden"
+              }
+            ]
+          }
+        ],
+        "status": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000072049",
+              "code": "100000072099",
+              "display": "Valid"
+            }
+          ]
+        },
+        "statusDate": "2013-10-10",
+        "holder": {
+          "identifier": {
+            "system": "https://spor.ema.europa.eu/v1/locations",
+            "value": "LOC-100001873"
+          },
+          "display": "Actavis Group PTC ehf"
+        },
+        "case": {
+          "type": {
+            "coding": [
+              {
+                "system": "http://ema.europa.eu/fhir/authorisationDateType",
+                "code": "dateOfFirstAuthorisation",
+                "display": "First Authorisation"
+              }
+            ]
+          },
+          "dateDateTime": "2013-10-10"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "RegulatedAuthorization/ISOactavis-10mg-Capsule-SE-IS-RegulatedAuthorization"
+      }
+    },
+    {
+      "fullUrl": "{$base}/AdministrableProductDefinition/ISOactavis-10mg-Capsule-SE-IS-AdministrableProductDefinition",
+      "resource": {
+        "resourceType": "AdministrableProductDefinition",
+        "id": "ISOactavis-10mg-Capsule-SE-IS-AdministrableProductDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"ISOactavis-10mg-Capsule-SE-IS-AdministrableProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;ISOactavis-10mg-Capsule-SE-IS-AdministrableProductDefinition&quot; </p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"#MedicinalProductDefinition_ISOactavis-10mg-Capsule-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/ISOactavis-10mg-Capsule-SE-IS-MedicinalProductDefinition)</a></p><p><b>administrableDoseForm</b>: Capsule, soft <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000073660)</span></p><p><b>producedFrom</b>: <a href=\"#ManufacturedItemDefinition_ISOactavis-10mg-Capsule-SE-IS-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/ISOactavis-10mg-Capsule-SE-IS-ManufacturedItemDefinition)</a></p><h3>RouteOfAdministrations</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073345#100000073619)</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "formOf": [
+          {
+            "reference": "MedicinalProductDefinition/ISOactavis-10mg-Capsule-SE-IS-MedicinalProductDefinition"
+          }
+        ],
+        "administrableDoseForm": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000004",
+              "code": "100000073660",
+              "display": "Capsule, soft"
+            }
+          ]
+        },
+        "producedFrom": [
+          {
+            "reference": "ManufacturedItemDefinition/ISOactavis-10mg-Capsule-SE-IS-ManufacturedItemDefinition"
+          }
+        ],
+        "routeOfAdministration": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000073345",
+                  "code": "100000073619",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "AdministrableProductDefinition/ISOactavis-10mg-Capsule-SE-IS-AdministrableProductDefinition"
+      }
+    },
+    {
+      "fullUrl": "{$base}/PackagedProductDefinition/ISOactavis-10mg-Capsule-SE-IS-PackagedProductDefinition",
+      "resource": {
+        "resourceType": "PackagedProductDefinition",
+        "id": "ISOactavis-10mg-Capsule-SE-IS-PackagedProductDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"ISOactavis-10mg-Capsule-SE-IS-PackagedProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;ISOactavis-10mg-Capsule-SE-IS-PackagedProductDefinition&quot; </p></div><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_ISOactavis-10mg-Capsule-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/ISOactavis-10mg-Capsule-SE-IS-MedicinalProductDefinition)</a></p><p><b>description</b>: Blister, 100 kapslar</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003529)</span></p><h3>ShelfLifeStorages</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>SpecialPrecautionsForStorage</b></td></tr><tr><td>*</td><td>Shelf life of the medicinal product as packaged for sale <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073343#100000073403)</span></td><td>Keep the container in the outer carton <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073344#100000073423)</span>, Protect from light <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073344#100000073430)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073496)</span></p><p><b>quantity</b>: 10</p><p><b>material</b>: PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003222)</span>, PolyVinylidene Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003225)</span>, Aluminium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003200)</span></p></blockquote></blockquote></div>"
+        },
+        "extension": [
+          {
+            "url": "http://ema.europa.eu/fhir/extension/containedItemQuantity",
+            "valueQuantity": {
+              "value": 10,
+              "unit": "Capsule",
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+              "code": "200000002113"
+            }
+          }
+        ],
+        "packageFor": [
+          {
+            "reference": "MedicinalProductDefinition/ISOactavis-10mg-Capsule-SE-IS-MedicinalProductDefinition"
+          }
+        ],
+        "description": "Blister, 100 kapslar",
+        "_description": {
+          "extension": [
+            {
+              "url": "http://ema.europa.eu/fhir/extension/language",
+              "valueCoding": {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000072057",
+                "code": "100000072288",
+                "display": "Swedish"
+              }
+            }
+          ]
+        },
+        "marketingStatus": [
+          {
+            "country": {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                  "code": "100000000535",
+                  "display": "Sweden"
+                }
+              ]
+            },
+            "status": {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000072052",
+                  "code": "100000072083",
+                  "display": "Marketed"
+                }
+              ]
+            }
+          }
+        ],
+        "package": {
+          "type": {
+            "coding": [
+              {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000073346",
+                "code": "100000073498",
+                "display": "Box"
+              }
+            ]
+          },
+          "quantity": 1,
+          "material": [
+            {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                  "code": "200000003529",
+                  "display": "Cardboard"
+                }
+              ]
+            }
+          ],
+          "shelfLifeStorage": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://spor.ema.europa.eu/v1/lists/100000073343",
+                    "code": "100000073403",
+                    "display": "Shelf life of the medicinal product as packaged for sale"
+                  }
+                ]
+              },
+              "specialPrecautionsForStorage": [
+                {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000073344",
+                      "code": "100000073423",
+                      "display": "Keep the container in the outer carton"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000073344",
+                      "code": "100000073430",
+                      "display": "Protect from light"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "package": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://spor.ema.europa.eu/v1/lists/100000073346",
+                    "code": "100000073496",
+                    "display": "Blister"
+                  }
+                ]
+              },
+              "quantity": 10,
+              "material": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                      "code": "200000003222",
+                      "display": "PolyVinyl Chloride"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                      "code": "200000003225",
+                      "display": "PolyVinylidene Chloride"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                      "code": "200000003200",
+                      "display": "Aluminium"
+                    }
+                  ]
+                }
+              ],
+              "containedItem": [
+                {
+                  "item": {
+                    "reference": {
+                      "reference": "ManufacturedItemDefinition/ISOactavis-10mg-Capsule-SE-IS-ManufacturedItemDefinition"
+                    }
+                  },
+                  "amount": {
+                    "value": 10,
+                    "unit": "Capsule",
+                    "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+                    "code": "200000002113"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "PackagedProductDefinition/ISOactavis-10mg-Capsule-SE-IS-PackagedProductDefinition"
+      }
+    },
+    {
+      "fullUrl": "{$base}/ManufacturedItemDefinition/ISOactavis-10mg-Capsule-SE-IS-ManufacturedItemDefinition",
+      "resource": {
+        "resourceType": "ManufacturedItemDefinition",
+        "id": "ISOactavis-10mg-Capsule-SE-IS-ManufacturedItemDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"ISOactavis-10mg-Capsule-SE-IS-ManufacturedItemDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;ISOactavis-10mg-Capsule-SE-IS-ManufacturedItemDefinition&quot; </p></div><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Capsule, soft <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000073660)</span></p><p><b>unitOfPresentation</b>: Capsule <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000014#200000002113)</span></p></div>"
+        },
+        "status": "active",
+        "manufacturedDoseForm": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000004",
+              "code": "100000073660",
+              "display": "Capsule, soft"
+            }
+          ]
+        },
+        "unitOfPresentation": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+              "code": "200000002113",
+              "display": "Capsule"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ManufacturedItemDefinition/ISOactavis-10mg-Capsule-SE-IS-ManufacturedItemDefinition"
+      }
+    },
+    {
+      "fullUrl": "{$base}/Ingredient/ISOactavis-10mg-Capsule-SE-IS-Ingredient",
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "ISOactavis-10mg-Capsule-SE-IS-Ingredient",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"ISOactavis-10mg-Capsule-SE-IS-Ingredient\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ISOactavis-10mg-Capsule-SE-IS-Ingredient&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_ISOactavis-10mg-Capsule-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/ISOactavis-10mg-Capsule-SE-IS-MedicinalProductDefinition)</a></li><li><a href=\"#ManufacturedItemDefinition_ISOactavis-10mg-Capsule-SE-IS-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/ISOactavis-10mg-Capsule-SE-IS-ManufacturedItemDefinition)</a></li><li><a href=\"#AdministrableProductDefinition_ISOactavis-10mg-Capsule-SE-IS-AdministrableProductDefinition\">See above (AdministrableProductDefinition/ISOactavis-10mg-Capsule-SE-IS-AdministrableProductDefinition)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Isotretinoin <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000089811)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>concentration</b>: 10 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 unit(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110756 = '100000110756')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Isotretinoin <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000089811)</span></td></tr></table><p><b>strength</b>: 10 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 unit(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110756 = '100000110756')</span></p></blockquote></blockquote></blockquote></div>"
+        },
+        "status": "active",
+        "for": [
+          {
+            "reference": "MedicinalProductDefinition/ISOactavis-10mg-Capsule-SE-IS-MedicinalProductDefinition"
+          },
+          {
+            "reference": "ManufacturedItemDefinition/ISOactavis-10mg-Capsule-SE-IS-ManufacturedItemDefinition"
+          },
+          {
+            "reference": "AdministrableProductDefinition/ISOactavis-10mg-Capsule-SE-IS-AdministrableProductDefinition"
+          }
+        ],
+        "role": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000072050",
+              "code": "100000072072",
+              "display": "Active"
+            }
+          ]
+        },
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                  "code": "100000089811",
+                  "display": "Isotretinoin"
+                }
+              ]
+            }
+          },
+          "strength": [
+            {
+              "concentrationRatio": {
+                "numerator": {
+                  "value": 10,
+                  "unit": "milligram(s)",
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000110633",
+                  "code": "100000110655"
+                },
+                "denominator": {
+                  "value": 1,
+                  "unit": "unit(s)",
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000110633",
+                  "code": "100000110756"
+                }
+              },
+              "referenceStrength": [
+                {
+                  "substance": {
+                    "concept": {
+                      "coding": [
+                        {
+                          "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                          "code": "100000089811",
+                          "display": "Isotretinoin"
+                        }
+                      ]
+                    }
+                  },
+                  "strengthRatio": {
+                    "numerator": {
+                      "value": 10,
+                      "unit": "milligram(s)",
+                      "system": "http://spor.ema.europa.eu/v1/lists/100000110633",
+                      "code": "100000110655"
+                    },
+                    "denominator": {
+                      "value": 1,
+                      "unit": "unit(s)",
+                      "system": "http://spor.ema.europa.eu/v1/lists/100000110633",
+                      "code": "100000110756"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Ingredient/ISOactavis-10mg-Capsule-SE-IS-Ingredient"
+      }
+    }
+  ]
+}

@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="Aspirin500mgtablett"/>
+  <type value="batch"/>
+  <entry>
+    <fullUrl value="{$base}/MedicinalProductDefinition/Aspirin500mgtablett-SE-PLC-MedicinalProductDef"/>
+    <resource>
+      <MedicinalProductDefinition>
+        <id value="Aspirin500mgtablett-SE-PLC-MedicinalProductDef"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name="Aspirin500mgtablett-SE-PLC-MedicinalProductDef"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicinalProductDefinition &quot;Aspirin500mgtablett-SE-PLC-MedicinalProductDef&quot; </p></div><p><b>identifier</b>: id: SE-100004813-00000137, id: 39</p><p><b>domain</b>: Human use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000005003#200000005004)</span></p><p><b>indication</b>: Huvudvärk, menstruationssmärtor, tandvärk, led- och muskelsmärtor, reumatiska smärtor, feber vid infektions- och förkylningssjukdomar.  Till barn med feber som ej svarat på gängse behandling endast efter kontakt med läkare</p><p><b>legalStatusOfSupply</b>: Medicinal product not subject to medical prescription <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072051#100000072076)</span></p><p><b>classification</b>: N02BA01 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000093533#100000097266)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Aspirin 500 mg tablett</p><blockquote><p><b>namePart</b></p><p><b>part</b>: Aspirin</p><p><b>type</b>: Invented name part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 500 mg</p><p><b>type</b>: Strength part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: tablett</p><p><b>type</b>: Pharmaceutical dose form part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Sweden <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000535)</span></td><td>Swedish <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072057#100000072288)</span></td></tr></table></blockquote></div>
+        </text>
+        <extension url="http://ema.europa.eu/fhir/extension/authorisedDoseForm">
+          <valueCoding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000004~200000000006~200000000007~200000000008"/>
+            <code value="100000073664"/>
+            <display value="Tablet"/>
+          </valueCoding>
+        </extension>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/mpId"/>
+          <value value="SE-100004813-00000137"/>
+        </identifier>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/eurdId"/>
+          <value value="39"/>
+        </identifier>
+        <domain>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000000004"/>
+            <code value="100000000012"/>
+            <display value="Human use"/>
+          </coding>
+        </domain>
+        <status>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000005003"/>
+            <code value="200000005004"/>
+            <display value="Current"/>
+          </coding>
+        </status>
+        <indication value="Huvudvärk, menstruationssmärtor, tandvärk, led- och muskelsmärtor, reumatiska smärtor, feber vid infektions- och förkylningssjukdomar.  Till barn med feber som ej svarat på gängse behandling endast efter kontakt med läkare"/>
+        <legalStatusOfSupply>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000072051"/>
+            <code value="100000072076"/>
+            <display value="Medicinal product not subject to medical prescription"/>
+          </coding>
+        </legalStatusOfSupply>
+        <classification>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000093533"/>
+            <code value="100000097266"/>
+            <display value="N02BA01"/>
+          </coding>
+        </classification>
+        <name>
+          <productName value="Aspirin 500 mg tablett"/>
+          <namePart>
+            <part value="Aspirin"/>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000002"/>
+                <display value="Invented name part"/>
+              </coding>
+            </type>
+          </namePart>
+          <namePart>
+            <part value="500 mg"/>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000004"/>
+                <display value="Strength part"/>
+              </coding>
+            </type>
+          </namePart>
+          <namePart>
+            <part value="tablett"/>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000005"/>
+                <display value="Pharmaceutical dose form part"/>
+              </coding>
+            </type>
+          </namePart>
+          <countryLanguage>
+            <country>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000000002"/>
+                <code value="100000000535"/>
+                <display value="Sweden"/>
+              </coding>
+            </country>
+            <language>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000072057"/>
+                <code value="100000072288"/>
+                <display value="Swedish"/>
+              </coding>
+            </language>
+          </countryLanguage>
+        </name>
+      </MedicinalProductDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="MedicinalProductDefinition/Aspirin500mgtablett-SE-PLC-MedicinalProductDef"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/RegulatedAuthorization/Aspirin500mgtablett-SE-PLC-RegAutho"/>
+    <resource>
+      <RegulatedAuthorization>
+        <id value="Aspirin500mgtablett-SE-PLC-RegAutho"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: RegulatedAuthorization</b><a name="Aspirin500mgtablett-SE-PLC-RegAutho"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource RegulatedAuthorization &quot;Aspirin500mgtablett-SE-PLC-RegAutho&quot; </p></div><p><b>identifier</b>: id: 137</p><p><b>subject</b>: <a href="#MedicinalProductDefinition_Aspirin500mgtablett-SE-PLC-MedicinalProductDef">See above (MedicinalProductDefinition/Aspirin500mgtablett-SE-PLC-MedicinalProductDef)</a></p><p><b>type</b>: Marketing Authorisation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000060#220000000061)</span></p><p><b>region</b>: Sweden <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000535)</span></p><p><b>status</b>: Valid <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072049#100000072099)</span></p><p><b>statusDate</b>: 1935-01-31</p><p><b>holder</b>: <span>: Bayer AB</span></p><h3>Cases</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Date[x]</b></td></tr><tr><td>*</td><td>First Authorisation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (authorisationDateType#dateOfFirstAuthorisation)</span></td><td>1935-01-31</td></tr></table></div>
+        </text>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/MarketingAuthorizationNumber"/>
+          <value value="137"/>
+        </identifier>
+        <subject>
+          <reference value="MedicinalProductDefinition/Aspirin500mgtablett-SE-PLC-MedicinalProductDef"/>
+        </subject>
+        <type>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/220000000060"/>
+            <code value="220000000061"/>
+            <display value="Marketing Authorisation"/>
+          </coding>
+        </type>
+        <region>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000000002"/>
+            <code value="100000000535"/>
+            <display value="Sweden"/>
+          </coding>
+        </region>
+        <status>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000072049"/>
+            <code value="100000072099"/>
+            <display value="Valid"/>
+          </coding>
+        </status>
+        <statusDate value="1935-01-31"/>
+        <holder>
+          <identifier>
+            <system value="https://spor.ema.europa.eu/v1/locations"/>
+            <value value="LOC-100043821"/>
+          </identifier>
+          <display value="Bayer AB"/>
+        </holder>
+        <case>
+          <type>
+            <coding>
+              <system value="http://ema.europa.eu/fhir/authorisationDateType"/>
+              <code value="dateOfFirstAuthorisation"/>
+              <display value="First Authorisation"/>
+            </coding>
+          </type>
+          <dateDateTime value="1935-01-31"/>
+        </case>
+      </RegulatedAuthorization>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="RegulatedAuthorization/Aspirin500mgtablett-SE-PLC-RegAutho"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/AdministrableProductDefinition/Aspirin500mgtablett-SE-PLC-AdminProductDef"/>
+    <resource>
+      <AdministrableProductDefinition>
+        <id value="Aspirin500mgtablett-SE-PLC-AdminProductDef"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name="Aspirin500mgtablett-SE-PLC-AdminProductDef"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AdministrableProductDefinition &quot;Aspirin500mgtablett-SE-PLC-AdminProductDef&quot; </p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href="#MedicinalProductDefinition_Aspirin500mgtablett-SE-PLC-MedicinalProductDef">See above (MedicinalProductDefinition/Aspirin500mgtablett-SE-PLC-MedicinalProductDef)</a></p><p><b>administrableDoseForm</b>: Tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000004#100000073664)</span></p><p><b>producedFrom</b>: <a href="#ManufacturedItemDefinition_Aspirin500mgtablett-SE-PLC-ManufacturedItemDef">See above (ManufacturedItemDefinition/Aspirin500mgtablett-SE-PLC-ManufacturedItemDef)</a></p><h3>RouteOfAdministrations</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073345#100000073619)</span></td></tr></table></div>
+        </text>
+        <status value="active"/>
+        <formOf>
+          <reference value="MedicinalProductDefinition/Aspirin500mgtablett-SE-PLC-MedicinalProductDef"/>
+        </formOf>
+        <administrableDoseForm>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000004"/>
+            <code value="100000073664"/>
+            <display value="Tablet"/>
+          </coding>
+        </administrableDoseForm>
+        <producedFrom>
+          <reference value="ManufacturedItemDefinition/Aspirin500mgtablett-SE-PLC-ManufacturedItemDef"/>
+        </producedFrom>
+        <routeOfAdministration>
+          <code>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000073345"/>
+              <code value="100000073619"/>
+              <display value="Oral use"/>
+            </coding>
+          </code>
+        </routeOfAdministration>
+      </AdministrableProductDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="AdministrableProductDefinition/Aspirin500mgtablett-SE-PLC-AdminProductDef"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/PackagedProductDefinition/Aspirin500mgtablett-SE-PLC-PackageProductDef01"/>
+    <resource>
+      <PackagedProductDefinition>
+        <id value="Aspirin500mgtablett-SE-PLC-PackageProductDef01"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b><a name="Aspirin500mgtablett-SE-PLC-PackageProductDef01"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition &quot;Aspirin500mgtablett-SE-PLC-PackageProductDef01&quot; </p></div><p><b>packageFor</b>: <a href="#MedicinalProductDefinition_Aspirin500mgtablett-SE-PLC-MedicinalProductDef">See above (MedicinalProductDefinition/Aspirin500mgtablett-SE-PLC-MedicinalProductDef)</a></p><p><b>description</b>: Blister, 20 tabletter</p><h3>MarketingStatuses</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Sweden <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000535)</span></td><td>Marketed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003529)</span></p><h3>ShelfLifeStorages</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Period[x]</b></td><td><b>SpecialPrecautionsForStorage</b></td></tr><tr><td>*</td><td>Shelf life of the medicinal product as packaged for sale <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073343#100000073403)</span></td><td>5 year<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 200000003434 = '200000003434')</span></td><td>Do not store above 30°C <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073344#100000073411)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Blister <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073496)</span></p><p><b>quantity</b>: 2</p><p><b>material</b>: Aluminium <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003200)</span>, Plastic <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003208)</span></p></blockquote></blockquote></div>
+        </text>
+        <extension url="http://ema.europa.eu/fhir/extension/containedItemQuantity">
+          <valueQuantity>
+            <value value="20"/>
+            <unit value="Tablet"/>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
+            <code value="200000002152"/>
+          </valueQuantity>
+        </extension>
+        <packageFor>
+          <reference value="MedicinalProductDefinition/Aspirin500mgtablett-SE-PLC-MedicinalProductDef"/>
+        </packageFor>
+        <description value="Blister, 20 tabletter">
+          <extension url="http://ema.europa.eu/fhir/extension/language">
+            <valueCoding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000072057"/>
+              <code value="100000072288"/>
+              <display value="Swedish"/>
+            </valueCoding>
+          </extension>
+        </description>
+        <marketingStatus>
+          <country>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000000002"/>
+              <code value="100000000535"/>
+              <display value="Sweden"/>
+            </coding>
+          </country>
+          <status>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000072052"/>
+              <code value="100000072083"/>
+              <display value="Marketed"/>
+            </coding>
+          </status>
+        </marketingStatus>
+        <package>
+          <type>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000073346"/>
+              <code value="100000073498"/>
+              <display value="Box"/>
+            </coding>
+          </type>
+          <quantity value="1"/>
+          <material>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/200000003199"/>
+              <code value="200000003529"/>
+              <display value="Cardboard"/>
+            </coding>
+          </material>
+          <shelfLifeStorage>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000073343"/>
+                <code value="100000073403"/>
+                <display value="Shelf life of the medicinal product as packaged for sale"/>
+              </coding>
+            </type>
+            <periodDuration>
+              <value value="5"/>
+              <unit value="year"/>
+              <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+              <code value="200000003434"/>
+            </periodDuration>
+            <specialPrecautionsForStorage>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000073344"/>
+                <code value="100000073411"/>
+                <display value="Do not store above 30°C"/>
+              </coding>
+            </specialPrecautionsForStorage>
+          </shelfLifeStorage>
+          <package>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000073346"/>
+                <code value="100000073496"/>
+                <display value="Blister"/>
+              </coding>
+            </type>
+            <quantity value="2"/>
+            <material>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/200000003199"/>
+                <code value="200000003200"/>
+                <display value="Aluminium"/>
+              </coding>
+            </material>
+            <material>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/200000003199"/>
+                <code value="200000003208"/>
+                <display value="Plastic"/>
+              </coding>
+            </material>
+            <containedItem>
+              <item>
+                <reference>
+                  <reference value="ManufacturedItemDefinition/Aspirin500mgtablett-SE-PLC-ManufacturedItemDef"/>
+                </reference>
+              </item>
+              <amount>
+                <value value="10"/>
+                <unit value="Tablet"/>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000110633~200000000014"/>
+                <code value="200000002152"/>
+              </amount>
+            </containedItem>
+          </package>
+        </package>
+      </PackagedProductDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="PackagedProductDefinition/Aspirin500mgtablett-SE-PLC-PackageProductDef01"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/PackagedProductDefinition/Aspirin500mgtablett-SE-PLC-PackageProductDef02"/>
+    <resource>
+      <PackagedProductDefinition>
+        <id value="Aspirin500mgtablett-SE-PLC-PackageProductDef02"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b><a name="Aspirin500mgtablett-SE-PLC-PackageProductDef02"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition &quot;Aspirin500mgtablett-SE-PLC-PackageProductDef02&quot; </p></div><p><b>packageFor</b>: <a href="#MedicinalProductDefinition_Aspirin500mgtablett-SE-PLC-MedicinalProductDef">See above (MedicinalProductDefinition/Aspirin500mgtablett-SE-PLC-MedicinalProductDef)</a></p><p><b>description</b>: Blister, 50 tabletter</p><h3>MarketingStatuses</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Sweden <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000535)</span></td><td>Marketed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003529)</span></p><h3>ShelfLifeStorages</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Period[x]</b></td><td><b>SpecialPrecautionsForStorage</b></td></tr><tr><td>*</td><td>Shelf life of the medicinal product as packaged for sale <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073343#100000073403)</span></td><td>5 year<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 200000003434 = '200000003434')</span></td><td>Do not store above 30°C <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073344#100000073411)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Blister <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073496)</span></p><p><b>quantity</b>: 5</p><p><b>material</b>: Aluminium <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003200)</span>, Plastic <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003208)</span></p></blockquote></blockquote></div>
+        </text>
+        <extension url="http://ema.europa.eu/fhir/extension/containedItemQuantity">
+          <valueQuantity>
+            <value value="50"/>
+            <unit value="Tablet"/>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
+            <code value="200000002152"/>
+          </valueQuantity>
+        </extension>
+        <packageFor>
+          <reference value="MedicinalProductDefinition/Aspirin500mgtablett-SE-PLC-MedicinalProductDef"/>
+        </packageFor>
+        <description value="Blister, 50 tabletter">
+          <extension url="http://ema.europa.eu/fhir/extension/language">
+            <valueCoding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000072057"/>
+              <code value="100000072288"/>
+              <display value="Swedish"/>
+            </valueCoding>
+          </extension>
+        </description>
+        <marketingStatus>
+          <country>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000000002"/>
+              <code value="100000000535"/>
+              <display value="Sweden"/>
+            </coding>
+          </country>
+          <status>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000072052"/>
+              <code value="100000072083"/>
+              <display value="Marketed"/>
+            </coding>
+          </status>
+        </marketingStatus>
+        <package>
+          <type>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000073346"/>
+              <code value="100000073498"/>
+              <display value="Box"/>
+            </coding>
+          </type>
+          <quantity value="1"/>
+          <material>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/200000003199"/>
+              <code value="200000003529"/>
+              <display value="Cardboard"/>
+            </coding>
+          </material>
+          <shelfLifeStorage>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000073343"/>
+                <code value="100000073403"/>
+                <display value="Shelf life of the medicinal product as packaged for sale"/>
+              </coding>
+            </type>
+            <periodDuration>
+              <value value="5"/>
+              <unit value="year"/>
+              <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+              <code value="200000003434"/>
+            </periodDuration>
+            <specialPrecautionsForStorage>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000073344"/>
+                <code value="100000073411"/>
+                <display value="Do not store above 30°C"/>
+              </coding>
+            </specialPrecautionsForStorage>
+          </shelfLifeStorage>
+          <package>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000073346"/>
+                <code value="100000073496"/>
+                <display value="Blister"/>
+              </coding>
+            </type>
+            <quantity value="5"/>
+            <material>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/200000003199"/>
+                <code value="200000003200"/>
+                <display value="Aluminium"/>
+              </coding>
+            </material>
+            <material>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/200000003199"/>
+                <code value="200000003208"/>
+                <display value="Plastic"/>
+              </coding>
+            </material>
+            <containedItem>
+              <item>
+                <reference>
+                  <reference value="ManufacturedItemDefinition/Aspirin500mgtablett-SE-PLC-ManufacturedItemDef"/>
+                </reference>
+              </item>
+              <amount>
+                <value value="10"/>
+                <unit value="Tablet"/>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000110633~200000000014"/>
+                <code value="200000002152"/>
+              </amount>
+            </containedItem>
+          </package>
+        </package>
+      </PackagedProductDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="PackagedProductDefinition/Aspirin500mgtablett-SE-PLC-PackageProductDef02"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/ManufacturedItemDefinition/Aspirin500mgtablett-SE-PLC-ManufacturedItemDef"/>
+    <resource>
+      <ManufacturedItemDefinition>
+        <id value="Aspirin500mgtablett-SE-PLC-ManufacturedItemDef"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name="Aspirin500mgtablett-SE-PLC-ManufacturedItemDef"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource ManufacturedItemDefinition &quot;Aspirin500mgtablett-SE-PLC-ManufacturedItemDef&quot; </p></div><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000004#200000002152)</span></p><p><b>unitOfPresentation</b>: Tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000014#200000002152)</span></p></div>
+        </text>
+        <status value="active"/>
+        <manufacturedDoseForm>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000004"/>
+            <code value="200000002152"/>
+            <display value="Tablet"/>
+          </coding>
+        </manufacturedDoseForm>
+        <unitOfPresentation>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
+            <code value="200000002152"/>
+            <display value="Tablet"/>
+          </coding>
+        </unitOfPresentation>
+      </ManufacturedItemDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="ManufacturedItemDefinition/Aspirin500mgtablett-SE-PLC-ManufacturedItemDef"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/Ingredient/Aspirin500mgtablett-SE-PLC-Ingredient"/>
+    <resource>
+      <Ingredient>
+        <id value="Aspirin500mgtablett-SE-PLC-Ingredient"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b><a name="Aspirin500mgtablett-SE-PLC-Ingredient"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;Aspirin500mgtablett-SE-PLC-Ingredient&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href="#MedicinalProductDefinition_Aspirin500mgtablett-SE-PLC-MedicinalProductDef">See above (MedicinalProductDefinition/Aspirin500mgtablett-SE-PLC-MedicinalProductDef)</a></li><li><a href="#ManufacturedItemDefinition_Aspirin500mgtablett-SE-PLC-ManufacturedItemDef">See above (ManufacturedItemDefinition/Aspirin500mgtablett-SE-PLC-ManufacturedItemDef)</a></li><li><a href="#AdministrableProductDefinition_Aspirin500mgtablett-SE-PLC-AdminProductDef">See above (AdministrableProductDefinition/Aspirin500mgtablett-SE-PLC-AdminProductDef)</a></li></ul><p><b>role</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Acetylsalicylic acid <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SubstanceDefinition#100000092077)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>presentation</b>: 500 milligram(s)<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 Tablet<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = '200000002152')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Acetylicsalicylic acid <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SubstanceDefinition#100000092077)</span></td></tr></table><p><b>strength</b>: 500 milligram(s)<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 Tablet<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = '200000002152')</span></p></blockquote></blockquote></blockquote></div>
+        </text>
+        <status value="active"/>
+        <for>
+          <reference value="MedicinalProductDefinition/Aspirin500mgtablett-SE-PLC-MedicinalProductDef"/>
+        </for>
+        <for>
+          <reference value="ManufacturedItemDefinition/Aspirin500mgtablett-SE-PLC-ManufacturedItemDef"/>
+        </for>
+        <for>
+          <reference value="AdministrableProductDefinition/Aspirin500mgtablett-SE-PLC-AdminProductDef"/>
+        </for>
+        <role>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000072050"/>
+            <code value="100000072072"/>
+            <display value="Active"/>
+          </coding>
+        </role>
+        <substance>
+          <code>
+            <concept>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v2/SubstanceDefinition"/>
+                <code value="100000092077"/>
+                <display value="Acetylsalicylic acid"/>
+              </coding>
+            </concept>
+          </code>
+          <strength>
+            <presentationRatio>
+              <numerator>
+                <value value="500"/>
+                <unit value="milligram(s)"/>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+                <code value="100000110655"/>
+              </numerator>
+              <denominator>
+                <value value="1"/>
+                <unit value="Tablet"/>
+                <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+                <code value="200000002152"/>
+              </denominator>
+            </presentationRatio>
+            <referenceStrength>
+              <substance>
+                <concept>
+                  <coding>
+                    <system value="https://spor.ema.europa.eu/v2/SubstanceDefinition"/>
+                    <code value="100000092077"/>
+                    <display value="Acetylicsalicylic acid"/>
+                  </coding>
+                </concept>
+              </substance>
+              <strengthRatio>
+                <numerator>
+                  <value value="500"/>
+                  <unit value="milligram(s)"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+                  <code value="100000110655"/>
+                </numerator>
+                <denominator>
+                  <value value="1"/>
+                  <unit value="Tablet"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+                  <code value="200000002152"/>
+                </denominator>
+              </strengthRatio>
+            </referenceStrength>
+          </strength>
+        </substance>
+      </Ingredient>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Ingredient/Aspirin500mgtablett-SE-PLC-Ingredient"/>
+    </request>
+  </entry>
+</Bundle>

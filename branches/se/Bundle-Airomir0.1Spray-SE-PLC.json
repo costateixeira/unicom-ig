@@ -1,0 +1,465 @@
+{
+  "resourceType": "Bundle",
+  "id": "Airomir0.1Spray-SE-PLC",
+  "type": "batch",
+  "entry": [
+    {
+      "fullUrl": "{$base}/MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition",
+      "resource": {
+        "resourceType": "MedicinalProductDefinition",
+        "id": "Airomir0.1Spray-SE-PLC-MedicinalProductDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"Airomir0.1Spray-SE-PLC-MedicinalProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;Airomir0.1Spray-SE-PLC-MedicinalProductDefinition&quot; </p></div><p><b>identifier</b>: id: SE-100001594-00012324, id: 10330</p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000005003#200000005004)</span></p><p><b>indication</b>: Airomir 0,1 mg/dos inhalationsspray, suspension är indicerat för symtomlindring av bronkkonstriktion vid astma och kroniskt obstruktiv lungsjukdom (KOL).Airomir är indicerat för vuxna, ungdomar och barn. För barn under 4 år ska dosering och farmakodynamik ses över.</p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072051#100000072084)</span></p><p><b>classification</b>: R03AC02 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000093533#100000098065)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Airomir 0,1 mg/dos inhalationsspray, suspension</p><blockquote><p><b>namePart</b></p><p><b>part</b>: Airomir</p><p><b>type</b>: Invented name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 0,1 mg/dos</p><p><b>type</b>: Strength part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: inhalationsspray, suspension</p><p><b>type</b>: Pharmaceutical dose form part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Swedish <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072057#100000072288)</span></td></tr></table></blockquote></div>"
+        },
+        "extension": [
+          {
+            "url": "http://ema.europa.eu/fhir/extension/authorisedDoseForm",
+            "valueCoding": {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000004~200000000006~200000000007~200000000008",
+              "code": "100000073838",
+              "display": "Pressurised inhalation, suspension"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/fhir/mpId",
+            "value": "SE-100001594-00012324"
+          },
+          {
+            "system": "http://ema.europa.eu/fhir/eurdId",
+            "value": "10330"
+          }
+        ],
+        "domain": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000000004",
+              "code": "100000000012",
+              "display": "Human use"
+            }
+          ]
+        },
+        "status": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000005003",
+              "code": "200000005004",
+              "display": "Current"
+            }
+          ]
+        },
+        "indication": "Airomir 0,1 mg/dos inhalationsspray, suspension är indicerat för symtomlindring av bronkkonstriktion vid astma och kroniskt obstruktiv lungsjukdom (KOL).Airomir är indicerat för vuxna, ungdomar och barn. För barn under 4 år ska dosering och farmakodynamik ses över.",
+        "legalStatusOfSupply": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000072051",
+              "code": "100000072084",
+              "display": "Medicinal product subject to medical prescription"
+            }
+          ]
+        },
+        "classification": [
+          {
+            "coding": [
+              {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000093533",
+                "code": "100000098065",
+                "display": "R03AC02"
+              }
+            ]
+          }
+        ],
+        "name": [
+          {
+            "productName": "Airomir 0,1 mg/dos inhalationsspray, suspension",
+            "namePart": [
+              {
+                "part": "Airomir",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/220000000000",
+                      "code": "220000000002",
+                      "display": "Invented name part"
+                    }
+                  ]
+                }
+              },
+              {
+                "part": "0,1 mg/dos",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/220000000000",
+                      "code": "220000000004",
+                      "display": "Strength part"
+                    }
+                  ]
+                }
+              },
+              {
+                "part": "inhalationsspray, suspension",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/220000000000",
+                      "code": "220000000005",
+                      "display": "Pharmaceutical dose form part"
+                    }
+                  ]
+                }
+              }
+            ],
+            "countryLanguage": [
+              {
+                "country": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                      "code": "100000000535",
+                      "display": "Sweden"
+                    }
+                  ]
+                },
+                "language": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/100000072057",
+                      "code": "100000072288",
+                      "display": "Swedish"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition"
+      }
+    },
+    {
+      "fullUrl": "{$base}/RegulatedAuthorization/Airomir0.1Spray-SE-PLC-RegulatedAuthorization",
+      "resource": {
+        "resourceType": "RegulatedAuthorization",
+        "id": "Airomir0.1Spray-SE-PLC-RegulatedAuthorization",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"Airomir0.1Spray-SE-PLC-RegulatedAuthorization\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;Airomir0.1Spray-SE-PLC-RegulatedAuthorization&quot; </p></div><p><b>identifier</b>: id: 12324</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_Airomir0.1Spray-SE-PLC-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000060#220000000061)</span></p><p><b>region</b>: Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></p><p><b>status</b>: Valid <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072049#100000072099)</span></p><p><b>statusDate</b>: 1996-04-03</p><p><b>holder</b>: <span>: Teva Sweden AB</span></p><h3>Cases</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Date[x]</b></td></tr><tr><td>*</td><td>First Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (authorisationDateType#dateOfFirstAuthorisation)</span></td><td>1996-04-03</td></tr></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/fhir/MarketingAuthorizationNumber",
+            "value": "12324"
+          }
+        ],
+        "subject": [
+          {
+            "reference": "MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition"
+          }
+        ],
+        "type": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/220000000060",
+              "code": "220000000061",
+              "display": "Marketing Authorisation"
+            }
+          ]
+        },
+        "region": [
+          {
+            "coding": [
+              {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                "code": "100000000535",
+                "display": "Sweden"
+              }
+            ]
+          }
+        ],
+        "status": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000072049",
+              "code": "100000072099",
+              "display": "Valid"
+            }
+          ]
+        },
+        "statusDate": "1996-04-03",
+        "holder": {
+          "identifier": {
+            "system": "https://spor.ema.europa.eu/v1/locations",
+            "value": "LOC-100001602"
+          },
+          "display": "Teva Sweden AB"
+        },
+        "case": {
+          "type": {
+            "coding": [
+              {
+                "system": "http://ema.europa.eu/fhir/authorisationDateType",
+                "code": "dateOfFirstAuthorisation",
+                "display": "First Authorisation"
+              }
+            ]
+          },
+          "dateDateTime": "1996-04-03"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "RegulatedAuthorization/Airomir0.1Spray-SE-PLC-RegulatedAuthorization"
+      }
+    },
+    {
+      "fullUrl": "{$base}/AdministrableProductDefinition/Airomir0.1Spray-SE-PLC-AdministrableProductDefinition",
+      "resource": {
+        "resourceType": "AdministrableProductDefinition",
+        "id": "Airomir0.1Spray-SE-PLC-AdministrableProductDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"Airomir0.1Spray-SE-PLC-AdministrableProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;Airomir0.1Spray-SE-PLC-AdministrableProductDefinition&quot; </p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"#MedicinalProductDefinition_Airomir0.1Spray-SE-PLC-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition)</a></p><p><b>administrableDoseForm</b>: Pressurised inhalation, suspension <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000073838)</span></p><p><b>producedFrom</b>: <a href=\"#ManufacturedItemDefinition_Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition)</a></p><h3>RouteOfAdministrations</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Inhalation use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073345#100000073584)</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "formOf": [
+          {
+            "reference": "MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition"
+          }
+        ],
+        "administrableDoseForm": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000004",
+              "code": "100000073838",
+              "display": "Pressurised inhalation, suspension"
+            }
+          ]
+        },
+        "producedFrom": [
+          {
+            "reference": "ManufacturedItemDefinition/Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition"
+          }
+        ],
+        "routeOfAdministration": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000073345",
+                  "code": "100000073584",
+                  "display": "Inhalation use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "AdministrableProductDefinition/Airomir0.1Spray-SE-PLC-AdministrableProductDefinition"
+      }
+    },
+    {
+      "fullUrl": "{$base}/PackagedProductDefinition/Airomir0.1Spray-SE-PLC-PackagedProductDefinition",
+      "resource": {
+        "resourceType": "PackagedProductDefinition",
+        "id": "Airomir0.1Spray-SE-PLC-PackagedProductDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"Airomir0.1Spray-SE-PLC-PackagedProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;Airomir0.1Spray-SE-PLC-PackagedProductDefinition&quot; </p></div><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_Airomir0.1Spray-SE-PLC-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition)</a></p><p><b>description</b>: Spraybehållare, 200 doser</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://ema.europa.eu/fhir/extension/containedItemQuantity",
+            "valueQuantity": {
+              "value": 1,
+              "unit": "Canister",
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+              "code": "200000022801"
+            }
+          }
+        ],
+        "packageFor": [
+          {
+            "reference": "MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition"
+          }
+        ],
+        "description": "Spraybehållare, 200 doser",
+        "_description": {
+          "extension": [
+            {
+              "url": "http://ema.europa.eu/fhir/extension/language",
+              "valueCoding": {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000072057",
+                "code": "100000072288",
+                "display": "Swedish"
+              }
+            }
+          ]
+        },
+        "marketingStatus": [
+          {
+            "country": {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                  "code": "100000000535",
+                  "display": "Sweden"
+                }
+              ]
+            },
+            "status": {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000072052",
+                  "code": "100000072083",
+                  "display": "Marketed"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "PackagedProductDefinition/Airomir0.1Spray-SE-PLC-PackagedProductDefinition"
+      }
+    },
+    {
+      "fullUrl": "{$base}/ManufacturedItemDefinition/Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition",
+      "resource": {
+        "resourceType": "ManufacturedItemDefinition",
+        "id": "Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition&quot; </p></div><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Pressurised inhalation, suspension <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000073838)</span></p><p><b>unitOfPresentation</b>: Canister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000014#200000022801)</span></p></div>"
+        },
+        "status": "active",
+        "manufacturedDoseForm": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000004",
+              "code": "100000073838",
+              "display": "Pressurised inhalation, suspension"
+            }
+          ]
+        },
+        "unitOfPresentation": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+              "code": "200000022801",
+              "display": "Canister"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ManufacturedItemDefinition/Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition"
+      }
+    },
+    {
+      "fullUrl": "{$base}/Ingredient/Airomir0.1Spray-SE-PLC-Ingredient",
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "Airomir0.1Spray-SE-PLC-Ingredient",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"Airomir0.1Spray-SE-PLC-Ingredient\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;Airomir0.1Spray-SE-PLC-Ingredient&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_Airomir0.1Spray-SE-PLC-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition)</a></li><li><a href=\"#ManufacturedItemDefinition_Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition)</a></li><li><a href=\"#AdministrableProductDefinition_Airomir0.1Spray-SE-PLC-AdministrableProductDefinition\">See above (AdministrableProductDefinition/Airomir0.1Spray-SE-PLC-AdministrableProductDefinition)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Salbutamol sulfate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000090564)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>presentation</b>: 0.12 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 Actuation<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002163 = '200000002163')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>salbutamol <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000091629)</span></td></tr></table><p><b>strength</b>: 0.1 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 Actuation<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002163 = '200000002163')</span></p></blockquote></blockquote></blockquote></div>"
+        },
+        "status": "active",
+        "for": [
+          {
+            "reference": "MedicinalProductDefinition/Airomir0.1Spray-SE-PLC-MedicinalProductDefinition"
+          },
+          {
+            "reference": "ManufacturedItemDefinition/Airomir0.1Spray-SE-PLC-ManufacturedItemDefinition"
+          },
+          {
+            "reference": "AdministrableProductDefinition/Airomir0.1Spray-SE-PLC-AdministrableProductDefinition"
+          }
+        ],
+        "role": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000072050",
+              "code": "100000072072",
+              "display": "Active"
+            }
+          ]
+        },
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                  "code": "100000090564",
+                  "display": "Salbutamol sulfate"
+                }
+              ]
+            }
+          },
+          "strength": [
+            {
+              "presentationRatio": {
+                "numerator": {
+                  "value": 0.12,
+                  "unit": "milligram(s)",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                  "code": "100000110655"
+                },
+                "denominator": {
+                  "value": 1,
+                  "unit": "Actuation",
+                  "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+                  "code": "200000002163"
+                }
+              },
+              "referenceStrength": [
+                {
+                  "substance": {
+                    "concept": {
+                      "coding": [
+                        {
+                          "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                          "code": "100000091629",
+                          "display": "salbutamol"
+                        }
+                      ]
+                    }
+                  },
+                  "strengthRatio": {
+                    "numerator": {
+                      "value": 0.1,
+                      "unit": "milligram(s)",
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                      "code": "100000110655"
+                    },
+                    "denominator": {
+                      "value": 1,
+                      "unit": "Actuation",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+                      "code": "200000002163"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Ingredient/Airomir0.1Spray-SE-PLC-Ingredient"
+      }
+    }
+  ]
+}

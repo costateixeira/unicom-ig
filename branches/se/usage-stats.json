@@ -1,0 +1,30 @@
+{
+  "package": "hl7.eu.fhir.unicom",
+  "version": "0.1.0",
+  "fhirVersion": "4.3.0",
+  "extensions": [],
+  "profiles": {},
+  "usage": {
+    "http://ema.europa.eu/fhir/extension/authorisedDoseForm": [
+      "Bundle.entry.resource"
+    ],
+    "http://ema.europa.eu/fhir/extension/containedItemQuantity": [
+      "Bundle.entry.resource"
+    ],
+    "http://ema.europa.eu/fhir/extension/language": [
+      "Bundle.entry.resource.description"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ]
+  }
+}

@@ -1,0 +1,576 @@
+{
+  "resourceType": "Bundle",
+  "id": "Concerta-36mg-PRTablet-SE-AJ",
+  "type": "batch",
+  "entry": [
+    {
+      "fullUrl": "{$base}/MedicinalProductDefinition/Concerta-36mg-PRTablet-SE-AJ-MedicinalProductDefinition",
+      "resource": {
+        "resourceType": "MedicinalProductDefinition",
+        "id": "Concerta-36mg-PRTablet-SE-AJ-MedicinalProductDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"Concerta-36mg-PRTablet-SE-AJ-MedicinalProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;Concerta-36mg-PRTablet-SE-AJ-MedicinalProductDefinition&quot; </p></div><p><b>identifier</b>: id: SE-100003163-00018542, id: 2024</p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000005003#200000005004)</span></p><p><b>indication</b>: ADHD (Attention Deficit Hyperactivity Disorder) Concerta är avsett som en del i det totala behandlingsprogrammet för ADHD (Attention Deficit Hyperactivity Disorder) hos barn från 6 år, när endast stödjande åtgärder visat sig vara otillräckliga.  Behandlingen ska ske under överinseende av specialist på beteendestörningar hos barn. Diagnos ska ställas enligt de aktuella DSM-kriterierna eller ICD-riktlinjerna och ska grundas på  en fullständig anamnes och utvärdering av patienten. Diagnos kan inte ställas enbart på närvaro av ett eller flera symtom. Den specifika etiologin för detta syndrom är okänd, och det finns inget enstaka diagnostiskt test.  Adekvat diagnos kräver användning av såväl medicinska som specialiserade psykologiska, pedagogiska och sociala resurser. Ett omfattande behandlingsprogram karaktäriseras av psykologiska, pedagogiska och sociala åtgärder såväl som farmakoterapi och har som målsättning att stabilisera barn  med ett beteendesyndrom karaktäriserat av symtom som kan inkludera kronisk anamnes av kort uppmärksamhetsperiod, distraherbarhet, emotionell labilitet, impulsivitet,  måttlig till svår hyperaktivitet, obetydliga neurologiska tecken och onormalt EEG. Syndromet kan förekomma både med och utan inlärningssvårigheter. Behandling med Concerta är inte indicerat för alla barn med ADHD och beslutet att använda läkemedlet måste grundas på en mycket noggrann bedömning av svårighetsgrad och kronicitet av barnets symtom  i förhållande till barnets ålder. Välvald utbildningsplacering är väsentlig, och psykosocialt ingripande är i allmänhet nödvändigt. Där enbart stödjande åtgärder visat sig vara otillräckliga måste beslutet att använda stimulantia  grundas på en mycket noggrann bedömning av svårighetsgraden hos barnets symtom. Användning av metylfenidat ska alltid ske på detta sätt enligt godkänd indikation och enligt  förskrivnings-/diagnostiska riktlinjer.</p><p><b>legalStatusOfSupply</b>: Medicinal product subject to special medical prescription <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072051#100000072085)</span></p><p><b>classification</b>: N06BA04 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000093533#100000097721)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Concerta 36 mg Depottablett</p><blockquote><p><b>namePart</b></p><p><b>part</b>: Concerta</p><p><b>type</b>: Invented Name Part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 36 mg</p><p><b>type</b>: Strength part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: Depottablett</p><p><b>type</b>: Pharmaceutical dose form part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Swedish <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072057#100000072288)</span></td></tr></table></blockquote></div>"
+        },
+        "extension": [
+          {
+            "url": "http://ema.europa.eu/fhir/extension/authorisedDoseForm",
+            "valueCoding": {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000004",
+              "code": "100000073683",
+              "display": "Prolonged-release tablet"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/fhir/mpId",
+            "value": "SE-100003163-00018542"
+          },
+          {
+            "system": "http://ema.europa.eu/fhir/eurdId",
+            "value": "2024"
+          }
+        ],
+        "domain": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000000004",
+              "code": "100000000012",
+              "display": "Human use"
+            }
+          ]
+        },
+        "status": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000005003",
+              "code": "200000005004",
+              "display": "Current"
+            }
+          ]
+        },
+        "indication": "ADHD (Attention Deficit Hyperactivity Disorder) Concerta är avsett som en del i det totala behandlingsprogrammet för ADHD (Attention Deficit Hyperactivity Disorder) hos barn från 6 år, när endast stödjande åtgärder visat sig vara otillräckliga.  Behandlingen ska ske under överinseende av specialist på beteendestörningar hos barn. Diagnos ska ställas enligt de aktuella DSM-kriterierna eller ICD-riktlinjerna och ska grundas på  en fullständig anamnes och utvärdering av patienten. Diagnos kan inte ställas enbart på närvaro av ett eller flera symtom. Den specifika etiologin för detta syndrom är okänd, och det finns inget enstaka diagnostiskt test.  Adekvat diagnos kräver användning av såväl medicinska som specialiserade psykologiska, pedagogiska och sociala resurser. Ett omfattande behandlingsprogram karaktäriseras av psykologiska, pedagogiska och sociala åtgärder såväl som farmakoterapi och har som målsättning att stabilisera barn  med ett beteendesyndrom karaktäriserat av symtom som kan inkludera kronisk anamnes av kort uppmärksamhetsperiod, distraherbarhet, emotionell labilitet, impulsivitet,  måttlig till svår hyperaktivitet, obetydliga neurologiska tecken och onormalt EEG. Syndromet kan förekomma både med och utan inlärningssvårigheter. Behandling med Concerta är inte indicerat för alla barn med ADHD och beslutet att använda läkemedlet måste grundas på en mycket noggrann bedömning av svårighetsgrad och kronicitet av barnets symtom  i förhållande till barnets ålder. Välvald utbildningsplacering är väsentlig, och psykosocialt ingripande är i allmänhet nödvändigt. Där enbart stödjande åtgärder visat sig vara otillräckliga måste beslutet att använda stimulantia  grundas på en mycket noggrann bedömning av svårighetsgraden hos barnets symtom. Användning av metylfenidat ska alltid ske på detta sätt enligt godkänd indikation och enligt  förskrivnings-/diagnostiska riktlinjer.",
+        "legalStatusOfSupply": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000072051",
+              "code": "100000072085",
+              "display": "Medicinal product subject to special medical prescription"
+            }
+          ]
+        },
+        "classification": [
+          {
+            "coding": [
+              {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000093533",
+                "code": "100000097721",
+                "display": "N06BA04"
+              }
+            ]
+          }
+        ],
+        "name": [
+          {
+            "productName": "Concerta 36 mg Depottablett",
+            "namePart": [
+              {
+                "part": "Concerta",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/220000000000",
+                      "code": "220000000002",
+                      "display": "Invented Name Part"
+                    }
+                  ]
+                }
+              },
+              {
+                "part": "36 mg",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/220000000000",
+                      "code": "220000000004",
+                      "display": "Strength part"
+                    }
+                  ]
+                }
+              },
+              {
+                "part": "Depottablett",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/220000000000",
+                      "code": "220000000005",
+                      "display": "Pharmaceutical dose form part"
+                    }
+                  ]
+                }
+              }
+            ],
+            "countryLanguage": [
+              {
+                "country": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                      "code": "100000000535",
+                      "display": "Sweden"
+                    }
+                  ]
+                },
+                "language": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/100000072057",
+                      "code": "100000072288",
+                      "display": "Swedish"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "MedicinalProductDefinition/Concerta-36mg-PRTablet-SE-AJ-MedicinalProductDefinition"
+      }
+    },
+    {
+      "fullUrl": "{$base}/RegulatedAuthorization/Concerta-36mg-PRTablet-SE-AJ-RegulatedAuthorization",
+      "resource": {
+        "resourceType": "RegulatedAuthorization",
+        "id": "Concerta-36mg-PRTablet-SE-AJ-RegulatedAuthorization",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"Concerta-36mg-PRTablet-SE-AJ-RegulatedAuthorization\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;Concerta-36mg-PRTablet-SE-AJ-RegulatedAuthorization&quot; </p></div><p><b>identifier</b>: id: 18542</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_Concerta-36mg-PRTablet-SE-AJ-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Concerta-36mg-PRTablet-SE-AJ-MedicinalProductDefinition)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000060#220000000061)</span></p><p><b>region</b>: Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></p><p><b>status</b>: Valid <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072049#100000072099)</span></p><p><b>statusDate</b>: 2002-11-01</p><p><b>holder</b>: <span>: Janssen-Cilag AB</span></p><h3>Cases</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Date[x]</b></td></tr><tr><td>*</td><td>First Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (authorisationDateType#dateOfFirstAuthorisation)</span></td><td>2002-11-01</td></tr></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/fhir/MarketingAuthorizationNumber",
+            "value": "18542"
+          }
+        ],
+        "subject": [
+          {
+            "reference": "MedicinalProductDefinition/Concerta-36mg-PRTablet-SE-AJ-MedicinalProductDefinition"
+          }
+        ],
+        "type": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/220000000060",
+              "code": "220000000061",
+              "display": "Marketing Authorisation"
+            }
+          ]
+        },
+        "region": [
+          {
+            "coding": [
+              {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                "code": "100000000535",
+                "display": "Sweden"
+              }
+            ]
+          }
+        ],
+        "status": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000072049",
+              "code": "100000072099",
+              "display": "Valid"
+            }
+          ]
+        },
+        "statusDate": "2002-11-01",
+        "holder": {
+          "identifier": {
+            "system": "https://spor.ema.europa.eu/v1/locations",
+            "value": "LOC-100061163"
+          },
+          "display": "Janssen-Cilag AB"
+        },
+        "case": {
+          "type": {
+            "coding": [
+              {
+                "system": "http://ema.europa.eu/fhir/authorisationDateType",
+                "code": "dateOfFirstAuthorisation",
+                "display": "First Authorisation"
+              }
+            ]
+          },
+          "dateDateTime": "2002-11-01"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "RegulatedAuthorization/Concerta-36mg-PRTablet-SE-AJ-RegulatedAuthorization"
+      }
+    },
+    {
+      "fullUrl": "{$base}/AdministrableProductDefinition/Concerta-36mg-PRTablet-SE-AJ-AdministrableProductDefinition",
+      "resource": {
+        "resourceType": "AdministrableProductDefinition",
+        "id": "Concerta-36mg-PRTablet-SE-AJ-AdministrableProductDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"Concerta-36mg-PRTablet-SE-AJ-AdministrableProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;Concerta-36mg-PRTablet-SE-AJ-AdministrableProductDefinition&quot; </p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"#MedicinalProductDefinition_Concerta-36mg-PRTablet-SE-AJ-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Concerta-36mg-PRTablet-SE-AJ-MedicinalProductDefinition)</a></p><p><b>administrableDoseForm</b>: Prolonged-release tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000073683)</span></p><p><b>producedFrom</b>: <a href=\"#ManufacturedItemDefinition_Concerta-36mg-PRTablet-SE-AJ-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/Concerta-36mg-PRTablet-SE-AJ-ManufacturedItemDefinition)</a></p><h3>RouteOfAdministrations</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073345#100000073619)</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "formOf": [
+          {
+            "reference": "MedicinalProductDefinition/Concerta-36mg-PRTablet-SE-AJ-MedicinalProductDefinition"
+          }
+        ],
+        "administrableDoseForm": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000004",
+              "code": "100000073683",
+              "display": "Prolonged-release tablet"
+            }
+          ]
+        },
+        "producedFrom": [
+          {
+            "reference": "ManufacturedItemDefinition/Concerta-36mg-PRTablet-SE-AJ-ManufacturedItemDefinition"
+          }
+        ],
+        "routeOfAdministration": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000073345",
+                  "code": "100000073619",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "AdministrableProductDefinition/Concerta-36mg-PRTablet-SE-AJ-AdministrableProductDefinition"
+      }
+    },
+    {
+      "fullUrl": "{$base}/PackagedProductDefinition/Concerta-36mg-PRTablet-SE-AJ-PackagedProductDefinition",
+      "resource": {
+        "resourceType": "PackagedProductDefinition",
+        "id": "Concerta-36mg-PRTablet-SE-AJ-PackagedProductDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"Concerta-36mg-PRTablet-SE-AJ-PackagedProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;Concerta-36mg-PRTablet-SE-AJ-PackagedProductDefinition&quot; </p></div><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_Concerta-36mg-PRTablet-SE-AJ-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Concerta-36mg-PRTablet-SE-AJ-MedicinalProductDefinition)</a></p><p><b>description</b>: Burk, 30 tabletter</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003529)</span></p><h3>ShelfLifeStorages</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Period[x]</b></td><td><b>SpecialPrecautionsForStorage</b></td></tr><tr><td>*</td><td>Shelf life of the medicinal product as packaged for sale <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073343#100000073403)</span></td><td>3 Year<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 200000003434 = '200000003434')</span></td><td>Do not store above 30 °C <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073344#100000073411)</span>, Keep the container tightly closed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073344#100000073422)</span>, in order to protect from moisture <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073344#100000073427)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Bottle <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073497)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: High Density PolyEthylene <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003215)</span></p></blockquote></blockquote></div>"
+        },
+        "extension": [
+          {
+            "url": "http://ema.europa.eu/fhir/extension/containedItemQuantity",
+            "valueQuantity": {
+              "value": 30,
+              "unit": "Tablet",
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+              "code": "200000002152"
+            }
+          }
+        ],
+        "packageFor": [
+          {
+            "reference": "MedicinalProductDefinition/Concerta-36mg-PRTablet-SE-AJ-MedicinalProductDefinition"
+          }
+        ],
+        "description": "Burk, 30 tabletter",
+        "_description": {
+          "extension": [
+            {
+              "url": "http://ema.europa.eu/fhir/extension/language",
+              "valueCoding": {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000072057",
+                "code": "100000072288",
+                "display": "Swedish"
+              }
+            }
+          ]
+        },
+        "marketingStatus": [
+          {
+            "country": {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                  "code": "100000000535",
+                  "display": "Sweden"
+                }
+              ]
+            },
+            "status": {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000072052",
+                  "code": "100000072083",
+                  "display": "Marketed"
+                }
+              ]
+            }
+          }
+        ],
+        "package": {
+          "type": {
+            "coding": [
+              {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000073346",
+                "code": "100000073498",
+                "display": "Box"
+              }
+            ]
+          },
+          "quantity": 1,
+          "material": [
+            {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                  "code": "200000003529",
+                  "display": "Cardboard"
+                }
+              ]
+            }
+          ],
+          "shelfLifeStorage": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://spor.ema.europa.eu/v1/lists/100000073343",
+                    "code": "100000073403",
+                    "display": "Shelf life of the medicinal product as packaged for sale"
+                  }
+                ]
+              },
+              "periodDuration": {
+                "value": 3,
+                "unit": "Year",
+                "system": "http://spor.ema.europa.eu/v1/lists/100000110633",
+                "code": "200000003434"
+              },
+              "specialPrecautionsForStorage": [
+                {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000073344",
+                      "code": "100000073411",
+                      "display": "Do not store above 30 °C"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000073344",
+                      "code": "100000073422",
+                      "display": "Keep the container tightly closed"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000073344",
+                      "code": "100000073427",
+                      "display": "in order to protect from moisture"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "package": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://spor.ema.europa.eu/v1/lists/100000073346",
+                    "code": "100000073497",
+                    "display": "Bottle"
+                  }
+                ]
+              },
+              "quantity": 1,
+              "material": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                      "code": "200000003215",
+                      "display": "High Density PolyEthylene"
+                    }
+                  ]
+                }
+              ],
+              "containedItem": [
+                {
+                  "item": {
+                    "reference": {
+                      "reference": "ManufacturedItemDefinition/Concerta-36mg-PRTablet-SE-AJ-ManufacturedItemDefinition"
+                    }
+                  },
+                  "amount": {
+                    "value": 30,
+                    "unit": "Tablet",
+                    "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+                    "code": "200000002152"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "PackagedProductDefinition/Concerta-36mg-PRTablet-SE-AJ-PackagedProductDefinition"
+      }
+    },
+    {
+      "fullUrl": "{$base}/ManufacturedItemDefinition/Concerta-36mg-PRTablet-SE-AJ-ManufacturedItemDefinition",
+      "resource": {
+        "resourceType": "ManufacturedItemDefinition",
+        "id": "Concerta-36mg-PRTablet-SE-AJ-ManufacturedItemDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"Concerta-36mg-PRTablet-SE-AJ-ManufacturedItemDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;Concerta-36mg-PRTablet-SE-AJ-ManufacturedItemDefinition&quot; </p></div><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Prolonged-release tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000073683)</span></p><p><b>unitOfPresentation</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000014#200000002152)</span></p></div>"
+        },
+        "status": "active",
+        "manufacturedDoseForm": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000004",
+              "code": "100000073683",
+              "display": "Prolonged-release tablet"
+            }
+          ]
+        },
+        "unitOfPresentation": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+              "code": "200000002152",
+              "display": "Tablet"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ManufacturedItemDefinition/Concerta-36mg-PRTablet-SE-AJ-ManufacturedItemDefinition"
+      }
+    },
+    {
+      "fullUrl": "{$base}/Ingredient/Concerta-36mg-PRTablet-SE-AJ-Ingredient",
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "Concerta-36mg-PRTablet-SE-AJ-Ingredient",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"Concerta-36mg-PRTablet-SE-AJ-Ingredient\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;Concerta-36mg-PRTablet-SE-AJ-Ingredient&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_Concerta-36mg-PRTablet-SE-AJ-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Concerta-36mg-PRTablet-SE-AJ-MedicinalProductDefinition)</a></li><li><a href=\"#ManufacturedItemDefinition_Concerta-36mg-PRTablet-SE-AJ-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/Concerta-36mg-PRTablet-SE-AJ-ManufacturedItemDefinition)</a></li><li><a href=\"#AdministrableProductDefinition_Concerta-36mg-PRTablet-SE-AJ-AdministrableProductDefinition\">See above (AdministrableProductDefinition/Concerta-36mg-PRTablet-SE-AJ-AdministrableProductDefinition)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Methylphenidate hydrochloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000090133)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>presentation</b>: 36 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = '200000002152')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Methylphenidate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000080907)</span></td></tr></table><p><b>strength</b>: 31.13 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = '200000002152')</span></p></blockquote></blockquote></blockquote></div>"
+        },
+        "status": "active",
+        "for": [
+          {
+            "reference": "MedicinalProductDefinition/Concerta-36mg-PRTablet-SE-AJ-MedicinalProductDefinition"
+          },
+          {
+            "reference": "ManufacturedItemDefinition/Concerta-36mg-PRTablet-SE-AJ-ManufacturedItemDefinition"
+          },
+          {
+            "reference": "AdministrableProductDefinition/Concerta-36mg-PRTablet-SE-AJ-AdministrableProductDefinition"
+          }
+        ],
+        "role": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000072050",
+              "code": "100000072072",
+              "display": "Active"
+            }
+          ]
+        },
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                  "code": "100000090133",
+                  "display": "Methylphenidate hydrochloride"
+                }
+              ]
+            }
+          },
+          "strength": [
+            {
+              "presentationRatio": {
+                "numerator": {
+                  "value": 36,
+                  "unit": "milligram(s)",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                  "code": "100000110655"
+                },
+                "denominator": {
+                  "value": 1,
+                  "unit": "Tablet",
+                  "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+                  "code": "200000002152"
+                }
+              },
+              "referenceStrength": [
+                {
+                  "substance": {
+                    "concept": {
+                      "coding": [
+                        {
+                          "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                          "code": "100000080907",
+                          "display": "Methylphenidate"
+                        }
+                      ]
+                    }
+                  },
+                  "strengthRatio": {
+                    "numerator": {
+                      "value": 31.13,
+                      "unit": "milligram(s)",
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                      "code": "100000110655"
+                    },
+                    "denominator": {
+                      "value": 1,
+                      "unit": "Tablet",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+                      "code": "200000002152"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Ingredient/Concerta-36mg-PRTablet-SE-AJ-Ingredient"
+      }
+    }
+  ]
+}
