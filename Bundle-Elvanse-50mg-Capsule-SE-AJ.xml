@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="Elvanse-50mg-Capsule-SE-AJ"/>
+  <type value="batch"/>
+  <entry>
+    <fullUrl value="{$base}/MedicinalProductDefinition/Elvanse-50mg-Capsule-SE-AJ-MedicinalProductDefinition"/>
+    <resource>
+      <MedicinalProductDefinition>
+        <id value="Elvanse-50mg-Capsule-SE-AJ-MedicinalProductDefinition"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name="Elvanse-50mg-Capsule-SE-AJ-MedicinalProductDefinition"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicinalProductDefinition &quot;Elvanse-50mg-Capsule-SE-AJ-MedicinalProductDefinition&quot; </p></div><p><b>identifier</b>: id: SE-100000607-00047383, id: 10289</p><p><b>domain</b>: Human use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000005003#200000005004)</span></p><p><b>indication</b>: Elvanse är indicerat som en del i ett omfattande behandlingsprogram anpassat för ADHD (Attention Deficit Hyperactivity Disorder, Uppmärksamhetsstörning/Hyperaktivitet)  hos barn i åldern 6 år och äldre, när svar på tidigare behandling med metylfenidat bedöms vara kliniskt otillräckligt. Behandlingen ska ske under överinseende av specialist på beteendestörningar hos barn och/eller ungdomar.  Diagnos ska ställas enligt kriterierna i DSM eller riktlinjerna i ICD och ska grundas på fullständig anamnes och utvärdering av patienten.  Diagnos kan inte ställas enbart på närvaro av ett eller flera symtom. Den specifika etiologin för detta syndrom är okänd, och det finns inget enstaka diagnostiskt test.  Adekvat diagnos kräver användning av såväl medicinska som specialiserade psykologiska, pedagogiska och sociala resurser.  Ett omfattande behandlingsprogram karaktäriseras av psykologiska, pedagogiska och sociala åtgärder såväl som farmakoterapi och har som målsättning att  stabilisera barn med ett beteendesyndrom karaktäriserat av symtom som kan inkludera kronisk anamnes av kort uppmärksamhetsperiod, distraherbarhet, emotionell labilitet,  impulsivitet, måttlig till svår hyperaktivitet, mindre uttalade neurologiska tecken och onormalt EEG. Syndromet kan förekomma både med och utan inlärningssvårigheter. Behandling med Elvanse är inte indicerat för alla barn med ADHD och beslutet att använda läkemedlet måste grundas på en mycket noggrann bedömning av  svårighetsgrad och kronicitet av barnets symtom i förhållande till barnets ålder och risk för missbruk, felanvändning eller avvikande användning. Tillgång till lämplig undervisningsform är väsentlig, och psykosocial intervention är i allmänhet nödvändigt.  Användning av Elvanse ska alltid ske på detta sätt enligt godkänd indikation.</p><p><b>legalStatusOfSupply</b>: Medicinal product subject to special medical prescription <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072051#100000072085)</span></p><p><b>classification</b>: N06BA12 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000093533#100000125051)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Elvanse 50 mg Kapsel, hård</p><blockquote><p><b>namePart</b></p><p><b>part</b>: Elvanse</p><p><b>type</b>: Invented Name Part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 50 mg</p><p><b>type</b>: Strength part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: Kapsel, hård</p><p><b>type</b>: Pharmaceutical dose form part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Sweden <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000535)</span></td><td>Swedish <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072057#100000072288)</span></td></tr></table></blockquote></div>
+        </text>
+        <extension url="http://ema.europa.eu/fhir/extension/authorisedDoseForm">
+          <valueCoding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000004"/>
+            <code value="100000073375"/>
+            <display value="Capsule, hard"/>
+          </valueCoding>
+        </extension>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/mpId"/>
+          <value value="SE-100000607-00047383"/>
+        </identifier>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/eurdId"/>
+          <value value="10289"/>
+        </identifier>
+        <domain>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000000004"/>
+            <code value="100000000012"/>
+            <display value="Human use"/>
+          </coding>
+        </domain>
+        <status>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000005003"/>
+            <code value="200000005004"/>
+            <display value="Current"/>
+          </coding>
+        </status>
+        <indication value="Elvanse är indicerat som en del i ett omfattande behandlingsprogram anpassat för ADHD (Attention Deficit Hyperactivity Disorder, Uppmärksamhetsstörning/Hyperaktivitet)  hos barn i åldern 6 år och äldre, när svar på tidigare behandling med metylfenidat bedöms vara kliniskt otillräckligt. Behandlingen ska ske under överinseende av specialist på beteendestörningar hos barn och/eller ungdomar.  Diagnos ska ställas enligt kriterierna i DSM eller riktlinjerna i ICD och ska grundas på fullständig anamnes och utvärdering av patienten.  Diagnos kan inte ställas enbart på närvaro av ett eller flera symtom. Den specifika etiologin för detta syndrom är okänd, och det finns inget enstaka diagnostiskt test.  Adekvat diagnos kräver användning av såväl medicinska som specialiserade psykologiska, pedagogiska och sociala resurser.  Ett omfattande behandlingsprogram karaktäriseras av psykologiska, pedagogiska och sociala åtgärder såväl som farmakoterapi och har som målsättning att  stabilisera barn med ett beteendesyndrom karaktäriserat av symtom som kan inkludera kronisk anamnes av kort uppmärksamhetsperiod, distraherbarhet, emotionell labilitet,  impulsivitet, måttlig till svår hyperaktivitet, mindre uttalade neurologiska tecken och onormalt EEG. Syndromet kan förekomma både med och utan inlärningssvårigheter. Behandling med Elvanse är inte indicerat för alla barn med ADHD och beslutet att använda läkemedlet måste grundas på en mycket noggrann bedömning av  svårighetsgrad och kronicitet av barnets symtom i förhållande till barnets ålder och risk för missbruk, felanvändning eller avvikande användning. Tillgång till lämplig undervisningsform är väsentlig, och psykosocial intervention är i allmänhet nödvändigt.  Användning av Elvanse ska alltid ske på detta sätt enligt godkänd indikation."/>
+        <legalStatusOfSupply>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000072051"/>
+            <code value="100000072085"/>
+            <display value="Medicinal product subject to special medical prescription"/>
+          </coding>
+        </legalStatusOfSupply>
+        <classification>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000093533"/>
+            <code value="100000125051"/>
+            <display value="N06BA12"/>
+          </coding>
+        </classification>
+        <name>
+          <productName value="Elvanse 50 mg Kapsel, hård"/>
+          <namePart>
+            <part value="Elvanse"/>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000002"/>
+                <display value="Invented Name Part"/>
+              </coding>
+            </type>
+          </namePart>
+          <namePart>
+            <part value="50 mg"/>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000004"/>
+                <display value="Strength part"/>
+              </coding>
+            </type>
+          </namePart>
+          <namePart>
+            <part value="Kapsel, hård"/>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000005"/>
+                <display value="Pharmaceutical dose form part"/>
+              </coding>
+            </type>
+          </namePart>
+          <countryLanguage>
+            <country>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000000002"/>
+                <code value="100000000535"/>
+                <display value="Sweden"/>
+              </coding>
+            </country>
+            <language>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000072057"/>
+                <code value="100000072288"/>
+                <display value="Swedish"/>
+              </coding>
+            </language>
+          </countryLanguage>
+        </name>
+      </MedicinalProductDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="MedicinalProductDefinition/Elvanse-50mg-Capsule-SE-AJ-MedicinalProductDefinition"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/RegulatedAuthorization/Elvanse-50mg-Capsule-SE-AJ-RegulatedAuthorization"/>
+    <resource>
+      <RegulatedAuthorization>
+        <id value="Elvanse-50mg-Capsule-SE-AJ-RegulatedAuthorization"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: RegulatedAuthorization</b><a name="Elvanse-50mg-Capsule-SE-AJ-RegulatedAuthorization"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource RegulatedAuthorization &quot;Elvanse-50mg-Capsule-SE-AJ-RegulatedAuthorization&quot; </p></div><p><b>identifier</b>: id: 47383</p><p><b>subject</b>: <a href="#MedicinalProductDefinition_Elvanse-50mg-Capsule-SE-AJ-MedicinalProductDefinition">See above (MedicinalProductDefinition/Elvanse-50mg-Capsule-SE-AJ-MedicinalProductDefinition)</a></p><p><b>type</b>: Marketing Authorisation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000060#220000000061)</span></p><p><b>region</b>: Sweden <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000535)</span></p><p><b>status</b>: Valid <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072049#100000072099)</span></p><p><b>statusDate</b>: 2013-07-22</p><p><b>holder</b>: <span>: Shire Pharmaceuticals Ireland Limited</span></p><h3>Cases</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Date[x]</b></td></tr><tr><td>*</td><td>First Authorisation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (authorisationDateType#dateOfFirstAuthorisation)</span></td><td>2013-07-22</td></tr></table></div>
+        </text>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/MarketingAuthorizationNumber"/>
+          <value value="47383"/>
+        </identifier>
+        <subject>
+          <reference value="MedicinalProductDefinition/Elvanse-50mg-Capsule-SE-AJ-MedicinalProductDefinition"/>
+        </subject>
+        <type>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/220000000060"/>
+            <code value="220000000061"/>
+            <display value="Marketing Authorisation"/>
+          </coding>
+        </type>
+        <region>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000000002"/>
+            <code value="100000000535"/>
+            <display value="Sweden"/>
+          </coding>
+        </region>
+        <status>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000072049"/>
+            <code value="100000072099"/>
+            <display value="Valid"/>
+          </coding>
+        </status>
+        <statusDate value="2013-07-22"/>
+        <holder>
+          <identifier>
+            <system value="https://spor.ema.europa.eu/v1/locations"/>
+            <value value="LOC-100011567"/>
+          </identifier>
+          <display value="Shire Pharmaceuticals Ireland Limited"/>
+        </holder>
+        <case>
+          <type>
+            <coding>
+              <system value="http://ema.europa.eu/fhir/authorisationDateType"/>
+              <code value="dateOfFirstAuthorisation"/>
+              <display value="First Authorisation"/>
+            </coding>
+          </type>
+          <dateDateTime value="2013-07-22"/>
+        </case>
+      </RegulatedAuthorization>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="RegulatedAuthorization/Elvanse-50mg-Capsule-SE-AJ-RegulatedAuthorization"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/AdministrableProductDefinition/Elvanse-50mg-Capsule-SE-AJ-AdministrableProductDefinition01"/>
+    <resource>
+      <AdministrableProductDefinition>
+        <id value="Elvanse-50mg-Capsule-SE-AJ-AdministrableProductDefinition01"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name="Elvanse-50mg-Capsule-SE-AJ-AdministrableProductDefinition01"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AdministrableProductDefinition &quot;Elvanse-50mg-Capsule-SE-AJ-AdministrableProductDefinition01&quot; </p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href="#MedicinalProductDefinition_Elvanse-50mg-Capsule-SE-AJ-MedicinalProductDefinition">See above (MedicinalProductDefinition/Elvanse-50mg-Capsule-SE-AJ-MedicinalProductDefinition)</a></p><p><b>administrableDoseForm</b>: Capsule, hard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000004#100000073375)</span></p><p><b>producedFrom</b>: <a href="#ManufacturedItemDefinition_Elvanse-50mg-Capsule-SE-AJ-ManufacturedItemDefinition">See above (ManufacturedItemDefinition/Elvanse-50mg-Capsule-SE-AJ-ManufacturedItemDefinition)</a></p><h3>RouteOfAdministrations</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073345#100000073619)</span></td></tr></table></div>
+        </text>
+        <status value="active"/>
+        <formOf>
+          <reference value="MedicinalProductDefinition/Elvanse-50mg-Capsule-SE-AJ-MedicinalProductDefinition"/>
+        </formOf>
+        <administrableDoseForm>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000004"/>
+            <code value="100000073375"/>
+            <display value="Capsule, hard"/>
+          </coding>
+        </administrableDoseForm>
+        <producedFrom>
+          <reference value="ManufacturedItemDefinition/Elvanse-50mg-Capsule-SE-AJ-ManufacturedItemDefinition"/>
+        </producedFrom>
+        <routeOfAdministration>
+          <code>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000073345"/>
+              <code value="100000073619"/>
+              <display value="Oral use"/>
+            </coding>
+          </code>
+        </routeOfAdministration>
+      </AdministrableProductDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="AdministrableProductDefinition/Elvanse-50mg-Capsule-SE-AJ-AdministrableProductDefinition01"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/AdministrableProductDefinition/Elvanse-50mg-Capsule-SE-AJ-AdministrableProductDefinition02"/>
+    <resource>
+      <AdministrableProductDefinition>
+        <id value="Elvanse-50mg-Capsule-SE-AJ-AdministrableProductDefinition02"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name="Elvanse-50mg-Capsule-SE-AJ-AdministrableProductDefinition02"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AdministrableProductDefinition &quot;Elvanse-50mg-Capsule-SE-AJ-AdministrableProductDefinition02&quot; </p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href="#MedicinalProductDefinition_Elvanse-50mg-Capsule-SE-AJ-MedicinalProductDefinition">See above (MedicinalProductDefinition/Elvanse-50mg-Capsule-SE-AJ-MedicinalProductDefinition)</a></p><p><b>administrableDoseForm</b>: Oral solution <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000004#100000073646)</span></p><p><b>producedFrom</b>: <a href="#ManufacturedItemDefinition_Elvanse-50mg-Capsule-SE-AJ-ManufacturedItemDefinition">See above (ManufacturedItemDefinition/Elvanse-50mg-Capsule-SE-AJ-ManufacturedItemDefinition)</a></p><h3>RouteOfAdministrations</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073345#100000073619)</span></td></tr></table></div>
+        </text>
+        <status value="active"/>
+        <formOf>
+          <reference value="MedicinalProductDefinition/Elvanse-50mg-Capsule-SE-AJ-MedicinalProductDefinition"/>
+        </formOf>
+        <administrableDoseForm>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000004"/>
+            <code value="100000073646"/>
+            <display value="Oral solution"/>
+          </coding>
+        </administrableDoseForm>
+        <producedFrom>
+          <reference value="ManufacturedItemDefinition/Elvanse-50mg-Capsule-SE-AJ-ManufacturedItemDefinition"/>
+        </producedFrom>
+        <routeOfAdministration>
+          <code>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000073345"/>
+              <code value="100000073619"/>
+              <display value="Oral use"/>
+            </coding>
+          </code>
+        </routeOfAdministration>
+      </AdministrableProductDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="AdministrableProductDefinition/Elvanse-50mg-Capsule-SE-AJ-AdministrableProductDefinition02"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/PackagedProductDefinition/Elvanse-50mg-Capsule-SE-AJ-PackagedProductDefinition"/>
+    <resource>
+      <PackagedProductDefinition>
+        <id value="Elvanse-50mg-Capsule-SE-AJ-PackagedProductDefinition"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b><a name="Elvanse-50mg-Capsule-SE-AJ-PackagedProductDefinition"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition &quot;Elvanse-50mg-Capsule-SE-AJ-PackagedProductDefinition&quot; </p></div><p><b>packageFor</b>: <a href="#MedicinalProductDefinition_Elvanse-50mg-Capsule-SE-AJ-MedicinalProductDefinition">See above (MedicinalProductDefinition/Elvanse-50mg-Capsule-SE-AJ-MedicinalProductDefinition)</a></p><p><b>description</b>: Burk, 30 kapslar</p><h3>MarketingStatuses</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Sweden <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000535)</span></td><td>Marketed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003529)</span></p><h3>ShelfLifeStorages</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Period[x]</b></td><td><b>SpecialPrecautionsForStorage</b></td></tr><tr><td>*</td><td>Shelf life of the medicinal product as packaged for sale <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073343#100000073403)</span></td><td>3 Year<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 200000003434 = '200000003434')</span></td><td>Do not store above 25 °C <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073344#100000073410)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Bottle <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073497)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: High Density PolyEthylene <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003215)</span></p></blockquote></blockquote></div>
+        </text>
+        <extension url="http://ema.europa.eu/fhir/extension/containedItemQuantity">
+          <valueQuantity>
+            <value value="30"/>
+            <unit value="Capsule"/>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
+            <code value="200000002113"/>
+          </valueQuantity>
+        </extension>
+        <packageFor>
+          <reference value="MedicinalProductDefinition/Elvanse-50mg-Capsule-SE-AJ-MedicinalProductDefinition"/>
+        </packageFor>
+        <description value="Burk, 30 kapslar">
+          <extension url="http://ema.europa.eu/fhir/extension/language">
+            <valueCoding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000072057"/>
+              <code value="100000072288"/>
+              <display value="Swedish"/>
+            </valueCoding>
+          </extension>
+        </description>
+        <marketingStatus>
+          <country>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000000002"/>
+              <code value="100000000535"/>
+              <display value="Sweden"/>
+            </coding>
+          </country>
+          <status>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000072052"/>
+              <code value="100000072083"/>
+              <display value="Marketed"/>
+            </coding>
+          </status>
+        </marketingStatus>
+        <package>
+          <type>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000073346"/>
+              <code value="100000073498"/>
+              <display value="Box"/>
+            </coding>
+          </type>
+          <quantity value="1"/>
+          <material>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/200000003199"/>
+              <code value="200000003529"/>
+              <display value="Cardboard"/>
+            </coding>
+          </material>
+          <shelfLifeStorage>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000073343"/>
+                <code value="100000073403"/>
+                <display value="Shelf life of the medicinal product as packaged for sale"/>
+              </coding>
+            </type>
+            <periodDuration>
+              <value value="3"/>
+              <unit value="Year"/>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000110633"/>
+              <code value="200000003434"/>
+            </periodDuration>
+            <specialPrecautionsForStorage>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000073344"/>
+                <code value="100000073410"/>
+                <display value="Do not store above 25 °C"/>
+              </coding>
+            </specialPrecautionsForStorage>
+          </shelfLifeStorage>
+          <package>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000073346"/>
+                <code value="100000073497"/>
+                <display value="Bottle"/>
+              </coding>
+            </type>
+            <quantity value="1"/>
+            <material>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/200000003199"/>
+                <code value="200000003215"/>
+                <display value="High Density PolyEthylene"/>
+              </coding>
+            </material>
+            <containedItem>
+              <item>
+                <reference>
+                  <reference value="ManufacturedItemDefinition/Elvanse-50mg-Capsule-SE-AJ-ManufacturedItemDefinition"/>
+                </reference>
+              </item>
+              <amount>
+                <value value="30"/>
+                <unit value="Capsule"/>
+                <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
+                <code value="200000002113"/>
+              </amount>
+            </containedItem>
+          </package>
+        </package>
+      </PackagedProductDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="PackagedProductDefinition/Elvanse-50mg-Capsule-SE-AJ-PackagedProductDefinition"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/ManufacturedItemDefinition/Elvanse-50mg-Capsule-SE-AJ-ManufacturedItemDefinition"/>
+    <resource>
+      <ManufacturedItemDefinition>
+        <id value="Elvanse-50mg-Capsule-SE-AJ-ManufacturedItemDefinition"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name="Elvanse-50mg-Capsule-SE-AJ-ManufacturedItemDefinition"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource ManufacturedItemDefinition &quot;Elvanse-50mg-Capsule-SE-AJ-ManufacturedItemDefinition&quot; </p></div><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Capsule, hard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000004#100000073375)</span></p><p><b>unitOfPresentation</b>: Capsule <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000014#200000002113)</span></p></div>
+        </text>
+        <status value="active"/>
+        <manufacturedDoseForm>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000004"/>
+            <code value="100000073375"/>
+            <display value="Capsule, hard"/>
+          </coding>
+        </manufacturedDoseForm>
+        <unitOfPresentation>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
+            <code value="200000002113"/>
+            <display value="Capsule"/>
+          </coding>
+        </unitOfPresentation>
+      </ManufacturedItemDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="ManufacturedItemDefinition/Elvanse-50mg-Capsule-SE-AJ-ManufacturedItemDefinition"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/Ingredient/Elvanse-50mg-Capsule-SE-AJ-Ingredient"/>
+    <resource>
+      <Ingredient>
+        <id value="Elvanse-50mg-Capsule-SE-AJ-Ingredient"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b><a name="Elvanse-50mg-Capsule-SE-AJ-Ingredient"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;Elvanse-50mg-Capsule-SE-AJ-Ingredient&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href="#MedicinalProductDefinition_Elvanse-50mg-Capsule-SE-AJ-MedicinalProductDefinition">See above (MedicinalProductDefinition/Elvanse-50mg-Capsule-SE-AJ-MedicinalProductDefinition)</a></li><li><a href="#ManufacturedItemDefinition_Elvanse-50mg-Capsule-SE-AJ-ManufacturedItemDefinition">See above (ManufacturedItemDefinition/Elvanse-50mg-Capsule-SE-AJ-ManufacturedItemDefinition)</a></li><li><a href="#AdministrableProductDefinition_Elvanse-50mg-Capsule-SE-AJ-AdministrableProductDefinition01">See above (AdministrableProductDefinition/Elvanse-50mg-Capsule-SE-AJ-AdministrableProductDefinition01)</a></li><li><a href="#AdministrableProductDefinition_Elvanse-50mg-Capsule-SE-AJ-AdministrableProductDefinition02">See above (AdministrableProductDefinition/Elvanse-50mg-Capsule-SE-AJ-AdministrableProductDefinition02)</a></li></ul><p><b>role</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>lisdexamfetamine dimesylate <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SubstanceDefinition#100000124520)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>presentation</b>: 50 milligram(s)<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 Capsule<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002113 = '200000002113')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>lisdexamfetamine <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SubstanceDefinition#100000124476)</span></td></tr></table><p><b>strength</b>: 28.83 milligram(s)<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 Capsule<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002113 = '200000002113')</span></p></blockquote><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>dexamfetamine <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SubstanceDefinition#100000088421)</span></td></tr></table><p><b>strength</b>: 14.8 milligram(s)<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 Capsule<span style="background: LightGoldenRodYellow"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002113 = '200000002113')</span></p></blockquote></blockquote></blockquote></div>
+        </text>
+        <status value="active"/>
+        <for>
+          <reference value="MedicinalProductDefinition/Elvanse-50mg-Capsule-SE-AJ-MedicinalProductDefinition"/>
+        </for>
+        <for>
+          <reference value="ManufacturedItemDefinition/Elvanse-50mg-Capsule-SE-AJ-ManufacturedItemDefinition"/>
+        </for>
+        <for>
+          <reference value="AdministrableProductDefinition/Elvanse-50mg-Capsule-SE-AJ-AdministrableProductDefinition01"/>
+        </for>
+        <for>
+          <reference value="AdministrableProductDefinition/Elvanse-50mg-Capsule-SE-AJ-AdministrableProductDefinition02"/>
+        </for>
+        <role>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000072050"/>
+            <code value="100000072072"/>
+            <display value="Active"/>
+          </coding>
+        </role>
+        <substance>
+          <code>
+            <concept>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v2/SubstanceDefinition"/>
+                <code value="100000124520"/>
+                <display value="lisdexamfetamine dimesylate"/>
+              </coding>
+            </concept>
+          </code>
+          <strength>
+            <presentationRatio>
+              <numerator>
+                <value value="50"/>
+                <unit value="milligram(s)"/>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+                <code value="100000110655"/>
+              </numerator>
+              <denominator>
+                <value value="1"/>
+                <unit value="Capsule"/>
+                <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+                <code value="200000002113"/>
+              </denominator>
+            </presentationRatio>
+            <referenceStrength>
+              <substance>
+                <concept>
+                  <coding>
+                    <system value="https://spor.ema.europa.eu/v2/SubstanceDefinition"/>
+                    <code value="100000124476"/>
+                    <display value="lisdexamfetamine"/>
+                  </coding>
+                </concept>
+              </substance>
+              <strengthRatio>
+                <numerator>
+                  <value value="28.83"/>
+                  <unit value="milligram(s)"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+                  <code value="100000110655"/>
+                </numerator>
+                <denominator>
+                  <value value="1"/>
+                  <unit value="Capsule"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+                  <code value="200000002113"/>
+                </denominator>
+              </strengthRatio>
+            </referenceStrength>
+            <referenceStrength>
+              <substance>
+                <concept>
+                  <coding>
+                    <system value="https://spor.ema.europa.eu/v2/SubstanceDefinition"/>
+                    <code value="100000088421"/>
+                    <display value="dexamfetamine"/>
+                  </coding>
+                </concept>
+              </substance>
+              <strengthRatio>
+                <numerator>
+                  <value value="14.8"/>
+                  <unit value="milligram(s)"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+                  <code value="100000110655"/>
+                </numerator>
+                <denominator>
+                  <value value="1"/>
+                  <unit value="Capsule"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+                  <code value="200000002113"/>
+                </denominator>
+              </strengthRatio>
+            </referenceStrength>
+          </strength>
+        </substance>
+      </Ingredient>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Ingredient/Elvanse-50mg-Capsule-SE-AJ-Ingredient"/>
+    </request>
+  </entry>
+</Bundle>

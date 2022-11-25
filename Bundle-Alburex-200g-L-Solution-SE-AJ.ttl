@@ -1,0 +1,534 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7-eu.github.io/unicom-ig/Bundle/Alburex-200g-L-Solution-SE-AJ> a fhir:Bundle;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Alburex-200g-L-Solution-SE-AJ"];
+  fhir:Bundle.type [ fhir:value "batch"];
+  fhir:Bundle.entry [
+     fhir:index 0;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/MedicinalProductDefinition/Alburex-200g-L-Solution-SE-AJ-MedicinalProductDefinition" ];
+     fhir:Bundle.entry.resource <{$base}/MedicinalProductDefinition/Alburex-200g-L-Solution-SE-AJ-MedicinalProductDefinition>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "MedicinalProductDefinition/Alburex-200g-L-Solution-SE-AJ-MedicinalProductDefinition" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/RegulatedAuthorization/Alburex-200g-L-Solution-SE-AJ-RegulatedAuthorization" ];
+     fhir:Bundle.entry.resource <{$base}/RegulatedAuthorization/Alburex-200g-L-Solution-SE-AJ-RegulatedAuthorization>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "RegulatedAuthorization/Alburex-200g-L-Solution-SE-AJ-RegulatedAuthorization" ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/AdministrableProductDefinition/Alburex-200g-L-Solution-SE-AJ-AdministrableProductDefinition" ];
+     fhir:Bundle.entry.resource <{$base}/AdministrableProductDefinition/Alburex-200g-L-Solution-SE-AJ-AdministrableProductDefinition>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "AdministrableProductDefinition/Alburex-200g-L-Solution-SE-AJ-AdministrableProductDefinition" ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/PackagedProductDefinition/Alburex-200g-L-Solution-SE-AJ-PackagedProductDefinition" ];
+     fhir:Bundle.entry.resource <{$base}/PackagedProductDefinition/Alburex-200g-L-Solution-SE-AJ-PackagedProductDefinition>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "PackagedProductDefinition/Alburex-200g-L-Solution-SE-AJ-PackagedProductDefinition" ]
+     ]
+  ], [
+     fhir:index 4;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/ManufacturedItemDefinition/Alburex-200g-L-Solution-SE-AJ-ManufacturedItemDefinition" ];
+     fhir:Bundle.entry.resource <{$base}/ManufacturedItemDefinition/Alburex-200g-L-Solution-SE-AJ-ManufacturedItemDefinition>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "ManufacturedItemDefinition/Alburex-200g-L-Solution-SE-AJ-ManufacturedItemDefinition" ]
+     ]
+  ], [
+     fhir:index 5;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/Ingredient/Alburex-200g-L-Solution-SE-AJ-Ingredient" ];
+     fhir:Bundle.entry.resource <{$base}/Ingredient/Alburex-200g-L-Solution-SE-AJ-Ingredient>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Ingredient/Alburex-200g-L-Solution-SE-AJ-Ingredient" ]
+     ]
+  ] .
+
+<{$base}/MedicinalProductDefinition/Alburex-200g-L-Solution-SE-AJ-MedicinalProductDefinition> a fhir:MedicinalProductDefinition;
+  fhir:Resource.id [ fhir:value "Alburex-200g-L-Solution-SE-AJ-MedicinalProductDefinition"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"Alburex-200g-L-Solution-SE-AJ-MedicinalProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;Alburex-200g-L-Solution-SE-AJ-MedicinalProductDefinition&quot; </p></div><p><b>identifier</b>: id: SE-100000398-00050243, id: 10836</p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000005003#200000005004)</span></p><p><b>indication</b>: Återställande och upprätthållande av cirkulerande blodvolym vid volymbrist och när  användning av en kolloid är lämpligt.  Val av albumin istället för en artificiell kolloid kan göras med hänsyn till patientens kliniska  tillstånd och aktuella behandlingsrekommendationer.  </p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072051#100000072084)</span></p><p><b>classification</b>: B05AA01 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000093533#100000094427)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Alburex 200 g/l Infusionsvätska, lösning</p><blockquote><p><b>namePart</b></p><p><b>part</b>: Alburex</p><p><b>type</b>: Invented Name Part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 200 g/l</p><p><b>type</b>: Strength part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: Infusionsvätska, lösning</p><p><b>type</b>: Pharmaceutical dose form part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Swedish <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072057#100000072288)</span></td></tr></table></blockquote></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/authorisedDoseForm" ];
+     fhir:Extension.valueCoding [
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000004" ];
+       fhir:Coding.code [ fhir:value "100000073870" ];
+       fhir:Coding.display [ fhir:value "solution for infusion" ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "http://ema.europa.eu/fhir/mpId" ];
+     fhir:Identifier.value [ fhir:value "SE-100000398-00050243" ]
+  ], [
+     fhir:index 1;
+     fhir:Identifier.system [ fhir:value "http://ema.europa.eu/fhir/eurdId" ];
+     fhir:Identifier.value [ fhir:value "10836" ]
+  ];
+  fhir:MedicinalProductDefinition.domain [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000004" ];
+       fhir:Coding.code [ fhir:value "100000000012" ];
+       fhir:Coding.display [ fhir:value "Human use" ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.status [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000005003" ];
+       fhir:Coding.code [ fhir:value "200000005004" ];
+       fhir:Coding.display [ fhir:value "Current" ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.indication [ fhir:value "Återställande och upprätthållande av cirkulerande blodvolym vid volymbrist och när  användning av en kolloid är lämpligt.  Val av albumin istället för en artificiell kolloid kan göras med hänsyn till patientens kliniska  tillstånd och aktuella behandlingsrekommendationer.  "];
+  fhir:MedicinalProductDefinition.legalStatusOfSupply [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072051" ];
+       fhir:Coding.code [ fhir:value "100000072084" ];
+       fhir:Coding.display [ fhir:value "Medicinal product subject to medical prescription" ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.classification [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000093533" ];
+       fhir:Coding.code [ fhir:value "100000094427" ];
+       fhir:Coding.display [ fhir:value "B05AA01" ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.name [
+     fhir:index 0;
+     fhir:MedicinalProductDefinition.name.productName [ fhir:value "Alburex 200 g/l Infusionsvätska, lösning" ];
+     fhir:MedicinalProductDefinition.name.namePart [
+       fhir:index 0;
+       fhir:MedicinalProductDefinition.name.namePart.part [ fhir:value "Alburex" ];
+       fhir:MedicinalProductDefinition.name.namePart.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/220000000000" ];
+           fhir:Coding.code [ fhir:value "220000000002" ];
+           fhir:Coding.display [ fhir:value "Invented Name Part" ]
+         ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:MedicinalProductDefinition.name.namePart.part [ fhir:value "200 g/l" ];
+       fhir:MedicinalProductDefinition.name.namePart.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/220000000000" ];
+           fhir:Coding.code [ fhir:value "220000000004" ];
+           fhir:Coding.display [ fhir:value "Strength part" ]
+         ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:MedicinalProductDefinition.name.namePart.part [ fhir:value "Infusionsvätska, lösning" ];
+       fhir:MedicinalProductDefinition.name.namePart.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/220000000000" ];
+           fhir:Coding.code [ fhir:value "220000000005" ];
+           fhir:Coding.display [ fhir:value "Pharmaceutical dose form part" ]
+         ]
+       ]
+     ];
+     fhir:MedicinalProductDefinition.name.countryLanguage [
+       fhir:index 0;
+       fhir:MedicinalProductDefinition.name.countryLanguage.country [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000002" ];
+           fhir:Coding.code [ fhir:value "100000000535" ];
+           fhir:Coding.display [ fhir:value "Sweden" ]
+         ]
+       ];
+       fhir:MedicinalProductDefinition.name.countryLanguage.language [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072057" ];
+           fhir:Coding.code [ fhir:value "100000072288" ];
+           fhir:Coding.display [ fhir:value "Swedish" ]
+         ]
+       ]
+     ]
+  ] .
+
+<{$base}/RegulatedAuthorization/Alburex-200g-L-Solution-SE-AJ-RegulatedAuthorization> a fhir:RegulatedAuthorization;
+  fhir:Resource.id [ fhir:value "Alburex-200g-L-Solution-SE-AJ-RegulatedAuthorization"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"Alburex-200g-L-Solution-SE-AJ-RegulatedAuthorization\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;Alburex-200g-L-Solution-SE-AJ-RegulatedAuthorization&quot; </p></div><p><b>identifier</b>: id: 50243</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_Alburex-200g-L-Solution-SE-AJ-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Alburex-200g-L-Solution-SE-AJ-MedicinalProductDefinition)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000060#220000000061)</span></p><p><b>region</b>: Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></p><p><b>status</b>: Valid <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072049#100000072099)</span></p><p><b>statusDate</b>: 2014-03-28</p><p><b>holder</b>: <span>: CSL Behring GmBH</span></p><h3>Cases</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Date[x]</b></td></tr><tr><td>*</td><td>First Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (authorisationDateType#dateOfFirstAuthorisation)</span></td><td>2014-03-28</td></tr></table></div>"
+  ];
+  fhir:RegulatedAuthorization.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "http://ema.europa.eu/fhir/MarketingAuthorizationNumber" ];
+     fhir:Identifier.value [ fhir:value "50243" ]
+  ];
+  fhir:RegulatedAuthorization.subject [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/Alburex-200g-L-Solution-SE-AJ-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Alburex-200g-L-Solution-SE-AJ-MedicinalProductDefinition" ]
+  ];
+  fhir:RegulatedAuthorization.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/220000000060" ];
+       fhir:Coding.code [ fhir:value "220000000061" ];
+       fhir:Coding.display [ fhir:value "Marketing Authorisation" ]
+     ]
+  ];
+  fhir:RegulatedAuthorization.region [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000002" ];
+       fhir:Coding.code [ fhir:value "100000000535" ];
+       fhir:Coding.display [ fhir:value "Sweden" ]
+     ]
+  ];
+  fhir:RegulatedAuthorization.status [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072049" ];
+       fhir:Coding.code [ fhir:value "100000072099" ];
+       fhir:Coding.display [ fhir:value "Valid" ]
+     ]
+  ];
+  fhir:RegulatedAuthorization.statusDate [ fhir:value "2014-03-28"^^xsd:date];
+  fhir:RegulatedAuthorization.holder [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/v1/locations" ];
+       fhir:Identifier.value [ fhir:value "LOC-100004673" ]
+     ];
+     fhir:Reference.display [ fhir:value "CSL Behring GmBH" ]
+  ];
+  fhir:RegulatedAuthorization.case [
+     fhir:RegulatedAuthorization.case.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://ema.europa.eu/fhir/authorisationDateType" ];
+         fhir:Coding.code [ fhir:value "dateOfFirstAuthorisation" ];
+         fhir:Coding.display [ fhir:value "First Authorisation" ]
+       ]
+     ];
+     fhir:RegulatedAuthorization.case.dateDateTime [ fhir:value "2014-03-28"^^xsd:date ]
+  ] .
+
+<{$base}/AdministrableProductDefinition/Alburex-200g-L-Solution-SE-AJ-AdministrableProductDefinition> a fhir:AdministrableProductDefinition;
+  fhir:Resource.id [ fhir:value "Alburex-200g-L-Solution-SE-AJ-AdministrableProductDefinition"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"Alburex-200g-L-Solution-SE-AJ-AdministrableProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;Alburex-200g-L-Solution-SE-AJ-AdministrableProductDefinition&quot; </p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"#MedicinalProductDefinition_Alburex-200g-L-Solution-SE-AJ-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Alburex-200g-L-Solution-SE-AJ-MedicinalProductDefinition)</a></p><p><b>administrableDoseForm</b>: solution for infusion <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000073870)</span></p><p><b>producedFrom</b>: <a href=\"#ManufacturedItemDefinition_Alburex-200g-L-Solution-SE-AJ-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/Alburex-200g-L-Solution-SE-AJ-ManufacturedItemDefinition)</a></p><h3>RouteOfAdministrations</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Intravenous use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073345#100000073611)</span></td></tr></table></div>"
+  ];
+  fhir:AdministrableProductDefinition.status [ fhir:value "active"];
+  fhir:AdministrableProductDefinition.formOf [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/Alburex-200g-L-Solution-SE-AJ-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Alburex-200g-L-Solution-SE-AJ-MedicinalProductDefinition" ]
+  ];
+  fhir:AdministrableProductDefinition.administrableDoseForm [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000004" ];
+       fhir:Coding.code [ fhir:value "100000073870" ];
+       fhir:Coding.display [ fhir:value "solution for infusion" ]
+     ]
+  ];
+  fhir:AdministrableProductDefinition.producedFrom [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/Alburex-200g-L-Solution-SE-AJ-ManufacturedItemDefinition>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Alburex-200g-L-Solution-SE-AJ-ManufacturedItemDefinition" ]
+  ];
+  fhir:AdministrableProductDefinition.routeOfAdministration [
+     fhir:index 0;
+     fhir:AdministrableProductDefinition.routeOfAdministration.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073345" ];
+         fhir:Coding.code [ fhir:value "100000073611" ];
+         fhir:Coding.display [ fhir:value "Intravenous use" ]
+       ]
+     ]
+  ] .
+
+<{$base}/PackagedProductDefinition/Alburex-200g-L-Solution-SE-AJ-PackagedProductDefinition> a fhir:PackagedProductDefinition;
+  fhir:Resource.id [ fhir:value "Alburex-200g-L-Solution-SE-AJ-PackagedProductDefinition"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"Alburex-200g-L-Solution-SE-AJ-PackagedProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;Alburex-200g-L-Solution-SE-AJ-PackagedProductDefinition&quot; </p></div><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_Alburex-200g-L-Solution-SE-AJ-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Alburex-200g-L-Solution-SE-AJ-MedicinalProductDefinition)</a></p><p><b>description</b>: Injektionsflaska, 100 ml</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003529)</span></p><h3>ShelfLifeStorages</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Period[x]</b></td><td><b>SpecialPrecautionsForStorage</b></td></tr><tr><td>*</td><td>Shelf life of the medicinal product as packaged for sale <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073343#100000073403)</span></td><td>2 year<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 200000003434 = '200000003434')</span></td><td>Do not store above 25 °C <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073344#100000073410)</span>, Do not freeze <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073344#100000073420)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Vial <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073563)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Glass type II <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003205)</span></p></blockquote></blockquote></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/containedItemQuantity" ];
+     fhir:Extension.valueQuantity [
+       fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+       fhir:Quantity.unit [ fhir:value "vial" ];
+       fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+       fhir:Quantity.code [ fhir:value "200000002158" ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.packageFor [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/Alburex-200g-L-Solution-SE-AJ-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Alburex-200g-L-Solution-SE-AJ-MedicinalProductDefinition" ]
+  ];
+  fhir:PackagedProductDefinition.description [
+     fhir:value "Injektionsflaska, 100 ml";
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/language" ];
+       fhir:Extension.valueCoding [
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072057" ];
+         fhir:Coding.code [ fhir:value "100000072288" ];
+         fhir:Coding.display [ fhir:value "Swedish" ]
+       ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.marketingStatus [
+     fhir:index 0;
+     fhir:MarketingStatus.country [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000002" ];
+         fhir:Coding.code [ fhir:value "100000000535" ];
+         fhir:Coding.display [ fhir:value "Sweden" ]
+       ]
+     ];
+     fhir:MarketingStatus.status [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072052" ];
+         fhir:Coding.code [ fhir:value "100000072083" ];
+         fhir:Coding.display [ fhir:value "Marketed" ]
+       ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.package [
+     fhir:PackagedProductDefinition.package.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073346" ];
+         fhir:Coding.code [ fhir:value "100000073498" ];
+         fhir:Coding.display [ fhir:value "Box" ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.quantity [ fhir:value "1"^^xsd:integer ];
+     fhir:PackagedProductDefinition.package.material [
+       fhir:index 0;
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+         fhir:Coding.code [ fhir:value "200000003529" ];
+         fhir:Coding.display [ fhir:value "Cardboard" ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.shelfLifeStorage [
+       fhir:index 0;
+       fhir:PackagedProductDefinition.package.shelfLifeStorage.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073343" ];
+           fhir:Coding.code [ fhir:value "100000073403" ];
+           fhir:Coding.display [ fhir:value "Shelf life of the medicinal product as packaged for sale" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.shelfLifeStorage.periodDuration [
+         fhir:Quantity.value [ fhir:value "2"^^xsd:decimal ];
+         fhir:Quantity.unit [ fhir:value "year" ];
+         fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000110633" ];
+         fhir:Quantity.code [ fhir:value "200000003434" ]
+       ];
+       fhir:PackagedProductDefinition.package.shelfLifeStorage.specialPrecautionsForStorage [
+         fhir:index 0;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000073344" ];
+           fhir:Coding.code [ fhir:value "100000073410" ];
+           fhir:Coding.display [ fhir:value "Do not store above 25 °C" ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000073344" ];
+           fhir:Coding.code [ fhir:value "100000073420" ];
+           fhir:Coding.display [ fhir:value "Do not freeze" ]
+         ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.package [
+       fhir:index 0;
+       fhir:PackagedProductDefinition.package.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073346" ];
+           fhir:Coding.code [ fhir:value "100000073563" ];
+           fhir:Coding.display [ fhir:value "Vial" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.quantity [ fhir:value "1"^^xsd:integer ];
+       fhir:PackagedProductDefinition.package.material [
+         fhir:index 0;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+           fhir:Coding.code [ fhir:value "200000003205" ];
+           fhir:Coding.display [ fhir:value "Glass type II" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.containedItem [
+         fhir:index 0;
+         fhir:PackagedProductDefinition.package.containedItem.item [
+           fhir:CodeableReference.reference [
+             fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/Alburex-200g-L-Solution-SE-AJ-ManufacturedItemDefinition>;
+             fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Alburex-200g-L-Solution-SE-AJ-ManufacturedItemDefinition" ]
+           ]
+         ];
+         fhir:PackagedProductDefinition.package.containedItem.amount [
+           fhir:Quantity.value [ fhir:value "100"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "Millilitre(s)" ];
+           fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000110633" ];
+           fhir:Quantity.code [ fhir:value "100000110662" ]
+         ]
+       ]
+     ]
+  ] .
+
+<{$base}/ManufacturedItemDefinition/Alburex-200g-L-Solution-SE-AJ-ManufacturedItemDefinition> a fhir:ManufacturedItemDefinition;
+  fhir:Resource.id [ fhir:value "Alburex-200g-L-Solution-SE-AJ-ManufacturedItemDefinition"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"Alburex-200g-L-Solution-SE-AJ-ManufacturedItemDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;Alburex-200g-L-Solution-SE-AJ-ManufacturedItemDefinition&quot; </p></div><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: solution for infusion <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000073870)</span></p><p><b>unitOfPresentation</b>: vial <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000014#200000002158)</span></p></div>"
+  ];
+  fhir:ManufacturedItemDefinition.status [ fhir:value "active"];
+  fhir:ManufacturedItemDefinition.manufacturedDoseForm [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000004" ];
+       fhir:Coding.code [ fhir:value "100000073870" ];
+       fhir:Coding.display [ fhir:value "solution for infusion" ]
+     ]
+  ];
+  fhir:ManufacturedItemDefinition.unitOfPresentation [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+       fhir:Coding.code [ fhir:value "200000002158" ];
+       fhir:Coding.display [ fhir:value "vial" ]
+     ]
+  ] .
+
+<{$base}/Ingredient/Alburex-200g-L-Solution-SE-AJ-Ingredient> a fhir:Ingredient;
+  fhir:Resource.id [ fhir:value "Alburex-200g-L-Solution-SE-AJ-Ingredient"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"Alburex-200g-L-Solution-SE-AJ-Ingredient\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;Alburex-200g-L-Solution-SE-AJ-Ingredient&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_Alburex-200g-L-Solution-SE-AJ-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Alburex-200g-L-Solution-SE-AJ-MedicinalProductDefinition)</a></li><li><a href=\"#ManufacturedItemDefinition_Alburex-200g-L-Solution-SE-AJ-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/Alburex-200g-L-Solution-SE-AJ-ManufacturedItemDefinition)</a></li><li><a href=\"#AdministrableProductDefinition_Alburex-200g-L-Solution-SE-AJ-AdministrableProductDefinition\">See above (AdministrableProductDefinition/Alburex-200g-L-Solution-SE-AJ-AdministrableProductDefinition)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>human serum albumin <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000089024)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>concentration</b>: 200 gram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110654 = '100000110654')</span>/1 litre(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110661 = '100000110661')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>human serum albumin <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000089024)</span></td></tr></table><p><b>strength</b>: 200 gram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110654 = '100000110654')</span>/1 litre(s)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110661 = '100000110661')</span></p></blockquote></blockquote></blockquote></div>"
+  ];
+  fhir:Ingredient.status [ fhir:value "active"];
+  fhir:Ingredient.for [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/Alburex-200g-L-Solution-SE-AJ-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Alburex-200g-L-Solution-SE-AJ-MedicinalProductDefinition" ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/Alburex-200g-L-Solution-SE-AJ-ManufacturedItemDefinition>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Alburex-200g-L-Solution-SE-AJ-ManufacturedItemDefinition" ]
+  ], [
+     fhir:index 2;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/AdministrableProductDefinition/Alburex-200g-L-Solution-SE-AJ-AdministrableProductDefinition>;
+     fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/Alburex-200g-L-Solution-SE-AJ-AdministrableProductDefinition" ]
+  ];
+  fhir:Ingredient.role [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072050" ];
+       fhir:Coding.code [ fhir:value "100000072072" ];
+       fhir:Coding.display [ fhir:value "Active" ]
+     ]
+  ];
+  fhir:Ingredient.substance [
+     fhir:Ingredient.substance.code [
+       fhir:CodeableReference.concept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+           fhir:Coding.code [ fhir:value "100000089024" ];
+           fhir:Coding.display [ fhir:value "human serum albumin" ]
+         ]
+       ]
+     ];
+     fhir:Ingredient.substance.strength [
+       fhir:index 0;
+       fhir:Ingredient.substance.strength.concentrationRatio [
+         fhir:Ratio.numerator [
+           fhir:Quantity.value [ fhir:value "200"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "gram(s)" ];
+           fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000110633" ];
+           fhir:Quantity.code [ fhir:value "100000110654" ]
+         ];
+         fhir:Ratio.denominator [
+           fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "litre(s)" ];
+           fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000110633" ];
+           fhir:Quantity.code [ fhir:value "100000110661" ]
+         ]
+       ];
+       fhir:Ingredient.substance.strength.referenceStrength [
+         fhir:index 0;
+         fhir:Ingredient.substance.strength.referenceStrength.substance [
+           fhir:CodeableReference.concept [
+             fhir:CodeableConcept.coding [
+               fhir:index 0;
+               fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+               fhir:Coding.code [ fhir:value "100000089024" ];
+               fhir:Coding.display [ fhir:value "human serum albumin" ]
+             ]
+           ]
+         ];
+         fhir:Ingredient.substance.strength.referenceStrength.strengthRatio [
+           fhir:Ratio.numerator [
+             fhir:Quantity.value [ fhir:value "200"^^xsd:decimal ];
+             fhir:Quantity.unit [ fhir:value "gram(s)" ];
+             fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000110633" ];
+             fhir:Quantity.code [ fhir:value "100000110654" ]
+           ];
+           fhir:Ratio.denominator [
+             fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+             fhir:Quantity.unit [ fhir:value "litre(s)" ];
+             fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000110633" ];
+             fhir:Quantity.code [ fhir:value "100000110661" ]
+           ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7-eu.github.io/unicom-ig/Bundle/Alburex-200g-L-Solution-SE-AJ.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

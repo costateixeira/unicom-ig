@@ -1,0 +1,995 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7-eu.github.io/unicom-ig/Bundle/InfluvacTetra-0.5ml-Suspension-SE-AJ> a fhir:Bundle;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "InfluvacTetra-0.5ml-Suspension-SE-AJ"];
+  fhir:Bundle.type [ fhir:value "batch"];
+  fhir:Bundle.entry [
+     fhir:index 0;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition" ];
+     fhir:Bundle.entry.resource <{$base}/MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/RegulatedAuthorization/InfluvacTetra-0.5ml-Suspension-SE-AJ-RegulatedAuthorization" ];
+     fhir:Bundle.entry.resource <{$base}/RegulatedAuthorization/InfluvacTetra-0.5ml-Suspension-SE-AJ-RegulatedAuthorization>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "RegulatedAuthorization/InfluvacTetra-0.5ml-Suspension-SE-AJ-RegulatedAuthorization" ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/AdministrableProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-AdministrableProductDef" ];
+     fhir:Bundle.entry.resource <{$base}/AdministrableProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-AdministrableProductDef>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "AdministrableProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-AdministrableProductDef" ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/PackagedProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-PackagedProductDef01" ];
+     fhir:Bundle.entry.resource <{$base}/PackagedProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-PackagedProductDef01>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "PackagedProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-PackagedProductDef01" ]
+     ]
+  ], [
+     fhir:index 4;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/PackagedProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-PackagedProductDef02" ];
+     fhir:Bundle.entry.resource <{$base}/PackagedProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-PackagedProductDef02>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "PackagedProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-PackagedProductDef02" ]
+     ]
+  ], [
+     fhir:index 5;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/ManufacturedItemDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition" ];
+     fhir:Bundle.entry.resource <{$base}/ManufacturedItemDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "ManufacturedItemDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition" ]
+     ]
+  ], [
+     fhir:index 6;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/Ingredient/InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient01" ];
+     fhir:Bundle.entry.resource <{$base}/Ingredient/InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient01>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Ingredient/InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient01" ]
+     ]
+  ], [
+     fhir:index 7;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/Ingredient/InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient02" ];
+     fhir:Bundle.entry.resource <{$base}/Ingredient/InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient02>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Ingredient/InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient02" ]
+     ]
+  ], [
+     fhir:index 8;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/Ingredient/InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient03" ];
+     fhir:Bundle.entry.resource <{$base}/Ingredient/InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient03>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Ingredient/InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient03" ]
+     ]
+  ], [
+     fhir:index 9;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/Ingredient/InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient04" ];
+     fhir:Bundle.entry.resource <{$base}/Ingredient/InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient04>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Ingredient/InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient04" ]
+     ]
+  ] .
+
+<{$base}/MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition> a fhir:MedicinalProductDefinition;
+  fhir:Resource.id [ fhir:value "InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition&quot; </p></div><p><b>identifier</b>: id: SE-100002180-00055200, id: 1744</p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000005003#200000005004)</span></p><p><b>indication</b>: Influensaprofylax, speciellt för dem som löper ökad risk för influensarelaterade komplikationer. Influvac Tetra är indicerat för vuxna och barn från 6 månaders ålder. Användningen av Influvac Tetra ska bedömas på basis av officiella rekommendationer.</p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072051#100000072084)</span></p><p><b>classification</b>: J07BB02 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000093533#100000096563)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Influvac Tetra Injektionsvätska, suspension, förfylld spruta</p><blockquote><p><b>namePart</b></p><p><b>part</b>: Influvac Tetra</p><p><b>type</b>: Invented Name Part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: Injektionsvätska, suspension, förfylld spruta</p><p><b>type</b>: Pharmaceutical dose form part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Swedish <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072057#100000072288)</span></td></tr></table></blockquote></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/authorisedDoseForm" ];
+     fhir:Extension.valueCoding [
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000007" ];
+       fhir:Coding.code [ fhir:value "100000074063" ];
+       fhir:Coding.display [ fhir:value "Suspension for injection in pre-filled syringe" ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "http://ema.europa.eu/fhir/mpId" ];
+     fhir:Identifier.value [ fhir:value "SE-100002180-00055200" ]
+  ], [
+     fhir:index 1;
+     fhir:Identifier.system [ fhir:value "http://ema.europa.eu/fhir/eurdId" ];
+     fhir:Identifier.value [ fhir:value "1744" ]
+  ];
+  fhir:MedicinalProductDefinition.domain [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000004" ];
+       fhir:Coding.code [ fhir:value "100000000012" ];
+       fhir:Coding.display [ fhir:value "Human use" ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.status [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000005003" ];
+       fhir:Coding.code [ fhir:value "200000005004" ];
+       fhir:Coding.display [ fhir:value "Current" ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.indication [ fhir:value "Influensaprofylax, speciellt för dem som löper ökad risk för influensarelaterade komplikationer. Influvac Tetra är indicerat för vuxna och barn från 6 månaders ålder. Användningen av Influvac Tetra ska bedömas på basis av officiella rekommendationer."];
+  fhir:MedicinalProductDefinition.legalStatusOfSupply [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072051" ];
+       fhir:Coding.code [ fhir:value "100000072084" ];
+       fhir:Coding.display [ fhir:value "Medicinal product subject to medical prescription" ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.classification [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000093533" ];
+       fhir:Coding.code [ fhir:value "100000096563" ];
+       fhir:Coding.display [ fhir:value "J07BB02" ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.name [
+     fhir:index 0;
+     fhir:MedicinalProductDefinition.name.productName [ fhir:value "Influvac Tetra Injektionsvätska, suspension, förfylld spruta" ];
+     fhir:MedicinalProductDefinition.name.namePart [
+       fhir:index 0;
+       fhir:MedicinalProductDefinition.name.namePart.part [ fhir:value "Influvac Tetra" ];
+       fhir:MedicinalProductDefinition.name.namePart.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/220000000000" ];
+           fhir:Coding.code [ fhir:value "220000000002" ];
+           fhir:Coding.display [ fhir:value "Invented Name Part" ]
+         ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:MedicinalProductDefinition.name.namePart.part [ fhir:value "Injektionsvätska, suspension, förfylld spruta" ];
+       fhir:MedicinalProductDefinition.name.namePart.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/220000000000" ];
+           fhir:Coding.code [ fhir:value "220000000005" ];
+           fhir:Coding.display [ fhir:value "Pharmaceutical dose form part" ]
+         ]
+       ]
+     ];
+     fhir:MedicinalProductDefinition.name.countryLanguage [
+       fhir:index 0;
+       fhir:MedicinalProductDefinition.name.countryLanguage.country [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000002" ];
+           fhir:Coding.code [ fhir:value "100000000535" ];
+           fhir:Coding.display [ fhir:value "Sweden" ]
+         ]
+       ];
+       fhir:MedicinalProductDefinition.name.countryLanguage.language [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072057" ];
+           fhir:Coding.code [ fhir:value "100000072288" ];
+           fhir:Coding.display [ fhir:value "Swedish" ]
+         ]
+       ]
+     ]
+  ] .
+
+<{$base}/RegulatedAuthorization/InfluvacTetra-0.5ml-Suspension-SE-AJ-RegulatedAuthorization> a fhir:RegulatedAuthorization;
+  fhir:Resource.id [ fhir:value "InfluvacTetra-0.5ml-Suspension-SE-AJ-RegulatedAuthorization"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"InfluvacTetra-0.5ml-Suspension-SE-AJ-RegulatedAuthorization\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;InfluvacTetra-0.5ml-Suspension-SE-AJ-RegulatedAuthorization&quot; </p></div><p><b>identifier</b>: id: 55200</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition\">See above (MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000060#220000000061)</span></p><p><b>region</b>: Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></p><p><b>status</b>: Valid <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072049#100000072099)</span></p><p><b>statusDate</b>: 2017-11-17</p><p><b>holder</b>: <span>: BGP Products AB</span></p><h3>Cases</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Date[x]</b></td></tr><tr><td>*</td><td>First Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (authorisationDateType#dateOfFirstAuthorisation)</span></td><td>2017-11-17</td></tr></table></div>"
+  ];
+  fhir:RegulatedAuthorization.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "http://ema.europa.eu/fhir/MarketingAuthorizationNumber" ];
+     fhir:Identifier.value [ fhir:value "55200" ]
+  ];
+  fhir:RegulatedAuthorization.subject [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition" ]
+  ];
+  fhir:RegulatedAuthorization.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/220000000060" ];
+       fhir:Coding.code [ fhir:value "220000000061" ];
+       fhir:Coding.display [ fhir:value "Marketing Authorisation" ]
+     ]
+  ];
+  fhir:RegulatedAuthorization.region [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000002" ];
+       fhir:Coding.code [ fhir:value "100000000535" ];
+       fhir:Coding.display [ fhir:value "Sweden" ]
+     ]
+  ];
+  fhir:RegulatedAuthorization.status [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072049" ];
+       fhir:Coding.code [ fhir:value "100000072099" ];
+       fhir:Coding.display [ fhir:value "Valid" ]
+     ]
+  ];
+  fhir:RegulatedAuthorization.statusDate [ fhir:value "2017-11-17"^^xsd:date];
+  fhir:RegulatedAuthorization.holder [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/v1/locations" ];
+       fhir:Identifier.value [ fhir:value "LOC-100010533" ]
+     ];
+     fhir:Reference.display [ fhir:value "BGP Products AB" ]
+  ];
+  fhir:RegulatedAuthorization.case [
+     fhir:RegulatedAuthorization.case.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://ema.europa.eu/fhir/authorisationDateType" ];
+         fhir:Coding.code [ fhir:value "dateOfFirstAuthorisation" ];
+         fhir:Coding.display [ fhir:value "First Authorisation" ]
+       ]
+     ];
+     fhir:RegulatedAuthorization.case.dateDateTime [ fhir:value "2017-11-17"^^xsd:date ]
+  ] .
+
+<{$base}/AdministrableProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-AdministrableProductDef> a fhir:AdministrableProductDefinition;
+  fhir:Resource.id [ fhir:value "InfluvacTetra-0.5ml-Suspension-SE-AJ-AdministrableProductDef"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"InfluvacTetra-0.5ml-Suspension-SE-AJ-AdministrableProductDef\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;InfluvacTetra-0.5ml-Suspension-SE-AJ-AdministrableProductDef&quot; </p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"#MedicinalProductDefinition_InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition\">See above (MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition)</a></p><p><b>administrableDoseForm</b>: Suspension for injection <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000073864)</span></p><p><b>producedFrom</b>: <a href=\"#ManufacturedItemDefinition_InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition)</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Intramuscular use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073345#100000073600)</span></p></blockquote><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Subcutaneous use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073345#100000073633)</span></p></blockquote></div>"
+  ];
+  fhir:AdministrableProductDefinition.status [ fhir:value "active"];
+  fhir:AdministrableProductDefinition.formOf [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition" ]
+  ];
+  fhir:AdministrableProductDefinition.administrableDoseForm [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000004" ];
+       fhir:Coding.code [ fhir:value "100000073864" ];
+       fhir:Coding.display [ fhir:value "Suspension for injection" ]
+     ]
+  ];
+  fhir:AdministrableProductDefinition.producedFrom [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition" ]
+  ];
+  fhir:AdministrableProductDefinition.routeOfAdministration [
+     fhir:index 0;
+     fhir:AdministrableProductDefinition.routeOfAdministration.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073345" ];
+         fhir:Coding.code [ fhir:value "100000073600" ];
+         fhir:Coding.display [ fhir:value "Intramuscular use" ]
+       ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:AdministrableProductDefinition.routeOfAdministration.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073345" ];
+         fhir:Coding.code [ fhir:value "100000073633" ];
+         fhir:Coding.display [ fhir:value "Subcutaneous use" ]
+       ]
+     ]
+  ] .
+
+<{$base}/PackagedProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-PackagedProductDef01> a fhir:PackagedProductDefinition;
+  fhir:Resource.id [ fhir:value "InfluvacTetra-0.5ml-Suspension-SE-AJ-PackagedProductDef01"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"InfluvacTetra-0.5ml-Suspension-SE-AJ-PackagedProductDef01\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;InfluvacTetra-0.5ml-Suspension-SE-AJ-PackagedProductDef01&quot; </p></div><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition\">See above (MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition)</a></p><p><b>description</b>: Förfylld spruta, 10 x 0,5 ml, med nål</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003529)</span></p><h3>ShelfLifeStorages</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Period[x]</b></td><td><b>SpecialPrecautionsForStorage</b></td></tr><tr><td>*</td><td>Shelf life of the medicinal product as packaged for sale <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073343#100000073403)</span></td><td>1 year<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 200000003434 = '200000003434')</span></td><td>Store in a refrigerator (2°C - 8°C) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073344#100000073414)</span>, Do not freeze <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073344#100000073420)</span>, Store in the original package <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073344#100000073421)</span>, in order to protect from light <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073344#100000073426)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Pre-filled syringe <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073544)</span></p><p><b>quantity</b>: 10</p><p><b>material</b>: Glass type I <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003204)</span></p></blockquote></blockquote></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/containedItemQuantity" ];
+     fhir:Extension.valueQuantity [
+       fhir:Quantity.value [ fhir:value "10"^^xsd:decimal ];
+       fhir:Quantity.unit [ fhir:value "Syringe" ];
+       fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+       fhir:Quantity.code [ fhir:value "200000002150" ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.packageFor [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition" ]
+  ];
+  fhir:PackagedProductDefinition.description [
+     fhir:value "Förfylld spruta, 10 x 0,5 ml, med nål";
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/language" ];
+       fhir:Extension.valueCoding [
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072057" ];
+         fhir:Coding.code [ fhir:value "100000072288" ];
+         fhir:Coding.display [ fhir:value "Swedish" ]
+       ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.marketingStatus [
+     fhir:index 0;
+     fhir:MarketingStatus.country [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000002" ];
+         fhir:Coding.code [ fhir:value "100000000535" ];
+         fhir:Coding.display [ fhir:value "Sweden" ]
+       ]
+     ];
+     fhir:MarketingStatus.status [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072052" ];
+         fhir:Coding.code [ fhir:value "100000072083" ];
+         fhir:Coding.display [ fhir:value "Marketed" ]
+       ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.package [
+     fhir:PackagedProductDefinition.package.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073346" ];
+         fhir:Coding.code [ fhir:value "100000073498" ];
+         fhir:Coding.display [ fhir:value "Box" ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.quantity [ fhir:value "1"^^xsd:integer ];
+     fhir:PackagedProductDefinition.package.material [
+       fhir:index 0;
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+         fhir:Coding.code [ fhir:value "200000003529" ];
+         fhir:Coding.display [ fhir:value "Cardboard" ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.shelfLifeStorage [
+       fhir:index 0;
+       fhir:PackagedProductDefinition.package.shelfLifeStorage.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073343" ];
+           fhir:Coding.code [ fhir:value "100000073403" ];
+           fhir:Coding.display [ fhir:value "Shelf life of the medicinal product as packaged for sale" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.shelfLifeStorage.periodDuration [
+         fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+         fhir:Quantity.unit [ fhir:value "year" ];
+         fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000110633" ];
+         fhir:Quantity.code [ fhir:value "200000003434" ]
+       ];
+       fhir:PackagedProductDefinition.package.shelfLifeStorage.specialPrecautionsForStorage [
+         fhir:index 0;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000073344" ];
+           fhir:Coding.code [ fhir:value "100000073414" ];
+           fhir:Coding.display [ fhir:value "Store in a refrigerator (2°C - 8°C)" ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000073344" ];
+           fhir:Coding.code [ fhir:value "100000073420" ];
+           fhir:Coding.display [ fhir:value "Do not freeze" ]
+         ]
+       ], [
+         fhir:index 2;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000073344" ];
+           fhir:Coding.code [ fhir:value "100000073421" ];
+           fhir:Coding.display [ fhir:value "Store in the original package" ]
+         ]
+       ], [
+         fhir:index 3;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000073344" ];
+           fhir:Coding.code [ fhir:value "100000073426" ];
+           fhir:Coding.display [ fhir:value "in order to protect from light" ]
+         ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.package [
+       fhir:index 0;
+       fhir:PackagedProductDefinition.package.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073346" ];
+           fhir:Coding.code [ fhir:value "100000073544" ];
+           fhir:Coding.display [ fhir:value "Pre-filled syringe" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.quantity [ fhir:value "10"^^xsd:integer ];
+       fhir:PackagedProductDefinition.package.material [
+         fhir:index 0;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+           fhir:Coding.code [ fhir:value "200000003204" ];
+           fhir:Coding.display [ fhir:value "Glass type I" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.containedItem [
+         fhir:index 0;
+         fhir:PackagedProductDefinition.package.containedItem.item [
+           fhir:CodeableReference.reference [
+             fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition>;
+             fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition" ]
+           ]
+         ];
+         fhir:PackagedProductDefinition.package.containedItem.amount [
+           fhir:Quantity.value [ fhir:value "0.5"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "Millilitre(s)" ];
+           fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000110633" ];
+           fhir:Quantity.code [ fhir:value "100000110662" ]
+         ]
+       ]
+     ]
+  ] .
+
+<{$base}/PackagedProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-PackagedProductDef02> a fhir:PackagedProductDefinition;
+  fhir:Resource.id [ fhir:value "InfluvacTetra-0.5ml-Suspension-SE-AJ-PackagedProductDef02"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"InfluvacTetra-0.5ml-Suspension-SE-AJ-PackagedProductDef02\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;InfluvacTetra-0.5ml-Suspension-SE-AJ-PackagedProductDef02&quot; </p></div><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition\">See above (MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition)</a></p><p><b>description</b>: Förfylld spruta, 10 x 0,5 ml, utan nål</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003529)</span></p><h3>ShelfLifeStorages</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Period[x]</b></td><td><b>SpecialPrecautionsForStorage</b></td></tr><tr><td>*</td><td>Shelf life of the medicinal product as packaged for sale <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073343#100000073403)</span></td><td>1 year<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 200000003434 = '200000003434')</span></td><td>Store in a refrigerator (2°C - 8°C) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073344#100000073414)</span>, Do not freeze <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073344#100000073420)</span>, Store in the original package <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073344#100000073421)</span>, in order to protect from light <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073344#100000073426)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Pre-filled syringe <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073544)</span></p><p><b>quantity</b>: 10</p><p><b>material</b>: Glass type I <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003204)</span></p></blockquote></blockquote></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/containedItemQuantity" ];
+     fhir:Extension.valueQuantity [
+       fhir:Quantity.value [ fhir:value "10"^^xsd:decimal ];
+       fhir:Quantity.unit [ fhir:value "Syringe" ];
+       fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+       fhir:Quantity.code [ fhir:value "200000002150" ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.packageFor [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition" ]
+  ];
+  fhir:PackagedProductDefinition.description [
+     fhir:value "Förfylld spruta, 10 x 0,5 ml, utan nål";
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/language" ];
+       fhir:Extension.valueCoding [
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072057" ];
+         fhir:Coding.code [ fhir:value "100000072288" ];
+         fhir:Coding.display [ fhir:value "Swedish" ]
+       ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.marketingStatus [
+     fhir:index 0;
+     fhir:MarketingStatus.country [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000002" ];
+         fhir:Coding.code [ fhir:value "100000000535" ];
+         fhir:Coding.display [ fhir:value "Sweden" ]
+       ]
+     ];
+     fhir:MarketingStatus.status [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072052" ];
+         fhir:Coding.code [ fhir:value "100000072083" ];
+         fhir:Coding.display [ fhir:value "Marketed" ]
+       ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.package [
+     fhir:PackagedProductDefinition.package.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073346" ];
+         fhir:Coding.code [ fhir:value "100000073498" ];
+         fhir:Coding.display [ fhir:value "Box" ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.quantity [ fhir:value "1"^^xsd:integer ];
+     fhir:PackagedProductDefinition.package.material [
+       fhir:index 0;
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+         fhir:Coding.code [ fhir:value "200000003529" ];
+         fhir:Coding.display [ fhir:value "Cardboard" ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.shelfLifeStorage [
+       fhir:index 0;
+       fhir:PackagedProductDefinition.package.shelfLifeStorage.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073343" ];
+           fhir:Coding.code [ fhir:value "100000073403" ];
+           fhir:Coding.display [ fhir:value "Shelf life of the medicinal product as packaged for sale" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.shelfLifeStorage.periodDuration [
+         fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+         fhir:Quantity.unit [ fhir:value "year" ];
+         fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000110633" ];
+         fhir:Quantity.code [ fhir:value "200000003434" ]
+       ];
+       fhir:PackagedProductDefinition.package.shelfLifeStorage.specialPrecautionsForStorage [
+         fhir:index 0;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000073344" ];
+           fhir:Coding.code [ fhir:value "100000073414" ];
+           fhir:Coding.display [ fhir:value "Store in a refrigerator (2°C - 8°C)" ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000073344" ];
+           fhir:Coding.code [ fhir:value "100000073420" ];
+           fhir:Coding.display [ fhir:value "Do not freeze" ]
+         ]
+       ], [
+         fhir:index 2;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000073344" ];
+           fhir:Coding.code [ fhir:value "100000073421" ];
+           fhir:Coding.display [ fhir:value "Store in the original package" ]
+         ]
+       ], [
+         fhir:index 3;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000073344" ];
+           fhir:Coding.code [ fhir:value "100000073426" ];
+           fhir:Coding.display [ fhir:value "in order to protect from light" ]
+         ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.package [
+       fhir:index 0;
+       fhir:PackagedProductDefinition.package.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073346" ];
+           fhir:Coding.code [ fhir:value "100000073544" ];
+           fhir:Coding.display [ fhir:value "Pre-filled syringe" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.quantity [ fhir:value "10"^^xsd:integer ];
+       fhir:PackagedProductDefinition.package.material [
+         fhir:index 0;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+           fhir:Coding.code [ fhir:value "200000003204" ];
+           fhir:Coding.display [ fhir:value "Glass type I" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.containedItem [
+         fhir:index 0;
+         fhir:PackagedProductDefinition.package.containedItem.item [
+           fhir:CodeableReference.reference [
+             fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition>;
+             fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition" ]
+           ]
+         ];
+         fhir:PackagedProductDefinition.package.containedItem.amount [
+           fhir:Quantity.value [ fhir:value "0.5"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "Millilitre(s)" ];
+           fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000110633" ];
+           fhir:Quantity.code [ fhir:value "100000110662" ]
+         ]
+       ]
+     ]
+  ] .
+
+<{$base}/ManufacturedItemDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition> a fhir:ManufacturedItemDefinition;
+  fhir:Resource.id [ fhir:value "InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition&quot; </p></div><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Suspension for injection <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000073864)</span></p><p><b>unitOfPresentation</b>: syringe <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000014#200000002150)</span></p></div>"
+  ];
+  fhir:ManufacturedItemDefinition.status [ fhir:value "active"];
+  fhir:ManufacturedItemDefinition.manufacturedDoseForm [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000004" ];
+       fhir:Coding.code [ fhir:value "100000073864" ];
+       fhir:Coding.display [ fhir:value "Suspension for injection" ]
+     ]
+  ];
+  fhir:ManufacturedItemDefinition.unitOfPresentation [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+       fhir:Coding.code [ fhir:value "200000002150" ];
+       fhir:Coding.display [ fhir:value "syringe" ]
+     ]
+  ] .
+
+<{$base}/Ingredient/InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient01> a fhir:Ingredient;
+  fhir:Resource.id [ fhir:value "InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient01"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient01\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient01&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition\">See above (MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition)</a></li><li><a href=\"#ManufacturedItemDefinition_InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition)</a></li><li><a href=\"#AdministrableProductDefinition_InfluvacTetra-0.5ml-Suspension-SE-AJ-AdministrableProductDef\">See above (AdministrableProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-AdministrableProductDef)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>A/Cambodia/e0826360/2020 (H3N2)-like strain (A/Cambodia/e0826360/2020 IVR-224) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#300000036060)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>presentation</b>: 15 microgram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110656 = '100000110656')</span>/1 syringe<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002150 = '200000002150')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>A/Cambodia/e0826360/2020 (H3N2)-like strain (A/Cambodia/e0826360/2020 IVR-224) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#300000036060)</span></td></tr></table><p><b>strength</b>: 15 microgram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110656 = '100000110656')</span>/1 syringe<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002150 = '200000002150')</span></p></blockquote></blockquote></blockquote></div>"
+  ];
+  fhir:Ingredient.status [ fhir:value "active"];
+  fhir:Ingredient.for [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition" ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition" ]
+  ], [
+     fhir:index 2;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/AdministrableProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-AdministrableProductDef>;
+     fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-AdministrableProductDef" ]
+  ];
+  fhir:Ingredient.role [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072050" ];
+       fhir:Coding.code [ fhir:value "100000072072" ];
+       fhir:Coding.display [ fhir:value "Active" ]
+     ]
+  ];
+  fhir:Ingredient.substance [
+     fhir:Ingredient.substance.code [
+       fhir:CodeableReference.concept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+           fhir:Coding.code [ fhir:value "300000036060" ];
+           fhir:Coding.display [ fhir:value "A/Cambodia/e0826360/2020 (H3N2)-like strain (A/Cambodia/e0826360/2020 IVR-224)" ]
+         ]
+       ]
+     ];
+     fhir:Ingredient.substance.strength [
+       fhir:index 0;
+       fhir:Ingredient.substance.strength.presentationRatio [
+         fhir:Ratio.numerator [
+           fhir:Quantity.value [ fhir:value "15"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "microgram(s)" ];
+           fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000110633" ];
+           fhir:Quantity.code [ fhir:value "100000110656" ]
+         ];
+         fhir:Ratio.denominator [
+           fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "syringe" ];
+           fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000014" ];
+           fhir:Quantity.code [ fhir:value "200000002150" ]
+         ]
+       ];
+       fhir:Ingredient.substance.strength.referenceStrength [
+         fhir:index 0;
+         fhir:Ingredient.substance.strength.referenceStrength.substance [
+           fhir:CodeableReference.concept [
+             fhir:CodeableConcept.coding [
+               fhir:index 0;
+               fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+               fhir:Coding.code [ fhir:value "300000036060" ];
+               fhir:Coding.display [ fhir:value "A/Cambodia/e0826360/2020 (H3N2)-like strain (A/Cambodia/e0826360/2020 IVR-224)" ]
+             ]
+           ]
+         ];
+         fhir:Ingredient.substance.strength.referenceStrength.strengthRatio [
+           fhir:Ratio.numerator [
+             fhir:Quantity.value [ fhir:value "15"^^xsd:decimal ];
+             fhir:Quantity.unit [ fhir:value "microgram(s)" ];
+             fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000110633" ];
+             fhir:Quantity.code [ fhir:value "100000110656" ]
+           ];
+           fhir:Ratio.denominator [
+             fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+             fhir:Quantity.unit [ fhir:value "syringe" ];
+             fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000014" ];
+             fhir:Quantity.code [ fhir:value "200000002150" ]
+           ]
+         ]
+       ]
+     ]
+  ] .
+
+<{$base}/Ingredient/InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient02> a fhir:Ingredient;
+  fhir:Resource.id [ fhir:value "InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient02"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient02\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient02&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition\">See above (MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition)</a></li><li><a href=\"#ManufacturedItemDefinition_InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition)</a></li><li><a href=\"#AdministrableProductDefinition_InfluvacTetra-0.5ml-Suspension-SE-AJ-AdministrableProductDef\">See above (AdministrableProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-AdministrableProductDef)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>A/Victoria/2570/2019 (H1N1)pdm09-like strain (A/Victoria/2570/2019, IVR-215) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#300000034498)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>presentation</b>: 15 microgram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110656 = '100000110656')</span>/1 syringe<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002150 = '200000002150')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>A/Victoria/2570/2019 (H1N1)pdm09-like strain (A/Victoria/2570/2019, IVR-215) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#300000034498)</span></td></tr></table><p><b>strength</b>: 15 microgram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110656 = '100000110656')</span>/1 syringe<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002150 = '200000002150')</span></p></blockquote></blockquote></blockquote></div>"
+  ];
+  fhir:Ingredient.status [ fhir:value "active"];
+  fhir:Ingredient.for [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition" ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition" ]
+  ], [
+     fhir:index 2;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/AdministrableProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-AdministrableProductDef>;
+     fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-AdministrableProductDef" ]
+  ];
+  fhir:Ingredient.role [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072050" ];
+       fhir:Coding.code [ fhir:value "100000072072" ];
+       fhir:Coding.display [ fhir:value "Active" ]
+     ]
+  ];
+  fhir:Ingredient.substance [
+     fhir:Ingredient.substance.code [
+       fhir:CodeableReference.concept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+           fhir:Coding.code [ fhir:value "300000034498" ];
+           fhir:Coding.display [ fhir:value "A/Victoria/2570/2019 (H1N1)pdm09-like strain (A/Victoria/2570/2019, IVR-215)" ]
+         ]
+       ]
+     ];
+     fhir:Ingredient.substance.strength [
+       fhir:index 0;
+       fhir:Ingredient.substance.strength.presentationRatio [
+         fhir:Ratio.numerator [
+           fhir:Quantity.value [ fhir:value "15"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "microgram(s)" ];
+           fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000110633" ];
+           fhir:Quantity.code [ fhir:value "100000110656" ]
+         ];
+         fhir:Ratio.denominator [
+           fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "syringe" ];
+           fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000014" ];
+           fhir:Quantity.code [ fhir:value "200000002150" ]
+         ]
+       ];
+       fhir:Ingredient.substance.strength.referenceStrength [
+         fhir:index 0;
+         fhir:Ingredient.substance.strength.referenceStrength.substance [
+           fhir:CodeableReference.concept [
+             fhir:CodeableConcept.coding [
+               fhir:index 0;
+               fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+               fhir:Coding.code [ fhir:value "300000034498" ];
+               fhir:Coding.display [ fhir:value "A/Victoria/2570/2019 (H1N1)pdm09-like strain (A/Victoria/2570/2019, IVR-215)" ]
+             ]
+           ]
+         ];
+         fhir:Ingredient.substance.strength.referenceStrength.strengthRatio [
+           fhir:Ratio.numerator [
+             fhir:Quantity.value [ fhir:value "15"^^xsd:decimal ];
+             fhir:Quantity.unit [ fhir:value "microgram(s)" ];
+             fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000110633" ];
+             fhir:Quantity.code [ fhir:value "100000110656" ]
+           ];
+           fhir:Ratio.denominator [
+             fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+             fhir:Quantity.unit [ fhir:value "syringe" ];
+             fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000014" ];
+             fhir:Quantity.code [ fhir:value "200000002150" ]
+           ]
+         ]
+       ]
+     ]
+  ] .
+
+<{$base}/Ingredient/InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient03> a fhir:Ingredient;
+  fhir:Resource.id [ fhir:value "InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient03"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient03\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient03&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition\">See above (MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition)</a></li><li><a href=\"#ManufacturedItemDefinition_InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition)</a></li><li><a href=\"#AdministrableProductDefinition_InfluvacTetra-0.5ml-Suspension-SE-AJ-AdministrableProductDef\">See above (AdministrableProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-AdministrableProductDef)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>B/PHUKET/3073/2013-LIKE VIRUS (B/PHUKET/3073/2013, WILD TYPE) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000164127)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>presentation</b>: 15 microgram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110656 = '100000110656')</span>/1 syringe<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002150 = '200000002150')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>B/PHUKET/3073/2013-LIKE VIRUS (B/PHUKET/3073/2013, WILD TYPE) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000164127)</span></td></tr></table><p><b>strength</b>: 15 microgram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110656 = '100000110656')</span>/1 syringe<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002150 = '200000002150')</span></p></blockquote></blockquote></blockquote></div>"
+  ];
+  fhir:Ingredient.status [ fhir:value "active"];
+  fhir:Ingredient.for [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition" ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition" ]
+  ], [
+     fhir:index 2;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/AdministrableProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-AdministrableProductDef>;
+     fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-AdministrableProductDef" ]
+  ];
+  fhir:Ingredient.role [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072050" ];
+       fhir:Coding.code [ fhir:value "100000072072" ];
+       fhir:Coding.display [ fhir:value "Active" ]
+     ]
+  ];
+  fhir:Ingredient.substance [
+     fhir:Ingredient.substance.code [
+       fhir:CodeableReference.concept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+           fhir:Coding.code [ fhir:value "100000164127" ];
+           fhir:Coding.display [ fhir:value "B/PHUKET/3073/2013-LIKE VIRUS (B/PHUKET/3073/2013, WILD TYPE)" ]
+         ]
+       ]
+     ];
+     fhir:Ingredient.substance.strength [
+       fhir:index 0;
+       fhir:Ingredient.substance.strength.presentationRatio [
+         fhir:Ratio.numerator [
+           fhir:Quantity.value [ fhir:value "15"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "microgram(s)" ];
+           fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000110633" ];
+           fhir:Quantity.code [ fhir:value "100000110656" ]
+         ];
+         fhir:Ratio.denominator [
+           fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "syringe" ];
+           fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000014" ];
+           fhir:Quantity.code [ fhir:value "200000002150" ]
+         ]
+       ];
+       fhir:Ingredient.substance.strength.referenceStrength [
+         fhir:index 0;
+         fhir:Ingredient.substance.strength.referenceStrength.substance [
+           fhir:CodeableReference.concept [
+             fhir:CodeableConcept.coding [
+               fhir:index 0;
+               fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+               fhir:Coding.code [ fhir:value "100000164127" ];
+               fhir:Coding.display [ fhir:value "B/PHUKET/3073/2013-LIKE VIRUS (B/PHUKET/3073/2013, WILD TYPE)" ]
+             ]
+           ]
+         ];
+         fhir:Ingredient.substance.strength.referenceStrength.strengthRatio [
+           fhir:Ratio.numerator [
+             fhir:Quantity.value [ fhir:value "15"^^xsd:decimal ];
+             fhir:Quantity.unit [ fhir:value "microgram(s)" ];
+             fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000110633" ];
+             fhir:Quantity.code [ fhir:value "100000110656" ]
+           ];
+           fhir:Ratio.denominator [
+             fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+             fhir:Quantity.unit [ fhir:value "syringe" ];
+             fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000014" ];
+             fhir:Quantity.code [ fhir:value "200000002150" ]
+           ]
+         ]
+       ]
+     ]
+  ] .
+
+<{$base}/Ingredient/InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient04> a fhir:Ingredient;
+  fhir:Resource.id [ fhir:value "InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient04"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient04\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;InfluvacTetra-0.5ml-Suspension-SE-AJ-Ingredient04&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition\">See above (MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition)</a></li><li><a href=\"#ManufacturedItemDefinition_InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition)</a></li><li><a href=\"#AdministrableProductDefinition_InfluvacTetra-0.5ml-Suspension-SE-AJ-AdministrableProductDef\">See above (AdministrableProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-AdministrableProductDef)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>B/Washington/02/2019 - like virus (B/Washington/02/2019, wild type) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#300000017594)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>presentation</b>: 15 microgram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110656 = '100000110656')</span>/1 syringe<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002150 = '200000002150')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>B/Washington/02/2019 - like virus (B/Washington/02/2019, wild type) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#300000017594)</span></td></tr></table><p><b>strength</b>: 15 microgram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/100000110633 code 100000110656 = '100000110656')</span>/1 syringe<span style=\"background: LightGoldenRodYellow\"> (Details: https://spor.ema.europa.eu/v1/lists/200000000014 code 200000002150 = '200000002150')</span></p></blockquote></blockquote></blockquote></div>"
+  ];
+  fhir:Ingredient.status [ fhir:value "active"];
+  fhir:Ingredient.for [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-MedicinalProductDefinition" ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-ManufacturedItemDefinition" ]
+  ], [
+     fhir:index 2;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/AdministrableProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-AdministrableProductDef>;
+     fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/InfluvacTetra-0.5ml-Suspension-SE-AJ-AdministrableProductDef" ]
+  ];
+  fhir:Ingredient.role [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072050" ];
+       fhir:Coding.code [ fhir:value "100000072072" ];
+       fhir:Coding.display [ fhir:value "Active" ]
+     ]
+  ];
+  fhir:Ingredient.substance [
+     fhir:Ingredient.substance.code [
+       fhir:CodeableReference.concept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+           fhir:Coding.code [ fhir:value "300000017594" ];
+           fhir:Coding.display [ fhir:value "B/Washington/02/2019 - like virus (B/Washington/02/2019, wild type)" ]
+         ]
+       ]
+     ];
+     fhir:Ingredient.substance.strength [
+       fhir:index 0;
+       fhir:Ingredient.substance.strength.presentationRatio [
+         fhir:Ratio.numerator [
+           fhir:Quantity.value [ fhir:value "15"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "microgram(s)" ];
+           fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000110633" ];
+           fhir:Quantity.code [ fhir:value "100000110656" ]
+         ];
+         fhir:Ratio.denominator [
+           fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "syringe" ];
+           fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000014" ];
+           fhir:Quantity.code [ fhir:value "200000002150" ]
+         ]
+       ];
+       fhir:Ingredient.substance.strength.referenceStrength [
+         fhir:index 0;
+         fhir:Ingredient.substance.strength.referenceStrength.substance [
+           fhir:CodeableReference.concept [
+             fhir:CodeableConcept.coding [
+               fhir:index 0;
+               fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+               fhir:Coding.code [ fhir:value "300000017594" ];
+               fhir:Coding.display [ fhir:value "B/Washington/02/2019 - like virus (B/Washington/02/2019, wild type)" ]
+             ]
+           ]
+         ];
+         fhir:Ingredient.substance.strength.referenceStrength.strengthRatio [
+           fhir:Ratio.numerator [
+             fhir:Quantity.value [ fhir:value "15"^^xsd:decimal ];
+             fhir:Quantity.unit [ fhir:value "microgram(s)" ];
+             fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000110633" ];
+             fhir:Quantity.code [ fhir:value "100000110656" ]
+           ];
+           fhir:Ratio.denominator [
+             fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+             fhir:Quantity.unit [ fhir:value "syringe" ];
+             fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000014" ];
+             fhir:Quantity.code [ fhir:value "200000002150" ]
+           ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7-eu.github.io/unicom-ig/Bundle/InfluvacTetra-0.5ml-Suspension-SE-AJ.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -5,6 +5,18 @@
   "extensions": [],
   "profiles": {},
   "usage": {
+    "http://ema.europa.eu/fhir/extension/authorisedDoseForm": [
+      "Bundle.entry.resource"
+    ],
+    "http://ema.europa.eu/fhir/extension/containedItemQuantity": [
+      "Bundle.entry.resource"
+    ],
+    "http://ema.europa.eu/fhir/extension/language": [
+      "Bundle.entry.resource.description"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"
     ],

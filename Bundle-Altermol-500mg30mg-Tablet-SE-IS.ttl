@@ -1,0 +1,1342 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7-eu.github.io/unicom-ig/Bundle/Altermol-500mg30mg-Tablet-SE-IS> a fhir:Bundle;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Altermol-500mg30mg-Tablet-SE-IS"];
+  fhir:Bundle.type [ fhir:value "batch"];
+  fhir:Bundle.entry [
+     fhir:index 0;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition" ];
+     fhir:Bundle.entry.resource <{$base}/MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/RegulatedAuthorization/Altermol-500mg30mg-Tablet-SE-IS-RegulatedAuthorization" ];
+     fhir:Bundle.entry.resource <{$base}/RegulatedAuthorization/Altermol-500mg30mg-Tablet-SE-IS-RegulatedAuthorization>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "RegulatedAuthorization/Altermol-500mg30mg-Tablet-SE-IS-RegulatedAuthorization" ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition" ];
+     fhir:Bundle.entry.resource <{$base}/AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition" ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/PackagedProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition01" ];
+     fhir:Bundle.entry.resource <{$base}/PackagedProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition01>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "PackagedProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition01" ]
+     ]
+  ], [
+     fhir:index 4;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/PackagedProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition02" ];
+     fhir:Bundle.entry.resource <{$base}/PackagedProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition02>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "PackagedProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition02" ]
+     ]
+  ], [
+     fhir:index 5;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/PackagedProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition03" ];
+     fhir:Bundle.entry.resource <{$base}/PackagedProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition03>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "PackagedProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition03" ]
+     ]
+  ], [
+     fhir:index 6;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/PackagedProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition04" ];
+     fhir:Bundle.entry.resource <{$base}/PackagedProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition04>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "PackagedProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition04" ]
+     ]
+  ], [
+     fhir:index 7;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition" ];
+     fhir:Bundle.entry.resource <{$base}/ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition" ]
+     ]
+  ], [
+     fhir:index 8;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient01" ];
+     fhir:Bundle.entry.resource <{$base}/Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient01>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient01" ]
+     ]
+  ], [
+     fhir:index 9;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient02" ];
+     fhir:Bundle.entry.resource <{$base}/Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient02>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient02" ]
+     ]
+  ], [
+     fhir:index 10;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient03" ];
+     fhir:Bundle.entry.resource <{$base}/Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient03>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient03" ]
+     ]
+  ], [
+     fhir:index 11;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient04" ];
+     fhir:Bundle.entry.resource <{$base}/Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient04>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient04" ]
+     ]
+  ], [
+     fhir:index 12;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient05a" ];
+     fhir:Bundle.entry.resource <{$base}/Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient05a>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient05a" ]
+     ]
+  ], [
+     fhir:index 13;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient05b" ];
+     fhir:Bundle.entry.resource <{$base}/Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient05b>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient05b" ]
+     ]
+  ], [
+     fhir:index 14;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient06" ];
+     fhir:Bundle.entry.resource <{$base}/Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient06>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient06" ]
+     ]
+  ], [
+     fhir:index 15;
+     fhir:Bundle.entry.fullUrl [ fhir:value "{$base}/Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient08" ];
+     fhir:Bundle.entry.resource <{$base}/Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient08>;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "POST" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient08" ]
+     ]
+  ] .
+
+<{$base}/MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition> a fhir:MedicinalProductDefinition;
+  fhir:Resource.id [ fhir:value "Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition&quot; </p></div><p><b>identifier</b>: id: SE-100001659-00050802, id: 851</p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000005003#200000005004)</span></p><p><b>indication</b>: Opiodkänslig smärta när enbart perifert verkande analgetika inte är tillräcklig. Kodein är indicerat för vuxna, ungdomar och barn äldre än 12 år för behandling av akut måttlig smärta, som  inte anses kunna lindras av andra analgetika såsom paracetamol eller ibuprofen (enbart).</p><p><b>legalStatusOfSupply</b>: Medicinal product subject to special medical prescription <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072051#100000072085)</span></p><p><b>classification</b>: N02AJ06 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000116677#100000093533)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Altermol 500 mg/30 mg Tablett</p><blockquote><p><b>namePart</b></p><p><b>part</b>: Altermol</p><p><b>type</b>: Invented name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 500 mg/30 mg</p><p><b>type</b>: Strength part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: Tablett</p><p><b>type</b>: Pharmaceutical dose form part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Swedish <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072057#100000072288)</span></td></tr></table></blockquote><h3>Characteristics</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td></tr><tr><td>*</td><td>Medicine Profile: <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003186#200000003187 &quot;combined therapeutic medicine / device&quot;)</span></td></tr></table></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/authorisedDoseForm" ];
+     fhir:Extension.valueCoding [
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000004" ];
+       fhir:Coding.code [ fhir:value "100000073664" ];
+       fhir:Coding.display [ fhir:value "Tablet" ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "http://ema.europa.eu/fhir/mpId" ];
+     fhir:Identifier.value [ fhir:value "SE-100001659-00050802" ]
+  ], [
+     fhir:index 1;
+     fhir:Identifier.system [ fhir:value "http://ema.europa.eu/fhir/eurdId" ];
+     fhir:Identifier.value [ fhir:value "851" ]
+  ];
+  fhir:MedicinalProductDefinition.domain [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000004" ];
+       fhir:Coding.code [ fhir:value "100000000012" ];
+       fhir:Coding.display [ fhir:value "Human use" ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.status [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000005003" ];
+       fhir:Coding.code [ fhir:value "200000005004" ];
+       fhir:Coding.display [ fhir:value "Current" ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.indication [ fhir:value "Opiodkänslig smärta när enbart perifert verkande analgetika inte är tillräcklig. Kodein är indicerat för vuxna, ungdomar och barn äldre än 12 år för behandling av akut måttlig smärta, som  inte anses kunna lindras av andra analgetika såsom paracetamol eller ibuprofen (enbart)."];
+  fhir:MedicinalProductDefinition.legalStatusOfSupply [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072051" ];
+       fhir:Coding.code [ fhir:value "100000072085" ];
+       fhir:Coding.display [ fhir:value "Medicinal product subject to special medical prescription" ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.classification [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000116677" ];
+       fhir:Coding.code [ fhir:value "100000093533" ];
+       fhir:Coding.display [ fhir:value "N02AJ06" ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.name [
+     fhir:index 0;
+     fhir:MedicinalProductDefinition.name.productName [ fhir:value "Altermol 500 mg/30 mg Tablett" ];
+     fhir:MedicinalProductDefinition.name.namePart [
+       fhir:index 0;
+       fhir:MedicinalProductDefinition.name.namePart.part [ fhir:value "Altermol" ];
+       fhir:MedicinalProductDefinition.name.namePart.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/220000000000" ];
+           fhir:Coding.code [ fhir:value "220000000002" ];
+           fhir:Coding.display [ fhir:value "Invented name part" ]
+         ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:MedicinalProductDefinition.name.namePart.part [ fhir:value "500 mg/30 mg" ];
+       fhir:MedicinalProductDefinition.name.namePart.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/220000000000" ];
+           fhir:Coding.code [ fhir:value "220000000004" ];
+           fhir:Coding.display [ fhir:value "Strength part" ]
+         ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:MedicinalProductDefinition.name.namePart.part [ fhir:value "Tablett" ];
+       fhir:MedicinalProductDefinition.name.namePart.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/220000000000" ];
+           fhir:Coding.code [ fhir:value "220000000005" ];
+           fhir:Coding.display [ fhir:value "Pharmaceutical dose form part" ]
+         ]
+       ]
+     ];
+     fhir:MedicinalProductDefinition.name.countryLanguage [
+       fhir:index 0;
+       fhir:MedicinalProductDefinition.name.countryLanguage.country [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000002" ];
+           fhir:Coding.code [ fhir:value "100000000535" ];
+           fhir:Coding.display [ fhir:value "Sweden" ]
+         ]
+       ];
+       fhir:MedicinalProductDefinition.name.countryLanguage.language [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072057" ];
+           fhir:Coding.code [ fhir:value "100000072288" ];
+           fhir:Coding.display [ fhir:value "Swedish" ]
+         ]
+       ]
+     ]
+  ];
+  fhir:MedicinalProductDefinition.characteristic [
+     fhir:index 0;
+     fhir:MedicinalProductDefinition.characteristic.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003186" ];
+         fhir:Coding.code [ fhir:value "200000003187" ];
+         fhir:Coding.display [ fhir:value "combined therapeutic medicine / device" ]
+       ];
+       fhir:CodeableConcept.text [ fhir:value "Medicine Profile:" ]
+     ]
+  ] .
+
+<{$base}/RegulatedAuthorization/Altermol-500mg30mg-Tablet-SE-IS-RegulatedAuthorization> a fhir:RegulatedAuthorization;
+  fhir:Resource.id [ fhir:value "Altermol-500mg30mg-Tablet-SE-IS-RegulatedAuthorization"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"Altermol-500mg30mg-Tablet-SE-IS-RegulatedAuthorization\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;Altermol-500mg30mg-Tablet-SE-IS-RegulatedAuthorization&quot; </p></div><p><b>identifier</b>: id: 50802</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000060#220000000061)</span></p><p><b>region</b>: Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></p><p><b>status</b>: Valid <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072049#100000072099)</span></p><p><b>statusDate</b>: 2015-11-12</p><p><b>holder</b>: <span>: Alternova A/S</span></p><h3>Cases</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Date[x]</b></td></tr><tr><td>*</td><td>First Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (authorisationDateType#dateOfFirstAuthorisation)</span></td><td>2015-11-12</td></tr></table></div>"
+  ];
+  fhir:RegulatedAuthorization.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "http://ema.europa.eu/fhir/MarketingAuthorizationNumber" ];
+     fhir:Identifier.value [ fhir:value "50802" ]
+  ];
+  fhir:RegulatedAuthorization.subject [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition" ]
+  ];
+  fhir:RegulatedAuthorization.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/220000000060" ];
+       fhir:Coding.code [ fhir:value "220000000061" ];
+       fhir:Coding.display [ fhir:value "Marketing Authorisation" ]
+     ]
+  ];
+  fhir:RegulatedAuthorization.region [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000002" ];
+       fhir:Coding.code [ fhir:value "100000000535" ];
+       fhir:Coding.display [ fhir:value "Sweden" ]
+     ]
+  ];
+  fhir:RegulatedAuthorization.status [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072049" ];
+       fhir:Coding.code [ fhir:value "100000072099" ];
+       fhir:Coding.display [ fhir:value "Valid" ]
+     ]
+  ];
+  fhir:RegulatedAuthorization.statusDate [ fhir:value "2015-11-12"^^xsd:date];
+  fhir:RegulatedAuthorization.holder [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/v1/locations" ];
+       fhir:Identifier.value [ fhir:value "LOC-100001100" ]
+     ];
+     fhir:Reference.display [ fhir:value "Alternova A/S" ]
+  ];
+  fhir:RegulatedAuthorization.case [
+     fhir:RegulatedAuthorization.case.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://ema.europa.eu/fhir/authorisationDateType" ];
+         fhir:Coding.code [ fhir:value "dateOfFirstAuthorisation" ];
+         fhir:Coding.display [ fhir:value "First Authorisation" ]
+       ]
+     ];
+     fhir:RegulatedAuthorization.case.dateDateTime [ fhir:value "2015-11-12"^^xsd:date ]
+  ] .
+
+<{$base}/AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition> a fhir:AdministrableProductDefinition;
+  fhir:Resource.id [ fhir:value "Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition&quot; </p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"#MedicinalProductDefinition_Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition)</a></p><p><b>administrableDoseForm</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000073664)</span></p><p><b>producedFrom</b>: <a href=\"#ManufacturedItemDefinition_Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition)</a></p><h3>RouteOfAdministrations</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073345#100000073619)</span></td></tr></table></div>"
+  ];
+  fhir:AdministrableProductDefinition.status [ fhir:value "active"];
+  fhir:AdministrableProductDefinition.formOf [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition" ]
+  ];
+  fhir:AdministrableProductDefinition.administrableDoseForm [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000004" ];
+       fhir:Coding.code [ fhir:value "100000073664" ];
+       fhir:Coding.display [ fhir:value "Tablet" ]
+     ]
+  ];
+  fhir:AdministrableProductDefinition.producedFrom [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition" ]
+  ];
+  fhir:AdministrableProductDefinition.routeOfAdministration [
+     fhir:index 0;
+     fhir:AdministrableProductDefinition.routeOfAdministration.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073345" ];
+         fhir:Coding.code [ fhir:value "100000073619" ];
+         fhir:Coding.display [ fhir:value "Oral use" ]
+       ]
+     ]
+  ] .
+
+<{$base}/PackagedProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition01> a fhir:PackagedProductDefinition;
+  fhir:Resource.id [ fhir:value "Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition01"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition01\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition01&quot; </p></div><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition)</a></p><p><b>description</b>: Blister, 10 tabletter</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003529)</span></p><h3>ShelfLifeStorages</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Period[x]</b></td></tr><tr><td>*</td><td>Shelf life of the medicinal product as packaged for sale <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073343#100000073403)</span></td><td>4 years</td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073496)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003222)</span>, Aluminium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003200)</span></p></blockquote></blockquote></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/containedItemQuantity" ];
+     fhir:Extension.valueQuantity [
+       fhir:Quantity.value [ fhir:value "10"^^xsd:decimal ];
+       fhir:Quantity.unit [ fhir:value "Tablet" ];
+       fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+       fhir:Quantity.code [ fhir:value "200000002152" ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.packageFor [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition" ]
+  ];
+  fhir:PackagedProductDefinition.description [
+     fhir:value "Blister, 10 tabletter";
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/language" ];
+       fhir:Extension.valueCoding [
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072057" ];
+         fhir:Coding.code [ fhir:value "100000072288" ];
+         fhir:Coding.display [ fhir:value "Swedish" ]
+       ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.marketingStatus [
+     fhir:index 0;
+     fhir:MarketingStatus.country [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000002" ];
+         fhir:Coding.code [ fhir:value "100000000535" ];
+         fhir:Coding.display [ fhir:value "Sweden" ]
+       ]
+     ];
+     fhir:MarketingStatus.status [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072052" ];
+         fhir:Coding.code [ fhir:value "100000072083" ];
+         fhir:Coding.display [ fhir:value "Marketed" ]
+       ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.package [
+     fhir:PackagedProductDefinition.package.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073346" ];
+         fhir:Coding.code [ fhir:value "100000073498" ];
+         fhir:Coding.display [ fhir:value "Box" ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.quantity [ fhir:value "1"^^xsd:integer ];
+     fhir:PackagedProductDefinition.package.material [
+       fhir:index 0;
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+         fhir:Coding.code [ fhir:value "200000003529" ];
+         fhir:Coding.display [ fhir:value "Cardboard" ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.shelfLifeStorage [
+       fhir:index 0;
+       fhir:PackagedProductDefinition.package.shelfLifeStorage.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073343" ];
+           fhir:Coding.code [ fhir:value "100000073403" ];
+           fhir:Coding.display [ fhir:value "Shelf life of the medicinal product as packaged for sale" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.shelfLifeStorage.periodDuration [
+         fhir:Quantity.value [ fhir:value "4"^^xsd:decimal ];
+         fhir:Quantity.unit [ fhir:value "years" ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.package [
+       fhir:index 0;
+       fhir:PackagedProductDefinition.package.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073346" ];
+           fhir:Coding.code [ fhir:value "100000073496" ];
+           fhir:Coding.display [ fhir:value "Blister" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.quantity [ fhir:value "1"^^xsd:integer ];
+       fhir:PackagedProductDefinition.package.material [
+         fhir:index 0;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+           fhir:Coding.code [ fhir:value "200000003222" ];
+           fhir:Coding.display [ fhir:value "PolyVinyl Chloride" ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+           fhir:Coding.code [ fhir:value "200000003200" ];
+           fhir:Coding.display [ fhir:value "Aluminium" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.containedItem [
+         fhir:index 0;
+         fhir:PackagedProductDefinition.package.containedItem.item [
+           fhir:CodeableReference.reference [
+             fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition>;
+             fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition" ]
+           ]
+         ];
+         fhir:PackagedProductDefinition.package.containedItem.amount [
+           fhir:Quantity.value [ fhir:value "10"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "Tablet" ];
+           fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+           fhir:Quantity.code [ fhir:value "200000002152" ]
+         ]
+       ]
+     ]
+  ] .
+
+<{$base}/PackagedProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition02> a fhir:PackagedProductDefinition;
+  fhir:Resource.id [ fhir:value "Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition02"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition02\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition02&quot; </p></div><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition)</a></p><p><b>description</b>: Blister, 100 tabletter</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003529)</span></p><h3>ShelfLifeStorages</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Period[x]</b></td></tr><tr><td>*</td><td>Shelf life of the medicinal product as packaged for sale <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073343#100000073403)</span></td><td>4 years</td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073496)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003222)</span>, Aluminium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003200)</span></p></blockquote></blockquote></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/containedItemQuantity" ];
+     fhir:Extension.valueQuantity [
+       fhir:Quantity.value [ fhir:value "10"^^xsd:decimal ];
+       fhir:Quantity.unit [ fhir:value "Tablet" ];
+       fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+       fhir:Quantity.code [ fhir:value "200000002152" ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.packageFor [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition" ]
+  ];
+  fhir:PackagedProductDefinition.description [
+     fhir:value "Blister, 100 tabletter";
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/language" ];
+       fhir:Extension.valueCoding [
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072057" ];
+         fhir:Coding.code [ fhir:value "100000072288" ];
+         fhir:Coding.display [ fhir:value "Swedish" ]
+       ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.marketingStatus [
+     fhir:index 0;
+     fhir:MarketingStatus.country [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000002" ];
+         fhir:Coding.code [ fhir:value "100000000535" ];
+         fhir:Coding.display [ fhir:value "Sweden" ]
+       ]
+     ];
+     fhir:MarketingStatus.status [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072052" ];
+         fhir:Coding.code [ fhir:value "100000072083" ];
+         fhir:Coding.display [ fhir:value "Marketed" ]
+       ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.package [
+     fhir:PackagedProductDefinition.package.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073346" ];
+         fhir:Coding.code [ fhir:value "100000073498" ];
+         fhir:Coding.display [ fhir:value "Box" ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.quantity [ fhir:value "1"^^xsd:integer ];
+     fhir:PackagedProductDefinition.package.material [
+       fhir:index 0;
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+         fhir:Coding.code [ fhir:value "200000003529" ];
+         fhir:Coding.display [ fhir:value "Cardboard" ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.shelfLifeStorage [
+       fhir:index 0;
+       fhir:PackagedProductDefinition.package.shelfLifeStorage.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073343" ];
+           fhir:Coding.code [ fhir:value "100000073403" ];
+           fhir:Coding.display [ fhir:value "Shelf life of the medicinal product as packaged for sale" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.shelfLifeStorage.periodDuration [
+         fhir:Quantity.value [ fhir:value "4"^^xsd:decimal ];
+         fhir:Quantity.unit [ fhir:value "years" ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.package [
+       fhir:index 0;
+       fhir:PackagedProductDefinition.package.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073346" ];
+           fhir:Coding.code [ fhir:value "100000073496" ];
+           fhir:Coding.display [ fhir:value "Blister" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.quantity [ fhir:value "1"^^xsd:integer ];
+       fhir:PackagedProductDefinition.package.material [
+         fhir:index 0;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+           fhir:Coding.code [ fhir:value "200000003222" ];
+           fhir:Coding.display [ fhir:value "PolyVinyl Chloride" ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+           fhir:Coding.code [ fhir:value "200000003200" ];
+           fhir:Coding.display [ fhir:value "Aluminium" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.containedItem [
+         fhir:index 0;
+         fhir:PackagedProductDefinition.package.containedItem.item [
+           fhir:CodeableReference.reference [
+             fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition>;
+             fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition" ]
+           ]
+         ];
+         fhir:PackagedProductDefinition.package.containedItem.amount [
+           fhir:Quantity.value [ fhir:value "10"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "Tablet" ];
+           fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+           fhir:Quantity.code [ fhir:value "200000002152" ]
+         ]
+       ]
+     ]
+  ] .
+
+<{$base}/PackagedProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition03> a fhir:PackagedProductDefinition;
+  fhir:Resource.id [ fhir:value "Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition03"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition03\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition03&quot; </p></div><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition)</a></p><p><b>description</b>: Blister, 20 tabletter</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003529)</span></p><h3>ShelfLifeStorages</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Period[x]</b></td></tr><tr><td>*</td><td>Shelf life of the medicinal product as packaged for sale <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073343#100000073403)</span></td><td>4 years</td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073496)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003222)</span>, Aluminium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003200)</span></p></blockquote></blockquote></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/containedItemQuantity" ];
+     fhir:Extension.valueQuantity [
+       fhir:Quantity.value [ fhir:value "10"^^xsd:decimal ];
+       fhir:Quantity.unit [ fhir:value "Tablet" ];
+       fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+       fhir:Quantity.code [ fhir:value "200000002152" ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.packageFor [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition" ]
+  ];
+  fhir:PackagedProductDefinition.description [
+     fhir:value "Blister, 20 tabletter";
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/language" ];
+       fhir:Extension.valueCoding [
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072057" ];
+         fhir:Coding.code [ fhir:value "100000072288" ];
+         fhir:Coding.display [ fhir:value "Swedish" ]
+       ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.marketingStatus [
+     fhir:index 0;
+     fhir:MarketingStatus.country [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000002" ];
+         fhir:Coding.code [ fhir:value "100000000535" ];
+         fhir:Coding.display [ fhir:value "Sweden" ]
+       ]
+     ];
+     fhir:MarketingStatus.status [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072052" ];
+         fhir:Coding.code [ fhir:value "100000072083" ];
+         fhir:Coding.display [ fhir:value "Marketed" ]
+       ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.package [
+     fhir:PackagedProductDefinition.package.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073346" ];
+         fhir:Coding.code [ fhir:value "100000073498" ];
+         fhir:Coding.display [ fhir:value "Box" ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.quantity [ fhir:value "1"^^xsd:integer ];
+     fhir:PackagedProductDefinition.package.material [
+       fhir:index 0;
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+         fhir:Coding.code [ fhir:value "200000003529" ];
+         fhir:Coding.display [ fhir:value "Cardboard" ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.shelfLifeStorage [
+       fhir:index 0;
+       fhir:PackagedProductDefinition.package.shelfLifeStorage.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073343" ];
+           fhir:Coding.code [ fhir:value "100000073403" ];
+           fhir:Coding.display [ fhir:value "Shelf life of the medicinal product as packaged for sale" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.shelfLifeStorage.periodDuration [
+         fhir:Quantity.value [ fhir:value "4"^^xsd:decimal ];
+         fhir:Quantity.unit [ fhir:value "years" ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.package [
+       fhir:index 0;
+       fhir:PackagedProductDefinition.package.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073346" ];
+           fhir:Coding.code [ fhir:value "100000073496" ];
+           fhir:Coding.display [ fhir:value "Blister" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.quantity [ fhir:value "1"^^xsd:integer ];
+       fhir:PackagedProductDefinition.package.material [
+         fhir:index 0;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+           fhir:Coding.code [ fhir:value "200000003222" ];
+           fhir:Coding.display [ fhir:value "PolyVinyl Chloride" ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+           fhir:Coding.code [ fhir:value "200000003200" ];
+           fhir:Coding.display [ fhir:value "Aluminium" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.containedItem [
+         fhir:index 0;
+         fhir:PackagedProductDefinition.package.containedItem.item [
+           fhir:CodeableReference.reference [
+             fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition>;
+             fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition" ]
+           ]
+         ];
+         fhir:PackagedProductDefinition.package.containedItem.amount [
+           fhir:Quantity.value [ fhir:value "10"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "Tablet" ];
+           fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+           fhir:Quantity.code [ fhir:value "200000002152" ]
+         ]
+       ]
+     ]
+  ] .
+
+<{$base}/PackagedProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition04> a fhir:PackagedProductDefinition;
+  fhir:Resource.id [ fhir:value "Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition04"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition04\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;Altermol-500mg30mg-Tablet-SE-IS-PackagedProductDefinition04&quot; </p></div><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition)</a></p><p><b>description</b>: Blister, 50 tabletter</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003529)</span></p><h3>ShelfLifeStorages</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Period[x]</b></td></tr><tr><td>*</td><td>Shelf life of the medicinal product as packaged for sale <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073343#100000073403)</span></td><td>4 years</td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073496)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003222)</span>, Aluminium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003200)</span></p></blockquote></blockquote></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/containedItemQuantity" ];
+     fhir:Extension.valueQuantity [
+       fhir:Quantity.value [ fhir:value "10"^^xsd:decimal ];
+       fhir:Quantity.unit [ fhir:value "Tablet" ];
+       fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+       fhir:Quantity.code [ fhir:value "200000002152" ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.packageFor [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition" ]
+  ];
+  fhir:PackagedProductDefinition.description [
+     fhir:value "Blister, 50 tabletter";
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/language" ];
+       fhir:Extension.valueCoding [
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072057" ];
+         fhir:Coding.code [ fhir:value "100000072288" ];
+         fhir:Coding.display [ fhir:value "Swedish" ]
+       ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.marketingStatus [
+     fhir:index 0;
+     fhir:MarketingStatus.country [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000000002" ];
+         fhir:Coding.code [ fhir:value "100000000535" ];
+         fhir:Coding.display [ fhir:value "Sweden" ]
+       ]
+     ];
+     fhir:MarketingStatus.status [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072052" ];
+         fhir:Coding.code [ fhir:value "100000072083" ];
+         fhir:Coding.display [ fhir:value "Marketed" ]
+       ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.package [
+     fhir:PackagedProductDefinition.package.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073346" ];
+         fhir:Coding.code [ fhir:value "100000073498" ];
+         fhir:Coding.display [ fhir:value "Box" ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.quantity [ fhir:value "1"^^xsd:integer ];
+     fhir:PackagedProductDefinition.package.material [
+       fhir:index 0;
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+         fhir:Coding.code [ fhir:value "200000003529" ];
+         fhir:Coding.display [ fhir:value "Cardboard" ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.shelfLifeStorage [
+       fhir:index 0;
+       fhir:PackagedProductDefinition.package.shelfLifeStorage.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073343" ];
+           fhir:Coding.code [ fhir:value "100000073403" ];
+           fhir:Coding.display [ fhir:value "Shelf life of the medicinal product as packaged for sale" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.shelfLifeStorage.periodDuration [
+         fhir:Quantity.value [ fhir:value "4"^^xsd:decimal ];
+         fhir:Quantity.unit [ fhir:value "years" ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.package [
+       fhir:index 0;
+       fhir:PackagedProductDefinition.package.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000073346" ];
+           fhir:Coding.code [ fhir:value "100000073496" ];
+           fhir:Coding.display [ fhir:value "Blister" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.quantity [ fhir:value "1"^^xsd:integer ];
+       fhir:PackagedProductDefinition.package.material [
+         fhir:index 0;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+           fhir:Coding.code [ fhir:value "200000003222" ];
+           fhir:Coding.display [ fhir:value "PolyVinyl Chloride" ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000003199" ];
+           fhir:Coding.code [ fhir:value "200000003200" ];
+           fhir:Coding.display [ fhir:value "Aluminium" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.containedItem [
+         fhir:index 0;
+         fhir:PackagedProductDefinition.package.containedItem.item [
+           fhir:CodeableReference.reference [
+             fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition>;
+             fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition" ]
+           ]
+         ];
+         fhir:PackagedProductDefinition.package.containedItem.amount [
+           fhir:Quantity.value [ fhir:value "10"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "Tablet" ];
+           fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+           fhir:Quantity.code [ fhir:value "200000002152" ]
+         ]
+       ]
+     ]
+  ] .
+
+<{$base}/ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition> a fhir:ManufacturedItemDefinition;
+  fhir:Resource.id [ fhir:value "Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition&quot; </p></div><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000073664)</span></p><p><b>unitOfPresentation</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000014#200000002152)</span></p></div>"
+  ];
+  fhir:ManufacturedItemDefinition.status [ fhir:value "active"];
+  fhir:ManufacturedItemDefinition.manufacturedDoseForm [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000004" ];
+       fhir:Coding.code [ fhir:value "100000073664" ];
+       fhir:Coding.display [ fhir:value "Tablet" ]
+     ]
+  ];
+  fhir:ManufacturedItemDefinition.unitOfPresentation [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+       fhir:Coding.code [ fhir:value "200000002152" ];
+       fhir:Coding.display [ fhir:value "Tablet" ]
+     ]
+  ] .
+
+<{$base}/Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient01> a fhir:Ingredient;
+  fhir:Resource.id [ fhir:value "Altermol-500mg30mg-Tablet-SE-IS-Ingredient01"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"Altermol-500mg30mg-Tablet-SE-IS-Ingredient01\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;Altermol-500mg30mg-Tablet-SE-IS-Ingredient01&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition)</a></li><li><a href=\"#ManufacturedItemDefinition_Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition)</a></li><li><a href=\"#AdministrableProductDefinition_Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition\">See above (AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Paracetamol <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000090270)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>concentration</b>: 500 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 unit(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110756 = '100000110756')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Paracetamol <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000090270)</span></td></tr></table><p><b>strength</b>: 500 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 unit(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110756 = '100000110756')</span></p></blockquote></blockquote></blockquote></div>"
+  ];
+  fhir:Ingredient.status [ fhir:value "active"];
+  fhir:Ingredient.for [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition" ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition" ]
+  ], [
+     fhir:index 2;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition>;
+     fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition" ]
+  ];
+  fhir:Ingredient.role [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072050" ];
+       fhir:Coding.code [ fhir:value "100000072072" ];
+       fhir:Coding.display [ fhir:value "Active" ]
+     ]
+  ];
+  fhir:Ingredient.substance [
+     fhir:Ingredient.substance.code [
+       fhir:CodeableReference.concept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+           fhir:Coding.code [ fhir:value "100000090270" ];
+           fhir:Coding.display [ fhir:value "Paracetamol" ]
+         ]
+       ]
+     ];
+     fhir:Ingredient.substance.strength [
+       fhir:index 0;
+       fhir:Ingredient.substance.strength.concentrationRatio [
+         fhir:Ratio.numerator [
+           fhir:Quantity.value [ fhir:value "500"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "milligram(s)" ];
+           fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000110633" ];
+           fhir:Quantity.code [ fhir:value "100000110655" ]
+         ];
+         fhir:Ratio.denominator [
+           fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "unit(s)" ];
+           fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000110633" ];
+           fhir:Quantity.code [ fhir:value "100000110756" ]
+         ]
+       ];
+       fhir:Ingredient.substance.strength.referenceStrength [
+         fhir:index 0;
+         fhir:Ingredient.substance.strength.referenceStrength.substance [
+           fhir:CodeableReference.concept [
+             fhir:CodeableConcept.coding [
+               fhir:index 0;
+               fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+               fhir:Coding.code [ fhir:value "100000090270" ];
+               fhir:Coding.display [ fhir:value "Paracetamol" ]
+             ]
+           ]
+         ];
+         fhir:Ingredient.substance.strength.referenceStrength.strengthRatio [
+           fhir:Ratio.numerator [
+             fhir:Quantity.value [ fhir:value "500"^^xsd:decimal ];
+             fhir:Quantity.unit [ fhir:value "milligram(s)" ];
+             fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000110633" ];
+             fhir:Quantity.code [ fhir:value "100000110655" ]
+           ];
+           fhir:Ratio.denominator [
+             fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+             fhir:Quantity.unit [ fhir:value "unit(s)" ];
+             fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000110633" ];
+             fhir:Quantity.code [ fhir:value "100000110756" ]
+           ]
+         ]
+       ]
+     ]
+  ] .
+
+<{$base}/Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient02> a fhir:Ingredient;
+  fhir:Resource.id [ fhir:value "Altermol-500mg30mg-Tablet-SE-IS-Ingredient02"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"Altermol-500mg30mg-Tablet-SE-IS-Ingredient02\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;Altermol-500mg30mg-Tablet-SE-IS-Ingredient02&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition)</a></li><li><a href=\"#ManufacturedItemDefinition_Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition)</a></li><li><a href=\"#AdministrableProductDefinition_Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition\">See above (AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Codeine phosphate hemihydrate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000090188)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>concentration</b>: 30 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 unit(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110756 = '100000110756')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Codeine anhydrous <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000153319)</span></td></tr></table><p><b>strength</b>: 22.1 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 unit(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110756 = '100000110756')</span></p></blockquote></blockquote></blockquote></div>"
+  ];
+  fhir:Ingredient.status [ fhir:value "active"];
+  fhir:Ingredient.for [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition" ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition" ]
+  ], [
+     fhir:index 2;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition>;
+     fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition" ]
+  ];
+  fhir:Ingredient.role [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072050" ];
+       fhir:Coding.code [ fhir:value "100000072072" ];
+       fhir:Coding.display [ fhir:value "Active" ]
+     ]
+  ];
+  fhir:Ingredient.substance [
+     fhir:Ingredient.substance.code [
+       fhir:CodeableReference.concept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+           fhir:Coding.code [ fhir:value "100000090188" ];
+           fhir:Coding.display [ fhir:value "Codeine phosphate hemihydrate" ]
+         ]
+       ]
+     ];
+     fhir:Ingredient.substance.strength [
+       fhir:index 0;
+       fhir:Ingredient.substance.strength.concentrationRatio [
+         fhir:Ratio.numerator [
+           fhir:Quantity.value [ fhir:value "30"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "milligram(s)" ];
+           fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000110633" ];
+           fhir:Quantity.code [ fhir:value "100000110655" ]
+         ];
+         fhir:Ratio.denominator [
+           fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "unit(s)" ];
+           fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000110633" ];
+           fhir:Quantity.code [ fhir:value "100000110756" ]
+         ]
+       ];
+       fhir:Ingredient.substance.strength.referenceStrength [
+         fhir:index 0;
+         fhir:Ingredient.substance.strength.referenceStrength.substance [
+           fhir:CodeableReference.concept [
+             fhir:CodeableConcept.coding [
+               fhir:index 0;
+               fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+               fhir:Coding.code [ fhir:value "100000153319" ];
+               fhir:Coding.display [ fhir:value "Codeine anhydrous" ]
+             ]
+           ]
+         ];
+         fhir:Ingredient.substance.strength.referenceStrength.strengthRatio [
+           fhir:Ratio.numerator [
+             fhir:Quantity.value [ fhir:value "22.1"^^xsd:decimal ];
+             fhir:Quantity.unit [ fhir:value "milligram(s)" ];
+             fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000110633" ];
+             fhir:Quantity.code [ fhir:value "100000110655" ]
+           ];
+           fhir:Ratio.denominator [
+             fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+             fhir:Quantity.unit [ fhir:value "unit(s)" ];
+             fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000110633" ];
+             fhir:Quantity.code [ fhir:value "100000110756" ]
+           ]
+         ]
+       ]
+     ]
+  ] .
+
+<{$base}/Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient03> a fhir:Ingredient;
+  fhir:Resource.id [ fhir:value "Altermol-500mg30mg-Tablet-SE-IS-Ingredient03"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"Altermol-500mg30mg-Tablet-SE-IS-Ingredient03\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;Altermol-500mg30mg-Tablet-SE-IS-Ingredient03&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition)</a></li><li><a href=\"#ManufacturedItemDefinition_Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition)</a></li><li><a href=\"#AdministrableProductDefinition_Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition\">See above (AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Cellulose, powdered <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000091089)</span></td></tr></table></blockquote></div>"
+  ];
+  fhir:Ingredient.status [ fhir:value "active"];
+  fhir:Ingredient.for [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition" ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition" ]
+  ], [
+     fhir:index 2;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition>;
+     fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition" ]
+  ];
+  fhir:Ingredient.role [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072050" ];
+       fhir:Coding.code [ fhir:value "100000072082" ];
+       fhir:Coding.display [ fhir:value "Excipient" ]
+     ]
+  ];
+  fhir:Ingredient.substance [
+     fhir:Ingredient.substance.code [
+       fhir:CodeableReference.concept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+           fhir:Coding.code [ fhir:value "100000091089" ];
+           fhir:Coding.display [ fhir:value "Cellulose, powdered" ]
+         ]
+       ]
+     ]
+  ] .
+
+<{$base}/Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient04> a fhir:Ingredient;
+  fhir:Resource.id [ fhir:value "Altermol-500mg30mg-Tablet-SE-IS-Ingredient04"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"Altermol-500mg30mg-Tablet-SE-IS-Ingredient04\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;Altermol-500mg30mg-Tablet-SE-IS-Ingredient04&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition)</a></li><li><a href=\"#ManufacturedItemDefinition_Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition)</a></li><li><a href=\"#AdministrableProductDefinition_Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition\">See above (AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Lactose monohydrate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000093305)</span></td></tr></table></blockquote></div>"
+  ];
+  fhir:Ingredient.status [ fhir:value "active"];
+  fhir:Ingredient.for [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition" ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition" ]
+  ], [
+     fhir:index 2;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition>;
+     fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition" ]
+  ];
+  fhir:Ingredient.role [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072050" ];
+       fhir:Coding.code [ fhir:value "100000072082" ];
+       fhir:Coding.display [ fhir:value "Excipient" ]
+     ]
+  ];
+  fhir:Ingredient.substance [
+     fhir:Ingredient.substance.code [
+       fhir:CodeableReference.concept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+           fhir:Coding.code [ fhir:value "100000093305" ];
+           fhir:Coding.display [ fhir:value "Lactose monohydrate" ]
+         ]
+       ]
+     ]
+  ] .
+
+<{$base}/Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient05a> a fhir:Ingredient;
+  fhir:Resource.id [ fhir:value "Altermol-500mg30mg-Tablet-SE-IS-Ingredient05a"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"Altermol-500mg30mg-Tablet-SE-IS-Ingredient05a\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;Altermol-500mg30mg-Tablet-SE-IS-Ingredient05a&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition)</a></li><li><a href=\"#ManufacturedItemDefinition_Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition)</a></li><li><a href=\"#AdministrableProductDefinition_Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition\">See above (AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Magnesium stearate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000088586)</span></td></tr></table></blockquote></div>"
+  ];
+  fhir:Ingredient.status [ fhir:value "active"];
+  fhir:Ingredient.for [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition" ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition" ]
+  ], [
+     fhir:index 2;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition>;
+     fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition" ]
+  ];
+  fhir:Ingredient.role [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072050" ];
+       fhir:Coding.code [ fhir:value "100000072082" ];
+       fhir:Coding.display [ fhir:value "Excipient" ]
+     ]
+  ];
+  fhir:Ingredient.substance [
+     fhir:Ingredient.substance.code [
+       fhir:CodeableReference.concept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+           fhir:Coding.code [ fhir:value "100000088586" ];
+           fhir:Coding.display [ fhir:value "Magnesium stearate" ]
+         ]
+       ]
+     ]
+  ] .
+
+<{$base}/Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient05b> a fhir:Ingredient;
+  fhir:Resource.id [ fhir:value "Altermol-500mg30mg-Tablet-SE-IS-Ingredient05b"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"Altermol-500mg30mg-Tablet-SE-IS-Ingredient05b\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;Altermol-500mg30mg-Tablet-SE-IS-Ingredient05b&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition)</a></li><li><a href=\"#ManufacturedItemDefinition_Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition)</a></li><li><a href=\"#AdministrableProductDefinition_Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition\">See above (AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Povidone <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000092381)</span></td></tr></table></blockquote></div>"
+  ];
+  fhir:Ingredient.status [ fhir:value "active"];
+  fhir:Ingredient.for [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition" ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition" ]
+  ], [
+     fhir:index 2;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition>;
+     fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition" ]
+  ];
+  fhir:Ingredient.role [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072050" ];
+       fhir:Coding.code [ fhir:value "100000072082" ];
+       fhir:Coding.display [ fhir:value "Excipient" ]
+     ]
+  ];
+  fhir:Ingredient.substance [
+     fhir:Ingredient.substance.code [
+       fhir:CodeableReference.concept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+           fhir:Coding.code [ fhir:value "100000092381" ];
+           fhir:Coding.display [ fhir:value "Povidone" ]
+         ]
+       ]
+     ]
+  ] .
+
+<{$base}/Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient06> a fhir:Ingredient;
+  fhir:Resource.id [ fhir:value "Altermol-500mg30mg-Tablet-SE-IS-Ingredient06"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"Altermol-500mg30mg-Tablet-SE-IS-Ingredient06\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;Altermol-500mg30mg-Tablet-SE-IS-Ingredient06&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition)</a></li><li><a href=\"#ManufacturedItemDefinition_Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition)</a></li><li><a href=\"#AdministrableProductDefinition_Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition\">See above (AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Starch, pregelatinised <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000079001)</span></td></tr></table></blockquote></div>"
+  ];
+  fhir:Ingredient.status [ fhir:value "active"];
+  fhir:Ingredient.for [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition" ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition" ]
+  ], [
+     fhir:index 2;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition>;
+     fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition" ]
+  ];
+  fhir:Ingredient.role [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072050" ];
+       fhir:Coding.code [ fhir:value "100000072082" ];
+       fhir:Coding.display [ fhir:value "Excipient" ]
+     ]
+  ];
+  fhir:Ingredient.substance [
+     fhir:Ingredient.substance.code [
+       fhir:CodeableReference.concept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+           fhir:Coding.code [ fhir:value "100000079001" ];
+           fhir:Coding.display [ fhir:value "Starch, pregelatinised" ]
+         ]
+       ]
+     ]
+  ] .
+
+<{$base}/Ingredient/Altermol-500mg30mg-Tablet-SE-IS-Ingredient08> a fhir:Ingredient;
+  fhir:Resource.id [ fhir:value "Altermol-500mg30mg-Tablet-SE-IS-Ingredient08"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"Altermol-500mg30mg-Tablet-SE-IS-Ingredient08\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;Altermol-500mg30mg-Tablet-SE-IS-Ingredient08&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition)</a></li><li><a href=\"#ManufacturedItemDefinition_Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition)</a></li><li><a href=\"#AdministrableProductDefinition_Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition\">See above (AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Talc <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000078762)</span></td></tr></table></blockquote></div>"
+  ];
+  fhir:Ingredient.status [ fhir:value "active"];
+  fhir:Ingredient.for [
+     fhir:index 0;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-MedicinalProductDefinition" ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Altermol-500mg30mg-Tablet-SE-IS-ManufacturedItemDefinition" ]
+  ], [
+     fhir:index 2;
+     fhir:link <http://hl7-eu.github.io/unicom-ig/AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition>;
+     fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/Altermol-500mg30mg-Tablet-SE-IS-AdministrableProductDefinition" ]
+  ];
+  fhir:Ingredient.role [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/100000072050" ];
+       fhir:Coding.code [ fhir:value "100000072082" ];
+       fhir:Coding.display [ fhir:value "Excipient" ]
+     ]
+  ];
+  fhir:Ingredient.substance [
+     fhir:Ingredient.substance.code [
+       fhir:CodeableReference.concept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+           fhir:Coding.code [ fhir:value "100000078762" ];
+           fhir:Coding.display [ fhir:value "Talc" ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7-eu.github.io/unicom-ig/Bundle/Altermol-500mg30mg-Tablet-SE-IS.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

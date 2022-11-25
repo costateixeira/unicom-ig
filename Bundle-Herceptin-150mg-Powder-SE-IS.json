@@ -1,0 +1,814 @@
+{
+  "resourceType": "Bundle",
+  "id": "Herceptin-150mg-Powder-SE-IS",
+  "type": "batch",
+  "entry": [
+    {
+      "fullUrl": "{$base}/MedicinalProductDefinition/Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition",
+      "resource": {
+        "resourceType": "MedicinalProductDefinition",
+        "id": "Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition&quot; </p></div><p><b>identifier</b>: id: SE-100007814-00015488, id: 3010</p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000005003#200000005004)</span></p><p><b>indication</b>: Bröstcancer Metastaserad bröstcancer Herceptin är indicerat för behandling av vuxna patienter med HER2-positiv metastaserad bröstcancer: - som monoterapi för behandling av de patienter som har fått åtminstone två kemoterapiregimer  mot metastaserad sjukdom. Tidigare kemoterapi måste ha inkluderat åtminstone ett antracyklin och ett taxanpreparat såvida inte sådana behandlingar är olämpliga för dessa patienter.  Hormonreceptorpositiva patienter måste också ha sviktat på hormonterapi, såvida inte sådan  behandling är olämplig för dessa patienter. - i kombination med paklitaxel för behandling av de patienter som inte fått kemoterapi mot  metastaserad sjukdom och för vilka ett antracyklinpreparat ej är lämpligt. - i kombination med docetaxel för behandling av de patienter som inte fått kemoterapi mot  metastaserad sjukdom.  - i kombination med en aromatashämmare för behandling av post-menopausala patienter med  hormonreceptorpositiv metastaserad bröstcancer som inte tidigare behandlats med trastuzumab. Tidig bröstcancer Herceptin är indicerat för behandling av vuxna patienter med HER2-positiv tidig bröstcancer: - efter kirurgi, kemoterapi (neoadjuvant eller adjuvant) och strålbehandling (om tillämpbart) (se  avsnitt 5.1). - efter adjuvant kemoterapi med doxorubicin och cyklofosfamid, i kombination med paklitaxel  eller docetaxel. 3 - i kombination med adjuvant kemoterapi som utgörs av docetaxel och karboplatin. - i kombination med neoadjuvant kemoterapi följt av adjuvant behandling med Herceptin, för  lokalt avancerad (inklusive inflammatorisk) sjukdom eller för tumörer &gt; 2 cm i diameter (se  avsnitt 4.4 och 5.1). Herceptin bör endast användas till patienter med metastaserad eller tidig bröstcancer vilkas tumörer  antingen överuttrycker HER2 eller har HER2 genamplifiering påvisad med en tillförlitlig och  validerad metod (se avsnitt 4.4 och 5.1). Metastaserad ventrikelcancer  Herceptin i kombination med capecitabin eller 5-fluorouracil och cisplatin är indicerat för behandling  av vuxna patienter med metastaserat HER 2-positivt adenokarcinom i ventrikeln eller cardia (övre  magmunnen) som inte tidigare fått behandling för sin metastaserade sjukdom. Herceptin ska endast användas till patienter med metastaserad ventrikelcancer vilkas tumörer  överuttrycker HER2 definierat som IHC2+ och ett konfirmerande positivt SISH eller FISH resultat,  eller definierat som IHC3+. Tillförlitliga och validerade metoder ska användas (se avsnitt 4.4 och 5.1).</p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072051#100000072084)</span></p><p><b>classification</b>: L01FD01 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000116677#100000093533)</span>, Centralised procedure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000154442#100000155059)</span>, Concerned Member State <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000160962#100000160967)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Herceptin®</p><blockquote><p><b>namePart</b></p><p><b>part</b>: Herceptin® 150 mg Pulver till konc. till infusionsvätska, lösning</p><p><b>type</b>: Invented name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 150 mg</p><p><b>type</b>: Strength part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: Pulver till konc. till infusionsvätska, lösning</p><p><b>type</b>: Pharmaceutical dose form part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Swedish <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072057#100000072288)</span></td></tr></table></blockquote></div>"
+        },
+        "extension": [
+          {
+            "url": "http://ema.europa.eu/fhir/extension/authorisedDoseForm",
+            "valueCoding": {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000004",
+              "code": "100000074029",
+              "display": "Powder for concentrate for solution for infusion"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/fhir/mpId",
+            "value": "SE-100007814-00015488"
+          },
+          {
+            "system": "http://ema.europa.eu/fhir/eurdId",
+            "value": "3010"
+          }
+        ],
+        "domain": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000000004",
+              "code": "100000000012",
+              "display": "Human use"
+            }
+          ]
+        },
+        "status": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000005003",
+              "code": "200000005004",
+              "display": "Current"
+            }
+          ]
+        },
+        "indication": "Bröstcancer Metastaserad bröstcancer Herceptin är indicerat för behandling av vuxna patienter med HER2-positiv metastaserad bröstcancer: - som monoterapi för behandling av de patienter som har fått åtminstone två kemoterapiregimer  mot metastaserad sjukdom. Tidigare kemoterapi måste ha inkluderat åtminstone ett antracyklin och ett taxanpreparat såvida inte sådana behandlingar är olämpliga för dessa patienter.  Hormonreceptorpositiva patienter måste också ha sviktat på hormonterapi, såvida inte sådan  behandling är olämplig för dessa patienter. - i kombination med paklitaxel för behandling av de patienter som inte fått kemoterapi mot  metastaserad sjukdom och för vilka ett antracyklinpreparat ej är lämpligt. - i kombination med docetaxel för behandling av de patienter som inte fått kemoterapi mot  metastaserad sjukdom.  - i kombination med en aromatashämmare för behandling av post-menopausala patienter med  hormonreceptorpositiv metastaserad bröstcancer som inte tidigare behandlats med trastuzumab. Tidig bröstcancer Herceptin är indicerat för behandling av vuxna patienter med HER2-positiv tidig bröstcancer: - efter kirurgi, kemoterapi (neoadjuvant eller adjuvant) och strålbehandling (om tillämpbart) (se  avsnitt 5.1). - efter adjuvant kemoterapi med doxorubicin och cyklofosfamid, i kombination med paklitaxel  eller docetaxel. 3 - i kombination med adjuvant kemoterapi som utgörs av docetaxel och karboplatin. - i kombination med neoadjuvant kemoterapi följt av adjuvant behandling med Herceptin, för  lokalt avancerad (inklusive inflammatorisk) sjukdom eller för tumörer > 2 cm i diameter (se  avsnitt 4.4 och 5.1). Herceptin bör endast användas till patienter med metastaserad eller tidig bröstcancer vilkas tumörer  antingen överuttrycker HER2 eller har HER2 genamplifiering påvisad med en tillförlitlig och  validerad metod (se avsnitt 4.4 och 5.1). Metastaserad ventrikelcancer  Herceptin i kombination med capecitabin eller 5-fluorouracil och cisplatin är indicerat för behandling  av vuxna patienter med metastaserat HER 2-positivt adenokarcinom i ventrikeln eller cardia (övre  magmunnen) som inte tidigare fått behandling för sin metastaserade sjukdom. Herceptin ska endast användas till patienter med metastaserad ventrikelcancer vilkas tumörer  överuttrycker HER2 definierat som IHC2+ och ett konfirmerande positivt SISH eller FISH resultat,  eller definierat som IHC3+. Tillförlitliga och validerade metoder ska användas (se avsnitt 4.4 och 5.1).",
+        "legalStatusOfSupply": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000072051",
+              "code": "100000072084",
+              "display": "Medicinal product subject to medical prescription"
+            }
+          ]
+        },
+        "classification": [
+          {
+            "coding": [
+              {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000116677",
+                "code": "100000093533",
+                "display": "L01FD01"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000154442",
+                "code": "100000155059",
+                "display": "Centralised procedure"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000160962",
+                "code": "100000160967",
+                "display": "Concerned Member State"
+              }
+            ]
+          }
+        ],
+        "name": [
+          {
+            "productName": "Herceptin®",
+            "namePart": [
+              {
+                "part": "Herceptin® 150 mg Pulver till konc. till infusionsvätska, lösning",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/220000000000",
+                      "code": "220000000002",
+                      "display": "Invented name part"
+                    }
+                  ]
+                }
+              },
+              {
+                "part": "150 mg",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/220000000000",
+                      "code": "220000000004",
+                      "display": "Strength part"
+                    }
+                  ]
+                }
+              },
+              {
+                "part": "Pulver till konc. till infusionsvätska, lösning",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/220000000000",
+                      "code": "220000000005",
+                      "display": "Pharmaceutical dose form part"
+                    }
+                  ]
+                }
+              }
+            ],
+            "countryLanguage": [
+              {
+                "country": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                      "code": "100000000535",
+                      "display": "Sweden"
+                    }
+                  ]
+                },
+                "language": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/100000072057",
+                      "code": "100000072288",
+                      "display": "Swedish"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "MedicinalProductDefinition/Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition"
+      }
+    },
+    {
+      "fullUrl": "{$base}/RegulatedAuthorization/Herceptin-150mg-Powder-SE-IS-RegulatedAuthorization",
+      "resource": {
+        "resourceType": "RegulatedAuthorization",
+        "id": "Herceptin-150mg-Powder-SE-IS-RegulatedAuthorization",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"Herceptin-150mg-Powder-SE-IS-RegulatedAuthorization\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;Herceptin-150mg-Powder-SE-IS-RegulatedAuthorization&quot; </p></div><p><b>identifier</b>: id: 15488</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000060#220000000061)</span></p><p><b>region</b>: Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></p><p><b>status</b>: Valid <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072049#100000072099)</span></p><p><b>statusDate</b>: 2000-08-28</p><p><b>holder</b>: <span>: Roche Registration GmbH</span></p><h3>Cases</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Date[x]</b></td></tr><tr><td>*</td><td>First Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (authorisationDateType#dateOfFirstAuthorisation)</span></td><td>2000-08-28</td></tr></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/fhir/MarketingAuthorizationNumber",
+            "value": "15488"
+          }
+        ],
+        "subject": [
+          {
+            "reference": "MedicinalProductDefinition/Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition"
+          }
+        ],
+        "type": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/220000000060",
+              "code": "220000000061",
+              "display": "Marketing Authorisation"
+            }
+          ]
+        },
+        "region": [
+          {
+            "coding": [
+              {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                "code": "100000000535",
+                "display": "Sweden"
+              }
+            ]
+          }
+        ],
+        "status": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000072049",
+              "code": "100000072099",
+              "display": "Valid"
+            }
+          ]
+        },
+        "statusDate": "2000-08-28",
+        "holder": {
+          "identifier": {
+            "system": "https://spor.ema.europa.eu/v1/locations",
+            "value": "LOC-100010587"
+          },
+          "display": "Roche Registration GmbH"
+        },
+        "case": {
+          "type": {
+            "coding": [
+              {
+                "system": "http://ema.europa.eu/fhir/authorisationDateType",
+                "code": "dateOfFirstAuthorisation",
+                "display": "First Authorisation"
+              }
+            ]
+          },
+          "dateDateTime": "2000-08-28"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "RegulatedAuthorization/Herceptin-150mg-Powder-SE-IS-RegulatedAuthorization"
+      }
+    },
+    {
+      "fullUrl": "{$base}/AdministrableProductDefinition/Herceptin-150mg-Powder-SE-IS-AdministrableProductDefinition",
+      "resource": {
+        "resourceType": "AdministrableProductDefinition",
+        "id": "Herceptin-150mg-Powder-SE-IS-AdministrableProductDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"Herceptin-150mg-Powder-SE-IS-AdministrableProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;Herceptin-150mg-Powder-SE-IS-AdministrableProductDefinition&quot; </p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"#MedicinalProductDefinition_Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition)</a></p><p><b>administrableDoseForm</b>: Solution for infusion <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000073870)</span></p><p><b>producedFrom</b>: <a href=\"#ManufacturedItemDefinition_Herceptin-150mg-Powder-SE-IS-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/Herceptin-150mg-Powder-SE-IS-ManufacturedItemDefinition)</a></p><h3>RouteOfAdministrations</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Intravenous use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073345#100000073611)</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "formOf": [
+          {
+            "reference": "MedicinalProductDefinition/Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition"
+          }
+        ],
+        "administrableDoseForm": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000004",
+              "code": "100000073870",
+              "display": "Solution for infusion"
+            }
+          ]
+        },
+        "producedFrom": [
+          {
+            "reference": "ManufacturedItemDefinition/Herceptin-150mg-Powder-SE-IS-ManufacturedItemDefinition"
+          }
+        ],
+        "routeOfAdministration": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000073345",
+                  "code": "100000073611",
+                  "display": "Intravenous use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "AdministrableProductDefinition/Herceptin-150mg-Powder-SE-IS-AdministrableProductDefinition"
+      }
+    },
+    {
+      "fullUrl": "{$base}/PackagedProductDefinition/Herceptin-150mg-Powder-SE-IS-PackagedProductDefinition",
+      "resource": {
+        "resourceType": "PackagedProductDefinition",
+        "id": "Herceptin-150mg-Powder-SE-IS-PackagedProductDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"Herceptin-150mg-Powder-SE-IS-PackagedProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;Herceptin-150mg-Powder-SE-IS-PackagedProductDefinition&quot; </p></div><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition)</a></p><p><b>description</b>: Injektionsflaska, 1 x 150 mg</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003529)</span></p><blockquote><p><b>shelfLifeStorage</b></p><p><b>type</b>: Shelf life of the medicinal product as packaged for sale <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073343#100000073403)</span></p><p><b>period</b>: 4 years</p><p><b>specialPrecautionsForStorage</b>: Store in a refrigerator (2°C – 8°C) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073344#100000073414)</span>, Store in the original package <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073344#100000073421)</span></p></blockquote><blockquote><p><b>shelfLifeStorage</b></p><p><b>type</b>: Shelf life after dilution or reconstitution according to directions <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073343#100000073405)</span></p><p><b>period</b>: 24 hours</p><p><b>specialPrecautionsForStorage</b>: Do not freeze <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073344#100000073420)</span></p></blockquote><blockquote><p><b>package</b></p><p><b>type</b>: Vial <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073563)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Glass type I <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003204)</span>, Rubber <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003226)</span></p></blockquote></blockquote></div>"
+        },
+        "extension": [
+          {
+            "url": "http://ema.europa.eu/fhir/extension/containedItemQuantity",
+            "valueQuantity": {
+              "value": 1,
+              "unit": "Vial",
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+              "code": "200000002158"
+            }
+          }
+        ],
+        "packageFor": [
+          {
+            "reference": "MedicinalProductDefinition/Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition"
+          }
+        ],
+        "description": "Injektionsflaska, 1 x 150 mg",
+        "_description": {
+          "extension": [
+            {
+              "url": "http://ema.europa.eu/fhir/extension/language",
+              "valueCoding": {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000072057",
+                "code": "100000072288",
+                "display": "Swedish"
+              }
+            }
+          ]
+        },
+        "marketingStatus": [
+          {
+            "country": {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                  "code": "100000000535",
+                  "display": "Sweden"
+                }
+              ]
+            },
+            "status": {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000072052",
+                  "code": "100000072083",
+                  "display": "Marketed"
+                }
+              ]
+            }
+          }
+        ],
+        "package": {
+          "type": {
+            "coding": [
+              {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000073346",
+                "code": "100000073498",
+                "display": "Box"
+              }
+            ]
+          },
+          "quantity": 1,
+          "material": [
+            {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                  "code": "200000003529",
+                  "display": "Cardboard"
+                }
+              ]
+            }
+          ],
+          "shelfLifeStorage": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://spor.ema.europa.eu/v1/lists/100000073343",
+                    "code": "100000073403",
+                    "display": "Shelf life of the medicinal product as packaged for sale"
+                  }
+                ]
+              },
+              "periodDuration": {
+                "value": 4,
+                "unit": "years"
+              },
+              "specialPrecautionsForStorage": [
+                {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000073344",
+                      "code": "100000073414",
+                      "display": "Store in a refrigerator (2°C – 8°C)"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000073344",
+                      "code": "100000073421",
+                      "display": "Store in the original package"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://spor.ema.europa.eu/v1/lists/100000073343",
+                    "code": "100000073405",
+                    "display": "Shelf life after dilution or reconstitution according to directions"
+                  }
+                ]
+              },
+              "periodDuration": {
+                "value": 24,
+                "unit": "hours"
+              },
+              "specialPrecautionsForStorage": [
+                {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000073344",
+                      "code": "100000073420",
+                      "display": "Do not freeze"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "package": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://spor.ema.europa.eu/v1/lists/100000073346",
+                    "code": "100000073563",
+                    "display": "Vial"
+                  }
+                ]
+              },
+              "quantity": 1,
+              "material": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                      "code": "200000003204",
+                      "display": "Glass type I"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                      "code": "200000003226",
+                      "display": "Rubber"
+                    }
+                  ]
+                }
+              ],
+              "containedItem": [
+                {
+                  "item": {
+                    "reference": {
+                      "reference": "ManufacturedItemDefinition/Herceptin-150mg-Powder-SE-IS-ManufacturedItemDefinition"
+                    }
+                  },
+                  "amount": {
+                    "value": 150,
+                    "unit": "millilitre(s)",
+                    "system": "http://spor.ema.europa.eu/v1/lists/100000110633",
+                    "code": "100000110662"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "PackagedProductDefinition/Herceptin-150mg-Powder-SE-IS-PackagedProductDefinition"
+      }
+    },
+    {
+      "fullUrl": "{$base}/ManufacturedItemDefinition/Herceptin-150mg-Powder-SE-IS-ManufacturedItemDefinition",
+      "resource": {
+        "resourceType": "ManufacturedItemDefinition",
+        "id": "Herceptin-150mg-Powder-SE-IS-ManufacturedItemDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"Herceptin-150mg-Powder-SE-IS-ManufacturedItemDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;Herceptin-150mg-Powder-SE-IS-ManufacturedItemDefinition&quot; </p></div><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Powder for concentrate for solution for infusion <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000074029)</span></p><p><b>unitOfPresentation</b>: Vial <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000014#200000002158)</span></p></div>"
+        },
+        "status": "active",
+        "manufacturedDoseForm": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000004",
+              "code": "100000074029",
+              "display": "Powder for concentrate for solution for infusion"
+            }
+          ]
+        },
+        "unitOfPresentation": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+              "code": "200000002158",
+              "display": "Vial"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ManufacturedItemDefinition/Herceptin-150mg-Powder-SE-IS-ManufacturedItemDefinition"
+      }
+    },
+    {
+      "fullUrl": "{$base}/Ingredient/Herceptin-150mg-Powder-SE-IS-Ingredient-01",
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "Herceptin-150mg-Powder-SE-IS-Ingredient-01",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"Herceptin-150mg-Powder-SE-IS-Ingredient-01\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;Herceptin-150mg-Powder-SE-IS-Ingredient-01&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition)</a></li><li><a href=\"#ManufacturedItemDefinition_Herceptin-150mg-Powder-SE-IS-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/Herceptin-150mg-Powder-SE-IS-ManufacturedItemDefinition)</a></li><li><a href=\"#AdministrableProductDefinition_Herceptin-150mg-Powder-SE-IS-AdministrableProductDefinition\">See above (AdministrableProductDefinition/Herceptin-150mg-Powder-SE-IS-AdministrableProductDefinition)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Trastuzumab <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000089314)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>presentation</b>: 150 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 unit(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110756 = '100000110756')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Trastuzumab <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000089314)</span></td></tr></table><p><b>strength</b>: 150 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 unit(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110756 = '100000110756')</span></p></blockquote></blockquote></blockquote></div>"
+        },
+        "status": "active",
+        "for": [
+          {
+            "reference": "MedicinalProductDefinition/Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition"
+          },
+          {
+            "reference": "ManufacturedItemDefinition/Herceptin-150mg-Powder-SE-IS-ManufacturedItemDefinition"
+          },
+          {
+            "reference": "AdministrableProductDefinition/Herceptin-150mg-Powder-SE-IS-AdministrableProductDefinition"
+          }
+        ],
+        "role": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000072050",
+              "code": "100000072072",
+              "display": "Active"
+            }
+          ]
+        },
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                  "code": "100000089314",
+                  "display": "Trastuzumab"
+                }
+              ]
+            }
+          },
+          "strength": [
+            {
+              "presentationRatio": {
+                "numerator": {
+                  "value": 150,
+                  "unit": "milligram(s)",
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000110633",
+                  "code": "100000110655"
+                },
+                "denominator": {
+                  "value": 1,
+                  "unit": "unit(s)",
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000110633",
+                  "code": "100000110756"
+                }
+              },
+              "referenceStrength": [
+                {
+                  "substance": {
+                    "concept": {
+                      "coding": [
+                        {
+                          "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                          "code": "100000089314",
+                          "display": "Trastuzumab"
+                        }
+                      ]
+                    }
+                  },
+                  "strengthRatio": {
+                    "numerator": {
+                      "value": 150,
+                      "unit": "milligram(s)",
+                      "system": "http://spor.ema.europa.eu/v1/lists/100000110633",
+                      "code": "100000110655"
+                    },
+                    "denominator": {
+                      "value": 1,
+                      "unit": "unit(s)",
+                      "system": "http://spor.ema.europa.eu/v1/lists/100000110633",
+                      "code": "100000110756"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Ingredient/Herceptin-150mg-Powder-SE-IS-Ingredient-01"
+      }
+    },
+    {
+      "fullUrl": "{$base}/Ingredient/Herceptin-150mg-Powder-SE-IS-Ingredient-02",
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "Herceptin-150mg-Powder-SE-IS-Ingredient-02",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"Herceptin-150mg-Powder-SE-IS-Ingredient-02\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;Herceptin-150mg-Powder-SE-IS-Ingredient-02&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition)</a></li><li><a href=\"#ManufacturedItemDefinition_Herceptin-150mg-Powder-SE-IS-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/Herceptin-150mg-Powder-SE-IS-ManufacturedItemDefinition)</a></li><li><a href=\"#AdministrableProductDefinition_Herceptin-150mg-Powder-SE-IS-AdministrableProductDefinition\">See above (AdministrableProductDefinition/Herceptin-150mg-Powder-SE-IS-AdministrableProductDefinition)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Histidine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000092646)</span></td></tr></table></blockquote></div>"
+        },
+        "status": "active",
+        "for": [
+          {
+            "reference": "MedicinalProductDefinition/Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition"
+          },
+          {
+            "reference": "ManufacturedItemDefinition/Herceptin-150mg-Powder-SE-IS-ManufacturedItemDefinition"
+          },
+          {
+            "reference": "AdministrableProductDefinition/Herceptin-150mg-Powder-SE-IS-AdministrableProductDefinition"
+          }
+        ],
+        "role": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000072050",
+              "code": "100000072082",
+              "display": "Excipient"
+            }
+          ]
+        },
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                  "code": "100000092646",
+                  "display": "Histidine"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Ingredient/Herceptin-150mg-Powder-SE-IS-Ingredient-02"
+      }
+    },
+    {
+      "fullUrl": "{$base}/Ingredient/Herceptin-150mg-Powder-SE-IS-Ingredient-03",
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "Herceptin-150mg-Powder-SE-IS-Ingredient-03",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"Herceptin-150mg-Powder-SE-IS-Ingredient-03\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;Herceptin-150mg-Powder-SE-IS-Ingredient-03&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition)</a></li><li><a href=\"#ManufacturedItemDefinition_Herceptin-150mg-Powder-SE-IS-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/Herceptin-150mg-Powder-SE-IS-ManufacturedItemDefinition)</a></li><li><a href=\"#AdministrableProductDefinition_Herceptin-150mg-Powder-SE-IS-AdministrableProductDefinition\">See above (AdministrableProductDefinition/Herceptin-150mg-Powder-SE-IS-AdministrableProductDefinition)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Histidine hydrochloride monohydrate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000091553)</span></td></tr></table></blockquote></div>"
+        },
+        "status": "active",
+        "for": [
+          {
+            "reference": "MedicinalProductDefinition/Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition"
+          },
+          {
+            "reference": "ManufacturedItemDefinition/Herceptin-150mg-Powder-SE-IS-ManufacturedItemDefinition"
+          },
+          {
+            "reference": "AdministrableProductDefinition/Herceptin-150mg-Powder-SE-IS-AdministrableProductDefinition"
+          }
+        ],
+        "role": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000072050",
+              "code": "100000072082",
+              "display": "Excipient"
+            }
+          ]
+        },
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                  "code": "100000091553",
+                  "display": "Histidine hydrochloride monohydrate"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Ingredient/Herceptin-150mg-Powder-SE-IS-Ingredient-03"
+      }
+    },
+    {
+      "fullUrl": "{$base}/Ingredient/Herceptin-150mg-Powder-SE-IS-Ingredient-04",
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "Herceptin-150mg-Powder-SE-IS-Ingredient-04",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"Herceptin-150mg-Powder-SE-IS-Ingredient-04\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;Herceptin-150mg-Powder-SE-IS-Ingredient-04&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition)</a></li><li><a href=\"#ManufacturedItemDefinition_Herceptin-150mg-Powder-SE-IS-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/Herceptin-150mg-Powder-SE-IS-ManufacturedItemDefinition)</a></li><li><a href=\"#AdministrableProductDefinition_Herceptin-150mg-Powder-SE-IS-AdministrableProductDefinition\">See above (AdministrableProductDefinition/Herceptin-150mg-Powder-SE-IS-AdministrableProductDefinition)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Polysorbate 20 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000078537)</span></td></tr></table></blockquote></div>"
+        },
+        "status": "active",
+        "for": [
+          {
+            "reference": "MedicinalProductDefinition/Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition"
+          },
+          {
+            "reference": "ManufacturedItemDefinition/Herceptin-150mg-Powder-SE-IS-ManufacturedItemDefinition"
+          },
+          {
+            "reference": "AdministrableProductDefinition/Herceptin-150mg-Powder-SE-IS-AdministrableProductDefinition"
+          }
+        ],
+        "role": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000072050",
+              "code": "100000072082",
+              "display": "Excipient"
+            }
+          ]
+        },
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                  "code": "100000078537",
+                  "display": "Polysorbate 20"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Ingredient/Herceptin-150mg-Powder-SE-IS-Ingredient-04"
+      }
+    },
+    {
+      "fullUrl": "{$base}/Ingredient/Herceptin-150mg-Powder-SE-IS-Ingredient-05",
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "Herceptin-150mg-Powder-SE-IS-Ingredient-05",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"Herceptin-150mg-Powder-SE-IS-Ingredient-05\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;Herceptin-150mg-Powder-SE-IS-Ingredient-05&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition)</a></li><li><a href=\"#ManufacturedItemDefinition_Herceptin-150mg-Powder-SE-IS-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/Herceptin-150mg-Powder-SE-IS-ManufacturedItemDefinition)</a></li><li><a href=\"#AdministrableProductDefinition_Herceptin-150mg-Powder-SE-IS-AdministrableProductDefinition\">See above (AdministrableProductDefinition/Herceptin-150mg-Powder-SE-IS-AdministrableProductDefinition)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Trehalose dihydrate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000078318)</span></td></tr></table></blockquote></div>"
+        },
+        "status": "active",
+        "for": [
+          {
+            "reference": "MedicinalProductDefinition/Herceptin-150mg-Powder-SE-IS-MedicinalProductDefinition"
+          },
+          {
+            "reference": "ManufacturedItemDefinition/Herceptin-150mg-Powder-SE-IS-ManufacturedItemDefinition"
+          },
+          {
+            "reference": "AdministrableProductDefinition/Herceptin-150mg-Powder-SE-IS-AdministrableProductDefinition"
+          }
+        ],
+        "role": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000072050",
+              "code": "100000072082",
+              "display": "Excipient"
+            }
+          ]
+        },
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                  "code": "100000078318",
+                  "display": "Trehalose dihydrate"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Ingredient/Herceptin-150mg-Powder-SE-IS-Ingredient-05"
+      }
+    }
+  ]
+}

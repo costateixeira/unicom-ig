@@ -1,0 +1,628 @@
+{
+  "resourceType": "Bundle",
+  "id": "IMASTADA-100mg-Tablet-SE-IS",
+  "type": "batch",
+  "entry": [
+    {
+      "fullUrl": "{$base}/MedicinalProductDefinition/IMASTADA-100mg-Tablet-SE-IS-MedicinalProductDefinition",
+      "resource": {
+        "resourceType": "MedicinalProductDefinition",
+        "id": "IMASTADA-100mg-Tablet-SE-IS-MedicinalProductDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"IMASTADA-100mg-Tablet-SE-IS-MedicinalProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;IMASTADA-100mg-Tablet-SE-IS-MedicinalProductDefinition&quot; </p></div><p><b>identifier</b>: id: SE-100000843-00050150, id: 1725</p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000005003#200000005004)</span></p><p><b>indication</b>: Imatinib Stada är indicerat för behandling av  • vuxna och barn med nydiagnostiserad Philadelphiakromosom- (bcr-abl)-positiv (Ph+ ) kronisk myeloisk  leukemi (KML), för vilka benmärgstransplantation inte är en förstahandsbehandling • vuxna och barn med (Ph+ )-KML i kronisk fas efter terapisvikt med interferon alfa-behandling, eller i  accelererad fas eller blastkris • vuxna och barn med nyligen diagnosticerad Philadelphia-kromosom-positiv akut lymfoblastisk leukemi  (Ph+  ALL) tillsammans med kemoterapi • vuxna patienter med recidiverande eller refraktär Ph+  ALL som monoterapi • vuxna patienter med myelodysplastiska/myeloproliferativa sjukdomar (MDS/MPD) förenat med  rearrangemang av platelet-derived growth factor receptor (PDGFR)-genen • vuxna patienter med avancerat hypereosinofilt syndrom (HES) och/eller kronisk eosinofil leukemi (CEL)  med FIP1L1-PDGFRα-rearrangemang. Effekten av imatinib på utfallet av benmärgstransplantation har inte undersökts.  Imatinib Stada är indicerat för  • behandling av vuxna patienter med icke-resecerbara dermatofibrosarkoma protuberans (DFSP) och vuxna  patienter med återkommande och/eller metastaserande DFSP som är olämpliga att operera.  Hos vuxna och barn baseras effekten av imatinib på det sammantagna hematologiska och cytogenetiska  svaret och progressionsfri överlevnad vid KML, på hematologiskt och cytogenetiskt respons vid Ph+  ALL,  MDS/MPD, på hematologisk respons vid HES/CEL och på objektiv tumörrespons hos vuxna patienter vid  icke-resecerbara och/eller metastaserande DFSP. Erfarenheten av imatinib hos patienter med MDS/MPD  förenat med rearrangemang PDGFR-genen är mycket begränsat (se avsnitt 5.1). Förutom vid nyligen  diagnostiserad KML i kronisk fas finns det inga kontrollerade studier som visar på en klinisk nytta eller ökad  överlevnad för dessa sjukdomar.</p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072051#100000072084)</span></p><p><b>classification</b>: L01EA01 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000116677#100000093533)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Imatinib STADA 100 mg Filmdragerad tablett</p><blockquote><p><b>namePart</b></p><p><b>part</b>: Imatinib STADA</p><p><b>type</b>: Invented name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 100 mg</p><p><b>type</b>: Strength part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: Filmdragerad tablett</p><p><b>type</b>: Pharmaceutical dose form part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Swedish <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072057#100000072288)</span></td></tr></table></blockquote></div>"
+        },
+        "extension": [
+          {
+            "url": "http://ema.europa.eu/fhir/extension/authorisedDoseForm",
+            "valueCoding": {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000004",
+              "code": "100000073665",
+              "display": "Film-coated tablet"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/fhir/mpId",
+            "value": "SE-100000843-00050150"
+          },
+          {
+            "system": "http://ema.europa.eu/fhir/eurdId",
+            "value": "1725"
+          }
+        ],
+        "domain": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000000004",
+              "code": "100000000012",
+              "display": "Human use"
+            }
+          ]
+        },
+        "status": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000005003",
+              "code": "200000005004",
+              "display": "Current"
+            }
+          ]
+        },
+        "indication": "Imatinib Stada är indicerat för behandling av  • vuxna och barn med nydiagnostiserad Philadelphiakromosom- (bcr-abl)-positiv (Ph+ ) kronisk myeloisk  leukemi (KML), för vilka benmärgstransplantation inte är en förstahandsbehandling • vuxna och barn med (Ph+ )-KML i kronisk fas efter terapisvikt med interferon alfa-behandling, eller i  accelererad fas eller blastkris • vuxna och barn med nyligen diagnosticerad Philadelphia-kromosom-positiv akut lymfoblastisk leukemi  (Ph+  ALL) tillsammans med kemoterapi • vuxna patienter med recidiverande eller refraktär Ph+  ALL som monoterapi • vuxna patienter med myelodysplastiska/myeloproliferativa sjukdomar (MDS/MPD) förenat med  rearrangemang av platelet-derived growth factor receptor (PDGFR)-genen • vuxna patienter med avancerat hypereosinofilt syndrom (HES) och/eller kronisk eosinofil leukemi (CEL)  med FIP1L1-PDGFRα-rearrangemang. Effekten av imatinib på utfallet av benmärgstransplantation har inte undersökts.  Imatinib Stada är indicerat för  • behandling av vuxna patienter med icke-resecerbara dermatofibrosarkoma protuberans (DFSP) och vuxna  patienter med återkommande och/eller metastaserande DFSP som är olämpliga att operera.  Hos vuxna och barn baseras effekten av imatinib på det sammantagna hematologiska och cytogenetiska  svaret och progressionsfri överlevnad vid KML, på hematologiskt och cytogenetiskt respons vid Ph+  ALL,  MDS/MPD, på hematologisk respons vid HES/CEL och på objektiv tumörrespons hos vuxna patienter vid  icke-resecerbara och/eller metastaserande DFSP. Erfarenheten av imatinib hos patienter med MDS/MPD  förenat med rearrangemang PDGFR-genen är mycket begränsat (se avsnitt 5.1). Förutom vid nyligen  diagnostiserad KML i kronisk fas finns det inga kontrollerade studier som visar på en klinisk nytta eller ökad  överlevnad för dessa sjukdomar.",
+        "legalStatusOfSupply": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000072051",
+              "code": "100000072084",
+              "display": "Medicinal product subject to medical prescription"
+            }
+          ]
+        },
+        "classification": [
+          {
+            "coding": [
+              {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000116677",
+                "code": "100000093533",
+                "display": "L01EA01"
+              }
+            ]
+          }
+        ],
+        "name": [
+          {
+            "productName": "Imatinib STADA 100 mg Filmdragerad tablett",
+            "namePart": [
+              {
+                "part": "Imatinib STADA",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/220000000000",
+                      "code": "220000000002",
+                      "display": "Invented name part"
+                    }
+                  ]
+                }
+              },
+              {
+                "part": "100 mg",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/220000000000",
+                      "code": "220000000004",
+                      "display": "Strength part"
+                    }
+                  ]
+                }
+              },
+              {
+                "part": "Filmdragerad tablett",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/220000000000",
+                      "code": "220000000005",
+                      "display": "Pharmaceutical dose form part"
+                    }
+                  ]
+                }
+              }
+            ],
+            "countryLanguage": [
+              {
+                "country": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                      "code": "100000000535",
+                      "display": "Sweden"
+                    }
+                  ]
+                },
+                "language": {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/100000072057",
+                      "code": "100000072288",
+                      "display": "Swedish"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "MedicinalProductDefinition/IMASTADA-100mg-Tablet-SE-IS-MedicinalProductDefinition"
+      }
+    },
+    {
+      "fullUrl": "{$base}/RegulatedAuthorization/IMASTADA-100mg-Tablet-SE-IS-RegulatedAuthorization",
+      "resource": {
+        "resourceType": "RegulatedAuthorization",
+        "id": "IMASTADA-100mg-Tablet-SE-IS-RegulatedAuthorization",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"IMASTADA-100mg-Tablet-SE-IS-RegulatedAuthorization\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;IMASTADA-100mg-Tablet-SE-IS-RegulatedAuthorization&quot; </p></div><p><b>identifier</b>: id: 50150</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_IMASTADA-100mg-Tablet-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/IMASTADA-100mg-Tablet-SE-IS-MedicinalProductDefinition)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000060#220000000061)</span></p><p><b>region</b>: Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></p><p><b>status</b>: Valid <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072049#100000072099)</span></p><p><b>statusDate</b>: 2015-11-12</p><p><b>holder</b>: <span>: STADA Arzneimittel AG</span></p><h3>Cases</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Date[x]</b></td></tr><tr><td>*</td><td>First Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (authorisationDateType#dateOfFirstAuthorisation)</span></td><td>2015-11-12</td></tr></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/fhir/MarketingAuthorizationNumber",
+            "value": "50150"
+          }
+        ],
+        "subject": [
+          {
+            "reference": "MedicinalProductDefinition/IMASTADA-100mg-Tablet-SE-IS-MedicinalProductDefinition"
+          }
+        ],
+        "type": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/220000000060",
+              "code": "220000000061",
+              "display": "Marketing Authorisation"
+            }
+          ]
+        },
+        "region": [
+          {
+            "coding": [
+              {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                "code": "100000000535",
+                "display": "Sweden"
+              }
+            ]
+          }
+        ],
+        "status": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000072049",
+              "code": "100000072099",
+              "display": "Valid"
+            }
+          ]
+        },
+        "statusDate": "2015-11-12",
+        "holder": {
+          "identifier": {
+            "system": "https://spor.ema.europa.eu/v1/locations",
+            "value": "LOC-100001022"
+          },
+          "display": "STADA Arzneimittel AG"
+        },
+        "case": {
+          "type": {
+            "coding": [
+              {
+                "system": "http://ema.europa.eu/fhir/authorisationDateType",
+                "code": "dateOfFirstAuthorisation",
+                "display": "First Authorisation"
+              }
+            ]
+          },
+          "dateDateTime": "2015-11-12"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "RegulatedAuthorization/IMASTADA-100mg-Tablet-SE-IS-RegulatedAuthorization"
+      }
+    },
+    {
+      "fullUrl": "{$base}/AdministrableProductDefinition/IMASTADA-100mg-Tablet-SE-IS-AdministrableProductDefinition",
+      "resource": {
+        "resourceType": "AdministrableProductDefinition",
+        "id": "IMASTADA-100mg-Tablet-SE-IS-AdministrableProductDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"IMASTADA-100mg-Tablet-SE-IS-AdministrableProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;IMASTADA-100mg-Tablet-SE-IS-AdministrableProductDefinition&quot; </p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"#MedicinalProductDefinition_IMASTADA-100mg-Tablet-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/IMASTADA-100mg-Tablet-SE-IS-MedicinalProductDefinition)</a></p><p><b>administrableDoseForm</b>: Film-coated tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000073665)</span></p><p><b>producedFrom</b>: <a href=\"#ManufacturedItemDefinition_IMASTADA-100mg-Tablet-SE-IS-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/IMASTADA-100mg-Tablet-SE-IS-ManufacturedItemDefinition)</a></p><h3>RouteOfAdministrations</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073345#100000073619)</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "formOf": [
+          {
+            "reference": "MedicinalProductDefinition/IMASTADA-100mg-Tablet-SE-IS-MedicinalProductDefinition"
+          }
+        ],
+        "administrableDoseForm": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000004",
+              "code": "100000073665",
+              "display": "Film-coated tablet"
+            }
+          ]
+        },
+        "producedFrom": [
+          {
+            "reference": "ManufacturedItemDefinition/IMASTADA-100mg-Tablet-SE-IS-ManufacturedItemDefinition"
+          }
+        ],
+        "routeOfAdministration": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000073345",
+                  "code": "100000073619",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "AdministrableProductDefinition/IMASTADA-100mg-Tablet-SE-IS-AdministrableProductDefinition"
+      }
+    },
+    {
+      "fullUrl": "{$base}/PackagedProductDefinition/IMASTADA-100mg-Tablet-SE-IS-PackagedProductDefinition",
+      "resource": {
+        "resourceType": "PackagedProductDefinition",
+        "id": "IMASTADA-100mg-Tablet-SE-IS-PackagedProductDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"IMASTADA-100mg-Tablet-SE-IS-PackagedProductDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;IMASTADA-100mg-Tablet-SE-IS-PackagedProductDefinition&quot; </p></div><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_IMASTADA-100mg-Tablet-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/IMASTADA-100mg-Tablet-SE-IS-MedicinalProductDefinition)</a></p><p><b>description</b>: Burk, 60 tabletter</p><h3>MarketingStatuses</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Sweden <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000535)</span></td><td>Marketed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003529)</span></p><blockquote><p><b>shelfLifeStorage</b></p><p><b>type</b>: Shelf life of the medicinal product as packaged for sale <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073343#100000073403)</span></p><p><b>specialPrecautionsForStorage</b>: Do not store above 25 °C <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073344#100000073410)</span>, Store in the original package <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073344#100000073421)</span>, in order to protect from moisture <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073344#100000073427)</span></p></blockquote><blockquote><p><b>shelfLifeStorage</b></p><p><b>type</b>: Shelf life after first opening the immediate packaging <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073343#100000073404)</span></p><p><b>specialPrecautionsForStorage</b>: Do not store above 25 °C <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073344#100000073410)</span>, Store in the original package <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073344#100000073421)</span>, in order to protect from moisture <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073344#100000073427)</span></p></blockquote><blockquote><p><b>package</b></p><p><b>type</b>: Bottle <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073497)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: High Density PolyEthylene <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003215)</span>, PolyPropylene <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003219)</span>, PolyEthylene <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003214)</span></p></blockquote></blockquote></div>"
+        },
+        "extension": [
+          {
+            "url": "http://ema.europa.eu/fhir/extension/containedItemQuantity",
+            "valueQuantity": {
+              "value": 60,
+              "unit": "Tablet",
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+              "code": "200000002152"
+            }
+          }
+        ],
+        "packageFor": [
+          {
+            "reference": "MedicinalProductDefinition/IMASTADA-100mg-Tablet-SE-IS-MedicinalProductDefinition"
+          }
+        ],
+        "description": "Burk, 60 tabletter",
+        "_description": {
+          "extension": [
+            {
+              "url": "http://ema.europa.eu/fhir/extension/language",
+              "valueCoding": {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000072057",
+                "code": "100000072288",
+                "display": "Swedish"
+              }
+            }
+          ]
+        },
+        "marketingStatus": [
+          {
+            "country": {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000000002",
+                  "code": "100000000535",
+                  "display": "Sweden"
+                }
+              ]
+            },
+            "status": {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000072052",
+                  "code": "100000072083",
+                  "display": "Marketed"
+                }
+              ]
+            }
+          }
+        ],
+        "package": {
+          "type": {
+            "coding": [
+              {
+                "system": "http://spor.ema.europa.eu/v1/lists/100000073346",
+                "code": "100000073498",
+                "display": "Box"
+              }
+            ]
+          },
+          "quantity": 1,
+          "material": [
+            {
+              "coding": [
+                {
+                  "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                  "code": "200000003529",
+                  "display": "Cardboard"
+                }
+              ]
+            }
+          ],
+          "shelfLifeStorage": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://spor.ema.europa.eu/v1/lists/100000073343",
+                    "code": "100000073403",
+                    "display": "Shelf life of the medicinal product as packaged for sale"
+                  }
+                ]
+              },
+              "specialPrecautionsForStorage": [
+                {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000073344",
+                      "code": "100000073410",
+                      "display": "Do not store above 25 °C"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000073344",
+                      "code": "100000073421",
+                      "display": "Store in the original package"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000073344",
+                      "code": "100000073427",
+                      "display": "in order to protect from moisture"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://spor.ema.europa.eu/v1/lists/100000073343",
+                    "code": "100000073404",
+                    "display": "Shelf life after first opening the immediate packaging"
+                  }
+                ]
+              },
+              "specialPrecautionsForStorage": [
+                {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000073344",
+                      "code": "100000073410",
+                      "display": "Do not store above 25 °C"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000073344",
+                      "code": "100000073421",
+                      "display": "Store in the original package"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000073344",
+                      "code": "100000073427",
+                      "display": "in order to protect from moisture"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "package": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://spor.ema.europa.eu/v1/lists/100000073346",
+                    "code": "100000073497",
+                    "display": "Bottle"
+                  }
+                ]
+              },
+              "quantity": 1,
+              "material": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                      "code": "200000003215",
+                      "display": "High Density PolyEthylene"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                      "code": "200000003219",
+                      "display": "PolyPropylene"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "http://spor.ema.europa.eu/v1/lists/200000003199",
+                      "code": "200000003214",
+                      "display": "PolyEthylene"
+                    }
+                  ]
+                }
+              ],
+              "containedItem": [
+                {
+                  "item": {
+                    "reference": {
+                      "reference": "ManufacturedItemDefinition/IMASTADA-100mg-Tablet-SE-IS-ManufacturedItemDefinition"
+                    }
+                  },
+                  "amount": {
+                    "value": 60,
+                    "unit": "Tablet",
+                    "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+                    "code": "200000002152"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "PackagedProductDefinition/IMASTADA-100mg-Tablet-SE-IS-PackagedProductDefinition"
+      }
+    },
+    {
+      "fullUrl": "{$base}/ManufacturedItemDefinition/IMASTADA-100mg-Tablet-SE-IS-ManufacturedItemDefinition",
+      "resource": {
+        "resourceType": "ManufacturedItemDefinition",
+        "id": "IMASTADA-100mg-Tablet-SE-IS-ManufacturedItemDefinition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"IMASTADA-100mg-Tablet-SE-IS-ManufacturedItemDefinition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;IMASTADA-100mg-Tablet-SE-IS-ManufacturedItemDefinition&quot; </p></div><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Film-coated tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000073665)</span></p><p><b>unitOfPresentation</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000014#200000002152)</span></p></div>"
+        },
+        "status": "active",
+        "manufacturedDoseForm": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000004",
+              "code": "100000073665",
+              "display": "Film-coated tablet"
+            }
+          ]
+        },
+        "unitOfPresentation": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+              "code": "200000002152",
+              "display": "Tablet"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ManufacturedItemDefinition/IMASTADA-100mg-Tablet-SE-IS-ManufacturedItemDefinition"
+      }
+    },
+    {
+      "fullUrl": "{$base}/Ingredient/IMASTADA-100mg-Tablet-SE-IS-Ingredient",
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "IMASTADA-100mg-Tablet-SE-IS-Ingredient",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"IMASTADA-100mg-Tablet-SE-IS-Ingredient\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;IMASTADA-100mg-Tablet-SE-IS-Ingredient&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_IMASTADA-100mg-Tablet-SE-IS-MedicinalProductDefinition\">See above (MedicinalProductDefinition/IMASTADA-100mg-Tablet-SE-IS-MedicinalProductDefinition)</a></li><li><a href=\"#ManufacturedItemDefinition_IMASTADA-100mg-Tablet-SE-IS-ManufacturedItemDefinition\">See above (ManufacturedItemDefinition/IMASTADA-100mg-Tablet-SE-IS-ManufacturedItemDefinition)</a></li><li><a href=\"#AdministrableProductDefinition_IMASTADA-100mg-Tablet-SE-IS-AdministrableProductDefinition\">See above (AdministrableProductDefinition/IMASTADA-100mg-Tablet-SE-IS-AdministrableProductDefinition)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Imatinib mesilate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000091825)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>presentation</b>: 119.47 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 unit(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110756 = '100000110756')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Imatinib <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SubstanceDefinition#100000091894)</span></td></tr></table><p><b>strength</b>: 100 milligram(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 unit(s)<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110756 = '100000110756')</span></p></blockquote></blockquote></blockquote></div>"
+        },
+        "status": "active",
+        "for": [
+          {
+            "reference": "MedicinalProductDefinition/IMASTADA-100mg-Tablet-SE-IS-MedicinalProductDefinition"
+          },
+          {
+            "reference": "ManufacturedItemDefinition/IMASTADA-100mg-Tablet-SE-IS-ManufacturedItemDefinition"
+          },
+          {
+            "reference": "AdministrableProductDefinition/IMASTADA-100mg-Tablet-SE-IS-AdministrableProductDefinition"
+          }
+        ],
+        "role": {
+          "coding": [
+            {
+              "system": "http://spor.ema.europa.eu/v1/lists/100000072050",
+              "code": "100000072072",
+              "display": "Active"
+            }
+          ]
+        },
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                  "code": "100000091825",
+                  "display": "Imatinib mesilate"
+                }
+              ]
+            }
+          },
+          "strength": [
+            {
+              "presentationRatio": {
+                "numerator": {
+                  "value": 119.47,
+                  "unit": "milligram(s)",
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000110633",
+                  "code": "100000110655"
+                },
+                "denominator": {
+                  "value": 1,
+                  "unit": "unit(s)",
+                  "system": "http://spor.ema.europa.eu/v1/lists/100000110633",
+                  "code": "100000110756"
+                }
+              },
+              "referenceStrength": [
+                {
+                  "substance": {
+                    "concept": {
+                      "coding": [
+                        {
+                          "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                          "code": "100000091894",
+                          "display": "Imatinib"
+                        }
+                      ]
+                    }
+                  },
+                  "strengthRatio": {
+                    "numerator": {
+                      "value": 100,
+                      "unit": "milligram(s)",
+                      "system": "http://spor.ema.europa.eu/v1/lists/100000110633",
+                      "code": "100000110655"
+                    },
+                    "denominator": {
+                      "value": 1,
+                      "unit": "unit(s)",
+                      "system": "http://spor.ema.europa.eu/v1/lists/100000110633",
+                      "code": "100000110756"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Ingredient/IMASTADA-100mg-Tablet-SE-IS-Ingredient"
+      }
+    }
+  ]
+}

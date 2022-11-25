@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="Stesolid-5mg-Solution-SE-IS"/>
+  <type value="batch"/>
+  <entry>
+    <fullUrl value="{$base}/MedicinalProductDefinition/Stesolid-5mg-Solution-SE-IS-MedicinalProductDefinition"/>
+    <resource>
+      <MedicinalProductDefinition>
+        <id value="Stesolid-5mg-Solution-SE-IS-MedicinalProductDefinition"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name="Stesolid-5mg-Solution-SE-IS-MedicinalProductDefinition"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicinalProductDefinition &quot;Stesolid-5mg-Solution-SE-IS-MedicinalProductDefinition&quot; </p></div><p><b>identifier</b>: id: SE-100000064-00009291, id: 1029</p><p><b>domain</b>: Human use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000005003#200000005004)</span></p><p><b>indication</b>: Stesolid rektallösning är speciellt användbart vid manifesta kramper, som feberkramper, tetanus och  eklampsi, vid status epilepticus samt för premedicinering och sedering. Stesolid rektallösning är  indicerat också i andra akuta situationer då snabb, ångestdämpande eller sederande effekt önskas. </p><p><b>legalStatusOfSupply</b>: Medicinal product subject to special medical prescription <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072051#100000072085)</span></p><p><b>classification</b>: N05BA01 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000116677#100000093533)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Stesolid® 5 mg Rektallösning</p><blockquote><p><b>namePart</b></p><p><b>part</b>: Stesolid®</p><p><b>type</b>: Invented name part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 5 mg</p><p><b>type</b>: Strength part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: Rektallösning</p><p><b>type</b>: Pharmaceutical dose form part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Sweden <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000535)</span></td><td>Swedish <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072057#100000072288)</span></td></tr></table></blockquote></div>
+        </text>
+        <extension url="http://ema.europa.eu/fhir/extension/authorisedDoseForm">
+          <valueCoding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000004"/>
+            <code value="100000073829"/>
+            <display value="Rectal solution"/>
+          </valueCoding>
+        </extension>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/mpId"/>
+          <value value="SE-100000064-00009291"/>
+        </identifier>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/eurdId"/>
+          <value value="1029"/>
+        </identifier>
+        <domain>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000000004"/>
+            <code value="100000000012"/>
+            <display value="Human use"/>
+          </coding>
+        </domain>
+        <status>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000005003"/>
+            <code value="200000005004"/>
+            <display value="Current"/>
+          </coding>
+        </status>
+        <indication value="Stesolid rektallösning är speciellt användbart vid manifesta kramper, som feberkramper, tetanus och  eklampsi, vid status epilepticus samt för premedicinering och sedering. Stesolid rektallösning är  indicerat också i andra akuta situationer då snabb, ångestdämpande eller sederande effekt önskas. "/>
+        <legalStatusOfSupply>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000072051"/>
+            <code value="100000072085"/>
+            <display value="Medicinal product subject to special medical prescription"/>
+          </coding>
+        </legalStatusOfSupply>
+        <classification>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000116677"/>
+            <code value="100000093533"/>
+            <display value="N05BA01"/>
+          </coding>
+        </classification>
+        <name>
+          <productName value="Stesolid® 5 mg Rektallösning"/>
+          <namePart>
+            <part value="Stesolid®"/>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000002"/>
+                <display value="Invented name part"/>
+              </coding>
+            </type>
+          </namePart>
+          <namePart>
+            <part value="5 mg"/>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000004"/>
+                <display value="Strength part"/>
+              </coding>
+            </type>
+          </namePart>
+          <namePart>
+            <part value="Rektallösning"/>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000005"/>
+                <display value="Pharmaceutical dose form part"/>
+              </coding>
+            </type>
+          </namePart>
+          <countryLanguage>
+            <country>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000000002"/>
+                <code value="100000000535"/>
+                <display value="Sweden"/>
+              </coding>
+            </country>
+            <language>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000072057"/>
+                <code value="100000072288"/>
+                <display value="Swedish"/>
+              </coding>
+            </language>
+          </countryLanguage>
+        </name>
+      </MedicinalProductDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="MedicinalProductDefinition/Stesolid-5mg-Solution-SE-IS-MedicinalProductDefinition"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/RegulatedAuthorization/Stesolid-5mg-Solution-SE-IS-RegulatedAuthorization"/>
+    <resource>
+      <RegulatedAuthorization>
+        <id value="Stesolid-5mg-Solution-SE-IS-RegulatedAuthorization"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: RegulatedAuthorization</b><a name="Stesolid-5mg-Solution-SE-IS-RegulatedAuthorization"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource RegulatedAuthorization &quot;Stesolid-5mg-Solution-SE-IS-RegulatedAuthorization&quot; </p></div><p><b>identifier</b>: id: 9291</p><p><b>subject</b>: <a href="#MedicinalProductDefinition_Stesolid-5mg-Solution-SE-IS-MedicinalProductDefinition">See above (MedicinalProductDefinition/Stesolid-5mg-Solution-SE-IS-MedicinalProductDefinition)</a></p><p><b>type</b>: Marketing Authorisation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000060#220000000061)</span></p><p><b>region</b>: Sweden <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000535)</span></p><p><b>status</b>: Valid <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072049#100000072099)</span></p><p><b>statusDate</b>: 1977-11-18</p><p><b>holder</b>: <span>: Actavis Group PTC ehf.</span></p><h3>Cases</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Date[x]</b></td></tr><tr><td>*</td><td>First Authorisation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (authorisationDateType#dateOfFirstAuthorisation)</span></td><td>1977-11-18</td></tr></table></div>
+        </text>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/MarketingAuthorizationNumber"/>
+          <value value="9291"/>
+        </identifier>
+        <subject>
+          <reference value="MedicinalProductDefinition/Stesolid-5mg-Solution-SE-IS-MedicinalProductDefinition"/>
+        </subject>
+        <type>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/220000000060"/>
+            <code value="220000000061"/>
+            <display value="Marketing Authorisation"/>
+          </coding>
+        </type>
+        <region>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000000002"/>
+            <code value="100000000535"/>
+            <display value="Sweden"/>
+          </coding>
+        </region>
+        <status>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000072049"/>
+            <code value="100000072099"/>
+            <display value="Valid"/>
+          </coding>
+        </status>
+        <statusDate value="1977-11-18"/>
+        <holder>
+          <identifier>
+            <system value="https://spor.ema.europa.eu/v1/locations"/>
+            <value value="LOC-100001873"/>
+          </identifier>
+          <display value="Actavis Group PTC ehf."/>
+        </holder>
+        <case>
+          <type>
+            <coding>
+              <system value="http://ema.europa.eu/fhir/authorisationDateType"/>
+              <code value="dateOfFirstAuthorisation"/>
+              <display value="First Authorisation"/>
+            </coding>
+          </type>
+          <dateDateTime value="1977-11-18"/>
+        </case>
+      </RegulatedAuthorization>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="RegulatedAuthorization/Stesolid-5mg-Solution-SE-IS-RegulatedAuthorization"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/AdministrableProductDefinition/Stesolid-5mg-Solution-SE-IS-AdministrableProductDefinition"/>
+    <resource>
+      <AdministrableProductDefinition>
+        <id value="Stesolid-5mg-Solution-SE-IS-AdministrableProductDefinition"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name="Stesolid-5mg-Solution-SE-IS-AdministrableProductDefinition"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AdministrableProductDefinition &quot;Stesolid-5mg-Solution-SE-IS-AdministrableProductDefinition&quot; </p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href="#MedicinalProductDefinition_Stesolid-5mg-Solution-SE-IS-MedicinalProductDefinition">See above (MedicinalProductDefinition/Stesolid-5mg-Solution-SE-IS-MedicinalProductDefinition)</a></p><p><b>administrableDoseForm</b>: Rectal solution <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000004#100000073829)</span></p><p><b>producedFrom</b>: <a href="#ManufacturedItemDefinition_Stesolid-5mg-Solution-SE-IS-ManufacturedItemDefinition">See above (ManufacturedItemDefinition/Stesolid-5mg-Solution-SE-IS-ManufacturedItemDefinition)</a></p><h3>RouteOfAdministrations</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Retal use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073345#100000073628)</span></td></tr></table></div>
+        </text>
+        <status value="active"/>
+        <formOf>
+          <reference value="MedicinalProductDefinition/Stesolid-5mg-Solution-SE-IS-MedicinalProductDefinition"/>
+        </formOf>
+        <administrableDoseForm>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000004"/>
+            <code value="100000073829"/>
+            <display value="Rectal solution"/>
+          </coding>
+        </administrableDoseForm>
+        <producedFrom>
+          <reference value="ManufacturedItemDefinition/Stesolid-5mg-Solution-SE-IS-ManufacturedItemDefinition"/>
+        </producedFrom>
+        <routeOfAdministration>
+          <code>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000073345"/>
+              <code value="100000073628"/>
+              <display value="Retal use"/>
+            </coding>
+          </code>
+        </routeOfAdministration>
+      </AdministrableProductDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="AdministrableProductDefinition/Stesolid-5mg-Solution-SE-IS-AdministrableProductDefinition"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/PackagedProductDefinition/Stesolid-5mg-Solution-SE-IS-PackagedProductDefinition"/>
+    <resource>
+      <PackagedProductDefinition>
+        <id value="Stesolid-5mg-Solution-SE-IS-PackagedProductDefinition"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b><a name="Stesolid-5mg-Solution-SE-IS-PackagedProductDefinition"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition &quot;Stesolid-5mg-Solution-SE-IS-PackagedProductDefinition&quot; </p></div><p><b>packageFor</b>: <a href="#MedicinalProductDefinition_Stesolid-5mg-Solution-SE-IS-MedicinalProductDefinition">See above (MedicinalProductDefinition/Stesolid-5mg-Solution-SE-IS-MedicinalProductDefinition)</a></p><p><b>description</b>: Endosbehållare, 5 x 2,5 ml</p><h3>MarketingStatuses</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>Sweden <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000535)</span></td><td>Marketed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072052#100000072083)</span></td></tr></table><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Bag <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073493)</span></p><p><b>quantity</b>: 5</p><p><b>material</b>: Aluminium <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003200)</span></p></blockquote></blockquote></div>
+        </text>
+        <extension url="http://ema.europa.eu/fhir/extension/containedItemQuantity">
+          <valueQuantity>
+            <value value="1"/>
+            <unit value="tube"/>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
+            <code value="200000002156"/>
+          </valueQuantity>
+        </extension>
+        <packageFor>
+          <reference value="MedicinalProductDefinition/Stesolid-5mg-Solution-SE-IS-MedicinalProductDefinition"/>
+        </packageFor>
+        <description value="Endosbehållare, 5 x 2,5 ml">
+          <extension url="http://ema.europa.eu/fhir/extension/language">
+            <valueCoding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000072057"/>
+              <code value="100000072288"/>
+              <display value="Swedish"/>
+            </valueCoding>
+          </extension>
+        </description>
+        <marketingStatus>
+          <country>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000000002"/>
+              <code value="100000000535"/>
+              <display value="Sweden"/>
+            </coding>
+          </country>
+          <status>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000072052"/>
+              <code value="100000072083"/>
+              <display value="Marketed"/>
+            </coding>
+          </status>
+        </marketingStatus>
+        <package>
+          <type>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/100000073346"/>
+              <code value="100000073498"/>
+              <display value="Box"/>
+            </coding>
+          </type>
+          <quantity value="1"/>
+          <material>
+            <coding>
+              <system value="http://spor.ema.europa.eu/v1/lists/200000003199"/>
+              <code value="200000003529"/>
+              <display value="Cardboard"/>
+            </coding>
+          </material>
+          <package>
+            <type>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000073346"/>
+                <code value="100000073493"/>
+                <display value="Bag"/>
+              </coding>
+            </type>
+            <quantity value="5"/>
+            <material>
+              <coding>
+                <system value="http://spor.ema.europa.eu/v1/lists/200000003199"/>
+                <code value="200000003200"/>
+                <display value="Aluminium"/>
+              </coding>
+            </material>
+            <package>
+              <type>
+                <coding>
+                  <system value="http://spor.ema.europa.eu/v1/lists/100000073346"/>
+                  <code value="100000073542"/>
+                  <display value="Pre-filled gastroenteral tube"/>
+                </coding>
+              </type>
+              <quantity value="1"/>
+              <material>
+                <coding>
+                  <system value="http://spor.ema.europa.eu/v1/lists/200000003199"/>
+                  <code value="200000003208"/>
+                  <display value="Plastic"/>
+                </coding>
+              </material>
+              <containedItem>
+                <item>
+                  <reference>
+                    <reference value="ManufacturedItemDefinition/Stesolid-5mg-Solution-SE-IS-ManufacturedItemDefinition"/>
+                  </reference>
+                </item>
+                <amount>
+                  <value value="1"/>
+                  <unit value="Tube"/>
+                  <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
+                  <code value="200000002156"/>
+                </amount>
+              </containedItem>
+            </package>
+          </package>
+        </package>
+      </PackagedProductDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="PackagedProductDefinition/Stesolid-5mg-Solution-SE-IS-PackagedProductDefinition"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/ManufacturedItemDefinition/Stesolid-5mg-Solution-SE-IS-ManufacturedItemDefinition"/>
+    <resource>
+      <ManufacturedItemDefinition>
+        <id value="Stesolid-5mg-Solution-SE-IS-ManufacturedItemDefinition"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name="Stesolid-5mg-Solution-SE-IS-ManufacturedItemDefinition"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource ManufacturedItemDefinition &quot;Stesolid-5mg-Solution-SE-IS-ManufacturedItemDefinition&quot; </p></div><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Rectal solution <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000004#100000073829)</span></p><p><b>unitOfPresentation</b>: Tube <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000014#200000002156)</span></p></div>
+        </text>
+        <status value="active"/>
+        <manufacturedDoseForm>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000004"/>
+            <code value="100000073829"/>
+            <display value="Rectal solution"/>
+          </coding>
+        </manufacturedDoseForm>
+        <unitOfPresentation>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
+            <code value="200000002156"/>
+            <display value="Tube"/>
+          </coding>
+        </unitOfPresentation>
+      </ManufacturedItemDefinition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="ManufacturedItemDefinition/Stesolid-5mg-Solution-SE-IS-ManufacturedItemDefinition"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="{$base}/Ingredient/Stesolid-5mg-Solution-SE-IS-Ingredient"/>
+    <resource>
+      <Ingredient>
+        <id value="Stesolid-5mg-Solution-SE-IS-Ingredient"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b><a name="Stesolid-5mg-Solution-SE-IS-Ingredient"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;Stesolid-5mg-Solution-SE-IS-Ingredient&quot; </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href="#MedicinalProductDefinition_Stesolid-5mg-Solution-SE-IS-MedicinalProductDefinition">See above (MedicinalProductDefinition/Stesolid-5mg-Solution-SE-IS-MedicinalProductDefinition)</a></li><li><a href="#ManufacturedItemDefinition_Stesolid-5mg-Solution-SE-IS-ManufacturedItemDefinition">See above (ManufacturedItemDefinition/Stesolid-5mg-Solution-SE-IS-ManufacturedItemDefinition)</a></li><li><a href="#AdministrableProductDefinition_Stesolid-5mg-Solution-SE-IS-AdministrableProductDefinition">See above (AdministrableProductDefinition/Stesolid-5mg-Solution-SE-IS-AdministrableProductDefinition)</a></li></ul><p><b>role</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Diazepam <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SubstanceDefinition#100000092362)</span></td></tr></table><blockquote><p><b>strength</b></p><p><b>concentration</b>: 5 milligram(s)<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 unit(s)<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110756 = '100000110756')</span></p><blockquote><p><b>referenceStrength</b></p><h3>Substances</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Diazepam <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SubstanceDefinition#100000092362)</span></td></tr></table><p><b>strength</b>: 5 milligram(s)<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110655 = '100000110655')</span>/1 unit(s)<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/100000110633 code 100000110756 = '100000110756')</span></p></blockquote></blockquote></blockquote></div>
+        </text>
+        <status value="active"/>
+        <for>
+          <reference value="MedicinalProductDefinition/Stesolid-5mg-Solution-SE-IS-MedicinalProductDefinition"/>
+        </for>
+        <for>
+          <reference value="ManufacturedItemDefinition/Stesolid-5mg-Solution-SE-IS-ManufacturedItemDefinition"/>
+        </for>
+        <for>
+          <reference value="AdministrableProductDefinition/Stesolid-5mg-Solution-SE-IS-AdministrableProductDefinition"/>
+        </for>
+        <role>
+          <coding>
+            <system value="http://spor.ema.europa.eu/v1/lists/100000072050"/>
+            <code value="100000072072"/>
+            <display value="Active"/>
+          </coding>
+        </role>
+        <substance>
+          <code>
+            <concept>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v2/SubstanceDefinition"/>
+                <code value="100000092362"/>
+                <display value="Diazepam"/>
+              </coding>
+            </concept>
+          </code>
+          <strength>
+            <concentrationRatio>
+              <numerator>
+                <value value="5"/>
+                <unit value="milligram(s)"/>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000110633"/>
+                <code value="100000110655"/>
+              </numerator>
+              <denominator>
+                <value value="1"/>
+                <unit value="unit(s)"/>
+                <system value="http://spor.ema.europa.eu/v1/lists/100000110633"/>
+                <code value="100000110756"/>
+              </denominator>
+            </concentrationRatio>
+            <referenceStrength>
+              <substance>
+                <concept>
+                  <coding>
+                    <system value="https://spor.ema.europa.eu/v2/SubstanceDefinition"/>
+                    <code value="100000092362"/>
+                    <display value="Diazepam"/>
+                  </coding>
+                </concept>
+              </substance>
+              <strengthRatio>
+                <numerator>
+                  <value value="5"/>
+                  <unit value="milligram(s)"/>
+                  <system value="http://spor.ema.europa.eu/v1/lists/100000110633"/>
+                  <code value="100000110655"/>
+                </numerator>
+                <denominator>
+                  <value value="1"/>
+                  <unit value="unit(s)"/>
+                  <system value="http://spor.ema.europa.eu/v1/lists/100000110633"/>
+                  <code value="100000110756"/>
+                </denominator>
+              </strengthRatio>
+            </referenceStrength>
+          </strength>
+        </substance>
+      </Ingredient>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Ingredient/Stesolid-5mg-Solution-SE-IS-Ingredient"/>
+    </request>
+  </entry>
+</Bundle>
