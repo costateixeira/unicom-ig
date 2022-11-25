@@ -3,7 +3,7 @@
 
 err = 0, warn = 36, info = 174
 IG Publisher Version: 1.2.19
-Generated Fri Nov 25 11:26:15 UTC 2022. FHIR version 4.3.0 for hl7.eu.fhir.unicom#0.1.0 (canonical = http://hl7-eu.github.io/unicom-ig)
+Generated Fri Nov 25 11:48:39 UTC 2022. FHIR version 4.3.0 for hl7.eu.fhir.unicom#0.1.0 (canonical = http://hl7-eu.github.io/unicom-ig)
  Build Errors : 0 / 5 / 0
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-Agen-5mg-Tablet-EE-APD : 0 / 0 / 4
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-CanifugCremolum-100mg-Pessary-EE-APD : 0 / 0 / 4
