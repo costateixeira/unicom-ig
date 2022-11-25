@@ -1,3 +1,6 @@
+Alias: $base = https://hl7-eu.github.io/unicom-ig/branches/deployable
+
+
 Alias: $100000000004 = http://spor.ema.europa.eu/v1/lists/100000000004 // Domain
 Alias: $200000005003 = http://spor.ema.europa.eu/v1/lists/200000005003 // Record Status
 Alias: $220000000000 = http://spor.ema.europa.eu/v1/lists/220000000000 // Medicinal Product Name Part type
@@ -28,3 +31,15 @@ Alias: $sms = https://spor.ema.europa.eu/v2/SubstanceDefinition // EMA SPOR Subs
 Alias: $loc-id = https://spor.ema.europa.eu/v1/locations // EMA OMS Location Identifier
 Alias: $org-id = https://spor.ema.europa.eu/v1/organisations // EMA OMS Organisation Identifier
 Alias: $who-atc = http://www.whocc.no/atc // WHO ATC
+
+
+Alias: $200000000004~200000000006~200000000007~200000000008 = http://spor.ema.europa.eu/v1/lists/200000000004~200000000006~200000000007~200000000008
+Alias: $authorisationDateType = http://ema.europa.eu/fhir/authorisationDateType
+Alias: $SubstanceDefinition = https://spor.ema.europa.eu/v2/SubstanceDefinition  //SMS?
+Alias: $100000073344 = https://spor.ema.europa.eu/v1/lists/100000073344
+Alias: $100000116677 = http://spor.ema.europa.eu/v1/lists/100000116677
+Alias: $200000003186 = http://spor.ema.europa.eu/v1/lists/200000003186
+Alias: $200000000010 = https://spor.ema.europa.eu/v1/lists/200000000010
+Alias: $100000154442 = http://spor.ema.europa.eu/v1/lists/100000154442
+Alias: $100000160962 = http://spor.ema.europa.eu/v1/lists/100000160962
+Alias: $200000003554 = http://spor.ema.europa.eu/v1/lists/200000003554

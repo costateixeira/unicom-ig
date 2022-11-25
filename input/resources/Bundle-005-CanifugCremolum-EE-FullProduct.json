@@ -8,11 +8,6 @@
       "resource": {
         "resourceType": "MedicinalProductDefinition",
         "id": "CanifugCremolum-EE-MPD",
-        "meta": {
-          "profile": [
-            "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"
-          ]
-        },
         "identifier": [
           {
             "system": "http://ema.europa.eu/fhir/mpId",
@@ -127,11 +122,6 @@
       "resource": {
         "resourceType": "RegulatedAuthorization",
         "id": "CanifugCremolum-EE-RA",
-        "meta": {
-          "profile": [
-            "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"
-          ]
-        },
         "identifier": [
           {
             "value": "366201"
@@ -186,11 +176,6 @@
       "resource": {
         "resourceType": "AdministrableProductDefinition",
         "id": "CanifugCremolum-10mg1g-Cream-EE-APD",
-        "meta": {
-          "profile": [
-            "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
-          ]
-        },
         "status": "active",
         "formOf": [
           {
@@ -244,11 +229,6 @@
       "resource": {
         "resourceType": "AdministrableProductDefinition",
         "id": "CanifugCremolum-100mg-Pessary-EE-APD",
-        "meta": {
-          "profile": [
-            "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
-          ]
-        },
         "status": "active",
         "formOf": [
           {
@@ -302,11 +282,6 @@
       "resource": {
         "resourceType": "ManufacturedItemDefinition",
         "id": "CanifugCremolum-10mg1g-Cream-EE-MID",
-        "meta": {
-          "profile": [
-            "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
-          ]
-        },
         "status": "active",
         "manufacturedDoseForm": {
           "coding": [
@@ -337,11 +312,6 @@
       "resource": {
         "resourceType": "ManufacturedItemDefinition",
         "id": "CanifugCremolum-100mg-Pessary-EE-MID",
-        "meta": {
-          "profile": [
-            "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
-          ]
-        },
         "status": "active",
         "manufacturedDoseForm": {
           "coding": [
@@ -372,11 +342,6 @@
       "resource": {
         "resourceType": "Ingredient",
         "id": "CanifugCremolum-10mg1g-Cream-EE-I",
-        "meta": {
-          "profile": [
-            "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
-          ]
-        },
         "status": "active",
         "for": [
           {
@@ -440,11 +405,6 @@
       "resource": {
         "resourceType": "Ingredient",
         "id": "CanifugCremolum-100mg-Pessary-EE-I",
-        "meta": {
-          "profile": [
-            "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
-          ]
-        },
         "status": "active",
         "for": [
           {
@@ -508,11 +468,6 @@
       "resource": {
         "resourceType": "PackagedProductDefinition",
         "id": "CanifugCremolum-EE-PPD-1033692",
-        "meta": {
-          "profile": [
-            "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
-          ]
-        },
         "identifier": [
           {
             "system": "http://ema.europa.eu/example/pcid",
