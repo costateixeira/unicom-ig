@@ -1,8 +1,8 @@
 {
   "version": "0.1.0",
   "fhirVersion": [
-    "5.0.0-ballot"
+    "4.3.0"
   ],
-  "date": "20221119072224",
+  "date": "20221125201120",
   "name": "hl7.eu.fhir.unicom"
 }

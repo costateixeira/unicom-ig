@@ -1,15 +1,16 @@
 ﻿UnicomIG : Validation Results
 =========================================
 
-err = 2, warn = 3, info = 0
-IG Publisher Version: 1.2.17
-Generated Sat Nov 19 07:23:22 UTC 2022. FHIR version 5.0.0-ballot for hl7.eu.fhir.unicom#0.1.0 (canonical = http://medigree.net/fhir/ee/idmp)
- Build Errors : 0 / 3 / 0
+err = 2, warn = 4, info = 0
+IG Publisher Version: 1.2.19
+Generated Fri Nov 25 20:12:37 UTC 2022. FHIR version 4.3.0 for hl7.eu.fhir.unicom#0.1.0 (canonical = http://medigree.net/fhir/ee/idmp)
+ Build Errors : 0 / 4 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.unicom : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-whoatc-unicom : 2 / 0 / 1
 </table>
 == n/a ==
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.unicom.json ==

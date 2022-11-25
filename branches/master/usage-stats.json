@@ -1,7 +1,7 @@
 {
   "package": "hl7.eu.fhir.unicom",
   "version": "0.1.0",
-  "fhirVersion": "5.0.0-ballot",
+  "fhirVersion": "4.3.0",
   "extensions": [],
   "profiles": {},
   "usage": {
