@@ -1,6 +1,5 @@
-# ╭─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
 id: hl7.eu.fhir.unicom
-canonical: http://medigree.net/fhir/ee/idmp
+canonical: http://unicom-project.eu/fhir
 name: UnicomIG
 title: UnicomIG
 description: UnicomIG
@@ -13,7 +12,7 @@ releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | re
 # jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
   name: UNICOM
-  url: http://medigree.net
+  url: http://unicom-project.eu
   # email: test@example.org
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
@@ -42,10 +41,16 @@ publisher:
 pages:
   index.xml:
     title: Home
+  regulatory.md:
+    title: Regulatory Data
 #  downloads.xml:
 #    title: Downloads
-#  ee.md:
-#    title: Estonia
+#  implementation.md:
+#    title: Implementation Considerations
+  issues.md:
+    title: Known Issues
+#  recommendations.md:
+#    title: Recommendations
 #
 #
 # The parameters property represents IG.definition.parameter. Rather
@@ -55,7 +60,22 @@ pages:
 # partial list of allowed parameters see:
 # https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
 #
-# parameters:
+parameters:
+  special-url:
+    - https://spor.ema.europa.eu/v1/lists/200000000008
+    - https://spor.ema.europa.eu/v1/lists/200000000006
+    - https://spor.ema.europa.eu/v1/lists/200000000007
+    - https://spor.ema.europa.eu/v1/lists/100000000002
+    - https://spor.ema.europa.eu/v1/lists/100000000004
+    - https://spor.ema.europa.eu/v1/lists/100000072057
+    - https://spor.ema.europa.eu/v1/lists/100000072051
+    - https://spor.ema.europa.eu/v1/lists/200000003199
+    - https://spor.ema.europa.eu/v1/lists/200000000004
+    - https://spor.ema.europa.eu/v1/lists/100000073345
+    - https://spor.ema.europa.eu/v1/lists/100000110633
+    - https://spor.ema.europa.eu/v1/lists/200000000014
+
+
 #   excludettl: true
 #   validation: [allow-any-extensions, no-broken-links]
 #
@@ -71,6 +91,8 @@ menu:
   Home: index.html
   Table of Contents: toc.html
   Artifacts: artifacts.html
+  Regulatory Data: regulatory.html
+  Known Issues: issues.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
@@ -136,20 +158,30 @@ menu:
 # is specified by id or name, SUSHI will replace it with the correct
 # URL when generating the IG JSON.
 #
-# groups:
-#   GroupA:
-#     name: Group A
-#     description: The Alpha Group
-#     resources:
-#     - StructureDefinition/animal-patient
-#     - StructureDefinition/arm-procedure
-#   GroupB:
-#     name: Group B
-#     description: The Beta Group
-#     resources:
-#     - StructureDefinition/bark-control
-#     - StructureDefinition/bee-sting
-#
+groups:
+  Regulatory:
+    name: Regulatory profiles
+    description: Profiles for regulatory data, EMA IG and IDMP compliant
+    resources:
+    - StructureDefinition/PPLMedicinalProductDefinition
+    - StructureDefinition/PPLAdministrableProductDefinition
+    - StructureDefinition/PPLPackagedProductDefinition
+    - StructureDefinition/PPLManufacturedItemDefinition
+    - StructureDefinition/PPLIngredient
+    - StructureDefinition/PPLRegulatedAuthorization
+    - StructureDefinition/PPLOrganization
+  Relaxed:
+    name: Data transformation profiles
+    description: Intermediate data transition profiles, that follow the structure of IDMP, but are less strict
+    resources:
+    - StructureDefinition/TransitionMedicinalProductDefinition
+    - StructureDefinition/TransitionAdministrableProductDefinition
+    - StructureDefinition/TransitionPackagedProductDefinition
+    - StructureDefinition/TransitionManufacturedItemDefinition
+    - StructureDefinition/TransitionIngredient
+    - StructureDefinition/TransitionRegulatedAuthorization
+    - StructureDefinition/TransitionOrganization
+
 #
 # The ImplementationGuide resource defines several other properties
 # not represented above. These properties can be used as-is and

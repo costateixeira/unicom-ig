@@ -1,9 +1,10 @@
-UNICOM IG
----
-   
+UNICOM FHIR Implementation Guide
+<br> </br>
+###
 ### Publication
-This ImplementationGuide is published in the following locations:   
-Continuous Build: __http://build.fhir.org/ig/hl7-eu/unicom-ig/branches/main/index.html__  
+This ImplementationGuide is published in the following locations:
+
+Continuous Build: __http://build.fhir.org/ig/hl7-eu/unicom-ig/index.html__  
 Canonical / permanent URL: 
 <br/>
 
