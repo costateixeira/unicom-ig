@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.EU.FHIR.UNICOM\005-CanifugCremolum-EE-FullProduct - FHIR v4.3.0</title>
+    <title>HL7.EU.FHIR.UNICOM\005-CanifugCremolum-EE-FullProduct - FHIR v5.0.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -20,6 +20,7 @@
   	<link href="assets/css/prism.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
 <link href="assets/css/unicom.css" rel="stylesheet"/>
+<link href="assets/css/unicom-productviewer.css" rel="stylesheet"/>
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
 
@@ -30,18 +31,18 @@
     <![endif]-->
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"2.80"}
-    h3,h4,h5,h6{--heading-prefix:"2.80"}</style>
+    <style type="text/css">h2{--heading-prefix:"6.102"}
+    h3,h4,h5,h6{--heading-prefix:"6.102"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -93,13 +94,39 @@
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a class="navbar-brand hidden" href="http://build.fhir.org/index.html">FHIR</a>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
               <!-- menu.xml  -->
 
 <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li>
     <a href="index.html">Home</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Using IDMP
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="regulatory.html">Regulatory</a>
+      </li>
+      <li>
+        <a href="clinical.html">Clinical</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="issues.html">Known Issues</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Features
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="visualiser.html">Visualiser</a>
+      </li>
+    </ul>
   </li>
   <li>
     <a href="artifacts.html">Artifacts</a>
@@ -129,10 +156,9 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">UnicomIG - Local Development build (v0.1.0). See the <a href="http://hl7-eu.github.io/unicom-ig/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">UnicomIG, published by UNICOM. This is not an authorized publication; it is the continuous build for version 0.1.0). This version is based on the current content of <a href="https://github.com/costateixeira/unicom-ig">https://github.com/costateixeira/unicom-ig</a> and changes regularly. See the <a href="http://unicom-project.eu/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
   
-
 
 
 
@@ -177,7 +203,7 @@
   <a name="root"> </a>
 
 
-  <h2 id="root">Bundle: 005-CanifugCremolum-EE-FullProduct</h2>
+  <h2 id="root">Example Bundle: 005-CanifugCremolum-EE-FullProduct</h2>
 
   <table class="">
     <tr>
@@ -193,12 +219,734 @@
   </table>
 
 
+
+
+
+   
+   
+
   
+
+
+
+  <div class="container rcorners mpd">
+  
+  <h4>
+    Canifug Cremolum
+  </h4>
+
+  
+  
+    MPID:
+    <b>
+      EE-100004795-10280
+    </b>
+    </br>
+  
+    PMSID:
+    <b>
+      EE00000003
+    </b>
+    </br>
+  
+  <hr>
+  
+  <p>Full name: <b>Canifug Cremolum</b></p>
+  
+    <p>
+      - Invented name part:
+      <b>
+        Canifug Cremolum
+      </b>
+    </p>
+  
+
+
+  
+  
+  
+    <div>
+      <p>
+        Name usage:
+        
+
+          <b>Estonian (Republic of Estonia)</b>
+        </p>
+
+      
+    </div>
+  
+  <hr>
+  
+  <div>
+    <p>
+      Authorised dose form:
+      <b>Cream + pessary</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Legal status of supply:
+      <b>Medicinal Product subject to medical prescription</b>
+    </p>
+  </div>
+  
+  <div>
+    <p>
+      Domain:
+      <b>Human use</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Resource status:
+      <b>Current</b>
+    </p>
+  </div>
+<hr>
+  
+  <p>
+  Product classification:
+    
+      <ul>
+          
+            <li> 
+                <b>100000095693  clotrimazole</b>
+            </li>
+      
+    </ul>
+  
+      <ul>
+          
+            <li> 
+                <b>G01AF02  clotrimazole</b>
+            </li>
+      
+    </ul>
+  
+</p>
+
+  
+  
+
+    
+    
+    
+    
+    
+    
+    
+      <div class="container rcorners ra listcontainer" title="Authorisation">
+  <p class="divtitle">
+    <b>Marketing Authorisation</b>
+    1 of 1</p>
+
+  <p>Authorisation number:
+    <b>
+      
+        366201
+      
+    </b>
+  </p>
+
+  <p>
+    Region:
+    <b>
+      
+        Republic of Estonia
+      
+    </b>
+  </p>
+
+  <p>
+
+    
+  </p>
+
+  
+  
+
+    
+    
+    
+    
+
+
+    
+    
+      <p>Marketing authorisation holder:
+        <b>Dr. August Wolff GmbH & Co. KG Arzneimittel</b>
+      </p>
+      <p>
+        Identifier:
+        <ul>
+          
+            <li>
+              <b>LOC-100004795</b>
+            </li>
+          
+        </ul>
+      </p>
+    
+  
+
+  <p>
+    Status:
+    <b>
+      Valid - Renewed/Varied (2011-10-19)
+    </b>
+  </p>
+
+</div>
+    
+  
+
+  
+  
+    
+    
+    
+    
+    
+    
+      
+        
+          <div class="container rcorners ppd listcontainer"> <p class="divtitle">
+            Package 1 of 1</p>
+          
+  <p>PCID:
+  <b>
+    EE-100004795-10280-1033692
+  </b>
+  </p>
+
+<p>
+  Description:
+  </br>
+  <i>
+    Alu/PE-fooliumist valmistatud ribapakend, mis on asetatud väliskarpi. Kreem on alumiiniumtuubis ja omakorda pappkarbis. Kombineeritud pakend sisaldab: 6 vaginaalsuposiiti ja 20 g kreemi
+  </i>
+</p>
+<p>
+Marketing status:
+<ul>
+  
+    <li>
+      <b>Republic of Estonia: Marketed
+      </b>
+    </li>
+  
+</ul>
+</p>
+<p>
+  Pack size:
+  <ul>
+    
+      <li>
+        <b>6 Pessary</li></b>
+    
+      <li>
+        <b>1 Tube</li></b>
+    
+  </ul>
+</p>
+
+<p>
+  
+    <div class="container rcorners pack">
+    
+    <p>Package:
+  <b>1 Box</b>
+  
+  
+    
+      <b>(Cardboard)</b>
+    
+  
+</p>
+
+<p>Containing:
+  
+
+
+  <br/>
+  <div class="container rcorners innerpack">
+    <p>Package:
+  <b>1 Strip</b>
+  
+  
+    
+      <b>(Aluminium)</b>
+    
+      <b>(PolyEthylene)</b>
+    
+  
+</p>
+
+<p>Containing:
+  
+    <b>6 
+      
+    </b>
+  </p>
+  
+  
+    
+    
+
+    
+  
+    
+    
+
+    
+      <div class="container rcorners mid listcontainer">
+  <p class="divtitle">Manufactured Item</p>
+  <p>
+    Dose form:
+    <b>
+      Pessary
+    </b>
+  </p>
+  <p>
+    Unit of presentation:
+    <b>
+      Pessary
+    </b>
+  </p>
+
+  
+
+  
+
+    
+
+    
+    
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              CLOTRIMAZOLE
+            </b>
+          </p>
+
+          
+            
+
+            
+              <p>
+                Presentation strength:
+                <b>
+                  100 milligram(s) /
+
+                  1 Pessary
+                </b>
+              </p>
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+  
+</div>
+    
+  
+
+
+
+
+
+  </div>
+
+  <br/>
+  <div class="container rcorners innerpack">
+    <p>Package:
+  <b>1 Tube</b>
+  
+  
+    
+      <b>(Aluminium)</b>
+    
+  
+</p>
+
+<p>Containing:
+  
+    <b>20 gram(s)
+      
+    </b>
+  </p>
+  
+  
+    
+    
+
+    
+      <div class="container rcorners mid listcontainer">
+  <p class="divtitle">Manufactured Item</p>
+  <p>
+    Dose form:
+    <b>
+      Cream
+    </b>
+  </p>
+  <p>
+    Unit of presentation:
+    <b>
+      Tube
+    </b>
+  </p>
+
+  
+
+  
+
+    
+
+    
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              CLOTRIMAZOLE
+            </b>
+          </p>
+
+          
+            
+              <p>
+                Concentration strength:
+                <b>
+                  10 milligram(s) /
+                  1 gram(s)
+                </b>
+              </p>
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+    
+      
+    
+      
+    
+  
+</div>
+    
+  
+    
+    
+
+    
+  
+
+
+
+
+
+  </div>
+
+
+
+  </div>
+</p>
+        </div>
+      
+    
+  
+
+  
+
+  
+
+
+      
+        
+        
+        
+        
+          
+        <div class="container rcorners apd listcontainer">
+  <p class="divtitle">Administrable Product (1 of 2)</p>
+  <p>
+    Dose form:
+    <b>
+      Cream
+    </b>
+  </p>
+
+  <p>
+    Unit of presentation:
+    <b>
+      Tube
+    </b>
+  </p>
+
+  <p>
+    Route of administration:
+    <ul>
+      
+        <li>
+          <b>
+            Cutaneous use
+          </b>
+        </li>
+      
+    </ul>
+  </p>
+
+  Ingredients:
+  
+
+
+
+  
+
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              CLOTRIMAZOLE
+            </b>
+          </p>
+
+          
+            
+              <p>
+                Concentration strength:
+                <b>
+                  10 milligram(s) /
+                  1 gram(s)
+                </b>
+              </p>
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+    
+  
+
+
+</div>
+      
+    
+        
+        
+        
+        
+          
+        <div class="container rcorners apd listcontainer">
+  <p class="divtitle">Administrable Product (2 of 2)</p>
+  <p>
+    Dose form:
+    <b>
+      Pessary
+    </b>
+  </p>
+
+  <p>
+    Unit of presentation:
+    <b>
+      Pessary
+    </b>
+  </p>
+
+  <p>
+    Route of administration:
+    <ul>
+      
+        <li>
+          <b>
+            Vaginal use
+          </b>
+        </li>
+      
+    </ul>
+  </p>
+
+  Ingredients:
+  
+
+
+
+  
+
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              CLOTRIMAZOLE
+            </b>
+          </p>
+
+          
+            
+
+            
+              <p>
+                Presentation strength:
+                <b>
+                  100 milligram(s) /
+
+                  1 Pessary
+                </b>
+              </p>
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+
+
+</div>
+      
+    
+  
+</div>
+
+
+
+
+
 
 
   <!-- insert intro if present -->
   
-
 
 
   
@@ -232,7 +980,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://medigree.net">UNICOM</a>.  Package hl7.eu.fhir.unicom#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 4.3.0</a>. Generated <span title="Fri, Nov 25, 2022 22:49+0000">2022-11-25</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://unicom-project.eu">UNICOM</a>.  Package hl7.eu.fhir.unicom#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Jun 29, 2023 18:56+0000">2023-06-29</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <div style="color: #33333" >
@@ -241,10 +989,10 @@
                  <a style="color: #81BEF7" href="qa.html">QA Report</a> 
 				 
 <!--
-                 <a style="color: #81BEF7" target="_blank" href="http://hl7-eu.github.io/unicom-ig/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+                 <a style="color: #81BEF7" target="_blank" href="http://unicom-project.eu/fhir/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
 -->
 
-                 <a style="color: #81BEF7" rel="license" href="http://build.fhir.org/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a>
+                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/R5/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a>
                  <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
 <!--
                  <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
@@ -298,4 +1046,3 @@ anchors.add()</script>
   ================================================== -->
   </body>
 </html>
-

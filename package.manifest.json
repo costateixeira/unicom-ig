@@ -1,8 +1,6 @@
 {
-  "version": "0.1.0",
-  "fhirVersion": [
-    "4.3.0"
-  ],
-  "date": "20221125224837",
-  "name": "hl7.eu.fhir.unicom"
+  "version" : "0.1.0",
+  "fhirVersion" : ["5.0.0"],
+  "date" : "20230629185210",
+  "name" : "hl7.eu.fhir.unicom"
 }
