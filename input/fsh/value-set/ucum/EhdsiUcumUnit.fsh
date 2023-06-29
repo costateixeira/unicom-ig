@@ -1,11 +1,14 @@
 Instance: ehdsi-ucum-unit
 InstanceOf: ValueSet
 Usage: #definition
+Title: "MyHealth@EU Unit of Measurement (UCUM)"
+
+* title = "MyHealth@EU Unit of Measurement (UCUM)"
+* description = "ValueSet for units based on UCUM to be used in MyHealth@EU crossborder services"
 * name = "EhdsiUcumUnit"
-* title = "eHDSI UCUM unit"
 * status = #active
 * experimental = false
-* description = "ValueSet for UCUM units to be used in eHDSI"
+
 * immutable = false
 * compose.include.system = "http://hl7.org/fhir/ValueSet/ucum-units"
 
@@ -4001,11 +4004,10 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "Todd unit"
 
 * compose.include.concept[+].code = #Torr
-* compose.include.concept[=].display = "Torr 
-"
+* compose.include.concept[=].display = "Torr"
+
 * compose.include.concept[=].designation[+].language = #en
-* compose.include.concept[=].designation[=].value = "Torr 
-"
+* compose.include.concept[=].designation[=].value = "Torr"
 
 * compose.include.concept[+].code = #10*12/L
 * compose.include.concept[=].display = "trillion per liter"

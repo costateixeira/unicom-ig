@@ -46,7 +46,7 @@ Description: """Medicinal Product as defined in ISO IDMP"""
   * ^definition = "EMA IG 1.3"
 
 * status 0..1
-* status from SporRecordStatus
+* status from SporRecordStatus (preferred)
   // Default $200000005003#200000005004 'Current'
   * ^short = "Status of the product's data. Default 200000005004 'Current'"
 
@@ -60,13 +60,16 @@ Description: """Medicinal Product as defined in ISO IDMP"""
   * ^short = "Authorised dose form for the product, incl combination package dose forms"
   * ^definition = "EMA IG 1.5 & 1.6. Authorised dose form for the whole product. As applicable in one of the SPOR RMS list Combined pharmaceutical dose form, Pharmaceutical dose form, Combined term, Combination Package"
 
-* classification 1..*
-//* classification from SporAtc (preferred)
+* classification 1..*  
+* classification from SporAtc (preferred)
+  * ^short = "Classification such as ATC (EMA and WHO coding)."
+/*
   * ^slicing.discriminator.type = #pattern
   * ^slicing.discriminator.path = "coding.system"
   * ^slicing.rules = #open
   * ^short = "ATC or other classification"
   * ^definition = "EMA IG 1.13"
+
 * classification contains
   atc 1..1
 * classification[atc]
@@ -83,31 +86,31 @@ Description: """Medicinal Product as defined in ISO IDMP"""
   * coding[ema] from SporAtc
     * system = $100000093533
     * ^short = "ATC classification as EMA SPOR code"
-  * coding[who] from whoatc-unicom
+  * coding[who] from whoatc-unicom (preferred)
     * system = $who-atc
     * ^short = "ATC classification as WHO ATC code"
-
+*/
 * name
   * ^definition = "EMA IG 1.14"
   * productName 1..1
     * ^definition = "EMA IG 1.14.1"
-  * namePart
+  * part
     * ^slicing.discriminator.type = #pattern
     * ^slicing.discriminator.path = "type"
     * ^slicing.rules = #open
-    * ^slicing.ordered = true
+    * ^slicing.ordered = false
     * ^slicing.description = "Slicing on the name part"
     * ^short = "Medicinal product name part"
     * ^definition = "EMA IG 1.14.3. Name part. Product names are usually combined of these three parts. More parts can be defined and strength and dose form parts can be omitted."
-  * namePart contains
-    invented 1..1 and
+  * part contains
+    invented 0..1 and
     strength 0..1 and
     doseForm 0..1 
-  * namePart[invented].type = $220000000000#220000000002 "Invented name part"
-  * namePart[strength].type = $220000000000#220000000004 "Strength part"
-  * namePart[doseForm].type = $220000000000#220000000005 "Pharmaceutical dose form part"
+  * part[invented].type = $220000000000#220000000002 "Invented name part"
+  * part[strength].type = $220000000000#220000000004 "Strength part"
+  * part[doseForm].type = $220000000000#220000000005 "Pharmaceutical dose form part"
 
-  * countryLanguage
+  * usage
     * ^definition = "EMA IG 1.14.2"
     * country.coding
       * ^slicing.discriminator.type = #pattern
@@ -122,14 +125,13 @@ Description: """Medicinal Product as defined in ISO IDMP"""
     * country.coding[iso] from CountryISO
       * system = $iso-country
 
-
     * language.coding
       * ^slicing.discriminator.type = #pattern
       * ^slicing.discriminator.path = "system"
       * ^slicing.rules = #open
       * ^short = "EMA or ISO codes for country"
     * language.coding contains
-        ema 1..1 and
+        ema 0..1 and
         bcp 0..1
     * language.coding[ema] from LanguageEMA
       * system = $100000072057
@@ -196,6 +198,7 @@ Description: """Manufactured item is the countable element inside the package"""
   * ^short = "Unit of presentation of the manufactured item (before preparing for administration)"
   * ^definition = "EMA IG 4.11.1"
 
+
 // PROFILE: Pharmaceutical/ Administrable Product
 Profile: PPLAdministrableProductDefinition
 Parent: AdministrableProductDefinition
@@ -230,6 +233,7 @@ Description: """Administrable product profile defines the ISO IDMP Pharmaceutica
 //  * code.coding.system = $100000073345
   * ^definition = "EMA IG 6.6"
 
+
 // PROFILE: Ingredient
 Profile: PPLIngredient
 Parent: Ingredient
@@ -247,7 +251,7 @@ Description: """Ingredient for the medicinal product, pharmaceutical product and
   * coding.system = $100000072050 //TO DO
 
 * substance
-  * code.concept.coding.system = $sms //TO DO
+  * code from SubstancesSMS
   * ^short = "Substance code from EMA SMS"
   * ^definition = "EMA IG 5.5"
 
@@ -280,8 +284,8 @@ Description: """Ingredient for the medicinal product, pharmaceutical product and
       * ^definition = "EMA IG 5.5.3. According to EMA, this is a mandatory element for all products, which is not necessarily accepted by all NCAs, and it is ambivalent in ISO IDMP."
       * ^short = "Strenth expressed in terms of a reference substance; reference strength type not distinguished. According to EMA IG, all products need to have reference strentgh (repeating the strentgh, if needed)"
       * substance 1..1
-        * concept.coding.system = $sms //TO DO
-        * ^short = "Substance code from EMA SMS" 
+        * ^short = "Substance code from EMA SMS"
+      * substance from SubstancesSMS
       * strengthRatio
         * numerator 1..1
       //  * numerator.system = $100000110633
@@ -316,7 +320,7 @@ Description: """Packaged Product"""
 * packageFor 1..*
 
 * containedItemQuantity 1..*
-  * system = $200000000014
+//  * system = $200000000014
   * code from unit-of-presentation-vs
   * ^short = "Pack size. Repeated for combination packages."
   * ^definition = "EMA IG 4.4"
@@ -328,7 +332,7 @@ Description: """Packaged Product"""
 * legalStatusOfSupply 0..1
   * ^short = "Legal status of supply on the packaged product level."
   * ^definition = "EMA IG 4.5. Legal status of supply on the packaged product level. The same information can be repeated/differentiated on the medicinal product level"
-  * code.coding.code from legal-status-for-the-supply-vs
+  * code from legal-status-for-the-supply-vs
   * jurisdiction.coding from country-ema-vs
 
 * marketingStatus
@@ -338,7 +342,7 @@ Description: """Packaged Product"""
   * status 1..1
     * coding.system = $100000072052
 
-* package 1..1
+* packaging 1..1
   * type 1..1
     * ^short = "Container type"
     * ^definition = "EMA IG 4.8.1"

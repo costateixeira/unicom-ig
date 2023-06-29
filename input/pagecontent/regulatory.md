@@ -34,7 +34,7 @@ The medication data in UNICOM project uses profiles for the following entities:
 - [Marketing Authorisation](StructureDefinition-PPLRegulatedAuthorization.html)
 - [Organization (for marketing authorisation holder)](StructureDefinition-PPLOrganization.html)
 
-On the [Artifacts](Artifacts.html) page you will also find another set of similar profiles, which are described as data transformation profiles. These profiles are very similar to regulatory profiles by structure, but have less restrictions and terminology bindings in order to allow technical data processing while data is still incomplete.
+On the [Artifacts](artifacts.html) page you will also find another set of similar profiles, which are described as data transformation profiles. These profiles are very similar to regulatory profiles by structure, but have less restrictions and terminology bindings in order to allow technical data processing while data is still incomplete.
 
 ### Terminology
 Regulatory profiles use [EMA SPOR RMS](https://spor.ema.europa.eu/rmswi/#/) lists for value sets. 
@@ -49,20 +49,20 @@ For better understanding, there are also examples of different products as FHIR 
 
 Not all UNICOM data is hosted inside the implementation guide. 
 There is work in progress for creating more ISO IDMP compatible data for UNICOM pilots to use. Currently, some of the publicly reachable sources are:
-- WP6 database with FHIR API
-- UFIS server
+- [WP6 database with FHIR API](https://jpa.unicom.datawizard.it/apps/productlist/index.html)
+- [UFIS server](https://ufisbrowse20220824144527.azurewebsites.net/)
 
 ### Guidance and references
 
 #### ISO IDMP
-- [ISO 11615](https://www.iso.org/standard/70150.html)
-- [ISO 11616](https://www.iso.org/standard/70044.html)
-- [ISO 11238](https://www.iso.org/standard/69697.html)
-- [ISO 11239](https://www.iso.org/standard/55032.html)
-- [ISO 11240](https://www.iso.org/standard/55033.html)
+- [ISO 11615](https://www.iso.org/standard/70150.html) Identification of medicinal products - Data elements and structures for the unique identification and exchange of regulated medicinal product information.
+- [ISO 11616](https://www.iso.org/standard/70044.html) Identification of medicinal products - Data elements and structures for the unique identification and exchange of regulated pharmaceutical product information.
+- [ISO 11238](https://www.iso.org/standard/69697.html) Identification of medicinal products - Data elements and structures for the unique identification and exchange of regulated information on substances.
+- [ISO 11239](https://www.iso.org/standard/55032.html) Identification of medicinal products - Data elements and structures for the unique identification and exchange of regulated information on pharmaceutical dose forms, units of presentation, routes of administration and packaging.
+- [ISO 11240](https://www.iso.org/standard/55033.html) Identification of medicinal products - Data elements and structures for the unique identification and exchange of units of measurement.
 
 #### HL7 FHIR
-UNICOM implementation guide is based on FHIR version 4.3.0, and the core set of resources can be found in [MedicationDefinition module](https://www.hl7.org/fhir/medication-definition-module.html)).
+UNICOM implementation guide is based on FHIR version 5.0.0 (Snapshot 3), and the core set of resources can be found in [MedicationDefinition module](https://www.hl7.org/fhir/medication-definition-module.html)).
 EMA Implementation Guide is based on [FHIR version 4.6.0](http://hl7.org/fhir/2021May/), which is a slightly older version. Please see [Known Issues](issues.html#fhir-versions) for more information about FHIR versions.
 
 #### EMA Implementation Guide

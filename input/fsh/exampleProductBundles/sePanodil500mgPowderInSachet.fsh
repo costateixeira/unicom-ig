@@ -3,41 +3,41 @@ InstanceOf: Bundle
 Usage: #example
 Description: "Paracetamol 500mg. Powder for oral solution in sachet. Sweden."
 
-* type = #batch
+* type = #collection
 * entry[0].resource = Panodil500mgoralsolutionsachet-SE-PLC-MPD
-* entry[=].request.method = #PUT
-* entry[=].request.url = "MedicinalProductDefinition/Panodil500mgoralsolutionsachet-SE-PLC-MPD"
-* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/MedicinalProductDefinition/Panodil500mgoralsolutionsachet-SE-PLC-MPD"
+//* entry[=].request.method = #PUT
+//* entry[=].request.url = "MedicinalProductDefinition-Panodil500mgoralsolutionsachet-SE-PLC-MPD"
+* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/MedicinalProductDefinition-Panodil500mgoralsolutionsachet-SE-PLC-MPD"
 
 * entry[+].resource = Panodil500mgoralsolutionsachet-SE-PLC-RegulatedAuthorization
-* entry[=].request.method = #PUT
-* entry[=].request.url = "RegulatedAuthorization/Panodil500mgoralsolutionsachet-SE-PLC-RegulatedAuthorization"
-* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/RegulatedAuthorization/Panodil500mgoralsolutionsachet-SE-PLC-RegulatedAuthorization"
+//* entry[=].request.method = #PUT
+//* entry[=].request.url = "RegulatedAuthorization-Panodil500mgoralsolutionsachet-SE-PLC-RegulatedAuthorization"
+* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/RegulatedAuthorization-Panodil500mgoralsolutionsachet-SE-PLC-RegulatedAuthorization"
 
 * entry[+].resource = LOC-100005555-PerrigoSverigeAB
-* entry[=].request.method = #PUT
-* entry[=].request.url = "Organization/LOC-100005555-PerrigoSverigeAB"
-* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organization/LOC-100005555-PerrigoSverigeAB"
+//* entry[=].request.method = #PUT
+//* entry[=].request.url = "Organization/LOC-100005555-PerrigoSverigeAB"
+* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organization-LOC-100005555-PerrigoSverigeAB"
 
 * entry[+].resource = Panodil500mgoralsolutionsachet-SE-PLC-APD
-* entry[=].request.method = #PUT
-* entry[=].request.url = "AdministrableProductDefinition/Panodil500mgoralsolutionsachet-SE-PLC-APD"
-* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/Panodil500mgoralsolutionsachet-SE-PLC-APD"
+//* entry[=].request.method = #PUT
+//* entry[=].request.url = "AdministrableProductDefinition-Panodil500mgoralsolutionsachet-SE-PLC-APD"
+* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition-Panodil500mgoralsolutionsachet-SE-PLC-APD"
 
 * entry[+].resource = Panodil500mgoralsolutionsachet-SE-PLC-PackageProductDef
-* entry[=].request.method = #PUT
-* entry[=].request.url = "PackagedProductDefinition/Panodil500mgoralsolutionsachet-SE-PLC-PackageProductDef"
-* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/Panodil500mgoralsolutionsachet-SE-PLC-PackageProductDef"
+//* entry[=].request.method = #PUT
+//* entry[=].request.url = "PackagedProductDefinition-Panodil500mgoralsolutionsachet-SE-PLC-PackageProductDef"
+* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition-Panodil500mgoralsolutionsachet-SE-PLC-PackageProductDef"
 
 * entry[+].resource = Panodil500mgoralsolutionsachet-SE-PLC-MID
-* entry[=].request.method = #PUT
-* entry[=].request.url = "ManufacturedItemDefinition/Panodil500mgoralsolutionsachet-SE-PLC-MID"
-* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/Panodil500mgoralsolutionsachet-SE-PLC-MID"
+//* entry[=].request.method = #PUT
+//* entry[=].request.url = "ManufacturedItemDefinition-Panodil500mgoralsolutionsachet-SE-PLC-MID"
+* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition-Panodil500mgoralsolutionsachet-SE-PLC-MID"
 
 * entry[+].resource = Panodil500mgoralsolutionsachet-SE-PLC-Ingredient
-* entry[=].request.method = #PUT
-* entry[=].request.url = "Ingredient/Panodil500mgoralsolutionsachet-SE-PLC-Ingredient"
-* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/Panodil500mgoralsolutionsachet-SE-PLC-Ingredient"
+//* entry[=].request.method = #PUT
+//* entry[=].request.url = "Ingredient-Panodil500mgoralsolutionsachet-SE-PLC-Ingredient"
+* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient-Panodil500mgoralsolutionsachet-SE-PLC-Ingredient"
 
 
 Instance: Panodil500mgoralsolutionsachet-SE-PLC-MPD
@@ -52,14 +52,14 @@ Usage: #inline
 * combinedPharmaceuticalDoseForm = $200000000007#100000125752 "Powder for oral solution in sachet"
 * indication = "Panodil 500 mg pulver till oral lösning i dospåse används mot huvudvärk, tandvärk, feber vid förkylningssjukdomar, menstruationssmärtor, muskel- och ledvärk, som analgetikum vid reumatiska smärtor, hyperpyrexi. För vuxna och barn över 12 år."
 * legalStatusOfSupply = $100000072051#100000072076 "Medicinal product not subject to medical prescription"
-* classification[atc].coding[ema] = $100000093533#100000097305 "Paracetamol"
-* classification[atc].coding[who] = $who-atc#N02BE01 "Paracetamol"
+* classification[0] = $100000093533#100000097305 "Paracetamol"
+* classification[+] = $who-atc#N02BE01 "Paracetamol"
 * name.productName = "Panodil 500 mg pulver till oral lösning i dospåse"
-* name.namePart[invented].part = "Panodil"
-* name.namePart[strength].part = "500 mg"
-* name.namePart[doseForm].part = "pulver till oral lösning i dospåse"
-* name.countryLanguage.country = $100000000002#100000000535 "Kingdom of Sweden"
-* name.countryLanguage.language = $100000072057#100000072288 "Swedish"
+* name.part[invented].part = "Panodil"
+* name.part[strength].part = "500 mg"
+* name.part[doseForm].part = "pulver till oral lösning i dospåse"
+* name.usage.country = $100000000002#100000000535 "Kingdom of Sweden"
+* name.usage.language = urn:ietf:bcp:47#sv "Swedish"
 
 
 Instance: Panodil500mgoralsolutionsachet-SE-PLC-RegulatedAuthorization
@@ -105,11 +105,11 @@ Usage: #inline
 //  * extension.valueCoding = $100000072057#100000072288 "Swedish"
 * marketingStatus.country = $100000000002#100000000535 "Kingdom of Sweden"
 * marketingStatus.status = $100000072052#100000072083 "Marketed"
-* package.type = $100000073346#100000073498 "Box"
-* package.quantity = 1
-* package.material = $200000003199#200000003529 "Cardboard"
-* package.containedItem.item.reference = Reference(Panodil500mgoralsolutionsachet-SE-PLC-MID)
-* package.containedItem.amount = 12 $200000000014#200000002143 "Sachet"
+* packaging.type = $100000073346#100000073498 "Box"
+* packaging.quantity = 1
+* packaging.material = $200000003199#200000003529 "Cardboard"
+* packaging.containedItem.item.reference = Reference(Panodil500mgoralsolutionsachet-SE-PLC-MID)
+* packaging.containedItem.amount = 12 $200000000014#200000002143 "Sachet"
 
 
 Instance: Panodil500mgoralsolutionsachet-SE-PLC-MID

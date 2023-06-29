@@ -53,13 +53,15 @@ Description: """Intermediate profile for processing PPL Medicinal Product data""
   * ^short = "Authorised dose form for the product, incl combination package dose forms"
   * ^definition = "EMA IG 1.5 & 1.6. Authorised dose form for the whole product. As applicable in one of the SPOR RMS list Combined pharmaceutical dose form, Pharmaceutical dose form, Combined term, Combination Package"
 
-* classification 0..*
+/** classification 0..*
   * ^slicing.discriminator.type = #pattern
   * ^slicing.discriminator.path = "coding.system"
   * ^slicing.rules = #open
   * ^short = "ATC or other classification"
-  * ^definition = "EMA IG 1.13"
-* classification contains
+  * ^definition = "EMA IG 1.13"*/
+// Slicing removed and preferred binding added to suppress QA errors about value sets (r4b) TO DO
+* classification from SporAtc (preferred)
+/* classification contains
   atc 0..1
 * classification[atc]
   * coding 
@@ -78,28 +80,28 @@ Description: """Intermediate profile for processing PPL Medicinal Product data""
   * coding[who]
     * system = $who-atc
     * ^short = "ATC classification as WHO ATC code"
-
+*/
 * name
   * ^definition = "EMA IG 1.14"
   * productName 1..1
     * ^definition = "EMA IG 1.14.1"
-  * namePart
+  * part
     * ^slicing.discriminator.type = #pattern
     * ^slicing.discriminator.path = "type"
     * ^slicing.rules = #open
-    * ^slicing.ordered = true
+    * ^slicing.ordered = false
     * ^slicing.description = "Slicing on the name part"
     * ^short = "Medicinal product name part"
     * ^definition = "EMA IG 1.14.3. Name part. Product names are usually combined of these three parts. More parts can be defined and strength and dose form parts can be omitted."
-  * namePart contains
+  * part contains
     invented 0..1 and
     strength 0..1 and
     doseForm 0..1 
-  * namePart[invented].type = $220000000000#220000000002 "Invented name part"
-  * namePart[strength].type = $220000000000#220000000004 "Strength part"
-  * namePart[doseForm].type = $220000000000#220000000005 "Pharmaceutical dose form part"
+  * part[invented].type = $220000000000#220000000002 "Invented name part"
+  * part[strength].type = $220000000000#220000000004 "Strength part"
+  * part[doseForm].type = $220000000000#220000000005 "Pharmaceutical dose form part"
 
-  * countryLanguage
+  * usage
     * ^definition = "EMA IG 1.14.2"
     * country.coding
       * ^slicing.discriminator.type = #pattern
@@ -129,7 +131,8 @@ Description: """Intermediate profile for processing PPL Medicinal Product data""
     
     * language.coding[bcp] // from language-bcp-vs
       * system = $BCP47
-    
+
+
 // PROFILE: Regulated Authorisation 
 Profile: TransitionRegulatedAuthorization
 Parent: RegulatedAuthorization
@@ -174,7 +177,7 @@ Title: "Processing Profile - Manufactured Item"
 Description: """Intermediate profile for processing PPL Manufactured Item data"""
 
 * manufacturedDoseForm 1..1 // This is 1..1 in FHIR spec!
-  // from pharmaceutical-doseform-vs
+* manufacturedDoseForm from pharmaceutical-doseform-vs
   * ^short = "Dose form of the manufactured item (before preparing for administration)"
   * ^definition = "EMA IG 4.11.3"
 
@@ -182,6 +185,7 @@ Description: """Intermediate profile for processing PPL Manufactured Item data""
   // from unit-of-presentation-vs
   * ^short = "Unit of presentation of the manufactured item (before preparing for administration)"
   * ^definition = "EMA IG 4.11.1"
+
 
 // PROFILE: Pharmaceutical/ Administrable Product
 Profile: TransitionAdministrableProductDefinition
@@ -216,6 +220,7 @@ Description: """Intermediate profile for processing PPL Administrable Product da
 //  * code from routes-and-methods-of-administration-vs
   * ^definition = "EMA IG 6.6"
 
+
 // PROFILE: Ingredient
 Profile: TransitionIngredient
 Parent: Ingredient
@@ -233,7 +238,8 @@ Description: """Intermediate profile for processing PPL Ingredient data"""
 //default * role = $100000072050#100000072072 "Active"
 
 * substance
-  * code.concept.coding.system = $sms 
+  * code from SubstancesSMS (example)
+//  * code.concept.coding.system = $sms 
   * ^short = "Substance code from EMA SMS"
   * ^definition = "EMA IG 5.5"
 
@@ -263,8 +269,8 @@ Description: """Intermediate profile for processing PPL Ingredient data"""
     * referenceStrength
       * ^definition = "EMA IG 5.5.3. According to EMA, this is a mandatory element for all products, which is not necessarily accepted by all NCAs, and it is ambivalent in ISO IDMP."
       * ^short = "Strenth expressed in terms of a reference substance; reference strength type not distinguished. According to EMA IG, all products need to have reference strentgh (repeating the strentgh, if needed)"
-      * substance 0..1
-        * concept.coding.system = $sms 
+      * substance 1..1
+      * substance from SubstancesSMS (example)
         * ^short = "Substance code from EMA SMS" 
       * strengthRatio // This is 1..1 in FHIR spec!
     //    * numerator.system = $100000110633
@@ -319,7 +325,7 @@ Description: """Intermediate profile for processing PPL Packaged Product data"""
   * status 1..1 // This is 1..1 in core FHIR spec
 //    * coding.system = $100000072052
 
-* package 0..1
+* packaging 0..1
   * type 0..1
     * ^short = "Container type"
     * ^definition = "EMA IG 4.8.1"
@@ -344,6 +350,7 @@ Description: """Intermediate profile for processing PPL Packaged Product data"""
       * ^short = "Number of the manufactured items (e.g. tablets) in this package layer or the amount of manufactured item (e.g. 20 g) in the unit of presentation defined in manufactured item definition"
       * ^definition = "EMA IG 4.11.2"
     //  * code from all-units-vs (unit of presentation or unit of measurement)
+
 
 
 // TO DO: I'm not sure we want to use Organisation as a separate resource, but right now it is. See the comment at RegulatedAuthorization

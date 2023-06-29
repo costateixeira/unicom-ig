@@ -6,16 +6,15 @@ This IG follows the EMA IG, which has been published as a set of text documents.
 
 
 #### FHIR versions
-EMA IG is based on FHIR version 4.6, but UNICOM PPL FHIR IG is based on FHIR R4B.
-These versions introduce many changes, most significantly:
-* direction of reference has been changed for Ingredient
-* pack size as containedItemQuantity (described as extension in EMA IG)
-* shelf life no longer has its own data type
 
-
-R5 Ballot introduces only a few additional changes for the data elements used in this IG:
-* In MedicinalProductDefinition name.countryLanguage has been renamed to name.usage
+EMA IG is based on FHIR version 4.6, but UNICOM PPL FHIR IG is based on version 5.0.0). This introduces some changes, most significantly:  
+* Direction of reference has been changed for Ingredient
+* In MedicinalProductDefinition name.countryLanguage has been renamed to name.usage, and name.namePart to name.part
 * In PackagedProductDefinition package has been renamed to packaging  
+* Pack size as containedItemQuantity (described as extension in EMA IG)
+
+UNICOM IG started with FHIR R4B, and this work is still available in a separate branch.  
+
 
 #### SPOR RMS lists
 There is no official source for EMA SPOR RMS lists in FHIR format. The lists used in this IG are derived from the versions published by EMA, but there is room for interpretation what exactly should be included in the final FHIR value set. These value sets are not automatically updated from EMA sources.
@@ -70,9 +69,21 @@ Pharmaceutical product identifiers are mostly not present in the data.
 
 ### Medicinal Product & Marketing Authorisation  
 
-#### Name  
-In regulatory data all products have full name. 
-In EMA IG name parts are considered mandatory, but the rules of using name parts are not very strict, allowing situations where name parts don't add up to full name. The order of name parts is not defined.
+#### Name and name parts  
+In regulatory data all products have a full name. 
+In EMA IG name parts are considered mandatory, but the rules for using name parts allow situations where name parts don't add up to full name or are not describable according to the requirements. 
+The order of name parts is not defined in EMA IG. All name parts (except delimiter part) can occur only once. An example in this IG where full name cannot be composed of name parts and is not conformant with EMA IG is [Canesten Kombi from Finland](Bundle-014-CanestenKombi-FI-FullProduct.html).  
+  
+Full name: **Canesten® Kombi 500 mg emätinpuikko + 10 mg/g emulsiovoide**  
+Name parts: 
+* **Canesten** - invented name part; 
+* **®** - trademark part; 
+* **500 mg** - strength part; 
+* **emätinpuikko** - dose form part; 
+* **+** - delimiter part; 
+* **10mg/g** - strength part 2 (only one strength part allowed in EMA IG); 
+* **emulsiovoide** - dose form part 2 (only one dose form part allowed in EMA IG).
+
 In this IG only three name parts are defined, but other name parts can be used in product data if needed. All name parts are textual and provided in the language of the marketing authorisation region.
 
 #### Authorised dose form  

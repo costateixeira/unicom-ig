@@ -8,14 +8,15 @@ Description: "Medicinal Product Definition: simple tablets"
 * status = $200000005003#200000005004 "Current"
 * combinedPharmaceuticalDoseForm = $200000000004#100000073664 "Tablet"
 * legalStatusOfSupply = $100000072051#100000072084 "Medicinal product subject to medical prescription"
-* classification[atc].coding[ema] = $100000093533#100000095065 "amlodipine"
-* classification[atc].coding[who] = $who-atc#C08CA01 "amlodipine"
+* classification[0] = $100000093533#100000095065 "amlodipine"
+* classification[+] = $who-atc#C08CA01 "amlodipine"
 * name.productName = "AGEN 5 mg tabletid"
-* name.namePart[invented].part = "AGEN"
-* name.namePart[strength].part = "5 mg"
-* name.namePart[doseForm].part = "tabletid"
-* name.countryLanguage.country = $100000000002#100000000388 "Republic of Estonia"
-* name.countryLanguage.language = $100000072057#100000072172 "Estonian"
+* name.part[invented].part = "AGEN"
+* name.part[strength].part = "5 mg"
+* name.part[doseForm].part = "tabletid"
+* name.usage.country = $100000000002#100000000388 "Republic of Estonia"
+//* name.usage.language = urn:ietf:bcp:47#et "Estonian"
+* name.usage.language = urn:ietf:bcp:47#et "Estonian"
 
 
 Instance: Agen-5mg-Tablet-EE-RA
@@ -74,12 +75,12 @@ Description: "Ingredient: amlodipine besilate, presentation strength; amlodipine
 //* substance.strength.presentationRatio.numerator.comparator.extension.url = "http://ema.europa.eu/fhir/extension/comparator"
 //* substance.strength.presentationRatio.numerator.comparator.extension.valueCoding = $100000000008#100000000049 "equal to"
 * substance.strength.presentationRatio.numerator = 6.935 $100000110633#100000110655 "milligram(s)"
-* substance.strength.presentationRatio.denominator = 1 $200000000014#200000002152 //"Tablet"
+* substance.strength.presentationRatio.denominator = 1 $200000000014#200000002152 "Tablet"
 * substance.strength.referenceStrength.substance.concept = $sms#100000085259 "Amlodipine"
 //* substance.strength.referenceStrength.strengthRatio.numerator.comparator.extension.url = "http://ema.europa.eu/fhir/extension/comparator"
 //* substance.strength.referenceStrength.strengthRatio.numerator.comparator.extension.valueCoding = $100000000008#100000000049 "equal to"
 * substance.strength.referenceStrength.strengthRatio.numerator = 5 $100000110633#100000110655 "milligram(s)"
-* substance.strength.referenceStrength.strengthRatio.denominator = 1 $200000000014#200000002152 //"Tablet"
+* substance.strength.referenceStrength.strengthRatio.denominator = 1 $200000000014#200000002152 "Tablet"
 
 
 Instance: Agen-5mg-Tablet-EE-PPD-1109887-A
@@ -95,16 +96,16 @@ Description: "Packaged Product Definition: simple tablets"
 //  * extension.valueCoding = $100000072057#100000072172 "Estonian"
 * marketingStatus.country = $100000000002#100000000388 "Republic of Estonia"
 * marketingStatus.status = $100000072052#100000072083 "Marketed"
-* package.type = $100000073346#100000073498 "Box"
-* package.quantity = 1
-* package.material = $200000003199#200000003529 "Cardboard"
-* package.package.type = $100000073346#100000073496 "Blister"
-* package.package.quantity = 1 // TO DO: should not be mandatory maybe
-* package.package.material[0] = $200000003199#200000003222 "PolyVinyl Chloride"
-* package.package.material[+] = $200000003199#200000003225 "PolyVinylidene Chloride"
-* package.package.material[+] = $200000003199#200000003200 "Aluminium"
-* package.package.containedItem.item.reference = Reference(Agen-5mg-Tablet-EE-MID)
-* package.package.containedItem.amount.value = 30
+* packaging.type = $100000073346#100000073498 "Box"
+* packaging.quantity = 1
+* packaging.material = $200000003199#200000003529 "Cardboard"
+* packaging.packaging.type = $100000073346#100000073496 "Blister"
+* packaging.packaging.quantity = 1 // TO DO: should not be mandatory maybe
+* packaging.packaging.material[0] = $200000003199#200000003222 "PolyVinyl Chloride"
+* packaging.packaging.material[+] = $200000003199#200000003225 "PolyVinylidene Chloride"
+* packaging.packaging.material[+] = $200000003199#200000003200 "Aluminium"
+* packaging.packaging.containedItem.item.reference = Reference(Agen-5mg-Tablet-EE-MID)
+* packaging.packaging.containedItem.amount.value = 30
 
 
 Instance: Agen-5mg-Tablet-EE-PPD-1109887-B
@@ -119,15 +120,15 @@ Description: "Packaged Product Definition: simple tablets"
 //  * extension.valueCoding = $100000072057#100000072172 "Estonian"
 * marketingStatus.country = $100000000002#100000000388 "Republic of Estonia"
 * marketingStatus.status = $100000072052#100000072083 "Marketed"
-* package.type = $100000073346#100000073498 "Box"
-* package.quantity = 1
-* package.material = $200000003199#200000003529 "Cardboard"
-* package.package.type = $100000073346#100000073496 "Blister"
-* package.package.quantity = 1 // TO DO: should not be mandatory maybe
-* package.package.material[0] = $200000003199#200000003222 "PolyVinyl Chloride"
-* package.package.material[+] = $200000003199#200000003200 "Aluminium"
-* package.package.containedItem.item.reference = Reference(Agen-5mg-Tablet-EE-MID)
-* package.package.containedItem.amount.value = 30
+* packaging.type = $100000073346#100000073498 "Box"
+* packaging.quantity = 1
+* packaging.material = $200000003199#200000003529 "Cardboard"
+* packaging.packaging.type = $100000073346#100000073496 "Blister"
+* packaging.packaging.quantity = 1 // TO DO: should not be mandatory maybe
+* packaging.packaging.material[0] = $200000003199#200000003222 "PolyVinyl Chloride"
+* packaging.packaging.material[+] = $200000003199#200000003200 "Aluminium"
+* packaging.packaging.containedItem.item.reference = Reference(Agen-5mg-Tablet-EE-MID)
+* packaging.packaging.containedItem.amount.value = 30
 
 
 Instance: Cefuroxime-MIP-1500mg-EE-MPD
@@ -143,13 +144,14 @@ Description: "Medicinal Product Definition: powder for solution"
 * combinedPharmaceuticalDoseForm = $200000000004#100000116186 "Powder for solution for injection/infusion"
 * legalStatusOfSupply = $100000072051#100000072084 "Medicinal Product subject to medical prescription"
 //* additionalMonitoringIndicator = $additionalMonitoringIndicator#False "False"
-* classification[atc].coding[ema] = $100000093533#100000096183 "Cefuroxime"
-* classification[atc].coding[who] = $who-atc#J01DC02 "cefuroxime"
+* classification[0] = $100000093533#100000096183 "Cefuroxime"
+* classification[+] = $who-atc#J01DC02 "cefuroxime"
 * name.productName = "Cefuroxime MIP 1500 mg, süste-/infusioonilahuse pulber"
-* name.namePart[invented].part = "Cefuroxime MIP"
-* name.namePart[strength].part = "1500 MG"
-* name.countryLanguage.country = $100000000002#100000000388 "Republic of Estonia"
-* name.countryLanguage.language = $100000072057#100000072172 "Estonian"
+* name.part[invented].part = "Cefuroxime MIP"
+* name.part[strength].part = "1500 MG"
+* name.usage.country = $100000000002#100000000388 "Republic of Estonia"
+//* name.usage.language = urn:ietf:bcp:47#et "Estonian"
+* name.usage.language = urn:ietf:bcp:47#et "Estonian"
 
 Instance: Cefuroxime-MIP-1500mg-EE-RA
 InstanceOf: PPLRegulatedAuthorization
@@ -183,9 +185,9 @@ Description: "Administrable/Pharmaceutical Product Definition: transformed"
 * unitOfPresentation = $200000000014#200000002158 "Vial"
 * producedFrom = Reference(Cefuroxime-MIP-1500mg-EE-MID)
 * routeOfAdministration[0].code = $100000073345#100000073600 "Intramuscular use"
-* routeOfAdministration[+].code = $100000073345#100000073611 "Intravenous use"
+//* routeOfAdministration[+].code = $100000073345#100000073611 "Intravenous use"
 //route of administration gives an error in the qa, that it's duplicated in the MedProd, but it's not. 
-//The error seems to go away, when I comment one of the routes out from here.
+//The error seems to go away, when I comment one of the routes out from here. TO DO
 
 Instance: Cefuroxime-MIP-1500mg-EE-MID
 InstanceOf: PPLManufacturedItemDefinition
@@ -228,20 +230,21 @@ Description: "Packaged Product Definition: powder for solution in 1 vial"
 //  * extension.valueCoding = $100000072057#100000072172 "Estonian"
 * marketingStatus.country = $100000000002#100000000388 "Republic of Estonia"
 * marketingStatus.status = $100000072052#100000072083 "Marketed"
-* package.type = $100000073346#100000073498 "Box"
-* package.quantity = 1
-* package.material = $200000003199#200000003529 "Cardboard"
-* package.package.type = $100000073346#200000002158 "vial"
-* package.package.quantity = 1
-* package.package.material = $200000003199#200000003204 "Glass type I"
-* package.package.containedItem.item.reference = Reference(Cefuroxime-MIP-1500mg-EE-MID)
-* package.package.containedItem.amount.value = 1
+* packaging.type = $100000073346#100000073498 "Box"
+* packaging.quantity = 1
+* packaging.material = $200000003199#200000003529 "Cardboard"
+* packaging.packaging.type = $100000073346#100000073563 "vial"
+* packaging.packaging.quantity = 1
+* packaging.packaging.material = $200000003199#200000003204 "Glass type I"
+* packaging.packaging.containedItem.item.reference = Reference(Cefuroxime-MIP-1500mg-EE-MID)
+* packaging.packaging.containedItem.amount.value = 1
 
 Instance: Cefuroxime-MIP-1500mg-EE-PPD-1529962
 InstanceOf: PPLPackagedProductDefinition
 Usage: #example
 Description: "Packaged Product Definition: powder for solution in 10 vials"
 
+* identifier[pcid].value = "EE-100009199-27834-1529962"
 * packageFor = Reference(Cefuroxime-MIP-1500mg-EE-MPD)
 * containedItemQuantity = 10 $200000000014#200000002158 "Vial"
 * description = "I tüüpi klaasist viaal, mis on suletud klorobutüülkummist korgi ning flip-off kattega, 10 viaali"
@@ -249,14 +252,14 @@ Description: "Packaged Product Definition: powder for solution in 10 vials"
 //  * extension.valueCoding = $100000072057#100000072172 "Estonian"
 * marketingStatus.country = $100000000002#100000000388 "Republic of Estonia"
 * marketingStatus.status = $100000072052#100000072083 "Marketed"
-* package.type = $100000073346#100000073498 "Box"
-* package.quantity = 1
-* package.material = $200000003199#200000003529 "Cardboard"
-* package.package.type = $100000073346#200000002158 "vial"
-* package.package.quantity = 10
-* package.package.material = $200000003199#200000003204 "Glass type I"
-* package.package.containedItem.item.reference = Reference(Cefuroxime-MIP-1500mg-EE-MID)
-* package.package.containedItem.amount.value = 1
+* packaging.type = $100000073346#100000073498 "Box"
+* packaging.quantity = 1
+* packaging.material = $200000003199#200000003529 "Cardboard"
+* packaging.packaging.type = $100000073346#100000073563 "vial"
+* packaging.packaging.quantity = 10
+* packaging.packaging.material = $200000003199#200000003204 "Glass type I"
+* packaging.packaging.containedItem.item.reference = Reference(Cefuroxime-MIP-1500mg-EE-MID)
+* packaging.packaging.containedItem.amount.value = 1
 
 
 Instance: CanifugCremolum-EE-MPD
@@ -271,12 +274,13 @@ Description: "Medicinal Product Definition: combination product of creme and pes
 //* status.coding[+] = $publication-status#active "Active"
 * combinedPharmaceuticalDoseForm = $200000000008#100000173972 "Cream + pessary"
 * legalStatusOfSupply = $100000072051#100000072084 "Medicinal Product subject to medical prescription"
-* classification[atc].coding[ema] = $100000093533#100000095693 "clotrimazole"
-* classification[atc].coding[who] = $who-atc#G01AF02 "clotrimazole"
+* classification[0] = $100000093533#100000095693 "clotrimazole"
+* classification[+] = $who-atc#G01AF02 "clotrimazole"
 * name.productName = "Canifug Cremolum"
-* name.namePart[invented].part = "Canifug Cremolum"
-* name.countryLanguage.country = $100000000002#100000000388 "Republic of Estonia"
-* name.countryLanguage.language = $100000072057#100000072172 "Estonian"
+* name.part[invented].part = "Canifug Cremolum"
+* name.usage.country = $100000000002#100000000388 "Republic of Estonia"
+//* name.usage.language = urn:ietf:bcp:47#et "Estonian"
+* name.usage.language = urn:ietf:bcp:47#et "Estonian"
 
 Instance: CanifugCremolum-EE-RA
 InstanceOf: PPLRegulatedAuthorization
@@ -380,19 +384,19 @@ Description: "Packaged Product Definition: combination package of creme and pess
 //  * extension.valueCoding = $100000072057#100000072172 "Estonian"
 * marketingStatus.country = $100000000002#100000000388 "Republic of Estonia"
 * marketingStatus.status = $100000072052#100000072083 "Marketed"
-* package.type = $100000073346#100000073498 "Box"
-* package.quantity = 1
-* package.material = $200000003199#200000003529 "Cardboard"
-* package.package[0].type = $100000073346#100000073559 "Strip"
-* package.package[=].quantity = 1
-* package.package[=].material[0] = $200000003199#200000003200 "Aluminium"
-* package.package[=].material[+] = $200000003199#200000003214 "PolyEthylene"
-* package.package[=].containedItem.item.reference = Reference(CanifugCremolum-100mg-Pessary-EE-MID)
-* package.package[=].containedItem.amount.value = 6
-* package.package[+].type = $100000073346#100000073346 "Tube"
-* package.package[=].quantity = 1
-* package.package[=].material = $200000003199#200000003200 "Aluminium"
-* package.package[=].containedItem.item.reference = Reference(CanifugCremolum-10mg1g-Cream-EE-MID)
-* package.package[=].containedItem.amount = 20 $100000110633#100000110654 "gram(s)"
+* packaging.type = $100000073346#100000073498 "Box"
+* packaging.quantity = 1
+* packaging.material = $200000003199#200000003529 "Cardboard"
+* packaging.packaging[0].type = $100000073346#100000073559 "Strip"
+* packaging.packaging[=].quantity = 1
+* packaging.packaging[=].material[0] = $200000003199#200000003200 "Aluminium"
+* packaging.packaging[=].material[+] = $200000003199#200000003214 "PolyEthylene"
+* packaging.packaging[=].containedItem.item.reference = Reference(CanifugCremolum-100mg-Pessary-EE-MID)
+* packaging.packaging[=].containedItem.amount.value = 6
+* packaging.packaging[+].type = $100000073346#100000073561 "Tube"
+* packaging.packaging[=].quantity = 1
+* packaging.packaging[=].material = $200000003199#200000003200 "Aluminium"
+* packaging.packaging[=].containedItem.item.reference = Reference(CanifugCremolum-10mg1g-Cream-EE-MID)
+* packaging.packaging[=].containedItem.amount = 20 $100000110633#100000110654 "gram(s)"
 
 
